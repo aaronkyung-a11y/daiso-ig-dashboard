@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>다이소 뷰티 × Instagram 릴스 대시보드</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    min-height: 100vh;
+    padding: 32px;
+  }
+  .container { max-width: 1400px; margin: 0 auto; }
+  header {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 32px; border-bottom: 2px solid #334155; padding-bottom: 16px;
+  }
+  h1 { font-size: 28px; font-weight: 700; color: #f1f5f9; }
+  .subtitle { color: #94a3b8; font-size: 14px; margin-top: 4px; }
+  .timestamp { color: #64748b; font-size: 13px; font-family: 'SF Mono', monospace; }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 32px; }
+  .grid-1 { margin-bottom: 32px; }
+  .panel {
+    background: #1e293b; border: 1px solid #334155; border-radius: 12px;
+    padding: 24px;
+  }
+  .panel h2 {
+    font-size: 16px; font-weight: 600; color: #cbd5e1; margin-bottom: 16px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .panel h2::before {
+    content: ''; width: 4px; height: 16px; background: #38bdf8; border-radius: 2px;
+  }
+  .panel h2.rising::before { background: #fbbf24; }
+  .panel h2.top::before { background: #10b981; }
+  .panel .desc {
+    font-size: 12px; color: #94a3b8; margin-top: -10px; margin-bottom: 16px;
+  }
+  .chart-wrap { position: relative; height: 360px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #334155; }
+  th { color: #94a3b8; font-weight: 500; background: #0f172a; font-size: 11px;
+       text-transform: uppercase; letter-spacing: 0.5px; }
+  td { color: #e2e8f0; }
+  td.num { text-align: right; font-family: 'SF Mono', monospace; color: #38bdf8; }
+  tr:hover { background: #0f172a; }
+  a { color: #60a5fa; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .badge {
+    display: inline-block; font-size: 10px; padding: 2px 8px; border-radius: 4px;
+    font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .badge.actual { background: #065f46; color: #6ee7b7; }
+  .badge.est { background: #422006; color: #fbbf24; }
+  .badge.rising { background: #78350f; color: #fcd34d; }
+  .badge.veteran { background: #134e4a; color: #5eead4; }
+
+  .keyword-card {
+    background: #1e293b; border: 1px solid #334155; border-radius: 14px;
+    padding: 22px 20px; transition: all 0.2s;
+    cursor: pointer; display: flex; flex-direction: column;
+    text-decoration: none !important; min-height: 180px;
+    position: relative; overflow: hidden;
+  }
+  .keyword-card:hover {
+    border-color: #38bdf8; background: #1e3a5f;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(56, 189, 248, 0.15);
+  }
+  .keyword-card .rank-badge {
+    position: absolute; top: 14px; right: 14px;
+    font-size: 10px; font-weight: 700; color: #fbbf24;
+    background: rgba(251, 191, 36, 0.12);
+    padding: 3px 8px; border-radius: 10px;
+    letter-spacing: 0.5px;
+  }
+  .keyword-card .kw-title {
+    font-size: 17px; font-weight: 700; color: #f1f5f9;
+    line-height: 1.35; margin-bottom: 6px;
+    padding-right: 40px;
+    word-break: keep-all;
+  }
+  .keyword-card .kw-reel-count {
+    font-size: 12px; color: #94a3b8; margin-bottom: 16px;
+  }
+  .keyword-card .kw-main-stat {
+    margin-top: auto; padding-top: 12px; border-top: 1px solid #334155;
+  }
+  .keyword-card .kw-main-stat .label {
+    font-size: 10px; color: #64748b; text-transform: uppercase;
+    letter-spacing: 0.5px; margin-bottom: 4px;
+  }
+  .keyword-card .kw-main-stat .value {
+    font-size: 20px; font-weight: 700; color: #38bdf8;
+    font-family: 'SF Mono', monospace;
+  }
+  .keyword-card .kw-top-user {
+    font-size: 11px; color: #94a3b8; margin-top: 6px;
+  }
+  .keyword-card .kw-top-user strong { color: #cbd5e1; font-weight: 600; }
+  .keyword-card .kw-cta {
+    position: absolute; bottom: 14px; right: 14px;
+    font-size: 10px; color: #60a5fa; opacity: 0; transition: opacity 0.2s;
+  }
+  .keyword-card:hover .kw-cta { opacity: 1; }
+
+  .keywords-grid {
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px;
+    margin-bottom: 32px;
+  }
+  @media (max-width: 1200px) { .keywords-grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 768px) { .keywords-grid { grid-template-columns: repeat(2, 1fr); } }
+
+  .footer {
+    margin-top: 32px; padding-top: 16px; border-top: 1px solid #334155;
+    color: #64748b; font-size: 12px; text-align: center;
+  }
+  .footer a { color: #60a5fa; }
+
+  .mini-chip {
+    display: inline-block; padding: 3px 10px; border-radius: 10px;
+    background: #0f172a; border: 1px solid #334155;
+    font-size: 11px; color: #94a3b8; margin-right: 6px; margin-top: 4px;
+  }
+
+  .keyword-section { border-top: 1px solid #334155; padding: 16px 0; }
+  .keyword-section .kw-head {
+    display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;
+  }
+  .keyword-section .kw-link {
+    color: #f1f5f9; font-weight: 600; font-size: 15px;
+  }
+  .keyword-section .kw-link:hover { color: #38bdf8; }
+
+  .score-pill {
+    display: inline-block; padding: 2px 7px; border-radius: 10px;
+    font-size: 10px; font-weight: 600; margin-left: 6px;
+  }
+  .score-pill.hot { background: #7f1d1d; color: #fca5a5; }
+  .score-pill.new { background: #78350f; color: #fcd34d; }
+  .multiplier { color: #fbbf24; font-family: 'SF Mono', monospace; font-weight: 600; }
+
+  .tag-keyword {
+    display: inline-block; padding: 2px 8px; background: #312e81; color: #a5b4fc;
+    border-radius: 4px; font-size: 10px; margin-right: 4px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div>
+      <h1>🎨 다이소 뷰티 × Instagram 릴스 대시보드</h1>
+      <div class="subtitle">다이소몰 뷰티 Top 10 제품 × Instagram 릴스 트렌드 트래커</div>
+    </div>
+    <div class="timestamp">
+      마지막 업데이트: <span id="lastUpdated">-</span>
+    </div>
+  </header>
+
+  <div class="keywords-grid" id="keywordsGrid"></div>
+
+  <div class="grid-1">
+    <div class="panel">
+      <h2>키워드별 조회수 (실측+추정)</h2>
+      <div class="chart-wrap"><canvas id="keywordBar"></canvas></div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="panel">
+      <h2 class="top">💎 영향력 Top 크리에이터</h2>
+      <div class="desc">누적 조회수 + 출현 키워드 수 + 평균 조회수 기준 상위 10명</div>
+      <div id="topInfluencers"></div>
+    </div>
+    <div class="panel">
+      <h2 class="rising">🚀 떠오르는 인플루언서</h2>
+      <div class="desc">최근 60일 내 업로드 × 바이럴 배수(조회수/좋아요) 상위. 폭발적 성장 중인 크리에이터</div>
+      <div id="risingStars"></div>
+    </div>
+  </div>
+
+  <div class="grid-1">
+    <div class="panel">
+      <h2>🏆 전체 바이럴 Top 10 릴스</h2>
+      <div id="viralTable"></div>
+    </div>
+  </div>
+
+  <div class="grid-1">
+    <div class="panel">
+      <h2>📋 키워드별 상세</h2>
+      <div id="keywordDetail"></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    📂 <a href="https://drive.google.com/drive/folders/1K-zw4XcTiR_Ii-nHea1GODUX4x3QxdOh" target="_blank">Google Drive 폴더 열기</a> ·
+    자동 업데이트: 매 평일 11:59 · Generated by Claude Agent
+  </div>
+
+</div>
+
+<script>
+// ====== 데이터 (매일 스케줄 태스크가 이 블록을 교체) ======
+// DATA_BEGIN
+const EMBEDDED_DATA = {
+  "lastUpdated": "2026-04-17T12:09:00+09:00",
+  "summary": {
+    "totalKeywords": 5,
+    "totalReels": 69,
+    "totalViewsActual": 2271000,
+    "totalViewsEstimated": 3425000,
+    "topCreator": "imk0a",
+    "topCreatorViews": 1191000
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "keyword": "VT PDRN 광채토너",
+      "reelCount": 20,
+      "totalViews": 1946000,
+      "topReels": [
+        {"user": "imk0a", "date": "2025-09-25", "likes": 11000, "views": 1191000, "type": "실측", "url": "https://www.instagram.com/imk0a/reel/DPBTcuok5eu/"},
+        {"user": "rorobeauty48791", "date": "2025-07-07", "likes": 2598, "views": 332000, "type": "실측", "url": "https://www.instagram.com/rorobeauty48791/reel/DLzRDXIRW8M/"},
+        {"user": "hey_caligirl", "date": "2026-02-03", "likes": 3146, "views": 192000, "type": "실측", "url": "https://www.instagram.com/hey_caligirl/reel/DUTZdVhgVQ9/"},
+        {"user": "potatojo_a", "date": "2026-02-14", "likes": 1097, "views": 165000, "type": "실측", "url": "https://www.instagram.com/potatojo_a/reel/DUvIuH8E8s6/"},
+        {"user": "byu.yomi", "date": "2026-04-11", "likes": 474, "views": 66000, "type": "실측", "url": "https://www.instagram.com/byu.yomi/reel/DXBWN4UEj5t/"}
+      ]
+    },
+    {
+      "rank": 2,
+      "keyword": "본셉 비타씨 앰플",
+      "reelCount": 15,
+      "totalViews": 2300000,
+      "topReels": [
+        {"user": "_cute_dami", "date": "2025-02-20", "likes": 6650, "views": 851200, "type": "추정", "url": "https://www.instagram.com/_cute_dami/reel/DGSgjU2JE8J/"},
+        {"user": "chichipresso", "date": "2025-12-27", "likes": 2169, "views": 513000, "type": "실측", "url": "https://www.instagram.com/chichipresso/reel/DSyiAmDj2Hb/"},
+        {"user": "mangojerryy", "date": "2026-03-20", "likes": 3960, "views": 478000, "type": "실측", "url": "https://www.instagram.com/mangojerryy/reel/DWIly3tj8N0/"},
+        {"user": "hey_jihye__", "date": "2026-04-06", "likes": 1694, "views": 216832, "type": "추정", "url": "https://www.instagram.com/hey_jihye__/reel/DWyY6LqEwM2/"},
+        {"user": "gumeeee__", "date": "2026-03-04", "likes": 624, "views": 79872, "type": "추정", "url": "https://www.instagram.com/gumeeee__/reel/DVdeTDrEp2J/"}
+      ]
+    },
+    {
+      "rank": 3,
+      "keyword": "마데카21 수딩 미스트 토너",
+      "reelCount": 13,
+      "totalViews": 1005000,
+      "topReels": [
+        {"user": "rorobeauty48791", "date": "2025-09-14", "likes": 2698, "views": 345344, "type": "추정", "url": "https://www.instagram.com/rorobeauty48791/reel/DOk6hcvgeB-/"},
+        {"user": "jangsu_note", "date": "2026-02-26", "likes": 1752, "views": 224256, "type": "추정", "url": "https://www.instagram.com/jangsu_note/reel/DVNt-8OEqkW/"},
+        {"user": "1donna.beauty", "date": "2026-03-26", "likes": 1106, "views": 141568, "type": "추정", "url": "https://www.instagram.com/1donna.beauty/reel/DWWMEUHky69/"}
+      ]
+    },
+    {
+      "rank": 4,
+      "keyword": "에끌라 깨끗한 물티슈",
+      "reelCount": 15,
+      "totalViews": 260000,
+      "topReels": [
+        {"user": "daisolife", "date": "2020-03-24", "likes": 759, "views": 97152, "type": "추정", "url": "https://www.instagram.com/daisolife/reel/B-HIYX0lYA6/"},
+        {"user": "one_home.mag", "date": "2026-03-25", "likes": 542, "views": 69376, "type": "추정", "url": "https://www.instagram.com/one_home.mag/reel/DWTyTwYEdQm/"},
+        {"user": "yukina__0913", "date": "2026-02-06", "likes": 293, "views": 37504, "type": "추정", "url": "https://www.instagram.com/yukina__0913/reel/DUfUwX1E33D/"}
+      ]
+    },
+    {
+      "rank": 5,
+      "keyword": "리얼베리어 세라베이스 크림",
+      "reelCount": 6,
+      "totalViews": 185000,
+      "topReels": [
+        {"user": "geumhee1012", "date": "2025-06-11", "likes": 965, "views": 123520, "type": "추정", "url": "https://www.instagram.com/geumhee1012/reel/DKwM0LczRK4/"},
+        {"user": "cos_muni", "date": "2026-04-07", "likes": 382, "views": 48896, "type": "추정", "url": "https://www.instagram.com/cos_muni/reel/DW05IcMzNBV/"},
+        {"user": "co5meticat_", "date": "2026-04-06", "likes": 38, "views": 4864, "type": "추정", "url": "https://www.instagram.com/co5meticat_/reel/DW0dIOLAchO/"}
+      ]
+    }
+  ],
+  "historyLog": [
+    {"date": "2026-04-17", "totalViews": 5696000, "totalReels": 69, "topKeyword": "본셉 비타씨 앰플"}
+  ]
+};
+// DATA_END
+// ========================================================
+
+const palette = ['#38bdf8', '#a78bfa', '#f472b6', '#fb923c', '#34d399', '#facc15', '#f87171', '#22d3ee', '#c084fc', '#fbbf24'];
+
+function fmt(n) {
+  if (!n && n !== 0) return '-';
+  if (n >= 10000) return (n / 10000).toFixed(1) + '만';
+  if (n >= 1000) return n.toLocaleString();
+  return String(n);
+}
+function fmtX(n) {
+  if (!n && n !== 0) return '-';
+  if (n >= 100) return Math.round(n) + '배';
+  return n.toFixed(1) + '배';
+}
+function daysSince(dateStr) {
+  return Math.round((new Date(EMBEDDED_DATA.lastUpdated) - new Date(dateStr)) / (1000*60*60*24));
+}
+
+function kwSearchUrl(kw) {
+  return 'https://www.instagram.com/explore/search/keyword/?q=' + encodeURIComponent(kw);
+}
+
+function renderKeywordCards(d) {
+  document.getElementById('keywordsGrid').innerHTML = d.keywords.map(k => `
+    <a class="keyword-card" href="${kwSearchUrl(k.keyword)}" target="_blank" title="Instagram에서 '${k.keyword}' 검색">
+      <div class="rank-badge">#${k.rank}</div>
+      <div class="kw-title">${k.keyword}</div>
+      <div class="kw-reel-count">${k.reelCount}개 릴스 수집</div>
+      <div class="kw-main-stat">
+        <div class="label">총 조회수</div>
+        <div class="value">${fmt(k.totalViews)}</div>
+        <div class="kw-top-user">Top <strong>@${k.topReels[0]?.user || '-'}</strong></div>
+      </div>
+      <div class="kw-cta">열기 ↗</div>
+    </a>
+  `).join('');
+}
+
+function renderKeywordBar(d) {
+  new Chart(document.getElementById('keywordBar'), {
+    type: 'bar',
+    data: {
+      labels: d.keywords.map(k => k.keyword.length > 14 ? k.keyword.slice(0,14)+'…' : k.keyword),
+      datasets: [{
+        label: '총 조회수',
+        data: d.keywords.map(k => k.totalViews),
+        backgroundColor: palette.map(c => c + 'CC'),
+        borderColor: palette, borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { color: '#94a3b8', callback: v => fmt(v) }, grid: { color: '#334155' } },
+        y: { ticks: { color: '#cbd5e1', font: { size: 11 } }, grid: { display: false } }
+      }
+    }
+  });
+}
+
+function renderTrendLine(d) {
+  const log = d.historyLog || [];
+  new Chart(document.getElementById('trendLine'), {
+    type: 'line',
+    data: {
+      labels: log.map(l => l.date),
+      datasets: [{
+        label: '일별 총 조회수',
+        data: log.map(l => l.totalViews),
+        borderColor: '#38bdf8',
+        backgroundColor: 'rgba(56, 189, 248, 0.15)',
+        fill: true, tension: 0.3, pointRadius: 5, pointBackgroundColor: '#38bdf8'
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { labels: { color: '#cbd5e1' } } },
+      scales: {
+        x: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } },
+        y: { ticks: { color: '#94a3b8', callback: v => fmt(v) }, grid: { color: '#334155' } }
+      }
+    }
+  });
+}
+
+// 크리에이터 집계
+function aggregateCreators(d) {
+  const map = {};
+  d.keywords.forEach(k => k.topReels.forEach(r => {
+    if (!map[r.user]) {
+      map[r.user] = {
+        user: r.user,
+        reels: [],
+        keywords: new Set(),
+        totalViews: 0,
+        totalLikes: 0
+      };
+    }
+    const m = map[r.user];
+    m.reels.push({...r, keyword: k.keyword});
+    m.keywords.add(k.keyword);
+    m.totalViews += r.views || 0;
+    m.totalLikes += r.likes || 0;
+  }));
+  return Object.values(map).map(m => ({
+    ...m,
+    keywordList: Array.from(m.keywords),
+    keywordCount: m.keywords.size,
+    avgViews: m.totalViews / m.reels.length,
+    viralMultiplier: m.totalLikes > 0 ? m.totalViews / m.totalLikes : 0,
+    mostRecentDays: Math.min(...m.reels.map(r => daysSince(r.date))),
+    mostRecentReel: m.reels.reduce((a,b) => daysSince(a.date) < daysSince(b.date) ? a : b)
+  }));
+}
+
+function renderTopInfluencers(d) {
+  const creators = aggregateCreators(d);
+  const sorted = creators.sort((a,b) => {
+    // 영향력 점수 = 총 조회수 × (1 + 키워드 수 × 0.2)
+    const scoreA = a.totalViews * (1 + a.keywordCount * 0.2);
+    const scoreB = b.totalViews * (1 + b.keywordCount * 0.2);
+    return scoreB - scoreA;
+  }).slice(0, 10);
+
+  document.getElementById('topInfluencers').innerHTML = `
+    <table>
+      <thead><tr>
+        <th>#</th><th>크리에이터</th><th class="num">총 조회</th>
+        <th class="num">릴스</th><th class="num">키워드</th><th>카테고리</th>
+      </tr></thead>
+      <tbody>
+        ${sorted.map((c,i) => `
+          <tr>
+            <td><strong>${i+1}</strong></td>
+            <td><a href="https://www.instagram.com/${c.user}/" target="_blank">@${c.user}</a>
+              ${c.keywordCount >= 2 ? '<span class="score-pill hot">다회출현</span>' : ''}
+            </td>
+            <td class="num">${fmt(c.totalViews)}</td>
+            <td class="num">${c.reels.length}</td>
+            <td class="num">${c.keywordCount}</td>
+            <td>${c.keywordList.slice(0,2).map(k => `<span class="tag-keyword">${k.length > 10 ? k.slice(0,10)+'…' : k}</span>`).join('')}${c.keywordList.length>2 ? `+${c.keywordList.length-2}` : ''}</td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+function renderRisingStars(d) {
+  const creators = aggregateCreators(d);
+  // 떠오르는 기준:
+  // 1) 최근 60일 이내 업로드 있음
+  // 2) 바이럴 배수(조회/좋아요)가 100 이상
+  // 3) 총 조회수 10000 이상 (너무 작은 계정 제외)
+  const candidates = creators.filter(c =>
+    c.mostRecentDays <= 60 &&
+    c.viralMultiplier >= 100 &&
+    c.totalViews >= 10000
+  );
+  // 정렬: 바이럴 배수 × 최근성 가중치
+  const sorted = candidates.sort((a,b) => {
+    const scoreA = a.viralMultiplier * (1 / Math.max(a.mostRecentDays, 1));
+    const scoreB = b.viralMultiplier * (1 / Math.max(b.mostRecentDays, 1));
+    return scoreB - scoreA;
+  }).slice(0, 10);
+
+  if (sorted.length === 0) {
+    document.getElementById('risingStars').innerHTML = '<div style="padding:20px;color:#94a3b8;text-align:center;">조건에 맞는 떠오르는 인플루언서가 아직 없습니다. 데이터가 누적되면 표시됩니다.</div>';
+    return;
+  }
+
+  document.getElementById('risingStars').innerHTML = `
+    <table>
+      <thead><tr>
+        <th>#</th><th>크리에이터</th>
+        <th class="num">최신</th><th class="num">조회수</th><th class="num">바이럴배수</th><th>태그</th>
+      </tr></thead>
+      <tbody>
+        ${sorted.map((c,i) => `
+          <tr>
+            <td><strong>${i+1}</strong></td>
+            <td><a href="https://www.instagram.com/${c.user}/" target="_blank">@${c.user}</a>
+              ${c.mostRecentDays <= 14 ? '<span class="score-pill new">NEW</span>' : ''}
+            </td>
+            <td class="num" style="color:#fbbf24;">${c.mostRecentDays}일전</td>
+            <td class="num">${fmt(c.totalViews)}</td>
+            <td class="num multiplier">${fmtX(c.viralMultiplier)}</td>
+            <td><span class="tag-keyword">${c.keywordList[0].length > 10 ? c.keywordList[0].slice(0,10)+'…' : c.keywordList[0]}</span></td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+function renderViralTable(d) {
+  const all = [];
+  d.keywords.forEach(k => k.topReels.forEach(r => all.push({...r, keyword: k.keyword})));
+  all.sort((a,b) => b.views - a.views);
+  const top = all.slice(0, 10);
+  document.getElementById('viralTable').innerHTML = `
+    <table>
+      <thead><tr>
+        <th>#</th><th>작성자</th><th>키워드</th><th>업로드</th>
+        <th class="num">좋아요</th><th class="num">조회수</th><th>구분</th><th>링크</th>
+      </tr></thead>
+      <tbody>
+        ${top.map((r,i) => `
+          <tr>
+            <td>${i+1}</td>
+            <td><a href="https://www.instagram.com/${r.user}/" target="_blank"><strong>@${r.user}</strong></a></td>
+            <td><a href="${kwSearchUrl(r.keyword)}" target="_blank" style="color:#94a3b8;">${r.keyword}</a></td>
+            <td>${r.date}</td>
+            <td class="num">${r.likes.toLocaleString ? r.likes.toLocaleString() : r.likes}</td>
+            <td class="num">${fmt(r.views)}</td>
+            <td><span class="badge ${r.type === '실측' ? 'actual' : 'est'}">${r.type}</span></td>
+            <td><a href="${r.url}" target="_blank">릴스 ↗</a></td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+function renderKeywordDetail(d) {
+  document.getElementById('keywordDetail').innerHTML = d.keywords.map(k => `
+    <div class="keyword-section">
+      <div class="kw-head">
+        <div>
+          <a class="kw-link" href="${kwSearchUrl(k.keyword)}" target="_blank">
+            #${k.rank} ${k.keyword} ↗
+          </a>
+          <span class="mini-chip">${k.reelCount}개 릴스</span>
+          <span class="mini-chip" style="color:#38bdf8;">총 ${fmt(k.totalViews)} 조회</span>
+        </div>
+      </div>
+      <table style="font-size:12px;">
+        <thead><tr><th>Top</th><th>작성자</th><th>업로드</th><th class="num">좋아요</th><th class="num">조회수</th><th>구분</th></tr></thead>
+        <tbody>
+          ${k.topReels.map((r,i) => `
+            <tr>
+              <td>${i+1}</td>
+              <td><a href="${r.url}" target="_blank">@${r.user}</a></td>
+              <td>${r.date}</td>
+              <td class="num">${r.likes.toLocaleString ? r.likes.toLocaleString() : r.likes}</td>
+              <td class="num">${fmt(r.views)}</td>
+              <td><span class="badge ${r.type==='실측'?'actual':'est'}">${r.type}</span></td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    </div>
+  `).join('');
+}
+
+(() => {
+  const data = EMBEDDED_DATA;
+  document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleString('ko-KR');
+  renderKeywordCards(data);
+  renderKeywordBar(data);
+  renderTopInfluencers(data);
+  renderRisingStars(data);
+  renderViralTable(data);
+  renderKeywordDetail(data);
+})();
+</script>
+
+</body>
+</html>
