@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8" />
-<title>다이소 뷰티 × Instagram 릴스 대시보드</title>
+<title>뷰티 × Instagram 릴스 대시보드 (다이소 / 올리브영)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -16,11 +16,35 @@
   .container { max-width: 1400px; margin: 0 auto; }
   header {
     display: flex; justify-content: space-between; align-items: baseline;
-    margin-bottom: 32px; border-bottom: 2px solid #334155; padding-bottom: 16px;
+    margin-bottom: 16px; padding-bottom: 16px;
   }
-  h1 { font-size: 28px; font-weight: 700; color: #f1f5f9; }
-  .subtitle { color: #94a3b8; font-size: 14px; margin-top: 4px; }
+  h1 { font-size: 26px; font-weight: 700; color: #f1f5f9; }
+  .subtitle { color: #94a3b8; font-size: 13px; margin-top: 4px; }
   .timestamp { color: #64748b; font-size: 13px; font-family: 'SF Mono', monospace; }
+
+  .tabs {
+    display: flex; gap: 0; margin-bottom: 28px;
+    border-bottom: 2px solid #334155;
+  }
+  .tab-btn {
+    background: transparent; border: none; outline: none; cursor: pointer;
+    padding: 14px 28px; font-size: 15px; font-weight: 600; color: #64748b;
+    border-bottom: 3px solid transparent; margin-bottom: -2px;
+    transition: all 0.15s; font-family: inherit;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .tab-btn:hover { color: #cbd5e1; }
+  .tab-btn.active {
+    color: #f1f5f9; border-bottom-color: #38bdf8;
+  }
+  .tab-btn.oliveyoung.active { border-bottom-color: #10b981; }
+  .tab-btn .dot {
+    width: 7px; height: 7px; border-radius: 50%; display: inline-block;
+  }
+  .tab-btn .dot.daiso { background: #38bdf8; }
+  .tab-btn .dot.oliveyoung { background: #10b981; }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
 
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 32px; }
   .grid-1 { margin-bottom: 32px; }
@@ -72,6 +96,10 @@
     transform: translateY(-3px);
     box-shadow: 0 8px 24px rgba(56, 189, 248, 0.15);
   }
+  .keyword-card.oliveyoung:hover {
+    border-color: #10b981; background: #0f2e25;
+    box-shadow: 0 8px 24px rgba(16, 185, 129, 0.15);
+  }
   .keyword-card .rank-badge {
     position: absolute; top: 14px; right: 14px;
     font-size: 10px; font-weight: 700; color: #fbbf24;
@@ -99,6 +127,7 @@
     font-size: 20px; font-weight: 700; color: #38bdf8;
     font-family: 'SF Mono', monospace;
   }
+  .keyword-card.oliveyoung .kw-main-stat .value { color: #10b981; }
   .keyword-card .kw-top-user {
     font-size: 11px; color: #94a3b8; margin-top: 6px;
   }
@@ -149,6 +178,14 @@
     display: inline-block; padding: 2px 8px; background: #312e81; color: #a5b4fc;
     border-radius: 4px; font-size: 10px; margin-right: 4px;
   }
+
+  .empty-state {
+    padding: 40px 20px; text-align: center; color: #94a3b8;
+    background: #0f172a; border: 1px dashed #334155; border-radius: 8px;
+  }
+  .empty-state .icon { font-size: 32px; margin-bottom: 8px; }
+  .empty-state .title { font-size: 14px; color: #cbd5e1; margin-bottom: 4px; font-weight: 600; }
+  .empty-state .sub { font-size: 12px; color: #64748b; }
 </style>
 </head>
 <body>
@@ -156,61 +193,104 @@
 
   <header>
     <div>
-      <h1>🎨 다이소 뷰티 × Instagram 릴스 대시보드</h1>
-      <div class="subtitle">다이소몰 뷰티 Top 10 제품 × Instagram 릴스 트렌드 트래커</div>
+      <h1>🎨 뷰티 × Instagram 릴스 대시보드</h1>
+      <div class="subtitle">다이소몰 / 올리브영 뷰티 Top 10 × Instagram 릴스 트렌드 트래커</div>
     </div>
     <div class="timestamp">
       마지막 업데이트: <span id="lastUpdated">-</span>
     </div>
   </header>
 
-  <div class="keywords-grid" id="keywordsGrid"></div>
+  <div class="tabs">
+    <button class="tab-btn daiso active" data-tab="daiso">
+      <span class="dot daiso"></span>다이소 뷰티
+    </button>
+    <button class="tab-btn oliveyoung" data-tab="oliveyoung">
+      <span class="dot oliveyoung"></span>올리브영 뷰티
+    </button>
+  </div>
 
-  <div class="grid-1">
-    <div class="panel">
-      <h2>키워드별 조회수 (실측+추정)</h2>
-      <div class="chart-wrap"><canvas id="keywordBar"></canvas></div>
+  <!-- 다이소 탭 -->
+  <div class="tab-content active" id="tab-daiso">
+    <div class="keywords-grid" id="daiso-keywordsGrid"></div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>키워드별 조회수 (실측+추정)</h2>
+        <div class="chart-wrap"><canvas id="daiso-keywordBar"></canvas></div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="panel">
+        <h2 class="top">💎 영향력 Top 크리에이터</h2>
+        <div class="desc">누적 조회수 + 출현 키워드 수 + 평균 조회수 기준 상위 10명</div>
+        <div id="daiso-topInfluencers"></div>
+      </div>
+      <div class="panel">
+        <h2 class="rising">🚀 떠오르는 인플루언서</h2>
+        <div class="desc">최근 60일 내 업로드 × 바이럴 배수(조회수/좋아요) 상위. 폭발적 성장 중인 크리에이터</div>
+        <div id="daiso-risingStars"></div>
+      </div>
+    </div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>🏆 전체 바이럴 Top 10 릴스</h2>
+        <div id="daiso-viralTable"></div>
+      </div>
+    </div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>📋 키워드별 상세</h2>
+        <div id="daiso-keywordDetail"></div>
+      </div>
     </div>
   </div>
 
-  <div class="grid-2">
-    <div class="panel">
-      <h2 class="top">💎 영향력 Top 크리에이터</h2>
-      <div class="desc">누적 조회수 + 출현 키워드 수 + 평균 조회수 기준 상위 10명</div>
-      <div id="topInfluencers"></div>
+  <!-- 올리브영 탭 -->
+  <div class="tab-content" id="tab-oliveyoung">
+    <div class="keywords-grid" id="oliveyoung-keywordsGrid"></div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>키워드별 조회수 (실측+추정)</h2>
+        <div class="chart-wrap"><canvas id="oliveyoung-keywordBar"></canvas></div>
+      </div>
     </div>
-    <div class="panel">
-      <h2 class="rising">🚀 떠오르는 인플루언서</h2>
-      <div class="desc">최근 60일 내 업로드 × 바이럴 배수(조회수/좋아요) 상위. 폭발적 성장 중인 크리에이터</div>
-      <div id="risingStars"></div>
+    <div class="grid-2">
+      <div class="panel">
+        <h2 class="top">💎 영향력 Top 크리에이터</h2>
+        <div class="desc">누적 조회수 + 출현 키워드 수 + 평균 조회수 기준 상위 10명</div>
+        <div id="oliveyoung-topInfluencers"></div>
+      </div>
+      <div class="panel">
+        <h2 class="rising">🚀 떠오르는 인플루언서</h2>
+        <div class="desc">최근 60일 내 업로드 × 바이럴 배수(조회수/좋아요) 상위. 폭발적 성장 중인 크리에이터</div>
+        <div id="oliveyoung-risingStars"></div>
+      </div>
     </div>
-  </div>
-
-  <div class="grid-1">
-    <div class="panel">
-      <h2>🏆 전체 바이럴 Top 10 릴스</h2>
-      <div id="viralTable"></div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>🏆 전체 바이럴 Top 10 릴스</h2>
+        <div id="oliveyoung-viralTable"></div>
+      </div>
     </div>
-  </div>
-
-  <div class="grid-1">
-    <div class="panel">
-      <h2>📋 키워드별 상세</h2>
-      <div id="keywordDetail"></div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>📋 키워드별 상세</h2>
+        <div id="oliveyoung-keywordDetail"></div>
+      </div>
     </div>
   </div>
 
   <div class="footer">
     📂 <a href="https://drive.google.com/drive/folders/1K-zw4XcTiR_Ii-nHea1GODUX4x3QxdOh" target="_blank">Google Drive 폴더 열기</a> ·
-    자동 업데이트: 매 평일 11:59 · Generated by Claude Agent
+    자동 업데이트: 다이소 평일 11:59 · 올리브영 평일 14:59 · Generated by Claude Agent
   </div>
 
 </div>
 
 <script>
-// ====== 데이터 (매일 스케줄 태스크가 이 블록을 교체) ======
-// DATA_BEGIN
-const EMBEDDED_DATA = {
+// ====== 다이소 데이터 (daiso-beauty-instagram-weekly 스케줄이 이 블록을 교체) ======
+// DAISO_DATA_BEGIN
+const DAISO_DATA = {
   "lastUpdated": "2026-04-17T12:09:00+09:00",
   "summary": {
     "totalKeywords": 5,
@@ -285,10 +365,41 @@ const EMBEDDED_DATA = {
     {"date": "2026-04-17", "totalViews": 5696000, "totalReels": 69, "topKeyword": "본셉 비타씨 앰플"}
   ]
 };
-// DATA_END
-// ========================================================
+// DAISO_DATA_END
+
+// ====== 올리브영 데이터 (oliveyoung-beauty-instagram-weekly 스케줄이 이 블록을 교체) ======
+// OLIVEYOUNG_DATA_BEGIN
+const OLIVEYOUNG_DATA = {
+  "lastUpdated": "2026-04-20T00:00:00+09:00",
+  "pending": true,
+  "summary": {
+    "totalKeywords": 10,
+    "totalReels": 0,
+    "totalViewsActual": 0,
+    "totalViewsEstimated": 0,
+    "topCreator": "-",
+    "topCreatorViews": 0
+  },
+  "keywords": [
+    {"rank": 1, "keyword": "닥터그루트 PDRN 헤어라인 앰플", "reelCount": 0, "totalViews": 0, "topReels": []},
+    {"rank": 2, "keyword": "아이소이 로즈 PDRN 잡티세럼", "reelCount": 0, "totalViews": 0, "topReels": []},
+    {"rank": 3, "keyword": "메디힐 에센셜 마스크팩", "reelCount": 0, "totalViews": 0, "topReels": []},
+    {"rank": 4, "keyword": "온그리디언츠 스킨베리어 미스트", "reelCount": 0, "totalViews": 0, "topReels": []},
+    {"rank": 5, "keyword": "이니스프리 레티놀 시카 앰플", "reelCount": 0, "totalViews": 0, "topReels": []},
+    {"rank": 6, "keyword": "스킨푸드 패드", "reelCount": 0, "totalViews": 0, "topReels": []},
+    {"rank": 7, "keyword": "헤브블루 살몬 PDRN 크림", "reelCount": 0, "totalViews": 0, "topReels": []},
+    {"rank": 8, "keyword": "토리든 다이브인 세럼", "reelCount": 0, "totalViews": 0, "topReels": []},
+    {"rank": 9, "keyword": "에스트라 아토베리어 365 크림", "reelCount": 0, "totalViews": 0, "topReels": []},
+    {"rank": 10, "keyword": "바노바기 비타제닉 젤리마스크", "reelCount": 0, "totalViews": 0, "topReels": []}
+  ],
+  "historyLog": []
+};
+// OLIVEYOUNG_DATA_END
+
+// =========================================================
 
 const palette = ['#38bdf8', '#a78bfa', '#f472b6', '#fb923c', '#34d399', '#facc15', '#f87171', '#22d3ee', '#c084fc', '#fbbf24'];
+const oliveyoungPalette = ['#10b981', '#34d399', '#6ee7b7', '#a7f3d0', '#22d3ee', '#38bdf8', '#60a5fa', '#a78bfa', '#f472b6', '#fbbf24'];
 
 function fmt(n) {
   if (!n && n !== 0) return '-';
@@ -301,40 +412,48 @@ function fmtX(n) {
   if (n >= 100) return Math.round(n) + '배';
   return n.toFixed(1) + '배';
 }
-function daysSince(dateStr) {
-  return Math.round((new Date(EMBEDDED_DATA.lastUpdated) - new Date(dateStr)) / (1000*60*60*24));
+function daysSince(dateStr, refDate) {
+  return Math.round((new Date(refDate) - new Date(dateStr)) / (1000*60*60*24));
 }
 
 function kwSearchUrl(kw) {
   return 'https://www.instagram.com/explore/search/keyword/?q=' + encodeURIComponent(kw);
 }
 
-function renderKeywordCards(d) {
-  document.getElementById('keywordsGrid').innerHTML = d.keywords.map(k => `
-    <a class="keyword-card" href="${kwSearchUrl(k.keyword)}" target="_blank" title="Instagram에서 '${k.keyword}' 검색">
+function renderKeywordCards(d, prefix, isOliveyoung) {
+  const cardClass = isOliveyoung ? 'keyword-card oliveyoung' : 'keyword-card';
+  document.getElementById(prefix + '-keywordsGrid').innerHTML = d.keywords.map(k => `
+    <a class="${cardClass}" href="${kwSearchUrl(k.keyword)}" target="_blank" title="Instagram에서 '${k.keyword}' 검색">
       <div class="rank-badge">#${k.rank}</div>
       <div class="kw-title">${k.keyword}</div>
-      <div class="kw-reel-count">${k.reelCount}개 릴스 수집</div>
+      <div class="kw-reel-count">${k.reelCount > 0 ? k.reelCount + '개 릴스 수집' : '수집 대기 중'}</div>
       <div class="kw-main-stat">
         <div class="label">총 조회수</div>
-        <div class="value">${fmt(k.totalViews)}</div>
-        <div class="kw-top-user">Top <strong>@${k.topReels[0]?.user || '-'}</strong></div>
+        <div class="value">${k.totalViews > 0 ? fmt(k.totalViews) : '-'}</div>
+        <div class="kw-top-user">${k.topReels[0] ? 'Top <strong>@' + k.topReels[0].user + '</strong>' : '<span style="color:#64748b;">첫 실행 대기</span>'}</div>
       </div>
-      <div class="kw-cta">열기 ↗</div>
+      <div class="kw-cta">Instagram 검색 ↗</div>
     </a>
   `).join('');
 }
 
-function renderKeywordBar(d) {
-  new Chart(document.getElementById('keywordBar'), {
+function renderKeywordBar(d, canvasId, paletteColors) {
+  const hasData = d.keywords.some(k => k.totalViews > 0);
+  if (!hasData) {
+    const ctx = document.getElementById(canvasId);
+    const parent = ctx.parentElement;
+    parent.innerHTML = '<div class="empty-state"><div class="icon">📊</div><div class="title">아직 수집된 데이터가 없습니다</div><div class="sub">첫 스케줄 실행 후 차트가 표시됩니다</div></div>';
+    return;
+  }
+  new Chart(document.getElementById(canvasId), {
     type: 'bar',
     data: {
       labels: d.keywords.map(k => k.keyword.length > 14 ? k.keyword.slice(0,14)+'…' : k.keyword),
       datasets: [{
         label: '총 조회수',
         data: d.keywords.map(k => k.totalViews),
-        backgroundColor: palette.map(c => c + 'CC'),
-        borderColor: palette, borderWidth: 1
+        backgroundColor: paletteColors.map(c => c + 'CC'),
+        borderColor: paletteColors, borderWidth: 1
       }]
     },
     options: {
@@ -348,42 +467,13 @@ function renderKeywordBar(d) {
   });
 }
 
-function renderTrendLine(d) {
-  const log = d.historyLog || [];
-  new Chart(document.getElementById('trendLine'), {
-    type: 'line',
-    data: {
-      labels: log.map(l => l.date),
-      datasets: [{
-        label: '일별 총 조회수',
-        data: log.map(l => l.totalViews),
-        borderColor: '#38bdf8',
-        backgroundColor: 'rgba(56, 189, 248, 0.15)',
-        fill: true, tension: 0.3, pointRadius: 5, pointBackgroundColor: '#38bdf8'
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { labels: { color: '#cbd5e1' } } },
-      scales: {
-        x: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } },
-        y: { ticks: { color: '#94a3b8', callback: v => fmt(v) }, grid: { color: '#334155' } }
-      }
-    }
-  });
-}
-
-// 크리에이터 집계
 function aggregateCreators(d) {
   const map = {};
   d.keywords.forEach(k => k.topReels.forEach(r => {
     if (!map[r.user]) {
       map[r.user] = {
-        user: r.user,
-        reels: [],
-        keywords: new Set(),
-        totalViews: 0,
-        totalLikes: 0
+        user: r.user, reels: [], keywords: new Set(),
+        totalViews: 0, totalLikes: 0
       };
     }
     const m = map[r.user];
@@ -398,21 +488,24 @@ function aggregateCreators(d) {
     keywordCount: m.keywords.size,
     avgViews: m.totalViews / m.reels.length,
     viralMultiplier: m.totalLikes > 0 ? m.totalViews / m.totalLikes : 0,
-    mostRecentDays: Math.min(...m.reels.map(r => daysSince(r.date))),
-    mostRecentReel: m.reels.reduce((a,b) => daysSince(a.date) < daysSince(b.date) ? a : b)
+    mostRecentDays: Math.min(...m.reels.map(r => daysSince(r.date, d.lastUpdated))),
+    mostRecentReel: m.reels.reduce((a,b) => daysSince(a.date, d.lastUpdated) < daysSince(b.date, d.lastUpdated) ? a : b)
   }));
 }
 
-function renderTopInfluencers(d) {
+function renderTopInfluencers(d, containerId) {
   const creators = aggregateCreators(d);
+  if (creators.length === 0) {
+    document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="icon">💎</div><div class="title">영향력 랭킹 준비 중</div><div class="sub">첫 데이터 수집 후 표시됩니다</div></div>';
+    return;
+  }
   const sorted = creators.sort((a,b) => {
-    // 영향력 점수 = 총 조회수 × (1 + 키워드 수 × 0.2)
     const scoreA = a.totalViews * (1 + a.keywordCount * 0.2);
     const scoreB = b.totalViews * (1 + b.keywordCount * 0.2);
     return scoreB - scoreA;
   }).slice(0, 10);
 
-  document.getElementById('topInfluencers').innerHTML = `
+  document.getElementById(containerId).innerHTML = `
     <table>
       <thead><tr>
         <th>#</th><th>크리에이터</th><th class="num">총 조회</th>
@@ -436,18 +529,15 @@ function renderTopInfluencers(d) {
   `;
 }
 
-function renderRisingStars(d) {
+function renderRisingStars(d, containerId) {
   const creators = aggregateCreators(d);
-  // 떠오르는 기준:
-  // 1) 최근 60일 이내 업로드 있음
-  // 2) 바이럴 배수(조회/좋아요)가 100 이상
-  // 3) 총 조회수 10000 이상 (너무 작은 계정 제외)
+  if (creators.length === 0) {
+    document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="icon">🚀</div><div class="title">떠오르는 인플루언서 준비 중</div><div class="sub">첫 데이터 수집 후 표시됩니다</div></div>';
+    return;
+  }
   const candidates = creators.filter(c =>
-    c.mostRecentDays <= 60 &&
-    c.viralMultiplier >= 100 &&
-    c.totalViews >= 10000
+    c.mostRecentDays <= 60 && c.viralMultiplier >= 100 && c.totalViews >= 10000
   );
-  // 정렬: 바이럴 배수 × 최근성 가중치
   const sorted = candidates.sort((a,b) => {
     const scoreA = a.viralMultiplier * (1 / Math.max(a.mostRecentDays, 1));
     const scoreB = b.viralMultiplier * (1 / Math.max(b.mostRecentDays, 1));
@@ -455,11 +545,11 @@ function renderRisingStars(d) {
   }).slice(0, 10);
 
   if (sorted.length === 0) {
-    document.getElementById('risingStars').innerHTML = '<div style="padding:20px;color:#94a3b8;text-align:center;">조건에 맞는 떠오르는 인플루언서가 아직 없습니다. 데이터가 누적되면 표시됩니다.</div>';
+    document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="icon">🚀</div><div class="title">조건 충족 인플루언서 없음</div><div class="sub">데이터가 더 누적되면 표시됩니다</div></div>';
     return;
   }
 
-  document.getElementById('risingStars').innerHTML = `
+  document.getElementById(containerId).innerHTML = `
     <table>
       <thead><tr>
         <th>#</th><th>크리에이터</th>
@@ -483,12 +573,16 @@ function renderRisingStars(d) {
   `;
 }
 
-function renderViralTable(d) {
+function renderViralTable(d, containerId) {
   const all = [];
   d.keywords.forEach(k => k.topReels.forEach(r => all.push({...r, keyword: k.keyword})));
+  if (all.length === 0) {
+    document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="icon">🏆</div><div class="title">바이럴 랭킹 준비 중</div><div class="sub">첫 데이터 수집 후 표시됩니다</div></div>';
+    return;
+  }
   all.sort((a,b) => b.views - a.views);
   const top = all.slice(0, 10);
-  document.getElementById('viralTable').innerHTML = `
+  document.getElementById(containerId).innerHTML = `
     <table>
       <thead><tr>
         <th>#</th><th>작성자</th><th>키워드</th><th>업로드</th>
@@ -512,8 +606,13 @@ function renderViralTable(d) {
   `;
 }
 
-function renderKeywordDetail(d) {
-  document.getElementById('keywordDetail').innerHTML = d.keywords.map(k => `
+function renderKeywordDetail(d, containerId) {
+  const hasAny = d.keywords.some(k => k.topReels.length > 0);
+  if (!hasAny) {
+    document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="icon">📋</div><div class="title">키워드별 상세 준비 중</div><div class="sub">첫 스케줄 실행 시 10개 키워드 각각 Top 5 릴스 정보가 표시됩니다</div></div>';
+    return;
+  }
+  document.getElementById(containerId).innerHTML = d.keywords.map(k => `
     <div class="keyword-section">
       <div class="kw-head">
         <div>
@@ -524,6 +623,7 @@ function renderKeywordDetail(d) {
           <span class="mini-chip" style="color:#38bdf8;">총 ${fmt(k.totalViews)} 조회</span>
         </div>
       </div>
+      ${k.topReels.length > 0 ? `
       <table style="font-size:12px;">
         <thead><tr><th>Top</th><th>작성자</th><th>업로드</th><th class="num">좋아요</th><th class="num">조회수</th><th>구분</th></tr></thead>
         <tbody>
@@ -539,19 +639,39 @@ function renderKeywordDetail(d) {
           `).join('')}
         </tbody>
       </table>
+      ` : '<div style="color:#64748b;font-size:12px;padding:8px 0;">수집 대기 중</div>'}
     </div>
   `).join('');
 }
 
+function renderTab(data, prefix, isOliveyoung) {
+  const pal = isOliveyoung ? oliveyoungPalette : palette;
+  renderKeywordCards(data, prefix, isOliveyoung);
+  renderKeywordBar(data, prefix + '-keywordBar', pal);
+  renderTopInfluencers(data, prefix + '-topInfluencers');
+  renderRisingStars(data, prefix + '-risingStars');
+  renderViralTable(data, prefix + '-viralTable');
+  renderKeywordDetail(data, prefix + '-keywordDetail');
+}
+
+// 탭 전환
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    // 타임스탬프 전환
+    const data = btn.dataset.tab === 'daiso' ? DAISO_DATA : OLIVEYOUNG_DATA;
+    document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleString('ko-KR');
+  });
+});
+
+// 초기 렌더
 (() => {
-  const data = EMBEDDED_DATA;
-  document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleString('ko-KR');
-  renderKeywordCards(data);
-  renderKeywordBar(data);
-  renderTopInfluencers(data);
-  renderRisingStars(data);
-  renderViralTable(data);
-  renderKeywordDetail(data);
+  document.getElementById('lastUpdated').textContent = new Date(DAISO_DATA.lastUpdated).toLocaleString('ko-KR');
+  renderTab(DAISO_DATA, 'daiso', false);
+  renderTab(OLIVEYOUNG_DATA, 'oliveyoung', true);
 })();
 </script>
 
