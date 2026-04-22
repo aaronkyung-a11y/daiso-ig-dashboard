@@ -38,11 +38,20 @@
     color: #f1f5f9; border-bottom-color: #38bdf8;
   }
   .tab-btn.oliveyoung.active { border-bottom-color: #10b981; }
+  .tab-btn.youtube.active { border-bottom-color: #ef4444; }
   .tab-btn .dot {
     width: 7px; height: 7px; border-radius: 50%; display: inline-block;
   }
   .tab-btn .dot.daiso { background: #38bdf8; }
   .tab-btn .dot.oliveyoung { background: #10b981; }
+  .tab-btn .dot.youtube { background: #ef4444; }
+  .yt-iframe-wrap {
+    border: 1px solid #334155; border-radius: 12px; overflow: hidden;
+    background: #0f172a; min-height: 80vh;
+  }
+  .yt-iframe-wrap iframe {
+    width: 100%; height: 82vh; border: 0; display: block;
+  }
   .tab-content { display: none; }
   .tab-content.active { display: block; }
 
@@ -208,6 +217,9 @@
     <button class="tab-btn oliveyoung" data-tab="oliveyoung">
       <span class="dot oliveyoung"></span>올리브영 뷰티
     </button>
+    <button class="tab-btn youtube" data-tab="youtube">
+      <span class="dot youtube"></span>YouTube (올리브영)
+    </button>
   </div>
 
   <!-- 다이소 탭 -->
@@ -277,6 +289,13 @@
         <h2>📋 키워드별 상세</h2>
         <div id="oliveyoung-keywordDetail"></div>
       </div>
+    </div>
+  </div>
+
+  <!-- YouTube 탭 -->
+  <div class="tab-content" id="tab-youtube">
+    <div class="yt-iframe-wrap">
+      <iframe src="./youtube/oliveyoung.html" title="올리브영 YouTube Top 10 대시보드" loading="lazy"></iframe>
     </div>
   </div>
 
@@ -1481,9 +1500,14 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
     btn.classList.add('active');
     document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
-    // 타임스탬프 전환
-    const data = btn.dataset.tab === 'daiso' ? DAISO_DATA : OLIVEYOUNG_DATA;
-    document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleString('ko-KR');
+    // 타임스탬프 전환 (YouTube 탭은 iframe 내부 타임스탬프를 사용하므로 스킵)
+    const tab = btn.dataset.tab;
+    if (tab === 'daiso' || tab === 'oliveyoung') {
+      const data = tab === 'daiso' ? DAISO_DATA : OLIVEYOUNG_DATA;
+      document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleString('ko-KR');
+    } else if (tab === 'youtube') {
+      document.getElementById('lastUpdated').textContent = 'YouTube 대시보드 (iframe)';
+    }
   });
 });
 
