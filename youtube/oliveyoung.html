@@ -160,7 +160,7 @@
   <header>
     <div>
       <h1>올리브영 × YouTube 최신 영상 대시보드</h1>
-      <div class="subtitle">올리브영 Top 10 브랜드/제품 관련 YouTube 영상 · 최근 90일 업로드 기준 · 제목/설명 매칭 · Shorts + 일반 영상</div>
+      <div class="subtitle">올리브영 Top 10 브랜드/제품 관련 YouTube 영상 · 최근 90일 업로드 기준 · 검색어 기반 관련성 · Shorts + 일반 영상</div>
     </div>
     <div class="timestamp" id="ts">-</div>
   </header>
@@ -190,10 +190,9 @@
 <script>
 // YT_DATA_BEGIN
 const YT_DATA = {
-  "lastUpdated": "2026-04-22T16:30:07+09:00",
+  "lastUpdated": "2026-04-22T16:33:43+09:00",
   "videos": [
     {
-      "rank": 1,
       "title": "𝗠𝗘𝗗𝗜𝗛𝗘𝗔𝗟 X 양현종ㅣ메디힐에 누구 있다고? 메디힐 선세럼🩵",
       "url": "https://www.youtube.com/shorts/G3N9jxDw740",
       "channel": "MEDIHEAL",
@@ -204,17 +203,16 @@ const YT_DATA = {
       "uploadDate": "2026-04-13",
       "lengthSeconds": 37,
       "videoType": "Shorts",
-      "category": "리뷰",
+      "category": "기타",
       "tag": "메디힐 마데카소사이드 선세럼",
       "brand": "메디힐",
       "productRank": 10,
       "thumbnail": "https://i.ytimg.com/vi/G3N9jxDw740/hqdefault.jpg",
       "channelKind": "공식",
       "score": 98.2,
-      "matchTier": "product-kw"
+      "rank": 1
     },
     {
-      "rank": 2,
       "title": "[SUB] 2026 선크림 왕중왕전🔥 결국 1등은 이겁니다! (22개 비교) 2026 Sunscreen Showdown🔥 The Ultimate Winner Is This One!",
       "url": "https://www.youtube.com/watch?v=bDX4hpxXlYc",
       "channel": "소살 Sora Salon",
@@ -226,16 +224,15 @@ const YT_DATA = {
       "lengthSeconds": 1035,
       "videoType": "일반",
       "category": "비교",
-      "tag": "올리브영 (종합)",
-      "brand": "올리브영",
-      "productRank": null,
+      "tag": "조선미녀 맑은쌀 선크림",
+      "brand": "조선미녀",
+      "productRank": 5,
       "thumbnail": "https://i.ytimg.com/vi/bDX4hpxXlYc/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 96.6,
-      "matchTier": "generic"
+      "rank": 2
     },
     {
-      "rank": 3,
       "title": "(광고 X)”바르는 보톡스입니다” 주름 지우는 올리브영 추천템",
       "url": "https://www.youtube.com/watch?v=aFkdeokjw7I",
       "channel": "3분동안 최원준",
@@ -247,16 +244,15 @@ const YT_DATA = {
       "lengthSeconds": 180,
       "videoType": "일반",
       "category": "추천",
-      "tag": "올리브영 (종합)",
+      "tag": "올리브영 (종합 하울/세일)",
       "brand": "올리브영",
       "productRank": null,
       "thumbnail": "https://i.ytimg.com/vi/aFkdeokjw7I/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 95.8,
-      "matchTier": "generic"
+      "rank": 3
     },
     {
-      "rank": 4,
       "title": "자고 일어나도 멀쩡한 메이크업?!🫢지속력 200% 늘리는 법‼️",
       "url": "https://www.youtube.com/watch?v=s-Xz7CwkRkA",
       "channel": "해니 haeni beauty",
@@ -267,17 +263,16 @@ const YT_DATA = {
       "uploadDate": "2026-04-05",
       "lengthSeconds": 1495,
       "videoType": "일반",
-      "category": "리뷰",
+      "category": "기타",
       "tag": "쏘내추럴 메이크업 세팅 픽서",
       "brand": "쏘내추럴",
       "productRank": 3,
       "thumbnail": "https://i.ytimg.com/vi/s-Xz7CwkRkA/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 94.29,
-      "matchTier": "source-fallback"
+      "rank": 4
     },
     {
-      "rank": 5,
       "title": "메이크업 아티스트도 내돈내산하는 봄맞이 올영 추천템🌸 ",
       "url": "https://www.youtube.com/watch?v=OuYck0dARPg",
       "channel": "저스트손주희",
@@ -289,16 +284,15 @@ const YT_DATA = {
       "lengthSeconds": 569,
       "videoType": "일반",
       "category": "추천",
-      "tag": "올리브영 (종합)",
+      "tag": "올리브영 (종합 하울/세일)",
       "brand": "올리브영",
       "productRank": null,
       "thumbnail": "https://i.ytimg.com/vi/OuYck0dARPg/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 92.77,
-      "matchTier": "generic"
+      "rank": 5
     },
     {
-      "rank": 6,
       "title": "그야말로 압도적 선크림이라고 밖에 할 수 없습니다. 재구매의사 100%찍은 미친 선크림",
       "url": "https://www.youtube.com/watch?v=nX-AhTEyDAs",
       "channel": "문장군",
@@ -309,17 +303,16 @@ const YT_DATA = {
       "uploadDate": "2026-04-13",
       "lengthSeconds": 627,
       "videoType": "일반",
-      "category": "리뷰",
+      "category": "기타",
       "tag": "메디힐 마데카소사이드 선세럼",
       "brand": "메디힐",
       "productRank": 10,
       "thumbnail": "https://i.ytimg.com/vi/nX-AhTEyDAs/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 92.16,
-      "matchTier": "source-fallback"
+      "rank": 6
     },
     {
-      "rank": 7,
       "title": "(광고❌) 🫒올영세일🫒에 진심이라.. 추천템만 ★24개★ 가져왔는데요🛒 ",
       "url": "https://www.youtube.com/watch?v=zmCkxXUBLSE",
       "channel": "지냐 Jinyaa",
@@ -331,16 +324,15 @@ const YT_DATA = {
       "lengthSeconds": 1685,
       "videoType": "일반",
       "category": "추천",
-      "tag": "올리브영 (종합)",
+      "tag": "올리브영 (종합 하울/세일)",
       "brand": "올리브영",
       "productRank": null,
       "thumbnail": "https://i.ytimg.com/vi/zmCkxXUBLSE/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 89.4,
-      "matchTier": "generic"
+      "rank": 7
     },
     {
-      "rank": 8,
       "title": "\"이건 바르는 보톡스입니다\" 주름 쫙 펴지는 올리브영 추천템 5가지를 20년차 피부과 전문의가 알려드립니다",
       "url": "https://www.youtube.com/watch?v=EZaUIDa2g7c",
       "channel": "피부는 성현철",
@@ -352,16 +344,15 @@ const YT_DATA = {
       "lengthSeconds": 1248,
       "videoType": "일반",
       "category": "추천",
-      "tag": "올리브영 (종합)",
+      "tag": "올리브영 (종합 하울/세일)",
       "brand": "올리브영",
       "productRank": null,
       "thumbnail": "https://i.ytimg.com/vi/EZaUIDa2g7c/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 89.2,
-      "matchTier": "generic"
+      "rank": 8
     },
     {
-      "rank": 9,
       "title": "광고❌ 올영세일? 이건 사지 마세요! 뷰티 유튜버가 알려주는 추천, 비추천 제품!",
       "url": "https://www.youtube.com/watch?v=-HpW7g_gF2Y",
       "channel": "비트 BTE",
@@ -373,16 +364,15 @@ const YT_DATA = {
       "lengthSeconds": 693,
       "videoType": "일반",
       "category": "추천",
-      "tag": "올리브영 (종합)",
+      "tag": "올리브영 (종합 하울/세일)",
       "brand": "올리브영",
       "productRank": null,
       "thumbnail": "https://i.ytimg.com/vi/-HpW7g_gF2Y/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 88.27,
-      "matchTier": "generic"
+      "rank": 9
     },
     {
-      "rank": 10,
       "title": "광고❌이번 올영 세일, 딱 이 6개만 담으시면 됩니다. (화장품에 1천만원 넘게 쓰고 찾은 핵꿀템)",
       "url": "https://www.youtube.com/watch?v=5_zM0LUpErw",
       "channel": "뷰드름 유튜버 인씨",
@@ -394,16 +384,15 @@ const YT_DATA = {
       "lengthSeconds": 950,
       "videoType": "일반",
       "category": "하울",
-      "tag": "올리브영 (종합)",
+      "tag": "올리브영 (종합 하울/세일)",
       "brand": "올리브영",
       "productRank": null,
       "thumbnail": "https://i.ytimg.com/vi/5_zM0LUpErw/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 87.81,
-      "matchTier": "generic"
+      "rank": 10
     },
     {
-      "rank": 11,
       "title": "건조함❌ 뽀용뽀용 지속력 메이크업🤍🪽ㅣMINCARONG",
       "url": "https://www.youtube.com/watch?v=PFEJnRVRr0A",
       "channel": "민카롱",
@@ -414,17 +403,16 @@ const YT_DATA = {
       "uploadDate": "2026-04-01",
       "lengthSeconds": 1017,
       "videoType": "일반",
-      "category": "리뷰",
+      "category": "기타",
       "tag": "쏘내추럴 메이크업 세팅 픽서",
       "brand": "쏘내추럴",
       "productRank": 3,
       "thumbnail": "https://i.ytimg.com/vi/PFEJnRVRr0A/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 86.84,
-      "matchTier": "source-fallback"
+      "rank": 11
     },
     {
-      "rank": 12,
       "title": "(*Eng) 2026 앰플 1위는? 올리브영 1위템부터~ 30여종 구매 추천!! 단 1개의 앰플을 찾아라!ㅣBest Serums by Directorpi",
       "url": "https://www.youtube.com/watch?v=Fp0tpidMgHo",
       "channel": "디렉터 파이",
@@ -442,10 +430,9 @@ const YT_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/Fp0tpidMgHo/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 84.8,
-      "matchTier": "source-fallback"
+      "rank": 12
     },
     {
-      "rank": 13,
       "title": "❌올영에선 이건 사지 마세요❌ 올리브영 세일 때 샀다가 후회한 올영 비추템 모음.zip👎 대체품도 찾아드림",
       "url": "https://www.youtube.com/watch?v=zS8g7oHPk1E",
       "channel": "프롬베이지",
@@ -463,10 +450,9 @@ const YT_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/zS8g7oHPk1E/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 84.76,
-      "matchTier": "source-fallback"
+      "rank": 13
     },
     {
-      "rank": 14,
       "title": "앰플 세럼 총정리‼️ 다 까고 말하는 솔직한 후기",
       "url": "https://www.youtube.com/watch?v=8MmlAZJCUOA",
       "channel": "ヨンシ Yunse",
@@ -477,17 +463,16 @@ const YT_DATA = {
       "uploadDate": "2026-01-25",
       "lengthSeconds": 1162,
       "videoType": "일반",
-      "category": "리뷰",
+      "category": "기타",
       "tag": "마몽드 카밍샷 아줄렌 앰플",
       "brand": "마몽드",
       "productRank": 4,
       "thumbnail": "https://i.ytimg.com/vi/8MmlAZJCUOA/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 82.6,
-      "matchTier": "source-fallback"
+      "rank": 14
     },
     {
-      "rank": 15,
       "title": "올리브영 추천템 20가지 🤍 광고 없이 진짜 잘 쓰는 것들만 모음.zip",
       "url": "https://www.youtube.com/watch?v=xgmqO76tiH8",
       "channel": "Minjeong Park",
@@ -499,16 +484,15 @@ const YT_DATA = {
       "lengthSeconds": 1422,
       "videoType": "일반",
       "category": "추천",
-      "tag": "올리브영 (종합)",
+      "tag": "올리브영 (종합 하울/세일)",
       "brand": "올리브영",
       "productRank": null,
       "thumbnail": "https://i.ytimg.com/vi/xgmqO76tiH8/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 81.99,
-      "matchTier": "generic"
+      "rank": 15
     },
     {
-      "rank": 16,
       "title": "[ENG/JPN] 트러블 구원템..브링그린 징크테카 라인에서 2년만에 신상나옴!!!!!! 흔적크림 런칭 마켓 가져왔습니다 (ft.밤티크림) ",
       "url": "https://www.youtube.com/watch?v=ou9yfB73V0Q",
       "channel": "재유JEYU",
@@ -519,17 +503,16 @@ const YT_DATA = {
       "uploadDate": "2026-03-05",
       "lengthSeconds": 1706,
       "videoType": "일반",
-      "category": "리뷰",
+      "category": "기타",
       "tag": "브링그린 징크테카 트러블세럼",
       "brand": "브링그린",
       "productRank": 9,
       "thumbnail": "https://i.ytimg.com/vi/ou9yfB73V0Q/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 76.69,
-      "matchTier": "product-kw"
+      "rank": 16
     },
     {
-      "rank": 17,
       "title": "광고❌올리브영1위라고 막 사면 큰일납니다..!🤦🏻‍♂️ ",
       "url": "https://www.youtube.com/watch?v=jnFw6aiISJM",
       "channel": "맨즈뷰티 훈Hoon",
@@ -540,17 +523,16 @@ const YT_DATA = {
       "uploadDate": "2026-03-07",
       "lengthSeconds": 700,
       "videoType": "일반",
-      "category": "리뷰",
+      "category": "기타",
       "tag": "메디힐 에센셜 마스크 30매",
       "brand": "메디힐",
       "productRank": 7,
       "thumbnail": "https://i.ytimg.com/vi/jnFw6aiISJM/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 74.06,
-      "matchTier": "source-fallback"
+      "rank": 17
     },
     {
-      "rank": 18,
       "title": "민감피부에 진정앰플은 최악이예요..😭실제 홈케어 후기부터 올리브영 수부지 크림 추천까지ㅣ올리브영 추천템(각질들뜸, 민감성 피부, 피부장벽)",
       "url": "https://www.youtube.com/watch?v=Z1RlwLguPIg",
       "channel": "뷰티나니?BeautyNANI?",
@@ -568,10 +550,9 @@ const YT_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/Z1RlwLguPIg/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 68.7,
-      "matchTier": "source-fallback"
+      "rank": 18
     },
     {
-      "rank": 19,
       "title": "광고❌ 자기관리 미친자의 3월 올영大세일 찐추천템🫒🛒 (✔️올리브영 N차 재구매템만 Pick)",
       "url": "https://www.youtube.com/watch?v=pXppmaMO6qU",
       "channel": "심톨 𝐒𝐈𝐌𝐓𝐎𝐇𝐋",
@@ -583,16 +564,15 @@ const YT_DATA = {
       "lengthSeconds": 862,
       "videoType": "일반",
       "category": "추천",
-      "tag": "올리브영 (종합)",
+      "tag": "올리브영 (종합 하울/세일)",
       "brand": "올리브영",
       "productRank": null,
       "thumbnail": "https://i.ytimg.com/vi/pXppmaMO6qU/hqdefault.jpg",
       "channelKind": "인플루언서",
       "score": 64.4,
-      "matchTier": "generic"
+      "rank": 19
     },
     {
-      "rank": 20,
       "title": "[광고❌] 요즘 맨날 쓰는 파데프리 올리브영 선크림 & 비비크림 추천 [토리든 톤업선크림, 조선미녀 선세럼 베일커버, 쿼치 블레미쉬 밤]",
       "url": "https://www.youtube.com/watch?v=rpqwIXaJwHA",
       "channel": "별블리아 byulvelya",
@@ -604,13 +584,13 @@ const YT_DATA = {
       "lengthSeconds": 331,
       "videoType": "일반",
       "category": "추천",
-      "tag": "메디힐 마데카소사이드 선세럼",
-      "brand": "메디힐",
-      "productRank": 10,
+      "tag": "조선미녀 맑은쌀 선크림",
+      "brand": "조선미녀",
+      "productRank": 5,
       "thumbnail": "https://i.ytimg.com/vi/rpqwIXaJwHA/hqdefault.jpg",
       "channelKind": "기타",
       "score": 50.85,
-      "matchTier": "product-kw"
+      "rank": 20
     }
   ],
   "windowDays": 90,
