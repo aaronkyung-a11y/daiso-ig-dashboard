@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>올리브영 × YouTube Top 10 대시보드</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    min-height: 100vh;
+    padding: 32px;
+  }
+  .container { max-width: 1400px; margin: 0 auto; }
+  header {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 16px; padding-bottom: 16px;
+  }
+  h1 { font-size: 26px; font-weight: 700; color: #f1f5f9; }
+  .subtitle { color: #94a3b8; font-size: 13px; margin-top: 4px; }
+  .timestamp { color: #64748b; font-size: 13px; font-family: 'SF Mono', monospace; }
+  .back-link {
+    display: inline-block; margin-bottom: 20px;
+    color: #38bdf8; text-decoration: none; font-size: 14px;
+  }
+  .back-link:hover { text-decoration: underline; }
+  .back-link::before { content: '← '; }
+
+  .filters {
+    display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap;
+  }
+  .filter-btn {
+    background: #1e293b; border: 1px solid #334155; border-radius: 8px;
+    color: #94a3b8; padding: 8px 16px; font-size: 13px; font-weight: 500;
+    cursor: pointer; font-family: inherit;
+    transition: all 0.15s;
+  }
+  .filter-btn:hover { color: #e2e8f0; border-color: #475569; }
+  .filter-btn.active {
+    background: #ef4444; color: #fff; border-color: #ef4444;
+  }
+  .sort-select {
+    background: #1e293b; border: 1px solid #334155; border-radius: 8px;
+    color: #e2e8f0; padding: 8px 16px; font-size: 13px;
+    font-family: inherit; outline: none; cursor: pointer;
+  }
+
+  .kpi-row {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+    margin-bottom: 28px;
+  }
+  .kpi {
+    background: #1e293b; border: 1px solid #334155; border-radius: 12px;
+    padding: 20px;
+  }
+  .kpi .label { color: #94a3b8; font-size: 12px; margin-bottom: 8px; }
+  .kpi .value { color: #f1f5f9; font-size: 26px; font-weight: 700; }
+  .kpi .sub { color: #64748b; font-size: 11px; margin-top: 4px; }
+
+  .video-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+  }
+  .video-card {
+    background: #1e293b; border: 1px solid #334155; border-radius: 12px;
+    overflow: hidden; transition: all 0.2s;
+    display: flex; flex-direction: column;
+  }
+  .video-card:hover {
+    border-color: #ef4444; transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(239, 68, 68, 0.1);
+  }
+  .thumbnail-wrap {
+    position: relative; aspect-ratio: 16/9; background: #0f172a;
+    overflow: hidden;
+  }
+  .thumbnail-wrap img {
+    width: 100%; height: 100%; object-fit: cover;
+  }
+  .rank-badge {
+    position: absolute; top: 10px; left: 10px;
+    background: rgba(0,0,0,0.75); color: #fff;
+    padding: 4px 10px; border-radius: 4px; font-weight: 700; font-size: 12px;
+  }
+  .type-badge {
+    position: absolute; top: 10px; right: 10px;
+    padding: 4px 10px; border-radius: 4px; font-weight: 600; font-size: 11px;
+  }
+  .type-badge.shorts { background: #ef4444; color: #fff; }
+  .type-badge.long { background: #3b82f6; color: #fff; }
+  .duration-badge {
+    position: absolute; bottom: 10px; right: 10px;
+    background: rgba(0,0,0,0.75); color: #fff;
+    padding: 2px 6px; border-radius: 3px; font-size: 11px; font-family: monospace;
+  }
+  .video-body { padding: 16px; flex: 1; display: flex; flex-direction: column; }
+  .video-title {
+    color: #f1f5f9; font-size: 14px; font-weight: 600; line-height: 1.4;
+    margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .channel-row {
+    display: flex; align-items: center; gap: 8px;
+    color: #94a3b8; font-size: 12px; margin-bottom: 12px;
+  }
+  .channel-kind {
+    background: #334155; color: #cbd5e1;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .channel-kind.influencer { background: #7c3aed; color: #fff; }
+  .channel-kind.official { background: #0891b2; color: #fff; }
+  .stats-row {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+    margin-bottom: 12px; padding-top: 12px; border-top: 1px solid #334155;
+  }
+  .stat { text-align: center; }
+  .stat .num { color: #f1f5f9; font-size: 14px; font-weight: 600; }
+  .stat .lbl { color: #64748b; font-size: 10px; margin-top: 2px; }
+  .meta-row {
+    display: flex; justify-content: space-between; align-items: center;
+    color: #64748b; font-size: 11px; margin-top: auto;
+  }
+  .meta-tag {
+    background: #1e3a8a; color: #93c5fd;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .meta-category {
+    background: #713f12; color: #fcd34d;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .card-link {
+    display: block; padding: 10px; background: #0f172a; color: #38bdf8;
+    text-align: center; font-size: 12px; text-decoration: none;
+    border-top: 1px solid #334155;
+  }
+  .card-link:hover { background: #1e293b; color: #7dd3fc; }
+
+  .empty-state {
+    text-align: center; padding: 40px; color: #64748b;
+  }
+
+  .footer {
+    margin-top: 48px; padding-top: 20px; border-top: 1px solid #334155;
+    color: #64748b; font-size: 12px; text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    body { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <a href="./index.html" class="back-link">뷰티 × Instagram 릴스 대시보드</a>
+
+  <header>
+    <div>
+      <h1>올리브영 × YouTube Top 10 대시보드</h1>
+      <div class="subtitle">올리브영 Top 10 브랜드/제품 관련 YouTube 영상 · Shorts + 일반 영상 포함</div>
+    </div>
+    <div class="timestamp" id="ts">-</div>
+  </header>
+
+  <div class="kpi-row" id="kpi-row"></div>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">전체</button>
+    <button class="filter-btn" data-filter="Shorts">Shorts</button>
+    <button class="filter-btn" data-filter="일반">일반 영상</button>
+    <select class="sort-select" id="sort-select">
+      <option value="score">점수순</option>
+      <option value="views">조회수순</option>
+      <option value="likes">좋아요순</option>
+      <option value="date">최신순</option>
+    </select>
+  </div>
+
+  <div class="video-grid" id="video-grid"></div>
+
+  <div class="footer">
+    자동 업데이트: 평일 14:59 (olivyoung-beauty-instagram-weekly) · YouTube Top 10 전용 페이지
+  </div>
+
+</div>
+
+<script>
+// YT_DATA_BEGIN
+const YT_DATA = {
+  "lastUpdated": "2026-04-22T15:07:44+09:00",
+  "videos": [
+    {
+      "rank": 1,
+      "title": "이거 쓰면 메이크업 안 무너짐!💦 #픽서추천",
+      "url": "https://www.youtube.com/shorts/UP14ONZpwvk",
+      "channel": "yeondukong 연두콩",
+      "channelId": "UCAUbDYDwV34yk6pYiZg_CzA",
+      "views": 837741,
+      "likes": 24810,
+      "uploadDate": "2024-07-24",
+      "lengthSeconds": 46,
+      "videoType": "Shorts",
+      "category": "추천",
+      "tag": "쏘내추럴 메이크업 픽서",
+      "thumbnail": "https://i.ytimg.com/vi/UP14ONZpwvk/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 65.23
+    },
+    {
+      "rank": 2,
+      "title": "제발.. 올리브영 세일 쿠션 사기전에 꼭! 보세요;;;🔥 (랭킹 TOP8 팩폭리뷰 해드림) #shorts #올리브영추천템",
+      "url": "https://www.youtube.com/shorts/eR01qLzhkTc",
+      "channel": "HOONION",
+      "channelId": "UC3ZQbE9FKR8TwHYqTNcIXQQ",
+      "views": 398517,
+      "likes": 8431,
+      "uploadDate": "2024-03-04",
+      "lengthSeconds": 58,
+      "videoType": "Shorts",
+      "category": "리뷰",
+      "tag": "올리브영 4월 세일 하울",
+      "thumbnail": "https://i.ytimg.com/vi/eR01qLzhkTc/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 63.0
+    },
+    {
+      "rank": 3,
+      "title": "💸5초에 1병 씩 팔린다는 ‘메디힐 마데카소사이드 흔적 리페어 세럼’ 솔직 리뷰",
+      "url": "https://www.youtube.com/shorts/yRB5U3c3kuA",
+      "channel": "스완SWAN_현실남자관리",
+      "channelId": "UChaTUCM7bPBTJaIZQ83PNwQ",
+      "views": 107551,
+      "likes": 858,
+      "uploadDate": "2026-01-13",
+      "lengthSeconds": 37,
+      "videoType": "Shorts",
+      "category": "리뷰",
+      "tag": "메디힐 마데카소사이드 선세럼",
+      "thumbnail": "https://i.ytimg.com/vi/yRB5U3c3kuA/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 59.32
+    },
+    {
+      "rank": 4,
+      "title": "‼️돌아오는 올영세일 3040 올리브영 추천템🫒 #kbeauty #홍이모 #올리브영",
+      "url": "https://www.youtube.com/shorts/usVPf67gYPE",
+      "channel": "Hong's MakeuPlay 홍이모",
+      "channelId": "UCW67yGQxNNMnLqRHyaTjygA",
+      "views": 423844,
+      "likes": 3284,
+      "uploadDate": "2025-08-31",
+      "lengthSeconds": 59,
+      "videoType": "Shorts",
+      "category": "추천",
+      "tag": "올리브영 4월 세일 하울",
+      "thumbnail": "https://i.ytimg.com/vi/usVPf67gYPE/hqdefault.jpg",
+      "channelKind": "기타",
+      "score": 59.27
+    },
+    {
+      "rank": 5,
+      "title": "(*Eng) 2024 토너 패드 1위는?🥇 30여 종 구매 추천?! 수분 진정, 모공, 여드름, 흔적 개선 TOP을 찾아라! Best Toner Pads by Directorpi",
+      "url": "https://www.youtube.com/watch?v=KkLCZmU68_U",
+      "channel": "디렉터 파이",
+      "channelId": "UCqrNqg3UgVoD3Sa-F_TxuSA",
+      "views": 304058,
+      "likes": 3514,
+      "uploadDate": "2024-10-18",
+      "lengthSeconds": 1466,
+      "videoType": "일반",
+      "category": "비교",
+      "tag": "메디힐 더마 패드",
+      "thumbnail": "https://i.ytimg.com/vi/KkLCZmU68_U/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 58.83
+    },
+    {
+      "rank": 6,
+      "title": "트러블 세럼 뭐 쓰냐구요? 이거요… (징크테카 대용량 본격 출시!?🔥)",
+      "url": "https://www.youtube.com/shorts/sy7Q2aBqLM0",
+      "channel": "뷰드름 유튜버 인씨",
+      "channelId": "UCrlUlicedicJ5mlibqC62Eg",
+      "views": 121814,
+      "likes": 1256,
+      "uploadDate": "2025-03-05",
+      "lengthSeconds": 59,
+      "videoType": "Shorts",
+      "category": "리뷰",
+      "tag": "브링그린 징크테카 트러블세럼",
+      "thumbnail": "https://i.ytimg.com/vi/sy7Q2aBqLM0/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 57.86
+    },
+    {
+      "rank": 7,
+      "title": "틱톡에서 유우명한 올리브영 해외대란템? : 조선미녀 선크림, 니들리패드, 달바 미스트, 넘버즈인 세럼 등",
+      "url": "https://www.youtube.com/watch?v=cIrgIUXbhL8",
+      "channel": "유리아YuRia",
+      "channelId": "UC00DJ04oplqj4IUUB5vSwZw",
+      "views": 123048,
+      "likes": 1229,
+      "uploadDate": "2023-11-16",
+      "lengthSeconds": 850,
+      "videoType": "일반",
+      "category": "리뷰",
+      "tag": "조선미녀 맑은쌀 선크림",
+      "thumbnail": "https://i.ytimg.com/vi/cIrgIUXbhL8/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 54.9
+    },
+    {
+      "rank": 8,
+      "title": "[마몽드x윈터] 흔적은 나의 적 ep.2 FLOWER #카밍샷아줄렌앰플",
+      "url": "https://www.youtube.com/watch?v=JsZOyr2XdzE",
+      "channel": "마몽드MAMONDE",
+      "channelId": "UCxux22TkA0Xeg2WjbJpiVTg",
+      "views": 81370,
+      "likes": 879,
+      "uploadDate": "2025-07-23",
+      "lengthSeconds": 35,
+      "videoType": "Shorts",
+      "category": "리뷰",
+      "tag": "마몽드 카밍 샷 아줄렌 앰플",
+      "thumbnail": "https://i.ytimg.com/vi/JsZOyr2XdzE/hqdefault.jpg",
+      "channelKind": "공식",
+      "score": 54.11
+    },
+    {
+      "rank": 9,
+      "title": "이제서야 써봤습니다. 몰라서 손해만 본 가성비 관리템 모아옴 (9월 올영 세일 추천템 포함)",
+      "url": "https://www.youtube.com/watch?v=HPVi20iZJKM",
+      "channel": "디에디트 라이프 THE EDIT",
+      "channelId": "UCB31aGWC8ToRsIwfwxREgdg",
+      "views": 109053,
+      "likes": 1291,
+      "uploadDate": "2025-08-29",
+      "lengthSeconds": 1329,
+      "videoType": "일반",
+      "category": "추천",
+      "tag": "마몽드 카밍 샷 아줄렌 앰플",
+      "thumbnail": "https://i.ytimg.com/vi/HPVi20iZJKM/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 53.38
+    },
+    {
+      "rank": 10,
+      "title": "갑자기 뒤집힌 피부 트러블😫 응급 진정 유명템🔥브링그린 세럼 솔직리뷰 & 성분분석🔍ㅣ파티온 비교ㅣ사용시 주의사항ㅣ피부타입별 추천ㅣ여드름 진정템ㅣ트러블 진정세럼ㅣ부작용ㅣ올영 진정템",
+      "url": "https://www.youtube.com/watch?v=3WuCtTmes4g",
+      "channel": "로지의 성분로드",
+      "channelId": "UCWkfOsqkROkVILnCwDcmdNw",
+      "views": 82019,
+      "likes": 557,
+      "uploadDate": "2024-07-04",
+      "lengthSeconds": 255,
+      "videoType": "일반",
+      "category": "리뷰",
+      "tag": "브링그린 징크테카 트러블세럼",
+      "thumbnail": "https://i.ytimg.com/vi/3WuCtTmes4g/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 53.14
+    }
+  ]
+};
+// YT_DATA_END
+
+function fmt(n) {
+  if (!n && n !== 0) return '-';
+  if (n >= 10000) return (n / 10000).toFixed(1) + '만';
+  if (n >= 1000) return (n / 1000).toFixed(1) + '천';
+  return n.toString();
+}
+
+function fmtDuration(s) {
+  if (!s) return '-';
+  const m = Math.floor(s / 60);
+  const sec = s % 60;
+  return `${m}:${sec.toString().padStart(2, '0')}`;
+}
+
+let currentFilter = 'all';
+let currentSort = 'score';
+
+function render() {
+  const container = document.getElementById('video-grid');
+  container.innerHTML = '';
+
+  let vids = [...(YT_DATA.videos || [])];
+  if (currentFilter !== 'all') {
+    vids = vids.filter(v => v.videoType === currentFilter);
+  }
+
+  const sortKey = currentSort;
+  vids.sort((a, b) => {
+    if (sortKey === 'score') return (b.score || 0) - (a.score || 0);
+    if (sortKey === 'views') return (b.views || 0) - (a.views || 0);
+    if (sortKey === 'likes') return (b.likes || 0) - (a.likes || 0);
+    if (sortKey === 'date') return (b.uploadDate || '').localeCompare(a.uploadDate || '');
+    return 0;
+  });
+
+  if (!vids.length) {
+    container.innerHTML = '<div class="empty-state">해당 조건에 맞는 영상이 없습니다.</div>';
+    return;
+  }
+
+  vids.forEach((v, i) => {
+    const card = document.createElement('div');
+    card.className = 'video-card';
+    const typeClass = v.videoType === 'Shorts' ? 'shorts' : 'long';
+    const kindClass = v.channelKind === '인플루언서' ? 'influencer' :
+                       v.channelKind === '공식' ? 'official' : '';
+    card.innerHTML = `
+      <div class="thumbnail-wrap">
+        <img src="${v.thumbnail || ''}" alt="${v.title}" loading="lazy"
+             onerror="this.style.display='none'">
+        <span class="rank-badge">#${v.rank || i + 1}</span>
+        <span class="type-badge ${typeClass}">${v.videoType}</span>
+        <span class="duration-badge">${fmtDuration(v.lengthSeconds)}</span>
+      </div>
+      <div class="video-body">
+        <div class="video-title">${v.title}</div>
+        <div class="channel-row">
+          <span>${v.channel}</span>
+          <span class="channel-kind ${kindClass}">${v.channelKind || '기타'}</span>
+        </div>
+        <div class="stats-row">
+          <div class="stat"><div class="num">${fmt(v.views)}</div><div class="lbl">조회수</div></div>
+          <div class="stat"><div class="num">${fmt(v.likes)}</div><div class="lbl">좋아요</div></div>
+          <div class="stat"><div class="num">${v.score || '-'}</div><div class="lbl">점수</div></div>
+        </div>
+        <div class="meta-row">
+          <span class="meta-tag">${v.tag || ''}</span>
+          <span class="meta-category">${v.category || ''}</span>
+          <span>${v.uploadDate || ''}</span>
+        </div>
+      </div>
+      <a class="card-link" href="${v.url}" target="_blank" rel="noopener">YouTube에서 보기 →</a>
+    `;
+    container.appendChild(card);
+  });
+}
+
+function renderKPIs() {
+  const vids = YT_DATA.videos || [];
+  const total = vids.length;
+  const shorts = vids.filter(v => v.videoType === 'Shorts').length;
+  const totalViews = vids.reduce((s, v) => s + (v.views || 0), 0);
+  const totalLikes = vids.reduce((s, v) => s + (v.likes || 0), 0);
+  const kpi = document.getElementById('kpi-row');
+  kpi.innerHTML = `
+    <div class="kpi">
+      <div class="label">총 영상 수</div>
+      <div class="value">${total}</div>
+      <div class="sub">Top 10 collection</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Shorts / 일반</div>
+      <div class="value">${shorts} / ${total - shorts}</div>
+      <div class="sub">숏폼 비중 ${total ? Math.round(shorts * 100 / total) : 0}%</div>
+    </div>
+    <div class="kpi">
+      <div class="label">총 조회수</div>
+      <div class="value">${fmt(totalViews)}</div>
+      <div class="sub">누적</div>
+    </div>
+    <div class="kpi">
+      <div class="label">총 좋아요</div>
+      <div class="value">${fmt(totalLikes)}</div>
+      <div class="sub">누적</div>
+    </div>
+  `;
+}
+
+function bindControls() {
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      currentFilter = b.dataset.filter;
+      render();
+    });
+  });
+  document.getElementById('sort-select').addEventListener('change', (e) => {
+    currentSort = e.target.value;
+    render();
+  });
+}
+
+document.getElementById('ts').textContent =
+  'Last updated: ' + (YT_DATA.lastUpdated || new Date().toISOString());
+renderKPIs();
+render();
+bindControls();
+</script>
+
+</body>
+</html>
