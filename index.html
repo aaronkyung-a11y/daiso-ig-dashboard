@@ -217,6 +217,9 @@
     <button class="tab-btn oliveyoung" data-tab="oliveyoung">
       <span class="dot oliveyoung"></span>올리브영 뷰티
     </button>
+    <button class="tab-btn youtube" data-tab="youtube-daiso">
+      <span class="dot youtube"></span>YouTube (다이소)
+    </button>
     <button class="tab-btn youtube" data-tab="youtube">
       <span class="dot youtube"></span>YouTube (올리브영)
     </button>
@@ -292,7 +295,14 @@
     </div>
   </div>
 
-  <!-- YouTube 탭 -->
+  <!-- YouTube (다이소) 탭 -->
+  <div class="tab-content" id="tab-youtube-daiso">
+    <div class="yt-iframe-wrap">
+      <iframe src="./youtube/daiso.html" title="다이소 YouTube Top 영상 대시보드" loading="lazy"></iframe>
+    </div>
+  </div>
+
+  <!-- YouTube (올리브영) 탭 -->
   <div class="tab-content" id="tab-youtube">
     <div class="yt-iframe-wrap">
       <iframe src="./youtube/oliveyoung.html" title="올리브영 YouTube Top 10 대시보드" loading="lazy"></iframe>
@@ -1508,7 +1518,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     if (tab === 'daiso' || tab === 'oliveyoung') {
       const data = tab === 'daiso' ? DAISO_DATA : OLIVEYOUNG_DATA;
       document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleString('ko-KR');
-    } else if (tab === 'youtube') {
+    } else if (tab === 'youtube' || tab === 'youtube-daiso') {
       document.getElementById('lastUpdated').textContent = 'YouTube 대시보드 (iframe)';
     }
   });
