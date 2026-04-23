@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>다이소 × YouTube 최신 영상 대시보드 (최근 90일)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    min-height: 100vh;
+    padding: 32px;
+  }
+  .container { max-width: 1400px; margin: 0 auto; }
+  header {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 16px; padding-bottom: 16px;
+  }
+  h1 { font-size: 26px; font-weight: 700; color: #f1f5f9; }
+  .subtitle { color: #94a3b8; font-size: 13px; margin-top: 4px; }
+  .timestamp { color: #64748b; font-size: 13px; font-family: 'SF Mono', monospace; }
+  .back-link {
+    display: inline-block; margin-bottom: 20px;
+    color: #38bdf8; text-decoration: none; font-size: 14px;
+  }
+  .back-link:hover { text-decoration: underline; }
+  .back-link::before { content: '← '; }
+
+  .filters {
+    display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap;
+  }
+  .filter-btn {
+    background: #1e293b; border: 1px solid #334155; border-radius: 8px;
+    color: #94a3b8; padding: 8px 16px; font-size: 13px; font-weight: 500;
+    cursor: pointer; font-family: inherit;
+    transition: all 0.15s;
+  }
+  .filter-btn:hover { color: #e2e8f0; border-color: #475569; }
+  .filter-btn.active {
+    background: #ef4444; color: #fff; border-color: #ef4444;
+  }
+  .sort-select {
+    background: #1e293b; border: 1px solid #334155; border-radius: 8px;
+    color: #e2e8f0; padding: 8px 16px; font-size: 13px;
+    font-family: inherit; outline: none; cursor: pointer;
+  }
+
+  .kpi-row {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+    margin-bottom: 28px;
+  }
+  .kpi {
+    background: #1e293b; border: 1px solid #334155; border-radius: 12px;
+    padding: 20px;
+  }
+  .kpi .label { color: #94a3b8; font-size: 12px; margin-bottom: 8px; }
+  .kpi .value { color: #f1f5f9; font-size: 26px; font-weight: 700; }
+  .kpi .sub { color: #64748b; font-size: 11px; margin-top: 4px; }
+
+  .video-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+  }
+  .video-card {
+    background: #1e293b; border: 1px solid #334155; border-radius: 12px;
+    overflow: hidden; transition: all 0.2s;
+    display: flex; flex-direction: column;
+  }
+  .video-card:hover {
+    border-color: #ef4444; transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(239, 68, 68, 0.1);
+  }
+  .thumbnail-wrap {
+    position: relative; aspect-ratio: 16/9; background: #0f172a;
+    overflow: hidden;
+  }
+  .thumbnail-wrap img {
+    width: 100%; height: 100%; object-fit: cover;
+  }
+  .rank-badge {
+    position: absolute; top: 10px; left: 10px;
+    background: rgba(0,0,0,0.75); color: #fff;
+    padding: 4px 10px; border-radius: 4px; font-weight: 700; font-size: 12px;
+  }
+  .type-badge {
+    position: absolute; top: 10px; right: 10px;
+    padding: 4px 10px; border-radius: 4px; font-weight: 600; font-size: 11px;
+  }
+  .type-badge.shorts { background: #ef4444; color: #fff; }
+  .type-badge.long { background: #3b82f6; color: #fff; }
+  .duration-badge {
+    position: absolute; bottom: 10px; right: 10px;
+    background: rgba(0,0,0,0.75); color: #fff;
+    padding: 2px 6px; border-radius: 3px; font-size: 11px; font-family: monospace;
+  }
+  .video-body { padding: 16px; flex: 1; display: flex; flex-direction: column; }
+  .video-title {
+    color: #f1f5f9; font-size: 14px; font-weight: 600; line-height: 1.4;
+    margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .channel-row {
+    display: flex; align-items: center; gap: 8px;
+    color: #94a3b8; font-size: 12px; margin-bottom: 12px;
+  }
+  .channel-kind {
+    background: #334155; color: #cbd5e1;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .channel-kind.influencer { background: #7c3aed; color: #fff; }
+  .channel-kind.official { background: #0891b2; color: #fff; }
+  .stats-row {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+    margin-bottom: 12px; padding-top: 12px; border-top: 1px solid #334155;
+  }
+  .stat { text-align: center; }
+  .stat .num { color: #f1f5f9; font-size: 14px; font-weight: 600; }
+  .stat .lbl { color: #64748b; font-size: 10px; margin-top: 2px; }
+  .meta-row {
+    display: flex; justify-content: space-between; align-items: center;
+    color: #64748b; font-size: 11px; margin-top: auto;
+  }
+  .meta-tag {
+    background: #1e3a8a; color: #93c5fd;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .meta-category {
+    background: #713f12; color: #fcd34d;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .card-link {
+    display: block; padding: 10px; background: #0f172a; color: #38bdf8;
+    text-align: center; font-size: 12px; text-decoration: none;
+    border-top: 1px solid #334155;
+  }
+  .card-link:hover { background: #1e293b; color: #7dd3fc; }
+
+  .empty-state {
+    text-align: center; padding: 40px; color: #64748b;
+  }
+
+  .footer {
+    margin-top: 48px; padding-top: 20px; border-top: 1px solid #334155;
+    color: #64748b; font-size: 12px; text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    body { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <a href="./index.html" class="back-link">뷰티 × Instagram 릴스 대시보드</a>
+
+  <header>
+    <div>
+      <h1>다이소 × YouTube 최신 영상 대시보드</h1>
+      <div class="subtitle">다이소 Top 10 브랜드/제품 관련 YouTube 영상 · 최근 90일 업로드 기준 · 검색어 기반 관련성 · Shorts + 일반 영상</div>
+    </div>
+    <div class="timestamp" id="ts">-</div>
+  </header>
+
+  <div class="kpi-row" id="kpi-row"></div>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">전체</button>
+    <button class="filter-btn" data-filter="Shorts">Shorts</button>
+    <button class="filter-btn" data-filter="일반">일반 영상</button>
+    <select class="sort-select" id="sort-select">
+      <option value="score">점수순</option>
+      <option value="views">조회수순</option>
+      <option value="likes">좋아요순</option>
+      <option value="date">최신순</option>
+    </select>
+  </div>
+
+  <div class="video-grid" id="video-grid"></div>
+
+  <div class="footer">
+    자동 업데이트: 평일 14:59 (daiso-beauty-instagram-weekly) · YouTube Top 10 전용 페이지
+  </div>
+
+</div>
+
+<script>
+// YT_DATA_BEGIN
+const YT_DATA = {
+  "lastUpdated": "2026-04-23T03:38:15+00:00",
+  "videos": [
+    {
+      "title": "피부 좋아지는 다이소 화장품 꿀템 5가지! \"다이소에서 보이면 꼭 사세요\" | 다이소 화장품 추천",
+      "url": "https://www.youtube.com/watch?v=zSIpGdP2iHA",
+      "channel": "닥터블랑_예뻐지는비결",
+      "channelId": "UCXFd79l1HUumoM6spU4D1Cw",
+      "channelUrl": "https://www.youtube.com/channel/UCXFd79l1HUumoM6spU4D1Cw",
+      "views": 2322325,
+      "likes": 48226,
+      "uploadDate": "2025-02-27",
+      "lengthSeconds": 822.0,
+      "videoType": "VOD",
+      "category": "추천",
+      "tag": "에그캡슐팩",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/zSIpGdP2iHA/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 714.49,
+      "rank": 1
+    },
+    {
+      "title": "\"Department stores charge 200,000 won, Daiso charges 5,000 won... If you tell them this, patients...",
+      "url": "https://www.youtube.com/watch?v=q2J2JBbKz4o",
+      "channel": "박경열의 피부상담소",
+      "channelId": "UCT6W2AUy8If3fN1OoKIFUsg",
+      "channelUrl": "https://www.youtube.com/channel/UCT6W2AUy8If3fN1OoKIFUsg",
+      "views": 912022,
+      "likes": 25113,
+      "uploadDate": "2026-02-13",
+      "lengthSeconds": 1142.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "다이소 화장품 추천",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/q2J2JBbKz4o/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 342.33,
+      "rank": 2
+    },
+    {
+      "title": "If you do that, you'll get more acne!!!!🫢 I'll teach you how to use an aloe pack properly | Don't...",
+      "url": "https://www.youtube.com/watch?v=Wn2prlF0GLc",
+      "channel": "한별두별[Hanna]",
+      "channelId": "UCYfAankzCbhjIV4EsU4Vzdw",
+      "channelUrl": "https://www.youtube.com/channel/UCYfAankzCbhjIV4EsU4Vzdw",
+      "views": 725036,
+      "likes": 16569,
+      "uploadDate": "2024-03-11",
+      "lengthSeconds": 350.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "김정문알로에 큐어알파 알로에시카 수딩젤",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/Wn2prlF0GLc/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 238.19,
+      "rank": 3
+    },
+    {
+      "title": "대부분 모르는 세럼 바를 때 실수 5가지 | 세럼 효과 제대로 보는 방법",
+      "url": "https://www.youtube.com/watch?v=56-s3SCtoQc",
+      "channel": "닥터블랑_예뻐지는비결",
+      "channelId": "UCXFd79l1HUumoM6spU4D1Cw",
+      "channelUrl": "https://www.youtube.com/channel/UCXFd79l1HUumoM6spU4D1Cw",
+      "views": 920844,
+      "likes": 10765,
+      "uploadDate": "2025-09-04",
+      "lengthSeconds": 576.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "리더스 바이오셀 포어 제로 마스크",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/56-s3SCtoQc/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 199.73,
+      "rank": 4
+    },
+    {
+      "title": "30 Daiso Must-Haves, Recommended by Three Best Friend Friends 💯 | Daiso Recommendations",
+      "url": "https://www.youtube.com/watch?v=hp6pc0UhXis",
+      "channel": "서윤초이 seoyoonchoi",
+      "channelId": "UCNOA-IwgMAatMFGwdB5n-2Q",
+      "channelUrl": "https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q",
+      "views": 406731,
+      "likes": 13523,
+      "uploadDate": "2025-10-18",
+      "lengthSeconds": 1620.0,
+      "videoType": "VOD",
+      "category": "추천",
+      "tag": "다이소 뷰티 하울",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/hp6pc0UhXis/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 175.9,
+      "rank": 5
+    },
+    {
+      "title": "📢 [속보] 다이소 4탄, 지냐 또 털어와.. 제품 총 개수만 76개⁉️ | 다이소 신상 팩폭 리뷰🗯️ | 이정도면 다이소 VIP 시켜주세요 (딘토, 에뛰드, 스킨케어 등)",
+      "url": "https://www.youtube.com/watch?v=63_k5b6vjZc",
+      "channel": "지냐 Jinyaa",
+      "channelId": "UCRiIf6rt91BVfZVtURRXlOw",
+      "channelUrl": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
+      "views": 596476,
+      "likes": 8244,
+      "uploadDate": "2025-03-11",
+      "lengthSeconds": 1960.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "다이소 뷰티 하울",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/63_k5b6vjZc/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 142.09,
+      "rank": 6
+    },
+    {
+      "title": "I'm obsessed with this... It completely transformed my skin!! A collection of skincare essentials...",
+      "url": "https://www.youtube.com/watch?v=066D9rIm5Hg",
+      "channel": "뷰드름 유튜버 인씨",
+      "channelId": "UCrlUlicedicJ5mlibqC62Eg",
+      "channelUrl": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
+      "views": 471519,
+      "likes": 9016,
+      "uploadDate": "2025-02-18",
+      "lengthSeconds": 2151.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "셀더마데일리 히알루 에센스겔 마스크",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/066D9rIm5Hg/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 137.31,
+      "rank": 7
+    },
+    {
+      "title": "📢 다이소 5탄, 자타공인 다이소 털기 장인 돌아왔습니다‼️ | 역대급 제품 개수.. 무려 86개💦 | 다이소 신상 팩폭 리뷰🗯️ (머지,본셉,입큰,드롭비,듀이트리 등..)",
+      "url": "https://www.youtube.com/watch?v=bmutuIt5PFQ",
+      "channel": "지냐 Jinyaa",
+      "channelId": "UCRiIf6rt91BVfZVtURRXlOw",
+      "channelUrl": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
+      "views": 546852,
+      "likes": 7828,
+      "uploadDate": "2025-07-01",
+      "lengthSeconds": 1839.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "다이소 뷰티 하울",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/bmutuIt5PFQ/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 132.97,
+      "rank": 8
+    },
+    {
+      "title": "다이소에서 이거 보이면 그냥 쟁이세요...100만원 넘게 쓴 사람이 몰래 쟁이는🫢화장품 레전드템 9가지🔥",
+      "url": "https://www.youtube.com/watch?v=Oae2QogWa08",
+      "channel": "뷰드름 유튜버 인씨",
+      "channelId": "UCrlUlicedicJ5mlibqC62Eg",
+      "channelUrl": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
+      "views": 384115,
+      "likes": 8372,
+      "uploadDate": "2025-05-13",
+      "lengthSeconds": 1498.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "밀착쿠션에어퍼프",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/Oae2QogWa08/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 122.13,
+      "rank": 9
+    },
+    {
+      "title": "📢 다이소 6탄, 신상이 잔뜩 나왔으면 리뷰 낋여와야지✊🏻 | 딘토&파넬&태그 신상 쿠션, 어떨지..?👀 | 다이소 신상 팩폭 리뷰🗯️ | 꼭 사야하는 다이소 추천템🍯",
+      "url": "https://www.youtube.com/watch?v=KjO82oL-z6Q",
+      "channel": "지냐 Jinyaa",
+      "channelId": "UCRiIf6rt91BVfZVtURRXlOw",
+      "channelUrl": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
+      "views": 445181,
+      "likes": 7176,
+      "uploadDate": "2025-11-14",
+      "lengthSeconds": 1904.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "밀착쿠션에어퍼프",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/KjO82oL-z6Q/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 116.28,
+      "rank": 10
+    },
+    {
+      "title": "(Super close-up) Full makeup with Daiso cosmetics / Double eye makeup",
+      "url": "https://www.youtube.com/watch?v=jjXD3xp9xyI",
+      "channel": "시네 si-ne",
+      "channelId": "UC0-yyrDjTJ1YFzmV12vEp0Q",
+      "channelUrl": "https://www.youtube.com/channel/UC0-yyrDjTJ1YFzmV12vEp0Q",
+      "views": 311220,
+      "likes": 5981,
+      "uploadDate": "2025-09-05",
+      "lengthSeconds": 466.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "다이소 뷰티 하울",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/jjXD3xp9xyI/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 90.93,
+      "rank": 11
+    },
+    {
+      "title": "[SUB]의사들의 다이소 추천템❓솔직한 내생각. 생태교란 화장품, 영양제 팩트폭격🔥 Doctors’ Daiso Picks❓Cosmetics & Supplements ",
+      "url": "https://www.youtube.com/watch?v=mKZV5hsD59Y",
+      "channel": "소살 Sora Salon",
+      "channelId": "UCPkgjWwYOiMKqNJpwdA8lPA",
+      "channelUrl": "https://www.youtube.com/channel/UCPkgjWwYOiMKqNJpwdA8lPA",
+      "views": 310375,
+      "likes": 5019,
+      "uploadDate": "2025-07-26",
+      "lengthSeconds": 1080.0,
+      "videoType": "VOD",
+      "category": "추천",
+      "tag": "에그캡슐팩",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/mKZV5hsD59Y/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 81.23,
+      "rank": 12
+    },
+    {
+      "title": "Full makeup with cosmetics that are much cheaper than Daiso #fashion #haul #review #Ali #AliExpre...",
+      "url": "https://www.youtube.com/watch?v=7S1xFVzK-I4",
+      "channel": "지하니",
+      "channelId": "UCQr8QXrzpIE1yCz7l283rqQ",
+      "channelUrl": "https://www.youtube.com/channel/UCQr8QXrzpIE1yCz7l283rqQ",
+      "views": 437991,
+      "likes": 3701,
+      "uploadDate": "2024-01-27",
+      "lengthSeconds": 672.0,
+      "videoType": "VOD",
+      "category": "하울",
+      "tag": "다이소 뷰티 하울",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/7S1xFVzK-I4/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 80.81,
+      "rank": 13
+    },
+    {
+      "title": "Around 100 Products😱‼️ Makeup With Lots of Daiso Cosmetics🛍️",
+      "url": "https://www.youtube.com/watch?v=hz1-xCRiodY",
+      "channel": "안다 ANDA",
+      "channelId": "UCn_fZLXut_Tj9-QihG_9l0g",
+      "channelUrl": "https://www.youtube.com/channel/UCn_fZLXut_Tj9-QihG_9l0g",
+      "views": 317774,
+      "likes": 4883,
+      "uploadDate": "2024-12-08",
+      "lengthSeconds": 2283.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "다이소 화장품 추천",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/hz1-xCRiodY/hqdefault.jpg",
+      "channelKind": "인플루언서",
+      "score": 80.61,
+      "rank": 14
+    },
+    {
+      "title": "✨일본 다이소 털어왔습니다🏢풀메 해 보겠슴다",
+      "url": "https://www.youtube.com/watch?v=J2X3TtA5O88",
+      "channel": "회사원A",
+      "channelId": "UCnekLiljel-Px4ClMC7b3mg",
+      "channelUrl": "https://www.youtube.com/channel/UCnekLiljel-Px4ClMC7b3mg",
+      "views": 288649,
+      "likes": 5019,
+      "uploadDate": "2024-11-10",
+      "lengthSeconds": 1001.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "다이소 뷰티 하울",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/J2X3TtA5O88/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 79.05,
+      "rank": 15
+    },
+    {
+      "title": "If you don't buy this from Daiso, you're missing out! 🔥 Top 3 cosmetic products recommended by de...",
+      "url": "https://www.youtube.com/watch?v=G5JY01PiIbo",
+      "channel": "피부트래블러",
+      "channelId": "UCodG0bJ3OICRA1bg4TBdU9A",
+      "channelUrl": "https://www.youtube.com/channel/UCodG0bJ3OICRA1bg4TBdU9A",
+      "views": 366371,
+      "likes": 3585,
+      "uploadDate": "2025-04-02",
+      "lengthSeconds": 439.0,
+      "videoType": "VOD",
+      "category": "추천",
+      "tag": "셀더마데일리 히알루 에센스겔 마스크",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/G5JY01PiIbo/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 72.49,
+      "rank": 16
+    },
+    {
+      "title": "I can't see the effect of VT Riddle Shot. A dermatologist wrote a review!|Watch before applying❗",
+      "url": "https://www.youtube.com/watch?v=fILJTripb54",
+      "channel": "피부가 예뻐지는 10분 · 피부텐텐",
+      "channelId": "UCxA9k7UJz50ZJPa5aUGf7fw",
+      "channelUrl": "https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw",
+      "views": 373860,
+      "likes": 3222,
+      "uploadDate": "2024-04-09",
+      "lengthSeconds": 488.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "VT PDRN 광채리프팅마스크",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/fILJTripb54/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 69.61,
+      "rank": 17
+    },
+    {
+      "title": "(*Eng) 2024 토너 패드 1위는?🥇 30여 종 구매 추천?! 수분 진정, 모공, 여드름, 흔적 개선 TOP을 찾아라! Best Toner Pads by Directorpi",
+      "url": "https://www.youtube.com/watch?v=KkLCZmU68_U",
+      "channel": "디렉터 파이",
+      "channelId": "UCqrNqg3UgVoD3Sa-F_TxuSA",
+      "channelUrl": "https://www.youtube.com/channel/UCqrNqg3UgVoD3Sa-F_TxuSA",
+      "views": 304364,
+      "likes": 3515,
+      "uploadDate": "2024-10-18",
+      "lengthSeconds": 1467.0,
+      "videoType": "VOD",
+      "category": "추천",
+      "tag": "리더스 바이오셀 포어 제로 마스크",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/KkLCZmU68_U/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 65.59,
+      "rank": 18
+    },
+    {
+      "title": "다이소에서 이런 퀄리티가?! ✨명품화장품 뺨치는 다이소 기미잡티 화장품 추천템 7가지!",
+      "url": "https://www.youtube.com/watch?v=e6FR9Qe9DzE",
+      "channel": "데일리 미라클",
+      "channelId": "UCk1BE73NfSUGz19LpNg9E-w",
+      "channelUrl": "https://www.youtube.com/channel/UCk1BE73NfSUGz19LpNg9E-w",
+      "views": 280428,
+      "likes": 3604,
+      "uploadDate": "2025-05-01",
+      "lengthSeconds": 481.0,
+      "videoType": "VOD",
+      "category": "추천",
+      "tag": "메디필 멜라논엑스 기미앰플마스크",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/e6FR9Qe9DzE/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 64.08,
+      "rank": 19
+    },
+    {
+      "title": "피부과, 에스테틱급 이라는 다이소 '그 제품' 진짜 좋을까?",
+      "url": "https://www.youtube.com/watch?v=FVnZjVn1s9g",
+      "channel": "단이 DANI",
+      "channelId": "UCxAdlKnB5u0a7A-iqRa5jYw",
+      "channelUrl": "https://www.youtube.com/channel/UCxAdlKnB5u0a7A-iqRa5jYw",
+      "views": 613035,
+      "likes": 0,
+      "uploadDate": "2025-04-13",
+      "lengthSeconds": 846.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "메디필 멜라논엑스 기미앰플마스크",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/FVnZjVn1s9g/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 61.3,
+      "rank": 20
+    },
+    {
+      "title": "\"알로에 겔 진짜 효과 있나요?\" | 이런 분들이 사용하면 위험합니다",
+      "url": "https://www.youtube.com/watch?v=KR-2leJrgh4",
+      "channel": "동네 의사 이상욱",
+      "channelId": "UC0TR0Ciw0rQSJzgU5NiwvRQ",
+      "channelUrl": "https://www.youtube.com/channel/UC0TR0Ciw0rQSJzgU5NiwvRQ",
+      "views": 259184,
+      "likes": 0,
+      "uploadDate": "",
+      "lengthSeconds": 864.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "김정문알로에 큐어알파 알로에시카 수딩젤",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/KR-2leJrgh4/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 25.92,
+      "rank": 21
+    },
+    {
+      "title": "비타민C앰플 효과적으로 바르는 방법🔥",
+      "url": "https://www.youtube.com/watch?v=LDFJl9N6B3A",
+      "channel": "헤블 HEBLE",
+      "channelId": "UCb8_UiUdnM9S7r1aYPAsSMw",
+      "channelUrl": "https://www.youtube.com/channel/UCb8_UiUdnM9S7r1aYPAsSMw",
+      "views": 257699,
+      "likes": 0,
+      "uploadDate": "",
+      "lengthSeconds": 240.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "본셉 비타씨 동결 건조 더블샷 앰플 키트",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/LDFJl9N6B3A/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 25.77,
+      "rank": 22
+    },
+    {
+      "title": "(스킨케어편) 저는 다이소에서 이것만 죽어라 써요... 200만원 넘게 쓴 사람이 추천하는;;😲 스킨케어 인생템 모음.zip🔥",
+      "url": "https://www.youtube.com/watch?v=5sxQEJ8VLGg",
+      "channel": "뷰드름 유튜버 인씨",
+      "channelId": "UCrlUlicedicJ5mlibqC62Eg",
+      "channelUrl": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
+      "views": 217666,
+      "likes": 0,
+      "uploadDate": "",
+      "lengthSeconds": 1423.0,
+      "videoType": "VOD",
+      "category": "추천",
+      "tag": "셀더마데일리 히알루 에센스겔 마스크",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/5sxQEJ8VLGg/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 21.77,
+      "rank": 23
+    },
+    {
+      "title": "3,000원짜리 네오파우더 저렴이...? 다이소 가면 그냥 이거 사세요🔥 10만원 구매 후기🤓 (추천템, 인생템)",
+      "url": "https://www.youtube.com/watch?v=1nN5JkhbrRg",
+      "channel": "뷰드름 유튜버 인씨",
+      "channelId": "UCrlUlicedicJ5mlibqC62Eg",
+      "channelUrl": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
+      "views": 208243,
+      "likes": 0,
+      "uploadDate": "",
+      "lengthSeconds": 921.0,
+      "videoType": "VOD",
+      "category": "추천",
+      "tag": "밀착쿠션에어퍼프",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/1nN5JkhbrRg/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 20.82,
+      "rank": 24
+    },
+    {
+      "title": "I will tell you how to get essential skin care products at a low price using Daiso items.",
+      "url": "https://www.youtube.com/watch?v=_ykkL2Q9X0w",
+      "channel": "한별두별[Hanna]",
+      "channelId": "UCYfAankzCbhjIV4EsU4Vzdw",
+      "channelUrl": "https://www.youtube.com/channel/UCYfAankzCbhjIV4EsU4Vzdw",
+      "views": 207174,
+      "likes": 0,
+      "uploadDate": "",
+      "lengthSeconds": 906.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "김정문알로에 큐어알파 알로에시카 수딩젤",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/_ykkL2Q9X0w/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 20.72,
+      "rank": 25
+    },
+    {
+      "title": "\"This isn't Daiso-level.\" If you see these 6 items at Daiso, stock up! ㅣDaiso cosmetics recommend...",
+      "url": "https://www.youtube.com/watch?v=uIg6zNqW5l0",
+      "channel": "박지윤의 피부 설명서",
+      "channelId": "UCKAwUq0rYJ7JVkwK-XWADnQ",
+      "channelUrl": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ",
+      "views": 197711,
+      "likes": 0,
+      "uploadDate": "",
+      "lengthSeconds": 753.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "셀더마데일리 히알루 에센스겔 마스크",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/uIg6zNqW5l0/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 19.77,
+      "rank": 26
+    },
+    {
+      "title": "\"다이소에서 보이면 꼭 사세요\" 피부 좋아지는 다이소 화장품 꿀템 5가지!",
+      "url": "https://www.youtube.com/watch?v=wIO1ISoCKoA",
+      "channel": "닥터블랑_예뻐지는비결",
+      "channelId": "UCXFd79l1HUumoM6spU4D1Cw",
+      "channelUrl": "https://www.youtube.com/channel/UCXFd79l1HUumoM6spU4D1Cw",
+      "views": 187825,
+      "likes": 0,
+      "uploadDate": "",
+      "lengthSeconds": 781.0,
+      "videoType": "VOD",
+      "category": "추천",
+      "tag": "메디필 멜라논엑스 기미앰플마스크",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/wIO1ISoCKoA/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 18.78,
+      "rank": 27
+    },
+    {
+      "title": "안 써보면 모르는 피부 좋아지는 다이소 화장품 3가지!",
+      "url": "https://www.youtube.com/watch?v=LudbSqoVGx4",
+      "channel": "3분동안 최원준",
+      "channelId": "UCVrEU6vtQ4hU3ANgehCirzw",
+      "channelUrl": "https://www.youtube.com/channel/UCVrEU6vtQ4hU3ANgehCirzw",
+      "views": 175512,
+      "likes": 0,
+      "uploadDate": "",
+      "lengthSeconds": 180.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "VT PDRN 광채리프팅마스크",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/LudbSqoVGx4/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 17.55,
+      "rank": 28
+    },
+    {
+      "title": "It's a popular item, so why isn't it better? 😩 I've gathered all the popular Daiso items... Packp...",
+      "url": "https://www.youtube.com/watch?v=Kuu9cRfculc",
+      "channel": "한별두별[Hanna]",
+      "channelId": "UCYfAankzCbhjIV4EsU4Vzdw",
+      "channelUrl": "https://www.youtube.com/channel/UCYfAankzCbhjIV4EsU4Vzdw",
+      "views": 170466,
+      "likes": 0,
+      "uploadDate": "",
+      "lengthSeconds": 1079.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "김정문알로에 큐어알파 알로에시카 수딩젤",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/Kuu9cRfculc/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 17.05,
+      "rank": 29
+    },
+    {
+      "title": "다이소 화장품 비추템!!!! 사지마ㅏㅏㅏ!!!!",
+      "url": "https://www.youtube.com/watch?v=uJPV9yRIqgo",
+      "channel": "잠티",
+      "channelId": "UCxR4o2eiQz_nc2dUXGyysCw",
+      "channelUrl": "https://www.youtube.com/channel/UCxR4o2eiQz_nc2dUXGyysCw",
+      "views": 170364,
+      "likes": 0,
+      "uploadDate": "",
+      "lengthSeconds": 477.0,
+      "videoType": "VOD",
+      "category": "리뷰",
+      "tag": "에그캡슐팩",
+      "brand": "",
+      "productRank": null,
+      "thumbnail": "https://i.ytimg.com/vi/uJPV9yRIqgo/hqdefault.jpg",
+      "channelKind": "일반",
+      "score": 17.04,
+      "rank": 30
+    }
+  ]
+};
+// YT_DATA_END
+
+function fmt(n) {
+  if (!n && n !== 0) return '-';
+  if (n >= 10000) return (n / 10000).toFixed(1) + '만';
+  if (n >= 1000) return (n / 1000).toFixed(1) + '천';
+  return n.toString();
+}
+
+function fmtDuration(s) {
+  if (!s) return '-';
+  const m = Math.floor(s / 60);
+  const sec = s % 60;
+  return `${m}:${sec.toString().padStart(2, '0')}`;
+}
+
+let currentFilter = 'all';
+let currentSort = 'score';
+
+function render() {
+  const container = document.getElementById('video-grid');
+  container.innerHTML = '';
+
+  let vids = [...(YT_DATA.videos || [])];
+  if (currentFilter !== 'all') {
+    vids = vids.filter(v => v.videoType === currentFilter);
+  }
+
+  const sortKey = currentSort;
+  vids.sort((a, b) => {
+    if (sortKey === 'score') return (b.score || 0) - (a.score || 0);
+    if (sortKey === 'views') return (b.views || 0) - (a.views || 0);
+    if (sortKey === 'likes') return (b.likes || 0) - (a.likes || 0);
+    if (sortKey === 'date') return (b.uploadDate || '').localeCompare(a.uploadDate || '');
+    return 0;
+  });
+
+  if (!vids.length) {
+    container.innerHTML = '<div class="empty-state">해당 조건에 맞는 영상이 없습니다.</div>';
+    return;
+  }
+
+  vids.forEach((v, i) => {
+    const card = document.createElement('div');
+    card.className = 'video-card';
+    const typeClass = v.videoType === 'Shorts' ? 'shorts' : 'long';
+    const kindClass = v.channelKind === '인플루언서' ? 'influencer' :
+                       v.channelKind === '공식' ? 'official' : '';
+    card.innerHTML = `
+      <div class="thumbnail-wrap">
+        <img src="${v.thumbnail || ''}" alt="${v.title}" loading="lazy"
+             onerror="this.style.display='none'">
+        <span class="rank-badge">#${v.rank || i + 1}</span>
+        <span class="type-badge ${typeClass}">${v.videoType}</span>
+        <span class="duration-badge">${fmtDuration(v.lengthSeconds)}</span>
+      </div>
+      <div class="video-body">
+        <div class="video-title">${v.title}</div>
+        <div class="channel-row">
+          <span>${v.channel}</span>
+          <span class="channel-kind ${kindClass}">${v.channelKind || '기타'}</span>
+        </div>
+        <div class="stats-row">
+          <div class="stat"><div class="num">${fmt(v.views)}</div><div class="lbl">조회수</div></div>
+          <div class="stat"><div class="num">${fmt(v.likes)}</div><div class="lbl">좋아요</div></div>
+          <div class="stat"><div class="num">${v.score || '-'}</div><div class="lbl">점수</div></div>
+        </div>
+        <div class="meta-row">
+          <span class="meta-tag">${v.tag || ''}</span>
+          <span class="meta-category">${v.category || ''}</span>
+          <span>${v.uploadDate || ''}</span>
+        </div>
+      </div>
+      <a class="card-link" href="${v.url}" target="_blank" rel="noopener">YouTube에서 보기 →</a>
+    `;
+    container.appendChild(card);
+  });
+}
+
+function renderKPIs() {
+  const vids = YT_DATA.videos || [];
+  const total = vids.length;
+  const shorts = vids.filter(v => v.videoType === 'Shorts').length;
+  const totalViews = vids.reduce((s, v) => s + (v.views || 0), 0);
+  const totalLikes = vids.reduce((s, v) => s + (v.likes || 0), 0);
+  const kpi = document.getElementById('kpi-row');
+  kpi.innerHTML = `
+    <div class="kpi">
+      <div class="label">총 영상 수</div>
+      <div class="value">${total}</div>
+      <div class="sub">Top 10 collection</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Shorts / 일반</div>
+      <div class="value">${shorts} / ${total - shorts}</div>
+      <div class="sub">숏폼 비중 ${total ? Math.round(shorts * 100 / total) : 0}%</div>
+    </div>
+    <div class="kpi">
+      <div class="label">총 조회수</div>
+      <div class="value">${fmt(totalViews)}</div>
+      <div class="sub">누적</div>
+    </div>
+    <div class="kpi">
+      <div class="label">총 좋아요</div>
+      <div class="value">${fmt(totalLikes)}</div>
+      <div class="sub">누적</div>
+    </div>
+  `;
+}
+
+function bindControls() {
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      currentFilter = b.dataset.filter;
+      render();
+    });
+  });
+  document.getElementById('sort-select').addEventListener('change', (e) => {
+    currentSort = e.target.value;
+    render();
+  });
+}
+
+document.getElementById('ts').textContent =
+  'Last updated: ' + (YT_DATA.lastUpdated || new Date().toISOString());
+renderKPIs();
+render();
+bindControls();
+</script>
+
+</body>
+</html>
