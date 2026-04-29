@@ -1,0 +1,27 @@
+{
+  "lastUpdated": "2026-04-29T12:48:03+09:00",
+  "auto_refresh": true,
+  "refresh_cron": "weekly",
+  "accounts": [
+    {
+      "platform": "instagram",
+      "username": "jangsu_note",
+      "profile_url": "https://www.instagram.com/jangsu_note/"
+    },
+    {
+      "platform": "instagram",
+      "username": "beauty_piona",
+      "profile_url": "https://www.instagram.com/beauty_piona/"
+    },
+    {
+      "platform": "instagram",
+      "username": "ellie._.cos",
+      "profile_url": "https://www.instagram.com/ellie._.cos/"
+    },
+    {
+      "platform": "youtube",
+      "username": "Jinyaa",
+      "profile_url": "https://www.youtube.com/@Jinyaa"
+    }
+  ]
+}
