@@ -1,0 +1,79 @@
+{
+  "platform": "instagram",
+  "username": "lobit_beauty",
+  "profile_url": "https://www.instagram.com/lobit_beauty/",
+  "fullname": "로빗 lobit",
+  "followers": 9515,
+  "following": 188,
+  "post_count_total": 32,
+  "bio": "예술가 / 뷰티 꿀팁과 꿀템을 공유해요",
+  "external_link": "link.inpock.co.kr/lobit_beauty",
+  "highlights": [
+    "세일정보모음",
+    "내돈내산꿀템",
+    "꿀팁모음",
+    "신상꿀템정보",
+    "여드름박멸루틴"
+  ],
+  "youtube": "로빗뷰티",
+  "email": "lobit8080@naver.com",
+  "sample_size": 3,
+  "sample_reels": [
+    {
+      "code": "DXl_u5My3O9",
+      "date": "2026-04-26",
+      "likes": 1535,
+      "comments": 25,
+      "caption": "광고❌ 다이소 레전드 퍼프 브러쉬 모음집 #다이소 #올리브영 #다이소화장품 #다이소꿀템 #다이소퍼프브러쉬",
+      "daiso_direct": true
+    },
+    {
+      "code": "DXbs1RvSn7d",
+      "date": "2026-04-22",
+      "likes": 4070,
+      "comments": 43,
+      "caption": "광고❌안보면 후회하는 올영보다 훨씬 좋은 다이소템 4탄 #다이소 #올리브영 #다이소화장품 #다이소꿀템 #코덕",
+      "daiso_direct": true
+    },
+    {
+      "code": "DXHFyvKSFo0",
+      "date": "2026-04-14",
+      "likes": 526,
+      "comments": 33,
+      "caption": "안보면 후회하는 올영 흔적 요철 순삭템 #광고 #올영추천템 #올영인생템 #코덕 #아이소이"
+    }
+  ],
+  "avg_likes": 2044,
+  "avg_comments": 34,
+  "avg_engagement": 2078,
+  "engagement_rate": 21.84,
+  "engagement_rate_unit": "percent",
+  "posts_last_30d_estimate": 6,
+  "posts_last_30d_note": "추정값 — 8개 visible 중 3개 확인 모두 30일 내. 나머지 5개도 다수 30일 내 가능성 높음",
+  "evaluated_at": "2026-04-29T17:21:26+09:00",
+  "notes": "★ 강력 추천 ★ 다이소 직접 언급 다수 (캡션+해시태그). '코덕' 자기인식. ER 21.84%로 매우 높음. 더랩바이블랑두 직접 언급은 미발견. 협업 우선순위 ★",
+  "score": {
+    "total": 92,
+    "breakdown": {
+      "engagement": 100,
+      "brand_fit": 95,
+      "consistency": 80,
+      "follower_scale": 60
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    },
+    "raw": 91.75
+  },
+  "grade": "S",
+  "collab_priority": "high",
+  "estimation_flags": [
+    "brand_fit_score (subjective)",
+    "posts_last_30d_estimate",
+    "consistency (estimate)"
+  ],
+  "history": []
+}
