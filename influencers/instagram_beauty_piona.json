@@ -1,0 +1,58 @@
+{
+  "platform": "instagram",
+  "username": "beauty_piona",
+  "profile_url": "https://www.instagram.com/beauty_piona/",
+  "fullname": "문혜경",
+  "followers": 6144,
+  "following": 6559,
+  "post_count_total": 574,
+  "bio": "",
+  "sample_size": 7,
+  "avg_likes": 3461,
+  "avg_comments": 251,
+  "avg_engagement": 3712,
+  "engagement_rate": 0.6042,
+  "top_post_likes": 14591,
+  "posts_last_30d": 5,
+  "brand_fit_score": 100,
+  "brand_fit_notes": "username \"beauty_piona\". 다이소 화장품 reel 4,802 likes (DXOV_7-AgNn, 4/17), 댓글 636개로 매우 높은 댓글 비율",
+  "sample_data_evidence": {
+    "likes_sample": [
+      4807,
+      3652,
+      14591,
+      32,
+      113,
+      221,
+      813
+    ],
+    "comments_sample": [
+      636,
+      491,
+      514,
+      3,
+      22,
+      30,
+      61
+    ],
+    "top_reel": "https://www.instagram.com/p/DXOV_7-AgNn/"
+  },
+  "evaluated_at": "2026-04-29T12:48:03+09:00",
+  "notes": "실측 (likes/comments는 reel 페이지 인라인 JSON에서 추출, 7개 샘플). 댓글 수가 매우 많아 진성 인게이지먼트 신호 강함.",
+  "score": {
+    "total": 93.0,
+    "breakdown": {
+      "engagement": 100,
+      "brand_fit": 100,
+      "consistency": 80,
+      "follower_scale": 60
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "S"
+}
