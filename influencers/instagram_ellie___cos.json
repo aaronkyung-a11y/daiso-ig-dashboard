@@ -1,0 +1,58 @@
+{
+  "platform": "instagram",
+  "username": "ellie._.cos",
+  "profile_url": "https://www.instagram.com/ellie._.cos/",
+  "fullname": "ellie エリ",
+  "followers": 1816,
+  "following": 988,
+  "post_count_total": 298,
+  "bio": "",
+  "sample_size": 7,
+  "avg_likes": 3094,
+  "avg_comments": 24,
+  "avg_engagement": 3118,
+  "engagement_rate": 1.7169,
+  "top_post_likes": 8087,
+  "posts_last_30d": 5,
+  "brand_fit_score": 100,
+  "brand_fit_notes": "★ 더랩 바이 블랑두 클리어 히알 물광 토너 직접 광고/제품제공 받음. DXd9ep8k404 (4/23, 886 likes). 우리 브랜드 직접 협업 확인됨.",
+  "sample_data_evidence": {
+    "likes_sample": [
+      6280,
+      6187,
+      8087,
+      65,
+      32,
+      975,
+      32
+    ],
+    "comments_sample": [
+      52,
+      30,
+      30,
+      16,
+      12,
+      23,
+      4
+    ],
+    "top_reel_blanc_doux": "https://www.instagram.com/p/DXd9ep8k404/"
+  },
+  "evaluated_at": "2026-04-29T12:48:03+09:00",
+  "notes": "★ 우리 브랜드 (더랩바이블랑두) 콘텐츠 직접 작성 인플루언서. 마이크로 사이즈지만 viral 지수 매우 높음 (ER 172%).",
+  "score": {
+    "total": 93.0,
+    "breakdown": {
+      "engagement": 100,
+      "brand_fit": 100,
+      "consistency": 80,
+      "follower_scale": 60
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "S"
+}
