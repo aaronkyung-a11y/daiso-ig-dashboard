@@ -109,7 +109,7 @@ tr.row:hover { background: #0f172a; }
 </div>
 
 <div class="section">
-  <h2>📊 분석된 계정 (4)</h2>
+  <h2 id="analyzedHeader">📊 분석된 계정 (4)</h2>
   <div style="overflow-x:auto;">
   <table>
     <thead><tr>
@@ -450,7 +450,7 @@ function render() {
     </td></tr>`;
   }).join('');
 
-  document.querySelector('h2').textContent = `📊 분석된 계정 (${data.accounts.length})`;
+  document.getElementById('analyzedHeader').textContent = `📊 분석된 계정 (${data.accounts.length})`;
 }
 
 function toggleDetail(id) {
