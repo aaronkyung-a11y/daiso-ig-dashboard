@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>협업 인플루언서 검증기 (다이소 / 올리브영 트렌드 트래커)</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+  background: #0f172a; color: #e2e8f0; padding: 24px; line-height: 1.5; }
+.wrap { max-width: 1400px; margin: 0 auto; }
+header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; gap: 16px; flex-wrap: wrap; }
+header h1 { font-size: 28px; margin-bottom: 6px; }
+header .sub { color: #94a3b8; font-size: 13px; }
+header .right { text-align: right; color: #94a3b8; font-size: 13px; }
+header .right a { color: #38bdf8; text-decoration: none; margin-left: 12px; }
+header .right a:hover { text-decoration: underline; }
+.summary { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
+.summary .card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 16px; }
+.summary .label { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+.summary .value { font-size: 26px; font-weight: 700; color: #f1f5f9; }
+.summary .sub { font-size: 11px; color: #94a3b8; margin-top: 4px; }
+.section { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+.section h2 { font-size: 16px; margin-bottom: 14px; color: #f1f5f9; border-left: 3px solid #38bdf8; padding-left: 10px; }
+.section h2.add { border-color: #34d399; }
+form .row { display: flex; gap: 8px; }
+form input[type=text] { flex: 1; padding: 10px 14px; background: #0f172a; border: 1px solid #334155; border-radius: 8px; color: #e2e8f0; font-size: 14px; }
+form input[type=text]:focus { outline: none; border-color: #38bdf8; }
+form button { padding: 10px 18px; background: #38bdf8; color: #0f172a; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; font-size: 14px; }
+form button:hover { background: #0ea5e9; }
+.help { font-size: 12px; color: #94a3b8; margin-top: 8px; line-height: 1.6; }
+.help code { background: #0f172a; padding: 2px 6px; border-radius: 4px; color: #34d399; font-size: 11px; }
+.help a { color: #38bdf8; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 10px 8px; text-align: left; border-bottom: 1px solid #334155; }
+th { background: #0f172a; font-size: 11px; text-transform: uppercase; color: #64748b; letter-spacing: 0.5px; cursor: pointer; user-select: none; }
+th:hover { color: #38bdf8; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+tr.row { cursor: pointer; transition: background 0.15s; }
+tr.row:hover { background: #0f172a; }
+.grade { display: inline-block; padding: 2px 8px; border-radius: 4px; font-weight: 700; font-size: 12px; }
+.grade.S { background: #fbbf24; color: #0f172a; }
+.grade.A { background: #34d399; color: #0f172a; }
+.grade.B { background: #60a5fa; color: #0f172a; }
+.grade.C { background: #94a3b8; color: #0f172a; }
+.grade.D { background: #f87171; color: #fff; }
+.platform { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+.platform.instagram { background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: #fff; }
+.platform.youtube { background: #ff0000; color: #fff; }
+.detail { margin-top: 12px; padding: 14px; background: #0f172a; border-radius: 8px; border: 1px solid #334155; display: none; }
+.detail.open { display: block; }
+.detail h3 { font-size: 14px; margin-bottom: 10px; color: #f1f5f9; }
+.detail .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 18px; font-size: 12px; }
+.detail .field { display: flex; flex-direction: column; }
+.detail .field .l { color: #64748b; font-size: 10px; text-transform: uppercase; }
+.detail .field .v { color: #e2e8f0; }
+.detail .breakdown { margin-top: 12px; padding: 10px; background: #1e293b; border-radius: 6px; }
+.detail .bd-row { display: flex; justify-content: space-between; padding: 4px 0; font-size: 12px; }
+.detail .bd-row .bar { display: inline-block; width: 100px; height: 8px; background: #334155; border-radius: 4px; overflow: hidden; margin-right: 8px; }
+.detail .bd-row .bar i { display: block; height: 100%; background: #38bdf8; }
+.detail .notes { margin-top: 10px; padding: 8px 10px; background: #1e293b; border-radius: 6px; font-size: 12px; color: #94a3b8; line-height: 1.6; }
+.detail .evidence { margin-top: 10px; font-size: 11px; color: #94a3b8; }
+.detail a { color: #38bdf8; word-break: break-all; }
+.collab-status { display: inline-block; padding: 1px 7px; border-radius: 3px; font-size: 10px; font-weight: 600; background: #334155; color: #94a3b8; }
+.collab-status.confirmed { background: #34d399; color: #0f172a; }
+.collab-status.contacted { background: #fbbf24; color: #0f172a; }
+@media (max-width: 768px) {
+  .summary { grid-template-columns: repeat(2, 1fr); }
+  .detail .grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <h1>🤝 협업 인플루언서 검증기</h1>
+    <div class="sub">IG · YouTube 계정 분석 · 인게이지먼트 우선 점수화</div>
+  </div>
+  <div class="right">
+    <div>마지막 업데이트: <span id="lastUpd">-</span></div>
+    <div style="margin-top:6px;">
+      <a href="./">← 메인 대시보드</a>
+      <a href="https://github.com/aaronkyung-a11y/daiso-ig-dashboard/edit/main/influencers/_queue.txt" target="_blank">_queue.txt 편집 ↗</a>
+    </div>
+  </div>
+</header>
+
+<div class="summary">
+  <div class="card"><div class="label">검증된 계정</div><div class="value" id="totalCount">-</div><div class="sub" id="totalSub">IG + YouTube</div></div>
+  <div class="card"><div class="label">S급 (90+)</div><div class="value" id="sCount">-</div><div class="sub">최우선 협업 후보</div></div>
+  <div class="card"><div class="label">평균 인게이지먼트율</div><div class="value" id="avgER">-</div><div class="sub">실측 (likes+comments)/follower</div></div>
+  <div class="card"><div class="label">다음 자동 리프레시</div><div class="value" style="font-size:18px;" id="nextRefresh">매주 월 09:00</div><div class="sub">워치리스트 자동 재분석</div></div>
+</div>
+
+<div class="section">
+  <h2 class="add">➕ 새 계정 추가</h2>
+  <form onsubmit="return addToQueue(event)">
+    <div class="row">
+      <input id="newUrl" type="text" placeholder="IG 또는 YT URL 붙여넣기 (예: https://www.instagram.com/username/ 또는 https://www.youtube.com/@channel)" required>
+      <button type="submit">큐에 추가</button>
+    </div>
+  </form>
+  <div class="help" id="helpMsg">
+    URL을 입력하면 → <code>_queue.txt</code> 추가 명령이 클립보드에 복사됩니다.<br>
+    그 다음 <a href="https://github.com/aaronkyung-a11y/daiso-ig-dashboard/edit/main/influencers/_queue.txt" target="_blank">GitHub <code>_queue.txt</code> 편집 페이지</a>에서 붙여넣고 커밋하면, 다음 정기 실행(매주 월) 때 자동 분석돼서 이 표에 추가됩니다.<br>
+    <strong>즉시 분석이 필요하면</strong> Claude에게 채팅으로 요청: "이 계정 분석해줘 [URL]"
+  </div>
+</div>
+
+<div class="section">
+  <h2>📊 분석된 계정 (4)</h2>
+  <div style="overflow-x:auto;">
+  <table>
+    <thead><tr>
+      <th data-sort="grade">등급</th>
+      <th data-sort="score">점수</th>
+      <th data-sort="platform">플랫폼</th>
+      <th data-sort="username">계정</th>
+      <th class="num" data-sort="followers">팔로워</th>
+      <th class="num" data-sort="engagement_rate">ER</th>
+      <th class="num" data-sort="avg_likes">평균 좋아요</th>
+      <th data-sort="brand_fit_score">브랜드 적합도</th>
+      <th data-sort="evaluated_at">검증일</th>
+    </tr></thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+  </div>
+</div>
+
+</div>
+
+<script>
+// INFLUENCER_DATA_BEGIN
+const INFLUENCER_DATA = {
+  "lastUpdated": "2026-04-29T12:48:03+09:00",
+  "accounts": [
+    {
+      "platform": "instagram",
+      "username": "jangsu_note",
+      "profile_url": "https://www.instagram.com/jangsu_note/",
+      "fullname": "장수노트",
+      "followers": 8956,
+      "following": 0,
+      "post_count_total": 39,
+      "bio": "✨ 깐깐하게 분석한 일상 꿀템\\n🌱 뷰티·헬스·라이프스타일\\n👇 영상 속 제품 정보 확인👇",
+      "sample_size": 8,
+      "avg_likes": 3184,
+      "avg_comments": 37,
+      "avg_engagement": 3221,
+      "engagement_rate": 0.3596,
+      "top_post_likes": 15431,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "brand_fit_notes": "bio: \"뷰티·헬스·라이프스타일\" 명시. 다이소 화장품 reel 1.5만+ likes",
+      "sample_data_evidence": {
+        "likes_sample": [
+          15431,
+          6714,
+          2858,
+          50,
+          10,
+          122,
+          260,
+          26
+        ],
+        "comments_sample": [
+          135,
+          124,
+          5,
+          0,
+          0,
+          7,
+          9,
+          14
+        ],
+        "top_reel": "https://www.instagram.com/jangsu_note/reel/DXeNuIFj5E2/"
+      },
+      "evaluated_at": "2026-04-29T12:48:03+09:00",
+      "notes": "실측 (likes/comments는 reel 페이지 인라인 JSON에서 추출, 8개 샘플)",
+      "score": {
+        "total": 93.0,
+        "breakdown": {
+          "engagement": 100,
+          "brand_fit": 100,
+          "consistency": 80,
+          "follower_scale": 60
+        },
+        "weights": {
+          "engagement": 0.5,
+          "brand_fit": 0.25,
+          "consistency": 0.15,
+          "follower_scale": 0.1
+        }
+      },
+      "grade": "S"
+    },
+    {
+      "platform": "instagram",
+      "username": "beauty_piona",
+      "profile_url": "https://www.instagram.com/beauty_piona/",
+      "fullname": "문혜경",
+      "followers": 6144,
+      "following": 6559,
+      "post_count_total": 574,
+      "bio": "",
+      "sample_size": 7,
+      "avg_likes": 3461,
+      "avg_comments": 251,
+      "avg_engagement": 3712,
+      "engagement_rate": 0.6042,
+      "top_post_likes": 14591,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "brand_fit_notes": "username \"beauty_piona\". 다이소 화장품 reel 4,802 likes (DXOV_7-AgNn, 4/17), 댓글 636개로 매우 높은 댓글 비율",
+      "sample_data_evidence": {
+        "likes_sample": [
+          4807,
+          3652,
+          14591,
+          32,
+          113,
+          221,
+          813
+        ],
+        "comments_sample": [
+          636,
+          491,
+          514,
+          3,
+          22,
+          30,
+          61
+        ],
+        "top_reel": "https://www.instagram.com/p/DXOV_7-AgNn/"
+      },
+      "evaluated_at": "2026-04-29T12:48:03+09:00",
+      "notes": "실측 (likes/comments는 reel 페이지 인라인 JSON에서 추출, 7개 샘플). 댓글 수가 매우 많아 진성 인게이지먼트 신호 강함.",
+      "score": {
+        "total": 93.0,
+        "breakdown": {
+          "engagement": 100,
+          "brand_fit": 100,
+          "consistency": 80,
+          "follower_scale": 60
+        },
+        "weights": {
+          "engagement": 0.5,
+          "brand_fit": 0.25,
+          "consistency": 0.15,
+          "follower_scale": 0.1
+        }
+      },
+      "grade": "S"
+    },
+    {
+      "platform": "instagram",
+      "username": "ellie._.cos",
+      "profile_url": "https://www.instagram.com/ellie._.cos/",
+      "fullname": "ellie エリ",
+      "followers": 1816,
+      "following": 988,
+      "post_count_total": 298,
+      "bio": "",
+      "sample_size": 7,
+      "avg_likes": 3094,
+      "avg_comments": 24,
+      "avg_engagement": 3118,
+      "engagement_rate": 1.7169,
+      "top_post_likes": 8087,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "brand_fit_notes": "★ 더랩 바이 블랑두 클리어 히알 물광 토너 직접 광고/제품제공 받음. DXd9ep8k404 (4/23, 886 likes). 우리 브랜드 직접 협업 확인됨.",
+      "sample_data_evidence": {
+        "likes_sample": [
+          6280,
+          6187,
+          8087,
+          65,
+          32,
+          975,
+          32
+        ],
+        "comments_sample": [
+          52,
+          30,
+          30,
+          16,
+          12,
+          23,
+          4
+        ],
+        "top_reel_blanc_doux": "https://www.instagram.com/p/DXd9ep8k404/"
+      },
+      "evaluated_at": "2026-04-29T12:48:03+09:00",
+      "notes": "★ 우리 브랜드 (더랩바이블랑두) 콘텐츠 직접 작성 인플루언서. 마이크로 사이즈지만 viral 지수 매우 높음 (ER 172%).",
+      "score": {
+        "total": 93.0,
+        "breakdown": {
+          "engagement": 100,
+          "brand_fit": 100,
+          "consistency": 80,
+          "follower_scale": 60
+        },
+        "weights": {
+          "engagement": 0.5,
+          "brand_fit": 0.25,
+          "consistency": 0.15,
+          "follower_scale": 0.1
+        }
+      },
+      "grade": "S"
+    },
+    {
+      "platform": "youtube",
+      "username": "Jinyaa",
+      "channel_handle": "@Jinyaa",
+      "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
+      "profile_url": "https://www.youtube.com/@Jinyaa",
+      "fullname": "지냐 Jinyaa",
+      "followers": 358000,
+      "sample_size": 5,
+      "avg_views": 74409,
+      "avg_likes": 1913,
+      "top_video_views": 158732,
+      "engagement_rate": 0.0257,
+      "view_to_sub_ratio": 0.2078,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "brand_fit_notes": "\"다이소 7탄\" (TMNJFFuSLGM, 4/18) 158,732 views. 본인을 \"다이소 앰버서더\"로 칭함. 정기적 다이소 신상 리뷰.",
+      "sample_data_evidence": {
+        "views_sample": [
+          44509,
+          158732,
+          61742,
+          33620,
+          73443
+        ],
+        "likes_sample": [
+          1459,
+          3837,
+          2126,
+          722,
+          1422
+        ],
+        "top_daiso_video": "https://www.youtube.com/watch?v=TMNJFFuSLGM"
+      },
+      "evaluated_at": "2026-04-29T12:48:03+09:00",
+      "notes": "YouTube 채널. ER = likes/views = 2.57%. View-to-sub ratio = 20.8% (적극적 도달).",
+      "score": {
+        "total": 77.0,
+        "breakdown": {
+          "engagement": 60,
+          "brand_fit": 100,
+          "consistency": 80,
+          "follower_scale": 100
+        },
+        "weights": {
+          "engagement": 0.5,
+          "brand_fit": 0.25,
+          "consistency": 0.15,
+          "follower_scale": 0.1
+        }
+      },
+      "grade": "B"
+    }
+  ]
+};
+// INFLUENCER_DATA_END
+
+function fmt(n) {
+  if (n == null) return '-';
+  if (n >= 10000) return (n/10000).toFixed(1) + '만';
+  if (n >= 1000) return n.toLocaleString();
+  return String(n);
+}
+function fmtPct(d) {
+  if (d == null) return '-';
+  const p = d * 100;
+  if (p >= 100) return Math.round(p) + '%';
+  return p.toFixed(1) + '%';
+}
+
+let sortKey = 'score';
+let sortDir = -1;
+
+function render() {
+  const data = INFLUENCER_DATA;
+  document.getElementById('lastUpd').textContent = new Date(data.lastUpdated).toLocaleString('ko-KR');
+  document.getElementById('totalCount').textContent = data.accounts.length;
+  const ig = data.accounts.filter(a => a.platform === 'instagram').length;
+  const yt = data.accounts.filter(a => a.platform === 'youtube').length;
+  document.getElementById('totalSub').textContent = `IG ${ig} · YT ${yt}`;
+  document.getElementById('sCount').textContent = data.accounts.filter(a => a.grade === 'S').length;
+  const erVals = data.accounts.map(a => a.engagement_rate).filter(v => v != null);
+  const avgER = erVals.length ? erVals.reduce((s,v)=>s+v,0)/erVals.length : 0;
+  document.getElementById('avgER').textContent = fmtPct(avgER);
+
+  // Sort
+  const sorted = [...data.accounts].sort((a,b) => {
+    let av, bv;
+    if (sortKey === 'score') { av = a.score?.total || 0; bv = b.score?.total || 0; }
+    else if (sortKey === 'grade') { av = ['S','A','B','C','D'].indexOf(a.grade); bv = ['S','A','B','C','D'].indexOf(b.grade); }
+    else { av = a[sortKey]; bv = b[sortKey]; }
+    if (av == null) av = '';
+    if (bv == null) bv = '';
+    if (typeof av === 'string') return sortDir * av.localeCompare(bv);
+    return sortDir * (av - bv);
+  });
+
+  const tbody = document.getElementById('tableBody');
+  tbody.innerHTML = sorted.map((a, idx) => {
+    const detailId = `d_${a.platform}_${a.username.replace(/[^\w]/g,'_')}`;
+    return `
+    <tr class="row" onclick="toggleDetail('${detailId}')">
+      <td><span class="grade ${a.grade}">${a.grade}</span></td>
+      <td class="num"><strong>${a.score?.total ?? '-'}</strong></td>
+      <td><span class="platform ${a.platform}">${a.platform === 'instagram' ? 'IG' : 'YT'}</span></td>
+      <td><a href="${a.profile_url}" target="_blank" onclick="event.stopPropagation()" style="color:#38bdf8;text-decoration:none;">@${a.username}</a><div style="font-size:11px;color:#64748b;">${a.fullname || ''}</div></td>
+      <td class="num">${fmt(a.followers)}</td>
+      <td class="num">${fmtPct(a.engagement_rate)}</td>
+      <td class="num">${fmt(a.avg_likes)}</td>
+      <td class="num">${a.brand_fit_score}</td>
+      <td>${a.evaluated_at?.slice(0,10) || '-'}</td>
+    </tr>
+    <tr><td colspan="9" style="padding:0;border:none;">
+      <div class="detail" id="${detailId}">
+        <h3>📋 ${a.fullname} <span style="color:#64748b;font-weight:normal;">(@${a.username})</span></h3>
+        <div class="grid">
+          <div class="field"><div class="l">팔로워</div><div class="v">${fmt(a.followers)} ${a.following ? '/ 팔로잉 ' + fmt(a.following) : ''}</div></div>
+          <div class="field"><div class="l">총 게시물</div><div class="v">${fmt(a.post_count_total || a.sample_size)}개</div></div>
+          <div class="field"><div class="l">샘플 사이즈</div><div class="v">${a.sample_size}개 ${a.platform === 'youtube' ? '영상' : 'reel'}</div></div>
+          <div class="field"><div class="l">평균 ${a.platform === 'youtube' ? '조회수' : '좋아요'}</div><div class="v">${fmt(a.platform === 'youtube' ? a.avg_views : a.avg_likes)}</div></div>
+          ${a.platform === 'instagram' ? `<div class="field"><div class="l">평균 댓글</div><div class="v">${fmt(a.avg_comments)}</div></div>` : ''}
+          ${a.platform === 'youtube' ? `<div class="field"><div class="l">View-to-Sub 비율</div><div class="v">${fmtPct(a.view_to_sub_ratio)}</div></div>` : ''}
+          <div class="field"><div class="l">Top 게시물</div><div class="v">${fmt(a.top_post_likes || a.top_video_views)}</div></div>
+          <div class="field"><div class="l">최근 30일 게시</div><div class="v">${a.posts_last_30d}개 (추정)</div></div>
+        </div>
+        <div class="breakdown">
+          <div style="font-size:11px;color:#64748b;text-transform:uppercase;margin-bottom:8px;">점수 분해 (총 ${a.score.total}점)</div>
+          ${Object.entries(a.score.breakdown).map(([k,v]) => `
+            <div class="bd-row">
+              <span style="color:#94a3b8;">${({engagement:'인게이지먼트율 (50%)', brand_fit:'브랜드 적합도 (25%)', consistency:'업로드 일관성 (15%)', follower_scale:'팔로워 규모 (10%)'})[k]}</span>
+              <span><span class="bar"><i style="width:${v}%;"></i></span> <strong>${v}</strong>점</span>
+            </div>`).join('')}
+        </div>
+        <div class="notes">${a.notes || ''}<br>${a.brand_fit_notes ? '<br><strong>적합도 메모:</strong> ' + a.brand_fit_notes : ''}</div>
+        <div class="evidence">증거 자료: ${Object.entries(a.sample_data_evidence || {}).filter(([k,v]) => k.includes('top') || k.includes('url')).map(([k,v]) => `<a href="${v}" target="_blank">${k}</a>`).join(' · ')}</div>
+      </div>
+    </td></tr>`;
+  }).join('');
+
+  document.querySelector('h2').textContent = `📊 분석된 계정 (${data.accounts.length})`;
+}
+
+function toggleDetail(id) {
+  const el = document.getElementById(id);
+  if (el) el.classList.toggle('open');
+}
+
+document.querySelectorAll('th[data-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const k = th.dataset.sort;
+    if (sortKey === k) sortDir = -sortDir;
+    else { sortKey = k; sortDir = -1; }
+    render();
+  });
+});
+
+function addToQueue(e) {
+  e.preventDefault();
+  const url = document.getElementById('newUrl').value.trim();
+  if (!url.match(/instagram\.com|youtube\.com|youtu\.be/)) {
+    alert('IG 또는 YT URL을 입력하세요.');
+    return false;
+  }
+  navigator.clipboard.writeText(url).then(() => {
+    document.getElementById('helpMsg').innerHTML = `
+      ✅ <strong>${url}</strong> 가 클립보드에 복사됨!<br>
+      → 새 탭에서 <a href="https://github.com/aaronkyung-a11y/daiso-ig-dashboard/edit/main/influencers/_queue.txt" target="_blank">_queue.txt 편집 페이지</a>를 열고, 새 줄에 붙여넣고 "Commit changes"<br>
+      → 다음 정기 실행 (월요일 09시) 또는 즉시 Claude에게 "큐 처리해줘" 라고 요청하면 분석됨`;
+  });
+  return false;
+}
+
+render();
+</script>
+</body>
+</html>
