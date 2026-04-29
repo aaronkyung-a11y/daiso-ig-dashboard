@@ -1,0 +1,58 @@
+{
+  "lastUpdated": "2026-04-29T12:48:03+09:00",
+  "count": 4,
+  "accounts": [
+    {
+      "platform": "instagram",
+      "username": "jangsu_note",
+      "fullname": "장수노트",
+      "profile_url": "https://www.instagram.com/jangsu_note/",
+      "followers": 8956,
+      "engagement_rate": 0.3596,
+      "score_total": 93.0,
+      "grade": "S",
+      "evaluated_at": "2026-04-29T12:48:03+09:00",
+      "collab_status": "not_started",
+      "json_file": "influencers/instagram_jangsu_note.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "beauty_piona",
+      "fullname": "문혜경",
+      "profile_url": "https://www.instagram.com/beauty_piona/",
+      "followers": 6144,
+      "engagement_rate": 0.6042,
+      "score_total": 93.0,
+      "grade": "S",
+      "evaluated_at": "2026-04-29T12:48:03+09:00",
+      "collab_status": "not_started",
+      "json_file": "influencers/instagram_beauty_piona.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "ellie._.cos",
+      "fullname": "ellie エリ",
+      "profile_url": "https://www.instagram.com/ellie._.cos/",
+      "followers": 1816,
+      "engagement_rate": 1.7169,
+      "score_total": 93.0,
+      "grade": "S",
+      "evaluated_at": "2026-04-29T12:48:03+09:00",
+      "collab_status": "not_started",
+      "json_file": "influencers/instagram_ellie___cos.json"
+    },
+    {
+      "platform": "youtube",
+      "username": "Jinyaa",
+      "fullname": "지냐 Jinyaa",
+      "profile_url": "https://www.youtube.com/@Jinyaa",
+      "followers": 358000,
+      "engagement_rate": 0.0257,
+      "score_total": 77.0,
+      "grade": "B",
+      "evaluated_at": "2026-04-29T12:48:03+09:00",
+      "collab_status": "not_started",
+      "json_file": "influencers/youtube_Jinyaa.json"
+    }
+  ]
+}
