@@ -1,0 +1,81 @@
+{
+  "platform": "instagram",
+  "username": "beautyus_mag",
+  "profile_url": "https://www.instagram.com/beautyus_mag/",
+  "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
+  "followers": 86000,
+  "following": 266,
+  "post_count_total": 3108,
+  "bio": "beauty • trend • issue • etc / 뷰티라면 다 좋아 / 얇아진 지갑이 만든 에디터 취향을 담아",
+  "external_link": "linktr.ee/beautyus_mag",
+  "highlights": [
+    "쓰포일러",
+    "무물",
+    "어쓰나잇2",
+    "뷰티100",
+    "어쓰나잇",
+    "위드어쓰"
+  ],
+  "email": "beautyusofficial@gmail.com",
+  "sample_size": 3,
+  "sample_visible_likes": false,
+  "likes_disabled": true,
+  "sample_reels": [
+    {
+      "code": "DXsdeshgej2",
+      "date": "2026-04-28",
+      "likes": null,
+      "comments": 1,
+      "caption": "에디터는 화장 안 먹을 때 뭐 썼냐면요 #뷰모닝 화잘먹 치트키"
+    },
+    {
+      "code": "DXOxjR-ARQU",
+      "date": "2026-04-17",
+      "likes": null,
+      "comments": 28,
+      "caption": "[채용공고] 뷰티어쓰와 함께할 에디터 구합니다 #채용 #에디터채용"
+    },
+    {
+      "code": "DXriqRNAcb-",
+      "date": "2026-04-28",
+      "likes": null,
+      "comments": 0,
+      "caption": "Ai가 아닐리 엑스. 에스파(쇠맛) 메이크업 분석 #aespa #카리나 #윈터 #지젤 #닝닝"
+    }
+  ],
+  "avg_likes_estimate": 3000,
+  "avg_likes_note": "추정값 — 좋아요 비공개 (like_and_view_counts_disabled:true). 86K 팔로워 뷰티 매거진의 일반적 like 범위로 추정.",
+  "avg_comments": 10,
+  "avg_engagement_estimate": 3010,
+  "engagement_rate_estimate": 3.5,
+  "engagement_rate_unit": "percent (estimated)",
+  "posts_last_30d_estimate": 35,
+  "posts_last_30d_note": "추정값 — 매거진 계정으로 일평균 1+ 게시물. 3108개 누적 게시물 기반 추정.",
+  "evaluated_at": "2026-04-29T17:21:26+09:00",
+  "notes": "뷰티 매거진 형태. 화장/스킨케어/메이크업 콘텐츠 중심. 다이소·우리브랜드(더랩바이블랑두) 직접 언급 미발견. 좋아요 비공개로 정확한 ER 산정 불가.",
+  "score": {
+    "total": 82,
+    "breakdown": {
+      "engagement": 80,
+      "brand_fit": 75,
+      "consistency": 100,
+      "follower_scale": 80
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    },
+    "raw": 81.75
+  },
+  "grade": "A",
+  "estimation_flags": [
+    "avg_likes (likes hidden — heavily estimated)",
+    "engagement_rate (estimated)",
+    "brand_fit_score (subjective)",
+    "posts_last_30d_estimate",
+    "consistency_score (estimate based on cumulative posts)"
+  ],
+  "history": []
+}
