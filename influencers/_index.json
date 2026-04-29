@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T17:21:26+09:00",
+  "lastUpdated": "2026-04-29T17:26:42+09:00",
   "count": 8,
   "accounts": [
     {
@@ -47,7 +47,7 @@
       "fullname": "로빗 lobit",
       "profile_url": "https://www.instagram.com/lobit_beauty/",
       "followers": 9515,
-      "engagement_rate": 21.84,
+      "engagement_rate": 0.2184,
       "score_total": 92,
       "grade": "S",
       "evaluated_at": "2026-04-29T17:21:26+09:00",
@@ -60,7 +60,7 @@
       "fullname": "로로",
       "profile_url": "https://www.instagram.com/rorobeauty48791/",
       "followers": 154000,
-      "engagement_rate": 5.36,
+      "engagement_rate": 0.0536,
       "score_total": 88,
       "grade": "A",
       "evaluated_at": "2026-04-29T17:21:26+09:00",
@@ -73,7 +73,7 @@
       "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
       "profile_url": "https://www.instagram.com/beautyus_mag/",
       "followers": 86000,
-      "engagement_rate": 3.5,
+      "engagement_rate": 0.035,
       "score_total": 82,
       "grade": "A",
       "evaluated_at": "2026-04-29T17:21:26+09:00",
@@ -99,7 +99,7 @@
       "fullname": "또쭈니맘",
       "profile_url": "https://www.instagram.com/k_eunmi___/",
       "followers": 1613,
-      "engagement_rate": 1.55,
+      "engagement_rate": 0.0155,
       "score_total": 54,
       "grade": "D",
       "evaluated_at": "2026-04-29T17:21:26+09:00",
