@@ -66,8 +66,7 @@
   "avg_likes": 8019,
   "avg_comments": 230,
   "avg_engagement": 8249,
-  "engagement_rate": 5.36,
-  "engagement_rate_unit": "percent",
+  "engagement_rate": 0.0536,
   "posts_last_30d_estimate": 3,
   "posts_last_30d_note": "추정값 — 5개 sample 중 30일 이내 3개. 전체 timeline 미확인",
   "evaluated_at": "2026-04-29T17:21:26+09:00",
@@ -94,5 +93,7 @@
     "posts_last_30d_estimate",
     "consistency (sample-based estimate)"
   ],
-  "history": []
+  "history": [],
+  "brand_fit_score": 85,
+  "brand_fit_notes": "하이라이트에 '다이소' 카테고리 직접 노출. 뷰티/스킨케어/올리브영 captions 다수. 더랩바이블랑두 직접 언급 미발견."
 }
