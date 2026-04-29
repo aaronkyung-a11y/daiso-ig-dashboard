@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T12:48:03+09:00",
+  "lastUpdated": "2026-04-29T17:21:26+09:00",
   "auto_refresh": true,
   "refresh_cron": "weekly",
   "accounts": [
@@ -22,6 +22,26 @@
       "platform": "youtube",
       "username": "Jinyaa",
       "profile_url": "https://www.youtube.com/@Jinyaa"
+    },
+    {
+      "platform": "instagram",
+      "username": "rorobeauty48791",
+      "profile_url": "https://www.instagram.com/rorobeauty48791/"
+    },
+    {
+      "platform": "instagram",
+      "username": "k_eunmi___",
+      "profile_url": "https://www.instagram.com/k_eunmi___/"
+    },
+    {
+      "platform": "instagram",
+      "username": "beautyus_mag",
+      "profile_url": "https://www.instagram.com/beautyus_mag/"
+    },
+    {
+      "platform": "instagram",
+      "username": "lobit_beauty",
+      "profile_url": "https://www.instagram.com/lobit_beauty/"
     }
   ]
 }
