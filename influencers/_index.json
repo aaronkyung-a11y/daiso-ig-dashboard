@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-04-29T17:04:48+09:00",
-  "count": 4,
+  "lastUpdated": "2026-04-29T17:21:26+09:00",
+  "count": 8,
   "accounts": [
     {
       "platform": "instagram",
-      "username": "jangsu_note",
-      "fullname": "장수노트",
-      "profile_url": "https://www.instagram.com/jangsu_note/",
-      "followers": 8956,
-      "engagement_rate": 0.3596,
+      "username": "ellie._.cos",
+      "fullname": "ellie エリ",
+      "profile_url": "https://www.instagram.com/ellie._.cos/",
+      "followers": 1816,
+      "engagement_rate": 1.7169,
       "score_total": 93.0,
       "grade": "S",
       "evaluated_at": "2026-04-29T12:48:03+09:00",
       "collab_status": "not_started",
-      "json_file": "influencers/instagram_jangsu_note.json"
+      "json_file": "influencers/instagram_ellie___cos.json"
     },
     {
       "platform": "instagram",
@@ -30,16 +30,55 @@
     },
     {
       "platform": "instagram",
-      "username": "ellie._.cos",
-      "fullname": "ellie エリ",
-      "profile_url": "https://www.instagram.com/ellie._.cos/",
-      "followers": 1816,
-      "engagement_rate": 1.7169,
+      "username": "jangsu_note",
+      "fullname": "장수노트",
+      "profile_url": "https://www.instagram.com/jangsu_note/",
+      "followers": 8956,
+      "engagement_rate": 0.3596,
       "score_total": 93.0,
       "grade": "S",
       "evaluated_at": "2026-04-29T12:48:03+09:00",
       "collab_status": "not_started",
-      "json_file": "influencers/instagram_ellie___cos.json"
+      "json_file": "influencers/instagram_jangsu_note.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "lobit_beauty",
+      "fullname": "로빗 lobit",
+      "profile_url": "https://www.instagram.com/lobit_beauty/",
+      "followers": 9515,
+      "engagement_rate": 21.84,
+      "score_total": 92,
+      "grade": "S",
+      "evaluated_at": "2026-04-29T17:21:26+09:00",
+      "collab_status": "not_started",
+      "json_file": "influencers/instagram_lobit_beauty.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "rorobeauty48791",
+      "fullname": "로로",
+      "profile_url": "https://www.instagram.com/rorobeauty48791/",
+      "followers": 154000,
+      "engagement_rate": 5.36,
+      "score_total": 88,
+      "grade": "A",
+      "evaluated_at": "2026-04-29T17:21:26+09:00",
+      "collab_status": "not_started",
+      "json_file": "influencers/instagram_rorobeauty48791.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "beautyus_mag",
+      "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
+      "profile_url": "https://www.instagram.com/beautyus_mag/",
+      "followers": 86000,
+      "engagement_rate": 3.5,
+      "score_total": 82,
+      "grade": "A",
+      "evaluated_at": "2026-04-29T17:21:26+09:00",
+      "collab_status": "not_started",
+      "json_file": "influencers/instagram_beautyus_mag.json"
     },
     {
       "platform": "youtube",
@@ -53,6 +92,19 @@
       "evaluated_at": "2026-04-29T12:48:03+09:00",
       "collab_status": "not_started",
       "json_file": "influencers/youtube_Jinyaa.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "k_eunmi___",
+      "fullname": "또쭈니맘",
+      "profile_url": "https://www.instagram.com/k_eunmi___/",
+      "followers": 1613,
+      "engagement_rate": 1.55,
+      "score_total": 54,
+      "grade": "D",
+      "evaluated_at": "2026-04-29T17:21:26+09:00",
+      "collab_status": "not_started",
+      "json_file": "influencers/instagram_k_eunmi___.json"
     }
   ]
 }
