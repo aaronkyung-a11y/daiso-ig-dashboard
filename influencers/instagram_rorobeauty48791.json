@@ -1,0 +1,98 @@
+{
+  "platform": "instagram",
+  "username": "rorobeauty48791",
+  "profile_url": "https://www.instagram.com/rorobeauty48791/",
+  "fullname": "로로",
+  "followers": 154000,
+  "following": 1478,
+  "post_count_total": 86,
+  "bio": "공쥬들과 함께 잼얘하고 싶어•• (DM환영)",
+  "external_link": "linktr.ee/rorobeauty48791",
+  "highlights": [
+    "쉿!공주들꿀팁",
+    "옷정보",
+    "다이소",
+    "헤어",
+    "당첨자발표",
+    "크리스마스선물",
+    "구강",
+    "속눈썹",
+    "네일",
+    "뷰티소품",
+    "스킨케어",
+    "화장법",
+    "여름꿀팁",
+    "깜짝선물"
+  ],
+  "sample_size": 5,
+  "sample_reels": [
+    {
+      "code": "DOacsHcgbhx",
+      "date": "2025-09-10",
+      "likes": 26000,
+      "comments": 194,
+      "caption": "아무튼 가을!! #reels #뷰티 #kbeauty #motd #fyp #foryou",
+      "note": "og:description; outside 30d window"
+    },
+    {
+      "code": "DXMIGaICaZC",
+      "date": "2026-04-16",
+      "likes": 1712,
+      "comments": 61,
+      "caption": "내돈내산 3만원 발레코디 쉬인 제품정보 #발레 #발레코디 #fyp"
+    },
+    {
+      "code": "DXJi_MDCcOu",
+      "date": "2026-04-15",
+      "likes": 2436,
+      "comments": 100,
+      "caption": "샴푸 5통먹고 찍게 된 스펀지밥 #reels #spongebob #fyp"
+    },
+    {
+      "code": "DW8mdRriVGF",
+      "date": "2026-04-10",
+      "likes": 4994,
+      "comments": 155,
+      "caption": "선크림의 ㅅ도 싫은 분들을 위한 (광고X) 재구매 선제품 모음 #선크림 #선스틱 #선제품"
+    },
+    {
+      "code": "DVIonCLgN-z",
+      "date": "2026-02-24",
+      "likes": 4955,
+      "comments": 641,
+      "caption": "일리윤 세라마이드 아토 집중 크림 (재구매 후기 + 50개 선물 이벤트) #장벽크림 #화잘먹"
+    }
+  ],
+  "avg_likes": 8019,
+  "avg_comments": 230,
+  "avg_engagement": 8249,
+  "engagement_rate": 5.36,
+  "engagement_rate_unit": "percent",
+  "posts_last_30d_estimate": 3,
+  "posts_last_30d_note": "추정값 — 5개 sample 중 30일 이내 3개. 전체 timeline 미확인",
+  "evaluated_at": "2026-04-29T17:21:26+09:00",
+  "notes": "하이라이트에 '다이소' 카테고리 직접 노출. 뷰티/스킨케어/올리브영 captions 다수. 더랩바이블랑두 직접 언급 미발견.",
+  "score": {
+    "total": 88,
+    "breakdown": {
+      "engagement": 90,
+      "brand_fit": 85,
+      "consistency": 80,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    },
+    "raw": 88.25
+  },
+  "grade": "A",
+  "estimation_flags": [
+    "brand_fit_score (subjective)",
+    "posts_last_30d_estimate",
+    "consistency (sample-based estimate)"
+  ],
+  "history": []
+}
