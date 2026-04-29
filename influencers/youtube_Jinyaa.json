@@ -1,0 +1,53 @@
+{
+  "platform": "youtube",
+  "username": "Jinyaa",
+  "channel_handle": "@Jinyaa",
+  "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
+  "profile_url": "https://www.youtube.com/@Jinyaa",
+  "fullname": "지냐 Jinyaa",
+  "followers": 358000,
+  "sample_size": 5,
+  "avg_views": 74409,
+  "avg_likes": 1913,
+  "top_video_views": 158732,
+  "engagement_rate": 0.0257,
+  "view_to_sub_ratio": 0.2078,
+  "posts_last_30d": 5,
+  "brand_fit_score": 100,
+  "brand_fit_notes": "\"다이소 7탄\" (TMNJFFuSLGM, 4/18) 158,732 views. 본인을 \"다이소 앰버서더\"로 칭함. 정기적 다이소 신상 리뷰.",
+  "sample_data_evidence": {
+    "views_sample": [
+      44509,
+      158732,
+      61742,
+      33620,
+      73443
+    ],
+    "likes_sample": [
+      1459,
+      3837,
+      2126,
+      722,
+      1422
+    ],
+    "top_daiso_video": "https://www.youtube.com/watch?v=TMNJFFuSLGM"
+  },
+  "evaluated_at": "2026-04-29T12:48:03+09:00",
+  "notes": "YouTube 채널. ER = likes/views = 2.57%. View-to-sub ratio = 20.8% (적극적 도달).",
+  "score": {
+    "total": 77.0,
+    "breakdown": {
+      "engagement": 60,
+      "brand_fit": 100,
+      "consistency": 80,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "B"
+}
