@@ -1,0 +1,60 @@
+{
+  "platform": "instagram",
+  "username": "jangsu_note",
+  "profile_url": "https://www.instagram.com/jangsu_note/",
+  "fullname": "장수노트",
+  "followers": 8956,
+  "following": 0,
+  "post_count_total": 39,
+  "bio": "✨ 깐깐하게 분석한 일상 꿀템\\n🌱 뷰티·헬스·라이프스타일\\n👇 영상 속 제품 정보 확인👇",
+  "sample_size": 8,
+  "avg_likes": 3184,
+  "avg_comments": 37,
+  "avg_engagement": 3221,
+  "engagement_rate": 0.3596,
+  "top_post_likes": 15431,
+  "posts_last_30d": 5,
+  "brand_fit_score": 100,
+  "brand_fit_notes": "bio: \"뷰티·헬스·라이프스타일\" 명시. 다이소 화장품 reel 1.5만+ likes",
+  "sample_data_evidence": {
+    "likes_sample": [
+      15431,
+      6714,
+      2858,
+      50,
+      10,
+      122,
+      260,
+      26
+    ],
+    "comments_sample": [
+      135,
+      124,
+      5,
+      0,
+      0,
+      7,
+      9,
+      14
+    ],
+    "top_reel": "https://www.instagram.com/jangsu_note/reel/DXeNuIFj5E2/"
+  },
+  "evaluated_at": "2026-04-29T12:48:03+09:00",
+  "notes": "실측 (likes/comments는 reel 페이지 인라인 JSON에서 추출, 8개 샘플)",
+  "score": {
+    "total": 93.0,
+    "breakdown": {
+      "engagement": 100,
+      "brand_fit": 100,
+      "consistency": 80,
+      "follower_scale": 60
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "S"
+}
