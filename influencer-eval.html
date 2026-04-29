@@ -102,9 +102,9 @@ tr.row:hover { background: #0f172a; }
     </div>
   </form>
   <div class="help" id="helpMsg">
-    URL을 입력하면 → <code>_queue.txt</code> 추가 명령이 클립보드에 복사됩니다.<br>
-    그 다음 <a href="https://github.com/aaronkyung-a11y/daiso-ig-dashboard/edit/main/influencers/_queue.txt" target="_blank">GitHub <code>_queue.txt</code> 편집 페이지</a>에서 붙여넣고 커밋하면, 다음 정기 실행(매주 월) 때 자동 분석돼서 이 표에 추가됩니다.<br>
-    <strong>즉시 분석이 필요하면</strong> Claude에게 채팅으로 요청: "이 계정 분석해줘 [URL]"
+    URL을 입력하고 "큐에 추가" → GitHub 이슈 작성 페이지가 자동으로 열립니다 (제목·내용 미리 채움).<br>
+    새 탭에서 초록색 <strong>"Submit new issue"</strong> 1번 클릭하면 끝. 다음 정기 실행(매주 월 09시)에 자동 분석.<br>
+    <strong>즉시 분석</strong>이 필요하면 Claude에게 채팅으로 직접 요청: <code>"이 계정 분석해줘 [URL]"</code>
   </div>
 </div>
 
@@ -474,12 +474,26 @@ function addToQueue(e) {
     alert('IG 또는 YT URL을 입력하세요.');
     return false;
   }
-  navigator.clipboard.writeText(url).then(() => {
-    document.getElementById('helpMsg').innerHTML = `
-      ✅ <strong>${url}</strong> 가 클립보드에 복사됨!<br>
-      → 새 탭에서 <a href="https://github.com/aaronkyung-a11y/daiso-ig-dashboard/edit/main/influencers/_queue.txt" target="_blank">_queue.txt 편집 페이지</a>를 열고, 새 줄에 붙여넣고 "Commit changes"<br>
-      → 다음 정기 실행 (월요일 09시) 또는 즉시 Claude에게 "큐 처리해줘" 라고 요청하면 분석됨`;
-  });
+  // Detect platform + username for nicer issue title
+  let platform = '?', username = '?';
+  let m = url.match(/instagram\.com\/([\w._]+)\/?/);
+  if (m) { platform = 'IG'; username = m[1]; }
+  else {
+    m = url.match(/youtube\.com\/(?:@|channel\/|c\/)([\w-]+)/);
+    if (m) { platform = 'YT'; username = m[1].startsWith('UC') ? m[1] : '@'+m[1]; }
+  }
+  const title = encodeURIComponent(`eval: ${platform} ${username}`);
+  const body = encodeURIComponent(`URL: ${url}\n\n자동 처리됩니다 (다음 정기 실행 또는 \"큐 처리해줘\" 요청 시).`);
+  const labels = encodeURIComponent('eval-queue');
+  const ghUrl = `https://github.com/aaronkyung-a11y/daiso-ig-dashboard/issues/new?title=${title}&body=${body}&labels=${labels}`;
+  // Open in new tab
+  window.open(ghUrl, '_blank');
+  document.getElementById('helpMsg').innerHTML = `
+    ✅ GitHub 이슈 작성 페이지가 새 탭에서 열렸습니다 (제목·내용 자동 입력됨).<br>
+    → 새 탭에서 초록색 <strong>"Submit new issue"</strong> 버튼 1번만 누르면 큐에 등록 완료.<br>
+    → 다음 정기 실행 (매주 월 09시) 또는 즉시 Claude에게 <code>"큐 처리해줘"</code> 요청 시 분석됨.<br>
+    <small style="color:#64748b;">현재 등록된 큐 보기: <a href="https://github.com/aaronkyung-a11y/daiso-ig-dashboard/issues?q=is%3Aopen+label%3Aeval-queue" target="_blank">대기 중 이슈 목록 ↗</a></small>`;
+  document.getElementById('newUrl').value = '';
   return false;
 }
 
