@@ -1,0 +1,66 @@
+{
+  "platform": "instagram",
+  "username": "k_eunmi___",
+  "profile_url": "https://www.instagram.com/k_eunmi___/",
+  "fullname": "또쭈니맘",
+  "followers": 1613,
+  "following": 1015,
+  "post_count_total": 127,
+  "bio": "육아/쇼핑/캠핑/여행 / 인생은 오직 한번뿐 즐기자",
+  "highlights": [],
+  "sample_size": 3,
+  "sample_reels": [
+    {
+      "code": "DXnTb87D5d3",
+      "date": "2026-04-26",
+      "likes": 19,
+      "comments": 0,
+      "caption": "종이집하나로도 행복해 #5살아들 #육아템 #육아스타그램"
+    },
+    {
+      "code": "DXhLUxcj248",
+      "date": "2026-04-24",
+      "likes": 26,
+      "comments": 0,
+      "caption": "사이좋게지내자 아들둘 #두아들 #6살차이 #형제샷"
+    },
+    {
+      "code": "DWn04PsD0cc",
+      "date": "2026-04-02",
+      "likes": 31,
+      "comments": 0,
+      "caption": "귀염뽀작 다섯짤 #5살아들 #육아 #아들둘맘"
+    }
+  ],
+  "avg_likes": 25,
+  "avg_comments": 0,
+  "avg_engagement": 25,
+  "engagement_rate": 1.55,
+  "engagement_rate_unit": "percent",
+  "posts_last_30d_estimate": 4,
+  "posts_last_30d_note": "추정값 — 8개 visible 중 3개가 24일 내",
+  "evaluated_at": "2026-04-29T17:21:26+09:00",
+  "notes": "육아/가족 콘텐츠 위주. 뷰티/다이소/우리브랜드 키워드 미발견. 협업 적합도 낮음.",
+  "score": {
+    "total": 54,
+    "breakdown": {
+      "engagement": 60,
+      "brand_fit": 25,
+      "consistency": 80,
+      "follower_scale": 60
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    },
+    "raw": 54.25
+  },
+  "grade": "D",
+  "estimation_flags": [
+    "brand_fit_score (subjective)",
+    "posts_last_30d_estimate"
+  ],
+  "history": []
+}
