@@ -37,7 +37,7 @@
     ],
     "top_reel_blanc_doux": "https://www.instagram.com/p/DXd9ep8k404/"
   },
-  "evaluated_at": "2026-04-29T12:48:03+09:00",
+  "evaluated_at": "2026-04-30T13:58:42+09:00",
   "notes": "★ 우리 브랜드 (더랩바이블랑두) 콘텐츠 직접 작성 인플루언서. 마이크로 사이즈지만 viral 지수 매우 높음 (ER 172%).",
   "score": {
     "total": 93.0,
@@ -54,5 +54,12 @@
       "follower_scale": 0.1
     }
   },
-  "grade": "S"
+  "grade": "S",
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso_mentions": "unknown",
+    "olive_young_mentions": "unknown",
+    "beauty_topical_strength": "high",
+    "labrang_blanc_doux_mention": true
+  }
 }
