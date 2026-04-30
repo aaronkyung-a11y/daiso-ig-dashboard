@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-30T09:05:26+09:00",
-  "count": 8,
+  "lastUpdated": "2026-04-30T13:39:07+09:00",
+  "count": 9,
   "accounts": [
     {
       "platform": "instagram",
@@ -92,6 +92,19 @@
       "evaluated_at": "2026-04-29T12:48:03+09:00",
       "collab_status": "not_started",
       "json_file": "influencers/youtube_Jinyaa.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "cherry.park___",
+      "fullname": "박체리 cherry🍒",
+      "profile_url": "https://www.instagram.com/cherry.park___/",
+      "followers": 22000,
+      "engagement_rate": 0.0173,
+      "score_total": 67.5,
+      "grade": "B",
+      "evaluated_at": "2026-04-30T13:38:32+09:00",
+      "collab_status": "not_started",
+      "json_file": "influencers/instagram_cherry_park___.json"
     },
     {
       "platform": "instagram",
