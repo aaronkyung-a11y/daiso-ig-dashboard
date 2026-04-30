@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T17:21:26+09:00",
+  "lastUpdated": "2026-04-30T17:15:00+09:00",
   "auto_refresh": true,
   "refresh_cron": "weekly",
   "accounts": [
@@ -42,6 +42,31 @@
       "platform": "instagram",
       "username": "lobit_beauty",
       "profile_url": "https://www.instagram.com/lobit_beauty/"
+    },
+    {
+      "platform": "instagram",
+      "username": "cherry.park___",
+      "profile_url": "https://www.instagram.com/cherry.park___/"
+    },
+    {
+      "platform": "instagram",
+      "username": "dasik.yaksa",
+      "profile_url": "https://www.instagram.com/dasik.yaksa/"
+    },
+    {
+      "platform": "instagram",
+      "username": "euniunni",
+      "profile_url": "https://www.instagram.com/euniunni/"
+    },
+    {
+      "platform": "instagram",
+      "username": "haeriporter",
+      "profile_url": "https://www.instagram.com/haeriporter/"
+    },
+    {
+      "platform": "instagram",
+      "username": "incworld",
+      "profile_url": "https://www.instagram.com/incworld/"
     }
   ]
 }
