@@ -1,0 +1,57 @@
+{
+  "platform": "instagram",
+  "username": "haeriporter",
+  "profile_url": "https://www.instagram.com/haeriporter/",
+  "fullname": "해리포터🖤",
+  "followers": 718000,
+  "following": 1999,
+  "post_count_total": 769,
+  "bio": "",
+  "sample_size": 1,
+  "sample_note": "★ 분석 중 Chrome 타임아웃 — 1개 reel만 성공 추출. 다음 STEP B-Light에서 보완 필요.",
+  "avg_likes": 19831,
+  "avg_comments": 537,
+  "avg_engagement": 20368,
+  "engagement_rate": 0.0284,
+  "top_post_likes": 19831,
+  "posts_last_30d": 6,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_mentions": 0,
+    "olive_young_mentions": 0,
+    "beauty_topical_strength": "low (1 caption sampled = lifestyle/drinking)",
+    "labrang_blanc_doux_mention": false,
+    "captions_captured": 1
+  },
+  "brand_fit_notes": "★ 1건 캡션 샘플 (대표성 낮음): 라이프스타일/음주 콘텐츠 — 뷰티/다이소/올리브영 토픽 부재. 다음 재분석에서 더 많은 샘플 필요.",
+  "sample_data_evidence": {
+    "samples": [
+      {
+        "code": "DXCEJGYE5Qo",
+        "type": "reel",
+        "like": 19831,
+        "cm": 537,
+        "cap": "취하면 과감해지는 우리❤️"
+      }
+    ]
+  },
+  "evaluated_at": "2026-04-30T14:58:26+09:00",
+  "notes": "신규 분석. 718K 팔로워. ER 2.84% (1개 샘플만 — 신뢰도 낮음). 라이프스타일 콘텐츠 추정.",
+  "score": {
+    "total": 58.2,
+    "breakdown": {
+      "engagement": 60,
+      "brand_fit": 25,
+      "consistency": 80,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "C"
+}
