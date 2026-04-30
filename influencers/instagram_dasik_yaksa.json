@@ -1,0 +1,79 @@
+{
+  "platform": "instagram",
+  "username": "dasik.yaksa",
+  "profile_url": "https://www.instagram.com/dasik.yaksa/",
+  "fullname": "다식 약사 | 박약다식, 박소윤",
+  "followers": 103000,
+  "following": 885,
+  "post_count_total": 890,
+  "bio": "",
+  "sample_size": 0,
+  "sample_note": "★ 좋아요·댓글 비공개 계정 — like_count/comment_count 추출 0건. ER 계산 불가 (er_score 40 적용, 보수적). 6건 포스트 timestamp만 확보 (모두 30일 내).",
+  "avg_likes": null,
+  "avg_comments": null,
+  "engagement_rate": null,
+  "engagement_rate_status": "data_unavailable_likes_hidden",
+  "posts_last_30d": 6,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": 0,
+    "olive_young_mentions": 0,
+    "beauty_topical_strength": "medium (약사/wellness, indirect beauty crossover via skincare)",
+    "labrang_blanc_doux_mention": false,
+    "captions_captured": 0
+  },
+  "brand_fit_notes": "★ 좋아요 비공개 + 캡션 추출 0건 → ER + 브랜드 키워드 빈도 분석 모두 불가. bio 'JM 약사 (pharmacist)' 기반 wellness/skincare 토픽 추정 (60). 다음 재분석에서 follow 후 시도 필요.",
+  "sample_data_evidence": {
+    "timestamps_only": [
+      {
+        "code": "DXsd2RQjyvV",
+        "type": "reel",
+        "taken": 1777421277
+      },
+      {
+        "code": "DXoJDzeDw2g",
+        "type": "reel",
+        "taken": 1777276121
+      },
+      {
+        "code": "DXg8qGKD2YL",
+        "type": "reel",
+        "taken": 1777034755
+      },
+      {
+        "code": "DXvVlBND0eH",
+        "type": "post",
+        "taken": 1777517379
+      },
+      {
+        "code": "DXtcuI-j5-4",
+        "type": "post",
+        "taken": 1777454013
+      },
+      {
+        "code": "DXqBOSujweM",
+        "type": "post",
+        "taken": 1777338933
+      }
+    ]
+  },
+  "evaluated_at": "2026-04-30T14:55:56+09:00",
+  "notes": "신규 분석. 103K 팔로워. ★ 좋아요/캡션 비공개 → ER 미측정, brand_fit 추정. 6/6 게시물 30일 내 (활발).",
+  "score": {
+    "total": 57.0,
+    "breakdown": {
+      "engagement": 40,
+      "brand_fit": 60,
+      "consistency": 80,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "C"
+}
