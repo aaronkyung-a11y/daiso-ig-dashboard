@@ -39,7 +39,7 @@
     ],
     "top_reel": "https://www.instagram.com/jangsu_note/reel/DXeNuIFj5E2/"
   },
-  "evaluated_at": "2026-04-29T12:48:03+09:00",
+  "evaluated_at": "2026-04-30T13:58:42+09:00",
   "notes": "실측 (likes/comments는 reel 페이지 인라인 JSON에서 추출, 8개 샘플)",
   "score": {
     "total": 93.0,
@@ -56,5 +56,12 @@
       "follower_scale": 0.1
     }
   },
-  "grade": "S"
+  "grade": "S",
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "multiple",
+    "olive_young_mentions": "unknown",
+    "beauty_topical_strength": "high",
+    "labrang_blanc_doux_mention": false
+  }
 }
