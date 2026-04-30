@@ -3,48 +3,69 @@
   "username": "beauty_piona",
   "profile_url": "https://www.instagram.com/beauty_piona/",
   "fullname": "문혜경",
-  "followers": 6144,
+  "followers": 6161,
   "following": 6559,
   "post_count_total": 574,
   "bio": "",
-  "sample_size": 7,
-  "avg_likes": 3461,
-  "avg_comments": 251,
-  "avg_engagement": 3712,
-  "engagement_rate": 0.6042,
-  "top_post_likes": 14591,
-  "posts_last_30d": 5,
-  "brand_fit_score": 100,
+  "sample_size": 11,
+  "avg_likes": 970,
+  "avg_comments": 123,
+  "avg_engagement": 1093,
+  "engagement_rate": 0.1774,
+  "top_post_likes": 4827,
+  "posts_last_30d": 10,
+  "brand_fit_score": 90,
   "brand_fit_notes": "username \"beauty_piona\". 다이소 화장품 reel 4,802 likes (DXOV_7-AgNn, 4/17), 댓글 636개로 매우 높은 댓글 비율",
   "sample_data_evidence": {
     "likes_sample": [
-      4807,
-      3652,
-      14591,
-      32,
-      113,
-      221,
-      813
+      4827,
+      3658,
+      146,
+      43,
+      229,
+      231,
+      835,
+      171,
+      173,
+      275,
+      80
     ],
     "comments_sample": [
-      636,
-      491,
-      514,
+      638,
+      490,
+      34,
       3,
-      22,
-      30,
-      61
+      27,
+      32,
+      60,
+      14,
+      20,
+      38,
+      2
     ],
-    "top_reel": "https://www.instagram.com/p/DXOV_7-AgNn/"
+    "reel_codes": [
+      "DXD7y3aAutK",
+      "DTkGSuTEkzF",
+      "DXtKyU7EsT_",
+      "DXrEO1okjdz",
+      "DXqYLhbkvz9",
+      "DXjLHDyEgph",
+      "DXgVPHykmD3",
+      "DXdySPOEuol",
+      "DXbYi67Eo-m",
+      "DXY555rgrA3",
+      "DXXyj9mko7d"
+    ],
+    "top_reel": "https://www.instagram.com/p/DXD7y3aAutK/"
   },
-  "evaluated_at": "2026-04-30T13:58:42+09:00",
-  "notes": "실측 (likes/comments는 reel 페이지 인라인 JSON에서 추출, 7개 샘플). 댓글 수가 매우 많아 진성 인게이지먼트 신호 강함.",
+  "evaluated_at": "2026-04-30T17:15:00+09:00",
+  "notes": "실측 (logged-out IG, og:description 추출, 12 reel 시도/11 likes 회수). B-Light rolling refresh.",
   "score": {
-    "total": 93.0,
+    "total": 93.5,
     "breakdown": {
       "engagement": 100,
-      "brand_fit": 100,
-      "consistency": 80,
+      "brand_fit": 90,
+      "consistency": 100,
       "follower_scale": 60
     },
     "weights": {
@@ -57,9 +78,24 @@
   "grade": "S",
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "multiple",
-    "olive_young_mentions": "unknown",
-    "beauty_topical_strength": "high",
+    "daiso_mentions": "multiple (9건)",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "high (61건)",
     "labrang_blanc_doux_mention": false
-  }
+  },
+  "history": [
+    {
+      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "followers": 6144,
+      "engagement_rate": 0.6042,
+      "avg_likes": 3461,
+      "avg_comments": 251,
+      "sample_size": 7,
+      "brand_fit_score": 100,
+      "retailer_focus": "daiso",
+      "grade": "S",
+      "score_total": 93.0,
+      "posts_last_30d": 5
+    }
+  ]
 }
