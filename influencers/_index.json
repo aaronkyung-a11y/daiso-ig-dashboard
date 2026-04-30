@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-30T14:13:02+09:00",
-  "count": 9,
+  "lastUpdated": "2026-04-30T15:01:19+09:00",
+  "count": 13,
   "accounts": [
     {
       "platform": "instagram",
@@ -113,6 +113,62 @@
       "collab_status": "not_started",
       "retailer_focus": "olive_young",
       "json_file": "influencers/instagram_cherry_park___.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "euniunni",
+      "fullname": "조성은 Euniunni 유니언니",
+      "profile_url": "https://www.instagram.com/euniunni/",
+      "followers": 141000,
+      "engagement_rate": 0.0094,
+      "score_total": 60.8,
+      "grade": "B",
+      "evaluated_at": "2026-04-30T15:00:20+09:00",
+      "collab_status": "not_started",
+      "retailer_focus": "beauty_general",
+      "json_file": "influencers/instagram_euniunni.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "haeriporter",
+      "fullname": "해리포터🖤",
+      "profile_url": "https://www.instagram.com/haeriporter/",
+      "followers": 718000,
+      "engagement_rate": 0.0284,
+      "score_total": 58.2,
+      "grade": "C",
+      "evaluated_at": "2026-04-30T14:58:26+09:00",
+      "collab_status": "not_started",
+      "retailer_focus": "off_topic",
+      "json_file": "influencers/instagram_haeriporter.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "dasik.yaksa",
+      "fullname": "다식 약사 | 박약다식, 박소윤",
+      "profile_url": "https://www.instagram.com/dasik.yaksa/",
+      "followers": 103000,
+      "engagement_rate": null,
+      "score_total": 57.0,
+      "grade": "C",
+      "evaluated_at": "2026-04-30T14:55:56+09:00",
+      "collab_status": "not_started",
+      "retailer_focus": "beauty_general",
+      "json_file": "influencers/instagram_dasik_yaksa.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "incworld",
+      "fullname": "뷰드름유튜버 인씨 inssi",
+      "profile_url": "https://www.instagram.com/incworld/",
+      "followers": 60000,
+      "engagement_rate": 0.0045,
+      "score_total": 55.8,
+      "grade": "C",
+      "evaluated_at": "2026-04-30T14:53:34+09:00",
+      "collab_status": "not_started",
+      "retailer_focus": "beauty_general",
+      "json_file": "influencers/instagram_incworld.json"
     },
     {
       "platform": "instagram",
