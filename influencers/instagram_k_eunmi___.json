@@ -38,7 +38,7 @@
   "engagement_rate": 0.0155,
   "posts_last_30d_estimate": 4,
   "posts_last_30d_note": "추정값 — 8개 visible 중 3개가 24일 내",
-  "evaluated_at": "2026-04-29T17:21:26+09:00",
+  "evaluated_at": "2026-04-30T13:58:42+09:00",
   "notes": "육아/가족 콘텐츠 위주. 뷰티/다이소/우리브랜드 키워드 미발견. 협업 적합도 낮음.",
   "score": {
     "total": 54,
@@ -63,5 +63,12 @@
   ],
   "history": [],
   "brand_fit_score": 25,
-  "brand_fit_notes": "육아/가족 콘텐츠 위주. 뷰티/다이소/우리브랜드 키워드 미발견. 협업 적합도 낮음."
+  "brand_fit_notes": "육아/가족 콘텐츠 위주. 뷰티/다이소/우리브랜드 키워드 미발견. 협업 적합도 낮음.",
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_mentions": 0,
+    "olive_young_mentions": 0,
+    "beauty_topical_strength": "low",
+    "labrang_blanc_doux_mention": false
+  }
 }
