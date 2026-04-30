@@ -1,0 +1,78 @@
+{
+  "platform": "instagram",
+  "username": "euniunni",
+  "profile_url": "https://www.instagram.com/euniunni/",
+  "fullname": "조성은 Euniunni 유니언니",
+  "followers": 141000,
+  "following": 6646,
+  "post_count_total": 2959,
+  "bio": "",
+  "sample_size": 3,
+  "sample_note": "4 reels visited, 3 like/cm 추출 성공",
+  "avg_likes": 1231.7,
+  "avg_comments": 97.33,
+  "avg_engagement": 1329.0,
+  "engagement_rate": 0.0094,
+  "top_post_likes": 2149,
+  "posts_last_30d": 6,
+  "brand_fit_score": 75,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": 0,
+    "olive_young_mentions": 0,
+    "beauty_keyword_count": 7,
+    "labrang_blanc_doux_mention": false,
+    "captions_captured": 2
+  },
+  "brand_fit_notes": "K-beauty 콘텐츠 (yesstyle 협업, modelingmask 등). 영문 캡션 다수. 다이소/올리브영 직접 언급 미발견. 뷰티 키워드 7회 → brand_fit 75.",
+  "sample_data_evidence": {
+    "samples": [
+      {
+        "code": "DOqZKftkuhM",
+        "like": null,
+        "cm": null,
+        "taken": 1758024210,
+        "cap": ""
+      },
+      {
+        "code": "DOV1Mj_kqOU",
+        "like": 2149,
+        "cm": 243,
+        "taken": null,
+        "cap": "Dare or dare? Bet you can't name something I can't do in a modeling mask. #modelingmask #modelingmaskchallenge"
+      },
+      {
+        "code": "DXO0uipgJkZ",
+        "like": 551,
+        "cm": 33,
+        "taken": null,
+        "cap": ""
+      },
+      {
+        "code": "DW5Fj4IgAPH",
+        "like": 995,
+        "cm": 16,
+        "taken": null,
+        "cap": "HUGE K-BEAUTY FEST at @yesstyle [April 7_14th] 30 of their Top Brand products are on big sales for 1 week only! Everything will be up to 50% off Plus extra 15% off code on any orders valid 72H: EUNI15KF #AD #yesstyle #findyouryes #kbeauty #koreanskincare"
+      }
+    ]
+  },
+  "evaluated_at": "2026-04-30T15:00:20+09:00",
+  "notes": "신규 분석. 141K 팔로워. ER 0.94% (3건 샘플, 추정). K-beauty/skincare 글로벌 인플루언서.",
+  "score": {
+    "total": 60.8,
+    "breakdown": {
+      "engagement": 40,
+      "brand_fit": 75,
+      "consistency": 80,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "B"
+}
