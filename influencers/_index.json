@@ -1,31 +1,25 @@
 {
-  "lastUpdated": "2026-04-30T15:01:19+09:00",
+  "lastUpdated": "2026-04-30T17:15:00+09:00",
   "count": 13,
+  "retailer_focus_summary": {
+    "daiso": 5,
+    "our_brand": 1,
+    "mixed": 1,
+    "olive_young": 1,
+    "beauty_general": 3,
+    "off_topic": 2
+  },
   "accounts": [
-    {
-      "platform": "instagram",
-      "username": "jangsu_note",
-      "fullname": "장수노트",
-      "profile_url": "https://www.instagram.com/jangsu_note/",
-      "followers": 8956,
-      "engagement_rate": 0.3596,
-      "score_total": 93.0,
-      "grade": "S",
-      "evaluated_at": "2026-04-30T13:58:42+09:00",
-      "collab_status": "not_started",
-      "retailer_focus": "daiso",
-      "json_file": "influencers/instagram_jangsu_note.json"
-    },
     {
       "platform": "instagram",
       "username": "beauty_piona",
       "fullname": "문혜경",
       "profile_url": "https://www.instagram.com/beauty_piona/",
-      "followers": 6144,
-      "engagement_rate": 0.6042,
-      "score_total": 93.0,
+      "followers": 6161,
+      "engagement_rate": 0.1774,
+      "score_total": 93.5,
       "grade": "S",
-      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "evaluated_at": "2026-04-30T17:15:00+09:00",
       "collab_status": "not_started",
       "retailer_focus": "daiso",
       "json_file": "influencers/instagram_beauty_piona.json"
@@ -43,6 +37,20 @@
       "collab_status": "not_started",
       "retailer_focus": "our_brand",
       "json_file": "influencers/instagram_ellie___cos.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "jangsu_note",
+      "fullname": "장수노트",
+      "profile_url": "https://www.instagram.com/jangsu_note/",
+      "followers": 8956,
+      "engagement_rate": 0.3596,
+      "score_total": 93.0,
+      "grade": "S",
+      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "collab_status": "not_started",
+      "retailer_focus": "daiso",
+      "json_file": "influencers/instagram_jangsu_note.json"
     },
     {
       "platform": "instagram",
@@ -73,20 +81,6 @@
       "json_file": "influencers/instagram_rorobeauty48791.json"
     },
     {
-      "platform": "instagram",
-      "username": "beautyus_mag",
-      "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
-      "profile_url": "https://www.instagram.com/beautyus_mag/",
-      "followers": 86000,
-      "engagement_rate": 0.035,
-      "score_total": 85.5,
-      "grade": "A",
-      "evaluated_at": "2026-04-30T13:58:42+09:00",
-      "collab_status": "not_started",
-      "retailer_focus": "beauty_general",
-      "json_file": "influencers/instagram_beautyus_mag.json"
-    },
-    {
       "platform": "youtube",
       "username": "Jinyaa",
       "fullname": "지냐 Jinyaa",
@@ -99,6 +93,20 @@
       "collab_status": "not_started",
       "retailer_focus": "daiso",
       "json_file": "influencers/youtube_Jinyaa.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "beautyus_mag",
+      "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
+      "profile_url": "https://www.instagram.com/beautyus_mag/",
+      "followers": 86000,
+      "engagement_rate": 0.0248,
+      "score_total": 75.5,
+      "grade": "B",
+      "evaluated_at": "2026-04-30T17:15:00+09:00",
+      "collab_status": "not_started",
+      "retailer_focus": "daiso",
+      "json_file": "influencers/instagram_beautyus_mag.json"
     },
     {
       "platform": "instagram",
