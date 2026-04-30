@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-04-29T17:26:42+09:00",
+  "lastUpdated": "2026-04-30T09:05:26+09:00",
   "count": 8,
   "accounts": [
     {
       "platform": "instagram",
-      "username": "ellie._.cos",
-      "fullname": "ellie エリ",
-      "profile_url": "https://www.instagram.com/ellie._.cos/",
-      "followers": 1816,
-      "engagement_rate": 1.7169,
+      "username": "jangsu_note",
+      "fullname": "장수노트",
+      "profile_url": "https://www.instagram.com/jangsu_note/",
+      "followers": 8956,
+      "engagement_rate": 0.3596,
       "score_total": 93.0,
       "grade": "S",
       "evaluated_at": "2026-04-29T12:48:03+09:00",
       "collab_status": "not_started",
-      "json_file": "influencers/instagram_ellie___cos.json"
+      "json_file": "influencers/instagram_jangsu_note.json"
     },
     {
       "platform": "instagram",
@@ -30,16 +30,16 @@
     },
     {
       "platform": "instagram",
-      "username": "jangsu_note",
-      "fullname": "장수노트",
-      "profile_url": "https://www.instagram.com/jangsu_note/",
-      "followers": 8956,
-      "engagement_rate": 0.3596,
+      "username": "ellie._.cos",
+      "fullname": "ellie エリ",
+      "profile_url": "https://www.instagram.com/ellie._.cos/",
+      "followers": 1816,
+      "engagement_rate": 1.7169,
       "score_total": 93.0,
       "grade": "S",
       "evaluated_at": "2026-04-29T12:48:03+09:00",
       "collab_status": "not_started",
-      "json_file": "influencers/instagram_jangsu_note.json"
+      "json_file": "influencers/instagram_ellie___cos.json"
     },
     {
       "platform": "instagram",
