@@ -1,0 +1,66 @@
+{
+  "platform": "instagram",
+  "username": "cherry.park___",
+  "profile_url": "https://www.instagram.com/cherry.park___/",
+  "fullname": "박체리 cherry🍒",
+  "followers": 22000,
+  "following": 226,
+  "post_count_total": 400,
+  "bio": "",
+  "sample_size": 6,
+  "avg_likes": 376.8,
+  "avg_comments": 2.83,
+  "avg_engagement": 379.7,
+  "engagement_rate": 0.0173,
+  "top_post_likes": 1349,
+  "posts_last_30d": 6,
+  "brand_fit_score": 70,
+  "brand_fit_notes": "주력 키워드: 올리브영/올영(다수), 쿠션·틴트·베이스프림 등 색조·베이스 화장품 리뷰. 다이소 직접 언급은 미발견. 더랩바이블랑두 언급/제품제공 미발견. (브랜드 적합도 70 추정)",
+  "sample_data_evidence": {
+    "likes_sample": [
+      1349,
+      102,
+      233,
+      252,
+      95,
+      230
+    ],
+    "comments_sample": [
+      8,
+      5,
+      1,
+      1,
+      0,
+      2
+    ],
+    "reel_codes": [
+      "DXooAZODL2_",
+      "DXeZ47cS1Ek",
+      "DXUEcz8jOQe",
+      "DXRcX2lDGbi",
+      "DXHNZ5hjHuc",
+      "DW3w0n7S-8y"
+    ],
+    "top_reel_url": "https://www.instagram.com/cherry.park___/reel/DXooAZODL2_/",
+    "olive_young_focus": true,
+    "daiso_mentions": 0
+  },
+  "evaluated_at": "2026-04-30T13:38:32+09:00",
+  "notes": "올리브영 중심 색조·베이스 뷰티 인플루언서 (22K). ER 1.73%, top reel 1349 likes (퓨쿠션 olive young 콜라보). 다이소 키워드 없음 — 다이소 협업보다 올리브영 트렌드 트래킹 후보로 적합. posts_last_30d=6 추정 (timestamp 4건만 잡힘 + 최근 reel 리스트 정렬상 6건 모두 4월 내).",
+  "score": {
+    "total": 67.5,
+    "breakdown": {
+      "engagement": 60,
+      "brand_fit": 70,
+      "consistency": 80,
+      "follower_scale": 80
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "B"
+}
