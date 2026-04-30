@@ -312,385 +312,200 @@
 <script>
 // ====== 다이소 데이터 (daiso-beauty-instagram-weekly 스케줄이 이 블록을 교체) ======
 // DAISO_DATA_BEGIN
-const DAISO_DATA = {
-  "lastUpdated": "2026-04-30T10:48:34+09:00",
-  "summary": {
-    "totalKeywords": 10,
-    "totalReels": 21,
-    "totalViewsActual": 0,
-    "totalViewsEstimated": 723840,
-    "totalEngagement": 8583,
-    "topCreator": "unknown",
-    "topCreatorViews": 248192
-  },
-  "keywords": [
+const daisoData = {
+  "lastUpdated": "2026-04-30",
+  "cutoff": "2026-03-31",
+  "totalReels": 12,
+  "totalLikes": 1956,
+  "totalComments": 1733,
+  "totalEngagement": 3689,
+  "totalViewsEstimated": 250368,
+  "brands": [
     {
       "rank": 1,
-      "keyword": "VT PDRN 광채토너",
-      "searchQuery": "다이소 VT PDRN",
-      "product": "[퀵수분충전]VT PDRN 광채토너 200 ml",
-      "brand": "VT",
-      "pdNo": "1067495",
-      "price": 5000,
-      "reelCount": 4,
-      "totalViews": 15616,
-      "totalEngagement": 148,
+      "keyword": "본셉 비타씨",
+      "reelCount": 3,
+      "totalViews": 28032,
+      "totalEngagement": 225,
+      "totalLikes": 219,
+      "totalComments": 6,
       "topReels": [
         {
-          "user": "sallim_man",
-          "date": "2026-04-29",
-          "likes": 73,
-          "comments": 18,
-          "engagement": 91,
-          "views": 9344,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtVqYDCQxn/"
-        },
-        {
-          "user": "do_ooou",
-          "date": "2026-04-29",
-          "likes": 24,
-          "comments": 3,
-          "engagement": 27,
-          "views": 3072,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtXJfJkjkY/"
-        },
-        {
-          "user": "ha____dobby",
-          "date": "2026-04-21",
-          "likes": 14,
-          "comments": 4,
-          "engagement": 18,
-          "views": 1792,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXYz5YIEYcl/"
-        },
-        {
-          "user": "boss.lim_",
-          "date": "2026-04-12",
-          "likes": 11,
+          "url": "https://www.instagram.com/p/DXwABYGDZOr/",
+          "user": "unni_list",
+          "date": "2026-04-30",
+          "likes": 146,
           "comments": 1,
-          "engagement": 12,
-          "views": 1408,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXCBQtyDwMp/"
+          "engagement": 147,
+          "views": 18688,
+          "type": "추정 (likes×128)"
+        },
+        {
+          "url": "https://www.instagram.com/p/DXngLBVk3Qq/",
+          "user": "hhhan_na_",
+          "date": "2026-04-27",
+          "likes": 59,
+          "comments": 2,
+          "engagement": 61,
+          "views": 7552,
+          "type": "추정 (likes×128)"
+        },
+        {
+          "url": "https://www.instagram.com/p/DXtd8oKE0Rr/",
+          "user": "_w._.dy",
+          "date": "2026-04-29",
+          "likes": 14,
+          "comments": 3,
+          "engagement": 17,
+          "views": 1792,
+          "type": "추정 (likes×128)"
         }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.daisomall.co.kr/ds/pd/pdDetail?pdNo=1067495"
+      ]
     },
     {
       "rank": 2,
-      "keyword": "본셉 비타씨",
-      "searchQuery": "다이소 본셉 비타씨",
-      "product": "본셉 비타씨 동결 건조 더블샷 앰플 키트",
-      "brand": "본셉",
-      "pdNo": "1061918",
-      "price": 5000,
-      "reelCount": 3,
-      "totalViews": 33920,
-      "totalEngagement": 306,
-      "topReels": [
-        {
-          "user": "unnies_all",
-          "date": "2026-04-29",
-          "likes": 259,
-          "comments": 0,
-          "engagement": 259,
-          "views": 33152,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtUfk8AaCC/"
-        },
-        {
-          "user": "unknown",
-          "date": "2026-04-29",
-          "likes": 3,
-          "comments": 24,
-          "engagement": 27,
-          "views": 384,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtiB4-j2nh/"
-        },
-        {
-          "user": "unknown",
-          "date": "2026-04-29",
-          "likes": 3,
-          "comments": 17,
-          "engagement": 20,
-          "views": 384,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtUUXNkQro/"
-        }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.daisomall.co.kr/ds/pd/pdDetail?pdNo=1061918"
-    },
-    {
-      "rank": 3,
       "keyword": "마데카21 토너",
-      "searchQuery": "다이소 마데카21",
-      "product": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
-      "brand": "마데카21",
-      "pdNo": "1044553",
-      "price": 5000,
       "reelCount": 1,
-      "totalViews": 60160,
-      "totalEngagement": 516,
+      "totalViews": 384,
+      "totalEngagement": 53,
+      "totalLikes": 3,
+      "totalComments": 50,
       "topReels": [
         {
-          "user": "moohae_day",
-          "date": "2026-04-20",
-          "likes": 470,
-          "comments": 46,
-          "engagement": 516,
-          "views": 60160,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXWpErfEnFY/"
+          "url": "https://www.instagram.com/p/DXaY_v8SN2f/",
+          "user": "user_unknown",
+          "date": "2026-04-21",
+          "likes": 3,
+          "comments": 50,
+          "engagement": 53,
+          "views": 384,
+          "type": "추정 (likes×128)"
         }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.daisomall.co.kr/ds/pd/pdDetail?pdNo=1044553"
+      ]
     },
     {
       "rank": 4,
-      "keyword": "본셉 비타씨 에센스",
-      "searchQuery": "다이소 본셉 비타씨",
-      "product": "본셉 비타씨 휩 퍼스트 에센스 100 ml",
-      "brand": "본셉",
-      "pdNo": "1077185",
-      "price": 5000,
+      "keyword": "VT PDRN",
       "reelCount": 3,
-      "totalViews": 33920,
-      "totalEngagement": 306,
+      "totalViews": 120704,
+      "totalEngagement": 2578,
+      "totalLikes": 943,
+      "totalComments": 1635,
       "topReels": [
         {
-          "user": "unnies_all",
-          "date": "2026-04-29",
-          "likes": 259,
-          "comments": 0,
-          "engagement": 259,
-          "views": 33152,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtUfk8AaCC/"
+          "url": "https://www.instagram.com/p/DXYz5YIEYcl/",
+          "user": "user_unknown",
+          "date": "2026-04-21",
+          "likes": 649,
+          "comments": 1628,
+          "engagement": 2277,
+          "views": 83072,
+          "type": "추정 (likes×128)"
         },
         {
-          "user": "unknown",
-          "date": "2026-04-29",
-          "likes": 3,
-          "comments": 24,
-          "engagement": 27,
-          "views": 384,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtiB4-j2nh/"
+          "url": "https://www.instagram.com/p/DXCBQtyDwMp/",
+          "user": "user_unknown",
+          "date": "2026-04-12",
+          "likes": 227,
+          "comments": 4,
+          "engagement": 231,
+          "views": 29056,
+          "type": "추정 (likes×128)"
         },
         {
-          "user": "unknown",
+          "url": "https://www.instagram.com/p/DXtXJfJkjkY/",
+          "user": "user_unknown",
           "date": "2026-04-29",
-          "likes": 3,
-          "comments": 17,
-          "engagement": 20,
-          "views": 384,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtUUXNkQro/"
+          "likes": 67,
+          "comments": 3,
+          "engagement": 70,
+          "views": 8576,
+          "type": "추정 (likes×128)"
         }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.daisomall.co.kr/ds/pd/pdDetail?pdNo=1077185"
+      ]
     },
     {
       "rank": 5,
       "keyword": "리얼베리어",
-      "searchQuery": "다이소 리얼베리어",
-      "product": "바이 리얼베리어 세라베이스 카밍 모이스처라이징 크림 50 ml",
-      "brand": "리얼베리어",
-      "pdNo": "1061529",
-      "price": 5000,
       "reelCount": 3,
-      "totalViews": 388992,
-      "totalEngagement": 5705,
+      "totalViews": 10368,
+      "totalEngagement": 103,
+      "totalLikes": 81,
+      "totalComments": 22,
       "topReels": [
         {
-          "user": "unknown",
-          "date": "2026-04-04",
-          "likes": 1215,
-          "comments": 27,
-          "engagement": 1242,
-          "views": 155520,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DWtbJxWEwzg/"
-        },
-        {
-          "user": "cos_muni",
+          "url": "https://www.instagram.com/p/DW05IcMzNBV/",
+          "user": "user_unknown",
           "date": "2026-04-07",
-          "likes": 1032,
-          "comments": 9,
-          "engagement": 1041,
-          "views": 132096,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DW05IcMzNBV/"
+          "likes": 49,
+          "comments": 5,
+          "engagement": 54,
+          "views": 6272,
+          "type": "추정 (likes×128)"
         },
         {
-          "user": "song.tamin",
+          "url": "https://www.instagram.com/p/DXHBCb8TUG-/",
+          "user": "user_unknown",
           "date": "2026-04-14",
-          "likes": 792,
-          "comments": 2630,
-          "engagement": 3422,
-          "views": 101376,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXHBCb8TUG-/"
+          "likes": 29,
+          "comments": 4,
+          "engagement": 33,
+          "views": 3712,
+          "type": "추정 (likes×128)"
+        },
+        {
+          "url": "https://www.instagram.com/p/DWtbJxWEwzg/",
+          "user": "user_unknown",
+          "date": "2026-04-04",
+          "likes": 3,
+          "comments": 13,
+          "engagement": 16,
+          "views": 384,
+          "type": "추정 (likes×128)"
         }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.daisomall.co.kr/ds/pd/pdDetail?pdNo=1061529"
+      ]
     },
     {
       "rank": 6,
-      "keyword": "더랩바이블랑두",
-      "searchQuery": "다이소 더랩바이블랑두",
-      "product": "더랩 바이 블랑두 클리어 히알 물광 부스터 앰플 30 ml",
-      "brand": "더랩바이블랑두",
-      "pdNo": "1060644",
-      "price": 5000,
-      "reelCount": 3,
-      "totalViews": 97152,
-      "totalEngagement": 780,
+      "keyword": "블랑두 부스터",
+      "reelCount": 1,
+      "totalViews": 90496,
+      "totalEngagement": 725,
+      "totalLikes": 707,
+      "totalComments": 18,
       "topReels": [
         {
-          "user": "unknown",
+          "url": "https://www.instagram.com/p/DXtbEbaE5dL/",
+          "user": "user_unknown",
           "date": "2026-04-29",
-          "likes": 706,
+          "likes": 707,
           "comments": 18,
-          "engagement": 724,
-          "views": 90368,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtbEbaE5dL/"
-        },
-        {
-          "user": "liveunistdt",
-          "date": "2026-04-27",
-          "likes": 35,
-          "comments": 2,
-          "engagement": 37,
-          "views": 4480,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXo8u33jzhl/"
-        },
-        {
-          "user": "d_day_yun",
-          "date": "2026-04-28",
-          "likes": 18,
-          "comments": 1,
-          "engagement": 19,
-          "views": 2304,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXrYWEMk-Vv/"
+          "engagement": 725,
+          "views": 90496,
+          "type": "추정 (likes×128)"
         }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.daisomall.co.kr/ds/pd/pdDetail?pdNo=1060644"
+      ]
     },
     {
       "rank": 7,
       "keyword": "본셉 레티놀",
-      "searchQuery": "다이소 본셉 레티놀",
-      "product": "본셉 레티놀 2500 IU 링클샷 퍼펙터 15 ml",
-      "brand": "본셉",
-      "pdNo": "1055168",
-      "price": 5000,
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalEngagement": 0,
-      "topReels": [],
-      "collectionStatus": "no_reels_30d",
-      "productUrl": "https://www.daisomall.co.kr/ds/pd/pdDetail?pdNo=1055168"
-    },
-    {
-      "rank": 8,
-      "keyword": "본셉 비타씨 세럼",
-      "searchQuery": "다이소 본셉 비타씨",
-      "product": "본셉 비타씨 오일 캡슐 세럼 30 ml",
-      "brand": "본셉",
-      "pdNo": "1077186",
-      "price": 5000,
-      "reelCount": 3,
-      "totalViews": 33920,
-      "totalEngagement": 306,
-      "topReels": [
-        {
-          "user": "unnies_all",
-          "date": "2026-04-29",
-          "likes": 259,
-          "comments": 0,
-          "engagement": 259,
-          "views": 33152,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtUfk8AaCC/"
-        },
-        {
-          "user": "unknown",
-          "date": "2026-04-29",
-          "likes": 3,
-          "comments": 24,
-          "engagement": 27,
-          "views": 384,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtiB4-j2nh/"
-        },
-        {
-          "user": "unknown",
-          "date": "2026-04-29",
-          "likes": 3,
-          "comments": 17,
-          "engagement": 20,
-          "views": 384,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXtUUXNkQro/"
-        }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.daisomall.co.kr/ds/pd/pdDetail?pdNo=1077186"
-    },
-    {
-      "rank": 9,
-      "keyword": "메디필 멜라논엑스",
-      "searchQuery": "다이소 메디필 멜라논엑스",
-      "product": "메디필 멜라논엑스 기미크림 30 ml",
-      "brand": "메디필",
-      "pdNo": "1068858",
-      "price": 5000,
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalEngagement": 0,
-      "topReels": [],
-      "collectionStatus": "no_reels_30d",
-      "productUrl": "https://www.daisomall.co.kr/ds/pd/pdDetail?pdNo=1068858"
-    },
-    {
-      "rank": 10,
-      "keyword": "마데카21 크림",
-      "searchQuery": "다이소 마데카21",
-      "product": "마데카21 테카 솔루션 수딩 크림 50 ml",
-      "brand": "마데카21",
-      "pdNo": "1044554",
-      "price": 5000,
       "reelCount": 1,
-      "totalViews": 60160,
-      "totalEngagement": 516,
+      "totalViews": 384,
+      "totalEngagement": 5,
+      "totalLikes": 3,
+      "totalComments": 2,
       "topReels": [
         {
-          "user": "moohae_day",
-          "date": "2026-04-20",
-          "likes": 470,
-          "comments": 46,
-          "engagement": 516,
-          "views": 60160,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXWpErfEnFY/"
+          "url": "https://www.instagram.com/p/DXohGHbEWju/",
+          "user": "user_unknown",
+          "date": "2026-04-27",
+          "likes": 3,
+          "comments": 2,
+          "engagement": 5,
+          "views": 384,
+          "type": "추정 (likes×128)"
         }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.daisomall.co.kr/ds/pd/pdDetail?pdNo=1044554"
+      ]
     }
   ]
 };
@@ -698,242 +513,159 @@ const DAISO_DATA = {
 
 // ====== 올리브영 데이터 (oliveyoung-beauty-instagram-weekly 스케줄이 이 블록을 교체) ======
 // OLIVEYOUNG_DATA_BEGIN
-const OLIVEYOUNG_DATA = {
-  "lastUpdated": "2026-04-30T10:48:34+09:00",
-  "summary": {
-    "totalKeywords": 10,
-    "totalReels": 7,
-    "totalViewsActual": 0,
-    "totalViewsEstimated": 440576,
-    "totalEngagement": 3623,
-    "topCreator": "tabemacle",
-    "topCreatorViews": 390272
-  },
-  "keywords": [
+const oliveyoungData = {
+  "lastUpdated": "2026-04-30",
+  "cutoff": "2026-03-31",
+  "totalReels": 9,
+  "totalLikes": 2442,
+  "totalComments": 23,
+  "totalEngagement": 2465,
+  "totalViewsEstimated": 312576,
+  "brands": [
     {
       "rank": 1,
-      "keyword": "퓌 올데이 쿠션",
-      "searchQuery": "퓌 쿠션",
-      "product": "퓌 올데이 커버 블랙 쿠션 리필기획",
-      "brand": "퓌",
-      "goodsNo": "A000000253122",
-      "price": 20000,
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalEngagement": 0,
-      "topReels": [],
-      "collectionStatus": "no_reels_30d",
-      "productUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000253122"
+      "keyword": "라운드랩 선스프레이",
+      "reelCount": 3,
+      "totalViews": 142848,
+      "totalEngagement": 1122,
+      "totalLikes": 1116,
+      "totalComments": 6,
+      "topReels": [
+        {
+          "url": "https://www.instagram.com/p/DXIpVxJgVgt/",
+          "user": "user_unknown",
+          "date": "2026-04-15",
+          "likes": 948,
+          "comments": 5,
+          "engagement": 953,
+          "views": 121344,
+          "type": "추정 (likes×128)"
+        },
+        {
+          "url": "https://www.instagram.com/p/DXrfuyogTeI/",
+          "user": "user_unknown",
+          "date": "2026-04-28",
+          "likes": 158,
+          "comments": 0,
+          "engagement": 158,
+          "views": 20224,
+          "type": "추정 (likes×128)"
+        },
+        {
+          "url": "https://www.instagram.com/p/DXwENpjBgm0/",
+          "user": "user_unknown",
+          "date": "2026-04-30",
+          "likes": 10,
+          "comments": 1,
+          "engagement": 11,
+          "views": 1280,
+          "type": "추정 (likes×128)"
+        }
+      ]
     },
     {
       "rank": 2,
-      "keyword": "마르시끄 패치",
-      "searchQuery": "마르시끄 패치",
-      "product": "마르시끄 라인 리프팅 하이드로겔 패치",
-      "brand": "마르시끄",
-      "goodsNo": "A000000224298",
-      "price": 10800,
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalEngagement": 0,
-      "topReels": [],
-      "collectionStatus": "no_reels_30d",
-      "productUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000224298"
-    },
-    {
-      "rank": 3,
-      "keyword": "유세린 티아미돌",
-      "searchQuery": "유세린 티아미돌",
-      "product": "유세린 티아미돌 부스터 세럼 30ml",
-      "brand": "유세린",
-      "goodsNo": "A000000252128",
-      "price": 38400,
-      "reelCount": 3,
-      "totalViews": 7680,
-      "totalEngagement": 162,
+      "keyword": "메디힐 마스크팩",
+      "reelCount": 2,
+      "totalViews": 44544,
+      "totalEngagement": 358,
+      "totalLikes": 348,
+      "totalComments": 10,
       "topReels": [
         {
-          "user": "oliveyoung_magazine",
-          "date": "2026-04-29",
-          "likes": 54,
-          "comments": 0,
-          "engagement": 54,
-          "views": 6912,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXsyDl1iVsd/"
+          "url": "https://www.instagram.com/p/DXqHqa6kT8v/",
+          "user": "user_unknown",
+          "date": "2026-04-28",
+          "likes": 235,
+          "comments": 2,
+          "engagement": 237,
+          "views": 30080,
+          "type": "추정 (likes×128)"
         },
         {
-          "user": "unknown",
-          "date": "2026-04-28",
-          "likes": 3,
-          "comments": 1,
-          "engagement": 4,
-          "views": 384,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXq8woQEWhh/"
-        },
-        {
-          "user": "unknown",
-          "date": "2026-04-28",
-          "likes": 3,
-          "comments": 101,
-          "engagement": 104,
-          "views": 384,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXrEZCykqNj/"
+          "url": "https://www.instagram.com/p/DXlnMLLja74/",
+          "user": "user_unknown",
+          "date": "2026-04-26",
+          "likes": 113,
+          "comments": 8,
+          "engagement": 121,
+          "views": 14464,
+          "type": "추정 (likes×128)"
         }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252128"
-    },
-    {
-      "rank": 4,
-      "keyword": "메노킨 마스크",
-      "searchQuery": "메노킨 마스크",
-      "product": "메노킨 30초 퀵 버블 마스크 95ml",
-      "brand": "메노킨",
-      "goodsNo": "A000000234422",
-      "price": 23700,
-      "reelCount": 1,
-      "totalViews": 24064,
-      "totalEngagement": 195,
-      "topReels": [
-        {
-          "user": "menokin_official",
-          "date": "2026-04-15",
-          "likes": 188,
-          "comments": 7,
-          "engagement": 195,
-          "views": 24064,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXJHczujLt2/"
-        }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000234422"
+      ]
     },
     {
       "rank": 5,
-      "keyword": "메디힐 마스크팩",
-      "searchQuery": "메디힐 마스크팩",
-      "product": "메디힐 에센셜 마스크팩",
-      "brand": "메디힐",
-      "goodsNo": "A000000223414",
-      "price": 10000,
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalEngagement": 0,
-      "topReels": [],
-      "collectionStatus": "no_reels_30d",
-      "productUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223414"
-    },
-    {
-      "rank": 6,
-      "keyword": "이니스프리 레티놀",
-      "searchQuery": "이니스프리 레티놀",
-      "product": "이니스프리 레티놀 시카 흔적 앰플 30ml",
-      "brand": "이니스프리",
-      "goodsNo": "A000000230208",
-      "price": 26900,
-      "reelCount": 1,
-      "totalViews": 18176,
-      "totalEngagement": 149,
+      "keyword": "유세린 티아미돌",
+      "reelCount": 2,
+      "totalViews": 3456,
+      "totalEngagement": 29,
+      "totalLikes": 27,
+      "totalComments": 2,
       "topReels": [
         {
-          "user": "o_xuri",
-          "date": "2026-04-13",
-          "likes": 142,
-          "comments": 7,
-          "engagement": 149,
-          "views": 18176,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXEzvAWCZZT/"
-        }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000230208"
-    },
-    {
-      "rank": 7,
-      "keyword": "메디힐 더마 패드",
-      "searchQuery": "메디힐 패드",
-      "product": "메디힐 더마 패드 200매",
-      "brand": "메디힐",
-      "goodsNo": "A000000171427",
-      "price": 28900,
-      "reelCount": 1,
-      "totalViews": 384,
-      "totalEngagement": 37,
-      "topReels": [
+          "url": "https://www.instagram.com/p/DWz9aLyiUe9/",
+          "user": "user_unknown",
+          "date": "2026-04-07",
+          "likes": 24,
+          "comments": 0,
+          "engagement": 24,
+          "views": 3072,
+          "type": "추정 (likes×128)"
+        },
         {
-          "user": "sena__cho",
-          "date": "2026-04-06",
+          "url": "https://www.instagram.com/p/DXwFXk9R9DO/",
+          "user": "user_unknown",
+          "date": "2026-04-30",
           "likes": 3,
-          "comments": 34,
-          "engagement": 37,
+          "comments": 2,
+          "engagement": 5,
           "views": 384,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DWx9_wLACHD/"
+          "type": "추정 (likes×128)"
         }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171427"
-    },
-    {
-      "rank": 8,
-      "keyword": "라로슈포제 시카플라스트",
-      "searchQuery": "라로슈포제 시카플라스트",
-      "product": "라로슈포제 시카플라스트 멀티 리페어 크림 100ml",
-      "brand": "라로슈포제",
-      "goodsNo": "A000000250098",
-      "price": 37600,
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalEngagement": 0,
-      "topReels": [],
-      "collectionStatus": "no_reels_30d",
-      "productUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000250098"
+      ]
     },
     {
       "rank": 9,
-      "keyword": "체이싱래빗 선쿠션",
-      "searchQuery": "체이싱래빗 선쿠션",
-      "product": "체이싱래빗 올어바웃 글로우 커버 선쿠션 15g",
-      "brand": "체이싱래빗",
-      "goodsNo": "A000000245129",
-      "price": 18800,
+      "keyword": "코스알엑스 비타민C",
       "reelCount": 1,
-      "totalViews": 390272,
-      "totalEngagement": 3080,
+      "totalViews": 121344,
+      "totalEngagement": 953,
+      "totalLikes": 948,
+      "totalComments": 5,
       "topReels": [
         {
-          "user": "tabemacle",
-          "date": "2026-04-27",
-          "likes": 3049,
-          "comments": 31,
-          "engagement": 3080,
-          "views": 390272,
-          "type": "추정 (likes×128)",
-          "url": "https://www.instagram.com/p/DXl6jUmhstO/"
+          "url": "https://www.instagram.com/p/DXjFdisgaIg/",
+          "user": "user_unknown",
+          "date": "2026-04-25",
+          "likes": 948,
+          "comments": 5,
+          "engagement": 953,
+          "views": 121344,
+          "type": "추정 (likes×128)"
         }
-      ],
-      "collectionStatus": "collected_estimated",
-      "productUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000245129"
+      ]
     },
     {
       "rank": 10,
-      "keyword": "코링코 속눈썹",
-      "searchQuery": "코링코 속눈썹",
-      "product": "코링코 톡톡하라 노글루 속눈썹",
-      "brand": "코링코",
-      "goodsNo": "A000000213569",
-      "price": 14300,
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalEngagement": 0,
-      "topReels": [],
-      "collectionStatus": "no_reels_30d",
-      "productUrl": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000213569"
+      "keyword": "아누아 어성초",
+      "reelCount": 1,
+      "totalViews": 384,
+      "totalEngagement": 3,
+      "totalLikes": 3,
+      "totalComments": 0,
+      "topReels": [
+        {
+          "url": "https://www.instagram.com/p/DXNWIVIlXgQ/",
+          "user": "user_unknown",
+          "date": "2026-04-16",
+          "likes": 3,
+          "comments": 0,
+          "engagement": 3,
+          "views": 384,
+          "type": "추정 (likes×128)"
+        }
+      ]
     }
   ]
 };
