@@ -49,10 +49,10 @@
   "engagement_rate": 0.2184,
   "posts_last_30d_estimate": 6,
   "posts_last_30d_note": "추정값 — 8개 visible 중 3개 확인 모두 30일 내. 나머지 5개도 다수 30일 내 가능성 높음",
-  "evaluated_at": "2026-04-29T17:21:26+09:00",
+  "evaluated_at": "2026-04-30T13:58:42+09:00",
   "notes": "★ 강력 추천 ★ 다이소 직접 언급 다수 (캡션+해시태그). '코덕' 자기인식. ER 21.84%로 매우 높음. 더랩바이블랑두 직접 언급은 미발견. 협업 우선순위 ★",
   "score": {
-    "total": 92,
+    "total": 91.8,
     "breakdown": {
       "engagement": 100,
       "brand_fit": 95,
@@ -76,5 +76,12 @@
   ],
   "history": [],
   "brand_fit_score": 95,
-  "brand_fit_notes": "★ 강력 추천 ★ 다이소 직접 언급 다수 (캡션+해시태그). '코덕' 자기인식. ER 21.84%로 매우 높음. 더랩바이블랑두 직접 언급은 미발견."
+  "brand_fit_notes": "★ 강력 추천 ★ 다이소 직접 언급 다수 (캡션+해시태그). '코덕' 자기인식. ER 21.84%로 매우 높음. 더랩바이블랑두 직접 언급은 미발견.",
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "multiple",
+    "olive_young_mentions": "low",
+    "beauty_topical_strength": "high",
+    "labrang_blanc_doux_mention": false
+  }
 }
