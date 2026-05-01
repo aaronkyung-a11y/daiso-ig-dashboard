@@ -3,44 +3,45 @@
   "username": "jangsu_note",
   "profile_url": "https://www.instagram.com/jangsu_note/",
   "fullname": "장수노트",
-  "followers": 8956,
+  "followers": 9060,
   "following": 0,
-  "post_count_total": 39,
+  "post_count_total": 43,
   "bio": "✨ 깐깐하게 분석한 일상 꿀템\\n🌱 뷰티·헬스·라이프스타일\\n👇 영상 속 제품 정보 확인👇",
   "sample_size": 8,
-  "avg_likes": 3184,
-  "avg_comments": 37,
-  "avg_engagement": 3221,
-  "engagement_rate": 0.3596,
-  "top_post_likes": 15431,
+  "avg_likes": 3348.0,
+  "avg_comments": 38.62,
+  "avg_engagement": 3386.62,
+  "engagement_rate": 0.3738,
+  "top_post_likes": 15451,
   "posts_last_30d": 5,
   "brand_fit_score": 100,
   "brand_fit_notes": "bio: \"뷰티·헬스·라이프스타일\" 명시. 다이소 화장품 reel 1.5만+ likes",
   "sample_data_evidence": {
     "likes_sample": [
-      15431,
-      6714,
-      2858,
-      50,
-      10,
-      122,
-      260,
-      26
+      1448,
+      15451,
+      6734,
+      2862,
+      149,
+      62,
+      67,
+      11
     ],
     "comments_sample": [
-      135,
+      39,
+      136,
       124,
       5,
+      2,
+      3,
       0,
-      0,
-      7,
-      9,
-      14
+      0
     ],
-    "top_reel": "https://www.instagram.com/jangsu_note/reel/DXeNuIFj5E2/"
+    "top_reel": "https://www.instagram.com/jangsu_note/reel/DXeNuIFj5E2/",
+    "sample_extraction_method": "single-page inline JSON scan (logged-out, 8 reels covered)"
   },
-  "evaluated_at": "2026-04-30T13:58:42+09:00",
-  "notes": "실측 (likes/comments는 reel 페이지 인라인 JSON에서 추출, 8개 샘플)",
+  "evaluated_at": "2026-05-01T14:05:00+09:00",
+  "notes": "★ B-Light rolling refresh @ 2026-05-01T14:05:00+09:00. 다이소 화장품 reel 1.5만+ likes (DVdixhdkl7A). 팔로워 +104 (8956→9060).",
   "score": {
     "total": 93.0,
     "breakdown": {
@@ -63,5 +64,18 @@
     "olive_young_mentions": "unknown",
     "beauty_topical_strength": "high",
     "labrang_blanc_doux_mention": false
-  }
+  },
+  "history": [
+    {
+      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "followers": 8956,
+      "engagement_rate": 0.3596,
+      "score_total": 93.0,
+      "grade": "S",
+      "sample_size": 8,
+      "avg_likes": 3184,
+      "avg_comments": 37
+    }
+  ],
+  "refresh_notes": "샘플 8건 단일 reel 페이지 인라인 JSON 일괄 추출(로그아웃). posts_last_30d=5 캐리오버(추정, 신규 4건 게시 발견 — 실제 5~9건일 수 있음)."
 }
