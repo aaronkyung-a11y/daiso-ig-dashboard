@@ -3,7 +3,7 @@
   "username": "lobit_beauty",
   "profile_url": "https://www.instagram.com/lobit_beauty/",
   "fullname": "로빗 lobit",
-  "followers": 9515,
+  "followers": 9744,
   "following": 188,
   "post_count_total": 32,
   "bio": "예술가 / 뷰티 꿀팁과 꿀템을 공유해요",
@@ -17,45 +17,78 @@
   ],
   "youtube": "로빗뷰티",
   "email": "lobit8080@naver.com",
-  "sample_size": 3,
+  "sample_size": 7,
   "sample_reels": [
     {
       "code": "DXl_u5My3O9",
       "date": "2026-04-26",
-      "likes": 1535,
+      "likes": 1721,
       "comments": 25,
-      "caption": "광고❌ 다이소 레전드 퍼프 브러쉬 모음집 #다이소 #올리브영 #다이소화장품 #다이소꿀템 #다이소퍼프브러쉬",
-      "daiso_direct": true
+      "k_suffix_approx": false,
+      "caption": "광고❌ 다이소 레전드 퍼프 브러쉬 모음집!!\n\n다이소 퍼프 브러쉬 다 써본 코덕이 추천하는 찐 레전드템 모음‼️ 모두 내돈내산템이에요! 실패템 다 뺐으니 영상 보고 꼭 고능소비 하세요🚨\n\n#다이소 #올리브영 #다이소화장품 #다이소꿀템 #다이소퍼프브러쉬"
     },
     {
       "code": "DXbs1RvSn7d",
       "date": "2026-04-22",
-      "likes": 4070,
-      "comments": 43,
-      "caption": "광고❌안보면 후회하는 올영보다 훨씬 좋은 다이소템 4탄 #다이소 #올리브영 #다이소화장품 #다이소꿀템 #코덕",
-      "daiso_direct": true
+      "likes": 4367,
+      "comments": 44,
+      "k_suffix_approx": false,
+      "caption": "광고❌안보면 후회하는 올영보다 훨씬 좋은 다이소템 4탄‼️\n\n실패템들 다 빼고 진짜 꿀템들만 낋여왔으니 꼭 보고 고능소비 하세요🚨 드디어 4탄 낋여옴!\n <5개 ✔️제품✔️품번> 모두 영상내에 기재되어있습니다!\n\n#다이소 #올리브영 #다이소화장품 #다이소꿀템 #코덕"
     },
     {
       "code": "DXHFyvKSFo0",
       "date": "2026-04-14",
-      "likes": 526,
+      "likes": 533,
       "comments": 33,
-      "caption": "안보면 후회하는 올영 흔적 요철 순삭템 #광고 #올영추천템 #올영인생템 #코덕 #아이소이"
+      "k_suffix_approx": false,
+      "caption": "안보면 후회하는 올영 흔적 요철 순삭템!! \n#광고 끈적이거나 기름도는 제형 x\n촉촉산뜻하게 발리고 흔적 요철 모공다크닝까지 한번에 케어해줌ㅋ \n지금부터 다가오는 여름철에 쓰기 최고임‼️‼️\n\n지금 사면 대용량 리필도 줘서 개꿀\n4월 올영픽 행사할 때 싸게 집어오기 ㄱㄱ!\n\n#올영추천템 #올영인생템 #코덕 #아이소이 트러블흔적세럼 흔적세럼 올영픽"
+    },
+    {
+      "code": "DXB8-JbyrwA",
+      "date": "2026-04-12",
+      "likes": 784,
+      "comments": 27,
+      "k_suffix_approx": false,
+      "caption": "안보면 후회하는 올영 레전드 청담샵템 낋여옴!!\n\n위위아뜰리에 서옥쌤템 진짜 믿고쓴다 ,, \n얘만 바르면 쫀딕하게 파데가 발리는게 너무 신기함‼️\n 수분감 진짜 말도안됨. 지금 올영에서 만원대로 구매가능함\n\n#올영인생템 #올리브영 #다이소화장품 #메디큐브 화잘먹선크림 글로우선크림 선크림추천 올영추천템"
+    },
+    {
+      "code": "DW6OFwkyvBH",
+      "date": "2026-04-09",
+      "likes": 17000,
+      "comments": 88,
+      "k_suffix_approx": true,
+      "caption": "광고❌올영보다 훨씬 좋은 다이소템3탄‼️\n\n다이소에 수백쓴 다이소 광인이 실패템들 다 빼고\n진짜 꿀템들만 낋여왔으니 꼭 보고 고능소비하세요!!\n\n#다이소 #올리브영 #다이소화장품 #다이소꿀템 #코덕"
+    },
+    {
+      "code": "DW1Ewa7S28X",
+      "date": "2026-04-07",
+      "likes": 1362,
+      "comments": 28,
+      "k_suffix_approx": false,
+      "caption": "안보면 후회하는 올영 블러셔 찐템 모음집!!! #광고 \n\n이거 몇년전부터 썼던 블러션데 색감이 진짜 도랏음 리뉴얼버전 올영 입점됐는데 7200원에 살 수 있음 🥹🫶 개고능템 \n\n#올리브영 #올영추천템 #블러셔추천 #다이소화장품"
+    },
+    {
+      "code": "DWv7f37yaKi",
+      "date": "2026-04-05",
+      "likes": 25000,
+      "comments": 58,
+      "k_suffix_approx": true,
+      "caption": "광고❌안보면 후회하는 올영보다 훨씬 좋은 다이소템 2탄‼️\n\n진짜 꿀템들만 낋여왔으니 꼭 보고 고능소비 하세요!!\n\n#다이소 #올리브영 #다이소화장품 #다이소꿀템 #코덕"
     }
   ],
-  "avg_likes": 2044,
-  "avg_comments": 34,
-  "avg_engagement": 2078,
-  "engagement_rate": 0.2184,
-  "posts_last_30d_estimate": 6,
-  "posts_last_30d_note": "추정값 — 8개 visible 중 3개 확인 모두 30일 내. 나머지 5개도 다수 30일 내 가능성 높음",
-  "evaluated_at": "2026-04-30T13:58:42+09:00",
-  "notes": "★ 강력 추천 ★ 다이소 직접 언급 다수 (캡션+해시태그). '코덕' 자기인식. ER 21.84%로 매우 높음. 더랩바이블랑두 직접 언급은 미발견. 협업 우선순위 ★",
+  "avg_likes": 7252.4,
+  "avg_comments": 43.29,
+  "avg_engagement": 7295.71,
+  "engagement_rate": 0.7487,
+  "posts_last_30d_estimate": 7,
+  "posts_last_30d_note": "실측값 — 7개 reels 모두 30일 내 (taken_at 기반)",
+  "evaluated_at": "2026-05-01T17:04:00+09:00",
+  "notes": "★ 강력 추천 유지 ★ 다이소·올영 비교 콘텐츠가 핵심. 신규 7건 샘플에서 daiso(22)/olive_young(21) 언급 비율은 mixed로 분류. 더랩바이블랑두 직접 언급 미발견. (Rolling refresh 2026-05-01 17:00)",
   "score": {
-    "total": 91.8,
+    "total": 90.5,
     "breakdown": {
       "engagement": 100,
-      "brand_fit": 95,
+      "brand_fit": 90,
       "consistency": 80,
       "follower_scale": 60
     },
@@ -65,22 +98,46 @@
       "consistency": 0.15,
       "follower_scale": 0.1
     },
-    "raw": 91.75
+    "raw": 90.5
   },
   "grade": "S",
   "collab_priority": "high",
   "estimation_flags": [
     "brand_fit_score (subjective)",
-    "posts_last_30d_estimate",
-    "consistency (estimate)"
+    "K_suffix_likes_approx (DW6OFwkyvBH=17K, DWv7f37yaKi=25K — IG meta description rounded to nearest K)"
   ],
-  "history": [],
-  "brand_fit_score": 95,
-  "brand_fit_notes": "★ 강력 추천 ★ 다이소 직접 언급 다수 (캡션+해시태그). '코덕' 자기인식. ER 21.84%로 매우 높음. 더랩바이블랑두 직접 언급은 미발견.",
-  "retailer_focus": "daiso",
+  "history": [
+    {
+      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "sample_size": 3,
+      "followers": 9515,
+      "avg_likes": 2044,
+      "avg_comments": 34,
+      "engagement_rate": 0.2184,
+      "score_total": 91.8,
+      "grade": "S",
+      "brand_fit_score": 95,
+      "retailer_focus": "daiso"
+    },
+    {
+      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "sample_size": 3,
+      "followers": 9515,
+      "avg_likes": 2044,
+      "avg_comments": 34,
+      "engagement_rate": 0.2184,
+      "score_total": 91.8,
+      "grade": "S",
+      "brand_fit_score": 95,
+      "retailer_focus": "daiso"
+    }
+  ],
+  "brand_fit_score": 90,
+  "brand_fit_notes": "다이소·올영 비교 뷰티 콘텐츠. 뷰티 키워드 8건 (강함 tier=8+). v2 strict: 라브랑두 미언급으로 90 cap.",
+  "retailer_focus": "mixed",
   "retailer_signal": {
-    "daiso_mentions": "multiple",
-    "olive_young_mentions": "low",
+    "daiso_mentions": 22,
+    "olive_young_mentions": 21,
     "beauty_topical_strength": "high",
     "labrang_blanc_doux_mention": false
   }
