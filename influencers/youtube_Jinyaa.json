@@ -9,59 +9,59 @@
   "followers": 358000,
   "sample_size": 7,
   "sample_window": "last 30 days",
-  "avg_views": 63896.6,
-  "avg_likes": 1598.9,
-  "avg_comments": 383.1,
-  "top_video_views": 161071,
-  "engagement_rate": 0.025,
-  "view_to_sub_ratio": 0.1785,
+  "avg_views": 64581.0,
+  "avg_likes": 1607.4,
+  "avg_comments": 383.6,
+  "top_video_views": 162860,
+  "engagement_rate": 0.0249,
+  "view_to_sub_ratio": 0.1804,
   "posts_last_30d": 7,
-  "brand_fit_score": 95,
+  "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
     "daiso_mentions_titles": 3,
-    "olive_young_mentions_titles": 2,
-    "beauty_keyword_count_titles": 32,
+    "olive_young_mentions_titles": 0,
+    "beauty_keyword_count_titles": 13,
     "labrang_blanc_doux_mention": false
   },
-  "brand_fit_notes": "제목 키워드 분석 (20개 최근 영상): 다이소 우세 (다이소 3회 vs 올리브영 2회). 뷰티 키워드 32회. 더랩바이블랑두 미언급. (brand_fit 95 추정)",
+  "brand_fit_notes": "제목 키워드 분석 (최근 20영상 / 30일내 7개): 다이소 우세 (다이소 3회 vs 올리브영 0회). 뷰티 키워드 13회. 라벨링 더랩바이블랑두 미언급. (brand_fit 90 산출)",
   "sample_data_evidence": {
     "video_ids": [
-      "7hFhmk2-v9I",
       "rusfHzdNPCQ",
-      "LubHaqdFPWo",
       "TMNJFFuSLGM",
-      "b463018l840",
+      "NlQZKLPQTQs",
+      "LubHaqdFPWo",
+      "7hFhmk2-v9I",
       "fltnVnb7qs0",
-      "NlQZKLPQTQs"
+      "b463018l840"
     ],
     "views_sample": [
-      33732,
-      47918,
-      57545,
-      161071,
-      11136,
-      73650,
-      62224
+      49872,
+      162860,
+      62608,
+      57931,
+      33838,
+      73803,
+      11155
     ],
     "likes_sample": [
+      1536,
+      3879,
+      2132,
+      1210,
       723,
-      1505,
-      1205,
-      3858,
-      347,
       1425,
-      2129
+      347
     ],
     "top_video": "https://www.youtube.com/watch?v=TMNJFFuSLGM"
   },
-  "evaluated_at": "2026-04-30T13:58:42+09:00",
-  "notes": "YT 채널 (358k 구독). 18-reel 샘플 확장 (이전 5건 → 7건). ER 2.50%, view-to-sub 17.8%. 다이소 우세 (다이소 3회 vs 올리브영 2회). 7개 영상이 최근 30일 내.",
+  "evaluated_at": "2026-05-01T09:13:59+09:00",
+  "notes": "YT 채널 (358k 구독). 30일 내 7개 영상 (B-Light 자동 재분석). ER 2.49%, view-to-sub 18.0%. 다이소 우세 (다이소 3회 vs 올리브영 0회).",
   "score": {
-    "total": 75.8,
+    "total": 74.5,
     "breakdown": {
       "engagement": 60,
-      "brand_fit": 95,
+      "brand_fit": 90,
       "consistency": 80,
       "follower_scale": 100
     },
@@ -74,6 +74,82 @@
   },
   "grade": "B",
   "history": [
+    {
+      "platform": "youtube",
+      "username": "Jinyaa",
+      "channel_handle": "@Jinyaa",
+      "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
+      "profile_url": "https://www.youtube.com/@Jinyaa",
+      "fullname": "지냐 Jinyaa",
+      "subscribers": 358000,
+      "followers": 358000,
+      "sample_size": 7,
+      "sample_window": "last 30 days",
+      "avg_views": 63896.6,
+      "avg_likes": 1598.9,
+      "avg_comments": 383.1,
+      "top_video_views": 161071,
+      "engagement_rate": 0.025,
+      "view_to_sub_ratio": 0.1785,
+      "posts_last_30d": 7,
+      "brand_fit_score": 95,
+      "retailer_focus": "daiso",
+      "retailer_signal": {
+        "daiso_mentions_titles": 3,
+        "olive_young_mentions_titles": 2,
+        "beauty_keyword_count_titles": 32,
+        "labrang_blanc_doux_mention": false
+      },
+      "brand_fit_notes": "제목 키워드 분석 (20개 최근 영상): 다이소 우세 (다이소 3회 vs 올리브영 2회). 뷰티 키워드 32회. 더랩바이블랑두 미언급. (brand_fit 95 추정)",
+      "sample_data_evidence": {
+        "video_ids": [
+          "7hFhmk2-v9I",
+          "rusfHzdNPCQ",
+          "LubHaqdFPWo",
+          "TMNJFFuSLGM",
+          "b463018l840",
+          "fltnVnb7qs0",
+          "NlQZKLPQTQs"
+        ],
+        "views_sample": [
+          33732,
+          47918,
+          57545,
+          161071,
+          11136,
+          73650,
+          62224
+        ],
+        "likes_sample": [
+          723,
+          1505,
+          1205,
+          3858,
+          347,
+          1425,
+          2129
+        ],
+        "top_video": "https://www.youtube.com/watch?v=TMNJFFuSLGM"
+      },
+      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "notes": "YT 채널 (358k 구독). 18-reel 샘플 확장 (이전 5건 → 7건). ER 2.50%, view-to-sub 17.8%. 다이소 우세 (다이소 3회 vs 올리브영 2회). 7개 영상이 최근 30일 내.",
+      "score": {
+        "total": 75.8,
+        "breakdown": {
+          "engagement": 60,
+          "brand_fit": 95,
+          "consistency": 80,
+          "follower_scale": 100
+        },
+        "weights": {
+          "engagement": 0.5,
+          "brand_fit": 0.25,
+          "consistency": 0.15,
+          "follower_scale": 0.1
+        }
+      },
+      "grade": "B"
+    },
     {
       "platform": "youtube",
       "username": "Jinyaa",
