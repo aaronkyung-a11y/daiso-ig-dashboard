@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-01T09:13:59+09:00",
+  "lastUpdated": "2026-05-01T14:05:00+09:00",
   "count": 13,
   "retailer_focus_summary": {
     "daiso": 5,
-    "our_brand": 1,
-    "mixed": 1,
     "olive_young": 1,
+    "mixed": 1,
     "beauty_general": 3,
+    "our_brand": 1,
     "off_topic": 2
   },
   "accounts": [
@@ -29,11 +29,11 @@
       "username": "ellie._.cos",
       "fullname": "ellie エリ",
       "profile_url": "https://www.instagram.com/ellie._.cos/",
-      "followers": 1816,
-      "engagement_rate": 1.7169,
+      "followers": 1849,
+      "engagement_rate": 1.7461,
       "score_total": 93.0,
       "grade": "S",
-      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "evaluated_at": "2026-05-01T14:05:00+09:00",
       "collab_status": "not_started",
       "retailer_focus": "our_brand",
       "json_file": "influencers/instagram_ellie___cos.json"
@@ -43,11 +43,11 @@
       "username": "jangsu_note",
       "fullname": "장수노트",
       "profile_url": "https://www.instagram.com/jangsu_note/",
-      "followers": 8956,
-      "engagement_rate": 0.3596,
+      "followers": 9060,
+      "engagement_rate": 0.3738,
       "score_total": 93.0,
       "grade": "S",
-      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "evaluated_at": "2026-05-01T14:05:00+09:00",
       "collab_status": "not_started",
       "retailer_focus": "daiso",
       "json_file": "influencers/instagram_jangsu_note.json"
