@@ -3,42 +3,43 @@
   "username": "ellie._.cos",
   "profile_url": "https://www.instagram.com/ellie._.cos/",
   "fullname": "ellie エリ",
-  "followers": 1816,
-  "following": 988,
-  "post_count_total": 298,
+  "followers": 1849,
+  "following": 971,
+  "post_count_total": 300,
   "bio": "",
   "sample_size": 7,
-  "avg_likes": 3094,
-  "avg_comments": 24,
-  "avg_engagement": 3118,
-  "engagement_rate": 1.7169,
-  "top_post_likes": 8087,
+  "avg_likes": 3203.71,
+  "avg_comments": 24.86,
+  "avg_engagement": 3228.57,
+  "engagement_rate": 1.7461,
+  "top_post_likes": 8178,
   "posts_last_30d": 5,
   "brand_fit_score": 100,
   "brand_fit_notes": "★ 더랩 바이 블랑두 클리어 히알 물광 토너 직접 광고/제품제공 받음. DXd9ep8k404 (4/23, 886 likes). 우리 브랜드 직접 협업 확인됨.",
   "sample_data_evidence": {
     "likes_sample": [
-      6280,
-      6187,
-      8087,
-      65,
-      32,
-      975,
-      32
+      6293,
+      6254,
+      8178,
+      439,
+      124,
+      1040,
+      98
     ],
     "comments_sample": [
-      52,
+      54,
+      32,
       30,
-      30,
-      16,
+      8,
       12,
-      23,
-      4
+      20,
+      18
     ],
-    "top_reel_blanc_doux": "https://www.instagram.com/p/DXd9ep8k404/"
+    "top_reel_blanc_doux": "https://www.instagram.com/p/DXd9ep8k404/",
+    "sample_extraction_method": "single-page inline JSON scan (logged-out, 7 reels covered)"
   },
-  "evaluated_at": "2026-04-30T13:58:42+09:00",
-  "notes": "★ 우리 브랜드 (더랩바이블랑두) 콘텐츠 직접 작성 인플루언서. 마이크로 사이즈지만 viral 지수 매우 높음 (ER 172%).",
+  "evaluated_at": "2026-05-01T14:05:00+09:00",
+  "notes": "★ B-Light rolling refresh @ 2026-05-01T14:05:00+09:00. 우리 브랜드(더랩바이블랑두) 직접 협업 인플루언서. ER 174.6% (viral, micro-account).",
   "score": {
     "total": 93.0,
     "breakdown": {
@@ -61,5 +62,18 @@
     "olive_young_mentions": "unknown",
     "beauty_topical_strength": "high",
     "labrang_blanc_doux_mention": true
-  }
+  },
+  "history": [
+    {
+      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "followers": 1816,
+      "engagement_rate": 1.7169,
+      "score_total": 93.0,
+      "grade": "S",
+      "sample_size": 7,
+      "avg_likes": 3094,
+      "avg_comments": 24
+    }
+  ],
+  "refresh_notes": "샘플 7건 단일 reel 페이지 인라인 JSON 일괄 추출(로그아웃). posts_last_30d=5는 어제 값 캐리오버(추정)."
 }
