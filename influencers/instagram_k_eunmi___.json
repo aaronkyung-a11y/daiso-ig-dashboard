@@ -3,49 +3,84 @@
   "username": "k_eunmi___",
   "profile_url": "https://www.instagram.com/k_eunmi___/",
   "fullname": "또쭈니맘",
-  "followers": 1613,
+  "followers": 1634,
   "following": 1015,
   "post_count_total": 127,
   "bio": "육아/쇼핑/캠핑/여행 / 인생은 오직 한번뿐 즐기자",
   "highlights": [],
-  "sample_size": 3,
+  "sample_size": 8,
   "sample_reels": [
     {
       "code": "DXnTb87D5d3",
       "date": "2026-04-26",
-      "likes": 19,
+      "likes": 20,
       "comments": 0,
-      "caption": "종이집하나로도 행복해 #5살아들 #육아템 #육아스타그램"
+      "caption": "종이집하나로도 행복해\n내가 꾸밀수 있어서 기분이 너무 좋아요라고\n말해주는 이쭈닝❤️\n\n#5살아들 #육아템 #육아스타그램"
     },
     {
       "code": "DXhLUxcj248",
       "date": "2026-04-24",
       "likes": 26,
       "comments": 0,
-      "caption": "사이좋게지내자 아들둘 #두아들 #6살차이 #형제샷"
+      "caption": "사이좋게지내자 아들둘💓\n#두아들#6살차이#형제샷"
     },
     {
       "code": "DWn04PsD0cc",
       "date": "2026-04-02",
       "likes": 31,
       "comments": 0,
-      "caption": "귀염뽀작 다섯짤 #5살아들 #육아 #아들둘맘"
+      "caption": "귀염뽀작 다섯짤💓\n\n#5살아들 #육아 #아들둘맘 #천천히커주라❤️"
+    },
+    {
+      "code": "DVf1MPlDxQj",
+      "date": "2026-03-05",
+      "likes": 39,
+      "comments": 0,
+      "caption": "돼지런한 하루🐷\n나답게살믄되지므므\n\n#배신석쇠불고기송정점 #브리즐리 #구미카스테라떡집"
+    },
+    {
+      "code": "DUsssCbj4H9",
+      "date": "2026-02-13",
+      "likes": 67,
+      "comments": 2,
+      "caption": "백수한달차 엄마\n하고싶은거 다해보는중\n제주도에 이어\n평일 롯데월드가기 미션 클리어🏰🎠\n담은 또 멀해볼까?ㅋ\n\n#백수생활 #평일여유 #아들둘맘 #11살아들 #5살아들"
+    },
+    {
+      "code": "DUaOayij267",
+      "date": "2026-02-06",
+      "likes": 35,
+      "comments": 0,
+      "caption": "울 현쭈니 이제 고등학생👏🏻\n졸업축하해🤎\n\n#졸업식#인터불고"
+    },
+    {
+      "code": "DUXqnNujzuI",
+      "date": "2026-02-05",
+      "likes": 32,
+      "comments": 2,
+      "caption": "둘째조카 졸업식 준비\n지극히 이모스타일선물🤭🤎\n\n#졸업식#졸업식꽃다발#마음을담다"
+    },
+    {
+      "code": "DUQIbgdD9kJ",
+      "date": "2026-02-02",
+      "likes": 37,
+      "comments": 7,
+      "caption": "눈와서 등원길이 신나쥬☃️\n\n#5살 #5살아들 #등원길"
     }
   ],
-  "avg_likes": 25,
-  "avg_comments": 0,
-  "avg_engagement": 25,
-  "engagement_rate": 0.0155,
-  "posts_last_30d_estimate": 4,
-  "posts_last_30d_note": "추정값 — 8개 visible 중 3개가 24일 내",
-  "evaluated_at": "2026-04-30T13:58:42+09:00",
-  "notes": "육아/가족 콘텐츠 위주. 뷰티/다이소/우리브랜드 키워드 미발견. 협업 적합도 낮음.",
+  "avg_likes": 35.9,
+  "avg_comments": 1.38,
+  "avg_engagement": 37.25,
+  "engagement_rate": 0.0228,
+  "posts_last_30d_estimate": 3,
+  "posts_last_30d_note": "실측값 — 12개 visible reels 중 3개가 30일 내 (taken_at 기반)",
+  "evaluated_at": "2026-05-01T17:04:00+09:00",
+  "notes": "육아/가족 콘텐츠 위주. 뷰티/다이소/우리브랜드 키워드 미발견. 협업 적합도 낮음. (Rolling refresh 2026-05-01)",
   "score": {
-    "total": 54,
+    "total": 51.25,
     "breakdown": {
       "engagement": 60,
       "brand_fit": 25,
-      "consistency": 80,
+      "consistency": 60,
       "follower_scale": 60
     },
     "weights": {
@@ -54,16 +89,28 @@
       "consistency": 0.15,
       "follower_scale": 0.1
     },
-    "raw": 54.25
+    "raw": 51.25
   },
   "grade": "D",
   "estimation_flags": [
-    "brand_fit_score (subjective)",
-    "posts_last_30d_estimate"
+    "brand_fit_score (subjective)"
   ],
-  "history": [],
+  "history": [
+    {
+      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "sample_size": 3,
+      "followers": 1613,
+      "avg_likes": 25,
+      "avg_comments": 0,
+      "engagement_rate": 0.0155,
+      "score_total": 54,
+      "grade": "D",
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic"
+    }
+  ],
   "brand_fit_score": 25,
-  "brand_fit_notes": "육아/가족 콘텐츠 위주. 뷰티/다이소/우리브랜드 키워드 미발견. 협업 적합도 낮음.",
+  "brand_fit_notes": "육아/가족 위주. 뷰티 키워드 미발견.",
   "retailer_focus": "off_topic",
   "retailer_signal": {
     "daiso_mentions": 0,
