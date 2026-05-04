@@ -9,39 +9,23 @@
   "followers": 358000,
   "sample_size": 6,
   "sample_window": "last 30 days",
-  "avg_views": 76789.17,
-  "avg_likes": 1857.67,
-  "avg_comments": 383.6,
-  "top_video_views": 162860,
+  "avg_views": 76937.5,
+  "avg_likes": 1859.0,
+  "avg_comments": 431.67,
+  "top_video_views": 171524,
   "engagement_rate": 0.0242,
-  "view_to_sub_ratio": 0.1804,
+  "view_to_sub_ratio": 0.2149,
   "posts_last_30d": 6,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "3건",
-    "olive_young_mentions": "none",
-    "beauty_topical_strength": "high (9건)",
+    "daiso_mentions_titles": 3,
+    "olive_young_mentions_titles": 0,
+    "beauty_keyword_count_titles": 9,
     "labrang_blanc_doux_mention": false
   },
   "brand_fit_notes": "beauty 9/daiso 3/oy 0/labrang N",
   "sample_data_evidence": {
-    "views_sample": [
-      56831,
-      171192,
-      64214,
-      59873,
-      34209,
-      74416
-    ],
-    "likes_sample": [
-      1645,
-      3970,
-      2145,
-      1229,
-      729,
-      1428
-    ],
     "video_ids": [
       "rusfHzdNPCQ",
       "TMNJFFuSLGM",
@@ -50,10 +34,26 @@
       "7hFhmk2-v9I",
       "fltnVnb7qs0"
     ],
+    "views_sample": [
+      57120,
+      171524,
+      64289,
+      60040,
+      34219,
+      74433
+    ],
+    "likes_sample": [
+      1650,
+      3971,
+      2146,
+      1230,
+      729,
+      1428
+    ],
     "top_video": "https://www.youtube.com/watch?v=TMNJFFuSLGM"
   },
-  "evaluated_at": "2026-05-04T09:31:18+09:00",
-  "notes": "yt-dlp metadata, 6 videos. Mon 09:00 STEP B full re-analysis.",
+  "evaluated_at": "2026-05-04T14:08:00+09:00",
+  "notes": "STEP B-Light rolling refresh (Mon 14:00). yt-dlp metadata.",
   "score": {
     "total": 74.5,
     "breakdown": {
@@ -71,6 +71,19 @@
   },
   "grade": "B",
   "history": [
+    {
+      "evaluated_at": "2026-05-04T09:31:18+09:00",
+      "followers": 358000,
+      "engagement_rate": 0.0242,
+      "avg_likes": 1857.67,
+      "avg_views": 76789.17,
+      "sample_size": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "grade": "B",
+      "score_total": 74.5,
+      "posts_last_30d": 6
+    },
     {
       "evaluated_at": "2026-05-01T09:13:59+09:00",
       "followers": 358000,
@@ -214,5 +227,5 @@
       "grade": "B"
     }
   ],
-  "top_post_views": 171192
+  "top_post_views": 171524
 }
