@@ -3,8 +3,8 @@
   "username": "lobit_beauty",
   "profile_url": "https://www.instagram.com/lobit_beauty/",
   "fullname": "로빗 lobit",
-  "followers": 9744,
-  "following": 188,
+  "followers": 9991,
+  "following": 203,
   "post_count_total": 32,
   "bio": "예술가 / 뷰티 꿀팁과 꿀템을 공유해요",
   "external_link": "link.inpock.co.kr/lobit_beauty",
@@ -17,7 +17,7 @@
   ],
   "youtube": "로빗뷰티",
   "email": "lobit8080@naver.com",
-  "sample_size": 7,
+  "sample_size": 8,
   "sample_reels": [
     {
       "code": "DXl_u5My3O9",
@@ -76,14 +76,14 @@
       "caption": "광고❌안보면 후회하는 올영보다 훨씬 좋은 다이소템 2탄‼️\n\n진짜 꿀템들만 낋여왔으니 꼭 보고 고능소비 하세요!!\n\n#다이소 #올리브영 #다이소화장품 #다이소꿀템 #코덕"
     }
   ],
-  "avg_likes": 7252.4,
-  "avg_comments": 43.29,
-  "avg_engagement": 7295.71,
-  "engagement_rate": 0.7487,
+  "avg_likes": 7355.25,
+  "avg_comments": 47.88,
+  "avg_engagement": 7403.12,
+  "engagement_rate": 0.741,
   "posts_last_30d_estimate": 7,
   "posts_last_30d_note": "실측값 — 7개 reels 모두 30일 내 (taken_at 기반)",
-  "evaluated_at": "2026-05-01T17:04:00+09:00",
-  "notes": "★ 강력 추천 유지 ★ 다이소·올영 비교 콘텐츠가 핵심. 신규 7건 샘플에서 daiso(22)/olive_young(21) 언급 비율은 mixed로 분류. 더랩바이블랑두 직접 언급 미발견. (Rolling refresh 2026-05-01 17:00)",
+  "evaluated_at": "2026-05-04T09:40:46+09:00",
+  "notes": "logged-out IG og:description, 8 reels. Mon 09:00 STEP B full re-analysis.",
   "score": {
     "total": 90.5,
     "breakdown": {
@@ -97,8 +97,7 @@
       "brand_fit": 0.25,
       "consistency": 0.15,
       "follower_scale": 0.1
-    },
-    "raw": 90.5
+    }
   },
   "grade": "S",
   "collab_priority": "high",
@@ -107,6 +106,32 @@
     "K_suffix_likes_approx (DW6OFwkyvBH=17K, DWv7f37yaKi=25K — IG meta description rounded to nearest K)"
   ],
   "history": [
+    {
+      "evaluated_at": "2026-05-04T09:29:21+09:00",
+      "followers": 9991,
+      "engagement_rate": 0.6816,
+      "avg_likes": 6765.12,
+      "avg_comments": 44.5,
+      "sample_size": 8,
+      "brand_fit_score": 25,
+      "retailer_focus": "olive_young",
+      "grade": "B",
+      "score_total": 74.2,
+      "posts_last_30d": 7
+    },
+    {
+      "evaluated_at": "2026-05-01T17:04:00+09:00",
+      "followers": 9744,
+      "engagement_rate": 0.7487,
+      "avg_likes": 7252.4,
+      "avg_comments": 43.29,
+      "sample_size": 7,
+      "brand_fit_score": 90,
+      "retailer_focus": "mixed",
+      "grade": "S",
+      "score_total": 90.5,
+      "posts_last_30d": null
+    },
     {
       "evaluated_at": "2026-04-30T13:58:42+09:00",
       "sample_size": 3,
@@ -133,12 +158,47 @@
     }
   ],
   "brand_fit_score": 90,
-  "brand_fit_notes": "다이소·올영 비교 뷰티 콘텐츠. 뷰티 키워드 8건 (강함 tier=8+). v2 strict: 라브랑두 미언급으로 90 cap.",
-  "retailer_focus": "mixed",
+  "brand_fit_notes": "beauty 11/daiso 23/oy 33/labrang N",
+  "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso_mentions": 22,
-    "olive_young_mentions": 21,
-    "beauty_topical_strength": "high",
+    "daiso_mentions": "23건",
+    "olive_young_mentions": "33건",
+    "beauty_topical_strength": "high (11건)",
     "labrang_blanc_doux_mention": false
-  }
+  },
+  "sample_data_evidence": {
+    "likes_sample": [
+      1910,
+      4712,
+      540,
+      18000,
+      1368,
+      26000,
+      800,
+      5512
+    ],
+    "comments_sample": [
+      26,
+      44,
+      33,
+      91,
+      28,
+      59,
+      48,
+      54
+    ],
+    "reel_codes": [
+      "DXl_u5My3O9",
+      "DXbs1RvSn7d",
+      "DXHFyvKSFo0",
+      "DW6OFwkyvBH",
+      "DW1Ewa7S28X",
+      "DWv7f37yaKi",
+      "DWloH1YS0dk",
+      "DWd4pdty162"
+    ],
+    "top_reel": "https://www.instagram.com/p/DWv7f37yaKi/"
+  },
+  "top_post_likes": 26000,
+  "posts_last_30d": 6
 }

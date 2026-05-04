@@ -3,9 +3,9 @@
   "username": "beautyus_mag",
   "profile_url": "https://www.instagram.com/beautyus_mag/",
   "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
-  "followers": 86000,
-  "following": 266,
-  "post_count_total": 3108,
+  "followers": 87000,
+  "following": 273,
+  "post_count_total": 3132,
   "bio": "beauty • trend • issue • etc / 뷰티라면 다 좋아 / 얇아진 지갑이 만든 에디터 취향을 담아",
   "external_link": "linktr.ee/beautyus_mag",
   "highlights": [
@@ -43,17 +43,17 @@
       "caption": "Ai가 아닐리 엑스. 에스파(쇠맛) 메이크업 분석 #aespa #카리나 #윈터 #지젤 #닝닝"
     }
   ],
-  "avg_comments": 11,
+  "avg_comments": 11.5,
   "posts_last_30d_estimate": 35,
   "posts_last_30d_note": "추정값 — 매거진 계정으로 일평균 1+ 게시물. 3108개 누적 게시물 기반 추정.",
-  "evaluated_at": "2026-04-30T17:15:00+09:00",
-  "notes": "실측 (logged-out IG, og:description 추출). B-Light rolling refresh; 12 reel 시도/4 full data (이미지 carousel 다수). 추정: posts_last_30d=10 (taken_at 부분만 잡힘).",
+  "evaluated_at": "2026-05-04T09:34:27+09:00",
+  "notes": "logged-out IG og:description, 4 reels. Mon 09:00 STEP B full re-analysis.",
   "score": {
-    "total": 75.5,
+    "total": 69.5,
     "breakdown": {
       "engagement": 60,
       "brand_fit": 90,
-      "consistency": 100,
+      "consistency": 60,
       "follower_scale": 80
     },
     "weights": {
@@ -63,7 +63,7 @@
       "follower_scale": 0.1
     }
   },
-  "grade": "B",
+  "grade": "C",
   "estimation_flags": [
     "avg_likes (likes hidden — heavily estimated)",
     "engagement_rate (estimated)",
@@ -72,6 +72,71 @@
     "consistency_score (estimate based on cumulative posts)"
   ],
   "history": [
+    {
+      "evaluated_at": "2026-05-04T09:20:44+09:00",
+      "followers": 87000,
+      "engagement_rate": 0.0327,
+      "avg_likes": 2826.33,
+      "avg_comments": 15.33,
+      "sample_size": 3,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "C",
+      "score_total": 60.2,
+      "posts_last_30d": 1
+    },
+    {
+      "evaluated_at": "2026-05-04T09:20:05+09:00",
+      "followers": 86000,
+      "engagement_rate": 0.025,
+      "avg_likes": 2135.5,
+      "avg_comments": 11.5,
+      "sample_size": 4,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "D",
+      "score_total": 53.2,
+      "posts_last_30d": 2
+    },
+    {
+      "evaluated_at": "2026-05-04T09:19:26+09:00",
+      "followers": 86000,
+      "engagement_rate": 0.025,
+      "avg_likes": 2135.5,
+      "avg_comments": 11.5,
+      "sample_size": 4,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "D",
+      "score_total": 53.2,
+      "posts_last_30d": 2
+    },
+    {
+      "evaluated_at": "2026-05-04T09:18:44+09:00",
+      "followers": 86000,
+      "engagement_rate": 0.025,
+      "avg_likes": 2135.5,
+      "avg_comments": 11.5,
+      "sample_size": 4,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "D",
+      "score_total": 53.2,
+      "posts_last_30d": 2
+    },
+    {
+      "evaluated_at": "2026-04-30T17:15:00+09:00",
+      "followers": 86000,
+      "engagement_rate": 0.0248,
+      "avg_likes": 2122,
+      "avg_comments": 11,
+      "sample_size": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "grade": "B",
+      "score_total": 75.5,
+      "posts_last_30d": 10
+    },
     {
       "platform": "instagram",
       "username": "beautyus_mag",
@@ -166,32 +231,32 @@
       "posts_last_30d": null
     }
   ],
-  "engagement_rate": 0.0248,
-  "avg_likes": 2122,
-  "avg_engagement": 2133,
+  "engagement_rate": 0.0247,
+  "avg_likes": 2135.5,
+  "avg_engagement": 2147.0,
   "brand_fit_score": 90,
-  "brand_fit_notes": "★ 새 로직: 뷰티 매거진 형태로 화장/스킨케어/메이크업 콘텐츠 중심 (강한 토픽 적합). 특정 리테일러 편향 없이 뷰티 일반 트렌드 트래킹. 다이소·우리브랜드 직접 언급 미발견은 감점 사유 아님.",
+  "brand_fit_notes": "beauty 11/daiso 6/oy 2/labrang N",
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "4 (4건)",
-    "olive_young_mentions": "1건",
-    "beauty_topical_strength": "high (27건)",
+    "daiso_mentions": "6건",
+    "olive_young_mentions": "2건",
+    "beauty_topical_strength": "high (11건)",
     "labrang_blanc_doux_mention": false
   },
-  "top_post_likes": 8371,
-  "posts_last_30d": 10,
+  "top_post_likes": 8380,
+  "posts_last_30d": 2,
   "sample_data_evidence": {
     "likes_sample": [
-      8371,
-      26,
-      42,
-      47
+      8380,
+      46,
+      63,
+      53
     ],
     "comments_sample": [
-      28,
+      29,
       4,
       0,
-      12
+      13
     ],
     "reel_codes": [
       "DGxSI5EpVsE",
@@ -199,6 +264,6 @@
       "DXt9l_UgVSV",
       "DXtiQ3mgY2M"
     ],
-    "note": "logged-out og:description not always populated for image posts"
+    "top_reel": "https://www.instagram.com/p/DGxSI5EpVsE/"
   }
 }

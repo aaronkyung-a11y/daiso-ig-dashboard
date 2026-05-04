@@ -3,9 +3,9 @@
   "username": "k_eunmi___",
   "profile_url": "https://www.instagram.com/k_eunmi___/",
   "fullname": "또쭈니맘",
-  "followers": 1634,
-  "following": 1015,
-  "post_count_total": 127,
+  "followers": 1645,
+  "following": 1031,
+  "post_count_total": 128,
   "bio": "육아/쇼핑/캠핑/여행 / 인생은 오직 한번뿐 즐기자",
   "highlights": [],
   "sample_size": 8,
@@ -67,16 +67,16 @@
       "caption": "눈와서 등원길이 신나쥬☃️\n\n#5살 #5살아들 #등원길"
     }
   ],
-  "avg_likes": 35.9,
-  "avg_comments": 1.38,
-  "avg_engagement": 37.25,
-  "engagement_rate": 0.0228,
+  "avg_likes": 34.75,
+  "avg_comments": 1.62,
+  "avg_engagement": 36.38,
+  "engagement_rate": 0.0221,
   "posts_last_30d_estimate": 3,
   "posts_last_30d_note": "실측값 — 12개 visible reels 중 3개가 30일 내 (taken_at 기반)",
-  "evaluated_at": "2026-05-01T17:04:00+09:00",
-  "notes": "육아/가족 콘텐츠 위주. 뷰티/다이소/우리브랜드 키워드 미발견. 협업 적합도 낮음. (Rolling refresh 2026-05-01)",
+  "evaluated_at": "2026-05-04T09:40:03+09:00",
+  "notes": "logged-out IG og:description, 8 reels. Mon 09:00 STEP B full re-analysis.",
   "score": {
-    "total": 51.25,
+    "total": 51.2,
     "breakdown": {
       "engagement": 60,
       "brand_fit": 25,
@@ -88,14 +88,39 @@
       "brand_fit": 0.25,
       "consistency": 0.15,
       "follower_scale": 0.1
-    },
-    "raw": 51.25
+    }
   },
   "grade": "D",
   "estimation_flags": [
     "brand_fit_score (subjective)"
   ],
   "history": [
+    {
+      "evaluated_at": "2026-05-04T09:28:43+09:00",
+      "followers": 1645,
+      "engagement_rate": 0.0226,
+      "avg_likes": 36.29,
+      "avg_comments": 0.86,
+      "sample_size": 7,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "D",
+      "score_total": 51.2,
+      "posts_last_30d": 2
+    },
+    {
+      "evaluated_at": "2026-05-01T17:04:00+09:00",
+      "followers": 1634,
+      "engagement_rate": 0.0228,
+      "avg_likes": 35.9,
+      "avg_comments": 1.38,
+      "sample_size": 8,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "D",
+      "score_total": 51.25,
+      "posts_last_30d": null
+    },
     {
       "evaluated_at": "2026-04-30T13:58:42+09:00",
       "sample_size": 3,
@@ -110,12 +135,47 @@
     }
   ],
   "brand_fit_score": 25,
-  "brand_fit_notes": "육아/가족 위주. 뷰티 키워드 미발견.",
+  "brand_fit_notes": "beauty 0/daiso 0/oy 0/labrang N",
   "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso_mentions": 0,
-    "olive_young_mentions": 0,
-    "beauty_topical_strength": "low",
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "none (0건)",
     "labrang_blanc_doux_mention": false
-  }
+  },
+  "sample_data_evidence": {
+    "likes_sample": [
+      29,
+      21,
+      26,
+      31,
+      67,
+      35,
+      32,
+      37
+    ],
+    "comments_sample": [
+      2,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      7
+    ],
+    "reel_codes": [
+      "DX4QuL4j-dl",
+      "DXnTb87D5d3",
+      "DXhLUxcj248",
+      "DWn04PsD0cc",
+      "DUsssCbj4H9",
+      "DUaOayij267",
+      "DUXqnNujzuI",
+      "DUQIbgdD9kJ"
+    ],
+    "top_reel": "https://www.instagram.com/p/DUsssCbj4H9/"
+  },
+  "top_post_likes": 67,
+  "posts_last_30d": 3
 }
