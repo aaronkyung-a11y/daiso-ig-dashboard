@@ -7,56 +7,65 @@
   "following": 6562,
   "post_count_total": 579,
   "bio": "",
-  "sample_size": 8,
-  "avg_likes": 1288.38,
-  "avg_comments": 165.0,
-  "avg_engagement": 1453.38,
-  "engagement_rate": 0.2348,
-  "top_post_likes": 4860,
-  "posts_last_30d": 7,
+  "sample_size": 11,
+  "avg_likes": 989.73,
+  "avg_comments": 131.18,
+  "avg_engagement": 1120.91,
+  "engagement_rate": 0.1811,
+  "top_post_likes": 4861,
+  "posts_last_30d": 10,
   "brand_fit_score": 90,
-  "brand_fit_notes": "beauty 28/daiso 8/oy 0/labrang N",
+  "brand_fit_notes": "beauty 44/daiso 16/oy 0/labrang N",
   "sample_data_evidence": {
     "likes_sample": [
-      4860,
-      3685,
+      4861,
+      3687,
+      56,
+      78,
+      345,
+      187,
       202,
       49,
-      250,
-      901,
-      179,
-      181
+      266,
+      251,
+      905
     ],
     "comments_sample": [
       645,
       498,
+      10,
+      10,
+      64,
+      42,
       41,
       3,
+      32,
       33,
-      65,
-      15,
-      20
+      65
     ],
     "reel_codes": [
       "DXD7y3aAutK",
       "DTkGSuTEkzF",
+      "DX4A0X7ileN",
+      "DX3pjHEijKr",
+      "DX1bfvhC6CO",
+      "DXv9Dlsyu7y",
       "DXtKyU7EsT_",
       "DXrEO1okjdz",
+      "DXqYLhbkvz9",
       "DXjLHDyEgph",
-      "DXgVPHykmD3",
-      "DXdySPOEuol",
-      "DXbYi67Eo-m"
+      "DXgVPHykmD3"
     ],
     "top_reel": "https://www.instagram.com/p/DXD7y3aAutK/"
   },
-  "evaluated_at": "2026-05-04T09:34:05+09:00",
-  "notes": "logged-out IG og:description, 8 reels. Mon 09:00 STEP B full re-analysis.",
+  "evaluated_at": "2026-05-04T14:10:00+09:00",
+  "notes": "STEP B-Light rolling refresh (Mon 14:00). logged-out IG og:description, 12 reels (1 pinned old post with null likes excluded).",
   "score": {
-    "total": 90.5,
+    "total": 93.5,
     "breakdown": {
       "engagement": 100,
       "brand_fit": 90,
-      "consistency": 80,
+      "consistency": 100,
       "follower_scale": 60
     },
     "weights": {
@@ -69,12 +78,25 @@
   "grade": "S",
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "8건",
+    "daiso_mentions": "16건",
     "olive_young_mentions": "none",
-    "beauty_topical_strength": "high (28건)",
+    "beauty_topical_strength": "high (44건)",
     "labrang_blanc_doux_mention": false
   },
   "history": [
+    {
+      "evaluated_at": "2026-05-04T09:34:05+09:00",
+      "followers": 6190,
+      "engagement_rate": 0.2348,
+      "avg_likes": 1288.38,
+      "avg_comments": 165.0,
+      "sample_size": 8,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "grade": "S",
+      "score_total": 90.5,
+      "posts_last_30d": 7
+    },
     {
       "evaluated_at": "2026-05-04T09:18:13+09:00",
       "followers": 6190,
