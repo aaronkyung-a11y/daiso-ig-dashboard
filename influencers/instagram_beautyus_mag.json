@@ -5,7 +5,7 @@
   "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
   "followers": 87000,
   "following": 273,
-  "post_count_total": 3132,
+  "post_count_total": 3133,
   "bio": "beauty • trend • issue • etc / 뷰티라면 다 좋아 / 얇아진 지갑이 만든 에디터 취향을 담아",
   "external_link": "linktr.ee/beautyus_mag",
   "highlights": [
@@ -17,43 +17,63 @@
     "위드어쓰"
   ],
   "email": "beautyusofficial@gmail.com",
-  "sample_size": 4,
-  "sample_visible_likes": false,
-  "likes_disabled": true,
+  "sample_size": 5,
+  "sample_visible_likes": true,
+  "likes_disabled_partial": true,
+  "avg_likes": 3979.0,
+  "avg_comments": 3.5,
+  "engagement_rate": 0.0458,
+  "top_post_likes": 3979,
+  "posts_last_30d": "추정 — sample 4 taken_at 모두 직전 1.3일 내, 30일 환산 ≥30 추정",
+  "brand_fit_score": 90,
+  "brand_fit_notes": "beauty 8/daiso 5/oy 0/labrang N",
+  "retailer_focus": "daiso",
+  "retailer_signal": "daiso:5, olive_young:0, beauty_kw:8",
   "sample_reels": [
     {
-      "code": "DXsdeshgej2",
-      "date": "2026-04-28",
-      "likes": null,
-      "comments": 1,
-      "caption": "에디터는 화장 안 먹을 때 뭐 썼냐면요 #뷰모닝 화잘먹 치트키"
-    },
-    {
-      "code": "DXOxjR-ARQU",
-      "date": "2026-04-17",
-      "likes": null,
-      "comments": 28,
-      "caption": "[채용공고] 뷰티어쓰와 함께할 에디터 구합니다 #채용 #에디터채용"
-    },
-    {
-      "code": "DXriqRNAcb-",
-      "date": "2026-04-28",
+      "code": "DX6Fes2gf_l",
+      "taken_at": 1777878007,
       "likes": null,
       "comments": 0,
-      "caption": "Ai가 아닐리 엑스. 에스파(쇠맛) 메이크업 분석 #aespa #카리나 #윈터 #지젤 #닝닝"
+      "caption": "광고 무뷰페 이렇게 싸다고요 사려던 뷰티템 있다면 지금이 타이밍 5/4 ~ 5/14동안 무뷰페 musinsa_beauty 열린대요 에디터 장바구니 쿠션 립"
+    },
+    {
+      "code": "DX5Tj8QgcN2",
+      "taken_at": 1777852809,
+      "likes": null,
+      "comments": null,
+      "caption": "에디터는 오늘 아침 뭐 썼냐면요 매일 9시 에디터가 오늘 쓴템을 공유 #뷰모닝 솔직히 나갈땐 쿠션이랑 립만 챙겨나가잖아요 파우치 미니백"
+    },
+    {
+      "code": "DX4FPgHAZsI",
+      "taken_at": null,
+      "likes": 3979,
+      "comments": 7,
+      "caption": "기리고 세아 파데홋수 진짜 어둡고 어둡다 주말동안 정주행 완료한 기리고 어두운 베이스 메이크업으로 육상부 캐릭터 비비 브라운"
+    },
+    {
+      "code": "DX3zs7ZgdmL",
+      "taken_at": 1777801606,
+      "likes": null,
+      "comments": null,
+      "caption": "피부과 가지 마세요 여드름 피부 #다이소추천템 모음 떨어진 아이템 쟁이러 다이소 갔다가 추천 다이소 여드름 찐찐 추천템 #다이소 #다이소템 #여드름"
+    },
+    {
+      "code": "DX2wnCKAVM2",
+      "taken_at": 1777766402,
+      "likes": null,
+      "comments": null,
+      "caption": "에디터는 오늘 아침 뭐 썼냐면요 매일 9시 에디터가 오늘 쓴템을 공유 #뷰모닝 쫀쫀피부 만들기엔 PDRN템 메디큐브 핑크 토너패드 속수분 헤브블루 크림"
     }
   ],
-  "avg_comments": 11.5,
-  "posts_last_30d_estimate": 35,
-  "posts_last_30d_note": "추정값 — 매거진 계정으로 일평균 1+ 게시물. 3108개 누적 게시물 기반 추정.",
-  "evaluated_at": "2026-05-04T09:34:27+09:00",
-  "notes": "logged-out IG og:description, 4 reels. Mon 09:00 STEP B full re-analysis.",
+  "evaluated_at": "2026-05-04T17:15:07+09:00",
+  "notes": "B-Light rolling refresh. logged-out IG (sample 5, likes mostly hidden). Mon 17:00 run. ERS capped (n=1).",
   "score": {
-    "total": 69.5,
+    "total": 72.5,
     "breakdown": {
       "engagement": 60,
       "brand_fit": 90,
-      "consistency": 60,
+      "consistency": 80,
       "follower_scale": 80
     },
     "weights": {
@@ -63,15 +83,29 @@
       "follower_scale": 0.1
     }
   },
-  "grade": "C",
+  "grade": "B",
   "estimation_flags": [
-    "avg_likes (likes hidden — heavily estimated)",
-    "engagement_rate (estimated)",
-    "brand_fit_score (subjective)",
-    "posts_last_30d_estimate",
-    "consistency_score (estimate based on cumulative posts)"
+    "avg_likes (likes hidden on most reels — heavily estimated)",
+    "engagement_rate (n=1 visible reel — 추정)",
+    "brand_fit_score (caption keyword heuristic)",
+    "posts_last_30d_estimate (taken_at 4 reels in 1.3 days — 추정)",
+    "ERS conservatively capped at 60 (visible likes n=1, not statistically meaningful)",
+    "consistency_score capped at 80 (sample taken_at 4/5 within 1.3d → 추정 ≥30/30d, conservative cap)"
   ],
   "history": [
+    {
+      "evaluated_at": "2026-05-04T09:34:27+09:00",
+      "followers": 87000,
+      "engagement_rate": 0.0247,
+      "avg_likes": 2135.5,
+      "avg_comments": 11.5,
+      "sample_size": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "grade": "C",
+      "score_total": 69.5,
+      "posts_last_30d": 35
+    },
     {
       "evaluated_at": "2026-05-04T09:20:44+09:00",
       "followers": 87000,
@@ -230,40 +264,5 @@
       "score_total": 85.5,
       "posts_last_30d": null
     }
-  ],
-  "engagement_rate": 0.0247,
-  "avg_likes": 2135.5,
-  "avg_engagement": 2147.0,
-  "brand_fit_score": 90,
-  "brand_fit_notes": "beauty 11/daiso 6/oy 2/labrang N",
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_mentions": "6건",
-    "olive_young_mentions": "2건",
-    "beauty_topical_strength": "high (11건)",
-    "labrang_blanc_doux_mention": false
-  },
-  "top_post_likes": 8380,
-  "posts_last_30d": 2,
-  "sample_data_evidence": {
-    "likes_sample": [
-      8380,
-      46,
-      63,
-      53
-    ],
-    "comments_sample": [
-      29,
-      4,
-      0,
-      13
-    ],
-    "reel_codes": [
-      "DGxSI5EpVsE",
-      "DXvp4FqhffX",
-      "DXt9l_UgVSV",
-      "DXtiQ3mgY2M"
-    ],
-    "top_reel": "https://www.instagram.com/p/DGxSI5EpVsE/"
-  }
+  ]
 }
