@@ -1,59 +1,23 @@
 {
   "platform": "instagram",
   "username": "jangsu_note",
-  "profile_url": "https://www.instagram.com/jangsu_note/",
   "fullname": "장수노트",
-  "followers": 9553,
+  "profile_url": "https://www.instagram.com/jangsu_note/",
+  "followers": 9918,
   "following": 0,
   "post_count_total": 44,
-  "bio": "✨ 깐깐하게 분석한 일상 꿀템\\n🌱 뷰티·헬스·라이프스타일\\n👇 영상 속 제품 정보 확인👇",
-  "sample_size": 9,
-  "avg_likes": 2766.33,
-  "avg_comments": 44.89,
-  "avg_engagement": 2811.22,
-  "engagement_rate": 0.2943,
-  "top_post_likes": 15000,
-  "posts_last_30d": 6,
+  "sample_size": 12,
+  "engagement_rate": 0.2298,
+  "avg_likes": 2242.17,
+  "avg_comments": 36.67,
+  "avg_views": null,
+  "top_post_likes": 15757,
+  "top_video_views": null,
+  "view_to_sub_ratio": null,
+  "posts_last_30d": 9,
+  "posts_last_30d_estimate": null,
   "brand_fit_score": 90,
-  "brand_fit_notes": "beauty 14/daiso 17/oy 0/labrang N",
-  "sample_data_evidence": {
-    "likes_sample": [
-      15000,
-      4490,
-      2420,
-      26,
-      2292,
-      342,
-      170,
-      66,
-      91
-    ],
-    "comments_sample": [
-      133,
-      75,
-      5,
-      0,
-      43,
-      140,
-      2,
-      6,
-      0
-    ],
-    "reel_codes": [
-      "DVdixhdkl7A",
-      "DVYYyDnkh_6",
-      "DVifNzbkqTp",
-      "DX38G6lTpb7",
-      "DX1XSyITc2t",
-      "DXyzuNnzvIT",
-      "DXwNxRVzm0f",
-      "DXto87pTESZ",
-      "DXrENFZTG6v"
-    ],
-    "top_reel": "https://www.instagram.com/p/DVdixhdkl7A/"
-  },
-  "evaluated_at": "2026-05-04T09:39:21+09:00",
-  "notes": "logged-out IG og:description, 9 reels. Mon 09:00 STEP B full re-analysis.",
+  "brand_fit_notes": "beauty 9/daiso 15/oy 0/labrang N",
   "score": {
     "total": 90.5,
     "breakdown": {
@@ -69,14 +33,27 @@
       "follower_scale": 0.1
     }
   },
+  "score_total": 90.5,
+  "score_breakdown": {
+    "engagement": 100,
+    "brand_fit": 90,
+    "consistency": 80,
+    "follower_scale": 60
+  },
   "grade": "S",
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "17건",
+    "daiso_mentions": "15건",
     "olive_young_mentions": "none",
-    "beauty_topical_strength": "high (14건)",
+    "beauty_topical_strength": "high (9건)",
     "labrang_blanc_doux_mention": false
   },
+  "collab_priority": "high",
+  "evaluated_at": "2026-05-05T17:05:00+09:00",
+  "notes": "STEP B-Light rolling refresh (Tue 17:00). Logged-out IG og:description + inline-script extraction, 12 reels (3 pinned old donation posts included).",
+  "estimation_flags": [
+    "DVdixhdkl7A like_count via inline script (15757) replaces og:description rounded '15K'"
+  ],
   "history": [
     {
       "evaluated_at": "2026-05-04T09:28:06+09:00",
@@ -113,7 +90,17 @@
       "sample_size": 8,
       "avg_likes": 3184,
       "avg_comments": 37
+    },
+    {
+      "evaluated_at": "2026-05-05T17:05:00+09:00",
+      "engagement_rate": 0.2298,
+      "avg_likes": 2242.17,
+      "avg_comments": 36.67,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 90.5,
+      "grade": "S"
     }
-  ],
-  "refresh_notes": "샘플 8건 단일 reel 페이지 인라인 JSON 일괄 추출(로그아웃). posts_last_30d=5 캐리오버(추정, 신규 4건 게시 발견 — 실제 5~9건일 수 있음)."
+  ]
 }
