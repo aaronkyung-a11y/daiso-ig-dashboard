@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-05-05T09:10:00+09:00",
+  "generated_at": "2026-05-05T14:08:00+09:00",
   "total_accounts": 13,
   "grade_distribution": {
     "S": 4,
-    "B": 4,
-    "C": 2,
-    "D": 3
+    "B": 5,
+    "C": 3,
+    "D": 1
   },
   "retailer_focus_distribution": {
     "daiso": 5,
-    "olive_young": 7,
+    "olive_young": 6,
+    "beauty_general": 1,
     "off_topic": 1
   },
   "accounts": [
@@ -465,6 +466,61 @@
     },
     {
       "platform": "instagram",
+      "username": "haeriporter",
+      "fullname": "해리포터🖤",
+      "profile_url": "https://www.instagram.com/haeriporter/",
+      "followers": 718000,
+      "following": 2002,
+      "post_count_total": 769,
+      "sample_size": 12,
+      "engagement_rate": 0.0252,
+      "avg_likes": 17875.0,
+      "avg_comments": 247.42,
+      "avg_views": null,
+      "top_post_likes": 60028,
+      "top_video_views": null,
+      "view_to_sub_ratio": null,
+      "posts_last_30d": 8,
+      "posts_last_30d_estimate": null,
+      "brand_fit_score": 60,
+      "brand_fit_notes": "beauty 1/daiso 0/oy 0/labrang N",
+      "score": {
+        "total": 67.0,
+        "breakdown": {
+          "engagement": 60,
+          "brand_fit": 60,
+          "consistency": 80,
+          "follower_scale": 100
+        },
+        "weights": {
+          "engagement": 0.5,
+          "brand_fit": 0.25,
+          "consistency": 0.15,
+          "follower_scale": 0.1
+        }
+      },
+      "score_total": 67.0,
+      "score_breakdown": {
+        "engagement": 60,
+        "brand_fit": 60,
+        "consistency": 80,
+        "follower_scale": 100
+      },
+      "grade": "B",
+      "retailer_focus": "beauty_general",
+      "retailer_signal": {
+        "daiso_mentions": "none",
+        "olive_young_mentions": "none",
+        "beauty_topical_strength": "weak (1건)",
+        "labrang_blanc_doux_mention": false
+      },
+      "collab_priority": "mid",
+      "evaluated_at": "2026-05-05T14:08:00+09:00",
+      "notes": "STEP B-Light rolling refresh (Tue 14:00 KST). Code-based extraction from script blob, 5s throttle/reel.",
+      "estimation_flags": []
+    },
+    {
+      "platform": "instagram",
       "username": "incworld",
       "fullname": "뷰드름유튜버 인씨 inssi",
       "profile_url": "https://www.instagram.com/incworld/",
@@ -575,116 +631,6 @@
     },
     {
       "platform": "instagram",
-      "username": "haeriporter",
-      "fullname": "해리포터🖤",
-      "profile_url": "https://www.instagram.com/haeriporter/",
-      "followers": 718000,
-      "following": 2002,
-      "post_count_total": 769,
-      "sample_size": 6,
-      "engagement_rate": 0.0191,
-      "avg_likes": 13415.5,
-      "avg_comments": 264.33,
-      "avg_views": null,
-      "top_post_likes": 30000,
-      "top_video_views": null,
-      "view_to_sub_ratio": null,
-      "posts_last_30d": 5,
-      "posts_last_30d_estimate": null,
-      "brand_fit_score": 25,
-      "brand_fit_notes": "beauty 0/daiso 0/oy 2/labrang N",
-      "score": {
-        "total": 58.2,
-        "breakdown": {
-          "engagement": 60,
-          "brand_fit": 25,
-          "consistency": 80,
-          "follower_scale": 100
-        },
-        "weights": {
-          "engagement": 0.5,
-          "brand_fit": 0.25,
-          "consistency": 0.15,
-          "follower_scale": 0.1
-        }
-      },
-      "score_total": 58.2,
-      "score_breakdown": {
-        "engagement": 60,
-        "brand_fit": 25,
-        "consistency": 80,
-        "follower_scale": 100
-      },
-      "grade": "D",
-      "retailer_focus": "olive_young",
-      "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "2건",
-        "beauty_topical_strength": "none (0건)",
-        "labrang_blanc_doux_mention": false
-      },
-      "collab_priority": "low",
-      "evaluated_at": "2026-05-04T09:37:51+09:00",
-      "notes": "logged-out IG og:description, 6 reels. Mon 09:00 STEP B full re-analysis.",
-      "estimation_flags": []
-    },
-    {
-      "platform": "instagram",
-      "username": "euniunni",
-      "fullname": "조성은 Euniunni 유니언니",
-      "profile_url": "https://www.instagram.com/euniunni/",
-      "followers": 141000,
-      "following": 6653,
-      "post_count_total": 2960,
-      "sample_size": 7,
-      "engagement_rate": 0.0115,
-      "avg_likes": 1547.43,
-      "avg_comments": 72.14,
-      "avg_views": null,
-      "top_post_likes": 5798,
-      "top_video_views": null,
-      "view_to_sub_ratio": null,
-      "posts_last_30d": 4,
-      "posts_last_30d_estimate": null,
-      "brand_fit_score": 25,
-      "brand_fit_notes": "beauty 0/daiso 0/oy 2/labrang N",
-      "score": {
-        "total": 55.2,
-        "breakdown": {
-          "engagement": 60,
-          "brand_fit": 25,
-          "consistency": 60,
-          "follower_scale": 100
-        },
-        "weights": {
-          "engagement": 0.5,
-          "brand_fit": 0.25,
-          "consistency": 0.15,
-          "follower_scale": 0.1
-        }
-      },
-      "score_total": 55.2,
-      "score_breakdown": {
-        "engagement": 60,
-        "brand_fit": 25,
-        "consistency": 60,
-        "follower_scale": 100
-      },
-      "grade": "D",
-      "retailer_focus": "olive_young",
-      "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "2건",
-        "beauty_topical_strength": "none (0건)",
-        "labrang_blanc_doux_mention": false
-      },
-      "collab_priority": "low",
-      "evaluated_at": "2026-05-04T09:37:09+09:00",
-      "notes": "logged-out IG og:description, 7 reels. Mon 09:00 STEP B full re-analysis.",
-      "estimation_flags": []
-    },
-    {
-      "platform": "instagram",
       "username": "k_eunmi___",
       "fullname": "또쭈니맘",
       "profile_url": "https://www.instagram.com/k_eunmi___/",
@@ -739,6 +685,61 @@
       "estimation_flags": [
         "brand_fit_score (subjective)"
       ]
+    },
+    {
+      "platform": "instagram",
+      "username": "euniunni",
+      "fullname": "조성은 Euniunni 유니언니",
+      "profile_url": "https://www.instagram.com/euniunni/",
+      "followers": 141000,
+      "following": 6653,
+      "post_count_total": 2960,
+      "sample_size": 11,
+      "engagement_rate": 0.0098,
+      "avg_likes": 1307.45,
+      "avg_comments": 73.18,
+      "avg_views": null,
+      "top_post_likes": 5803,
+      "top_video_views": null,
+      "view_to_sub_ratio": null,
+      "posts_last_30d": 6,
+      "posts_last_30d_estimate": null,
+      "brand_fit_score": 25,
+      "brand_fit_notes": "beauty 0/daiso 0/oy 1/labrang N",
+      "score": {
+        "total": 48.25,
+        "breakdown": {
+          "engagement": 40,
+          "brand_fit": 25,
+          "consistency": 80,
+          "follower_scale": 100
+        },
+        "weights": {
+          "engagement": 0.5,
+          "brand_fit": 0.25,
+          "consistency": 0.15,
+          "follower_scale": 0.1
+        }
+      },
+      "score_total": 48.25,
+      "score_breakdown": {
+        "engagement": 40,
+        "brand_fit": 25,
+        "consistency": 80,
+        "follower_scale": 100
+      },
+      "grade": "C",
+      "retailer_focus": "olive_young",
+      "retailer_signal": {
+        "daiso_mentions": "none",
+        "olive_young_mentions": "1건",
+        "beauty_topical_strength": "none (0건)",
+        "labrang_blanc_doux_mention": false
+      },
+      "collab_priority": "low",
+      "evaluated_at": "2026-05-05T14:08:00+09:00",
+      "notes": "STEP B-Light rolling refresh (Tue 14:00 KST). Code-based extraction from script blob, 5s throttle/reel.",
+      "estimation_flags": []
     }
   ]
 }
