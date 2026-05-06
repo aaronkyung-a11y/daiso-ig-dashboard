@@ -3,80 +3,108 @@
   "username": "k_eunmi___",
   "profile_url": "https://www.instagram.com/k_eunmi___/",
   "fullname": "또쭈니맘",
-  "followers": 1645,
+  "followers": 1650,
   "following": 1031,
   "post_count_total": 128,
   "bio": "육아/쇼핑/캠핑/여행 / 인생은 오직 한번뿐 즐기자",
   "highlights": [],
-  "sample_size": 8,
+  "sample_size": 12,
   "sample_reels": [
+    {
+      "code": "DX4QuL4j-dl",
+      "date": "2026-05-03",
+      "likes": 36,
+      "comments": 3,
+      "caption": "Happy birthday to you❤️"
+    },
     {
       "code": "DXnTb87D5d3",
       "date": "2026-04-26",
-      "likes": 20,
+      "likes": 21,
       "comments": 0,
-      "caption": "종이집하나로도 행복해\n내가 꾸밀수 있어서 기분이 너무 좋아요라고\n말해주는 이쭈닝❤️\n\n#5살아들 #육아템 #육아스타그램"
+      "caption": "종이집하나로도 행복해..."
     },
     {
       "code": "DXhLUxcj248",
       "date": "2026-04-24",
       "likes": 26,
       "comments": 0,
-      "caption": "사이좋게지내자 아들둘💓\n#두아들#6살차이#형제샷"
+      "caption": "사이좋게지내자 아들둘💓 #두아들#6살차이#형제샷"
     },
     {
       "code": "DWn04PsD0cc",
       "date": "2026-04-02",
       "likes": 31,
       "comments": 0,
-      "caption": "귀염뽀작 다섯짤💓\n\n#5살아들 #육아 #아들둘맘 #천천히커주라❤️"
+      "caption": "귀염뽀작 다섯짤💓"
     },
     {
       "code": "DVf1MPlDxQj",
       "date": "2026-03-05",
       "likes": 39,
       "comments": 0,
-      "caption": "돼지런한 하루🐷\n나답게살믄되지므므\n\n#배신석쇠불고기송정점 #브리즐리 #구미카스테라떡집"
+      "caption": "돼지런한 하루🐷"
     },
     {
       "code": "DUsssCbj4H9",
       "date": "2026-02-13",
       "likes": 67,
       "comments": 2,
-      "caption": "백수한달차 엄마\n하고싶은거 다해보는중\n제주도에 이어\n평일 롯데월드가기 미션 클리어🏰🎠\n담은 또 멀해볼까?ㅋ\n\n#백수생활 #평일여유 #아들둘맘 #11살아들 #5살아들"
+      "caption": "백수한달차 엄마..."
     },
     {
       "code": "DUaOayij267",
       "date": "2026-02-06",
       "likes": 35,
       "comments": 0,
-      "caption": "울 현쭈니 이제 고등학생👏🏻\n졸업축하해🤎\n\n#졸업식#인터불고"
+      "caption": "울 현쭈니 이제 고등학생👏🏻"
     },
     {
       "code": "DUXqnNujzuI",
       "date": "2026-02-05",
       "likes": 32,
       "comments": 2,
-      "caption": "둘째조카 졸업식 준비\n지극히 이모스타일선물🤭🤎\n\n#졸업식#졸업식꽃다발#마음을담다"
+      "caption": "둘째조카 졸업식 준비"
     },
     {
       "code": "DUQIbgdD9kJ",
       "date": "2026-02-02",
       "likes": 37,
       "comments": 7,
-      "caption": "눈와서 등원길이 신나쥬☃️\n\n#5살 #5살아들 #등원길"
+      "caption": "눈와서 등원길이 신나쥬☃️"
+    },
+    {
+      "code": "DT0BvyJDwg4",
+      "date": "2026-01-22",
+      "likes": 31,
+      "comments": 1,
+      "caption": "🌺 1월의 제주도"
+    },
+    {
+      "code": "DTvUuKwD8Y1",
+      "date": "2026-01-20",
+      "likes": 36,
+      "comments": 0,
+      "caption": "딱!제주스러운 #대한목장 #제주도"
+    },
+    {
+      "code": "DTMlafRj336",
+      "date": "2026-01-06",
+      "likes": 23,
+      "comments": 0,
+      "caption": "이르케 잘 맞을수 있나요💓 #강원도여행"
     }
   ],
-  "avg_likes": 34.75,
-  "avg_comments": 1.62,
-  "avg_engagement": 36.38,
-  "engagement_rate": 0.0221,
-  "posts_last_30d_estimate": 3,
-  "posts_last_30d_note": "실측값 — 12개 visible reels 중 3개가 30일 내 (taken_at 기반)",
-  "evaluated_at": "2026-05-04T09:40:03+09:00",
-  "notes": "logged-out IG og:description, 8 reels. Mon 09:00 STEP B full re-analysis.",
+  "avg_likes": 34.5,
+  "avg_comments": 1.25,
+  "avg_engagement": 35.75,
+  "engagement_rate": 0.0217,
+  "posts_last_30d": 3,
+  "posts_last_30d_note": "실측값 — 12개 visible posts 중 3개가 30일 내 (taken_at 기반)",
+  "evaluated_at": "2026-05-06T09:10:00+09:00",
+  "notes": "STEP B-Light rolling refresh, logged-out IG og:description, 12 posts (no reels exist on this account).",
   "score": {
-    "total": 51.2,
+    "total": 51.25,
     "breakdown": {
       "engagement": 60,
       "brand_fit": 25,
@@ -90,11 +118,22 @@
       "follower_scale": 0.1
     }
   },
-  "grade": "D",
-  "estimation_flags": [
-    "brand_fit_score (subjective)"
-  ],
+  "grade": "C",
+  "estimation_flags": [],
   "history": [
+    {
+      "evaluated_at": "2026-05-04T09:40:03+09:00",
+      "followers": 1645,
+      "engagement_rate": 0.0221,
+      "avg_likes": 34.75,
+      "avg_comments": 1.62,
+      "sample_size": 8,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "D",
+      "score_total": 51.2,
+      "posts_last_30d": 3
+    },
     {
       "evaluated_at": "2026-05-04T09:28:43+09:00",
       "followers": 1645,
@@ -145,37 +184,48 @@
   },
   "sample_data_evidence": {
     "likes_sample": [
-      29,
+      36,
       21,
       26,
       31,
+      39,
       67,
       35,
       32,
-      37
+      37,
+      31,
+      36,
+      23
     ],
     "comments_sample": [
+      3,
+      0,
+      0,
+      0,
+      0,
       2,
       0,
-      0,
-      0,
       2,
+      7,
+      1,
       0,
-      2,
-      7
+      0
     ],
     "reel_codes": [
       "DX4QuL4j-dl",
       "DXnTb87D5d3",
       "DXhLUxcj248",
       "DWn04PsD0cc",
+      "DVf1MPlDxQj",
       "DUsssCbj4H9",
       "DUaOayij267",
       "DUXqnNujzuI",
-      "DUQIbgdD9kJ"
+      "DUQIbgdD9kJ",
+      "DT0BvyJDwg4",
+      "DTvUuKwD8Y1",
+      "DTMlafRj336"
     ],
     "top_reel": "https://www.instagram.com/p/DUsssCbj4H9/"
   },
-  "top_post_likes": 67,
-  "posts_last_30d": 3
+  "top_post_likes": 67
 }
