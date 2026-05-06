@@ -3,9 +3,9 @@
   "username": "rorobeauty48791",
   "profile_url": "https://www.instagram.com/rorobeauty48791/",
   "fullname": "로로",
-  "followers": 156000,
-  "following": 1500,
-  "post_count_total": 89,
+  "followers": 157000,
+  "following": 1509,
+  "post_count_total": 91,
   "bio": "공쥬들과 함께 잼얘하고 싶어•• (DM환영)",
   "external_link": "linktr.ee/rorobeauty48791",
   "highlights": [
@@ -69,8 +69,8 @@
   "engagement_rate": 0.0791,
   "posts_last_30d_estimate": 3,
   "posts_last_30d_note": "추정값 — 5개 sample 중 30일 이내 3개. 전체 timeline 미확인",
-  "evaluated_at": "2026-05-04T09:42:29+09:00",
-  "notes": "logged-out IG og:description, 7 reels. Mon 09:00 STEP B full re-analysis.",
+  "evaluated_at": "2026-05-06T14:10:09+09:00",
+  "notes": "STEP B-Light rolling refresh (Wed 14:00 KST). 메타데이터만 업데이트 (followers 156k→157k, posts 89→91). sessionid 부재로 reel-level 데이터 미갱신 — 다음 풀 재분석에서 갱신 예정.",
   "score": {
     "total": 79.0,
     "breakdown": {
@@ -90,9 +90,23 @@
   "estimation_flags": [
     "brand_fit_score (subjective)",
     "posts_last_30d_estimate",
-    "consistency (sample-based estimate)"
+    "consistency (sample-based estimate)",
+    "metadata-only refresh (no sessionid)"
   ],
   "history": [
+    {
+      "evaluated_at": "2026-05-04T09:42:29+09:00",
+      "followers": 156000,
+      "engagement_rate": 0.0791,
+      "avg_likes": 12172.14,
+      "avg_comments": 161.0,
+      "sample_size": 7,
+      "brand_fit_score": 60,
+      "retailer_focus": "olive_young",
+      "grade": "B",
+      "score_total": 79.0,
+      "posts_last_30d": 4
+    },
     {
       "evaluated_at": "2026-05-04T09:29:58+09:00",
       "followers": 156000,
