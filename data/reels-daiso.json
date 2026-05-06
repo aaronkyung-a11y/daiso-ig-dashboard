@@ -8,7 +8,8 @@
     "date": "2026-04-29",
     "user": "cupoftea_mag",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DXngLBVk3Qq",
@@ -19,7 +20,8 @@
     "date": "2026-04-27",
     "user": "hhhan_na_",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DXCBQtyDwMp",
@@ -30,7 +32,8 @@
     "date": "2026-04-12",
     "user": "boss.lim_",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DXOg_4xj85g",
@@ -41,7 +44,8 @@
     "date": "2026-04-17",
     "user": "byudonna",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DXo8u33jzhl",
@@ -52,7 +56,8 @@
     "date": "2026-04-27",
     "user": "liveunistdt",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DX5WD7iTSLl",
@@ -63,7 +68,8 @@
     "date": "2026-05-04",
     "user": "sssssssu_y_j",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DXgZF7zoKgu",
@@ -74,7 +80,8 @@
     "date": "2026-04-24",
     "user": "korean_dobby",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DXMWDnkktWE",
@@ -85,6 +92,7 @@
     "date": "2026-04-16",
     "user": "bbbsalty",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   }
 ]
