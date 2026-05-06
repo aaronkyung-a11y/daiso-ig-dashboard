@@ -1211,7 +1211,47 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 });
 
 // 초기 렌더
-(() => {
+// Hydrator: 누적 reel 저장소(data/reels-*.json)에서 reel을 읽어 igKeywords[].topReels를 채움
+async function hydrate(data, jsonPath) {
+  try {
+    const resp = await fetch(jsonPath + '?nocache=' + Date.now());
+    if (!resp.ok) { console.warn('hydrate fetch failed', jsonPath, resp.status); return; }
+    const reels = await resp.json();
+    const cutoff = data.cutoffDate || new Date(Date.now()-30*86400e3).toISOString().slice(0,10);
+    // Group by brand_keyword
+    const byKw = {};
+    for (const r of reels) {
+      if (!r.likes || r.likes <= 0) continue;
+      if ((r.date||'').slice(0,10) < cutoff) continue;
+      const kw = r.brand_keyword || r.keyword;
+      if (!byKw[kw]) byKw[kw] = [];
+      byKw[kw].push({
+        id: r.id, likes: r.likes, comments: r.comments || 0,
+        engagement: (r.likes||0)+(r.comments||0),
+        views: (r.likes||0)*128, viewType: '추정 (likes×128)',
+        user: r.user, date: (r.date||'').slice(0,10),
+        url: 'https://www.instagram.com/p/' + r.id + '/'
+      });
+    }
+    for (const k of (data.igKeywords||[])) {
+      const list = byKw[k.keyword] || [];
+      list.sort((a,b)=>b.likes-a.likes);
+      k.topReels = list;
+      k.reelCount = list.length;
+      k.totalViews = list.reduce((s,r)=>s+r.views,0);
+      k.totalLikes = list.reduce((s,r)=>s+r.likes,0);
+      k.totalComments = list.reduce((s,r)=>s+r.comments,0);
+      k.totalEngagement = k.totalLikes + k.totalComments;
+    }
+    console.log('hydrated', jsonPath, '→', Object.keys(byKw).length, 'keyword groups,', reels.length, 'reels in store');
+  } catch(e) { console.error('hydrate error', e); }
+}
+
+(async () => {
+  await Promise.all([
+    hydrate(DAISO_DATA, 'data/reels-daiso.json'),
+    hydrate(OLIVEYOUNG_DATA, 'data/reels-oliveyoung.json')
+  ]);
   document.getElementById('lastUpdated').textContent = new Date(DAISO_DATA.lastUpdated).toLocaleString('ko-KR');
   renderTab(DAISO_DATA, 'daiso', false);
   renderTab(OLIVEYOUNG_DATA, 'oliveyoung', true);
