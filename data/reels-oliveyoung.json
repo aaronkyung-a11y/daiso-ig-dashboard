@@ -8,7 +8,8 @@
     "date": "2026-04-06",
     "user": "s.nature",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": true
   },
   {
     "id": "DXqPOuOAWAs",
@@ -19,7 +20,8 @@
     "date": "2026-04-28",
     "user": "dr.g_official",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": true
   },
   {
     "id": "DX6Dt4pASc-",
@@ -30,7 +32,8 @@
     "date": "2026-05-04",
     "user": "dr.g_official",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": true
   },
   {
     "id": "DX6x7pDCwsL",
@@ -41,7 +44,8 @@
     "date": "2026-05-04",
     "user": "cos_chxx.ri",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DXvySQJTa3M",
@@ -52,7 +56,8 @@
     "date": "2026-04-30",
     "user": "y_ppeum_otd",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DXwk827TYbV",
@@ -63,7 +68,8 @@
     "date": "2026-05-01",
     "user": "pure.on_aesthetic",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DW3eZe-E0Q9",
@@ -74,7 +80,8 @@
     "date": "2026-04-08",
     "user": "shin.seungg",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DXyRcGuTWrG",
@@ -85,7 +92,8 @@
     "date": "2026-05-01",
     "user": "_tripgoing",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   },
   {
     "id": "DX3u4T1Tnwu",
@@ -96,6 +104,7 @@
     "date": "2026-05-03",
     "user": "coucouyj",
     "firstSeen": "2026-05-06",
-    "lastSeen": "2026-05-06"
+    "lastSeen": "2026-05-06",
+    "is_official": false
   }
 ]
