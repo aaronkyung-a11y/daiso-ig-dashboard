@@ -1212,17 +1212,40 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 
 // 초기 렌더
 // Hydrator: 누적 reel 저장소(data/reels-*.json)에서 reel을 읽어 igKeywords[].topReels를 채움
+// + 공식 계정(브랜드 본인) 필터링 (is_official 플래그 OR 휴리스틱)
+const OFFICIAL_HANDLES = new Set([
+  's.nature','snature','dr.g_official','dr.g','drgskincare',
+  'manyo.factory','manyo_factory','manyo.kr','torriden','torriden_official',
+  'mediheal','mediheal.kr','mediheal_official',
+  'espoir.makeup','espoir_kr','espoir_official','sepolab','sepolab_official',
+  'curvedseoul','curved_official',
+  'daiso_official','daisokorea','vt.cosmetics','vt_cosmetics','vt.kr',
+  'medipeel.kr','medipeel','medipeel_official',
+  'thelab.bblanc.doux','blancdoux','theblancdoux','theblancdoux_official',
+  'realbarrier_official','realbarrier','marche21','marche.21',
+  'bonsep','bonsep_official','centellian24','centellian24_official',
+  'oliveyoung','oliveyoung_official','oliveyoung.global'
+]);
+function isOfficialAccount(u){
+  if (!u) return false;
+  const x = String(u).toLowerCase();
+  if (OFFICIAL_HANDLES.has(x)) return true;
+  if (/_official$|\.official$|_kr$|\.kr$|_korea$|^official_|_seoul$/.test(x)) return true;
+  return false;
+}
 async function hydrate(data, jsonPath) {
   try {
     const resp = await fetch(jsonPath + '?nocache=' + Date.now());
     if (!resp.ok) { console.warn('hydrate fetch failed', jsonPath, resp.status); return; }
     const reels = await resp.json();
     const cutoff = data.cutoffDate || new Date(Date.now()-30*86400e3).toISOString().slice(0,10);
-    // Group by brand_keyword
     const byKw = {};
+    let kept = 0, dropped_official = 0, dropped_age = 0, dropped_zero = 0;
     for (const r of reels) {
-      if (!r.likes || r.likes <= 0) continue;
-      if ((r.date||'').slice(0,10) < cutoff) continue;
+      if (!r.likes || r.likes <= 0) { dropped_zero++; continue; }
+      if ((r.date||'').slice(0,10) < cutoff) { dropped_age++; continue; }
+      // Filter brand official accounts (priority: explicit flag, then heuristic)
+      if (r.is_official === true || isOfficialAccount(r.user)) { dropped_official++; continue; }
       const kw = r.brand_keyword || r.keyword;
       if (!byKw[kw]) byKw[kw] = [];
       byKw[kw].push({
@@ -1232,6 +1255,7 @@ async function hydrate(data, jsonPath) {
         user: r.user, date: (r.date||'').slice(0,10),
         url: 'https://www.instagram.com/p/' + r.id + '/'
       });
+      kept++;
     }
     for (const k of (data.igKeywords||[])) {
       const list = byKw[k.keyword] || [];
@@ -1243,7 +1267,7 @@ async function hydrate(data, jsonPath) {
       k.totalComments = list.reduce((s,r)=>s+r.comments,0);
       k.totalEngagement = k.totalLikes + k.totalComments;
     }
-    console.log('hydrated', jsonPath, '→', Object.keys(byKw).length, 'keyword groups,', reels.length, 'reels in store');
+    console.log('hydrated', jsonPath, '→ kept:', kept, 'dropped_official:', dropped_official, 'dropped_age:', dropped_age, 'dropped_zero:', dropped_zero);
   } catch(e) { console.error('hydrate error', e); }
 }
 
