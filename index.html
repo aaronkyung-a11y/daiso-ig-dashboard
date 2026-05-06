@@ -1211,8 +1211,8 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 });
 
 // 초기 렌더
-// Hydrator: 누적 reel 저장소(data/reels-*.json)에서 reel을 읽어 igKeywords[].topReels를 채움
-// + 공식 계정(브랜드 본인) 필터링 (is_official 플래그 OR 휴리스틱)
+// Hydrator: 누적 reel 저장소(data/reels-*.json) + creators.json
+// 1) 공식 계정 필터, 2) followers/ER 부착, 3) 다브랜드 출현 카운트
 const OFFICIAL_HANDLES = new Set([
   's.nature','snature','dr.g_official','dr.g','drgskincare',
   'manyo.factory','manyo_factory','manyo.kr','torriden','torriden_official',
@@ -1233,6 +1233,17 @@ function isOfficialAccount(u){
   if (/_official$|\.official$|_kr$|\.kr$|_korea$|^official_|_seoul$/.test(x)) return true;
   return false;
 }
+
+let CREATORS_MAP = {};
+async function loadCreators() {
+  try {
+    const r = await fetch('data/creators.json?nc='+Date.now());
+    if (!r.ok) return;
+    const arr = await r.json();
+    for (const c of arr) CREATORS_MAP[c.user] = c;
+  } catch(e){ console.warn('creators load fail', e); }
+}
+
 async function hydrate(data, jsonPath) {
   try {
     const resp = await fetch(jsonPath + '?nocache=' + Date.now());
@@ -1240,26 +1251,44 @@ async function hydrate(data, jsonPath) {
     const reels = await resp.json();
     const cutoff = data.cutoffDate || new Date(Date.now()-30*86400e3).toISOString().slice(0,10);
     const byKw = {};
+    const userBrands = {}; // user → Set of brand_keywords (multi-brand detection)
     let kept = 0, dropped_official = 0, dropped_age = 0, dropped_zero = 0;
     for (const r of reels) {
       if (!r.likes || r.likes <= 0) { dropped_zero++; continue; }
       if ((r.date||'').slice(0,10) < cutoff) { dropped_age++; continue; }
-      // Filter brand official accounts (priority: explicit flag, then heuristic)
       if (r.is_official === true || isOfficialAccount(r.user)) { dropped_official++; continue; }
       const kw = r.brand_keyword || r.keyword;
       if (!byKw[kw]) byKw[kw] = [];
+      const followers = (CREATORS_MAP[r.user]?.followers) || 0;
+      const eng = (r.likes||0) + (r.comments||0);
+      const er = followers > 0 ? eng / followers : null; // engagement rate
+      if (!userBrands[r.user]) userBrands[r.user] = new Set();
+      userBrands[r.user].add(kw);
       byKw[kw].push({
         id: r.id, likes: r.likes, comments: r.comments || 0,
-        engagement: (r.likes||0)+(r.comments||0),
+        engagement: eng,
         views: (r.likes||0)*128, viewType: '추정 (likes×128)',
+        followers: followers,
+        engagementRate: er,
         user: r.user, date: (r.date||'').slice(0,10),
         url: 'https://www.instagram.com/p/' + r.id + '/'
       });
       kept++;
     }
+    // After all kept, attach multi-brand count
+    for (const kw of Object.keys(byKw)) {
+      for (const it of byKw[kw]) {
+        it.multiBrandCount = userBrands[it.user]?.size || 1;
+      }
+    }
     for (const k of (data.igKeywords||[])) {
       const list = byKw[k.keyword] || [];
-      list.sort((a,b)=>b.likes-a.likes);
+      // Sort by ER first (if available), then by likes
+      list.sort((a,b)=>{
+        const aer = (a.engagementRate ?? -1), ber = (b.engagementRate ?? -1);
+        if (aer !== ber) return ber - aer;
+        return b.likes - a.likes;
+      });
       k.topReels = list;
       k.reelCount = list.length;
       k.totalViews = list.reduce((s,r)=>s+r.views,0);
@@ -1267,11 +1296,12 @@ async function hydrate(data, jsonPath) {
       k.totalComments = list.reduce((s,r)=>s+r.comments,0);
       k.totalEngagement = k.totalLikes + k.totalComments;
     }
-    console.log('hydrated', jsonPath, '→ kept:', kept, 'dropped_official:', dropped_official, 'dropped_age:', dropped_age, 'dropped_zero:', dropped_zero);
+    console.log('hydrated', jsonPath, '→ kept:', kept, 'dropped_official:', dropped_official, 'dropped_age:', dropped_age);
   } catch(e) { console.error('hydrate error', e); }
 }
 
 (async () => {
+  await loadCreators();
   await Promise.all([
     hydrate(DAISO_DATA, 'data/reels-daiso.json'),
     hydrate(OLIVEYOUNG_DATA, 'data/reels-oliveyoung.json')
