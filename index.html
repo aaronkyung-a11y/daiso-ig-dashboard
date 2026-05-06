@@ -1140,7 +1140,7 @@ function renderViralTable(d, containerId) {
             <td class="num">${r.comments != null ? (r.comments.toLocaleString ? r.comments.toLocaleString() : r.comments) : "-"}</td>
             <td class="num" style="color:#34d399;">${r.engagement != null ? r.engagement.toLocaleString() : "-"}</td>
             <td class="num">${fmt(r.views)}</td>
-            <td><span class="badge ${r.type === '실측' ? 'actual' : 'est'}">${r.type}</span></td>
+            <td><span class="badge est" title="조회수 = likes×128 추정">추정</span></td>
             <td><a href="${r.url}" target="_blank">릴스 ↗</a></td>
           </tr>
         `).join('')}
@@ -1179,7 +1179,7 @@ function renderKeywordDetail(d, containerId) {
               <td class="num">${r.comments != null ? (r.comments.toLocaleString ? r.comments.toLocaleString() : r.comments) : "-"}</td>
               <td class="num" style="color:#34d399;">${r.engagement != null ? r.engagement.toLocaleString() : "-"}</td>
               <td class="num">${fmt(r.views)}</td>
-              <td><span class="badge ${r.type==='실측'?'actual':'est'}">${r.type}</span></td>
+              <td><span class="badge est" title="조회수 = likes×128 추정">추정</span></td>
             </tr>
           `).join('')}
         </tbody>
@@ -1256,7 +1256,9 @@ async function hydrate(data, jsonPath) {
     const resp = await fetch(jsonPath + '?nocache=' + Date.now());
     if (!resp.ok) { console.warn('hydrate fetch failed', jsonPath, resp.status); return; }
     const reels = await resp.json();
-    const cutoff = data.cutoffDate || new Date(Date.now()-30*86400e3).toISOString().slice(0,10);
+    // 60일 윈도우 (data block의 cutoffDate 무시하고 항상 60일 적용)
+    const cutoff = new Date(Date.now()-60*86400e3).toISOString().slice(0,10);
+    data.cutoffDate = cutoff; // 카드 라벨에도 60일이 반영되도록
     const byKw = {};
     const userBrands = {}; // user → Set of brand_keywords (multi-brand detection)
     let kept = 0, dropped_official = 0, dropped_age = 0, dropped_zero = 0;
