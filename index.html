@@ -1007,7 +1007,9 @@ function aggregateCreators(d) {
     if (!map[r.user]) {
       map[r.user] = {
         user: r.user, reels: [], keywords: new Set(),
-        totalViews: 0, totalLikes: 0
+        totalViews: 0, totalLikes: 0, totalEng: 0,
+        followers: r.followers || 0,
+        bestER: 0, multiBrandCount: r.multiBrandCount || 1
       };
     }
     const m = map[r.user];
@@ -1015,6 +1017,10 @@ function aggregateCreators(d) {
     m.keywords.add(k.keyword);
     m.totalViews += r.views || 0;
     m.totalLikes += r.likes || 0;
+    m.totalEng += r.engagement || 0;
+    if (r.followers && r.followers > m.followers) m.followers = r.followers;
+    if (r.engagementRate != null && r.engagementRate > m.bestER) m.bestER = r.engagementRate;
+    if (r.multiBrandCount && r.multiBrandCount > m.multiBrandCount) m.multiBrandCount = r.multiBrandCount;
   }));
   return Object.values(map).map(m => ({
     ...m,
@@ -1033,16 +1039,17 @@ function renderTopInfluencers(d, containerId) {
     document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="icon">💎</div><div class="title">영향력 랭킹 준비 중</div><div class="sub">첫 데이터 수집 후 표시됩니다</div></div>';
     return;
   }
+  // ER 우선 + 다브랜드 가산점, 폴로워는 보너스 (마이크로 인플루언서 발굴)
   const sorted = creators.sort((a,b) => {
-    const scoreA = a.totalViews * (1 + a.keywordCount * 0.2);
-    const scoreB = b.totalViews * (1 + b.keywordCount * 0.2);
+    const scoreA = (a.bestER * 100) + Math.log10(Math.max(a.followers, 100)) + (a.multiBrandCount > 1 ? 2 : 0);
+    const scoreB = (b.bestER * 100) + Math.log10(Math.max(b.followers, 100)) + (b.multiBrandCount > 1 ? 2 : 0);
     return scoreB - scoreA;
   }).slice(0, 10);
 
   document.getElementById(containerId).innerHTML = `
     <table>
       <thead><tr>
-        <th>#</th><th>크리에이터</th><th class="num">총 조회</th>
+        <th>#</th><th>크리에이터</th><th class="num">팔로워 · ER</th>
         <th class="num">릴스</th><th class="num">키워드</th><th>카테고리</th>
       </tr></thead>
       <tbody>
@@ -1052,7 +1059,7 @@ function renderTopInfluencers(d, containerId) {
             <td><a href="https://www.instagram.com/${c.user}/" target="_blank">@${c.user}</a>
               ${c.keywordCount >= 2 ? '<span class="score-pill hot">다회출현</span>' : ''}
             </td>
-            <td class="num">${fmt(c.totalViews)}</td>
+            <td class="num" title="팔로워 · 인게이지먼트율">${c.followers > 0 ? (c.followers >= 10000 ? (c.followers/10000).toFixed(1)+'만' : c.followers >= 1000 ? (c.followers/1000).toFixed(1)+'K' : c.followers) : '-'} <span style="color:#34d399;font-size:0.85em;">· ER ${c.bestER > 0 ? (c.bestER*100).toFixed(1)+'%' : '-'}</span></td>
             <td class="num">${c.reels.length}</td>
             <td class="num">${c.keywordCount}</td>
             <td>${c.keywordList.slice(0,2).map(k => `<span class="tag-keyword">${k.length > 10 ? k.slice(0,10)+'…' : k}</span>`).join('')}${c.keywordList.length>2 ? `+${c.keywordList.length-2}` : ''}</td>
