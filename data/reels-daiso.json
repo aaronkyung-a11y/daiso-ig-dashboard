@@ -130,5 +130,29 @@
     "firstSeen": "2026-05-06",
     "lastSeen": "2026-05-06",
     "is_official": false
+  },
+  {
+    "id": "DWtbJxWEwzg",
+    "brand_keyword": "리얼베리어 크림",
+    "rank": 2,
+    "likes": 1784,
+    "comments": 29,
+    "date": "2026-04-04",
+    "user": "yeon.cos",
+    "firstSeen": "2026-05-06",
+    "lastSeen": "2026-05-06",
+    "is_official": false
+  },
+  {
+    "id": "DWY5eFxiPft",
+    "brand_keyword": "본셉 레티놀",
+    "rank": 6,
+    "likes": 3,
+    "comments": 13,
+    "date": "2026-03-27",
+    "user": "sung_eun130",
+    "firstSeen": "2026-05-06",
+    "lastSeen": "2026-05-06",
+    "is_official": false
   }
 ]
