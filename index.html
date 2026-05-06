@@ -819,6 +819,10 @@ const oyData = {
 };
 // OLIVEYOUNG_DATA_END
 
+// === Adapter (data block uses {daisoData, oyData} with .igKeywords; render code expects {DAISO_DATA, OLIVEYOUNG_DATA} with .keywords) ===
+const DAISO_DATA = Object.assign({}, daisoData, {keywords: daisoData.igKeywords || []});
+const OLIVEYOUNG_DATA = Object.assign({}, oyData, {keywords: oyData.igKeywords || []});
+
 // =========================================================
 
 const palette = ['#38bdf8', '#a78bfa', '#f472b6', '#fb923c', '#34d399', '#facc15', '#f87171', '#22d3ee', '#c084fc', '#fbbf24'];
