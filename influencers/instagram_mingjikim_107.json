@@ -1,0 +1,68 @@
+{
+  "platform": "instagram",
+  "username": "mingjikim_107",
+  "profile_url": "https://www.instagram.com/mingjikim_107/",
+  "fullname": "밍직임",
+  "followers": 2624,
+  "following": 1116,
+  "post_count_total": 116,
+  "bio": "",
+  "sample_size": 4,
+  "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+  "avg_likes": 366.25,
+  "avg_comments": 35.75,
+  "avg_engagement": 402.0,
+  "engagement_rate": 0.1532,
+  "top_post_likes": 919,
+  "posts_last_30d": 4,
+  "posts_last_30d_note": "추정 (분석 샘플 기반, 실제 게시 빈도와 다를 수 있음)",
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "off (0건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "brand_fit_notes": "beauty 0/daiso none/oy none/labrang N",
+  "sample_data_evidence": {
+    "likes_sample": [
+      167,
+      191,
+      188,
+      919
+    ],
+    "comments_sample": [
+      22,
+      35,
+      21,
+      65
+    ],
+    "reel_codes": [
+      "DX1hwO6OXtl",
+      "DX_fgNFN6at",
+      "DX3hbzPAPG7",
+      "DXx73pUBTn1"
+    ],
+    "top_reel": "https://www.instagram.com/p/DXx73pUBTn1/"
+  },
+  "evaluated_at": "2026-05-07T14:41:05+09:00",
+  "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
+  "score": {
+    "total": 71.25,
+    "breakdown": {
+      "engagement": 100,
+      "brand_fit": 25,
+      "consistency": 60,
+      "follower_scale": 60
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "B",
+  "history": []
+}
