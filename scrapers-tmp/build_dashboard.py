@@ -363,10 +363,10 @@ def build():
   </div>
 
   <div class="stats">
-    <div class="stat"><div class="label">다이소 Top 30 (뷰티)</div><div class="value">{beauty_count}</div><div class="sub">/ {len(daiso)}</div></div>
-    <div class="stat"><div class="label">감지 IG 컨텐츠 (30일)</div><div class="value">{len(ig_30d)}</div><div class="sub">/ 누적 {len(ig_store)}</div></div>
-    <div class="stat"><div class="label">YT 영상</div><div class="value">{len(yt)}</div><div class="sub">최근 30일</div></div>
-    <div class="stat"><div class="label">평가된 인플루언서</div><div class="value">{len(influencers)}</div><div class="sub">Top 점수 산출</div></div>
+    <div class="stat"><div class="label">다이소 뷰티 / 전체</div><div class="value">{beauty_count}</div><div class="sub">/ {len(daiso)}개 (비뷰티 자동 제외)</div></div>
+    <div class="stat"><div class="label">IG 컨텐츠 (30일)</div><div class="value">{len(ig_30d)}</div><div class="sub">/ 누적 {len(ig_store)} · 매일 누적</div></div>
+    <div class="stat"><div class="label">YT 영상 (30일)</div><div class="value">{len(yt)}</div><div class="sub">매일 자동 + Chrome MCP 보완</div></div>
+    <div class="stat"><div class="label">자동 발견 인플루언서</div><div class="value">{len(influencers)}</div><div class="sub">30일 통과 · 매일 누적 증가</div></div>
   </div>
 
   <!-- 우선 섭외 -->
