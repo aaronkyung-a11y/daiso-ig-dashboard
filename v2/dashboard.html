@@ -75,12 +75,24 @@
   .grade-D { background: #fee2e2; color: #991b1b; }
   .grade-pending { background: #fafafa; color: #a1a1aa; border: 1px dashed #d4d4d8; }
 
-  .tab-bar { display: flex; gap: 8px; margin-bottom: 16px; background: white; padding: 6px; border-radius: 12px; border: 1px solid #e5e7eb; }
-  .tab-btn { padding: 8px 16px; background: transparent; border: 0; border-radius: 8px; font-size: 13px; font-weight: 500; color: #6b7280; cursor: pointer; transition: all 0.15s; font-family: inherit; }
-  .tab-btn:hover { background: #f9fafb; color: #374151; }
-  .tab-btn.active { background: #6366f1; color: white; }
+  .tab-bar { display: flex; gap: 8px; margin-bottom: 20px; }
+  .tab-btn {
+    padding: 14px 24px; background: white; border: 1px solid #e5e7eb;
+    border-radius: 12px; font-size: 14px; font-weight: 600;
+    color: #71717a; cursor: pointer; transition: all 0.15s;
+    font-family: inherit; letter-spacing: -0.01em;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  }
+  .tab-btn:hover { border-color: #c7d2fe; color: #4f46e5; transform: translateY(-1px); box-shadow: 0 4px 8px rgba(99,102,241,0.08); }
+  .tab-btn.active {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: white; border-color: transparent;
+    box-shadow: 0 6px 16px rgba(99,102,241,0.35);
+    transform: translateY(-1px);
+  }
+  .tab-btn.active:hover { color: white; }
   .tab-pane[hidden] { display: none !important; }
-  iframe.tab-pane { width: 100%; height: calc(100vh - 110px); border: 0; border-radius: 14px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+  iframe.tab-pane { width: 100%; height: calc(100vh - 130px); border: 0; border-radius: 14px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
 
   .outreach-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; padding: 16px 20px; }
   .outreach-card {
