@@ -173,7 +173,7 @@ def normalize_video(video: dict, channels: dict, keyword: str, rank: int, produc
         "description": description[:300],
         "publishedAt": snippet.get("publishedAt", "")[:10],
         "channelId": channel_id,
-        "channelName": ch_snippet.get("title", ""),
+        "channelName": ch_snippet.get("title") or f"채널_{channel_id[:8]}" if channel_id else "",
         "channelSubscribers": int(ch_stats.get("subscriberCount", 0)) if ch_stats.get("subscriberCount") else None,
         "duration_sec": duration_sec,
         "is_short": is_short,
