@@ -303,9 +303,12 @@ def build():
   .grade-D {{ background: #fee2e2; color: #991b1b; }}
   .grade-pending {{ background: #fafafa; color: #a1a1aa; border: 1px dashed #d4d4d8; }}
 
-  .nav-bar {{ display: flex; gap: 12px; margin-bottom: 16px; }}
-  .nav-bar a {{ padding: 8px 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; font-size: 13px; font-weight: 500; color: #374151; }}
-  .nav-bar a.active {{ background: #6366f1; color: white; border-color: #6366f1; }}
+  .tab-bar {{ display: flex; gap: 8px; margin-bottom: 16px; background: white; padding: 6px; border-radius: 12px; border: 1px solid #e5e7eb; }}
+  .tab-btn {{ padding: 8px 16px; background: transparent; border: 0; border-radius: 8px; font-size: 13px; font-weight: 500; color: #6b7280; cursor: pointer; transition: all 0.15s; font-family: inherit; }}
+  .tab-btn:hover {{ background: #f9fafb; color: #374151; }}
+  .tab-btn.active {{ background: #6366f1; color: white; }}
+  .tab-pane[hidden] {{ display: none !important; }}
+  iframe.tab-pane {{ width: 100%; height: calc(100vh - 110px); border: 0; border-radius: 14px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }}
 
   .outreach-grid {{ display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; padding: 16px 20px; }}
   .outreach-card {{
@@ -329,12 +332,16 @@ def build():
 
 <div class="container">
 
-  <div class="nav-bar">
-    <a href="#" class="active">다이소 모니터 (자동 발견)</a>
-    <a href="https://aaronkyung-a11y.github.io/daiso-ig-dashboard/influencer-eval.html">정밀 평가 시스템 ({eval_count}명)</a>
-    <a href="https://aaronkyung-a11y.github.io/daiso-ig-dashboard/">기존 메인 대시보드</a>
+  <div class="tab-bar">
+    <button class="tab-btn active" data-tab="monitor" onclick="showTab('monitor')">다이소 모니터 (자동 발견)</button>
+    <button class="tab-btn" data-tab="eval" onclick="showTab('eval')">정밀 평가 시스템 ({eval_count}명)</button>
+    <button class="tab-btn" data-tab="main" onclick="showTab('main')">기존 메인 대시보드</button>
   </div>
 
+  <iframe class="tab-pane" data-tab="eval" data-src="../influencer-eval.html" hidden></iframe>
+  <iframe class="tab-pane" data-tab="main" data-src="../" hidden></iframe>
+
+  <div class="tab-pane" data-tab="monitor">
   <div class="header">
     <h1>다이소 뷰티 데일리</h1>
     <div class="subtitle">{today} 빌드 · 다이소 데이터 {daiso_date} 기준 · IG 누적 30일 · YT 30일</div>
@@ -402,9 +409,20 @@ def build():
   <div class="footer">
     자동 빌드 · {today} · build_dashboard.py · 데이터 갱신: daiso_scraper / ig_crawler / yt_crawler / influencer_eval 매일 실행
   </div>
+  </div>
 </div>
 
 <script>
+function showTab(name) {{
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === name));
+  document.querySelectorAll('.tab-pane').forEach(p => {{
+    const isActive = p.dataset.tab === name;
+    p.hidden = !isActive;
+    if (isActive && p.tagName === 'IFRAME' && !p.src && p.dataset.src) {{
+      p.src = p.dataset.src;
+    }}
+  }});
+}}
 function filterContents() {{
   const q = document.getElementById('content-search').value.toLowerCase();
   const plat = document.getElementById('platform-filter').value;
