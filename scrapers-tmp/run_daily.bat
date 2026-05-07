@@ -1,14 +1,14 @@
 @echo off
-chcp 65001 > nul
 setlocal
+set PYTHONIOENCODING=utf-8
 
 cd /d "%~dp0"
 
-set LOG_DIR=%~dp0..\logs
+set "LOG_DIR=%~dp0..\logs"
 if not exist "%LOG_DIR%" mkdir "%LOG_DIR%"
-set TS=%date:~0,4%%date:~5,2%%date:~8,2%_%time:~0,2%%time:~3,2%
-set TS=%TS: =0%
-set LOG_FILE=%LOG_DIR%\run_daily_%TS%.log
+set "TS=%date:~0,4%%date:~5,2%%date:~8,2%_%time:~0,2%%time:~3,2%"
+set "TS=%TS: =0%"
+set "LOG_FILE=%LOG_DIR%\run_daily_%TS%.log"
 
 echo [%date% %time%] === Daiso Monitor Daily Run === > "%LOG_FILE%"
 echo. >> "%LOG_FILE%"
@@ -21,7 +21,7 @@ py daiso_scraper.py --sheets >> "%LOG_FILE%" 2>&1
 if errorlevel 1 echo   ! FAILED (errorlevel %errorlevel%) >> "%LOG_FILE%"
 echo. >> "%LOG_FILE%"
 
-REM 2. YouTube crawler (skip if API key missing)
+REM 2. YouTube crawler
 echo [%date% %time%] (2/6) yt_crawler.py >> "%LOG_FILE%"
 py yt_crawler.py >> "%LOG_FILE%" 2>&1
 if errorlevel 1 echo   ! YT FAILED (API key missing?) >> "%LOG_FILE%"
