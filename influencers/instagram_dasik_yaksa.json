@@ -5,7 +5,7 @@
   "fullname": "다식 약사 | 박약다식, 박소윤",
   "followers": 103000,
   "following": 885,
-  "post_count_total": 899,
+  "post_count_total": 906,
   "bio": "",
   "sample_size": 12,
   "sample_note": "★ STEP B-Light rolling refresh — 로그아웃 (sessionid 없음, 12 cap). og:description 기반 like/comment/date 추출 (SPA 캐시 contamination 회피). 캡션 키워드 분석은 og:description의 caption 일부로 수행 (full text 일부만 보일 수 있음 → brand_fit는 추정 가능성 있음).",
@@ -68,7 +68,7 @@
     ],
     "top_reel": "https://www.instagram.com/p/DFbYAOATe_W/"
   },
-  "evaluated_at": "2026-05-05T09:10:00+09:00",
+  "evaluated_at": "2026-05-07T09:07:01+09:00",
   "notes": "Tue 09:00 STEP B-Light rolling refresh. og:description method (SPA contamination avoided).",
   "score": {
     "total": 60.0,
@@ -126,6 +126,20 @@
       "grade": "C",
       "score_total": 57.0,
       "posts_last_30d": 6
+    },
+    {
+      "evaluated_at": "2026-05-07T09:07:01+09:00",
+      "mode": "STEP_B_Light_metadata_only",
+      "note": "Server-side fetch — og:description only (profile metadata refresh, reels-level data not refetched). Engagement/score retained from previous full eval.",
+      "followers": 103000,
+      "post_count_total": 906,
+      "previous": {
+        "followers": 103000,
+        "following": 885,
+        "post_count_total": 899,
+        "total_score": null,
+        "grade": "C"
+      }
     }
   ]
 }

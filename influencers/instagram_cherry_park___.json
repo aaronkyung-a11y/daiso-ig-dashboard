@@ -5,7 +5,7 @@
   "fullname": "박체리 cherry🍒",
   "followers": 22000,
   "following": 226,
-  "post_count_total": 403,
+  "post_count_total": 404,
   "bio": "",
   "sample_size": 8,
   "avg_likes": 222.25,
@@ -76,7 +76,7 @@
       "caption": "입큰 버블 잼 글로스 new 컬러 찐 솔직 후기 #올리브영글로스 #글로스추천 #올영추천템"
     }
   ],
-  "evaluated_at": "2026-05-04T17:15:07+09:00",
+  "evaluated_at": "2026-05-07T09:07:01+09:00",
   "notes": "B-Light rolling refresh. logged-out IG (sample 8 reels, code-based extraction). Mon 17:00 run. Consistency held at 80 (partial taken_at coverage).",
   "score": {
     "total": 72.5,
@@ -279,6 +279,20 @@
         }
       },
       "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-07T09:07:01+09:00",
+      "mode": "STEP_B_Light_metadata_only",
+      "note": "Server-side fetch — og:description only (profile metadata refresh, reels-level data not refetched). Engagement/score retained from previous full eval.",
+      "followers": 22000,
+      "post_count_total": 404,
+      "previous": {
+        "followers": 22000,
+        "following": 226,
+        "post_count_total": 403,
+        "total_score": null,
+        "grade": "B"
+      }
     }
   ]
 }
