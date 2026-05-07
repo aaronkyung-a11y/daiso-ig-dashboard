@@ -171,7 +171,7 @@ def build():
     influencers_rows_html = ""
     for i, inf in enumerate(influencers[:15], 1):
         is_ig = inf["platform"] == "instagram"
-        name = inf.get("username") or inf.get("channel_name") or "?"
+        name = inf.get("username") or inf.get("channel_name") or (f"ch:{(inf.get('channel_id') or '')[:10]}" if inf.get('channel_id') else "?")
         platform_class = "ig" if is_ig else "yt"
         platform_label = "Instagram" if is_ig else "YouTube"
         if is_ig:
