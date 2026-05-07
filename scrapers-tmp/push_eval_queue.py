@@ -137,7 +137,9 @@ def load_our_influencers() -> list[dict]:
 def select_candidates(our_inf, eval_done, queue_existing, max_n):
     candidates = []
     for inf in our_inf:
-        name = (inf.get("username") or inf.get("channel_name") or "").lower().lstrip("@")
+        # YT는 channel_name이 빌 수 있어서 channel_id fallback (UCxxxxxxxx → 매칭용)
+        raw_name = inf.get("username") or inf.get("channel_name") or inf.get("channel_id") or ""
+        name = raw_name.lower().lstrip("@")
         profile_url = inf.get("profile_url")
         if not name or not profile_url:
             continue
