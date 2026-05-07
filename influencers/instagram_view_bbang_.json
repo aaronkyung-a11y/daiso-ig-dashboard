@@ -1,0 +1,65 @@
+{
+  "platform": "instagram",
+  "username": "view_bbang_",
+  "profile_url": "https://www.instagram.com/view_bbang_/",
+  "fullname": "뷰빵",
+  "followers": 348,
+  "following": 421,
+  "post_count_total": 10,
+  "bio": "",
+  "sample_size": 3,
+  "sample_note": "3 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+  "avg_likes": 43.0,
+  "avg_comments": 11.33,
+  "avg_engagement": 54.33,
+  "engagement_rate": 0.1561,
+  "top_post_likes": 53,
+  "posts_last_30d": 3,
+  "posts_last_30d_note": "추정 (분석 샘플 기반, 실제 게시 빈도와 다를 수 있음)",
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "off (0건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "brand_fit_notes": "beauty 0/daiso none/oy none/labrang N",
+  "sample_data_evidence": {
+    "likes_sample": [
+      41,
+      53,
+      35
+    ],
+    "comments_sample": [
+      12,
+      10,
+      12
+    ],
+    "reel_codes": [
+      "DXlM3ilElFs",
+      "DXQ34eckjJq",
+      "DXOaTs7EgkZ"
+    ],
+    "top_reel": "https://www.instagram.com/p/DXQ34eckjJq/"
+  },
+  "evaluated_at": "2026-05-07T14:41:05+09:00",
+  "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
+  "score": {
+    "total": 69.25,
+    "breakdown": {
+      "engagement": 100,
+      "brand_fit": 25,
+      "consistency": 60,
+      "follower_scale": 40
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "B",
+  "history": []
+}
