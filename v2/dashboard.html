@@ -75,12 +75,27 @@
   .grade-D { background: #fee2e2; color: #991b1b; }
   .grade-pending { background: #fafafa; color: #a1a1aa; border: 1px dashed #d4d4d8; }
 
-  .tab-bar { display: flex; gap: 8px; margin-bottom: 16px; background: white; padding: 6px; border-radius: 12px; border: 1px solid #e5e7eb; }
-  .tab-btn { padding: 8px 16px; background: transparent; border: 0; border-radius: 8px; font-size: 13px; font-weight: 500; color: #6b7280; cursor: pointer; transition: all 0.15s; font-family: inherit; }
-  .tab-btn:hover { background: #f9fafb; color: #374151; }
-  .tab-btn.active { background: #6366f1; color: white; }
+  .tab-bar {
+    display: flex; gap: 4px; margin-bottom: 20px;
+    background: white; padding: 6px; border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    width: fit-content;
+  }
+  .tab-btn {
+    padding: 12px 24px; background: transparent; border: 0;
+    border-radius: 10px; font-size: 14px; font-weight: 600;
+    color: #71717a; cursor: pointer; transition: all 0.15s;
+    font-family: inherit; letter-spacing: -0.01em;
+  }
+  .tab-btn:hover { background: #f4f4f5; color: #18181b; }
+  .tab-btn.active {
+    background: #18181b; color: white;
+    box-shadow: 0 4px 12px rgba(24,24,27,0.25);
+  }
+  .tab-btn.active:hover { background: #27272a; color: white; }
   .tab-pane[hidden] { display: none !important; }
-  iframe.tab-pane { width: 100%; height: calc(100vh - 110px); border: 0; border-radius: 14px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+  iframe.tab-pane { width: 100%; height: calc(100vh - 130px); border: 0; border-radius: 14px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
 
   .outreach-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; padding: 16px 20px; }
   .outreach-card {
@@ -122,8 +137,8 @@
   <div class="stats">
     <div class="stat"><div class="label">다이소 Top 30 (뷰티)</div><div class="value">27</div><div class="sub">/ 30</div></div>
     <div class="stat"><div class="label">감지 IG 컨텐츠 (30일)</div><div class="value">14</div><div class="sub">/ 누적 18</div></div>
-    <div class="stat"><div class="label">YT 영상</div><div class="value">233</div><div class="sub">최근 30일</div></div>
-    <div class="stat"><div class="label">평가된 인플루언서</div><div class="value">158</div><div class="sub">Top 점수 산출</div></div>
+    <div class="stat"><div class="label">YT 영상</div><div class="value">170</div><div class="sub">최근 30일</div></div>
+    <div class="stat"><div class="label">평가된 인플루언서</div><div class="value">127</div><div class="sub">Top 점수 산출</div></div>
   </div>
 
   <!-- 우선 섭외 -->
@@ -148,12 +163,12 @@
           <div class="outreach-num">2</div>
           <div class="outreach-body">
             <div class="outreach-name">
-              <a href="https://www.youtube.com/channel/UCZB-WNAVDNGsTD1sS2uevkg" target="_blank" class="user-link">Dove ↗</a>
+              <a href="https://www.youtube.com/channel/UCZB-WNAVDNGsTD1sS2uevkg" target="_blank" class="user-link">? ↗</a>
               <span class="platform-badge yt">YouTube</span>
             </div>
             <div class="outreach-reason">높은 도달</div>
           </div>
-          <div class="outreach-score">0.500</div>
+          <div class="outreach-score">0.425</div>
         </div>
         <div class="outreach-card">
           <div class="outreach-num">3</div>
@@ -190,8 +205,8 @@
         <tr>
           <td class="rank">2</td>
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCZB-WNAVDNGsTD1sS2uevkg" target="_blank" class="user-link">Dove ↗</a></td>
-          <td class="num bold">0.500</td>
+          <td><a href="https://www.youtube.com/channel/UCZB-WNAVDNGsTD1sS2uevkg" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.425</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
           <td>평균 views 3,307,239</td>
           <td><span class="pill general">beauty_general</span></td>
@@ -210,25 +225,65 @@
         <tr>
           <td class="rank">4</td>
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw" target="_blank" class="user-link">해니 haeni beauty ↗</a></td>
-          <td class="num bold">0.309</td>
+          <td><a href="https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.336</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>평균 views 26,183</td>
+          <td>평균 views 407,360</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=JeVM0mNHFYQ" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=KIhnXil_T74" target="_blank">▶ 최근</a></td>
         </tr>
         <tr>
           <td class="rank">5</td>
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg" target="_blank" class="user-link">리뷰야놀자 ↗</a></td>
-          <td class="num bold">0.305</td>
+          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.326</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>평균 views 1,946,335</td>
-          <td><span class="pill general">beauty_general</span></td>
-          <td><a href="https://www.youtube.com/watch?v=o09fnp3d6fo" target="_blank">▶ 최근</a></td>
+          <td>평균 views 457,866</td>
+          <td><span class="pill daiso">daiso_focused</span></td>
+          <td><a href="https://www.youtube.com/watch?v=VX1KMWsmqkc" target="_blank">▶ 최근</a></td>
         </tr>
         <tr>
           <td class="rank">6</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.321</td>
+          <td><span class="grade-badge grade-pending">미평가</span></td>
+          <td>평균 views 24,959</td>
+          <td><span class="pill daiso">daiso_focused</span></td>
+          <td><a href="https://www.youtube.com/watch?v=szfcsgD3ZnA" target="_blank">▶ 최근</a></td>
+        </tr>
+        <tr>
+          <td class="rank">7</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.313</td>
+          <td><span class="grade-badge grade-pending">미평가</span></td>
+          <td>평균 views 302,685</td>
+          <td><span class="pill daiso">daiso_focused</span></td>
+          <td><a href="https://www.youtube.com/watch?v=UqVVV1ADLP8" target="_blank">▶ 최근</a></td>
+        </tr>
+        <tr>
+          <td class="rank">8</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCb8_UiUdnM9S7r1aYPAsSMw" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.299</td>
+          <td><span class="grade-badge grade-pending">미평가</span></td>
+          <td>평균 views 498,895</td>
+          <td><span class="pill daiso">daiso_focused</span></td>
+          <td><a href="https://www.youtube.com/watch?v=I_LcRAkv8h4" target="_blank">▶ 최근</a></td>
+        </tr>
+        <tr>
+          <td class="rank">9</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCo9OPeVJL5hgPtwxUTEBgSA" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.297</td>
+          <td><span class="grade-badge grade-pending">미평가</span></td>
+          <td>평균 views 476,758</td>
+          <td><span class="pill daiso">daiso_focused</span></td>
+          <td><a href="https://www.youtube.com/watch?v=W8z0WZDKFs4" target="_blank">▶ 최근</a></td>
+        </tr>
+        <tr>
+          <td class="rank">10</td>
           <td><span class="platform-badge ig">Instagram</span></td>
           <td><a href="https://www.instagram.com/cos_muni/" target="_blank" class="user-link">cos_muni ↗</a></td>
           <td class="num bold">0.295</td>
@@ -238,94 +293,54 @@
           <td><a href="https://www.instagram.com/p/DW05IcMzNBV/" target="_blank">▶ 최근</a></td>
         </tr>
         <tr>
-          <td class="rank">7</td>
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCT0hOMxD29g2B6BrK6QTIag" target="_blank" class="user-link">현징이 ↗</a></td>
-          <td class="num bold">0.262</td>
-          <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>평균 views 712,027</td>
-          <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=w5PgP4J7vT0" target="_blank">▶ 최근</a></td>
-        </tr>
-        <tr>
-          <td class="rank">8</td>
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCTjwlF8Y8hxR85JPUoZv-6A" target="_blank" class="user-link">김밍 KIMMING ↗</a></td>
-          <td class="num bold">0.253</td>
-          <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>평균 views 280,378</td>
-          <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=7wTXojq8uJw" target="_blank">▶ 최근</a></td>
-        </tr>
-        <tr>
-          <td class="rank">9</td>
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">겸다미 ↗</a></td>
-          <td class="num bold">0.250</td>
-          <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>평균 views 355,867</td>
-          <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=VX1KMWsmqkc" target="_blank">▶ 최근</a></td>
-        </tr>
-        <tr>
-          <td class="rank">10</td>
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA" target="_blank" class="user-link">코덕요정🧚‍♀️ ↗</a></td>
-          <td class="num bold">0.249</td>
-          <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>평균 views 302,685</td>
-          <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=UqVVV1ADLP8" target="_blank">▶ 최근</a></td>
-        </tr>
-        <tr>
           <td class="rank">11</td>
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q" target="_blank" class="user-link">서윤초이 seoyoonchoi ↗</a></td>
-          <td class="num bold">0.247</td>
+          <td><a href="https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.288</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>평균 views 24,941</td>
+          <td>평균 views 171,881</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=szfcsgD3ZnA" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=bcb1AYx_ank" target="_blank">▶ 최근</a></td>
         </tr>
         <tr>
           <td class="rank">12</td>
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg" target="_blank" class="user-link">뷰드름 유튜버 인씨 ↗</a></td>
-          <td class="num bold">0.244</td>
+          <td><a href="https://www.youtube.com/channel/UCmTPYd7fSfRoFOmSNGU8TLg" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.287</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>평균 views 73,053</td>
+          <td>평균 views 159,975</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=TSl-iSVUrLs" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=czZ7sLPUkXk" target="_blank">▶ 최근</a></td>
         </tr>
         <tr>
           <td class="rank">13</td>
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg" target="_blank" class="user-link">선스캣 sun&#x27;s cat ↗</a></td>
-          <td class="num bold">0.243</td>
+          <td><a href="https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.283</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>평균 views 265,457</td>
+          <td>평균 views 429,396</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=KIhnXil_T74" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=62M8juDioe0" target="_blank">▶ 최근</a></td>
         </tr>
         <tr>
           <td class="rank">14</td>
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCb8_UiUdnM9S7r1aYPAsSMw" target="_blank" class="user-link">헤블 HEBLE ↗</a></td>
-          <td class="num bold">0.239</td>
+          <td><a href="https://www.youtube.com/channel/UCED7YKsAzQ2qi2e-cJ7yTEg" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.282</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>평균 views 498,697</td>
+          <td>평균 views 117,813</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=I_LcRAkv8h4" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=J-IktSDzjCE" target="_blank">▶ 최근</a></td>
         </tr>
         <tr>
           <td class="rank">15</td>
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw" target="_blank" class="user-link">일돈나 ↗</a></td>
-          <td class="num bold">0.215</td>
+          <td><a href="https://www.youtube.com/channel/UCJf3WuvqdLOriZ1kA5UcHBg" target="_blank" class="user-link">? ↗</a></td>
+          <td class="num bold">0.273</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>평균 views 171,880</td>
+          <td>평균 views 11,281</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=bcb1AYx_ank" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=V05N7bokv0A" target="_blank">▶ 최근</a></td>
         </tr></tbody>
     </table>
   </div>
@@ -346,7 +361,7 @@
       <tbody>
         <tr data-platform="yt">
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCZB-WNAVDNGsTD1sS2uevkg" target="_blank" class="user-link">@Dove ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UCZB-WNAVDNGsTD1sS2uevkg" target="_blank" class="user-link">@? ↗</a></td>
           <td>가볍게 펌핑! 하루종일 촉촉 도브 포밍 바디워시 </td>
           <td class="num bold">3,307,239</td>
           <td class="num">3</td>
@@ -355,115 +370,61 @@
         </tr>
         <tr data-platform="yt">
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg" target="_blank" class="user-link">@리뷰야놀자 ↗</a></td>
-          <td>자외선 오리로 인기 선크림 싹다 발라보기 ㅋㅋ </td>
-          <td class="num bold">1,946,335</td>
-          <td class="num">363</td>
-          <td class="date">2026-04-16</td>
-          <td><a href="https://www.youtube.com/watch?v=o09fnp3d6fo" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr data-platform="yt">
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCWeTWaC2WFKG2H3hjxYaOhg" target="_blank" class="user-link">@솔로몬코드 SOLOMONCHORD ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UCWeTWaC2WFKG2H3hjxYaOhg" target="_blank" class="user-link">@? ↗</a></td>
           <td>환절기에 푸석푸석한 피부 장벽케어 끝판왕!ㅣ리얼베리어 – 할인광65[EN] </td>
-          <td class="num bold">1,073,183</td>
+          <td class="num bold">1,073,184</td>
           <td class="num">358</td>
           <td class="date">2026-04-15</td>
           <td><a href="https://www.youtube.com/watch?v=WXGWLZgLR0M" target="_blank">▶ 보기</a></td>
         </tr>
         <tr data-platform="yt">
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCT0hOMxD29g2B6BrK6QTIag" target="_blank" class="user-link">@현징이 ↗</a></td>
-          <td>다이소에서 찾은 역대급 올영템!? #프롬더스킨 #댓글이벤트 #유료광고 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">712,027</td>
-          <td class="num">52</td>
-          <td class="date">2026-04-19</td>
-          <td><a href="https://www.youtube.com/watch?v=w5PgP4J7vT0" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr data-platform="yt">
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">@겸다미 ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">@? ↗</a></td>
           <td>다이소 신상 올영 대체템 (가격차이 3배‼️) #다이소추천템 #메이크업 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">705,914</td>
+          <td class="num bold">705,939</td>
           <td class="num">212</td>
           <td class="date">2026-04-24</td>
           <td><a href="https://www.youtube.com/watch?v=tiqsAKvjc10" target="_blank">▶ 보기</a></td>
         </tr>
         <tr data-platform="yt">
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">@겸다미 ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">@? ↗</a></td>
           <td>다이소 신상 올영 대체템 (가격차이 3배‼️) #다이소추천템 #메이크업 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">705,914</td>
+          <td class="num bold">705,939</td>
           <td class="num">212</td>
           <td class="date">2026-04-24</td>
           <td><a href="https://www.youtube.com/watch?v=tiqsAKvjc10" target="_blank">▶ 보기</a></td>
         </tr>
         <tr data-platform="yt">
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">@겸다미 ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">@? ↗</a></td>
           <td>다이소 신상 올영 대체템 (가격차이 3배‼️) #다이소추천템 #메이크업 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">705,914</td>
+          <td class="num bold">705,939</td>
           <td class="num">212</td>
           <td class="date">2026-04-24</td>
           <td><a href="https://www.youtube.com/watch?v=tiqsAKvjc10" target="_blank">▶ 보기</a></td>
         </tr>
         <tr data-platform="yt">
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">@겸다미 ↗</a></td>
-          <td>다이소 신상 올영 대체템 (가격차이 3배‼️) #다이소추천템 #메이크업 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">705,914</td>
-          <td class="num">212</td>
-          <td class="date">2026-04-24</td>
-          <td><a href="https://www.youtube.com/watch?v=tiqsAKvjc10" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr data-platform="yt">
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">@겸다미 ↗</a></td>
-          <td>다이소 신상 올영 대체템 (가격차이 3배‼️) #다이소추천템 #메이크업 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">705,914</td>
-          <td class="num">212</td>
-          <td class="date">2026-04-24</td>
-          <td><a href="https://www.youtube.com/watch?v=tiqsAKvjc10" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr data-platform="yt">
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">@겸다미 ↗</a></td>
-          <td>다이소 신상 올영 대체템 (가격차이 3배‼️) #다이소추천템 #메이크업 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">705,914</td>
-          <td class="num">212</td>
-          <td class="date">2026-04-24</td>
-          <td><a href="https://www.youtube.com/watch?v=tiqsAKvjc10" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr data-platform="yt">
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCb8_UiUdnM9S7r1aYPAsSMw" target="_blank" class="user-link">@헤블 HEBLE ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UCb8_UiUdnM9S7r1aYPAsSMw" target="_blank" class="user-link">@? ↗</a></td>
           <td>🛍️ 다이소에 500만 원 넘게 쓰고 추천하는 인생 꿀템 BEST3 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">498,697</td>
+          <td class="num bold">498,895</td>
           <td class="num">19</td>
           <td class="date">2026-04-29</td>
           <td><a href="https://www.youtube.com/watch?v=I_LcRAkv8h4" target="_blank">▶ 보기</a></td>
         </tr>
         <tr data-platform="yt">
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCb8_UiUdnM9S7r1aYPAsSMw" target="_blank" class="user-link">@헤블 HEBLE ↗</a></td>
-          <td>🛍️ 다이소에 500만 원 넘게 쓰고 추천하는 인생 꿀템 BEST3 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">498,697</td>
-          <td class="num">19</td>
-          <td class="date">2026-04-29</td>
-          <td><a href="https://www.youtube.com/watch?v=I_LcRAkv8h4" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr data-platform="yt">
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCo9OPeVJL5hgPtwxUTEBgSA" target="_blank" class="user-link">@룡지니 ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UCo9OPeVJL5hgPtwxUTEBgSA" target="_blank" class="user-link">@? ↗</a></td>
           <td>다이소 신상 피지팩❗️ 올영 대체템 될까..???? <span class="pill daiso">다이소</span></td>
-          <td class="num bold">476,751</td>
+          <td class="num bold">476,758</td>
           <td class="num">21</td>
           <td class="date">2026-04-22</td>
           <td><a href="https://www.youtube.com/watch?v=W8z0WZDKFs4" target="_blank">▶ 보기</a></td>
         </tr>
         <tr data-platform="yt">
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UC9oQKggaTQK7n-EuTEUGljw" target="_blank" class="user-link">@세지 Sezi ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UC9oQKggaTQK7n-EuTEUGljw" target="_blank" class="user-link">@? ↗</a></td>
           <td>과거사진볼때 친구들한테 고마운 이유🥹 고마운데 안고마워(?)😭 #메이크업 #공감 #트랜지션 </td>
           <td class="num bold">430,053</td>
           <td class="num">105</td>
@@ -472,57 +433,111 @@
         </tr>
         <tr data-platform="yt">
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ" target="_blank" class="user-link">@박지윤의 피부 설명서 ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ" target="_blank" class="user-link">@? ↗</a></td>
           <td>이건 사지 마세요! 다이소 비추템 TOP3 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">429,369</td>
+          <td class="num bold">429,396</td>
           <td class="num">53</td>
           <td class="date">2026-04-29</td>
           <td><a href="https://www.youtube.com/watch?v=62M8juDioe0" target="_blank">▶ 보기</a></td>
         </tr>
         <tr data-platform="yt">
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">@겸다미 ↗</a></td>
-          <td>다이소 고인물의 아직 잘 모르는 4월 다이소 신상 싹 털어옴‼️ #다이소추천템 #메이크업 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">416,567</td>
-          <td class="num">75</td>
-          <td class="date">2026-04-09</td>
-          <td><a href="https://www.youtube.com/watch?v=e1SZ0L4gt-Y" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr data-platform="yt">
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg" target="_blank" class="user-link">@선스캣 sun&#x27;s cat ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg" target="_blank" class="user-link">@? ↗</a></td>
           <td>얘들아 다이소 입큰 신상템 떴다.⭐️⭐️⭐️ <span class="pill daiso">다이소</span></td>
-          <td class="num bold">407,357</td>
+          <td class="num bold">407,360</td>
           <td class="num">57</td>
           <td class="date">2026-04-28</td>
           <td><a href="https://www.youtube.com/watch?v=KIhnXil_T74" target="_blank">▶ 보기</a></td>
         </tr>
         <tr data-platform="yt">
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg" target="_blank" class="user-link">@선스캣 sun&#x27;s cat ↗</a></td>
-          <td>얘들아 다이소 입큰 신상템 떴다.⭐️⭐️⭐️ <span class="pill daiso">다이소</span></td>
-          <td class="num bold">407,357</td>
-          <td class="num">57</td>
-          <td class="date">2026-04-28</td>
-          <td><a href="https://www.youtube.com/watch?v=KIhnXil_T74" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr data-platform="yt">
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg" target="_blank" class="user-link">@선스캣 sun&#x27;s cat ↗</a></td>
-          <td>얘들아 다이소 입큰 신상템 떴다.⭐️⭐️⭐️ <span class="pill daiso">다이소</span></td>
-          <td class="num bold">407,357</td>
-          <td class="num">57</td>
-          <td class="date">2026-04-28</td>
-          <td><a href="https://www.youtube.com/watch?v=KIhnXil_T74" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr data-platform="yt">
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw" target="_blank" class="user-link">@일돈나 ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw" target="_blank" class="user-link">@? ↗</a></td>
           <td>올영 VIP가 다이소에서 꼭 사는 화장품 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">396,286</td>
+          <td class="num bold">396,281</td>
           <td class="num">53</td>
           <td class="date">2026-04-17</td>
           <td><a href="https://www.youtube.com/watch?v=bBOlxyLJ6PU" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA" target="_blank" class="user-link">@? ↗</a></td>
+          <td>여름까지 살아남는 다이소 화잘먹템 3개‼️#유료광고 <span class="pill daiso">다이소</span></td>
+          <td class="num bold">302,685</td>
+          <td class="num">32</td>
+          <td class="date">2026-04-08</td>
+          <td><a href="https://www.youtube.com/watch?v=UqVVV1ADLP8" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCPBXXHL9lapYss3PwwLe0fQ" target="_blank" class="user-link">@? ↗</a></td>
+          <td>정답은 설명란에❤️ #다이소 #올영 #코덕 #꿀템 <span class="pill daiso">다이소</span></td>
+          <td class="num bold">189,361</td>
+          <td class="num">15</td>
+          <td class="date">2026-04-12</td>
+          <td><a href="https://www.youtube.com/watch?v=J4KPFk7JeiI" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCmTPYd7fSfRoFOmSNGU8TLg" target="_blank" class="user-link">@? ↗</a></td>
+          <td>요즘 매일 사용하는 화장품으로 미니 여행용 메이크업 세트 만들기 🤍 #미니화장품 <span class="pill daiso">다이소</span></td>
+          <td class="num bold">159,975</td>
+          <td class="num">81</td>
+          <td class="date">2026-04-17</td>
+          <td><a href="https://www.youtube.com/watch?v=czZ7sLPUkXk" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ" target="_blank" class="user-link">@? ↗</a></td>
+          <td>왜 벌써 덥냐...🥵 애매한 4월 외출 준비 루틴 </td>
+          <td class="num bold">155,905</td>
+          <td class="num">117</td>
+          <td class="date">2026-04-17</td>
+          <td><a href="https://www.youtube.com/watch?v=nB0tjeZ2cNg" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ" target="_blank" class="user-link">@? ↗</a></td>
+          <td>왜 벌써 덥냐...🥵 애매한 4월 외출 준비 루틴 </td>
+          <td class="num bold">155,905</td>
+          <td class="num">117</td>
+          <td class="date">2026-04-17</td>
+          <td><a href="https://www.youtube.com/watch?v=nB0tjeZ2cNg" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCZKQoq28tsNzTyTr5n8_y6g" target="_blank" class="user-link">@? ↗</a></td>
+          <td>❤️올영이라 똑같은 다이소 대체템 BEST3! #추천 #꿀팁 #꿀템 #다이소 <span class="pill daiso">다이소</span></td>
+          <td class="num bold">141,732</td>
+          <td class="num">1</td>
+          <td class="date">2026-04-08</td>
+          <td><a href="https://www.youtube.com/watch?v=Aobz4YMc5y4" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w" target="_blank" class="user-link">@? ↗</a></td>
+          <td>다이소 직원들만 몰래쓰는 검버섯 기미 지우개!! <span class="pill daiso">다이소</span></td>
+          <td class="num bold">140,431</td>
+          <td class="num">12</td>
+          <td class="date">2026-04-29</td>
+          <td><a href="https://www.youtube.com/watch?v=AHl2_24P2r4" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw" target="_blank" class="user-link">@? ↗</a></td>
+          <td>다이소 중독자의 추천템 4가지 <span class="pill daiso">다이소</span></td>
+          <td class="num bold">133,993</td>
+          <td class="num">23</td>
+          <td class="date">2026-04-24</td>
+          <td><a href="https://www.youtube.com/watch?v=CHmhfvqmem4" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw" target="_blank" class="user-link">@? ↗</a></td>
+          <td>다이소 중독자의 추천템 4가지 <span class="pill daiso">다이소</span></td>
+          <td class="num bold">133,993</td>
+          <td class="num">23</td>
+          <td class="date">2026-04-24</td>
+          <td><a href="https://www.youtube.com/watch?v=CHmhfvqmem4" target="_blank">▶ 보기</a></td>
         </tr></tbody>
     </table>
   </div>
