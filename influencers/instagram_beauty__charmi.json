@@ -1,0 +1,68 @@
+{
+  "platform": "instagram",
+  "username": "beauty._charmi",
+  "profile_url": "https://www.instagram.com/beauty._charmi/",
+  "fullname": "챠미뷰티 l 홈케어•색조템•뷰티꿀팁",
+  "followers": 56000,
+  "following": 1033,
+  "post_count_total": 494,
+  "bio": "",
+  "sample_size": 4,
+  "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+  "avg_likes": 178.75,
+  "avg_comments": 10.0,
+  "avg_engagement": 188.75,
+  "engagement_rate": 0.0034,
+  "top_post_likes": 706,
+  "posts_last_30d": 4,
+  "posts_last_30d_note": "추정 (분석 샘플 기반, 실제 게시 빈도와 다를 수 있음)",
+  "brand_fit_score": 75,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "medium (5건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "brand_fit_notes": "beauty 0/daiso none/oy none/labrang N",
+  "sample_data_evidence": {
+    "likes_sample": [
+      3,
+      3,
+      3,
+      706
+    ],
+    "comments_sample": [
+      7,
+      4,
+      11,
+      18
+    ],
+    "reel_codes": [
+      "DYBPostTbBd",
+      "DX_8hAyyPgg",
+      "DX_WzRNSn6m",
+      "DX3XHo5TV-s"
+    ],
+    "top_reel": "https://www.instagram.com/p/DX3XHo5TV-s/"
+  },
+  "evaluated_at": "2026-05-07T14:41:05+09:00",
+  "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
+  "score": {
+    "total": 55.75,
+    "breakdown": {
+      "engagement": 40,
+      "brand_fit": 75,
+      "consistency": 60,
+      "follower_scale": 80
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "C",
+  "history": []
+}
