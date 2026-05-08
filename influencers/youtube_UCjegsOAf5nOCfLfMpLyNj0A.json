@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCjegsOAf5nOCfLfMpLyNj0A",
+  "fullname": "나는의사다",
+  "channel_id": "UCjegsOAf5nOCfLfMpLyNj0A",
+  "profile_url": "https://www.youtube.com/channel/UCjegsOAf5nOCfLfMpLyNj0A",
+  "followers": 218000,
+  "avg_views": 2667.4,
+  "avg_likes": 13.8,
+  "avg_comments": 9.0,
+  "engagement_rate": 0.0052,
+  "posts_last_30d": 5,
+  "sample_size": 5,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "low (1건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 57.0,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 60,
+    "consistency": 80,
+    "follower_scale": 100
+  },
+  "grade": "D",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
