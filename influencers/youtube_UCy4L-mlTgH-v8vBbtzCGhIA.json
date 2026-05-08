@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCy4L-mlTgH-v8vBbtzCGhIA",
+  "fullname": "Channel Talk",
+  "channel_id": "UCy4L-mlTgH-v8vBbtzCGhIA",
+  "profile_url": "https://www.youtube.com/channel/UCy4L-mlTgH-v8vBbtzCGhIA",
+  "followers": 90000,
+  "avg_views": 9763.4,
+  "avg_likes": 16.4,
+  "avg_comments": 1.4,
+  "engagement_rate": 0.0017,
+  "posts_last_30d": 0,
+  "sample_size": 5,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 40.25,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 25,
+    "consistency": 40,
+    "follower_scale": 80
+  },
+  "grade": "D",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
