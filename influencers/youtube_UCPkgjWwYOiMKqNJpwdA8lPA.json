@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCPkgjWwYOiMKqNJpwdA8lPA",
+  "fullname": "소살 Sora Salon",
+  "channel_id": "UCPkgjWwYOiMKqNJpwdA8lPA",
+  "profile_url": "https://www.youtube.com/channel/UCPkgjWwYOiMKqNJpwdA8lPA",
+  "followers": 128000,
+  "avg_views": 53036.4,
+  "avg_likes": 858.0,
+  "avg_comments": 224.2,
+  "engagement_rate": 0.0162,
+  "posts_last_30d": 5,
+  "sample_size": 5,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "low (2건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 67.0,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 60,
+    "consistency": 80,
+    "follower_scale": 100
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
