@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCrhm4vlaOhwDND5uIBQPbiw",
+  "fullname": "마이알지",
+  "channel_id": "UCrhm4vlaOhwDND5uIBQPbiw",
+  "profile_url": "https://www.youtube.com/channel/UCrhm4vlaOhwDND5uIBQPbiw",
+  "followers": 11600,
+  "avg_views": 289.6,
+  "avg_likes": 0.0,
+  "avg_comments": 0.0,
+  "engagement_rate": 0.0,
+  "posts_last_30d": 0,
+  "sample_size": 5,
+  "brand_fit_score": 25,
+  "retailer_focus": "mixed",
+  "retailer_signal": {
+    "daiso_mentions": "1건",
+    "olive_young_mentions": "1건",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 40.25,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 25,
+    "consistency": 40,
+    "follower_scale": 80
+  },
+  "grade": "D",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
