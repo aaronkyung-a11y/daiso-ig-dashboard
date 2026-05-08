@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCIQB1KXcPIhskB7jy1SJdLw",
+  "fullname": "Dr.란의 스킨다이어리",
+  "channel_id": "UCIQB1KXcPIhskB7jy1SJdLw",
+  "profile_url": "https://www.youtube.com/channel/UCIQB1KXcPIhskB7jy1SJdLw",
+  "followers": 479,
+  "avg_views": 81.6,
+  "avg_likes": 0.8,
+  "avg_comments": 0.0,
+  "engagement_rate": 0.0098,
+  "posts_last_30d": 4,
+  "sample_size": 5,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "low (1건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 48.0,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 60,
+    "consistency": 60,
+    "follower_scale": 40
+  },
+  "grade": "D",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
