@@ -180,11 +180,11 @@ function fmtPct(d) {
   return p.toFixed(1) + '%';
 }
 
-let sortKey = 'score';
-let sortDir = -1;
+let sortKey = 'grade';
+let sortDir = 1;  // [v5] grade ASC (S→D) 기본
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTgag82A2UQN9fDaxWsjTghZSnYoUbflo1e2QM6upF3n3WKvxFCJz8JCDIvnpnxj6yNhgsVJJSHy6rU/pub?output=csv';
 function render() {
-  // [shim v3] try/catch + 화면 에러 표시
+  // [shim v5] (sort: grade primary) try/catch + 화면 에러 표시
   try {
   const data = INFLUENCER_DATA;
   // [shim v2] records -> accounts + 누락 필드 기본값
@@ -216,10 +216,20 @@ function render() {
 
   // Sort
   const sorted = [...data.accounts].sort((a,b) => {
-    let av, bv;
-    if (sortKey === 'score') { av = a.score?.total || 0; bv = b.score?.total || 0; }
-    else if (sortKey === 'grade') { av = ['S','A','B','C','D'].indexOf(a.grade); bv = ['S','A','B','C','D'].indexOf(b.grade); }
-    else { av = a[sortKey]; bv = b[sortKey]; }
+    // [v5] grade 정렬: primary=grade, secondary=score 내림차순
+    // [v5] score 정렬: primary=score(null은 끝), secondary=grade
+    const gOrder = ['S','A','B','C','D'];
+    const ga = gOrder.indexOf(a.grade); const gb = gOrder.indexOf(b.grade);
+    const sa = a.score?.total ?? -Infinity; const sb = b.score?.total ?? -Infinity;
+    if (sortKey === 'grade') {
+      if (ga !== gb) return sortDir * (ga - gb);
+      return sb - sa;  // 동일 등급 내 score 내림차순 (항상)
+    }
+    if (sortKey === 'score') {
+      if (sa !== sb) return sortDir * (sb - sa);
+      return ga - gb;  // 동일 점수면 grade ASC
+    }
+    let av = a[sortKey]; let bv = b[sortKey];
     if (av == null) av = '';
     if (bv == null) bv = '';
     if (typeof av === 'string') return sortDir * av.localeCompare(bv);
