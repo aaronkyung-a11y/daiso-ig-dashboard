@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCaMFZoulRulGg-xG5s9qguw",
+  "fullname": "백세 건강보감",
+  "channel_id": "UCaMFZoulRulGg-xG5s9qguw",
+  "profile_url": "https://www.youtube.com/channel/UCaMFZoulRulGg-xG5s9qguw",
+  "followers": 6680,
+  "avg_views": 16.6,
+  "avg_likes": 1.4,
+  "avg_comments": 0.0,
+  "engagement_rate": 0.0843,
+  "posts_last_30d": 0,
+  "sample_size": 5,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "low (1건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 72.0,
+  "score_breakdown": {
+    "engagement": 90,
+    "brand_fit": 60,
+    "consistency": 40,
+    "follower_scale": 60
+  },
+  "grade": "B",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
