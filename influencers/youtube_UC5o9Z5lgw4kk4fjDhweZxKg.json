@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UC5o9Z5lgw4kk4fjDhweZxKg",
+  "fullname": "피부왕정윤",
+  "channel_id": "UC5o9Z5lgw4kk4fjDhweZxKg",
+  "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg",
+  "followers": 175000,
+  "avg_views": 7448.1,
+  "avg_likes": 125.2,
+  "avg_comments": 14.2,
+  "engagement_rate": 0.0168,
+  "posts_last_30d": 4,
+  "sample_size": 20,
+  "brand_fit_score": 25,
+  "retailer_focus": "mixed",
+  "retailer_signal": {
+    "daiso_mentions": "1건",
+    "olive_young_mentions": "1건",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 55.25,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 25,
+    "consistency": 60,
+    "follower_scale": 100
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-08T09:11:12+09:00",
+  "history": []
+}
