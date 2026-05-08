@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCd7mIFLSi18eIvaBZuv6c2A",
+  "fullname": "전지적 피부 시점",
+  "channel_id": "UCd7mIFLSi18eIvaBZuv6c2A",
+  "profile_url": "https://www.youtube.com/channel/UCd7mIFLSi18eIvaBZuv6c2A",
+  "followers": 15900,
+  "avg_views": 9277.6,
+  "avg_likes": 253.4,
+  "avg_comments": 10.4,
+  "engagement_rate": 0.0273,
+  "posts_last_30d": 0,
+  "sample_size": 5,
+  "brand_fit_score": 90,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "strong (10건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 66.5,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 40,
+    "follower_scale": 80
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
