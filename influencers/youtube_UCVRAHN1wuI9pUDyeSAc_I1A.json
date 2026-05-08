@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCVRAHN1wuI9pUDyeSAc_I1A",
+  "fullname": "쏘민_뷰티에대한모든것",
+  "channel_id": "UCVRAHN1wuI9pUDyeSAc_I1A",
+  "profile_url": "https://www.youtube.com/channel/UCVRAHN1wuI9pUDyeSAc_I1A",
+  "followers": 12600,
+  "avg_views": 1629.0,
+  "avg_likes": 24.6,
+  "avg_comments": 6.8,
+  "engagement_rate": 0.0151,
+  "posts_last_30d": 0,
+  "sample_size": 5,
+  "brand_fit_score": 90,
+  "retailer_focus": "olive_young",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "5건",
+    "beauty_topical_strength": "strong (11건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 66.5,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 40,
+    "follower_scale": 80
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
