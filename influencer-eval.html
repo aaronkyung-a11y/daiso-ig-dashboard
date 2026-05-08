@@ -185,6 +185,8 @@ let sortDir = -1;
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTgag82A2UQN9fDaxWsjTghZSnYoUbflo1e2QM6upF3n3WKvxFCJz8JCDIvnpnxj6yNhgsVJJSHy6rU/pub?output=csv';
 function render() {
   const data = INFLUENCER_DATA;
+  // [shim] records → accounts 호환
+  if (data.records && !data.accounts) data.accounts = data.records;
   document.getElementById('lastUpd').textContent = new Date(data.lastUpdated).toLocaleString('ko-KR');
   document.getElementById('totalCount').textContent = data.accounts.length;
   const ig = data.accounts.filter(a => a.platform === 'instagram').length;
