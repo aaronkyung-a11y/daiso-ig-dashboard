@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UC71fEEzS9yMYQvT1iz5-zxQ",
+  "fullname": "뷰라tv",
+  "channel_id": "UC71fEEzS9yMYQvT1iz5-zxQ",
+  "profile_url": "https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ",
+  "followers": 78600,
+  "avg_views": 64251.2,
+  "avg_likes": 61.2,
+  "avg_comments": 75.8,
+  "engagement_rate": 0.001,
+  "posts_last_30d": 4,
+  "sample_size": 20,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "5건",
+    "olive_young_mentions": "3건",
+    "beauty_topical_strength": "strong (9건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 59.5,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 90,
+    "consistency": 60,
+    "follower_scale": 80
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-08T09:11:12+09:00",
+  "history": []
+}
