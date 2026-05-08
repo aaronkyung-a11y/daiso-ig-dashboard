@@ -1,75 +1,33 @@
 {
   "platform": "youtube",
   "username": "Jinyaa",
-  "channel_handle": "@Jinyaa",
+  "fullname": "지냐 Jinyaa",
   "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
   "profile_url": "https://www.youtube.com/@Jinyaa",
-  "fullname": "지냐 Jinyaa",
-  "subscribers": 358000,
   "followers": 358000,
-  "sample_size": 6,
-  "sample_window": "last 30 days",
-  "avg_views": 66364.17,
-  "avg_likes": 1737.83,
-  "avg_comments": 419.5,
-  "top_video_views": 175884,
-  "engagement_rate": 0.0262,
-  "view_to_sub_ratio": 0.1854,
+  "avg_views": 69715.5,
+  "avg_likes": 1796.5,
+  "avg_comments": 426.5,
+  "engagement_rate": 0.0258,
   "posts_last_30d": 6,
+  "sample_size": 6,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions_titles": 2,
-    "olive_young_mentions_titles": 0,
-    "beauty_keyword_count_titles": 9,
+    "daiso_mentions": "3건",
+    "olive_young_mentions": "2건",
+    "beauty_topical_strength": "strong (32건)",
     "labrang_blanc_doux_mention": false
   },
-  "brand_fit_notes": "beauty 9/daiso 2/oy 0/labrang N (titles, 30d)",
-  "sample_data_evidence": {
-    "video_ids": [
-      "Bbp0vGmwsjo",
-      "gisnoFuS1Yg",
-      "rusfHzdNPCQ",
-      "TMNJFFuSLGM",
-      "NlQZKLPQTQs",
-      "LubHaqdFPWo"
-    ],
-    "views_sample": [
-      12889,
-      22821,
-      60164,
-      175884,
-      65212,
-      61215
-    ],
-    "likes_sample": [
-      491,
-      837,
-      1686,
-      4023,
-      2154,
-      1236
-    ],
-    "top_video": "https://www.youtube.com/watch?v=TMNJFFuSLGM"
-  },
-  "evaluated_at": "2026-05-06T14:09:33+09:00",
-  "notes": "STEP B-Light rolling refresh (Wed 14:00 KST). yt-dlp fresh metadata, 6 videos in last 30d.",
-  "score": {
-    "total": 74.5,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 90,
-      "consistency": 80,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
+  "total_score": 74.5,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 80,
+    "follower_scale": 100
   },
   "grade": "B",
+  "evaluated_at": "2026-05-08T09:24:51+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-04T14:08:00+09:00",
@@ -238,10 +196,83 @@
         }
       },
       "grade": "B"
+    },
+    {
+      "platform": "youtube",
+      "username": "Jinyaa",
+      "channel_handle": "@Jinyaa",
+      "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
+      "profile_url": "https://www.youtube.com/@Jinyaa",
+      "fullname": "지냐 Jinyaa",
+      "subscribers": 358000,
+      "followers": 358000,
+      "sample_size": 6,
+      "sample_window": "last 30 days",
+      "avg_views": 66364.17,
+      "avg_likes": 1737.83,
+      "avg_comments": 419.5,
+      "top_video_views": 175884,
+      "engagement_rate": 0.0262,
+      "view_to_sub_ratio": 0.1854,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "retailer_signal": {
+        "daiso_mentions_titles": 2,
+        "olive_young_mentions_titles": 0,
+        "beauty_keyword_count_titles": 9,
+        "labrang_blanc_doux_mention": false
+      },
+      "brand_fit_notes": "beauty 9/daiso 2/oy 0/labrang N (titles, 30d)",
+      "sample_data_evidence": {
+        "video_ids": [
+          "Bbp0vGmwsjo",
+          "gisnoFuS1Yg",
+          "rusfHzdNPCQ",
+          "TMNJFFuSLGM",
+          "NlQZKLPQTQs",
+          "LubHaqdFPWo"
+        ],
+        "views_sample": [
+          12889,
+          22821,
+          60164,
+          175884,
+          65212,
+          61215
+        ],
+        "likes_sample": [
+          491,
+          837,
+          1686,
+          4023,
+          2154,
+          1236
+        ],
+        "top_video": "https://www.youtube.com/watch?v=TMNJFFuSLGM"
+      },
+      "evaluated_at": "2026-05-06T14:09:33+09:00",
+      "notes": "STEP B-Light rolling refresh (Wed 14:00 KST). yt-dlp fresh metadata, 6 videos in last 30d.",
+      "score": {
+        "total": 74.5,
+        "breakdown": {
+          "engagement": 60,
+          "brand_fit": 90,
+          "consistency": 80,
+          "follower_scale": 100
+        },
+        "weights": {
+          "engagement": 0.5,
+          "brand_fit": 0.25,
+          "consistency": 0.15,
+          "follower_scale": 0.1
+        }
+      },
+      "grade": "B",
+      "top_post_views": 175884,
+      "estimation_flags": [
+        "brand_fit_score (titles-based heuristic)"
+      ]
     }
-  ],
-  "top_post_views": 175884,
-  "estimation_flags": [
-    "brand_fit_score (titles-based heuristic)"
   ]
 }
