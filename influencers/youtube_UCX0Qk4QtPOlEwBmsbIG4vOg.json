@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCX0Qk4QtPOlEwBmsbIG4vOg",
+  "fullname": "리뷰야놀자",
+  "channel_id": "UCX0Qk4QtPOlEwBmsbIG4vOg",
+  "profile_url": "https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg",
+  "followers": 699000,
+  "avg_views": 91095.8,
+  "avg_likes": 954.4,
+  "avg_comments": 117.2,
+  "engagement_rate": 0.0105,
+  "posts_last_30d": 0,
+  "sample_size": 5,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 52.25,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 25,
+    "consistency": 40,
+    "follower_scale": 100
+  },
+  "grade": "D",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
