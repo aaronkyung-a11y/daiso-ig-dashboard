@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UC5BqeEsHJnYM4O4xvWJK3Cg",
+  "fullname": "쎄이 SSAY",
+  "channel_id": "UC5BqeEsHJnYM4O4xvWJK3Cg",
+  "profile_url": "https://www.youtube.com/channel/UC5BqeEsHJnYM4O4xvWJK3Cg",
+  "followers": 6550,
+  "avg_views": 3782.9,
+  "avg_likes": 50.1,
+  "avg_comments": 12.7,
+  "engagement_rate": 0.0133,
+  "posts_last_30d": 2,
+  "sample_size": 20,
+  "brand_fit_score": 90,
+  "retailer_focus": "olive_young",
+  "retailer_signal": {
+    "daiso_mentions": "9건",
+    "olive_young_mentions": "11건",
+    "beauty_topical_strength": "strong (25건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 67.5,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 60,
+    "follower_scale": 60
+  },
+  "grade": "B",
+  "evaluated_at": "2026-05-08T09:09:20+09:00",
+  "history": []
+}
