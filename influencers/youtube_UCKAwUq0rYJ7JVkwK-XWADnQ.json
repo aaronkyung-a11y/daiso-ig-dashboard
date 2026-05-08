@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCKAwUq0rYJ7JVkwK-XWADnQ",
+  "fullname": "박지윤의 피부 설명서",
+  "channel_id": "UCKAwUq0rYJ7JVkwK-XWADnQ",
+  "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ",
+  "followers": 49300,
+  "avg_views": 13990.6,
+  "avg_likes": 236.0,
+  "avg_comments": 13.2,
+  "engagement_rate": 0.0169,
+  "posts_last_30d": 5,
+  "sample_size": 5,
+  "brand_fit_score": 75,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "1건",
+    "olive_young_mentions": "0건",
+    "beauty_topical_strength": "medium (3건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 68.75,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 75,
+    "consistency": 80,
+    "follower_scale": 80
+  },
+  "grade": "B",
+  "evaluated_at": "2026-05-08T09:16:25+09:00",
+  "history": []
+}
