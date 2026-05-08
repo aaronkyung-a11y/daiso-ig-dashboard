@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCLyq1gz11P-IYFmP093JaAw",
+  "fullname": "뷰티숨BEAUTYSOOM",
+  "channel_id": "UCLyq1gz11P-IYFmP093JaAw",
+  "profile_url": "https://www.youtube.com/channel/UCLyq1gz11P-IYFmP093JaAw",
+  "followers": 345000,
+  "avg_views": 97308.4,
+  "avg_likes": 1716.2,
+  "avg_comments": 104.4,
+  "engagement_rate": 0.0176,
+  "posts_last_30d": 1,
+  "sample_size": 5,
+  "brand_fit_score": 90,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "strong (12건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 68.5,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 40,
+    "follower_scale": 100
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
