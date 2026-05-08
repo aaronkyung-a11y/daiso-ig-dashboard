@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCbNMdCWBwjljPxDu8dfeHmg",
+  "fullname": "박체리 cherry",
+  "channel_id": "UCbNMdCWBwjljPxDu8dfeHmg",
+  "profile_url": "https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg",
+  "followers": 49800,
+  "avg_views": 58095.0,
+  "avg_likes": 671.0,
+  "avg_comments": 21.0,
+  "engagement_rate": 0.0116,
+  "posts_last_30d": 0,
+  "sample_size": 2,
+  "brand_fit_score": 90,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "strong (11건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 66.5,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 40,
+    "follower_scale": 80
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
