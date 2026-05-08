@@ -141,5 +141,13 @@
         "grade": "C"
       }
     }
-  ]
+  ],
+  "score_total": 60.0,
+  "total_score": 60.0,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 60,
+    "consistency": 100,
+    "follower_scale": 100
+  }
 }

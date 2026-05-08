@@ -336,5 +336,13 @@
       "score_total": 72.5,
       "posts_last_30d": "추정 — sample 4 taken_at 모두 직전 1.3일 내, 30일 환산 ≥30 추정"
     }
-  ]
+  ],
+  "score_total": 75.5,
+  "total_score": 75.5,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "follower_scale": 80
+  }
 }

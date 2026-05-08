@@ -239,5 +239,13 @@
     ],
     "top_reel": "https://www.instagram.com/reel/DWv7f37yaKi/"
   },
-  "top_post_likes": 26000
+  "top_post_likes": 26000,
+  "score_total": 92.5,
+  "total_score": 92.5,
+  "score_breakdown": {
+    "engagement": 100,
+    "brand_fit": 90,
+    "consistency": 80,
+    "follower_scale": 80
+  }
 }

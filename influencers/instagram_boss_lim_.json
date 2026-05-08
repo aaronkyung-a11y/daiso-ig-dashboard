@@ -55,5 +55,13 @@
     }
   },
   "grade": "B",
-  "history": []
+  "history": [],
+  "score_total": 68.75,
+  "total_score": 68.75,
+  "score_breakdown": {
+    "engagement": 80,
+    "brand_fit": 75,
+    "consistency": 40,
+    "follower_scale": 40
+  }
 }

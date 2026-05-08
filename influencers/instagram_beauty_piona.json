@@ -155,5 +155,13 @@
   ],
   "estimation_flags": [
     "engagement_rate (logged-out IG; ER excludes 2 pinned/old posts to reflect current 30d engagement — 추정 요소)"
-  ]
+  ],
+  "score_total": 93.5,
+  "total_score": 93.5,
+  "score_breakdown": {
+    "engagement": 100,
+    "brand_fit": 90,
+    "consistency": 100,
+    "follower_scale": 60
+  }
 }

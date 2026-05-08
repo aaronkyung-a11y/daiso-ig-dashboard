@@ -294,5 +294,13 @@
         "grade": "B"
       }
     }
-  ]
+  ],
+  "score_total": 72.5,
+  "total_score": 72.5,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 80,
+    "follower_scale": 80
+  }
 }

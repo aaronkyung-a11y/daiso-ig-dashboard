@@ -59,5 +59,13 @@
       "grade": "D",
       "note": "initial (logged-out fast pass)"
     }
-  ]
+  ],
+  "score_total": 50.0,
+  "total_score": 50.0,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 60,
+    "consistency": 60,
+    "follower_scale": 60
+  }
 }

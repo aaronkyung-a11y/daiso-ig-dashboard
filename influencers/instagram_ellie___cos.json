@@ -145,5 +145,13 @@
       "grade": "S",
       "note": "B-Light 14:00 KST refresh — 로그아웃 프로필 헤더 갱신: followers 1884 → 1929 (+45). reel 데이터는 직전 분석 유지."
     }
-  ]
+  ],
+  "score_total": 93.5,
+  "total_score": 93.5,
+  "score_breakdown": {
+    "engagement": 100,
+    "brand_fit": 90,
+    "consistency": 100,
+    "follower_scale": 60
+  }
 }

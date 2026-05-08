@@ -114,5 +114,13 @@
       "retailer_focus": "olive_young",
       "sample_size": 7
     }
-  ]
+  ],
+  "score_total": 61.5,
+  "total_score": 61.5,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 90,
+    "consistency": 60,
+    "follower_scale": 100
+  }
 }
