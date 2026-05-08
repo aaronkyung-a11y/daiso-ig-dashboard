@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCXFd79l1HUumoM6spU4D1Cw",
+  "fullname": "닥터블랑_예뻐지는비결",
+  "channel_id": "UCXFd79l1HUumoM6spU4D1Cw",
+  "profile_url": "https://www.youtube.com/channel/UCXFd79l1HUumoM6spU4D1Cw",
+  "followers": 179000,
+  "avg_views": 37166.0,
+  "avg_likes": 597.8,
+  "avg_comments": 59.8,
+  "engagement_rate": 0.0161,
+  "posts_last_30d": 5,
+  "sample_size": 5,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "low (2건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 67.0,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 60,
+    "consistency": 80,
+    "follower_scale": 100
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
