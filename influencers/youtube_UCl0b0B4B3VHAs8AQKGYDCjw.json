@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCl0b0B4B3VHAs8AQKGYDCjw",
+  "fullname": "일돈나",
+  "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
+  "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
+  "followers": 1110,
+  "avg_views": 111929.4,
+  "avg_likes": 1947.0,
+  "avg_comments": 19.0,
+  "engagement_rate": 0.0174,
+  "posts_last_30d": 5,
+  "sample_size": 5,
+  "brand_fit_score": 60,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "5건",
+    "olive_young_mentions": "2건",
+    "beauty_topical_strength": "low (2건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 63.0,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 60,
+    "consistency": 80,
+    "follower_scale": 60
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
