@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCNOA-IwgMAatMFGwdB5n-2Q",
+  "fullname": "서윤초이 seoyoonchoi",
+  "channel_id": "UCNOA-IwgMAatMFGwdB5n-2Q",
+  "profile_url": "https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q",
+  "followers": 10500,
+  "avg_views": 19802.4,
+  "avg_likes": 548.4,
+  "avg_comments": 41.4,
+  "engagement_rate": 0.0277,
+  "posts_last_30d": 3,
+  "sample_size": 5,
+  "brand_fit_score": 25,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "1건",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 53.25,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 25,
+    "consistency": 60,
+    "follower_scale": 80
+  },
+  "grade": "D",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
