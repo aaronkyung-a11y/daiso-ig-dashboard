@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCodG0bJ3OICRA1bg4TBdU9A",
+  "fullname": "피부트래블러",
+  "channel_id": "UCodG0bJ3OICRA1bg4TBdU9A",
+  "profile_url": "https://www.youtube.com/channel/UCodG0bJ3OICRA1bg4TBdU9A",
+  "followers": 135000,
+  "avg_views": 436.0,
+  "avg_likes": 10.0,
+  "avg_comments": 1.4,
+  "engagement_rate": 0.0229,
+  "posts_last_30d": 2,
+  "sample_size": 5,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 55.25,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 25,
+    "consistency": 60,
+    "follower_scale": 100
+  },
+  "grade": "D",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
