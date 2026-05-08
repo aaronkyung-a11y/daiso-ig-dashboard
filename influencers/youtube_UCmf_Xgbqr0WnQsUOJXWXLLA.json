@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCmf_Xgbqr0WnQsUOJXWXLLA",
+  "fullname": "코덕요정🧚‍♀️",
+  "channel_id": "UCmf_Xgbqr0WnQsUOJXWXLLA",
+  "profile_url": "https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA",
+  "followers": 115000,
+  "avg_views": 219651.0,
+  "avg_likes": 4780.4,
+  "avg_comments": 47.2,
+  "engagement_rate": 0.0218,
+  "posts_last_30d": 5,
+  "sample_size": 5,
+  "brand_fit_score": 60,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "2건",
+    "olive_young_mentions": "1건",
+    "beauty_topical_strength": "low (2건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 67.0,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 60,
+    "consistency": 80,
+    "follower_scale": 100
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
