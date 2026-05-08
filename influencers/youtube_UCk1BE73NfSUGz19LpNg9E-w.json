@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCk1BE73NfSUGz19LpNg9E-w",
+  "fullname": "daily miracle~",
+  "channel_id": "UCk1BE73NfSUGz19LpNg9E-w",
+  "profile_url": "https://www.youtube.com/channel/UCk1BE73NfSUGz19LpNg9E-w",
+  "followers": 384000,
+  "avg_views": 2487.4,
+  "avg_likes": 54.0,
+  "avg_comments": 6.8,
+  "engagement_rate": 0.0217,
+  "posts_last_30d": 4,
+  "sample_size": 5,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "low (2건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 64.0,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 60,
+    "consistency": 60,
+    "follower_scale": 100
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
