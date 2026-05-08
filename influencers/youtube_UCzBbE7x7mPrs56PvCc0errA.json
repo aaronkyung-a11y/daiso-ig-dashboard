@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCzBbE7x7mPrs56PvCc0errA",
+  "fullname": "나나씨 Nanasi",
+  "channel_id": "UCzBbE7x7mPrs56PvCc0errA",
+  "profile_url": "https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA",
+  "followers": 160000,
+  "avg_views": 78136.4,
+  "avg_likes": 178.8,
+  "avg_comments": 10.4,
+  "engagement_rate": 0.0023,
+  "posts_last_30d": 4,
+  "sample_size": 5,
+  "brand_fit_score": 75,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "medium (3건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 57.75,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 75,
+    "consistency": 60,
+    "follower_scale": 100
+  },
+  "grade": "D",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
