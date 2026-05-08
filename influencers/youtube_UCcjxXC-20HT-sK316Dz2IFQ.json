@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCcjxXC-20HT-sK316Dz2IFQ",
+  "fullname": "왁! 템즈",
+  "channel_id": "UCcjxXC-20HT-sK316Dz2IFQ",
+  "profile_url": "https://www.youtube.com/channel/UCcjxXC-20HT-sK316Dz2IFQ",
+  "followers": 441,
+  "avg_views": 13767.0,
+  "avg_likes": 87.2,
+  "avg_comments": 6.2,
+  "engagement_rate": 0.0063,
+  "posts_last_30d": 0,
+  "sample_size": 5,
+  "brand_fit_score": 60,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "8건",
+    "olive_young_mentions": "1건",
+    "beauty_topical_strength": "low (2건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "total_score": 45.0,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 60,
+    "consistency": 40,
+    "follower_scale": 40
+  },
+  "grade": "D",
+  "evaluated_at": "2026-05-08T10:26:33+09:00",
+  "history": []
+}
