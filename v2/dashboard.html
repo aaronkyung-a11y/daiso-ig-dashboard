@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>다이소 뷰티 데일리 — 2026-05-08</title>
+<title>다이소 뷰티 데일리 — 2026-05-09</title>
 <link rel="stylesheet" as="style" crossorigin
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
 <style>
@@ -83,27 +83,20 @@
     width: fit-content;
   }
   .tab-btn {
-    padding: 11px 22px; background: #f4f4f5; border: 1px solid #e4e4e7;
+    padding: 12px 24px; background: transparent; border: 0;
     border-radius: 10px; font-size: 14px; font-weight: 600;
-    color: #52525b; cursor: pointer; transition: all 0.15s;
+    color: #71717a; cursor: pointer; transition: all 0.15s;
     font-family: inherit; letter-spacing: -0.01em;
   }
-  .tab-btn:hover { background: #e4e4e7; color: #18181b; border-color: #d4d4d8; transform: translateY(-1px); }
+  .tab-btn:hover { background: #f4f4f5; color: #18181b; }
   .tab-btn.active {
-    background: #18181b; color: white; border-color: #18181b;
+    background: #18181b; color: white;
     box-shadow: 0 4px 12px rgba(24,24,27,0.25);
   }
-  .tab-btn.active:hover { background: #27272a; color: white; border-color: #27272a; transform: translateY(-1px); }
+  .tab-btn.active:hover { background: #27272a; color: white; }
   .tab-pane[hidden] { display: none !important; }
   iframe.tab-pane { width: 100%; height: calc(100vh - 130px); border: 0; border-radius: 14px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
 
-  .chip { padding: 6px 14px; border-radius: 999px; border: 1px solid #d4d4d8; background: #fff; color: #52525b; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.15s; }
-  .chip:hover { border-color: #a1a1aa; }
-  .chip.active { background: #18181b; color: #fff; border-color: #18181b; }
-  .legend { font-size: 11px; color: #a1a1aa; padding: 0 20px 16px; margin: 0; font-style: italic; }
-  .muted { color: #a1a1aa; font-size: 12px; font-weight: 400; }
-  .ig-dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af); margin-right: 6px; vertical-align: middle; }
-  .yt-dot { display: inline-block; width: 10px; height: 10px; border-radius: 2px; background: #ff0000; margin-right: 6px; vertical-align: middle; }
   .outreach-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; padding: 16px 20px; }
   .outreach-card {
     display: grid; grid-template-columns: 40px 1fr auto; gap: 12px; align-items: center;
@@ -128,7 +121,7 @@
 
   <div class="tab-bar">
     <button class="tab-btn active" data-tab="monitor" onclick="showTab('monitor')">다이소 모니터 (자동 발견)</button>
-    <button class="tab-btn" data-tab="eval" onclick="showTab('eval')">정밀 평가 시스템 (27명)</button>
+    <button class="tab-btn" data-tab="eval" onclick="showTab('eval')">정밀 평가 시스템 (61명)</button>
     <button class="tab-btn" data-tab="main" onclick="showTab('main')">기존 메인 대시보드</button>
   </div>
 
@@ -138,14 +131,14 @@
   <div class="tab-pane" data-tab="monitor">
   <div class="header">
     <h1>다이소 뷰티 데일리</h1>
-    <div class="subtitle">2026-05-08 빌드 · 다이소 데이터 2026-05-06 기준 · IG 누적 30일 · YT 30일</div>
+    <div class="subtitle">2026-05-09 빌드 · 다이소 데이터 2026-05-09 기준 · IG 누적 30일 · YT 30일</div>
   </div>
 
   <div class="stats">
-    <div class="stat"><div class="label">다이소 뷰티 / 전체</div><div class="value">26</div><div class="sub">/ 30개 (비뷰티 자동 제외)</div></div>
-    <div class="stat"><div class="label">IG 컨텐츠 (30일)</div><div class="value">21</div><div class="sub">/ 누적 26 · 매일 누적</div></div>
-    <div class="stat"><div class="label">YT 영상 (30일)</div><div class="value">112</div><div class="sub">매일 자동 + Chrome MCP 보완</div></div>
-    <div class="stat"><div class="label">자동 발견 인플루언서</div><div class="value">34</div><div class="sub">30일 통과 · 매일 누적 증가</div></div>
+    <div class="stat"><div class="label">다이소 Top 30 (뷰티)</div><div class="value">25</div><div class="sub">/ 30</div></div>
+    <div class="stat"><div class="label">감지 IG 컨텐츠 (30일)</div><div class="value">13</div><div class="sub">/ 누적 18</div></div>
+    <div class="stat"><div class="label">YT 영상</div><div class="value">112</div><div class="sub">최근 30일</div></div>
+    <div class="stat"><div class="label">평가된 인플루언서</div><div class="value">228</div><div class="sub">Top 점수 산출</div></div>
   </div>
 
   <!-- 우선 섭외 -->
@@ -170,23 +163,23 @@
           <div class="outreach-num">2</div>
           <div class="outreach-body">
             <div class="outreach-name">
-              <a href="https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg" target="_blank" class="user-link">박체리 cherry ↗</a>
-              <span class="platform-badge yt">YouTube</span>
+              <a href="https://www.instagram.com/moon__brand/" target="_blank" class="user-link">moon__brand ↗</a>
+              <span class="platform-badge ig">Instagram</span>
             </div>
-            <div class="outreach-reason">다이소 카테고리 적합 · 높은 도달</div>
+            <div class="outreach-reason">높은 도달</div>
           </div>
-          <div class="outreach-score">0.575</div>
+          <div class="outreach-score">0.388</div>
         </div>
         <div class="outreach-card">
           <div class="outreach-num">3</div>
           <div class="outreach-body">
             <div class="outreach-name">
-              <a href="https://www.instagram.com/ha____dobby/" target="_blank" class="user-link">ha____dobby ↗</a>
-              <span class="platform-badge ig">Instagram</span>
+              <a href="https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA" target="_blank" class="user-link">로빗 lobit🐰🫧 ↗</a>
+              <span class="platform-badge yt">YouTube</span>
             </div>
-            <div class="outreach-reason">다이소 카테고리 적합</div>
+            <div class="outreach-reason">다이소 카테고리 적합 · 높은 도달</div>
           </div>
-          <div class="outreach-score">0.504</div>
+          <div class="outreach-score">0.369</div>
         </div>
     </div>
   </div>
@@ -195,308 +188,179 @@
   <div class="section">
     <div class="section-head">
       <h2>인플루언서 Top 영향력</h2>
-      <div class="toolbar">
-        <button class="chip active" data-plat="all" onclick="filterInf(this)">전체</button>
-        <button class="chip" data-plat="ig" onclick="filterInf(this)">Instagram</button>
-        <button class="chip" data-plat="yt" onclick="filterInf(this)">YouTube</button>
-      </div>
     </div>
-    <table id="inf-table">
-      <thead><tr><th>#</th><th>플랫폼</th><th>계정</th><th>Top 점수</th><th>정밀평가</th><th>평균 인게이지먼트</th><th>분류</th><th>최근</th></tr></thead>
+    <table>
+      <thead><tr><th>#</th><th>플랫폼</th><th>계정 (클릭→프로필)</th><th>Top 점수</th><th>정밀평가</th><th>평균 도달</th><th>분류</th><th>최근</th></tr></thead>
       <tbody>
-        <tr data-platform="ig">
+        <tr>
           <td class="rank">1</td>
           <td><span class="platform-badge ig">Instagram</span></td>
           <td><a href="https://www.instagram.com/cupoftea_mag/" target="_blank" class="user-link">cupoftea_mag ↗</a></td>
           <td class="num bold">0.674</td>
           <td><span class="grade-badge grade-C">정밀 C</span></td>
-          <td>좋아요 4710</td>
+          <td>평균 likes 4710</td>
           <td><span class="pill daiso">daiso_focused</span></td>
           <td><a href="https://www.instagram.com/reels/DXtiB4-j2nh/" target="_blank">▶ 최근</a></td>
         </tr>
-        <tr data-platform="yt">
+        <tr>
           <td class="rank">2</td>
-          <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg" target="_blank" class="user-link">박체리 cherry ↗</a></td>
-          <td class="num bold">0.575</td>
-          <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>조회수 365,611</td>
-          <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=2KgeizIeDxo" target="_blank">▶ 최근</a></td>
-        </tr>
-        <tr data-platform="ig">
-          <td class="rank">3</td>
-          <td><span class="platform-badge ig">Instagram</span></td>
-          <td><a href="https://www.instagram.com/ha____dobby/" target="_blank" class="user-link">ha____dobby ↗</a></td>
-          <td class="num bold">0.504</td>
-          <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>좋아요 797</td>
-          <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.instagram.com/reels/DXYz5YIEYcl/" target="_blank">▶ 최근</a></td>
-        </tr>
-        <tr data-platform="ig">
-          <td class="rank">4</td>
-          <td><span class="platform-badge ig">Instagram</span></td>
-          <td><a href="https://www.instagram.com/cocacola1shot/" target="_blank" class="user-link">cocacola1shot ↗</a></td>
-          <td class="num bold">0.433</td>
-          <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>좋아요 2849</td>
-          <td><span class="pill general">beauty_general</span></td>
-          <td><a href="https://www.instagram.com/reels/DX0ta4_THb1/" target="_blank">▶ 최근</a></td>
-        </tr>
-        <tr data-platform="ig">
-          <td class="rank">5</td>
           <td><span class="platform-badge ig">Instagram</span></td>
           <td><a href="https://www.instagram.com/moon__brand/" target="_blank" class="user-link">moon__brand ↗</a></td>
           <td class="num bold">0.388</td>
           <td><span class="grade-badge grade-B">정밀 B</span></td>
-          <td>좋아요 1965</td>
+          <td>평균 likes 1965</td>
           <td><span class="pill general">beauty_general</span></td>
           <td><a href="https://www.instagram.com/reels/DX_zl4BOlfN/" target="_blank">▶ 최근</a></td>
         </tr>
-        <tr data-platform="ig">
-          <td class="rank">6</td>
-          <td><span class="platform-badge ig">Instagram</span></td>
-          <td><a href="https://www.instagram.com/chajinah_/" target="_blank" class="user-link">chajinah_ ↗</a></td>
-          <td class="num bold">0.386</td>
+        <tr>
+          <td class="rank">3</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA" target="_blank" class="user-link">로빗 lobit🐰🫧 ↗</a></td>
+          <td class="num bold">0.369</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>좋아요 951</td>
+          <td>평균 views 740,719</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.instagram.com/reels/DXgcrRoAY_i/" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=HALC4yuxVM0" target="_blank">▶ 최근</a></td>
         </tr>
-        <tr data-platform="yt">
+        <tr>
+          <td class="rank">4</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA" target="_blank" class="user-link">나나씨 Nanasi ↗</a></td>
+          <td class="num bold">0.350</td>
+          <td><span class="grade-badge grade-pending">미평가</span></td>
+          <td>평균 views 1,636,019</td>
+          <td><span class="pill general">beauty_general</span></td>
+          <td><a href="https://www.youtube.com/watch?v=qDmsxBbQ7k4" target="_blank">▶ 최근</a></td>
+        </tr>
+        <tr>
+          <td class="rank">5</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg" target="_blank" class="user-link">뮤니 ↗</a></td>
+          <td class="num bold">0.314</td>
+          <td><span class="grade-badge grade-pending">미평가</span></td>
+          <td>평균 views 258,419</td>
+          <td><span class="pill daiso">daiso_focused</span></td>
+          <td><a href="https://www.youtube.com/watch?v=Unsfuu-gasI" target="_blank">▶ 최근</a></td>
+        </tr>
+        <tr>
+          <td class="rank">6</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg" target="_blank" class="user-link">뷰드름 유튜버 인씨 ↗</a></td>
+          <td class="num bold">0.289</td>
+          <td><span class="grade-badge grade-pending">미평가</span></td>
+          <td>평균 views 284,170</td>
+          <td><span class="pill daiso">daiso_focused</span></td>
+          <td><a href="https://www.youtube.com/watch?v=TSl-iSVUrLs" target="_blank">▶ 최근</a></td>
+        </tr>
+        <tr>
           <td class="rank">7</td>
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCXFd79l1HUumoM6spU4D1Cw" target="_blank" class="user-link">닥터블랑_예뻐지는비결 ↗</a></td>
-          <td class="num bold">0.312</td>
+          <td><a href="https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg" target="_blank" class="user-link">선스캣 sun&#x27;s cat ↗</a></td>
+          <td class="num bold">0.284</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>조회수 248,064</td>
-          <td><span class="pill general">beauty_general</span></td>
-          <td><a href="https://www.youtube.com/watch?v=78YW0TBbRZM" target="_blank">▶ 최근</a></td>
+          <td>평균 views 268,450</td>
+          <td><span class="pill daiso">daiso_focused</span></td>
+          <td><a href="https://www.youtube.com/watch?v=KIhnXil_T74" target="_blank">▶ 최근</a></td>
         </tr>
-        <tr data-platform="ig">
+        <tr>
           <td class="rank">8</td>
-          <td><span class="platform-badge ig">Instagram</span></td>
-          <td><a href="https://www.instagram.com/coucouyj/" target="_blank" class="user-link">coucouyj ↗</a></td>
-          <td class="num bold">0.294</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ" target="_blank" class="user-link">겸다미 ↗</a></td>
+          <td class="num bold">0.280</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>좋아요 2295</td>
-          <td><span class="pill general">beauty_general</span></td>
-          <td><a href="https://www.instagram.com/reels/DXtVb6ok6bo/" target="_blank">▶ 최근</a></td>
+          <td>평균 views 299,143</td>
+          <td><span class="pill daiso">daiso_focused</span></td>
+          <td><a href="https://www.youtube.com/watch?v=VX1KMWsmqkc" target="_blank">▶ 최근</a></td>
         </tr>
-        <tr data-platform="yt">
+        <tr>
           <td class="rank">9</td>
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UCaMFZoulRulGg-xG5s9qguw" target="_blank" class="user-link">백세 건강보감 ↗</a></td>
-          <td class="num bold">0.279</td>
+          <td><a href="https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA" target="_blank" class="user-link">원츄 ↗</a></td>
+          <td class="num bold">0.278</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>조회수 57,026</td>
+          <td>평균 views 289,843</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=FTAGnGgrZ5U" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=dCJqstje8Ig" target="_blank">▶ 최근</a></td>
         </tr>
-        <tr data-platform="yt">
+        <tr>
           <td class="rank">10</td>
           <td><span class="platform-badge yt">YouTube</span></td>
-          <td><a href="https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ" target="_blank" class="user-link">뷰라tv ↗</a></td>
+          <td><a href="https://www.youtube.com/channel/UC4BFwp5_Xf16cV1HecJYMJA" target="_blank" class="user-link">뮤제 MUSEE ↗</a></td>
           <td class="num bold">0.277</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>조회수 55,068</td>
+          <td>평균 views 386,367</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.youtube.com/watch?v=uPZx9tdlzhw" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=YVgNigSsfhg" target="_blank">▶ 최근</a></td>
         </tr>
-        <tr data-platform="ig">
+        <tr>
           <td class="rank">11</td>
-          <td><span class="platform-badge ig">Instagram</span></td>
-          <td><a href="https://www.instagram.com/go_rangeee/" target="_blank" class="user-link">go_rangeee ↗</a></td>
-          <td class="num bold">0.265</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw" target="_blank" class="user-link">지냐 Jinyaa ↗</a></td>
+          <td class="num bold">0.264</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>좋아요 263</td>
+          <td>평균 views 137,704</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.instagram.com/reels/DXIrKK1DqU2/" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=FKuoD74_ydE" target="_blank">▶ 최근</a></td>
         </tr>
-        <tr data-platform="ig">
+        <tr>
           <td class="rank">12</td>
-          <td><span class="platform-badge ig">Instagram</span></td>
-          <td><a href="https://www.instagram.com/kevinjoy.toon/" target="_blank" class="user-link">kevinjoy.toon ↗</a></td>
-          <td class="num bold">0.228</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ" target="_blank" class="user-link">박지윤의 피부 설명서 ↗</a></td>
+          <td class="num bold">0.262</td>
           <td><span class="grade-badge grade-pending">미평가</span></td>
-          <td>좋아요 331</td>
+          <td>평균 views 430,038</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.instagram.com/reels/DX58c7Qyu2Z/" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=62M8juDioe0" target="_blank">▶ 최근</a></td>
         </tr>
-        <tr data-platform="ig">
+        <tr>
           <td class="rank">13</td>
-          <td><span class="platform-badge ig">Instagram</span></td>
-          <td><a href="https://www.instagram.com/mingjikim_107/" target="_blank" class="user-link">mingjikim_107 ↗</a></td>
-          <td class="num bold">0.200</td>
-          <td><span class="grade-badge grade-B">정밀 B</span></td>
-          <td>좋아요 144</td>
-          <td><span class="pill general">beauty_general</span></td>
-          <td><a href="https://www.instagram.com/reels/DXrf2G6P6kJ/" target="_blank">▶ 최근</a></td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCXFd79l1HUumoM6spU4D1Cw" target="_blank" class="user-link">닥터블랑_예뻐지는비결 ↗</a></td>
+          <td class="num bold">0.261</td>
+          <td><span class="grade-badge grade-pending">미평가</span></td>
+          <td>평균 views 871,487</td>
+          <td><span class="pill daiso">daiso_occasional</span></td>
+          <td><a href="https://www.youtube.com/watch?v=wlKTNSS5YDA" target="_blank">▶ 최근</a></td>
         </tr>
-        <tr data-platform="ig">
+        <tr>
           <td class="rank">14</td>
-          <td><span class="platform-badge ig">Instagram</span></td>
-          <td><a href="https://www.instagram.com/doing_now_insta/" target="_blank" class="user-link">doing_now_insta ↗</a></td>
-          <td class="num bold">0.197</td>
-          <td><span class="grade-badge grade-C">정밀 C</span></td>
-          <td>좋아요 389</td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q" target="_blank" class="user-link">서윤초이 seoyoonchoi ↗</a></td>
+          <td class="num bold">0.251</td>
+          <td><span class="grade-badge grade-pending">미평가</span></td>
+          <td>평균 views 32,785</td>
           <td><span class="pill daiso">daiso_focused</span></td>
-          <td><a href="https://www.instagram.com/reels/DXie47uD47s/" target="_blank">▶ 최근</a></td>
+          <td><a href="https://www.youtube.com/watch?v=szfcsgD3ZnA" target="_blank">▶ 최근</a></td>
         </tr>
-        <tr data-platform="ig">
+        <tr>
           <td class="rank">15</td>
-          <td><span class="platform-badge ig">Instagram</span></td>
-          <td><a href="https://www.instagram.com/habaoh_0/" target="_blank" class="user-link">habaoh_0 ↗</a></td>
-          <td class="num bold">0.196</td>
-          <td><span class="grade-badge grade-C">정밀 C</span></td>
-          <td>좋아요 104</td>
-          <td><span class="pill general">beauty_general</span></td>
-          <td><a href="https://www.instagram.com/reels/DX6l4tuvsZ7/" target="_blank">▶ 최근</a></td>
-        </tr></tbody>
-    </table>
-    <p class="legend">IG는 좋아요(likes), YT는 조회수(views) 기준 — 단위가 달라 직접 비교 불가</p>
-  </div>
-
-  <!-- 핫 컨텐츠 — IG / YT 분리 -->
-  <div class="section" id="content-section-ig">
-    <div class="section-head">
-      <h2><span class="ig-dot"></span> Instagram 핫 컨텐츠 <span class="muted">(좋아요 내림차순, 최근 30일)</span></h2>
-    </div>
-    <table>
-      <thead><tr><th>계정</th><th>제목/캡션</th><th>좋아요</th><th>댓글</th><th>날짜</th><th>보기</th></tr></thead>
-      <tbody>
-        <tr>
-          <td><a href="https://www.instagram.com/cupoftea_mag/" target="_blank" class="user-link">@cupoftea_mag ↗</a></td>
-          <td>#광고 EVENT 다이소 품절대란 났던 본셉 비타씨 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">4,710</td>
-          <td class="num">8</td>
-          <td class="date">2026-04-25</td>
-          <td><a href="https://www.instagram.com/reels/DXtiB4-j2nh/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/cocacola1shot/" target="_blank" class="user-link">@cocacola1shot ↗</a></td>
-          <td>광고 5월 올영픽 특가 리들샷 100 300 포켓몬 에디션 #브이티 #리들샷 #올영추천템&quot; </td>
-          <td class="num bold">2,849</td>
-          <td class="num">126</td>
-          <td class="date">2026-05-01</td>
-          <td><a href="https://www.instagram.com/reels/DX0ta4_THb1/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/coucouyj/" target="_blank" class="user-link">@coucouyj ↗</a></td>
-          <td>VT 리들샷 + 하이드로겔 마스크 #VT #하이드로겔마스크 #리들샷&quot; </td>
-          <td class="num bold">2,295</td>
-          <td class="num">28</td>
-          <td class="date">2026-04-29</td>
-          <td><a href="https://www.instagram.com/reels/DXtVb6ok6bo/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/moon__brand/" target="_blank" class="user-link">@moon__brand ↗</a></td>
-          <td>커버메이크업 기초: 더랩 바이 블랑두 올리고 히알루론산 딥 글로우 세럼 </td>
-          <td class="num bold">1,965</td>
-          <td class="num">125</td>
-          <td class="date">2026-05-06</td>
-          <td><a href="https://www.instagram.com/reels/DX_zl4BOlfN/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/chajinah_/" target="_blank" class="user-link">@chajinah_ ↗</a></td>
-          <td>#광고 다이소 바르는 비타민 C 🍋 5천원 갓성비 본셉의 비타씨 라인 비타씨 오일 캡슐 세럼💛 #본셉 #비타 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">951</td>
-          <td class="num">44</td>
-          <td class="date">2026-04-24</td>
-          <td><a href="https://www.instagram.com/reels/DXgcrRoAY_i/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/ha____dobby/" target="_blank" class="user-link">@ha____dobby ↗</a></td>
-          <td>4년차 화장품 연구원 다이소 PDRN 추천/비추천템 #pdrn #제품분석 #다이소 #다이소화장품 #kbeau <span class="pill daiso">다이소</span></td>
-          <td class="num bold">797</td>
-          <td class="num">2,047</td>
-          <td class="date">2026-04-21</td>
-          <td><a href="https://www.instagram.com/reels/DXYz5YIEYcl/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/beauty._charmi/" target="_blank" class="user-link">@beauty._charmi ↗</a></td>
-          <td>#광고 @boncept.official 본셉 비타C 3종 루틴 #본셉 #비타C #비타씨에센스 #톤업케어 </td>
-          <td class="num bold">649</td>
-          <td class="num">16</td>
-          <td class="date">2026-04-26</td>
-          <td><a href="https://www.instagram.com/reels/DXmGDQTk2bg/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/doing_now_insta/" target="_blank" class="user-link">@doing_now_insta ↗</a></td>
-          <td>피부과 의사 추천 다이소 #다이소 #다이소의사추천템 #더랩프랩 #더랩바이블랑두 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">389</td>
-          <td class="num">11</td>
-          <td class="date">2026-04-23</td>
-          <td><a href="https://www.instagram.com/reels/DXie47uD47s/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/kevinjoy.toon/" target="_blank" class="user-link">@kevinjoy.toon ↗</a></td>
-          <td>#광고 더랩 바이 블랑두 클리어 히알 퍼펙트 글로우 라인 다이소 #더랩바이블랑두 #다이소추천템&quot; <span class="pill daiso">다이소</span></td>
-          <td class="num bold">331</td>
-          <td class="num">16</td>
-          <td class="date">2026-05-03</td>
-          <td><a href="https://www.instagram.com/reels/DX58c7Qyu2Z/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/go_rangeee/" target="_blank" class="user-link">@go_rangeee ↗</a></td>
-          <td>가격 대비 기대 이상 마데카21 테카 솔루션 수딩 크림 #다이소화장품 #다이소 #다이소추천템&quot; <span class="pill daiso">다이소</span></td>
-          <td class="num bold">263</td>
-          <td class="num">19</td>
-          <td class="date">2026-04-14</td>
-          <td><a href="https://www.instagram.com/reels/DXIrKK1DqU2/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/boss.lim_/" target="_blank" class="user-link">@boss.lim_ ↗</a></td>
-          <td>VT PDRN 전라인 소개 </td>
-          <td class="num bold">232</td>
-          <td class="num">4</td>
-          <td class="date">2026-04-12</td>
-          <td><a href="https://www.instagram.com/p/DXCBQtyDwMp/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/mingjikim_107/" target="_blank" class="user-link">@mingjikim_107 ↗</a></td>
-          <td>5월 올리브영 포켓몬 콜라보 VT 포켓몬 에디션 리들샷 100 300 #협찬 #올리브영 #포켓몬 </td>
-          <td class="num bold">144</td>
-          <td class="num">26</td>
-          <td class="date">2026-04-28</td>
-          <td><a href="https://www.instagram.com/reels/DXrf2G6P6kJ/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/habaoh_0/" target="_blank" class="user-link">@habaoh_0 ↗</a></td>
-          <td>#제품제공 VT 코스메틱과 포켓몬 콜라보 리들샷 #VT크루 #브이티포켓몬 #올리브영추천템 </td>
-          <td class="num bold">104</td>
-          <td class="num">36</td>
-          <td class="date">2026-05-04</td>
-          <td><a href="https://www.instagram.com/reels/DX6l4tuvsZ7/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/busanunnie/" target="_blank" class="user-link">@busanunnie ↗</a></td>
-          <td>💄언니의 찐 애정 다이소 화잘먹 뷰티템 더랩 바이 블랑두 클리어 히알 물광 부스터 앰플 #부산언니 #다이소뷰 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">88</td>
-          <td class="num">2</td>
-          <td class="date">2026-05-06</td>
-          <td><a href="https://www.instagram.com/reels/DYBYdmdDezO/" target="_blank">▶ 보기</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.instagram.com/view_bbang_/" target="_blank" class="user-link">@view_bbang_ ↗</a></td>
-          <td>다이소러버의 찐찐 추천템 스킨케어 VT PDRN 광채크림 #뷰티 #다이소 #다이소추천템 <span class="pill daiso">다이소</span></td>
-          <td class="num bold">58</td>
-          <td class="num">18</td>
-          <td class="date">2026-04-14</td>
-          <td><a href="https://www.instagram.com/reels/DXIyxrLkkMv/" target="_blank">▶ 보기</a></td>
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCrhm4vlaOhwDND5uIBQPbiw" target="_blank" class="user-link">마이알지 ↗</a></td>
+          <td class="num bold">0.250</td>
+          <td><span class="grade-badge grade-pending">미평가</span></td>
+          <td>평균 views 467,965</td>
+          <td><span class="pill daiso">daiso_focused</span></td>
+          <td><a href="https://www.youtube.com/watch?v=JkK-x6Ru8xQ" target="_blank">▶ 최근</a></td>
         </tr></tbody>
     </table>
   </div>
 
-  <div class="section" id="content-section-yt">
+  <!-- 핫 컨텐츠 -->
+  <div class="section" id="content-section">
     <div class="section-head">
-      <h2><span class="yt-dot"></span> YouTube 핫 컨텐츠 <span class="muted">(조회수 내림차순, 최근 90일)</span></h2>
+      <h2>핫 컨텐츠 (도달 내림차순, Top 20)</h2>
+      <div class="toolbar">
+        <input type="text" id="content-search" placeholder="제목·계정 검색" oninput="filterContents()">
+        <select id="platform-filter" onchange="filterContents()">
+          <option value="all">전체</option><option value="ig">Instagram</option><option value="yt">YouTube</option>
+        </select>
+      </div>
     </div>
-    <table>
-      <thead><tr><th>계정</th><th>제목</th><th>조회수</th><th>댓글</th><th>날짜</th><th>보기</th></tr></thead>
+    <table id="content-table">
+      <thead><tr><th>플랫폼</th><th>계정</th><th>제목/캡션</th><th>도달</th><th>댓글</th><th>날짜</th><th>보기</th></tr></thead>
       <tbody>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCXFd79l1HUumoM6spU4D1Cw" target="_blank" class="user-link">@닥터블랑_예뻐지는비결 ↗</a></td>
           <td>피부 좋아지는 다이소 화장품 꿀템 5가지! &quot;다이소에서 보이면 꼭 사세요&quot; | 다이소 화장품 추천 <span class="pill daiso">다이소</span></td>
           <td class="num bold">2,334,752</td>
@@ -504,7 +368,8 @@
           <td class="date">2025-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=zSIpGdP2iHA" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA" target="_blank" class="user-link">@나나씨 Nanasi ↗</a></td>
           <td>귀티나는 머릿결 만들어준 효자효녀들 </td>
           <td class="num bold">1,636,019</td>
@@ -512,7 +377,8 @@
           <td class="date">2025-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=qDmsxBbQ7k4" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w" target="_blank" class="user-link">@장수의 비밀 ↗</a></td>
           <td>피부과 의사들이 다이소가면 뛰어 가서 사는 화장품 1등은?! 주름이 탱~! #다이소 #다이소추천템 #다이소뷰 <span class="pill daiso">다이소</span></td>
           <td class="num bold">1,360,952</td>
@@ -520,7 +386,8 @@
           <td class="date">2025-08-10</td>
           <td><a href="https://www.youtube.com/watch?v=dXN-to1YMEQ" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg" target="_blank" class="user-link">@피부왕정윤 ↗</a></td>
           <td>&quot;이러다 병원 망하겠어요&quot; 피부과의사의 리들샷 내돈내산 찐사용 후기 | 효과 부작용 주의사항 사용법까지 완벽 </td>
           <td class="num bold">772,268</td>
@@ -528,7 +395,8 @@
           <td class="date">2025-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=2jw-ii-yRtc" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCqrNqg3UgVoD3Sa-F_TxuSA" target="_blank" class="user-link">@디렉터 파이 ↗</a></td>
           <td>(*Eng) 2024 수분크림 1위는?🥇30여 종 구매 추천?! 여드름, 붉은기, 건조한 피부 다 모여!!  </td>
           <td class="num bold">644,591</td>
@@ -536,7 +404,8 @@
           <td class="date">2025-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=-c_52oTVhJ8" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg" target="_blank" class="user-link">@뷰드름 유튜버 인씨 ↗</a></td>
           <td>(스킨케어편) 다이소에서 이거 보이면 그냥 쟁이세요... 100만원 넘게 쓴 사람이 추천하는;;😲 겁나 좋은 <span class="pill daiso">다이소</span></td>
           <td class="num bold">544,189</td>
@@ -544,7 +413,8 @@
           <td class="date">2025-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=oRj8r-Bom8U" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCqrNqg3UgVoD3Sa-F_TxuSA" target="_blank" class="user-link">@디렉터 파이 ↗</a></td>
           <td>(*Eng) 이거 맞죠? 리들샷 요청주셔서 사봤는데,, 모공 진짜 줄어들까? (부작용, 주의사항, 사용법,  </td>
           <td class="num bold">493,561</td>
@@ -552,7 +422,8 @@
           <td class="date">2024-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=CZ03yyOrkxY" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCqrNqg3UgVoD3Sa-F_TxuSA" target="_blank" class="user-link">@디렉터 파이 ↗</a></td>
           <td>(*Eng) 이거 맞죠? 리들샷 요청주셔서 사봤는데,, 모공 진짜 줄어들까? (부작용, 주의사항, 사용법,  </td>
           <td class="num bold">493,561</td>
@@ -560,7 +431,8 @@
           <td class="date">2024-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=CZ03yyOrkxY" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCrhm4vlaOhwDND5uIBQPbiw" target="_blank" class="user-link">@마이알지 ↗</a></td>
           <td>⭐40만뷰⭐ 다이소에서 이거 보이면 꼭 사세요! 주변에서 피부과 다녀왔냐고 물어봐요! <span class="pill daiso">다이소</span></td>
           <td class="num bold">467,965</td>
@@ -568,7 +440,8 @@
           <td class="date">2025-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=JkK-x6Ru8xQ" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCrhm4vlaOhwDND5uIBQPbiw" target="_blank" class="user-link">@마이알지 ↗</a></td>
           <td>⭐40만뷰⭐ 다이소에서 이거 보이면 꼭 사세요! 주변에서 피부과 다녀왔냐고 물어봐요! <span class="pill daiso">다이소</span></td>
           <td class="num bold">467,965</td>
@@ -576,7 +449,8 @@
           <td class="date">2025-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=JkK-x6Ru8xQ" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCZB-WNAVDNGsTD1sS2uevkg" target="_blank" class="user-link">@Dove ↗</a></td>
           <td>하루종일 저자극* 도브 뷰티바 </td>
           <td class="num bold">448,599</td>
@@ -584,7 +458,8 @@
           <td class="date">2024-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=l20qnFWsxzQ" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCHjEdCXNYyvgWWcCZVTxWHA" target="_blank" class="user-link">@티벳동생 ↗</a></td>
           <td>다이소 여드름 꿀템 3가지 (내돈내산) <span class="pill daiso">다이소</span></td>
           <td class="num bold">446,750</td>
@@ -592,7 +467,8 @@
           <td class="date">2025-11-08</td>
           <td><a href="https://www.youtube.com/watch?v=ubhFAE2Zr4A" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCd7mIFLSi18eIvaBZuv6c2A" target="_blank" class="user-link">@전지적 피부 시점 ↗</a></td>
           <td>제발... 다이소 리들샷 사기전에 꼭 확인 하세요! 이거 모르면 큰일납니다🔥 <span class="pill daiso">다이소</span></td>
           <td class="num bold">411,744</td>
@@ -600,7 +476,8 @@
           <td class="date">2025-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=D8x6j7ISJk4" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UC0HSw1vtQDKFprGUmQbsb1g" target="_blank" class="user-link">@뷰티르  ↗</a></td>
           <td>비타민c앰플, 제대로 안 바르면 돈 낭비 </td>
           <td class="num bold">401,194</td>
@@ -608,13 +485,59 @@
           <td class="date">2025-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=WXaIMTIwLMw" target="_blank">▶ 보기</a></td>
         </tr>
-        <tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
           <td><a href="https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw" target="_blank" class="user-link">@피부가 예뻐지는 10분 · 피부텐텐 ↗</a></td>
           <td>다이소 품절대란템 VT리들샷 이러면 효과 절대 못봅니다. 피부과의사가 직접 발라본 찐 후기 왕창 담아봄! | <span class="pill daiso">다이소</span></td>
           <td class="num bold">374,158</td>
           <td class="num">0</td>
           <td class="date">2024-05-07</td>
           <td><a href="https://www.youtube.com/watch?v=fILJTripb54" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw" target="_blank" class="user-link">@피부가 예뻐지는 10분 · 피부텐텐 ↗</a></td>
+          <td>다이소 품절대란템 VT리들샷 이러면 효과 절대 못봅니다. 피부과의사가 직접 발라본 찐 후기 왕창 담아봄! | <span class="pill daiso">다이소</span></td>
+          <td class="num bold">374,158</td>
+          <td class="num">0</td>
+          <td class="date">2024-05-07</td>
+          <td><a href="https://www.youtube.com/watch?v=fILJTripb54" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCqrNqg3UgVoD3Sa-F_TxuSA" target="_blank" class="user-link">@디렉터 파이 ↗</a></td>
+          <td>(*Eng) 2025 수분크림 1위는?🥇35종 구매 추천?! 여드름, 홍조, 속건조 피부 다 모여!! Bes </td>
+          <td class="num bold">372,411</td>
+          <td class="num">0</td>
+          <td class="date">2025-12-08</td>
+          <td><a href="https://www.youtube.com/watch?v=ltvrTyURDx4" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCodG0bJ3OICRA1bg4TBdU9A" target="_blank" class="user-link">@피부트래블러 ↗</a></td>
+          <td>다이소에서 이거 안사면 무조건 손해입니다🔥 피부과 전문의가 추천하는 화장품 꿀템 TOP3 <span class="pill daiso">다이소</span></td>
+          <td class="num bold">369,623</td>
+          <td class="num">0</td>
+          <td class="date">2025-05-07</td>
+          <td><a href="https://www.youtube.com/watch?v=G5JY01PiIbo" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg" target="_blank" class="user-link">@박체리 cherry ↗</a></td>
+          <td>다이소 베이스 프렙 정샘물vs더랩바이블랑두 뭐 살지 딱 정해드림 <span class="pill daiso">다이소</span></td>
+          <td class="num bold">365,611</td>
+          <td class="num">0</td>
+          <td class="date">2026-02-06</td>
+          <td><a href="https://www.youtube.com/watch?v=2KgeizIeDxo" target="_blank">▶ 보기</a></td>
+        </tr>
+        <tr data-platform="yt">
+          <td><span class="platform-badge yt">YouTube</span></td>
+          <td><a href="https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ" target="_blank" class="user-link">@스완SWAN_현실남자관리 ↗</a></td>
+          <td>1년 동안 크림만 100개 넘게 써보고 만든 크림&amp;로션 티어리스트 </td>
+          <td class="num bold">364,820</td>
+          <td class="num">0</td>
+          <td class="date">2025-05-07</td>
+          <td><a href="https://www.youtube.com/watch?v=MbfNKocP-3Y" target="_blank">▶ 보기</a></td>
         </tr></tbody>
     </table>
   </div>
@@ -632,6 +555,14 @@
       <tbody>
         <tr data-beauty="1">
           <td class="rank">1</td>
+          <td>마데카21 테카 솔루션 수딩 미스트 토너 200 ml </td>
+          <td class="num">5,000원</td>
+          <td class="num">4.8</td>
+          <td class="num">18만+</td>
+          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
+        </tr>
+        <tr data-beauty="1">
+          <td class="rank">2</td>
           <td>본셉 비타씨 동결 건조 더블샷 앰플 키트 </td>
           <td class="num">5,000원</td>
           <td class="num">4.8</td>
@@ -639,7 +570,7 @@
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="0">
-          <td class="rank">2</td>
+          <td class="rank">3</td>
           <td>에끌라 깨끗한 물티슈 150 매 (캡형) <span class="badge non-beauty">비뷰티</span></td>
           <td class="num">1,000원</td>
           <td class="num">4.8</td>
@@ -647,7 +578,7 @@
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="0">
-          <td class="rank">3</td>
+          <td class="rank">4</td>
           <td>헬로 데일리 미용티슈 280매 <span class="badge non-beauty">비뷰티</span></td>
           <td class="num">1,000원</td>
           <td class="num">4.8</td>
@@ -655,7 +586,7 @@
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
-          <td class="rank">4</td>
+          <td class="rank">5</td>
           <td>바이 리얼베리어 세라베이스 카밍 모이스처라이징 크림 50 ml </td>
           <td class="num">5,000원</td>
           <td class="num">4.8</td>
@@ -663,31 +594,7 @@
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
-          <td class="rank">5</td>
-          <td>[수분충전]VT PDRN 광채시트마스크 1매 25 g </td>
-          <td class="num">1,000원</td>
-          <td class="num">4.8</td>
-          <td class="num">15만+</td>
-          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
-        </tr>
-        <tr data-beauty="1">
           <td class="rank">6</td>
-          <td>메디필 멜라논엑스 기미크림 30 ml </td>
-          <td class="num">5,000원</td>
-          <td class="num">4.7</td>
-          <td class="num">4.3만+</td>
-          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
-        </tr>
-        <tr data-beauty="1">
-          <td class="rank">7</td>
-          <td>더랩 바이 블랑두 클리어 히알 물광 부스터 앰플 30 ml </td>
-          <td class="num">5,000원</td>
-          <td class="num">4.8</td>
-          <td class="num">5.8만+</td>
-          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
-        </tr>
-        <tr data-beauty="1">
-          <td class="rank">8</td>
           <td>본셉 레티놀 2500 IU 링클샷 퍼펙터 15 ml </td>
           <td class="num">5,000원</td>
           <td class="num">4.8</td>
@@ -695,31 +602,31 @@
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
-          <td class="rank">9</td>
-          <td>[등드름케어]VT 리들샷 비 클리어 AC 워시오프 바디미스트 150 ml </td>
+          <td class="rank">7</td>
+          <td>[수분충전]VT PDRN 광채시트마스크 1매 25 g </td>
+          <td class="num">1,000원</td>
+          <td class="num">4.8</td>
+          <td class="num">15만+</td>
+          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
+        </tr>
+        <tr data-beauty="1">
+          <td class="rank">8</td>
+          <td>메디필 멜라논엑스 기미크림 30 ml </td>
           <td class="num">5,000원</td>
-          <td class="num">4.6</td>
-          <td class="num">-</td>
+          <td class="num">4.7</td>
+          <td class="num">4.3만+</td>
+          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
+        </tr>
+        <tr data-beauty="1">
+          <td class="rank">9</td>
+          <td>더랩 바이 블랑두 클리어 히알 물광 부스터 앰플 30 ml </td>
+          <td class="num">5,000원</td>
+          <td class="num">4.8</td>
+          <td class="num">5.8만+</td>
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
           <td class="rank">10</td>
-          <td>[영양광채]VT PDRN 광채크림 50 ml </td>
-          <td class="num">5,000원</td>
-          <td class="num">4.8</td>
-          <td class="num">3.6만+</td>
-          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
-        </tr>
-        <tr data-beauty="1">
-          <td class="rank">11</td>
-          <td>[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2ml*6개입 </td>
-          <td class="num">3,000원</td>
-          <td class="num">4.9</td>
-          <td class="num">83만+</td>
-          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
-        </tr>
-        <tr data-beauty="1">
-          <td class="rank">12</td>
           <td>마데카21 테카 솔루션 수딩 크림 50 ml </td>
           <td class="num">5,000원</td>
           <td class="num">4.8</td>
@@ -727,23 +634,31 @@
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
-          <td class="rank">13</td>
-          <td>더랩 바이 블랑두 클리어 히알 물광 크림 50 ml </td>
-          <td class="num">5,000원</td>
-          <td class="num">4.8</td>
-          <td class="num">8.7만+</td>
+          <td class="rank">11</td>
+          <td>메디필 엑스트라 슈퍼 9 플러스 2.0 피지 클리너 50 ml </td>
+          <td class="num">3,000원</td>
+          <td class="num">4.7</td>
+          <td class="num">7.7만+</td>
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
-          <td class="rank">14</td>
-          <td>본셉 비타씨 휩 퍼스트 에센스 100 ml </td>
+          <td class="rank">12</td>
+          <td>[등드름케어]VT 리들샷 비 클리어 AC 워시오프 바디미스트 150 ml </td>
           <td class="num">5,000원</td>
-          <td class="num">4.7</td>
+          <td class="num">4.6</td>
           <td class="num">-</td>
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
-          <td class="rank">15</td>
+          <td class="rank">13</td>
+          <td>[영양광채]VT PDRN 광채크림 50 ml </td>
+          <td class="num">5,000원</td>
+          <td class="num">4.8</td>
+          <td class="num">3.6만+</td>
+          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
+        </tr>
+        <tr data-beauty="1">
+          <td class="rank">14</td>
           <td>본셉 레티놀 500 IU 세럼 30 ml </td>
           <td class="num">5,000원</td>
           <td class="num">4.8</td>
@@ -751,27 +666,35 @@
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
-          <td class="rank">16</td>
-          <td>케라시스 어드밴스드 리페어 헤어 팩 150 ml </td>
-          <td class="num">3,000원</td>
+          <td class="rank">15</td>
+          <td>더랩 바이 블랑두 클리어 히알 물광 크림 50 ml </td>
+          <td class="num">5,000원</td>
           <td class="num">4.8</td>
-          <td class="num">1.7만+</td>
+          <td class="num">8.7만+</td>
+          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
+        </tr>
+        <tr data-beauty="1">
+          <td class="rank">16</td>
+          <td>[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2ml*6개입 </td>
+          <td class="num">3,000원</td>
+          <td class="num">4.9</td>
+          <td class="num">83만+</td>
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
           <td class="rank">17</td>
-          <td>도브 뷰티 크림 페이스＆바디 250 ml </td>
+          <td>모다모다 블루비오틴 스칼프샴푸 300 ml </td>
           <td class="num">5,000원</td>
           <td class="num">4.7</td>
-          <td class="num">-</td>
+          <td class="num">2.4만+</td>
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
-        <tr data-beauty="1">
+        <tr data-beauty="0">
           <td class="rank">18</td>
-          <td>셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g </td>
+          <td>일본제 타나베 장인 칫솔 어금니용 미세모 2개입 <span class="badge non-beauty">비뷰티</span></td>
           <td class="num">2,000원</td>
           <td class="num">4.8</td>
-          <td class="num">31만+</td>
+          <td class="num">-</td>
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
@@ -784,30 +707,62 @@
         </tr>
         <tr data-beauty="1">
           <td class="rank">20</td>
+          <td>본셉 비타씨 휩 퍼스트 에센스 100 ml </td>
+          <td class="num">5,000원</td>
+          <td class="num">4.8</td>
+          <td class="num">-</td>
+          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
+        </tr>
+        <tr data-beauty="1">
+          <td class="rank">21</td>
+          <td>전동 발 각질 제거기 </td>
+          <td class="num">5,000원</td>
+          <td class="num">4.9</td>
+          <td class="num">-</td>
+          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
+        </tr>
+        <tr data-beauty="1">
+          <td class="rank">22</td>
+          <td>셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g </td>
+          <td class="num">2,000원</td>
+          <td class="num">4.8</td>
+          <td class="num">31만+</td>
+          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
+        </tr>
+        <tr data-beauty="1">
+          <td class="rank">23</td>
+          <td>VT 리들샷 500 페이셜 부스팅 퍼스트 앰플 2ml*8개입 </td>
+          <td class="num">5,000원</td>
+          <td class="num">4.8</td>
+          <td class="num">19만+</td>
+          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
+        </tr>
+        <tr data-beauty="0">
+          <td class="rank">24</td>
+          <td>일본제 타나베 장인칫솔 와이드 1개입 <span class="badge non-beauty">비뷰티</span></td>
+          <td class="num">2,000원</td>
+          <td class="num">4.8</td>
+          <td class="num">-</td>
+          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
+        </tr>
+        <tr data-beauty="1">
+          <td class="rank">25</td>
+          <td>마미케어 바다포도 젤리미스트 100 ml </td>
+          <td class="num">5,000원</td>
+          <td class="num">4.7</td>
+          <td class="num">-</td>
+          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
+        </tr>
+        <tr data-beauty="1">
+          <td class="rank">26</td>
           <td>파티온 노스카나인 퍼스트스텝 흔적앰플 30 ml </td>
           <td class="num">5,000원</td>
           <td class="num">4.8</td>
           <td class="num">3.4만+</td>
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
-        <tr data-beauty="1">
-          <td class="rank">21</td>
-          <td>더랩바이블랑두 클리어히알결광 스킨핏프렙 40 ml </td>
-          <td class="num">5,000원</td>
-          <td class="num">4.8</td>
-          <td class="num">-</td>
-          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
-        </tr>
         <tr data-beauty="0">
-          <td class="rank">22</td>
-          <td>템포 롤 화장지(24 m) <span class="badge non-beauty">비뷰티</span></td>
-          <td class="num">500원</td>
-          <td class="num">4.8</td>
-          <td class="num">39만+</td>
-          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
-        </tr>
-        <tr data-beauty="0">
-          <td class="rank">23</td>
+          <td class="rank">27</td>
           <td>두꺼운 빅 사이즈 엠보싱 물티슈 80매입 <span class="badge non-beauty">비뷰티</span></td>
           <td class="num">2,000원</td>
           <td class="num">4.9</td>
@@ -815,66 +770,34 @@
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
-          <td class="rank">24</td>
-          <td>[촉촉윤광]퍼피 촉촉쿠션 통퍼프 </td>
-          <td class="num">1,000원</td>
-          <td class="num">4.8</td>
-          <td class="num">7.9만+</td>
-          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
-        </tr>
-        <tr data-beauty="1">
-          <td class="rank">25</td>
-          <td>더마블록 마일드 선스틱 16 g (by 셀퓨전씨) </td>
-          <td class="num">5,000원</td>
-          <td class="num">4.8</td>
-          <td class="num">2.7만+</td>
-          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
-        </tr>
-        <tr data-beauty="1">
-          <td class="rank">26</td>
-          <td>애즈어스 시카 카밍 토너 패드 100매입 </td>
-          <td class="num">5,000원</td>
-          <td class="num">4.8</td>
-          <td class="num">9.7만+</td>
-          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
-        </tr>
-        <tr data-beauty="1">
-          <td class="rank">27</td>
-          <td>모다모다 블루비오틴 스칼프샴푸 300 ml </td>
-          <td class="num">5,000원</td>
-          <td class="num">4.8</td>
-          <td class="num">2.4만+</td>
-          <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
-        </tr>
-        <tr data-beauty="1">
           <td class="rank">28</td>
-          <td>VT 리들샷 500 페이셜 부스팅 퍼스트 앰플 2ml*8개입 </td>
+          <td>더마블록 톤업 선크림 35 ml X 마이 스윗 피아노 </td>
           <td class="num">5,000원</td>
-          <td class="num">4.8</td>
-          <td class="num">19만+</td>
+          <td class="num">5.0</td>
+          <td class="num">-</td>
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
           <td class="rank">29</td>
-          <td>클리덤 리포좀 비타민C 캡슐잡티크림 55 ml </td>
-          <td class="num">5,000원</td>
+          <td>[탄력광채]VT PDRN 광채에센스 2 ml 6개입 </td>
+          <td class="num">3,000원</td>
           <td class="num">4.8</td>
-          <td class="num">1.5만+</td>
+          <td class="num">4.2만+</td>
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr>
         <tr data-beauty="1">
           <td class="rank">30</td>
-          <td>본셉 비타씨 크림 50 ml </td>
+          <td>줌 바이 정샘물 광프렙 부스터 30 ml </td>
           <td class="num">5,000원</td>
-          <td class="num">4.8</td>
-          <td class="num">4.6만+</td>
+          <td class="num">4.7</td>
+          <td class="num">-</td>
           <td><a href="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001" target="_blank">상세 ↗</a></td>
         </tr></tbody>
     </table>
   </div>
 
   <div class="footer">
-    자동 빌드 · 2026-05-08 · build_dashboard.py · 데이터 갱신: daiso_scraper / ig_crawler / yt_crawler / influencer_eval 매일 실행
+    자동 빌드 · 2026-05-09 · build_dashboard.py · 데이터 갱신: daiso_scraper / ig_crawler / yt_crawler / influencer_eval 매일 실행
   </div>
   </div>
 </div>
@@ -890,12 +813,13 @@ function showTab(name) {
     }
   });
 }
-function filterInf(btn) {
-  document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-  btn.classList.add('active');
-  const plat = btn.dataset.plat;
-  document.querySelectorAll('#inf-table tbody tr').forEach(tr => {
-    tr.style.display = (plat === 'all' || tr.dataset.platform === plat) ? '' : 'none';
+function filterContents() {
+  const q = document.getElementById('content-search').value.toLowerCase();
+  const plat = document.getElementById('platform-filter').value;
+  document.querySelectorAll('#content-table tbody tr').forEach(tr => {
+    const matchPlat = plat === 'all' || tr.dataset.platform === plat;
+    const matchSearch = !q || tr.textContent.toLowerCase().includes(q);
+    tr.style.display = (matchPlat && matchSearch) ? '' : 'none';
   });
 }
 function filterDaiso() {
