@@ -1,0 +1,26 @@
+{
+  "platform": "youtube",
+  "username": "UCF-EIhIdEWMXg8z6FuKFuQg",
+  "fullname": "아민 ahmin",
+  "profile_url": "https://www.youtube.com/channel/UCF-EIhIdEWMXg8z6FuKFuQg",
+  "followers": 13200,
+  "avg_views": 6823.3,
+  "avg_likes": 232.7,
+  "avg_comments": 19.3,
+  "engagement_rate": 0.0341,
+  "posts_last_30d": 3,
+  "sample_size": 20,
+  "brand_fit_score": 75,
+  "retailer_focus": "mixed",
+  "retailer_signal": {
+    "daiso_mentions": "2건",
+    "olive_young_mentions": "2건",
+    "beauty_topical_strength": "medium (6건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-11T10:12:44+09:00",
+  "sample_note": "yt-dlp; views/likes from page metadata",
+  "score_total": 75.75,
+  "grade": "B",
+  "history": []
+}

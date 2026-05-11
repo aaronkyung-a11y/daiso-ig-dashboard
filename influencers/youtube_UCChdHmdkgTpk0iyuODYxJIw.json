@@ -1,0 +1,26 @@
+{
+  "platform": "youtube",
+  "username": "UCChdHmdkgTpk0iyuODYxJIw",
+  "fullname": "해니 haeni beauty",
+  "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
+  "followers": 478000,
+  "avg_views": 22567.8,
+  "avg_likes": 865.6,
+  "avg_comments": 81.8,
+  "engagement_rate": 0.0384,
+  "posts_last_30d": 5,
+  "sample_size": 20,
+  "brand_fit_score": 90,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "high (42건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-11T10:12:44+09:00",
+  "sample_note": "yt-dlp; views/likes from page metadata",
+  "score_total": 84.5,
+  "grade": "A",
+  "history": []
+}

@@ -1,0 +1,26 @@
+{
+  "platform": "youtube",
+  "username": "UC43-ROy5F2-1dVZ726gckuA",
+  "fullname": "원츄",
+  "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA",
+  "followers": 528,
+  "avg_views": 54019.3,
+  "avg_likes": 576.6,
+  "avg_comments": 15.2,
+  "engagement_rate": 0.0107,
+  "posts_last_30d": 9,
+  "sample_size": 20,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "30건",
+    "olive_young_mentions": "11건",
+    "beauty_topical_strength": "high (54건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-11T10:12:44+09:00",
+  "sample_note": "yt-dlp; views/likes from page metadata",
+  "score_total": 68.5,
+  "grade": "C",
+  "history": []
+}

@@ -1,0 +1,26 @@
+{
+  "platform": "youtube",
+  "username": "UCYxuoueMuR3f80RU_ua4TXA",
+  "fullname": "로빗 lobit🐰🫧",
+  "profile_url": "https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA",
+  "followers": 1920,
+  "avg_views": 117469.9,
+  "avg_likes": 1801.6,
+  "avg_comments": 8.6,
+  "engagement_rate": 0.0153,
+  "posts_last_30d": 2,
+  "sample_size": 20,
+  "brand_fit_score": 90,
+  "retailer_focus": "mixed",
+  "retailer_signal": {
+    "daiso_mentions": "32건",
+    "olive_young_mentions": "32건",
+    "beauty_topical_strength": "high (28건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-11T10:15:36+09:00",
+  "sample_note": "yt-dlp; views/likes from page metadata",
+  "score_total": 67.5,
+  "grade": "C",
+  "history": []
+}

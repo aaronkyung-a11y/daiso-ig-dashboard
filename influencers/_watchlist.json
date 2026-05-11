@@ -112,7 +112,22 @@
       "platform": "instagram",
       "username": "boss.lim_",
       "profile_url": "https://www.instagram.com/boss.lim_/"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC5o9Z5lgw4kk4fjDhweZxKg",
+      "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCChdHmdkgTpk0iyuODYxJIw",
+      "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
+      "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg"
     }
   ],
-  "updated_at": "2026-05-08T17:12:48+09:00"
+  "updated_at": "2026-05-11T10:17:33+09:00"
 }

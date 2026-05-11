@@ -2,32 +2,26 @@
   "platform": "youtube",
   "username": "Jinyaa",
   "fullname": "지냐 Jinyaa",
-  "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
   "profile_url": "https://www.youtube.com/@Jinyaa",
   "followers": 358000,
-  "avg_views": 69715.5,
-  "avg_likes": 1796.5,
-  "avg_comments": 426.5,
-  "engagement_rate": 0.0258,
+  "avg_views": 68549.5,
+  "avg_likes": 1913.8,
+  "avg_comments": 448.2,
+  "engagement_rate": 0.0279,
   "posts_last_30d": 6,
-  "sample_size": 6,
+  "sample_size": 20,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
     "daiso_mentions": "3건",
     "olive_young_mentions": "2건",
-    "beauty_topical_strength": "strong (32건)",
+    "beauty_topical_strength": "high (34건)",
     "labrang_blanc_doux_mention": false
   },
-  "total_score": 74.5,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 90,
-    "consistency": 80,
-    "follower_scale": 100
-  },
+  "evaluated_at": "2026-05-11T10:12:45+09:00",
+  "sample_note": "yt-dlp; views/likes from page metadata",
+  "score_total": 74.5,
   "grade": "B",
-  "evaluated_at": "2026-05-08T09:24:51+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-04T14:08:00+09:00",
@@ -273,7 +267,16 @@
       "estimation_flags": [
         "brand_fit_score (titles-based heuristic)"
       ]
+    },
+    {
+      "evaluated_at": "2026-05-08T09:24:51+09:00",
+      "score_total": 74.5,
+      "engagement_rate": 0.0258,
+      "brand_fit_score": 90,
+      "followers": 358000,
+      "posts_last_30d": 6,
+      "retailer_focus": "daiso"
     }
   ],
-  "score_total": 74.5
+  "channel_id": "UCRiIf6rt91BVfZVtURRXlOw"
 }

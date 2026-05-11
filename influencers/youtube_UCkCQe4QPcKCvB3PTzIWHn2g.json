@@ -1,0 +1,26 @@
+{
+  "platform": "youtube",
+  "username": "UCkCQe4QPcKCvB3PTzIWHn2g",
+  "fullname": "하이하쥬 hihajyu",
+  "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g",
+  "followers": 8,
+  "avg_views": 6086.8,
+  "avg_likes": 60.2,
+  "avg_comments": 0.8,
+  "engagement_rate": 0.0099,
+  "posts_last_30d": 4,
+  "sample_size": 4,
+  "brand_fit_score": 75,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "3건",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "medium (3건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-11T10:15:53+09:00",
+  "sample_note": "yt-dlp; views/likes from page metadata",
+  "score_total": 51.75,
+  "grade": "D",
+  "history": []
+}

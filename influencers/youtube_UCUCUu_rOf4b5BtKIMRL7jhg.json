@@ -1,0 +1,26 @@
+{
+  "platform": "youtube",
+  "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
+  "fullname": "뮤니",
+  "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
+  "followers": 1110,
+  "avg_views": 35092.1,
+  "avg_likes": 1143.5,
+  "avg_comments": 6.2,
+  "engagement_rate": 0.0326,
+  "posts_last_30d": 10,
+  "sample_size": 20,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "13건",
+    "olive_young_mentions": "7건",
+    "beauty_topical_strength": "high (11건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-11T10:15:37+09:00",
+  "sample_note": "yt-dlp; views/likes from page metadata",
+  "score_total": 83.5,
+  "grade": "A",
+  "history": []
+}

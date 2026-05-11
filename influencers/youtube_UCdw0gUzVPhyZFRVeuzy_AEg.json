@@ -1,0 +1,26 @@
+{
+  "platform": "youtube",
+  "username": "UCdw0gUzVPhyZFRVeuzy_AEg",
+  "fullname": "하우머치코리아 (HOWMUCH KOREA)",
+  "profile_url": "https://www.youtube.com/channel/UCdw0gUzVPhyZFRVeuzy_AEg",
+  "followers": 111000,
+  "avg_views": 59811.1,
+  "avg_likes": 837.7,
+  "avg_comments": 108.3,
+  "engagement_rate": 0.014,
+  "posts_last_30d": 0,
+  "sample_size": 20,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-11T10:16:06+09:00",
+  "sample_note": "yt-dlp; views/likes from page metadata",
+  "score_total": 52.25,
+  "grade": "D",
+  "history": []
+}
