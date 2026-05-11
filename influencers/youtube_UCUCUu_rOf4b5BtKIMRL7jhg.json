@@ -22,5 +22,29 @@
   "sample_note": "yt-dlp; views/likes from page metadata",
   "score_total": 83.5,
   "grade": "A",
-  "history": []
+  "history": [],
+  "score": {
+    "total": 83.5,
+    "breakdown": {
+      "engagement": 80,
+      "brand_fit": 90,
+      "consistency": 100,
+      "follower_scale": 60
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "total_score": 83.5,
+  "notes": "yt-dlp: 20 videos sampled, 10 in 30d window",
+  "brand_fit_notes": "daiso:13건 / oliveyoung:7건 / labrang:N",
+  "sample_data_evidence": {
+    "channel_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg"
+  },
+  "post_count_total": 20,
+  "view_to_sub_ratio": 31.6145,
+  "top_video_views": 35092.1
 }

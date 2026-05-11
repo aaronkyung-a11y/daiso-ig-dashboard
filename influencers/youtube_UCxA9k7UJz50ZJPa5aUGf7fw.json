@@ -29,5 +29,29 @@
   "grade": "B",
   "evaluated_at": "2026-05-08T10:26:33+09:00",
   "history": [],
-  "score_total": 70.75
+  "score_total": 70.75,
+  "score": {
+    "total": 70.75,
+    "breakdown": {
+      "engagement": 60,
+      "brand_fit": 75,
+      "consistency": 80,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "notes": "youtube sample: 5 items",
+  "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
+  "sample_data_evidence": {
+    "channel_url": "https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw"
+  },
+  "post_count_total": 5,
+  "view_to_sub_ratio": 0.0367,
+  "top_video_views": 11936.4,
+  "top_post_likes": 176.2
 }

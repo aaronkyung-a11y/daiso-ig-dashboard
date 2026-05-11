@@ -44,5 +44,29 @@
     }
   ],
   "score_total": 81.5,
-  "sample_note": "★ STEP B-Light rolling refresh (Fri 17:00 KST) — yt-dlp 6 videos, last 30d posts=4"
+  "sample_note": "★ STEP B-Light rolling refresh (Fri 17:00 KST) — yt-dlp 6 videos, last 30d posts=4",
+  "score": {
+    "total": 81.5,
+    "breakdown": {
+      "engagement": 80,
+      "brand_fit": 90,
+      "consistency": 60,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "notes": "youtube sample: 6 items",
+  "brand_fit_notes": "daiso:12건 / oliveyoung:11건 / labrang:N",
+  "sample_data_evidence": {
+    "channel_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg"
+  },
+  "post_count_total": 6,
+  "view_to_sub_ratio": 0.0069,
+  "top_video_views": 1206.83,
+  "top_post_likes": 40.5
 }

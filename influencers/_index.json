@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-11T10:17:01+09:00",
+  "generated_at": "2026-05-11T11:14:37+09:00",
   "count": 70,
   "retailer_focus_summary": {
-    "beauty_general": 23,
     "daiso": 18,
     "olive_young": 14,
-    "off_topic": 11,
-    "mixed": 4
+    "beauty_general": 23,
+    "mixed": 4,
+    "off_topic": 11
   },
   "records": [
     {

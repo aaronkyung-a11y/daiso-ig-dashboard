@@ -29,5 +29,29 @@
   "grade": "D",
   "evaluated_at": "2026-05-08T10:26:33+09:00",
   "history": [],
-  "score_total": 56.75
+  "score_total": 56.75,
+  "score": {
+    "total": 56.75,
+    "breakdown": {
+      "engagement": 40,
+      "brand_fit": 75,
+      "consistency": 80,
+      "follower_scale": 60
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "notes": "youtube sample: 5 items",
+  "brand_fit_notes": "daiso:3건 / oliveyoung:14건 / labrang:N",
+  "sample_data_evidence": {
+    "channel_url": "https://www.youtube.com/channel/UCH5Eg4KvlMGPNIHZJSAUH8A"
+  },
+  "post_count_total": 5,
+  "view_to_sub_ratio": 2.8122,
+  "top_video_views": 12233.2,
+  "top_post_likes": 0.0
 }

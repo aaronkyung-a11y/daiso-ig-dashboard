@@ -22,5 +22,29 @@
   "sample_note": "yt-dlp; views/likes from page metadata",
   "score_total": 42.25,
   "grade": "D",
-  "history": []
+  "history": [],
+  "score": {
+    "total": 42.25,
+    "breakdown": {
+      "engagement": 40,
+      "brand_fit": 25,
+      "consistency": 40,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "total_score": 42.25,
+  "notes": "yt-dlp: 3 videos sampled, 0 in 30d window",
+  "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
+  "sample_data_evidence": {
+    "channel_url": "https://www.youtube.com/channel/UCTjwlF8Y8hxR85JPUoZv-6A"
+  },
+  "post_count_total": 3,
+  "view_to_sub_ratio": 0.8284,
+  "top_video_views": 233596.3
 }
