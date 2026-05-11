@@ -1,0 +1,100 @@
+{
+  "platform": "instagram",
+  "username": "imttaengttaeng",
+  "fullname": "임땡땡",
+  "profile_url": "https://www.instagram.com/imttaengttaeng/",
+  "followers": 91000,
+  "following": 321,
+  "post_count_total": 52,
+  "bio": "",
+  "sample_size": 12,
+  "sample_note": "⚠️ IG 로그아웃 — 샘플 12개 제한. og:description 기반 like/comment/date 추출 (script code-based 동시 검증).",
+  "avg_likes": 9563.42,
+  "avg_comments": 43.75,
+  "engagement_rate": 0.1056,
+  "engagement_rate_status": "calculated_from_og_description (viral, capped at score 100)",
+  "posts_last_30d": 3,
+  "brand_fit_score": 75,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "medium (4건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "brand_fit_notes": "beauty medium (4건) — 패션 위주(에이블리/유니클로/영앤리치) + 1건 광고 뷰티(누블러틴트). daiso/oy 미언급.",
+  "sample_data_evidence": {
+    "likes_sample": [
+      8910,
+      1870,
+      12843,
+      7262,
+      9471,
+      42000,
+      7735,
+      5476,
+      3976,
+      11000,
+      2942,
+      1276
+    ],
+    "comments_sample": [
+      53,
+      50,
+      71,
+      39,
+      42,
+      32,
+      32,
+      27,
+      27,
+      40,
+      27,
+      85
+    ],
+    "reel_codes": [
+      "DYJsvO3GvUB",
+      "DX5qaBpmuTe",
+      "DWoWO3UGlcz",
+      "DWX0hqSj3wZ",
+      "DWRcl2-j4j6",
+      "DWB5nFYDzbP",
+      "DV_Kcg_DxLe",
+      "DVbcIfGDykP",
+      "DVLqPJbD-N4",
+      "DUpmXA8j2su",
+      "DUdKgj3D07b",
+      "DYKM6JQCzwv"
+    ],
+    "top_post": "https://www.instagram.com/p/DWB5nFYDzbP/"
+  },
+  "evaluated_at": "2026-05-11T17:08:00+09:00",
+  "notes": "신규 분석 (Form CSV) — 17:00 KST 슬롯. STEP A 처리. 로그아웃 12 cap. 패션/라이프스타일 메인 + 광고성 뷰티 노출 (#광고 #제휴링크).",
+  "score": {
+    "total": 85.75,
+    "breakdown": {
+      "engagement": 100,
+      "brand_fit": 75,
+      "consistency": 60,
+      "follower_scale": 80
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "grade": "A",
+  "avg_engagement": 9607.17,
+  "top_post_likes": 42000,
+  "history": [],
+  "score_total": 85.75,
+  "total_score": 85.75,
+  "score_breakdown": {
+    "engagement": 100,
+    "brand_fit": 75,
+    "consistency": 60,
+    "follower_scale": 80
+  }
+}

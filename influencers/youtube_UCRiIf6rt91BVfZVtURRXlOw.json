@@ -1,0 +1,124 @@
+{
+  "platform": "youtube",
+  "username": "UCRiIf6rt91BVfZVtURRXlOw",
+  "fullname": "지냐 Jinyaa",
+  "profile_url": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
+  "followers": 358000,
+  "avg_views": 83228.8,
+  "avg_likes": 1959.3,
+  "avg_comments": 419.7,
+  "engagement_rate": 0.0235,
+  "posts_last_30d": 7,
+  "sample_size": 20,
+  "brand_fit_score": 90,
+  "retailer_focus": "mixed",
+  "retailer_signal": {
+    "daiso_mentions": "44건",
+    "olive_young_mentions": "46건",
+    "beauty_topical_strength": "strong (848건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-11T17:08:00+09:00",
+  "sample_note": "yt-dlp; views/likes/comments from page metadata. 20개 영상 샘플 (30일 윈도우 평가).",
+  "score_total": 74.5,
+  "grade": "B",
+  "history": [],
+  "score": {
+    "total": 74.5,
+    "breakdown": {
+      "engagement": 60,
+      "brand_fit": 90,
+      "consistency": 80,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "total_score": 74.5,
+  "notes": "yt-dlp: 20 videos sampled. 신규 분석 (Form CSV) — 17:00 KST 슬롯. 뷰티/올리브영/다이소 콘텐츠 모두 활발한 종합 뷰튜버.",
+  "brand_fit_notes": "beauty strong (848건) / daiso:44건 / oliveyoung:46건 / labrang:N",
+  "sample_data_evidence": {
+    "channel_url": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
+    "top_video": "https://www.youtube.com/watch?v=zmCkxXUBLSE",
+    "top_video_views": 257715,
+    "videos_sampled": [
+      {
+        "id": "gisnoFuS1Yg",
+        "date": "20260504",
+        "views": 28701,
+        "likes": 955,
+        "comments": 212
+      },
+      {
+        "id": "3QEzxXUIrt4",
+        "date": "20260510",
+        "views": 39605,
+        "likes": 1834,
+        "comments": 471
+      },
+      {
+        "id": "Bbp0vGmwsjo",
+        "date": "20260505",
+        "views": 31588,
+        "likes": 780,
+        "comments": 238
+      },
+      {
+        "id": "rusfHzdNPCQ",
+        "date": "20260426",
+        "views": 65546,
+        "likes": 1765,
+        "comments": 355
+      },
+      {
+        "id": "NlQZKLPQTQs",
+        "date": "20260412",
+        "views": 66910,
+        "likes": 2173,
+        "comments": 756
+      },
+      {
+        "id": "TMNJFFuSLGM",
+        "date": "20260418",
+        "views": 184385,
+        "likes": 4127,
+        "comments": 697
+      },
+      {
+        "id": "7hFhmk2-v9I",
+        "date": "20260405",
+        "views": 35088,
+        "likes": 731,
+        "comments": 182
+      },
+      {
+        "id": "LubHaqdFPWo",
+        "date": "20260411",
+        "views": 63098,
+        "likes": 1253,
+        "comments": 313
+      },
+      {
+        "id": "UO5EYbsc5sI",
+        "date": "20260329",
+        "views": 62221,
+        "likes": 2024,
+        "comments": 667
+      },
+      {
+        "id": "dnEWewcMCvw",
+        "date": "20260327",
+        "views": 37117,
+        "likes": 1288,
+        "comments": 317
+      }
+    ]
+  },
+  "post_count_total": 20,
+  "view_to_sub_ratio": 0.2325,
+  "top_video_views": 257715
+}

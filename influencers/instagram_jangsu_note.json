@@ -3,28 +3,28 @@
   "username": "jangsu_note",
   "fullname": "장수노트",
   "profile_url": "https://www.instagram.com/jangsu_note/",
-  "followers": 9918,
+  "followers": 11000,
   "following": 0,
   "post_count_total": 44,
   "sample_size": 12,
-  "engagement_rate": 0.2298,
-  "avg_likes": 2242.17,
-  "avg_comments": 36.67,
+  "engagement_rate": 0.0496,
+  "avg_likes": 520.92,
+  "avg_comments": 24.5,
   "avg_views": null,
-  "top_post_likes": 15757,
+  "top_post_likes": 4331,
   "top_video_views": null,
   "view_to_sub_ratio": null,
-  "posts_last_30d": 9,
+  "posts_last_30d": 12,
   "posts_last_30d_estimate": null,
   "brand_fit_score": 90,
-  "brand_fit_notes": "beauty 9/daiso 15/oy 0/labrang N",
+  "brand_fit_notes": "beauty strong (18건)/daiso 21건/oy 0건/labrang N",
   "score": {
-    "total": 90.5,
+    "total": 85.5,
     "breakdown": {
-      "engagement": 100,
+      "engagement": 80,
       "brand_fit": 90,
-      "consistency": 80,
-      "follower_scale": 60
+      "consistency": 100,
+      "follower_scale": 80
     },
     "weights": {
       "engagement": 0.5,
@@ -33,28 +33,40 @@
       "follower_scale": 0.1
     }
   },
-  "score_total": 90.5,
+  "score_total": 85.5,
   "score_breakdown": {
-    "engagement": 100,
+    "engagement": 80,
     "brand_fit": 90,
-    "consistency": 80,
-    "follower_scale": 60
+    "consistency": 100,
+    "follower_scale": 80
   },
-  "grade": "S",
+  "grade": "A",
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "15건",
+    "daiso_mentions": "21건",
     "olive_young_mentions": "none",
-    "beauty_topical_strength": "high (9건)",
+    "beauty_topical_strength": "strong (18건)",
     "labrang_blanc_doux_mention": false
   },
   "collab_priority": "high",
-  "evaluated_at": "2026-05-05T17:05:00+09:00",
-  "notes": "STEP B-Light rolling refresh (Tue 17:00). Logged-out IG og:description + inline-script extraction, 12 reels (3 pinned old donation posts included).",
+  "evaluated_at": "2026-05-11T17:08:00+09:00",
+  "notes": "STEP B-Light rolling refresh (Mon 17:00 KST). 직전 분석 대비 ER 큰 폭 하락(viral content rolled off). followers 9918→11000 (+1082).",
   "estimation_flags": [
     "DVdixhdkl7A like_count via inline script (15757) replaces og:description rounded '15K'"
   ],
   "history": [
+    {
+      "evaluated_at": "2026-05-05T17:05:00+09:00",
+      "followers": 9918,
+      "engagement_rate": 0.2298,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "total_score": 90.5,
+      "grade": "S",
+      "sample_size": 12,
+      "posts_last_30d": 9,
+      "note": "snapshot before B-Light rolling refresh (17:00 KST 슬롯)"
+    },
     {
       "evaluated_at": "2026-05-04T09:28:06+09:00",
       "followers": 9553,
@@ -102,5 +114,54 @@
       "score_total": 90.5,
       "grade": "S"
     }
-  ]
+  ],
+  "sample_note": "★ STEP B-Light rolling refresh (17:00 KST 슬롯) — 로그아웃 IG (sessionid 없음, 12 cap). og:description 기반 like/comment/date.",
+  "engagement_rate_status": "calculated_from_og_description",
+  "sample_data_evidence": {
+    "likes_sample": [
+      17,
+      282,
+      167,
+      26,
+      291,
+      95,
+      90,
+      4331,
+      393,
+      327,
+      122,
+      110
+    ],
+    "comments_sample": [
+      0,
+      4,
+      22,
+      0,
+      9,
+      2,
+      2,
+      73,
+      170,
+      2,
+      10,
+      0
+    ],
+    "reel_codes": [
+      "DYJ9uRDzwJn",
+      "DYHY9z3TPvQ",
+      "DYE0JZVzw97",
+      "DYCPT2qzqzP",
+      "DX_skP4vFeD",
+      "DX9FxIBzpO1",
+      "DX38G6lTpb7",
+      "DX1XSyITc2t",
+      "DXyzuNnzvIT",
+      "DXwNxRVzm0f",
+      "DXto87pTESZ",
+      "DXrENFZTG6v"
+    ],
+    "top_reel": "https://www.instagram.com/p/DX1XSyITc2t/"
+  },
+  "avg_engagement": 545.42,
+  "total_score": 85.5
 }
