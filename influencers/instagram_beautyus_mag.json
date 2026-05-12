@@ -3,7 +3,7 @@
   "username": "beautyus_mag",
   "profile_url": "https://www.instagram.com/beautyus_mag/",
   "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
-  "followers": 87000,
+  "followers": 88000,
   "following": 273,
   "post_count_total": 3142,
   "bio": "beauty • trend • issue • etc / 뷰티라면 다 좋아 / 얇아진 지갑이 만든 에디터 취향을 담아",
@@ -18,17 +18,17 @@
   ],
   "email": "beautyusofficial@gmail.com",
   "sample_size": 12,
-  "sample_visible_likes": true,
+  "sample_visible_likes": false,
   "likes_disabled_partial": true,
-  "avg_likes": 4224.0,
-  "avg_comments": 15.0,
+  "avg_likes": 8396,
+  "avg_comments": 30,
   "engagement_rate": 0.0487,
   "top_post_likes": 8383,
   "posts_last_30d": 10,
   "brand_fit_score": 90,
   "brand_fit_notes": "beauty 13/daiso 0/oy 0/labrang N",
   "retailer_focus": "beauty_general",
-  "retailer_signal": "daiso:0, olive_young:0, beauty_kw:13",
+  "retailer_signal": "daiso:0, olive_young:0, beauty_kw:22",
   "sample_reels": [
     {
       "code": "DS84HbUgUYI",
@@ -127,7 +127,7 @@
       "date": "2026-05-03"
     }
   ],
-  "evaluated_at": "2026-05-06T17:05:00+09:00",
+  "evaluated_at": "2026-05-12T17:15:00+09:00",
   "notes": "B-Light rolling refresh. logged-out IG (sample 12, likes mostly hidden — n=2 visible). Wed 17:00 run.",
   "score": {
     "total": 75.5,
@@ -146,10 +146,9 @@
   },
   "grade": "B",
   "estimation_flags": [
-    "avg_likes (likes hidden on 10/12 — heavily estimated)",
-    "engagement_rate (n=2 visible: 1 pinned 2025 + 1 fresh — 추정)",
-    "er_score (1-bucket conservative downgrade due to small visible sample — 추정)",
-    "brand_fit_score (12-post snapshot — sample week may not reflect long-term mix)"
+    "avg_likes (12/12 in-window posts likes 숨김; ER carry-forward — 추정)",
+    "engagement_rate (carry-forward 4.87% from prior eval; 가시 표본 n=1 윈도우 밖 — 추정)",
+    "er_score (1-bucket conservative downgrade: 80→60 due to n=1 historical visible only — 추정)"
   ],
   "history": [
     {
@@ -345,6 +344,17 @@
       "brand_fit_score": 90,
       "retailer_focus": "beauty_general",
       "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-06T17:05:00+09:00",
+      "followers": 87000,
+      "engagement_rate": 0.0487,
+      "posts_last_30d": 10,
+      "sample_size": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 75.5,
+      "grade": "B"
     }
   ],
   "score_total": 75.5,
@@ -355,6 +365,92 @@
     "consistency": 100,
     "follower_scale": 80
   },
-  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
-  "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
+  "sample_note": "STEP B-Light 17:00 KST 실측 — 12 posts. 30d 윈도우 내 10건 모두 like_count 숨김 (계정 설정). 가시 like 표본은 단 1건 (2025-03-04 viral, 8396 like) — 윈도우 밖. ER 추정치 carry-forward (0.0487). brand_fit 90 (beauty 22건, 다이소 0, 올영 0). 점수 변동 없음 (75.5 → 75.5).",
+  "visible_in_window_count": 0,
+  "sample_reels_snapshot": [
+    {
+      "code": "DS84HbUgUYI",
+      "date": "December 31, 2025",
+      "like": null,
+      "cm": null,
+      "days_old": 132
+    },
+    {
+      "code": "DGxSI5EpVsE",
+      "date": "March 4, 2025",
+      "like": 8396,
+      "cm": 30,
+      "days_old": 434
+    },
+    {
+      "code": "DYN7QC2B_Mu",
+      "date": "May 11, 2026",
+      "like": null,
+      "cm": null,
+      "days_old": 1
+    },
+    {
+      "code": "DYM5F_gAcE1",
+      "date": "May 11, 2026",
+      "like": null,
+      "cm": null,
+      "days_old": 1
+    },
+    {
+      "code": "DYMox5zgT75",
+      "date": "May 11, 2026",
+      "like": null,
+      "cm": null,
+      "days_old": 1
+    },
+    {
+      "code": "DYLXBW9Erql",
+      "date": "May 10, 2026",
+      "like": null,
+      "cm": null,
+      "days_old": 2
+    },
+    {
+      "code": "DYKX_VIgbFR",
+      "date": "May 10, 2026",
+      "like": null,
+      "cm": null,
+      "days_old": 2
+    },
+    {
+      "code": "DYKXdpYgYhy",
+      "date": "May 10, 2026",
+      "like": null,
+      "cm": null,
+      "days_old": 2
+    },
+    {
+      "code": "DYKTJPsAWoN",
+      "date": "May 10, 2026",
+      "like": null,
+      "cm": null,
+      "days_old": 2
+    },
+    {
+      "code": "DYKPP7HgcGD",
+      "date": "May 10, 2026",
+      "like": null,
+      "cm": null,
+      "days_old": 2
+    },
+    {
+      "code": "DYJ913zAdNA",
+      "date": "May 10, 2026",
+      "like": null,
+      "cm": null,
+      "days_old": 2
+    },
+    {
+      "code": "DYIyJ3PAax1",
+      "date": "May 9, 2026",
+      "like": null,
+      "cm": null,
+      "days_old": 3
+    }
+  ]
 }
