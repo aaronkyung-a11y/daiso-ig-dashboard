@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-12T14:15:00+09:00",
+  "generated_at": "2026-05-12T17:15:00+09:00",
   "total_records": 74,
   "retailer_focus_distribution": {
-    "beauty_general": 15,
     "daiso": 22,
     "olive_young": 20,
-    "off_topic": 13,
+    "beauty_general": 15,
     "mixed": 2,
+    "off_topic": 13,
     "our_brand": 2
   },
   "grade_distribution": {
-    "C": 21,
     "S": 2,
-    "B": 37,
     "A": 11,
+    "B": 37,
+    "C": 21,
     "D": 3
   },
   "records": [
@@ -22,22 +22,22 @@
       "username": "beauty_piona",
       "fullname": "문혜경",
       "profile_url": "https://www.instagram.com/beauty_piona/",
-      "followers": 6199,
-      "engagement_rate": 0.1172,
+      "followers": 6222,
+      "engagement_rate": 0.112,
       "posts_last_30d": 10,
       "sample_size": 12,
       "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "18건",
+        "daiso_mentions": "14건",
         "olive_young_mentions": "none",
-        "beauty_topical_strength": "high (43건)",
+        "beauty_topical_strength": "strong (37건)",
         "labrang_blanc_doux_mention": false
       },
-      "evaluated_at": "2026-05-06T17:05:00+09:00",
+      "evaluated_at": "2026-05-12T17:15:00+09:00",
       "score_total": 93.5,
       "grade": "S",
-      "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
+      "sample_note": "STEP B-Light 17:00 KST 실측 — 12 reels (incl 3 pinned: Nov/Jan/Apr). ER 산출은 30d 윈도우 내 10건 사용 (April 12 boundary 포함, 2 pinned 제외). 다이소 14건 / 뷰티 키워드 37건. like/cm/taken_at 12/12 추출 성공. 점수 변동 없음 (93.5 → 93.5)."
     },
     {
       "platform": "instagram",
@@ -330,17 +330,17 @@
       "username": "beautyus_mag",
       "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
       "profile_url": "https://www.instagram.com/beautyus_mag/",
-      "followers": 87000,
+      "followers": 88000,
       "engagement_rate": 0.0487,
       "posts_last_30d": 10,
       "sample_size": 12,
       "brand_fit_score": 90,
       "retailer_focus": "beauty_general",
-      "retailer_signal": "daiso:0, olive_young:0, beauty_kw:13",
-      "evaluated_at": "2026-05-06T17:05:00+09:00",
+      "retailer_signal": "daiso:0, olive_young:0, beauty_kw:22",
+      "evaluated_at": "2026-05-12T17:15:00+09:00",
       "score_total": 75.5,
       "grade": "B",
-      "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
+      "sample_note": "STEP B-Light 17:00 KST 실측 — 12 posts. 30d 윈도우 내 10건 모두 like_count 숨김 (계정 설정). 가시 like 표본은 단 1건 (2025-03-04 viral, 8396 like) — 윈도우 밖. ER 추정치 carry-forward (0.0487). brand_fit 90 (beauty 22건, 다이소 0, 올영 0). 점수 변동 없음 (75.5 → 75.5)."
     },
     {
       "platform": "youtube",
