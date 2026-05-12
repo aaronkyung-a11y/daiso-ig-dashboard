@@ -183,6 +183,16 @@
       "grade": "S",
       "brand_fit_score": 95,
       "retailer_focus": "daiso"
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 92.5,
+      "engagement_rate": 0.5241,
+      "followers": 10000,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "note": "snapshot_only (no live refetch)"
     }
   ],
   "brand_fit_score": 90,
@@ -247,5 +257,7 @@
     "brand_fit": 90,
     "consistency": 80,
     "follower_scale": 80
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
 }

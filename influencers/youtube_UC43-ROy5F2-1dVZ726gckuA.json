@@ -19,10 +19,21 @@
     "labrang_blanc_doux_mention": false
   },
   "evaluated_at": "2026-05-11T10:12:44+09:00",
-  "sample_note": "yt-dlp; views/likes from page metadata",
+  "sample_note": "yt-dlp; views/likes from page metadata | STEP B 10시: yt-dlp 재페치 실패 — 기존 스코어 유지 (snapshot only)",
   "score_total": 68.5,
   "grade": "C",
-  "history": [],
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 68.5,
+      "engagement_rate": 0.0107,
+      "followers": 528,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "note": "snapshot_only (no live refetch)"
+    }
+  ],
   "score": {
     "total": 68.5,
     "breakdown": {
@@ -46,5 +57,6 @@
   },
   "post_count_total": 20,
   "view_to_sub_ratio": 102.3093,
-  "top_video_views": 54019.3
+  "top_video_views": 54019.3,
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

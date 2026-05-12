@@ -8,7 +8,7 @@
   "post_count_total": 625,
   "bio": "",
   "sample_size": 8,
-  "sample_note": "8 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+  "sample_note": "8 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
   "avg_likes": 3863.88,
   "avg_comments": 89.38,
   "avg_engagement": 3953.26,
@@ -76,7 +76,18 @@
     }
   },
   "grade": "B",
-  "history": [],
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 71.25,
+      "engagement_rate": 0.0879,
+      "followers": 45000,
+      "posts_last_30d": 6,
+      "brand_fit_score": 25,
+      "retailer_focus": "daiso",
+      "note": "snapshot_only (no live refetch)"
+    }
+  ],
   "score_total": 71.25,
   "total_score": 71.25,
   "score_breakdown": {
@@ -84,5 +95,6 @@
     "brand_fit": 25,
     "consistency": 80,
     "follower_scale": 80
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

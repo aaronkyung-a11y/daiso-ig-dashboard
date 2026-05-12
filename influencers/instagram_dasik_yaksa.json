@@ -8,7 +8,7 @@
   "post_count_total": 906,
   "bio": "",
   "sample_size": 12,
-  "sample_note": "★ STEP B-Light rolling refresh — 로그아웃 (sessionid 없음, 12 cap). og:description 기반 like/comment/date 추출 (SPA 캐시 contamination 회피). 캡션 키워드 분석은 og:description의 caption 일부로 수행 (full text 일부만 보일 수 있음 → brand_fit는 추정 가능성 있음).",
+  "sample_note": "★ STEP B-Light rolling refresh — 로그아웃 (sessionid 없음, 12 cap). og:description 기반 like/comment/date 추출 (SPA 캐시 contamination 회피). 캡션 키워드 분석은 og:description의 caption 일부로 수행 (full text 일부만 보일 수 있음 → brand_fit는 추정 가능성 있음). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
   "avg_likes": 213.0,
   "avg_comments": 29.33,
   "engagement_rate": 0.0024,
@@ -140,6 +140,16 @@
         "total_score": null,
         "grade": "C"
       }
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 60.0,
+      "engagement_rate": 0.0024,
+      "followers": 103000,
+      "posts_last_30d": 10,
+      "brand_fit_score": 60,
+      "retailer_focus": "daiso",
+      "note": "snapshot_only (no live refetch)"
     }
   ],
   "score_total": 60.0,
@@ -149,5 +159,6 @@
     "brand_fit": 60,
     "consistency": 100,
     "follower_scale": 100
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

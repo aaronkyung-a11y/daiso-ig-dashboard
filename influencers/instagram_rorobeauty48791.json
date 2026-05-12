@@ -230,6 +230,16 @@
       ],
       "brand_fit_score": 85,
       "brand_fit_notes": "하이라이트에 '다이소' 카테고리 직접 노출. 뷰티/스킨케어/올리브영 captions 다수. 더랩바이블랑두 직접 언급 미발견."
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 79.0,
+      "engagement_rate": 0.0791,
+      "followers": 157000,
+      "posts_last_30d": 4,
+      "brand_fit_score": 60,
+      "retailer_focus": "olive_young",
+      "note": "snapshot_only (no live refetch)"
     }
   ],
   "brand_fit_score": 60,
@@ -280,5 +290,7 @@
     "brand_fit": 60,
     "consistency": 60,
     "follower_scale": 100
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
 }

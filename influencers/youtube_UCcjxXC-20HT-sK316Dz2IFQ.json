@@ -5,19 +5,19 @@
   "channel_id": "UCcjxXC-20HT-sK316Dz2IFQ",
   "profile_url": "https://www.youtube.com/channel/UCcjxXC-20HT-sK316Dz2IFQ",
   "followers": 441,
-  "avg_views": 13767.0,
+  "avg_views": 20745,
   "avg_likes": 87.2,
   "avg_comments": 6.2,
-  "engagement_rate": 0.0063,
+  "engagement_rate": 0.9368,
   "posts_last_30d": 0,
-  "sample_size": 5,
-  "brand_fit_score": 60,
-  "retailer_focus": "daiso",
+  "sample_size": 12,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
   "retailer_signal": {
-    "daiso_mentions": "8건",
-    "olive_young_mentions": "1건",
-    "beauty_topical_strength": "low (2건)",
-    "labrang_blanc_doux_mention": false
+    "daiso_count": 66,
+    "olive_young_count": 1,
+    "beauty_keyword_count": 16,
+    "our_brand_present": true
   },
   "total_score": 45.0,
   "score_breakdown": {
@@ -26,10 +26,20 @@
     "consistency": 40,
     "follower_scale": 40
   },
-  "grade": "D",
-  "evaluated_at": "2026-05-08T10:26:33+09:00",
-  "history": [],
-  "score_total": 45.0,
+  "grade": "C",
+  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 55.0,
+      "engagement_rate": 0.9368,
+      "followers": 441,
+      "posts_last_30d": 0,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand"
+    }
+  ],
+  "score_total": 55.0,
   "score": {
     "total": 45.0,
     "breakdown": {
@@ -53,5 +63,6 @@
   "post_count_total": 5,
   "view_to_sub_ratio": 31.2177,
   "top_video_views": 13767.0,
-  "top_post_likes": 87.2
+  "top_post_likes": 87.2,
+  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
 }

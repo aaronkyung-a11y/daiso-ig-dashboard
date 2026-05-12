@@ -4,25 +4,35 @@
   "fullname": "하우머치코리아 (HOWMUCH KOREA)",
   "profile_url": "https://www.youtube.com/channel/UCdw0gUzVPhyZFRVeuzy_AEg",
   "followers": 111000,
-  "avg_views": 59811.1,
+  "avg_views": 79488,
   "avg_likes": 837.7,
   "avg_comments": 108.3,
-  "engagement_rate": 0.014,
+  "engagement_rate": 1.5487,
   "posts_last_30d": 0,
-  "sample_size": 20,
+  "sample_size": 12,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso_mentions": "none",
-    "olive_young_mentions": "none",
-    "beauty_topical_strength": "none (0건)",
-    "labrang_blanc_doux_mention": false
+    "daiso_count": 0,
+    "olive_young_count": 0,
+    "beauty_keyword_count": 0,
+    "our_brand_present": false
   },
-  "evaluated_at": "2026-05-11T10:16:06+09:00",
-  "sample_note": "yt-dlp; views/likes from page metadata",
-  "score_total": 52.25,
-  "grade": "D",
-  "history": [],
+  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
+  "score_total": 52.2,
+  "grade": "C",
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 52.2,
+      "engagement_rate": 1.5487,
+      "followers": 111000,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic"
+    }
+  ],
   "score": {
     "total": 52.25,
     "breakdown": {

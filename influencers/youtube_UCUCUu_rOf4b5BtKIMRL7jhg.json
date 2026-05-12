@@ -4,25 +4,35 @@
   "fullname": "뮤니",
   "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
   "followers": 1110,
-  "avg_views": 35092.1,
+  "avg_views": 34526,
   "avg_likes": 1143.5,
   "avg_comments": 6.2,
-  "engagement_rate": 0.0326,
+  "engagement_rate": 3.199,
   "posts_last_30d": 10,
-  "sample_size": 20,
-  "brand_fit_score": 90,
+  "sample_size": 12,
+  "brand_fit_score": 75,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "13건",
-    "olive_young_mentions": "7건",
-    "beauty_topical_strength": "high (11건)",
-    "labrang_blanc_doux_mention": false
+    "daiso_count": 10,
+    "olive_young_count": 3,
+    "beauty_keyword_count": 6,
+    "our_brand_present": false
   },
-  "evaluated_at": "2026-05-11T10:15:37+09:00",
-  "sample_note": "yt-dlp; views/likes from page metadata",
-  "score_total": 83.5,
+  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
+  "score_total": 79.8,
   "grade": "A",
-  "history": [],
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 79.8,
+      "engagement_rate": 3.199,
+      "followers": 1110,
+      "posts_last_30d": 10,
+      "brand_fit_score": 75,
+      "retailer_focus": "daiso"
+    }
+  ],
   "score": {
     "total": 83.5,
     "breakdown": {

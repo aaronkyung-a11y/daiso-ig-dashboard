@@ -183,6 +183,16 @@
       "grade": "D",
       "brand_fit_score": 25,
       "retailer_focus": "off_topic"
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 51.25,
+      "engagement_rate": 0.0223,
+      "followers": 1636,
+      "posts_last_30d": 3,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "note": "snapshot_only (no live refetch)"
     }
   ],
   "brand_fit_score": 25,
@@ -248,6 +258,7 @@
     "consistency": 60,
     "follower_scale": 60
   },
-  "sample_note": "★ STEP B-Light rolling refresh (17:00 KST 슬롯) — 로그아웃 IG (12 cap). og:description 기반.",
-  "engagement_rate_status": "calculated_from_og_description"
+  "sample_note": "★ STEP B-Light rolling refresh (17:00 KST 슬롯) — 로그아웃 IG (12 cap). og:description 기반. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
+  "engagement_rate_status": "calculated_from_og_description",
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

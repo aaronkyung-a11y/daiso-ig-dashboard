@@ -8,7 +8,7 @@
   "post_count_total": 770,
   "bio": "",
   "sample_size": 4,
-  "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). B-Light fast pass.",
+  "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). B-Light fast pass. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
   "avg_likes": 23556.5,
   "avg_comments": 338.0,
   "avg_engagement": 23894.5,
@@ -139,6 +139,16 @@
       "brand_fit_score": 25,
       "retailer_focus": "olive_young",
       "sample_size": 6
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 65.25,
+      "engagement_rate": 0.0333,
+      "followers": 718000,
+      "posts_last_30d": 4,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "note": "snapshot_only (no live refetch)"
     }
   ],
   "score_total": 65.25,
@@ -148,5 +158,6 @@
     "brand_fit": 25,
     "consistency": 60,
     "follower_scale": 100
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

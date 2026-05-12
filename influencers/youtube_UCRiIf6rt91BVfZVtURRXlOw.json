@@ -4,25 +4,35 @@
   "fullname": "지냐 Jinyaa",
   "profile_url": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
   "followers": 358000,
-  "avg_views": 83228.8,
+  "avg_views": 59764,
   "avg_likes": 1959.3,
   "avg_comments": 419.7,
-  "engagement_rate": 0.0235,
-  "posts_last_30d": 7,
-  "sample_size": 20,
+  "engagement_rate": 3.3055,
+  "posts_last_30d": 5,
+  "sample_size": 12,
   "brand_fit_score": 90,
-  "retailer_focus": "mixed",
+  "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "44건",
-    "olive_young_mentions": "46건",
-    "beauty_topical_strength": "strong (848건)",
-    "labrang_blanc_doux_mention": false
+    "daiso_count": 43,
+    "olive_young_count": 20,
+    "beauty_keyword_count": 488,
+    "our_brand_present": false
   },
-  "evaluated_at": "2026-05-11T17:08:00+09:00",
-  "sample_note": "yt-dlp; views/likes/comments from page metadata. 20개 영상 샘플 (30일 윈도우 평가).",
-  "score_total": 74.5,
-  "grade": "B",
-  "history": [],
+  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
+  "score_total": 84.5,
+  "grade": "A",
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 84.5,
+      "engagement_rate": 3.3055,
+      "followers": 358000,
+      "posts_last_30d": 5,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso"
+    }
+  ],
   "score": {
     "total": 74.5,
     "breakdown": {

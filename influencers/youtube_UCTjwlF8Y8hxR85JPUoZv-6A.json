@@ -4,25 +4,35 @@
   "fullname": "김밍 KIMMING",
   "profile_url": "https://www.youtube.com/channel/UCTjwlF8Y8hxR85JPUoZv-6A",
   "followers": 282000,
-  "avg_views": 233596.3,
+  "avg_views": 233748,
   "avg_likes": 1038.0,
   "avg_comments": 190.3,
-  "engagement_rate": 0.0044,
+  "engagement_rate": 0.5255,
   "posts_last_30d": 0,
   "sample_size": 3,
-  "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
   "retailer_signal": {
-    "daiso_mentions": "none",
-    "olive_young_mentions": "none",
-    "beauty_topical_strength": "none (0건)",
-    "labrang_blanc_doux_mention": false
+    "daiso_count": 0,
+    "olive_young_count": 0,
+    "beauty_keyword_count": 2,
+    "our_brand_present": false
   },
-  "evaluated_at": "2026-05-11T10:12:25+09:00",
-  "sample_note": "yt-dlp; views/likes from page metadata",
-  "score_total": 42.25,
-  "grade": "D",
-  "history": [],
+  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": "STEP B 풀 재분석. likes 추출 2/3 (JS런타임 없음 → 일부 0)",
+  "score_total": 51.0,
+  "grade": "C",
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 51.0,
+      "engagement_rate": 0.5255,
+      "followers": 282000,
+      "posts_last_30d": 0,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general"
+    }
+  ],
   "score": {
     "total": 42.25,
     "breakdown": {

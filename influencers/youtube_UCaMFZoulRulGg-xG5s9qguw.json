@@ -5,19 +5,19 @@
   "channel_id": "UCaMFZoulRulGg-xG5s9qguw",
   "profile_url": "https://www.youtube.com/channel/UCaMFZoulRulGg-xG5s9qguw",
   "followers": 6680,
-  "avg_views": 16.6,
+  "avg_views": 17,
   "avg_likes": 1.4,
   "avg_comments": 0.0,
-  "engagement_rate": 0.0843,
+  "engagement_rate": 8.4507,
   "posts_last_30d": 0,
-  "sample_size": 5,
-  "brand_fit_score": 60,
-  "retailer_focus": "beauty_general",
+  "sample_size": 4,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso_mentions": "none",
-    "olive_young_mentions": "none",
-    "beauty_topical_strength": "low (1건)",
-    "labrang_blanc_doux_mention": false
+    "daiso_count": 0,
+    "olive_young_count": 0,
+    "beauty_keyword_count": 0,
+    "our_brand_present": false
   },
   "total_score": 72.0,
   "score_breakdown": {
@@ -27,9 +27,19 @@
     "follower_scale": 60
   },
   "grade": "B",
-  "evaluated_at": "2026-05-08T10:26:33+09:00",
-  "history": [],
-  "score_total": 72.0,
+  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 63.2,
+      "engagement_rate": 8.4507,
+      "followers": 6680,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic"
+    }
+  ],
+  "score_total": 63.2,
   "score": {
     "total": 72.0,
     "breakdown": {
@@ -53,5 +63,6 @@
   "post_count_total": 5,
   "view_to_sub_ratio": 0.0025,
   "top_video_views": 16.6,
-  "top_post_likes": 1.4
+  "top_post_likes": 1.4,
+  "sample_note": "STEP B 풀 재분석. likes 추출 3/4 (JS런타임 없음 → 일부 0)"
 }

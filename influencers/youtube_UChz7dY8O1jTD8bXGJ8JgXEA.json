@@ -1,0 +1,39 @@
+{
+  "platform": "youtube",
+  "username": "UChz7dY8O1jTD8bXGJ8JgXEA",
+  "fullname": "다이소",
+  "profile_url": "https://www.youtube.com/channel/UChz7dY8O1jTD8bXGJ8JgXEA",
+  "followers": 89900,
+  "engagement_rate": 2.4505,
+  "posts_last_30d": 9,
+  "sample_size": 18,
+  "brand_fit_score": 75,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_count": 87,
+    "olive_young_count": 0,
+    "beauty_keyword_count": 6,
+    "our_brand_present": false
+  },
+  "evaluated_at": "2026-05-12T10:05:00+09:00",
+  "score_total": 68.8,
+  "grade": "B",
+  "sample_note": "정상 수집",
+  "subcomponents": {
+    "er_score": 60,
+    "brand_fit_score": 75,
+    "posts_score": 80,
+    "followers_score": 80
+  },
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:05:00+09:00",
+      "score_total": 68.8,
+      "engagement_rate": 2.4505,
+      "followers": 89900,
+      "posts_last_30d": 9,
+      "brand_fit_score": 75,
+      "retailer_focus": "daiso"
+    }
+  ]
+}

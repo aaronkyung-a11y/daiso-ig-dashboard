@@ -5,19 +5,19 @@
   "channel_id": "UCNOA-IwgMAatMFGwdB5n-2Q",
   "profile_url": "https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q",
   "followers": 10500,
-  "avg_views": 19802.4,
+  "avg_views": 20683,
   "avg_likes": 548.4,
   "avg_comments": 41.4,
-  "engagement_rate": 0.0277,
-  "posts_last_30d": 3,
-  "sample_size": 5,
-  "brand_fit_score": 25,
+  "engagement_rate": 2.9742,
+  "posts_last_30d": 2,
+  "sample_size": 6,
+  "brand_fit_score": 60,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "1건",
-    "olive_young_mentions": "none",
-    "beauty_topical_strength": "none (0건)",
-    "labrang_blanc_doux_mention": false
+    "daiso_count": 9,
+    "olive_young_count": 0,
+    "beauty_keyword_count": 2,
+    "our_brand_present": false
   },
   "total_score": 53.25,
   "score_breakdown": {
@@ -26,10 +26,20 @@
     "consistency": 60,
     "follower_scale": 80
   },
-  "grade": "D",
-  "evaluated_at": "2026-05-08T10:26:33+09:00",
-  "history": [],
-  "score_total": 53.25,
+  "grade": "B",
+  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 62.0,
+      "engagement_rate": 2.9742,
+      "followers": 10500,
+      "posts_last_30d": 2,
+      "brand_fit_score": 60,
+      "retailer_focus": "daiso"
+    }
+  ],
+  "score_total": 62.0,
   "score": {
     "total": 53.25,
     "breakdown": {
@@ -53,5 +63,6 @@
   "post_count_total": 5,
   "view_to_sub_ratio": 1.8859,
   "top_video_views": 19802.4,
-  "top_post_likes": 548.4
+  "top_post_likes": 548.4,
+  "sample_note": "STEP B 풀 재분석. likes 추출 6/6 (JS런타임 없음 → 일부 0)"
 }

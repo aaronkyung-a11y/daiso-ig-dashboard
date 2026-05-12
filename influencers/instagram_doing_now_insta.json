@@ -8,7 +8,7 @@
   "post_count_total": 506,
   "bio": "",
   "sample_size": 1,
-  "sample_note": "1 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+  "sample_note": "1 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
   "avg_likes": 214.0,
   "avg_comments": 34.0,
   "avg_engagement": 248.0,
@@ -55,7 +55,18 @@
     }
   },
   "grade": "C",
-  "history": [],
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 62.75,
+      "engagement_rate": 0.0124,
+      "followers": 20000,
+      "posts_last_30d": 0,
+      "brand_fit_score": 75,
+      "retailer_focus": "beauty_general",
+      "note": "snapshot_only (no live refetch)"
+    }
+  ],
   "score_total": 62.75,
   "total_score": 62.75,
   "score_breakdown": {
@@ -63,5 +74,6 @@
     "brand_fit": 75,
     "consistency": 40,
     "follower_scale": 80
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

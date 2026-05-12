@@ -113,9 +113,19 @@
       "retailer_focus": "daiso",
       "score_total": 90.5,
       "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 85.5,
+      "engagement_rate": 0.0496,
+      "followers": 11000,
+      "posts_last_30d": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "note": "snapshot_only (no live refetch)"
     }
   ],
-  "sample_note": "★ STEP B-Light rolling refresh (17:00 KST 슬롯) — 로그아웃 IG (sessionid 없음, 12 cap). og:description 기반 like/comment/date.",
+  "sample_note": "★ STEP B-Light rolling refresh (17:00 KST 슬롯) — 로그아웃 IG (sessionid 없음, 12 cap). og:description 기반 like/comment/date. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
   "engagement_rate_status": "calculated_from_og_description",
   "sample_data_evidence": {
     "likes_sample": [
@@ -163,5 +173,6 @@
     "top_reel": "https://www.instagram.com/p/DX1XSyITc2t/"
   },
   "avg_engagement": 545.42,
-  "total_score": 85.5
+  "total_score": 85.5,
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

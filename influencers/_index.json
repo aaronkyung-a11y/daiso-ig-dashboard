@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-05-11T17:10:00+09:00",
-  "count": 72,
+  "generated_at": "2026-05-12T10:15:00+09:00",
+  "count": 74,
   "retailer_focus_summary": {
-    "beauty_general": 24,
-    "daiso": 18,
-    "olive_young": 14,
-    "off_topic": 11,
-    "mixed": 5
+    "beauty_general": 15,
+    "daiso": 22,
+    "olive_young": 20,
+    "off_topic": 13,
+    "mixed": 2,
+    "our_brand": 2
   },
   "records": [
     {
@@ -19,7 +20,7 @@
       "post_count_total": 494,
       "bio": "",
       "sample_size": 4,
-      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 178.75,
       "avg_comments": 10.0,
       "avg_engagement": 188.75,
@@ -75,7 +76,18 @@
         }
       },
       "grade": "C",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 55.75,
+          "engagement_rate": 0.0034,
+          "followers": 56000,
+          "posts_last_30d": 4,
+          "brand_fit_score": 75,
+          "retailer_focus": "beauty_general",
+          "note": "snapshot_only (no live refetch)"
+        }
+      ],
       "score_total": 55.75,
       "total_score": 55.75,
       "score_breakdown": {
@@ -83,7 +95,8 @@
         "brand_fit": 75,
         "consistency": 60,
         "follower_scale": 80
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -238,6 +251,16 @@
           "grade": "S",
           "score_total": 93.5,
           "posts_last_30d": 10
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 93.5,
+          "engagement_rate": 0.1172,
+          "followers": 6199,
+          "posts_last_30d": 10,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
       "estimation_flags": [
@@ -250,7 +273,9 @@
         "brand_fit": 90,
         "consistency": 100,
         "follower_scale": 60
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
     },
     {
       "platform": "instagram",
@@ -589,6 +614,16 @@
           "grade": "B",
           "score_total": 72.5,
           "posts_last_30d": "추정 — sample 4 taken_at 모두 직전 1.3일 내, 30일 환산 ≥30 추정"
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 75.5,
+          "engagement_rate": 0.0487,
+          "followers": 87000,
+          "posts_last_30d": 10,
+          "brand_fit_score": 90,
+          "retailer_focus": "beauty_general",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
       "score_total": 75.5,
@@ -598,7 +633,9 @@
         "brand_fit": 90,
         "consistency": 100,
         "follower_scale": 80
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
     },
     {
       "platform": "instagram",
@@ -610,7 +647,7 @@
       "post_count_total": 37,
       "bio": "",
       "sample_size": 1,
-      "sample_note": "1 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+      "sample_note": "1 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 20.0,
       "avg_comments": 1.0,
       "avg_engagement": 21.0,
@@ -657,7 +694,18 @@
         }
       },
       "grade": "B",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 68.75,
+          "engagement_rate": 0.0355,
+          "followers": 592,
+          "posts_last_30d": 1,
+          "brand_fit_score": 75,
+          "retailer_focus": "daiso",
+          "note": "snapshot_only (no live refetch)"
+        }
+      ],
       "score_total": 68.75,
       "total_score": 68.75,
       "score_breakdown": {
@@ -665,7 +713,8 @@
         "brand_fit": 75,
         "consistency": 40,
         "follower_scale": 40
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -962,6 +1011,16 @@
             "total_score": null,
             "grade": "B"
           }
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 72.5,
+          "engagement_rate": 0.0102,
+          "followers": 22000,
+          "posts_last_30d": 4,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
       "score_total": 72.5,
@@ -971,7 +1030,9 @@
         "brand_fit": 90,
         "consistency": 80,
         "follower_scale": 80
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
     },
     {
       "platform": "instagram",
@@ -983,7 +1044,7 @@
       "post_count_total": 61,
       "bio": "",
       "sample_size": 4,
-      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 1010.5,
       "avg_comments": 8.25,
       "avg_engagement": 1018.75,
@@ -1039,7 +1100,18 @@
         }
       },
       "grade": "A",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 87.5,
+          "engagement_rate": 0.6547,
+          "followers": 1556,
+          "posts_last_30d": 4,
+          "brand_fit_score": 90,
+          "retailer_focus": "beauty_general",
+          "note": "snapshot_only (no live refetch)"
+        }
+      ],
       "score_total": 87.5,
       "total_score": 87.5,
       "score_breakdown": {
@@ -1047,7 +1119,8 @@
         "brand_fit": 90,
         "consistency": 60,
         "follower_scale": 60
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -1059,7 +1132,7 @@
       "post_count_total": 488,
       "bio": "",
       "sample_size": 4,
-      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 4317.0,
       "avg_comments": 15.5,
       "avg_engagement": 4332.5,
@@ -1115,7 +1188,18 @@
         }
       },
       "grade": "C",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 62.25,
+          "engagement_rate": 0.0307,
+          "followers": 141000,
+          "posts_last_30d": 1,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic",
+          "note": "snapshot_only (no live refetch)"
+        }
+      ],
       "score_total": 62.25,
       "total_score": 62.25,
       "score_breakdown": {
@@ -1123,7 +1207,8 @@
         "brand_fit": 25,
         "consistency": 40,
         "follower_scale": 100
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -1135,7 +1220,7 @@
       "post_count_total": 906,
       "bio": "",
       "sample_size": 12,
-      "sample_note": "★ STEP B-Light rolling refresh — 로그아웃 (sessionid 없음, 12 cap). og:description 기반 like/comment/date 추출 (SPA 캐시 contamination 회피). 캡션 키워드 분석은 og:description의 caption 일부로 수행 (full text 일부만 보일 수 있음 → brand_fit는 추정 가능성 있음).",
+      "sample_note": "★ STEP B-Light rolling refresh — 로그아웃 (sessionid 없음, 12 cap). og:description 기반 like/comment/date 추출 (SPA 캐시 contamination 회피). 캡션 키워드 분석은 og:description의 caption 일부로 수행 (full text 일부만 보일 수 있음 → brand_fit는 추정 가능성 있음). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 213.0,
       "avg_comments": 29.33,
       "engagement_rate": 0.0024,
@@ -1267,6 +1352,16 @@
             "total_score": null,
             "grade": "C"
           }
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 60.0,
+          "engagement_rate": 0.0024,
+          "followers": 103000,
+          "posts_last_30d": 10,
+          "brand_fit_score": 60,
+          "retailer_focus": "daiso",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
       "score_total": 60.0,
@@ -1276,7 +1371,8 @@
         "brand_fit": 60,
         "consistency": 100,
         "follower_scale": 100
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -1288,7 +1384,7 @@
       "post_count_total": 506,
       "bio": "",
       "sample_size": 1,
-      "sample_note": "1 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+      "sample_note": "1 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 214.0,
       "avg_comments": 34.0,
       "avg_engagement": 248.0,
@@ -1335,7 +1431,18 @@
         }
       },
       "grade": "C",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 62.75,
+          "engagement_rate": 0.0124,
+          "followers": 20000,
+          "posts_last_30d": 0,
+          "brand_fit_score": 75,
+          "retailer_focus": "beauty_general",
+          "note": "snapshot_only (no live refetch)"
+        }
+      ],
       "score_total": 62.75,
       "total_score": 62.75,
       "score_breakdown": {
@@ -1343,7 +1450,8 @@
         "brand_fit": 75,
         "consistency": 40,
         "follower_scale": 80
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -1355,7 +1463,7 @@
       "post_count_total": 305,
       "bio": "",
       "sample_size": 12,
-      "sample_note": "★ STEP B-Light rolling refresh — 로그아웃 (sessionid 없음, 12 cap). og:description 기반 like/comment/date 추출.",
+      "sample_note": "★ STEP B-Light rolling refresh — 로그아웃 (sessionid 없음, 12 cap). og:description 기반 like/comment/date 추출. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 2121.25,
       "avg_comments": 21.67,
       "engagement_rate": 1.1374,
@@ -1491,6 +1599,16 @@
           "score": 93.5,
           "grade": "S",
           "note": "B-Light 14:00 KST refresh — 로그아웃 프로필 헤더 갱신: followers 1884 → 1929 (+45). reel 데이터는 직전 분석 유지."
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 93.5,
+          "engagement_rate": 1.1374,
+          "followers": 1929,
+          "posts_last_30d": 10,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
       "score_total": 93.5,
@@ -1500,7 +1618,8 @@
         "brand_fit": 90,
         "consistency": 100,
         "follower_scale": 60
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -1512,7 +1631,7 @@
       "post_count_total": 2963,
       "bio": "",
       "sample_size": 4,
-      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). B-Light fast pass.",
+      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). B-Light fast pass. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 349.5,
       "avg_comments": 22.75,
       "avg_engagement": 372.25,
@@ -1617,6 +1736,16 @@
           "brand_fit_score": 25,
           "retailer_focus": "olive_young",
           "sample_size": 7
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 61.5,
+          "engagement_rate": 0.0026,
+          "followers": 141000,
+          "posts_last_30d": 4,
+          "brand_fit_score": 90,
+          "retailer_focus": "beauty_general",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
       "score_total": 61.5,
@@ -1626,7 +1755,8 @@
         "brand_fit": 90,
         "consistency": 60,
         "follower_scale": 100
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -1638,7 +1768,7 @@
       "post_count_total": 13,
       "bio": "기초&베이스 덕후",
       "sample_size": 0,
-      "sample_note": "로그아웃 fast pass — IG 프로필 헤더만 접근, reel 개별 likes/comments 데이터 없음. ER 점수는 추정.",
+      "sample_note": "로그아웃 fast pass — IG 프로필 헤더만 접근, reel 개별 likes/comments 데이터 없음. ER 점수는 추정. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": null,
       "avg_comments": null,
       "avg_engagement": null,
@@ -1688,6 +1818,16 @@
           "score": 50.0,
           "grade": "D",
           "note": "initial (logged-out fast pass)"
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 50.0,
+          "engagement_rate": null,
+          "followers": 4572,
+          "posts_last_30d": null,
+          "brand_fit_score": 60,
+          "retailer_focus": "beauty_general",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
       "score_total": 50.0,
@@ -1697,7 +1837,8 @@
         "brand_fit": 60,
         "consistency": 60,
         "follower_scale": 60
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -1709,7 +1850,7 @@
       "post_count_total": 33,
       "bio": "",
       "sample_size": 1,
-      "sample_note": "1 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+      "sample_note": "1 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 33.0,
       "avg_comments": 7.0,
       "avg_engagement": 40.0,
@@ -1756,7 +1897,18 @@
         }
       },
       "grade": "C",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 54.5,
+          "engagement_rate": 0.005,
+          "followers": 7998,
+          "posts_last_30d": 1,
+          "brand_fit_score": 90,
+          "retailer_focus": "beauty_general",
+          "note": "snapshot_only (no live refetch)"
+        }
+      ],
       "score_total": 54.5,
       "total_score": 54.5,
       "score_breakdown": {
@@ -1764,7 +1916,8 @@
         "brand_fit": 90,
         "consistency": 40,
         "follower_scale": 60
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -1776,7 +1929,7 @@
       "post_count_total": 770,
       "bio": "",
       "sample_size": 4,
-      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). B-Light fast pass.",
+      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). B-Light fast pass. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 23556.5,
       "avg_comments": 338.0,
       "avg_engagement": 23894.5,
@@ -1907,6 +2060,16 @@
           "brand_fit_score": 25,
           "retailer_focus": "olive_young",
           "sample_size": 6
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 65.25,
+          "engagement_rate": 0.0333,
+          "followers": 718000,
+          "posts_last_30d": 4,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
       "score_total": 65.25,
@@ -1916,7 +2079,8 @@
         "brand_fit": 25,
         "consistency": 60,
         "follower_scale": 100
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -1928,7 +2092,7 @@
       "post_count_total": 52,
       "bio": "",
       "sample_size": 12,
-      "sample_note": "⚠️ IG 로그아웃 — 샘플 12개 제한. og:description 기반 like/comment/date 추출 (script code-based 동시 검증).",
+      "sample_note": "⚠️ IG 로그아웃 — 샘플 12개 제한. og:description 기반 like/comment/date 추출 (script code-based 동시 검증). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 9563.42,
       "avg_comments": 43.75,
       "engagement_rate": 0.1056,
@@ -2008,7 +2172,18 @@
       "grade": "A",
       "avg_engagement": 9607.17,
       "top_post_likes": 42000,
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 85.75,
+          "engagement_rate": 0.1056,
+          "followers": 91000,
+          "posts_last_30d": 3,
+          "brand_fit_score": 75,
+          "retailer_focus": "beauty_general",
+          "note": "snapshot_only (no live refetch)"
+        }
+      ],
       "score_total": 85.75,
       "total_score": 85.75,
       "score_breakdown": {
@@ -2016,7 +2191,8 @@
         "brand_fit": 75,
         "consistency": 60,
         "follower_scale": 80
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -2117,8 +2293,20 @@
           "score": 62.5,
           "grade": "C",
           "note": "B-Light 14:00 KST refresh — 로그아웃 프로필 헤더 갱신: followers 61000 → 61000 (변동 없음). reel 데이터는 직전 분석 유지."
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 62.5,
+          "engagement_rate": 0.0065,
+          "followers": 61000,
+          "posts_last_30d": 7,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young",
+          "note": "snapshot_only (no live refetch)"
         }
-      ]
+      ],
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
     },
     {
       "platform": "instagram",
@@ -2235,9 +2423,19 @@
           "retailer_focus": "daiso",
           "score_total": 90.5,
           "grade": "S"
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 85.5,
+          "engagement_rate": 0.0496,
+          "followers": 11000,
+          "posts_last_30d": 12,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
-      "sample_note": "★ STEP B-Light rolling refresh (17:00 KST 슬롯) — 로그아웃 IG (sessionid 없음, 12 cap). og:description 기반 like/comment/date.",
+      "sample_note": "★ STEP B-Light rolling refresh (17:00 KST 슬롯) — 로그아웃 IG (sessionid 없음, 12 cap). og:description 기반 like/comment/date. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "engagement_rate_status": "calculated_from_og_description",
       "sample_data_evidence": {
         "likes_sample": [
@@ -2285,7 +2483,8 @@
         "top_reel": "https://www.instagram.com/p/DX1XSyITc2t/"
       },
       "avg_engagement": 545.42,
-      "total_score": 85.5
+      "total_score": 85.5,
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -2472,6 +2671,16 @@
           "grade": "D",
           "brand_fit_score": 25,
           "retailer_focus": "off_topic"
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 51.25,
+          "engagement_rate": 0.0223,
+          "followers": 1636,
+          "posts_last_30d": 3,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
       "brand_fit_score": 25,
@@ -2537,8 +2746,9 @@
         "consistency": 60,
         "follower_scale": 60
       },
-      "sample_note": "★ STEP B-Light rolling refresh (17:00 KST 슬롯) — 로그아웃 IG (12 cap). og:description 기반.",
-      "engagement_rate_status": "calculated_from_og_description"
+      "sample_note": "★ STEP B-Light rolling refresh (17:00 KST 슬롯) — 로그아웃 IG (12 cap). og:description 기반. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
+      "engagement_rate_status": "calculated_from_og_description",
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -2725,6 +2935,16 @@
           "grade": "S",
           "brand_fit_score": 95,
           "retailer_focus": "daiso"
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 92.5,
+          "engagement_rate": 0.5241,
+          "followers": 10000,
+          "posts_last_30d": 6,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
       "brand_fit_score": 90,
@@ -2789,7 +3009,9 @@
         "brand_fit": 90,
         "consistency": 80,
         "follower_scale": 80
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
     },
     {
       "platform": "instagram",
@@ -2801,7 +3023,7 @@
       "post_count_total": 116,
       "bio": "",
       "sample_size": 4,
-      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+      "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 366.25,
       "avg_comments": 35.75,
       "avg_engagement": 402.0,
@@ -2857,7 +3079,18 @@
         }
       },
       "grade": "B",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 71.25,
+          "engagement_rate": 0.1532,
+          "followers": 2624,
+          "posts_last_30d": 4,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic",
+          "note": "snapshot_only (no live refetch)"
+        }
+      ],
       "score_total": 71.25,
       "total_score": 71.25,
       "score_breakdown": {
@@ -2865,7 +3098,8 @@
         "brand_fit": 25,
         "consistency": 60,
         "follower_scale": 60
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -2877,7 +3111,7 @@
       "post_count_total": 625,
       "bio": "",
       "sample_size": 8,
-      "sample_note": "8 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+      "sample_note": "8 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 3863.88,
       "avg_comments": 89.38,
       "avg_engagement": 3953.26,
@@ -2945,7 +3179,18 @@
         }
       },
       "grade": "B",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 71.25,
+          "engagement_rate": 0.0879,
+          "followers": 45000,
+          "posts_last_30d": 6,
+          "brand_fit_score": 25,
+          "retailer_focus": "daiso",
+          "note": "snapshot_only (no live refetch)"
+        }
+      ],
       "score_total": 71.25,
       "total_score": 71.25,
       "score_breakdown": {
@@ -2953,7 +3198,8 @@
         "brand_fit": 25,
         "consistency": 80,
         "follower_scale": 80
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "instagram",
@@ -3187,6 +3433,16 @@
           ],
           "brand_fit_score": 85,
           "brand_fit_notes": "하이라이트에 '다이소' 카테고리 직접 노출. 뷰티/스킨케어/올리브영 captions 다수. 더랩바이블랑두 직접 언급 미발견."
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 79.0,
+          "engagement_rate": 0.0791,
+          "followers": 157000,
+          "posts_last_30d": 4,
+          "brand_fit_score": 60,
+          "retailer_focus": "olive_young",
+          "note": "snapshot_only (no live refetch)"
         }
       ],
       "brand_fit_score": 60,
@@ -3237,7 +3493,9 @@
         "brand_fit": 60,
         "consistency": 60,
         "follower_scale": 100
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
     },
     {
       "platform": "instagram",
@@ -3249,7 +3507,7 @@
       "post_count_total": 10,
       "bio": "",
       "sample_size": 3,
-      "sample_note": "3 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+      "sample_note": "3 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
       "avg_likes": 43.0,
       "avg_comments": 11.33,
       "avg_engagement": 54.33,
@@ -3302,7 +3560,18 @@
         }
       },
       "grade": "B",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 69.25,
+          "engagement_rate": 0.1561,
+          "followers": 348,
+          "posts_last_30d": 3,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic",
+          "note": "snapshot_only (no live refetch)"
+        }
+      ],
       "score_total": 69.25,
       "total_score": 69.25,
       "score_breakdown": {
@@ -3310,7 +3579,8 @@
         "brand_fit": 25,
         "consistency": 60,
         "follower_scale": 40
-      }
+      },
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "youtube",
@@ -3318,24 +3588,24 @@
       "fullname": "지냐 Jinyaa",
       "profile_url": "https://www.youtube.com/@Jinyaa",
       "followers": 358000,
-      "avg_views": 68549.5,
+      "avg_views": 59760,
       "avg_likes": 1913.8,
       "avg_comments": 448.2,
-      "engagement_rate": 0.0279,
-      "posts_last_30d": 6,
-      "sample_size": 20,
+      "engagement_rate": 3.3057,
+      "posts_last_30d": 5,
+      "sample_size": 12,
       "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "3건",
-        "olive_young_mentions": "2건",
-        "beauty_topical_strength": "high (34건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 43,
+        "olive_young_count": 20,
+        "beauty_keyword_count": 488,
+        "our_brand_present": false
       },
-      "evaluated_at": "2026-05-11T10:12:45+09:00",
-      "sample_note": "yt-dlp; views/likes from page metadata",
-      "score_total": 74.5,
-      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
+      "score_total": 84.5,
+      "grade": "A",
       "history": [
         {
           "evaluated_at": "2026-05-04T14:08:00+09:00",
@@ -3590,6 +3860,15 @@
           "followers": 358000,
           "posts_last_30d": 6,
           "retailer_focus": "daiso"
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 84.5,
+          "engagement_rate": 3.3057,
+          "followers": 358000,
+          "posts_last_30d": 5,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso"
         }
       ],
       "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
@@ -3639,10 +3918,21 @@
         "labrang_blanc_doux_mention": false
       },
       "evaluated_at": "2026-05-11T10:12:44+09:00",
-      "sample_note": "yt-dlp; views/likes from page metadata",
+      "sample_note": "yt-dlp; views/likes from page metadata | STEP B 10시: yt-dlp 재페치 실패 — 기존 스코어 유지 (snapshot only)",
       "score_total": 68.5,
       "grade": "C",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 68.5,
+          "engagement_rate": 0.0107,
+          "followers": 528,
+          "posts_last_30d": 9,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso",
+          "note": "snapshot_only (no live refetch)"
+        }
+      ],
       "score": {
         "total": 68.5,
         "breakdown": {
@@ -3666,7 +3956,8 @@
       },
       "post_count_total": 20,
       "view_to_sub_ratio": 102.3093,
-      "top_video_views": 54019.3
+      "top_video_views": 54019.3,
+      "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
     },
     {
       "platform": "youtube",
@@ -3674,25 +3965,35 @@
       "fullname": "뮤제 MUSEE",
       "profile_url": "https://www.youtube.com/channel/UC4BFwp5_Xf16cV1HecJYMJA",
       "followers": 12500,
-      "avg_views": 28423.1,
+      "avg_views": 36900,
       "avg_likes": 622.2,
       "avg_comments": 78.3,
-      "engagement_rate": 0.0219,
+      "engagement_rate": 2.5727,
       "posts_last_30d": 0,
-      "sample_size": 20,
+      "sample_size": 12,
       "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "3건",
-        "olive_young_mentions": "9건",
-        "beauty_topical_strength": "high (59건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 1,
+        "olive_young_count": 7,
+        "beauty_keyword_count": 17,
+        "our_brand_present": false
       },
-      "evaluated_at": "2026-05-11T10:08:57+09:00",
-      "sample_note": "yt-dlp; views/likes from page metadata",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
       "score_total": 66.5,
-      "grade": "C",
-      "history": [],
+      "grade": "B",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 66.5,
+          "engagement_rate": 2.5727,
+          "followers": 12500,
+          "posts_last_30d": 0,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young"
+        }
+      ],
       "score": {
         "total": 66.5,
         "breakdown": {
@@ -3725,19 +4026,19 @@
       "channel_id": "UC5BqeEsHJnYM4O4xvWJK3Cg",
       "profile_url": "https://www.youtube.com/channel/UC5BqeEsHJnYM4O4xvWJK3Cg",
       "followers": 6550,
-      "avg_views": 1970.17,
+      "avg_views": 5020,
       "avg_likes": 39.5,
       "avg_comments": 25.17,
-      "engagement_rate": 0.02,
+      "engagement_rate": 1.8641,
       "posts_last_30d": 2,
-      "sample_size": 6,
+      "sample_size": 12,
       "brand_fit_score": 90,
-      "retailer_focus": "olive_young",
+      "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "37건",
-        "olive_young_mentions": "45건",
-        "beauty_topical_strength": "strong (89건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 53,
+        "olive_young_count": 27,
+        "beauty_keyword_count": 42,
+        "our_brand_present": false
       },
       "total_score": 67.5,
       "score_breakdown": {
@@ -3747,7 +4048,7 @@
         "follower_scale": 60
       },
       "grade": "B",
-      "evaluated_at": "2026-05-08T17:11:25+09:00",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
       "history": [
         {
           "evaluated_at": "2026-05-08T09:09:20+09:00",
@@ -3761,10 +4062,19 @@
           "grade": "B",
           "score_total": 67.5,
           "posts_last_30d": 2
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 67.5,
+          "engagement_rate": 1.8641,
+          "followers": 6550,
+          "posts_last_30d": 2,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso"
         }
       ],
       "score_total": 67.5,
-      "sample_note": "★ STEP B-Light rolling refresh (Fri 17:00 KST) — yt-dlp 6 videos, last 30d posts=2",
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
       "score": {
         "total": 67.5,
         "breakdown": {
@@ -3797,19 +4107,19 @@
       "channel_id": "UC5o9Z5lgw4kk4fjDhweZxKg",
       "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg",
       "followers": 175000,
-      "avg_views": 1206.83,
+      "avg_views": 7413,
       "avg_likes": 40.5,
       "avg_comments": 3.83,
-      "engagement_rate": 0.0336,
+      "engagement_rate": 1.7591,
       "posts_last_30d": 4,
-      "sample_size": 6,
+      "sample_size": 12,
       "brand_fit_score": 90,
       "retailer_focus": "mixed",
       "retailer_signal": {
-        "daiso_mentions": "12건",
-        "olive_young_mentions": "11건",
-        "beauty_topical_strength": "strong (149건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 12,
+        "olive_young_count": 10,
+        "beauty_keyword_count": 9,
+        "our_brand_present": false
       },
       "total_score": 81.5,
       "score_breakdown": {
@@ -3818,8 +4128,8 @@
         "consistency": 60,
         "follower_scale": 100
       },
-      "grade": "A",
-      "evaluated_at": "2026-05-08T17:11:25+09:00",
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
       "history": [
         {
           "evaluated_at": "2026-05-08T09:11:12+09:00",
@@ -3833,10 +4143,19 @@
           "grade": "C",
           "score_total": 55.25,
           "posts_last_30d": 4
+        },
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 71.5,
+          "engagement_rate": 1.7591,
+          "followers": 175000,
+          "posts_last_30d": 4,
+          "brand_fit_score": 90,
+          "retailer_focus": "mixed"
         }
       ],
-      "score_total": 81.5,
-      "sample_note": "★ STEP B-Light rolling refresh (Fri 17:00 KST) — yt-dlp 6 videos, last 30d posts=4",
+      "score_total": 71.5,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
       "score": {
         "total": 81.5,
         "breakdown": {
@@ -3869,19 +4188,19 @@
       "channel_id": "UC71fEEzS9yMYQvT1iz5-zxQ",
       "profile_url": "https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ",
       "followers": 78600,
-      "avg_views": 64251.2,
+      "avg_views": 65170,
       "avg_likes": 61.2,
       "avg_comments": 75.8,
-      "engagement_rate": 0.001,
+      "engagement_rate": 0.1627,
       "posts_last_30d": 4,
-      "sample_size": 20,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso",
+      "sample_size": 5,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
       "retailer_signal": {
-        "daiso_mentions": "5건",
-        "olive_young_mentions": "3건",
-        "beauty_topical_strength": "strong (9건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 17,
+        "olive_young_count": 19,
+        "beauty_keyword_count": 77,
+        "our_brand_present": true
       },
       "total_score": 59.5,
       "score_breakdown": {
@@ -3890,10 +4209,20 @@
         "consistency": 60,
         "follower_scale": 80
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T09:11:12+09:00",
-      "history": [],
-      "score_total": 59.5,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 62.0,
+          "engagement_rate": 0.1627,
+          "followers": 78600,
+          "posts_last_30d": 4,
+          "brand_fit_score": 100,
+          "retailer_focus": "our_brand"
+        }
+      ],
+      "score_total": 62.0,
       "score": {
         "total": 59.5,
         "breakdown": {
@@ -3917,7 +4246,47 @@
       "post_count_total": 20,
       "view_to_sub_ratio": 0.8174,
       "top_video_views": 64251.2,
-      "top_post_likes": 61.2
+      "top_post_likes": 61.2,
+      "sample_note": "STEP B 풀 재분석. likes 추출 5/5 (JS런타임 없음 → 일부 0)"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCAThGewvLVT5fW8utNfrawA",
+      "fullname": "ARADHYA FACT",
+      "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
+      "followers": 572000,
+      "engagement_rate": 0.1165,
+      "posts_last_30d": 20,
+      "sample_size": 20,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "retailer_signal": {
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
+      },
+      "evaluated_at": "2026-05-12T10:05:00+09:00",
+      "score_total": 51.2,
+      "grade": "C",
+      "sample_note": "likes 일부만 추출 (2/20)",
+      "subcomponents": {
+        "er_score": 40,
+        "brand_fit_score": 25,
+        "posts_score": 100,
+        "followers_score": 100
+      },
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:05:00+09:00",
+          "score_total": 51.2,
+          "engagement_rate": 0.1165,
+          "followers": 572000,
+          "posts_last_30d": 20,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic"
+        }
+      ]
     },
     {
       "platform": "youtube",
@@ -3925,25 +4294,35 @@
       "fullname": "해니 haeni beauty",
       "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
       "followers": 478000,
-      "avg_views": 22567.8,
+      "avg_views": 43616,
       "avg_likes": 865.6,
       "avg_comments": 81.8,
-      "engagement_rate": 0.0384,
-      "posts_last_30d": 5,
-      "sample_size": 20,
+      "engagement_rate": 4.5973,
+      "posts_last_30d": 4,
+      "sample_size": 12,
       "brand_fit_score": 90,
-      "retailer_focus": "beauty_general",
+      "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "high (42건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 1,
+        "beauty_keyword_count": 444,
+        "our_brand_present": false
       },
-      "evaluated_at": "2026-05-11T10:12:44+09:00",
-      "sample_note": "yt-dlp; views/likes from page metadata",
-      "score_total": 84.5,
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
+      "score_total": 81.5,
       "grade": "A",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 81.5,
+          "engagement_rate": 4.5973,
+          "followers": 478000,
+          "posts_last_30d": 4,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young"
+        }
+      ],
       "score": {
         "total": 84.5,
         "breakdown": {
@@ -3975,25 +4354,35 @@
       "fullname": "아민 ahmin",
       "profile_url": "https://www.youtube.com/channel/UCF-EIhIdEWMXg8z6FuKFuQg",
       "followers": 13200,
-      "avg_views": 6823.3,
+      "avg_views": 5948,
       "avg_likes": 232.7,
       "avg_comments": 19.3,
-      "engagement_rate": 0.0341,
+      "engagement_rate": 3.4911,
       "posts_last_30d": 3,
-      "sample_size": 20,
-      "brand_fit_score": 75,
-      "retailer_focus": "mixed",
+      "sample_size": 12,
+      "brand_fit_score": 60,
+      "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "2건",
-        "olive_young_mentions": "2건",
-        "beauty_topical_strength": "medium (6건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 2,
+        "olive_young_count": 1,
+        "beauty_keyword_count": 2,
+        "our_brand_present": false
       },
-      "evaluated_at": "2026-05-11T10:12:44+09:00",
-      "sample_note": "yt-dlp; views/likes from page metadata",
-      "score_total": 75.75,
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
+      "score_total": 72.0,
       "grade": "B",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 72.0,
+          "engagement_rate": 3.4911,
+          "followers": 13200,
+          "posts_last_30d": 3,
+          "brand_fit_score": 60,
+          "retailer_focus": "daiso"
+        }
+      ],
       "score": {
         "total": 75.75,
         "breakdown": {
@@ -4026,19 +4415,19 @@
       "channel_id": "UCH5Eg4KvlMGPNIHZJSAUH8A",
       "profile_url": "https://www.youtube.com/channel/UCH5Eg4KvlMGPNIHZJSAUH8A",
       "followers": 4350,
-      "avg_views": 12233.2,
+      "avg_views": 20336,
       "avg_likes": 0.0,
       "avg_comments": 2.2,
-      "engagement_rate": 0.0,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 75,
+      "engagement_rate": 0.7341,
+      "posts_last_30d": 10,
+      "sample_size": 10,
+      "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "3건",
-        "olive_young_mentions": "14건",
-        "beauty_topical_strength": "medium (4건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 5,
+        "olive_young_count": 24,
+        "beauty_keyword_count": 20,
+        "our_brand_present": false
       },
       "total_score": 56.75,
       "score_breakdown": {
@@ -4047,10 +4436,20 @@
         "consistency": 80,
         "follower_scale": 60
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 56.75,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 63.5,
+          "engagement_rate": 0.7341,
+          "followers": 4350,
+          "posts_last_30d": 10,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 63.5,
       "score": {
         "total": 56.75,
         "breakdown": {
@@ -4074,7 +4473,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 2.8122,
       "top_video_views": 12233.2,
-      "top_post_likes": 0.0
+      "top_post_likes": 0.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 3/10 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4083,19 +4483,19 @@
       "channel_id": "UCHCL-VtQlNJTmPA7oy6HQXg",
       "profile_url": "https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg",
       "followers": 1470,
-      "avg_views": 61538.3,
+      "avg_views": 4247,
       "avg_likes": 1496.8,
       "avg_comments": 17.1,
-      "engagement_rate": 0.0243,
-      "posts_last_30d": 11,
-      "sample_size": 11,
-      "brand_fit_score": 75,
-      "retailer_focus": "daiso",
+      "engagement_rate": 1.5226,
+      "posts_last_30d": 3,
+      "sample_size": 3,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
       "retailer_signal": {
-        "daiso_mentions": "3건",
-        "olive_young_mentions": "2건",
-        "beauty_topical_strength": "medium (4건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
       },
       "total_score": 69.75,
       "score_breakdown": {
@@ -4104,10 +4504,20 @@
         "consistency": 100,
         "follower_scale": 60
       },
-      "grade": "B",
-      "evaluated_at": "2026-05-08T09:22:32+09:00",
-      "history": [],
-      "score_total": 69.75,
+      "grade": "C",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 51.2,
+          "engagement_rate": 1.5226,
+          "followers": 1470,
+          "posts_last_30d": 3,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic"
+        }
+      ],
+      "score_total": 51.2,
       "score": {
         "total": 69.75,
         "breakdown": {
@@ -4131,7 +4541,8 @@
       "post_count_total": 11,
       "view_to_sub_ratio": 41.8628,
       "top_video_views": 61538.3,
-      "top_post_likes": 1496.8
+      "top_post_likes": 1496.8,
+      "sample_note": "STEP B 풀 재분석. likes 추출 3/3 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4140,19 +4551,19 @@
       "channel_id": "UCIQB1KXcPIhskB7jy1SJdLw",
       "profile_url": "https://www.youtube.com/channel/UCIQB1KXcPIhskB7jy1SJdLw",
       "followers": 479,
-      "avg_views": 81.6,
+      "avg_views": 462,
       "avg_likes": 0.8,
       "avg_comments": 0.0,
-      "engagement_rate": 0.0098,
+      "engagement_rate": 1.3151,
       "posts_last_30d": 4,
-      "sample_size": 5,
-      "brand_fit_score": 60,
+      "sample_size": 12,
+      "brand_fit_score": 90,
       "retailer_focus": "beauty_general",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "low (1건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 17,
+        "our_brand_present": false
       },
       "total_score": 48.0,
       "score_breakdown": {
@@ -4161,10 +4572,20 @@
         "consistency": 60,
         "follower_scale": 40
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 48.0,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 65.5,
+          "engagement_rate": 1.3151,
+          "followers": 479,
+          "posts_last_30d": 4,
+          "brand_fit_score": 90,
+          "retailer_focus": "beauty_general"
+        }
+      ],
+      "score_total": 65.5,
       "score": {
         "total": 48.0,
         "breakdown": {
@@ -4188,7 +4609,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.1704,
       "top_video_views": 81.6,
-      "top_post_likes": 0.8
+      "top_post_likes": 0.8,
+      "sample_note": "STEP B 풀 재분석. likes 추출 9/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4197,19 +4619,19 @@
       "channel_id": "UCKAwUq0rYJ7JVkwK-XWADnQ",
       "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ",
       "followers": 49300,
-      "avg_views": 13990.6,
+      "avg_views": 54247,
       "avg_likes": 236.0,
       "avg_comments": 13.2,
-      "engagement_rate": 0.0169,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 75,
+      "engagement_rate": 1.8955,
+      "posts_last_30d": 4,
+      "sample_size": 12,
+      "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "1건",
-        "olive_young_mentions": "0건",
-        "beauty_topical_strength": "medium (3건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 3,
+        "olive_young_count": 2,
+        "beauty_keyword_count": 11,
+        "our_brand_present": false
       },
       "total_score": 68.75,
       "score_breakdown": {
@@ -4219,9 +4641,19 @@
         "follower_scale": 80
       },
       "grade": "B",
-      "evaluated_at": "2026-05-08T09:16:25+09:00",
-      "history": [],
-      "score_total": 68.75,
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 69.5,
+          "engagement_rate": 1.8955,
+          "followers": 49300,
+          "posts_last_30d": 4,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso"
+        }
+      ],
+      "score_total": 69.5,
       "score": {
         "total": 68.75,
         "breakdown": {
@@ -4245,7 +4677,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.2838,
       "top_video_views": 13990.6,
-      "top_post_likes": 236.0
+      "top_post_likes": 236.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4254,19 +4687,19 @@
       "channel_id": "UCLyq1gz11P-IYFmP093JaAw",
       "profile_url": "https://www.youtube.com/channel/UCLyq1gz11P-IYFmP093JaAw",
       "followers": 345000,
-      "avg_views": 97308.4,
+      "avg_views": 149028,
       "avg_likes": 1716.2,
       "avg_comments": 104.4,
-      "engagement_rate": 0.0176,
+      "engagement_rate": 1.8094,
       "posts_last_30d": 1,
-      "sample_size": 5,
+      "sample_size": 12,
       "brand_fit_score": 90,
       "retailer_focus": "beauty_general",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "strong (12건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 341,
+        "our_brand_present": false
       },
       "total_score": 68.5,
       "score_breakdown": {
@@ -4275,9 +4708,19 @@
         "consistency": 40,
         "follower_scale": 100
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 68.5,
+          "engagement_rate": 1.8094,
+          "followers": 345000,
+          "posts_last_30d": 1,
+          "brand_fit_score": 90,
+          "retailer_focus": "beauty_general"
+        }
+      ],
       "score_total": 68.5,
       "score": {
         "total": 68.5,
@@ -4302,7 +4745,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.2821,
       "top_video_views": 97308.4,
-      "top_post_likes": 1716.2
+      "top_post_likes": 1716.2,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4311,19 +4755,19 @@
       "channel_id": "UCNOA-IwgMAatMFGwdB5n-2Q",
       "profile_url": "https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q",
       "followers": 10500,
-      "avg_views": 19802.4,
+      "avg_views": 20683,
       "avg_likes": 548.4,
       "avg_comments": 41.4,
-      "engagement_rate": 0.0277,
-      "posts_last_30d": 3,
-      "sample_size": 5,
-      "brand_fit_score": 25,
+      "engagement_rate": 2.9742,
+      "posts_last_30d": 2,
+      "sample_size": 6,
+      "brand_fit_score": 60,
       "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "1건",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "none (0건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 9,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 2,
+        "our_brand_present": false
       },
       "total_score": 53.25,
       "score_breakdown": {
@@ -4332,10 +4776,20 @@
         "consistency": 60,
         "follower_scale": 80
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 53.25,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 62.0,
+          "engagement_rate": 2.9742,
+          "followers": 10500,
+          "posts_last_30d": 2,
+          "brand_fit_score": 60,
+          "retailer_focus": "daiso"
+        }
+      ],
+      "score_total": 62.0,
       "score": {
         "total": 53.25,
         "breakdown": {
@@ -4359,7 +4813,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 1.8859,
       "top_video_views": 19802.4,
-      "top_post_likes": 548.4
+      "top_post_likes": 548.4,
+      "sample_note": "STEP B 풀 재분석. likes 추출 6/6 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4368,19 +4823,19 @@
       "channel_id": "UCPkgjWwYOiMKqNJpwdA8lPA",
       "profile_url": "https://www.youtube.com/channel/UCPkgjWwYOiMKqNJpwdA8lPA",
       "followers": 128000,
-      "avg_views": 53036.4,
+      "avg_views": 61202,
       "avg_likes": 858.0,
       "avg_comments": 224.2,
-      "engagement_rate": 0.0162,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general",
+      "engagement_rate": 2.2426,
+      "posts_last_30d": 6,
+      "sample_size": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "low (2건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 7,
+        "beauty_keyword_count": 27,
+        "our_brand_present": false
       },
       "total_score": 67.0,
       "score_breakdown": {
@@ -4389,10 +4844,20 @@
         "consistency": 80,
         "follower_scale": 100
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 67.0,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 74.5,
+          "engagement_rate": 2.2426,
+          "followers": 128000,
+          "posts_last_30d": 6,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 74.5,
       "score": {
         "total": 67.0,
         "breakdown": {
@@ -4416,7 +4881,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.4143,
       "top_video_views": 53036.4,
-      "top_post_likes": 858.0
+      "top_post_likes": 858.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4425,19 +4891,19 @@
       "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
       "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
       "followers": 158000,
-      "avg_views": 36674.2,
+      "avg_views": 69090,
       "avg_likes": 374.6,
       "avg_comments": 0.8,
-      "engagement_rate": 0.0102,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 75,
+      "engagement_rate": 1.1149,
+      "posts_last_30d": 12,
+      "sample_size": 12,
+      "brand_fit_score": 25,
       "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "6건",
-        "olive_young_mentions": "1건",
-        "beauty_topical_strength": "medium (5건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 10,
+        "olive_young_count": 1,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
       },
       "total_score": 70.75,
       "score_breakdown": {
@@ -4447,9 +4913,19 @@
         "follower_scale": 100
       },
       "grade": "B",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 70.75,
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 61.2,
+          "engagement_rate": 1.1149,
+          "followers": 158000,
+          "posts_last_30d": 12,
+          "brand_fit_score": 25,
+          "retailer_focus": "daiso"
+        }
+      ],
+      "score_total": 61.2,
       "score": {
         "total": 70.75,
         "breakdown": {
@@ -4473,7 +4949,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.2321,
       "top_video_views": 36674.2,
-      "top_post_likes": 374.6
+      "top_post_likes": 374.6,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4481,25 +4958,35 @@
       "fullname": "지냐 Jinyaa",
       "profile_url": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
       "followers": 358000,
-      "avg_views": 83228.8,
+      "avg_views": 59764,
       "avg_likes": 1959.3,
       "avg_comments": 419.7,
-      "engagement_rate": 0.0235,
-      "posts_last_30d": 7,
-      "sample_size": 20,
+      "engagement_rate": 3.3055,
+      "posts_last_30d": 5,
+      "sample_size": 12,
       "brand_fit_score": 90,
-      "retailer_focus": "mixed",
+      "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "44건",
-        "olive_young_mentions": "46건",
-        "beauty_topical_strength": "strong (848건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 43,
+        "olive_young_count": 20,
+        "beauty_keyword_count": 488,
+        "our_brand_present": false
       },
-      "evaluated_at": "2026-05-11T17:08:00+09:00",
-      "sample_note": "yt-dlp; views/likes/comments from page metadata. 20개 영상 샘플 (30일 윈도우 평가).",
-      "score_total": 74.5,
-      "grade": "B",
-      "history": [],
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
+      "score_total": 84.5,
+      "grade": "A",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 84.5,
+          "engagement_rate": 3.3055,
+          "followers": 358000,
+          "posts_last_30d": 5,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso"
+        }
+      ],
       "score": {
         "total": 74.5,
         "breakdown": {
@@ -4606,19 +5093,19 @@
       "channel_id": "UCSx-2fuyotB8WA8KytyhACg",
       "profile_url": "https://www.youtube.com/channel/UCSx-2fuyotB8WA8KytyhACg",
       "followers": 283000,
-      "avg_views": 33639.4,
+      "avg_views": 42348,
       "avg_likes": 546.8,
       "avg_comments": 200.6,
-      "engagement_rate": 0.0163,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 75,
-      "retailer_focus": "beauty_general",
+      "engagement_rate": 2.1897,
+      "posts_last_30d": 10,
+      "sample_size": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "medium (4건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 4,
+        "beauty_keyword_count": 243,
+        "our_brand_present": false
       },
       "total_score": 70.75,
       "score_breakdown": {
@@ -4627,10 +5114,20 @@
         "consistency": 80,
         "follower_scale": 100
       },
-      "grade": "B",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 70.75,
+      "grade": "A",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 77.5,
+          "engagement_rate": 2.1897,
+          "followers": 283000,
+          "posts_last_30d": 10,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 77.5,
       "score": {
         "total": 70.75,
         "breakdown": {
@@ -4654,7 +5151,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.1189,
       "top_video_views": 33639.4,
-      "top_post_likes": 546.8
+      "top_post_likes": 546.8,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4663,19 +5161,19 @@
       "channel_id": "UCT0hOMxD29g2B6BrK6QTIag",
       "profile_url": "https://www.youtube.com/channel/UCT0hOMxD29g2B6BrK6QTIag",
       "followers": 20000,
-      "avg_views": 68150.8,
+      "avg_views": 63791,
       "avg_likes": 1094.0,
       "avg_comments": 25.8,
-      "engagement_rate": 0.0161,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 75,
+      "engagement_rate": 1.6355,
+      "posts_last_30d": 7,
+      "sample_size": 7,
+      "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "2건",
-        "olive_young_mentions": "4건",
-        "beauty_topical_strength": "medium (6건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 1,
+        "olive_young_count": 4,
+        "beauty_keyword_count": 8,
+        "our_brand_present": false
       },
       "total_score": 68.75,
       "score_breakdown": {
@@ -4684,10 +5182,20 @@
         "consistency": 80,
         "follower_scale": 80
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 68.75,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 72.5,
+          "engagement_rate": 1.6355,
+          "followers": 20000,
+          "posts_last_30d": 7,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 72.5,
       "score": {
         "total": 68.75,
         "breakdown": {
@@ -4711,7 +5219,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 3.4075,
       "top_video_views": 68150.8,
-      "top_post_likes": 1094.0
+      "top_post_likes": 1094.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 7/7 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4719,25 +5228,35 @@
       "fullname": "김밍 KIMMING",
       "profile_url": "https://www.youtube.com/channel/UCTjwlF8Y8hxR85JPUoZv-6A",
       "followers": 282000,
-      "avg_views": 233596.3,
+      "avg_views": 233748,
       "avg_likes": 1038.0,
       "avg_comments": 190.3,
-      "engagement_rate": 0.0044,
+      "engagement_rate": 0.5255,
       "posts_last_30d": 0,
       "sample_size": 3,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "none (0건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 2,
+        "our_brand_present": false
       },
-      "evaluated_at": "2026-05-11T10:12:25+09:00",
-      "sample_note": "yt-dlp; views/likes from page metadata",
-      "score_total": 42.25,
-      "grade": "D",
-      "history": [],
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 2/3 (JS런타임 없음 → 일부 0)",
+      "score_total": 51.0,
+      "grade": "C",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 51.0,
+          "engagement_rate": 0.5255,
+          "followers": 282000,
+          "posts_last_30d": 0,
+          "brand_fit_score": 60,
+          "retailer_focus": "beauty_general"
+        }
+      ],
       "score": {
         "total": 42.25,
         "breakdown": {
@@ -4769,25 +5288,35 @@
       "fullname": "뮤니",
       "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
       "followers": 1110,
-      "avg_views": 35092.1,
+      "avg_views": 34526,
       "avg_likes": 1143.5,
       "avg_comments": 6.2,
-      "engagement_rate": 0.0326,
+      "engagement_rate": 3.199,
       "posts_last_30d": 10,
-      "sample_size": 20,
-      "brand_fit_score": 90,
+      "sample_size": 12,
+      "brand_fit_score": 75,
       "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "13건",
-        "olive_young_mentions": "7건",
-        "beauty_topical_strength": "high (11건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 10,
+        "olive_young_count": 3,
+        "beauty_keyword_count": 6,
+        "our_brand_present": false
       },
-      "evaluated_at": "2026-05-11T10:15:37+09:00",
-      "sample_note": "yt-dlp; views/likes from page metadata",
-      "score_total": 83.5,
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
+      "score_total": 79.8,
       "grade": "A",
-      "history": [],
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 79.8,
+          "engagement_rate": 3.199,
+          "followers": 1110,
+          "posts_last_30d": 10,
+          "brand_fit_score": 75,
+          "retailer_focus": "daiso"
+        }
+      ],
       "score": {
         "total": 83.5,
         "breakdown": {
@@ -4820,19 +5349,19 @@
       "channel_id": "UCVRAHN1wuI9pUDyeSAc_I1A",
       "profile_url": "https://www.youtube.com/channel/UCVRAHN1wuI9pUDyeSAc_I1A",
       "followers": 12600,
-      "avg_views": 1629.0,
+      "avg_views": 3699,
       "avg_likes": 24.6,
       "avg_comments": 6.8,
-      "engagement_rate": 0.0151,
+      "engagement_rate": 0.9616,
       "posts_last_30d": 0,
-      "sample_size": 5,
+      "sample_size": 7,
       "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "5건",
-        "beauty_topical_strength": "strong (11건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 10,
+        "beauty_keyword_count": 12,
+        "our_brand_present": false
       },
       "total_score": 66.5,
       "score_breakdown": {
@@ -4842,9 +5371,19 @@
         "follower_scale": 80
       },
       "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 66.5,
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 56.5,
+          "engagement_rate": 0.9616,
+          "followers": 12600,
+          "posts_last_30d": 0,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 56.5,
       "score": {
         "total": 66.5,
         "breakdown": {
@@ -4868,7 +5407,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.1293,
       "top_video_views": 1629.0,
-      "top_post_likes": 24.6
+      "top_post_likes": 24.6,
+      "sample_note": "STEP B 풀 재분석. likes 추출 7/7 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4877,19 +5417,19 @@
       "channel_id": "UCVWMxFz4W6UuP3kF49o_eMg",
       "profile_url": "https://www.youtube.com/channel/UCVWMxFz4W6UuP3kF49o_eMg",
       "followers": 163,
-      "avg_views": 1565.8,
+      "avg_views": 1864,
       "avg_likes": 2.0,
       "avg_comments": 0.6,
-      "engagement_rate": 0.0013,
-      "posts_last_30d": 5,
-      "sample_size": 5,
+      "engagement_rate": 0.2949,
+      "posts_last_30d": 11,
+      "sample_size": 12,
       "brand_fit_score": 90,
-      "retailer_focus": "olive_young",
+      "retailer_focus": "mixed",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "3건",
-        "beauty_topical_strength": "strong (18건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 6,
+        "olive_young_count": 7,
+        "beauty_keyword_count": 35,
+        "our_brand_present": false
       },
       "total_score": 58.5,
       "score_breakdown": {
@@ -4898,10 +5438,20 @@
         "consistency": 80,
         "follower_scale": 40
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 58.5,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 61.5,
+          "engagement_rate": 0.2949,
+          "followers": 163,
+          "posts_last_30d": 11,
+          "brand_fit_score": 90,
+          "retailer_focus": "mixed"
+        }
+      ],
+      "score_total": 61.5,
       "score": {
         "total": 58.5,
         "breakdown": {
@@ -4925,7 +5475,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 9.6061,
       "top_video_views": 1565.8,
-      "top_post_likes": 2.0
+      "top_post_likes": 2.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4934,19 +5485,19 @@
       "channel_id": "UCVbW7vOtOnmjyDORZB4Sz0w",
       "profile_url": "https://www.youtube.com/channel/UCVbW7vOtOnmjyDORZB4Sz0w",
       "followers": 358000,
-      "avg_views": 25529.6,
+      "avg_views": 28907,
       "avg_likes": 588.2,
       "avg_comments": 74.0,
-      "engagement_rate": 0.023,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general",
+      "engagement_rate": 2.469,
+      "posts_last_30d": 7,
+      "sample_size": 11,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "low (2건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 3,
+        "beauty_keyword_count": 12,
+        "our_brand_present": false
       },
       "total_score": 67.0,
       "score_breakdown": {
@@ -4955,10 +5506,20 @@
         "consistency": 80,
         "follower_scale": 100
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 67.0,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 74.5,
+          "engagement_rate": 2.469,
+          "followers": 358000,
+          "posts_last_30d": 7,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 74.5,
       "score": {
         "total": 67.0,
         "breakdown": {
@@ -4982,7 +5543,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.0713,
       "top_video_views": 25529.6,
-      "top_post_likes": 588.2
+      "top_post_likes": 588.2,
+      "sample_note": "STEP B 풀 재분석. likes 추출 11/11 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -4991,19 +5553,19 @@
       "channel_id": "UCWYY6sFq1PyyKYKrM0HGcvQ",
       "profile_url": "https://www.youtube.com/channel/UCWYY6sFq1PyyKYKrM0HGcvQ",
       "followers": 2060,
-      "avg_views": 43.0,
+      "avg_views": 43,
       "avg_likes": 1.0,
       "avg_comments": 10.0,
-      "engagement_rate": 0.0233,
+      "engagement_rate": 25.5814,
       "posts_last_30d": 1,
       "sample_size": 1,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "none (0건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
       },
       "total_score": 48.25,
       "score_breakdown": {
@@ -5012,10 +5574,20 @@
         "consistency": 40,
         "follower_scale": 60
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 48.25,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 68.2,
+          "engagement_rate": 25.5814,
+          "followers": 2060,
+          "posts_last_30d": 1,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic"
+        }
+      ],
+      "score_total": 68.2,
       "score": {
         "total": 48.25,
         "breakdown": {
@@ -5039,7 +5611,8 @@
       "post_count_total": 1,
       "view_to_sub_ratio": 0.0209,
       "top_video_views": 43.0,
-      "top_post_likes": 1.0
+      "top_post_likes": 1.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 1/1 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5048,19 +5621,19 @@
       "channel_id": "UCX0Qk4QtPOlEwBmsbIG4vOg",
       "profile_url": "https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg",
       "followers": 699000,
-      "avg_views": 91095.8,
+      "avg_views": 88985,
       "avg_likes": 954.4,
       "avg_comments": 117.2,
-      "engagement_rate": 0.0105,
+      "engagement_rate": 1.0035,
       "posts_last_30d": 0,
-      "sample_size": 5,
+      "sample_size": 4,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "none (0건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
       },
       "total_score": 52.25,
       "score_breakdown": {
@@ -5069,10 +5642,20 @@
         "consistency": 40,
         "follower_scale": 100
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 52.25,
+      "grade": "C",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 52.2,
+          "engagement_rate": 1.0035,
+          "followers": 699000,
+          "posts_last_30d": 0,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic"
+        }
+      ],
+      "score_total": 52.2,
       "score": {
         "total": 52.25,
         "breakdown": {
@@ -5096,7 +5679,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.1303,
       "top_video_views": 91095.8,
-      "top_post_likes": 954.4
+      "top_post_likes": 954.4,
+      "sample_note": "STEP B 풀 재분석. likes 추출 4/4 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5105,19 +5689,19 @@
       "channel_id": "UCXFd79l1HUumoM6spU4D1Cw",
       "profile_url": "https://www.youtube.com/channel/UCXFd79l1HUumoM6spU4D1Cw",
       "followers": 179000,
-      "avg_views": 37166.0,
+      "avg_views": 45816,
       "avg_likes": 597.8,
       "avg_comments": 59.8,
-      "engagement_rate": 0.0161,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general",
+      "engagement_rate": 1.829,
+      "posts_last_30d": 4,
+      "sample_size": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "low (2건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 3,
+        "olive_young_count": 11,
+        "beauty_keyword_count": 28,
+        "our_brand_present": false
       },
       "total_score": 67.0,
       "score_breakdown": {
@@ -5126,10 +5710,20 @@
         "consistency": 80,
         "follower_scale": 100
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 67.0,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 71.5,
+          "engagement_rate": 1.829,
+          "followers": 179000,
+          "posts_last_30d": 4,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 71.5,
       "score": {
         "total": 67.0,
         "breakdown": {
@@ -5153,7 +5747,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.2076,
       "top_video_views": 37166.0,
-      "top_post_likes": 597.8
+      "top_post_likes": 597.8,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5162,19 +5757,19 @@
       "channel_id": "UCXnovozlwbGRaHhR6fvG1XA",
       "profile_url": "https://www.youtube.com/channel/UCXnovozlwbGRaHhR6fvG1XA",
       "followers": 740,
-      "avg_views": 14731.8,
+      "avg_views": 25753,
       "avg_likes": 0.0,
       "avg_comments": 4.2,
-      "engagement_rate": 0.0,
+      "engagement_rate": 0.0372,
       "posts_last_30d": 0,
-      "sample_size": 5,
-      "brand_fit_score": 75,
+      "sample_size": 12,
+      "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "3건",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "medium (7건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 57,
+        "olive_young_count": 2,
+        "beauty_keyword_count": 22,
+        "our_brand_present": false
       },
       "total_score": 48.75,
       "score_breakdown": {
@@ -5183,10 +5778,20 @@
         "consistency": 40,
         "follower_scale": 40
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 48.75,
+      "grade": "C",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 52.5,
+          "engagement_rate": 0.0372,
+          "followers": 740,
+          "posts_last_30d": 0,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso"
+        }
+      ],
+      "score_total": 52.5,
       "score": {
         "total": 48.75,
         "breakdown": {
@@ -5210,7 +5815,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 19.9078,
       "top_video_views": 14731.8,
-      "top_post_likes": 0.0
+      "top_post_likes": 0.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 0/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5219,19 +5825,19 @@
       "channel_id": "UCYjkiHwK6yj1VgMfqNZvHEA",
       "profile_url": "https://www.youtube.com/channel/UCYjkiHwK6yj1VgMfqNZvHEA",
       "followers": 125000,
-      "avg_views": 30077.6,
+      "avg_views": 18103,
       "avg_likes": 541.4,
       "avg_comments": 73.2,
-      "engagement_rate": 0.018,
+      "engagement_rate": 1.9549,
       "posts_last_30d": 4,
-      "sample_size": 5,
+      "sample_size": 12,
       "brand_fit_score": 60,
       "retailer_focus": "beauty_general",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "low (1건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 1,
+        "our_brand_present": false
       },
       "total_score": 64.0,
       "score_breakdown": {
@@ -5240,9 +5846,19 @@
         "consistency": 60,
         "follower_scale": 100
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 64.0,
+          "engagement_rate": 1.9549,
+          "followers": 125000,
+          "posts_last_30d": 4,
+          "brand_fit_score": 60,
+          "retailer_focus": "beauty_general"
+        }
+      ],
       "score_total": 64.0,
       "score": {
         "total": 64.0,
@@ -5267,7 +5883,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.2406,
       "top_video_views": 30077.6,
-      "top_post_likes": 541.4
+      "top_post_likes": 541.4,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5275,25 +5892,35 @@
       "fullname": "로빗 lobit🐰🫧",
       "profile_url": "https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA",
       "followers": 1920,
-      "avg_views": 117469.9,
+      "avg_views": 195454,
       "avg_likes": 1801.6,
       "avg_comments": 8.6,
-      "engagement_rate": 0.0153,
+      "engagement_rate": 1.4967,
       "posts_last_30d": 2,
-      "sample_size": 20,
+      "sample_size": 10,
       "brand_fit_score": 90,
-      "retailer_focus": "mixed",
+      "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "32건",
-        "olive_young_mentions": "32건",
-        "beauty_topical_strength": "high (28건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 22,
+        "olive_young_count": 13,
+        "beauty_keyword_count": 14,
+        "our_brand_present": false
       },
-      "evaluated_at": "2026-05-11T10:15:36+09:00",
-      "sample_note": "yt-dlp; views/likes from page metadata",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 10/10 (JS런타임 없음 → 일부 0)",
       "score_total": 67.5,
-      "grade": "C",
-      "history": [],
+      "grade": "B",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 67.5,
+          "engagement_rate": 1.4967,
+          "followers": 1920,
+          "posts_last_30d": 2,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso"
+        }
+      ],
       "score": {
         "total": 67.5,
         "breakdown": {
@@ -5326,19 +5953,19 @@
       "channel_id": "UCZ-oeQmEiTLw4d5PSDyd1Cw",
       "profile_url": "https://www.youtube.com/channel/UCZ-oeQmEiTLw4d5PSDyd1Cw",
       "followers": 17000,
-      "avg_views": 12093.0,
+      "avg_views": 13253,
       "avg_likes": 175.8,
       "avg_comments": 2.6,
-      "engagement_rate": 0.0145,
-      "posts_last_30d": 5,
-      "sample_size": 5,
+      "engagement_rate": 1.3405,
+      "posts_last_30d": 4,
+      "sample_size": 6,
       "brand_fit_score": 25,
       "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "4건",
-        "beauty_topical_strength": "none (0건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 4,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
       },
       "total_score": 56.25,
       "score_breakdown": {
@@ -5347,10 +5974,20 @@
         "consistency": 80,
         "follower_scale": 80
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 56.25,
+      "grade": "C",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 53.2,
+          "engagement_rate": 1.3405,
+          "followers": 17000,
+          "posts_last_30d": 4,
+          "brand_fit_score": 25,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 53.2,
       "score": {
         "total": 56.25,
         "breakdown": {
@@ -5374,7 +6011,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.7114,
       "top_video_views": 12093.0,
-      "top_post_likes": 175.8
+      "top_post_likes": 175.8,
+      "sample_note": "STEP B 풀 재분석. likes 추출 6/6 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5383,19 +6021,19 @@
       "channel_id": "UCaMFZoulRulGg-xG5s9qguw",
       "profile_url": "https://www.youtube.com/channel/UCaMFZoulRulGg-xG5s9qguw",
       "followers": 6680,
-      "avg_views": 16.6,
+      "avg_views": 17,
       "avg_likes": 1.4,
       "avg_comments": 0.0,
-      "engagement_rate": 0.0843,
+      "engagement_rate": 8.4507,
       "posts_last_30d": 0,
-      "sample_size": 5,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general",
+      "sample_size": 4,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "low (1건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
       },
       "total_score": 72.0,
       "score_breakdown": {
@@ -5405,9 +6043,19 @@
         "follower_scale": 60
       },
       "grade": "B",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 72.0,
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 63.2,
+          "engagement_rate": 8.4507,
+          "followers": 6680,
+          "posts_last_30d": 0,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic"
+        }
+      ],
+      "score_total": 63.2,
       "score": {
         "total": 72.0,
         "breakdown": {
@@ -5431,7 +6079,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.0025,
       "top_video_views": 16.6,
-      "top_post_likes": 1.4
+      "top_post_likes": 1.4,
+      "sample_note": "STEP B 풀 재분석. likes 추출 3/4 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5440,19 +6089,19 @@
       "channel_id": "UCbNMdCWBwjljPxDu8dfeHmg",
       "profile_url": "https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg",
       "followers": 49800,
-      "avg_views": 58095.0,
+      "avg_views": 58105,
       "avg_likes": 671.0,
       "avg_comments": 21.0,
-      "engagement_rate": 0.0116,
+      "engagement_rate": 1.1892,
       "posts_last_30d": 0,
       "sample_size": 2,
-      "brand_fit_score": 90,
+      "brand_fit_score": 75,
       "retailer_focus": "beauty_general",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "strong (11건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 6,
+        "our_brand_present": false
       },
       "total_score": 66.5,
       "score_breakdown": {
@@ -5461,10 +6110,20 @@
         "consistency": 40,
         "follower_scale": 80
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 66.5,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 62.8,
+          "engagement_rate": 1.1892,
+          "followers": 49800,
+          "posts_last_30d": 0,
+          "brand_fit_score": 75,
+          "retailer_focus": "beauty_general"
+        }
+      ],
+      "score_total": 62.8,
       "score": {
         "total": 66.5,
         "breakdown": {
@@ -5488,7 +6147,8 @@
       "post_count_total": 2,
       "view_to_sub_ratio": 1.1666,
       "top_video_views": 58095.0,
-      "top_post_likes": 671.0
+      "top_post_likes": 671.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 2/2 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5497,19 +6157,19 @@
       "channel_id": "UCcjxXC-20HT-sK316Dz2IFQ",
       "profile_url": "https://www.youtube.com/channel/UCcjxXC-20HT-sK316Dz2IFQ",
       "followers": 441,
-      "avg_views": 13767.0,
+      "avg_views": 20745,
       "avg_likes": 87.2,
       "avg_comments": 6.2,
-      "engagement_rate": 0.0063,
+      "engagement_rate": 0.9368,
       "posts_last_30d": 0,
-      "sample_size": 5,
-      "brand_fit_score": 60,
-      "retailer_focus": "daiso",
+      "sample_size": 12,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
       "retailer_signal": {
-        "daiso_mentions": "8건",
-        "olive_young_mentions": "1건",
-        "beauty_topical_strength": "low (2건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 66,
+        "olive_young_count": 1,
+        "beauty_keyword_count": 16,
+        "our_brand_present": true
       },
       "total_score": 45.0,
       "score_breakdown": {
@@ -5518,10 +6178,20 @@
         "consistency": 40,
         "follower_scale": 40
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 45.0,
+      "grade": "C",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 55.0,
+          "engagement_rate": 0.9368,
+          "followers": 441,
+          "posts_last_30d": 0,
+          "brand_fit_score": 100,
+          "retailer_focus": "our_brand"
+        }
+      ],
+      "score_total": 55.0,
       "score": {
         "total": 45.0,
         "breakdown": {
@@ -5545,7 +6215,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 31.2177,
       "top_video_views": 13767.0,
-      "top_post_likes": 87.2
+      "top_post_likes": 87.2,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5554,19 +6225,19 @@
       "channel_id": "UCd7mIFLSi18eIvaBZuv6c2A",
       "profile_url": "https://www.youtube.com/channel/UCd7mIFLSi18eIvaBZuv6c2A",
       "followers": 15900,
-      "avg_views": 9277.6,
+      "avg_views": 4557,
       "avg_likes": 253.4,
       "avg_comments": 10.4,
-      "engagement_rate": 0.0273,
+      "engagement_rate": 2.8618,
       "posts_last_30d": 0,
-      "sample_size": 5,
+      "sample_size": 12,
       "brand_fit_score": 90,
-      "retailer_focus": "beauty_general",
+      "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "strong (10건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 9,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 31,
+        "our_brand_present": false
       },
       "total_score": 66.5,
       "score_breakdown": {
@@ -5575,9 +6246,19 @@
         "consistency": 40,
         "follower_scale": 80
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 66.5,
+          "engagement_rate": 2.8618,
+          "followers": 15900,
+          "posts_last_30d": 0,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso"
+        }
+      ],
       "score_total": 66.5,
       "score": {
         "total": 66.5,
@@ -5602,7 +6283,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.5835,
       "top_video_views": 9277.6,
-      "top_post_likes": 253.4
+      "top_post_likes": 253.4,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5610,25 +6292,35 @@
       "fullname": "하우머치코리아 (HOWMUCH KOREA)",
       "profile_url": "https://www.youtube.com/channel/UCdw0gUzVPhyZFRVeuzy_AEg",
       "followers": 111000,
-      "avg_views": 59811.1,
+      "avg_views": 79488,
       "avg_likes": 837.7,
       "avg_comments": 108.3,
-      "engagement_rate": 0.014,
+      "engagement_rate": 1.5487,
       "posts_last_30d": 0,
-      "sample_size": 20,
+      "sample_size": 12,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "none (0건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
       },
-      "evaluated_at": "2026-05-11T10:16:06+09:00",
-      "sample_note": "yt-dlp; views/likes from page metadata",
-      "score_total": 52.25,
-      "grade": "D",
-      "history": [],
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
+      "score_total": 52.2,
+      "grade": "C",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 52.2,
+          "engagement_rate": 1.5487,
+          "followers": 111000,
+          "posts_last_30d": 0,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic"
+        }
+      ],
       "score": {
         "total": 52.25,
         "breakdown": {
@@ -5656,24 +6348,63 @@
     },
     {
       "platform": "youtube",
+      "username": "UChz7dY8O1jTD8bXGJ8JgXEA",
+      "fullname": "다이소",
+      "profile_url": "https://www.youtube.com/channel/UChz7dY8O1jTD8bXGJ8JgXEA",
+      "followers": 89900,
+      "engagement_rate": 2.4505,
+      "posts_last_30d": 9,
+      "sample_size": 18,
+      "brand_fit_score": 75,
+      "retailer_focus": "daiso",
+      "retailer_signal": {
+        "daiso_count": 87,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 6,
+        "our_brand_present": false
+      },
+      "evaluated_at": "2026-05-12T10:05:00+09:00",
+      "score_total": 68.8,
+      "grade": "B",
+      "sample_note": "정상 수집",
+      "subcomponents": {
+        "er_score": 60,
+        "brand_fit_score": 75,
+        "posts_score": 80,
+        "followers_score": 80
+      },
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:05:00+09:00",
+          "score_total": 68.8,
+          "engagement_rate": 2.4505,
+          "followers": 89900,
+          "posts_last_30d": 9,
+          "brand_fit_score": 75,
+          "retailer_focus": "daiso"
+        }
+      ]
+    },
+    {
+      "platform": "youtube",
       "username": "UCjegsOAf5nOCfLfMpLyNj0A",
       "fullname": "나는의사다",
       "channel_id": "UCjegsOAf5nOCfLfMpLyNj0A",
       "profile_url": "https://www.youtube.com/channel/UCjegsOAf5nOCfLfMpLyNj0A",
       "followers": 218000,
-      "avg_views": 2667.4,
+      "avg_views": 14122,
       "avg_likes": 13.8,
       "avg_comments": 9.0,
-      "engagement_rate": 0.0052,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general",
+      "engagement_rate": 0.2596,
+      "posts_last_30d": 9,
+      "sample_size": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "low (1건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 12,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 19,
+        "our_brand_present": false
       },
       "total_score": 57.0,
       "score_breakdown": {
@@ -5682,10 +6413,20 @@
         "consistency": 80,
         "follower_scale": 100
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 57.0,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 64.5,
+          "engagement_rate": 0.2596,
+          "followers": 218000,
+          "posts_last_30d": 9,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso"
+        }
+      ],
+      "score_total": 64.5,
       "score": {
         "total": 57.0,
         "breakdown": {
@@ -5709,7 +6450,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.0122,
       "top_video_views": 2667.4,
-      "top_post_likes": 13.8
+      "top_post_likes": 13.8,
+      "sample_note": "STEP B 풀 재분석. likes 추출 9/9 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5718,19 +6460,19 @@
       "channel_id": "UCk1BE73NfSUGz19LpNg9E-w",
       "profile_url": "https://www.youtube.com/channel/UCk1BE73NfSUGz19LpNg9E-w",
       "followers": 384000,
-      "avg_views": 2487.4,
+      "avg_views": 2589,
       "avg_likes": 54.0,
       "avg_comments": 6.8,
-      "engagement_rate": 0.0217,
+      "engagement_rate": 2.0276,
       "posts_last_30d": 4,
-      "sample_size": 5,
+      "sample_size": 4,
       "brand_fit_score": 60,
       "retailer_focus": "beauty_general",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "low (2건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 1,
+        "our_brand_present": false
       },
       "total_score": 64.0,
       "score_breakdown": {
@@ -5739,9 +6481,19 @@
         "consistency": 60,
         "follower_scale": 100
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 64.0,
+          "engagement_rate": 2.0276,
+          "followers": 384000,
+          "posts_last_30d": 4,
+          "brand_fit_score": 60,
+          "retailer_focus": "beauty_general"
+        }
+      ],
       "score_total": 64.0,
       "score": {
         "total": 64.0,
@@ -5766,7 +6518,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.0065,
       "top_video_views": 2487.4,
-      "top_post_likes": 54.0
+      "top_post_likes": 54.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 4/4 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5774,25 +6527,35 @@
       "fullname": "하이하쥬 hihajyu",
       "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g",
       "followers": 8,
-      "avg_views": 6086.8,
+      "avg_views": 5692,
       "avg_likes": 60.2,
       "avg_comments": 0.8,
-      "engagement_rate": 0.0099,
-      "posts_last_30d": 4,
-      "sample_size": 4,
-      "brand_fit_score": 75,
+      "engagement_rate": 0.9628,
+      "posts_last_30d": 5,
+      "sample_size": 5,
+      "brand_fit_score": 60,
       "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "3건",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "medium (3건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 3,
+        "olive_young_count": 1,
+        "beauty_keyword_count": 2,
+        "our_brand_present": false
       },
-      "evaluated_at": "2026-05-11T10:15:53+09:00",
-      "sample_note": "yt-dlp; views/likes from page metadata",
-      "score_total": 51.75,
-      "grade": "D",
-      "history": [],
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 5/5 (JS런타임 없음 → 일부 0)",
+      "score_total": 51.0,
+      "grade": "C",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 51.0,
+          "engagement_rate": 0.9628,
+          "followers": 8,
+          "posts_last_30d": 5,
+          "brand_fit_score": 60,
+          "retailer_focus": "daiso"
+        }
+      ],
       "score": {
         "total": 51.75,
         "breakdown": {
@@ -5825,19 +6588,19 @@
       "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
       "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
       "followers": 1110,
-      "avg_views": 111929.4,
+      "avg_views": 83503,
       "avg_likes": 1947.0,
       "avg_comments": 19.0,
-      "engagement_rate": 0.0174,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 60,
+      "engagement_rate": 1.7257,
+      "posts_last_30d": 6,
+      "sample_size": 12,
+      "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "5건",
-        "olive_young_mentions": "2건",
-        "beauty_topical_strength": "low (2건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 24,
+        "olive_young_count": 9,
+        "beauty_keyword_count": 23,
+        "our_brand_present": false
       },
       "total_score": 63.0,
       "score_breakdown": {
@@ -5846,10 +6609,20 @@
         "consistency": 80,
         "follower_scale": 60
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 63.0,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 70.5,
+          "engagement_rate": 1.7257,
+          "followers": 1110,
+          "posts_last_30d": 6,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso"
+        }
+      ],
+      "score_total": 70.5,
       "score": {
         "total": 63.0,
         "breakdown": {
@@ -5873,7 +6646,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 100.8373,
       "top_video_views": 111929.4,
-      "top_post_likes": 1947.0
+      "top_post_likes": 1947.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5882,19 +6656,19 @@
       "channel_id": "UCmf_Xgbqr0WnQsUOJXWXLLA",
       "profile_url": "https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA",
       "followers": 115000,
-      "avg_views": 219651.0,
+      "avg_views": 322888,
       "avg_likes": 4780.4,
       "avg_comments": 47.2,
-      "engagement_rate": 0.0218,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 60,
-      "retailer_focus": "daiso",
+      "engagement_rate": 2.2274,
+      "posts_last_30d": 9,
+      "sample_size": 12,
+      "brand_fit_score": 75,
+      "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "2건",
-        "olive_young_mentions": "1건",
-        "beauty_topical_strength": "low (2건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 2,
+        "olive_young_count": 4,
+        "beauty_keyword_count": 3,
+        "our_brand_present": false
       },
       "total_score": 67.0,
       "score_breakdown": {
@@ -5903,10 +6677,20 @@
         "consistency": 80,
         "follower_scale": 100
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 67.0,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 70.8,
+          "engagement_rate": 2.2274,
+          "followers": 115000,
+          "posts_last_30d": 9,
+          "brand_fit_score": 75,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 70.8,
       "score": {
         "total": 67.0,
         "breakdown": {
@@ -5930,7 +6714,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 1.91,
       "top_video_views": 219651.0,
-      "top_post_likes": 4780.4
+      "top_post_likes": 4780.4,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5939,19 +6724,19 @@
       "channel_id": "UCn_b_mrrhtMGhiLZLCzF7rQ",
       "profile_url": "https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ",
       "followers": 113000,
-      "avg_views": 11466.2,
+      "avg_views": 13712,
       "avg_likes": 176.0,
       "avg_comments": 58.6,
-      "engagement_rate": 0.0153,
-      "posts_last_30d": 0,
-      "sample_size": 5,
-      "brand_fit_score": 75,
+      "engagement_rate": 1.715,
+      "posts_last_30d": 1,
+      "sample_size": 12,
+      "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "4건",
-        "beauty_topical_strength": "medium (5건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 6,
+        "olive_young_count": 18,
+        "beauty_keyword_count": 64,
+        "our_brand_present": false
       },
       "total_score": 64.75,
       "score_breakdown": {
@@ -5960,10 +6745,20 @@
         "consistency": 40,
         "follower_scale": 100
       },
-      "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 64.75,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 68.5,
+          "engagement_rate": 1.715,
+          "followers": 113000,
+          "posts_last_30d": 1,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 68.5,
       "score": {
         "total": 64.75,
         "breakdown": {
@@ -5987,7 +6782,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.1015,
       "top_video_views": 11466.2,
-      "top_post_likes": 176.0
+      "top_post_likes": 176.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -5996,19 +6792,19 @@
       "channel_id": "UCodG0bJ3OICRA1bg4TBdU9A",
       "profile_url": "https://www.youtube.com/channel/UCodG0bJ3OICRA1bg4TBdU9A",
       "followers": 135000,
-      "avg_views": 436.0,
+      "avg_views": 622,
       "avg_likes": 10.0,
       "avg_comments": 1.4,
-      "engagement_rate": 0.0229,
+      "engagement_rate": 4.3234,
       "posts_last_30d": 2,
-      "sample_size": 5,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
+      "sample_size": 10,
+      "brand_fit_score": 75,
+      "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "none (0건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 4,
+        "beauty_keyword_count": 6,
+        "our_brand_present": false
       },
       "total_score": 55.25,
       "score_breakdown": {
@@ -6017,10 +6813,20 @@
         "consistency": 60,
         "follower_scale": 100
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 55.25,
+      "grade": "A",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 77.8,
+          "engagement_rate": 4.3234,
+          "followers": 135000,
+          "posts_last_30d": 2,
+          "brand_fit_score": 75,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 77.8,
       "score": {
         "total": 55.25,
         "breakdown": {
@@ -6044,7 +6850,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.0032,
       "top_video_views": 436.0,
-      "top_post_likes": 10.0
+      "top_post_likes": 10.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 10/10 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -6053,19 +6860,19 @@
       "channel_id": "UCrhm4vlaOhwDND5uIBQPbiw",
       "profile_url": "https://www.youtube.com/channel/UCrhm4vlaOhwDND5uIBQPbiw",
       "followers": 11600,
-      "avg_views": 289.6,
+      "avg_views": 290,
       "avg_likes": 0.0,
       "avg_comments": 0.0,
       "engagement_rate": 0.0,
       "posts_last_30d": 0,
       "sample_size": 5,
       "brand_fit_score": 25,
-      "retailer_focus": "mixed",
+      "retailer_focus": "off_topic",
       "retailer_signal": {
-        "daiso_mentions": "1건",
-        "olive_young_mentions": "1건",
-        "beauty_topical_strength": "none (0건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
       },
       "total_score": 40.25,
       "score_breakdown": {
@@ -6075,9 +6882,19 @@
         "follower_scale": 80
       },
       "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 40.25,
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 40.2,
+          "engagement_rate": 0.0,
+          "followers": 11600,
+          "posts_last_30d": 0,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic"
+        }
+      ],
+      "score_total": 40.2,
       "score": {
         "total": 40.25,
         "breakdown": {
@@ -6101,7 +6918,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.025,
       "top_video_views": 289.6,
-      "top_post_likes": 0.0
+      "top_post_likes": 0.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 0/5 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -6110,19 +6928,19 @@
       "channel_id": "UCrlUlicedicJ5mlibqC62Eg",
       "profile_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
       "followers": 566000,
-      "avg_views": 45435.4,
+      "avg_views": 49836,
       "avg_likes": 1242.6,
       "avg_comments": 145.8,
-      "engagement_rate": 0.0273,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 75,
-      "retailer_focus": "beauty_general",
+      "engagement_rate": 2.551,
+      "posts_last_30d": 11,
+      "sample_size": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "medium (3건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 2,
+        "olive_young_count": 1,
+        "beauty_keyword_count": 22,
+        "our_brand_present": false
       },
       "total_score": 70.75,
       "score_breakdown": {
@@ -6131,10 +6949,20 @@
         "consistency": 80,
         "follower_scale": 100
       },
-      "grade": "B",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 70.75,
+      "grade": "A",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 77.5,
+          "engagement_rate": 2.551,
+          "followers": 566000,
+          "posts_last_30d": 11,
+          "brand_fit_score": 90,
+          "retailer_focus": "daiso"
+        }
+      ],
+      "score_total": 77.5,
       "score": {
         "total": 70.75,
         "breakdown": {
@@ -6158,7 +6986,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.0803,
       "top_video_views": 45435.4,
-      "top_post_likes": 1242.6
+      "top_post_likes": 1242.6,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -6167,19 +6996,19 @@
       "channel_id": "UCxA9k7UJz50ZJPa5aUGf7fw",
       "profile_url": "https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw",
       "followers": 325000,
-      "avg_views": 11936.4,
+      "avg_views": 8765,
       "avg_likes": 176.2,
       "avg_comments": 65.8,
-      "engagement_rate": 0.0148,
-      "posts_last_30d": 5,
-      "sample_size": 5,
-      "brand_fit_score": 75,
+      "engagement_rate": 2.2389,
+      "posts_last_30d": 6,
+      "sample_size": 12,
+      "brand_fit_score": 60,
       "retailer_focus": "beauty_general",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "medium (3건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 2,
+        "our_brand_present": false
       },
       "total_score": 70.75,
       "score_breakdown": {
@@ -6189,9 +7018,19 @@
         "follower_scale": 100
       },
       "grade": "B",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 70.75,
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 67.0,
+          "engagement_rate": 2.2389,
+          "followers": 325000,
+          "posts_last_30d": 6,
+          "brand_fit_score": 60,
+          "retailer_focus": "beauty_general"
+        }
+      ],
+      "score_total": 67.0,
       "score": {
         "total": 70.75,
         "breakdown": {
@@ -6215,7 +7054,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.0367,
       "top_video_views": 11936.4,
-      "top_post_likes": 176.2
+      "top_post_likes": 176.2,
+      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -6224,19 +7064,19 @@
       "channel_id": "UCxQFCdMag6smOQVAObGBIgA",
       "profile_url": "https://www.youtube.com/channel/UCxQFCdMag6smOQVAObGBIgA",
       "followers": 6310,
-      "avg_views": 822.2,
+      "avg_views": 6721,
       "avg_likes": 10.0,
       "avg_comments": 11.2,
-      "engagement_rate": 0.0122,
+      "engagement_rate": 0.5654,
       "posts_last_30d": 2,
-      "sample_size": 5,
-      "brand_fit_score": 75,
+      "sample_size": 12,
+      "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "2건",
-        "beauty_topical_strength": "medium (6건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 19,
+        "beauty_keyword_count": 12,
+        "our_brand_present": false
       },
       "total_score": 63.75,
       "score_breakdown": {
@@ -6246,9 +7086,19 @@
         "follower_scale": 60
       },
       "grade": "C",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 63.75,
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 57.5,
+          "engagement_rate": 0.5654,
+          "followers": 6310,
+          "posts_last_30d": 2,
+          "brand_fit_score": 90,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 57.5,
       "score": {
         "total": 63.75,
         "breakdown": {
@@ -6272,7 +7122,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.1303,
       "top_video_views": 822.2,
-      "top_post_likes": 10.0
+      "top_post_likes": 10.0,
+      "sample_note": "STEP B 풀 재분석. likes 추출 10/12 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -6281,19 +7132,19 @@
       "channel_id": "UCy4L-mlTgH-v8vBbtzCGhIA",
       "profile_url": "https://www.youtube.com/channel/UCy4L-mlTgH-v8vBbtzCGhIA",
       "followers": 90000,
-      "avg_views": 9763.4,
+      "avg_views": 5461,
       "avg_likes": 16.4,
       "avg_comments": 1.4,
-      "engagement_rate": 0.0017,
+      "engagement_rate": 0.2728,
       "posts_last_30d": 0,
-      "sample_size": 5,
+      "sample_size": 10,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "none (0건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
       },
       "total_score": 40.25,
       "score_breakdown": {
@@ -6303,9 +7154,19 @@
         "follower_scale": 80
       },
       "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 40.25,
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 40.2,
+          "engagement_rate": 0.2728,
+          "followers": 90000,
+          "posts_last_30d": 0,
+          "brand_fit_score": 25,
+          "retailer_focus": "off_topic"
+        }
+      ],
+      "score_total": 40.2,
       "score": {
         "total": 40.25,
         "breakdown": {
@@ -6329,7 +7190,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.1085,
       "top_video_views": 9763.4,
-      "top_post_likes": 16.4
+      "top_post_likes": 16.4,
+      "sample_note": "STEP B 풀 재분석. likes 추출 10/10 (JS런타임 없음 → 일부 0)"
     },
     {
       "platform": "youtube",
@@ -6338,19 +7200,19 @@
       "channel_id": "UCzBbE7x7mPrs56PvCc0errA",
       "profile_url": "https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA",
       "followers": 160000,
-      "avg_views": 78136.4,
+      "avg_views": 39057,
       "avg_likes": 178.8,
       "avg_comments": 10.4,
-      "engagement_rate": 0.0023,
-      "posts_last_30d": 4,
-      "sample_size": 5,
-      "brand_fit_score": 75,
-      "retailer_focus": "beauty_general",
+      "engagement_rate": 1.9808,
+      "posts_last_30d": 3,
+      "sample_size": 3,
+      "brand_fit_score": 25,
+      "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_mentions": "none",
-        "olive_young_mentions": "none",
-        "beauty_topical_strength": "medium (3건)",
-        "labrang_blanc_doux_mention": false
+        "daiso_count": 0,
+        "olive_young_count": 1,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
       },
       "total_score": 57.75,
       "score_breakdown": {
@@ -6359,10 +7221,20 @@
         "consistency": 60,
         "follower_scale": 100
       },
-      "grade": "D",
-      "evaluated_at": "2026-05-08T10:26:33+09:00",
-      "history": [],
-      "score_total": 57.75,
+      "grade": "C",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "history": [
+        {
+          "evaluated_at": "2026-05-12T10:15:00+09:00",
+          "score_total": 55.2,
+          "engagement_rate": 1.9808,
+          "followers": 160000,
+          "posts_last_30d": 3,
+          "brand_fit_score": 25,
+          "retailer_focus": "olive_young"
+        }
+      ],
+      "score_total": 55.2,
       "score": {
         "total": 57.75,
         "breakdown": {
@@ -6386,7 +7258,8 @@
       "post_count_total": 5,
       "view_to_sub_ratio": 0.4884,
       "top_video_views": 78136.4,
-      "top_post_likes": 178.8
+      "top_post_likes": 178.8,
+      "sample_note": "STEP B 풀 재분석. likes 추출 3/3 (JS런타임 없음 → 일부 0)"
     }
   ]
 }

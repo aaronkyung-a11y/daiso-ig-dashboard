@@ -335,6 +335,16 @@
       "grade": "B",
       "score_total": 72.5,
       "posts_last_30d": "추정 — sample 4 taken_at 모두 직전 1.3일 내, 30일 환산 ≥30 추정"
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 75.5,
+      "engagement_rate": 0.0487,
+      "followers": 87000,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "note": "snapshot_only (no live refetch)"
     }
   ],
   "score_total": 75.5,
@@ -344,5 +354,7 @@
     "brand_fit": 90,
     "consistency": 100,
     "follower_scale": 80
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
 }

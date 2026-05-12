@@ -8,7 +8,7 @@
   "post_count_total": 305,
   "bio": "",
   "sample_size": 12,
-  "sample_note": "★ STEP B-Light rolling refresh — 로그아웃 (sessionid 없음, 12 cap). og:description 기반 like/comment/date 추출.",
+  "sample_note": "★ STEP B-Light rolling refresh — 로그아웃 (sessionid 없음, 12 cap). og:description 기반 like/comment/date 추출. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
   "avg_likes": 2121.25,
   "avg_comments": 21.67,
   "engagement_rate": 1.1374,
@@ -144,6 +144,16 @@
       "score": 93.5,
       "grade": "S",
       "note": "B-Light 14:00 KST refresh — 로그아웃 프로필 헤더 갱신: followers 1884 → 1929 (+45). reel 데이터는 직전 분석 유지."
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 93.5,
+      "engagement_rate": 1.1374,
+      "followers": 1929,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "note": "snapshot_only (no live refetch)"
     }
   ],
   "score_total": 93.5,
@@ -153,5 +163,6 @@
     "brand_fit": 90,
     "consistency": 100,
     "follower_scale": 60
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

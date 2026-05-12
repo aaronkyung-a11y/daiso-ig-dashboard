@@ -4,25 +4,35 @@
   "fullname": "하이하쥬 hihajyu",
   "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g",
   "followers": 8,
-  "avg_views": 6086.8,
+  "avg_views": 5692,
   "avg_likes": 60.2,
   "avg_comments": 0.8,
-  "engagement_rate": 0.0099,
-  "posts_last_30d": 4,
-  "sample_size": 4,
-  "brand_fit_score": 75,
+  "engagement_rate": 0.9628,
+  "posts_last_30d": 5,
+  "sample_size": 5,
+  "brand_fit_score": 60,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "3건",
-    "olive_young_mentions": "none",
-    "beauty_topical_strength": "medium (3건)",
-    "labrang_blanc_doux_mention": false
+    "daiso_count": 3,
+    "olive_young_count": 1,
+    "beauty_keyword_count": 2,
+    "our_brand_present": false
   },
-  "evaluated_at": "2026-05-11T10:15:53+09:00",
-  "sample_note": "yt-dlp; views/likes from page metadata",
-  "score_total": 51.75,
-  "grade": "D",
-  "history": [],
+  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": "STEP B 풀 재분석. likes 추출 5/5 (JS런타임 없음 → 일부 0)",
+  "score_total": 51.0,
+  "grade": "C",
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 51.0,
+      "engagement_rate": 0.9628,
+      "followers": 8,
+      "posts_last_30d": 5,
+      "brand_fit_score": 60,
+      "retailer_focus": "daiso"
+    }
+  ],
   "score": {
     "total": 51.75,
     "breakdown": {

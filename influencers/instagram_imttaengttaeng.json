@@ -8,7 +8,7 @@
   "post_count_total": 52,
   "bio": "",
   "sample_size": 12,
-  "sample_note": "⚠️ IG 로그아웃 — 샘플 12개 제한. og:description 기반 like/comment/date 추출 (script code-based 동시 검증).",
+  "sample_note": "⚠️ IG 로그아웃 — 샘플 12개 제한. og:description 기반 like/comment/date 추출 (script code-based 동시 검증). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
   "avg_likes": 9563.42,
   "avg_comments": 43.75,
   "engagement_rate": 0.1056,
@@ -88,7 +88,18 @@
   "grade": "A",
   "avg_engagement": 9607.17,
   "top_post_likes": 42000,
-  "history": [],
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 85.75,
+      "engagement_rate": 0.1056,
+      "followers": 91000,
+      "posts_last_30d": 3,
+      "brand_fit_score": 75,
+      "retailer_focus": "beauty_general",
+      "note": "snapshot_only (no live refetch)"
+    }
+  ],
   "score_total": 85.75,
   "total_score": 85.75,
   "score_breakdown": {
@@ -96,5 +107,6 @@
     "brand_fit": 75,
     "consistency": 60,
     "follower_scale": 80
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

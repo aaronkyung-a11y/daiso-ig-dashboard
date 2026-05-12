@@ -4,25 +4,35 @@
   "fullname": "해니 haeni beauty",
   "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
   "followers": 478000,
-  "avg_views": 22567.8,
+  "avg_views": 43616,
   "avg_likes": 865.6,
   "avg_comments": 81.8,
-  "engagement_rate": 0.0384,
-  "posts_last_30d": 5,
-  "sample_size": 20,
+  "engagement_rate": 4.5973,
+  "posts_last_30d": 4,
+  "sample_size": 12,
   "brand_fit_score": 90,
-  "retailer_focus": "beauty_general",
+  "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso_mentions": "none",
-    "olive_young_mentions": "none",
-    "beauty_topical_strength": "high (42건)",
-    "labrang_blanc_doux_mention": false
+    "daiso_count": 0,
+    "olive_young_count": 1,
+    "beauty_keyword_count": 444,
+    "our_brand_present": false
   },
-  "evaluated_at": "2026-05-11T10:12:44+09:00",
-  "sample_note": "yt-dlp; views/likes from page metadata",
-  "score_total": 84.5,
+  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
+  "score_total": 81.5,
   "grade": "A",
-  "history": [],
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 81.5,
+      "engagement_rate": 4.5973,
+      "followers": 478000,
+      "posts_last_30d": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young"
+    }
+  ],
   "score": {
     "total": 84.5,
     "breakdown": {

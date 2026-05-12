@@ -1,0 +1,39 @@
+{
+  "platform": "youtube",
+  "username": "UCAThGewvLVT5fW8utNfrawA",
+  "fullname": "ARADHYA FACT",
+  "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
+  "followers": 572000,
+  "engagement_rate": 0.1165,
+  "posts_last_30d": 20,
+  "sample_size": 20,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_count": 0,
+    "olive_young_count": 0,
+    "beauty_keyword_count": 0,
+    "our_brand_present": false
+  },
+  "evaluated_at": "2026-05-12T10:05:00+09:00",
+  "score_total": 51.2,
+  "grade": "C",
+  "sample_note": "likes 일부만 추출 (2/20)",
+  "subcomponents": {
+    "er_score": 40,
+    "brand_fit_score": 25,
+    "posts_score": 100,
+    "followers_score": 100
+  },
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:05:00+09:00",
+      "score_total": 51.2,
+      "engagement_rate": 0.1165,
+      "followers": 572000,
+      "posts_last_30d": 20,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic"
+    }
+  ]
+}

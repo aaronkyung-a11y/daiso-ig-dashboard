@@ -5,19 +5,19 @@
   "channel_id": "UC5o9Z5lgw4kk4fjDhweZxKg",
   "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg",
   "followers": 175000,
-  "avg_views": 1206.83,
+  "avg_views": 7413,
   "avg_likes": 40.5,
   "avg_comments": 3.83,
-  "engagement_rate": 0.0336,
+  "engagement_rate": 1.7591,
   "posts_last_30d": 4,
-  "sample_size": 6,
+  "sample_size": 12,
   "brand_fit_score": 90,
   "retailer_focus": "mixed",
   "retailer_signal": {
-    "daiso_mentions": "12건",
-    "olive_young_mentions": "11건",
-    "beauty_topical_strength": "strong (149건)",
-    "labrang_blanc_doux_mention": false
+    "daiso_count": 12,
+    "olive_young_count": 10,
+    "beauty_keyword_count": 9,
+    "our_brand_present": false
   },
   "total_score": 81.5,
   "score_breakdown": {
@@ -26,8 +26,8 @@
     "consistency": 60,
     "follower_scale": 100
   },
-  "grade": "A",
-  "evaluated_at": "2026-05-08T17:11:25+09:00",
+  "grade": "B",
+  "evaluated_at": "2026-05-12T10:15:00+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-08T09:11:12+09:00",
@@ -41,10 +41,19 @@
       "grade": "C",
       "score_total": 55.25,
       "posts_last_30d": 4
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 71.5,
+      "engagement_rate": 1.7591,
+      "followers": 175000,
+      "posts_last_30d": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "mixed"
     }
   ],
-  "score_total": 81.5,
-  "sample_note": "★ STEP B-Light rolling refresh (Fri 17:00 KST) — yt-dlp 6 videos, last 30d posts=4",
+  "score_total": 71.5,
+  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
   "score": {
     "total": 81.5,
     "breakdown": {

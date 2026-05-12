@@ -97,6 +97,18 @@
       "score": 62.5,
       "grade": "C",
       "note": "B-Light 14:00 KST refresh — 로그아웃 프로필 헤더 갱신: followers 61000 → 61000 (변동 없음). reel 데이터는 직전 분석 유지."
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 62.5,
+      "engagement_rate": 0.0065,
+      "followers": 61000,
+      "posts_last_30d": 7,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "note": "snapshot_only (no live refetch)"
     }
-  ]
+  ],
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
 }

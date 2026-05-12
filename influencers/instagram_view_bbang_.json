@@ -8,7 +8,7 @@
   "post_count_total": 10,
   "bio": "",
   "sample_size": 3,
-  "sample_note": "3 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels).",
+  "sample_note": "3 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
   "avg_likes": 43.0,
   "avg_comments": 11.33,
   "avg_engagement": 54.33,
@@ -61,7 +61,18 @@
     }
   },
   "grade": "B",
-  "history": [],
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 69.25,
+      "engagement_rate": 0.1561,
+      "followers": 348,
+      "posts_last_30d": 3,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "note": "snapshot_only (no live refetch)"
+    }
+  ],
   "score_total": 69.25,
   "total_score": 69.25,
   "score_breakdown": {
@@ -69,5 +80,6 @@
     "brand_fit": 25,
     "consistency": 60,
     "follower_scale": 40
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

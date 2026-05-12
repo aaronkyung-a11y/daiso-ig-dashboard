@@ -151,6 +151,16 @@
       "grade": "S",
       "score_total": 93.5,
       "posts_last_30d": 10
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 93.5,
+      "engagement_rate": 0.1172,
+      "followers": 6199,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "note": "snapshot_only (no live refetch)"
     }
   ],
   "estimation_flags": [
@@ -163,5 +173,7 @@
     "brand_fit": 90,
     "consistency": 100,
     "follower_scale": 60
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
 }

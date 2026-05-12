@@ -8,7 +8,7 @@
   "post_count_total": 13,
   "bio": "기초&베이스 덕후",
   "sample_size": 0,
-  "sample_note": "로그아웃 fast pass — IG 프로필 헤더만 접근, reel 개별 likes/comments 데이터 없음. ER 점수는 추정.",
+  "sample_note": "로그아웃 fast pass — IG 프로필 헤더만 접근, reel 개별 likes/comments 데이터 없음. ER 점수는 추정. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
   "avg_likes": null,
   "avg_comments": null,
   "avg_engagement": null,
@@ -58,6 +58,16 @@
       "score": 50.0,
       "grade": "D",
       "note": "initial (logged-out fast pass)"
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 50.0,
+      "engagement_rate": null,
+      "followers": 4572,
+      "posts_last_30d": null,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "note": "snapshot_only (no live refetch)"
     }
   ],
   "score_total": 50.0,
@@ -67,5 +77,6 @@
     "brand_fit": 60,
     "consistency": 60,
     "follower_scale": 60
-  }
+  },
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

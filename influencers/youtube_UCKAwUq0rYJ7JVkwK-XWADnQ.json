@@ -5,19 +5,19 @@
   "channel_id": "UCKAwUq0rYJ7JVkwK-XWADnQ",
   "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ",
   "followers": 49300,
-  "avg_views": 13990.6,
+  "avg_views": 54247,
   "avg_likes": 236.0,
   "avg_comments": 13.2,
-  "engagement_rate": 0.0169,
-  "posts_last_30d": 5,
-  "sample_size": 5,
-  "brand_fit_score": 75,
+  "engagement_rate": 1.8955,
+  "posts_last_30d": 4,
+  "sample_size": 12,
+  "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "1건",
-    "olive_young_mentions": "0건",
-    "beauty_topical_strength": "medium (3건)",
-    "labrang_blanc_doux_mention": false
+    "daiso_count": 3,
+    "olive_young_count": 2,
+    "beauty_keyword_count": 11,
+    "our_brand_present": false
   },
   "total_score": 68.75,
   "score_breakdown": {
@@ -27,9 +27,19 @@
     "follower_scale": 80
   },
   "grade": "B",
-  "evaluated_at": "2026-05-08T09:16:25+09:00",
-  "history": [],
-  "score_total": 68.75,
+  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 69.5,
+      "engagement_rate": 1.8955,
+      "followers": 49300,
+      "posts_last_30d": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso"
+    }
+  ],
+  "score_total": 69.5,
   "score": {
     "total": 68.75,
     "breakdown": {
@@ -53,5 +63,6 @@
   "post_count_total": 5,
   "view_to_sub_ratio": 0.2838,
   "top_video_views": 13990.6,
-  "top_post_likes": 236.0
+  "top_post_likes": 236.0,
+  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
 }
