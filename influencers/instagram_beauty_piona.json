@@ -3,15 +3,15 @@
   "username": "beauty_piona",
   "profile_url": "https://www.instagram.com/beauty_piona/",
   "fullname": "문혜경",
-  "followers": 6199,
+  "followers": 6222,
   "following": 6568,
   "post_count_total": 582,
   "bio": "",
   "sample_size": 12,
-  "avg_likes": 637.8,
-  "avg_comments": 88.9,
+  "avg_likes": 620.0,
+  "avg_comments": 77.1,
   "avg_engagement": 726.7,
-  "engagement_rate": 0.1172,
+  "engagement_rate": 0.112,
   "top_post_likes": 15000,
   "posts_last_30d": 10,
   "brand_fit_score": 90,
@@ -61,7 +61,7 @@
     ],
     "top_reel": "https://www.instagram.com/p/DRjXE6ukg-a/"
   },
-  "evaluated_at": "2026-05-06T17:05:00+09:00",
+  "evaluated_at": "2026-05-12T17:15:00+09:00",
   "notes": "STEP B-Light rolling refresh (Wed 17:00). logged-out IG og:description fallback, 12 reels from feed (incl 3 pinned/old).",
   "score": {
     "total": 93.5,
@@ -81,9 +81,9 @@
   "grade": "S",
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "18건",
+    "daiso_mentions": "14건",
     "olive_young_mentions": "none",
-    "beauty_topical_strength": "high (43건)",
+    "beauty_topical_strength": "strong (37건)",
     "labrang_blanc_doux_mention": false
   },
   "history": [
@@ -161,10 +161,21 @@
       "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-06T17:05:00+09:00",
+      "followers": 6199,
+      "engagement_rate": 0.1172,
+      "posts_last_30d": 10,
+      "sample_size": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 93.5,
+      "grade": "S"
     }
   ],
   "estimation_flags": [
-    "engagement_rate (logged-out IG; ER excludes 2 pinned/old posts to reflect current 30d engagement — 추정 요소)"
+    "engagement_rate (logged-out IG og:description; ER excludes 2 old pinned outside 30d window — 추정 요소)"
   ],
   "score_total": 93.5,
   "total_score": 93.5,
@@ -174,6 +185,91 @@
     "consistency": 100,
     "follower_scale": 60
   },
-  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
-  "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
+  "sample_note": "STEP B-Light 17:00 KST 실측 — 12 reels (incl 3 pinned: Nov/Jan/Apr). ER 산출은 30d 윈도우 내 10건 사용 (April 12 boundary 포함, 2 pinned 제외). 다이소 14건 / 뷰티 키워드 37건. like/cm/taken_at 12/12 추출 성공. 점수 변동 없음 (93.5 → 93.5).",
+  "sample_reels_snapshot": [
+    {
+      "code": "DXD7y3aAutK",
+      "date": "April 12, 2026",
+      "like": 4907,
+      "cm": 642,
+      "pinned": false
+    },
+    {
+      "code": "DTkGSuTEkzF",
+      "date": "January 15, 2026",
+      "like": 3715,
+      "cm": 497,
+      "pinned": true
+    },
+    {
+      "code": "DRjXE6ukg-a",
+      "date": "November 27, 2025",
+      "like": 15000,
+      "cm": 518,
+      "pinned": true
+    },
+    {
+      "code": "DYOFAifipa9",
+      "date": "May 11, 2026",
+      "like": 40,
+      "cm": 8,
+      "pinned": false
+    },
+    {
+      "code": "DYMTh0BmDg2",
+      "date": "May 11, 2026",
+      "like": 68,
+      "cm": 5,
+      "pinned": false
+    },
+    {
+      "code": "DYJuBJ5Cuqy",
+      "date": "May 10, 2026",
+      "like": 155,
+      "cm": 21,
+      "pinned": false
+    },
+    {
+      "code": "DYFI78KCsky",
+      "date": "May 8, 2026",
+      "like": 74,
+      "cm": 12,
+      "pinned": false
+    },
+    {
+      "code": "DYHGho8iWVw",
+      "date": "May 9, 2026",
+      "like": 253,
+      "cm": 11,
+      "pinned": false
+    },
+    {
+      "code": "DYEb7z5iTES",
+      "date": "May 8, 2026",
+      "like": 88,
+      "cm": 9,
+      "pinned": false
+    },
+    {
+      "code": "DX-z1LliCou",
+      "date": "May 5, 2026",
+      "like": 60,
+      "cm": 4,
+      "pinned": false
+    },
+    {
+      "code": "DX9bKHkCqFJ",
+      "date": "May 5, 2026",
+      "like": 55,
+      "cm": 6,
+      "pinned": false
+    },
+    {
+      "code": "DX6eNkSiBm-",
+      "date": "May 4, 2026",
+      "like": 500,
+      "cm": 53,
+      "pinned": false
+    }
+  ]
 }
