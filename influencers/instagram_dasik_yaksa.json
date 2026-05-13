@@ -3,72 +3,72 @@
   "username": "dasik.yaksa",
   "profile_url": "https://www.instagram.com/dasik.yaksa/",
   "fullname": "다식 약사 | 박약다식, 박소윤",
-  "followers": 103000,
+  "followers": 104000,
   "following": 885,
   "post_count_total": 906,
   "bio": "",
   "sample_size": 12,
-  "sample_note": "★ STEP B-Light rolling refresh — 로그아웃 (sessionid 없음, 12 cap). og:description 기반 like/comment/date 추출 (SPA 캐시 contamination 회피). 캡션 키워드 분석은 og:description의 caption 일부로 수행 (full text 일부만 보일 수 있음 → brand_fit는 추정 가능성 있음). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
-  "avg_likes": 213.0,
-  "avg_comments": 29.33,
-  "engagement_rate": 0.0024,
+  "sample_note": "STEP B-Light 14:00 KST 실측 — 12 reels (incl 2 old pinned: Jan 2025, Nov 2025). ER 산출은 30d 윈도우 내 10건 사용 (pinned 제외). 다이소 0건/올영 0건/뷰티 키워드 1건 — pharma/health 콘텐츠로 전환. 점수 변동 60.0 → 60.0.",
+  "avg_likes": 126.7,
+  "avg_comments": 62.0,
+  "engagement_rate": 0.0018,
   "engagement_rate_status": "calculated_from_og_description",
   "posts_last_30d": 10,
   "brand_fit_score": 60,
-  "retailer_focus": "daiso",
+  "retailer_focus": "beauty_general",
   "retailer_signal": {
-    "daiso_mentions": "1건",
-    "olive_young_mentions": "none",
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
     "beauty_topical_strength": "weak (1건)",
     "labrang_blanc_doux_mention": false
   },
-  "brand_fit_notes": "beauty weak (1건)/daiso 1건/oy none/labrang N",
+  "brand_fit_notes": "beauty 1/daiso 0/oy 0/labrang N — content shifted to pharma/health",
   "sample_data_evidence": {
     "likes_sample": [
-      161,
-      988,
-      379,
-      128,
-      46,
-      58,
-      128,
-      125,
+      194,
+      996,
+      382,
+      64,
       104,
-      348,
-      44,
-      47
+      99,
+      196,
+      170,
+      64,
+      236,
+      68,
+      72
     ],
     "comments_sample": [
-      99,
-      63,
+      227,
+      64,
       15,
-      11,
-      62,
-      4,
-      9,
-      6,
-      12,
-      15,
-      49,
+      3,
+      35,
+      13,
+      200,
+      19,
+      14,
+      7,
+      95,
       7
     ],
     "reel_codes": [
       "DXvVlBND0eH",
       "DFbYAOATe_W",
       "DRq4TjRD_Bd",
-      "DX6jzVOKE4A",
-      "DX5ghDxGjjY",
-      "DX5fyJwK6cT",
-      "DX4stNXCvvX",
-      "DX3HX3eKCvk",
-      "DX0ZkfxGKNB",
-      "DXy_gh8vLOK",
-      "DXy11pIj6Z4",
-      "DXxkqYWj6Ka"
+      "DYQex4LvpAz",
+      "DYO8mpHvvs0",
+      "DYOMReXPvrL",
+      "DYMuLpBPKwV",
+      "DYMaJ_mj7vy",
+      "DYLT7DCD29d",
+      "DYKGwepvzxG",
+      "DYHXQ34mn3h",
+      "DYHVvx6qFvg"
     ],
-    "top_reel": "https://www.instagram.com/p/DFbYAOATe_W/"
+    "top_reel": "https://www.instagram.com/p/DYKGwepvzxG/"
   },
-  "evaluated_at": "2026-05-07T09:07:01+09:00",
+  "evaluated_at": "2026-05-13T14:05:00+09:00",
   "notes": "Tue 09:00 STEP B-Light rolling refresh. og:description method (SPA contamination avoided).",
   "score": {
     "total": 60.0,
@@ -87,7 +87,7 @@
   },
   "grade": "C",
   "avg_engagement": 242.33,
-  "top_post_likes": 988,
+  "top_post_likes": 236,
   "history": [
     {
       "evaluated_at": "2026-05-04T09:35:41+09:00",
@@ -150,6 +150,16 @@
       "brand_fit_score": 60,
       "retailer_focus": "daiso",
       "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-13T14:05:00+09:00",
+      "score_total": 60.0,
+      "engagement_rate": 0.0018,
+      "followers": 104000,
+      "posts_last_30d": 10,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "note": "STEP B-Light 14:00 live refetch (12 reels incl 2 pinned)"
     }
   ],
   "score_total": 60.0,
@@ -160,5 +170,8 @@
     "consistency": 100,
     "follower_scale": 100
   },
-  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
+  "snapshot_refresh_at": "2026-05-13T14:05:00+09:00",
+  "estimation_flags": [
+    "engagement_rate (logged-out IG og:description; 12 reels 모두 like/cm/date 실측)"
+  ]
 }
