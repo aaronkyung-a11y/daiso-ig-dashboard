@@ -3,12 +3,12 @@
   "username": "mingjikim_107",
   "profile_url": "https://www.instagram.com/mingjikim_107/",
   "fullname": "밍직임",
-  "followers": 2624,
+  "followers": 2618,
   "following": 1116,
   "post_count_total": 116,
   "bio": "",
   "sample_size": 4,
-  "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
+  "sample_note": "STEP B-Light 17시 슬롯: IG 세션 미확보(로그아웃) — 라이브 reel 재페치 SKIP. 로그아웃 프로필 프리뷰에서 followers만 2624→2618 갱신. ER/brand_fit/posts_30d/score 변경 없음 (snapshot only).",
   "avg_likes": 366.25,
   "avg_comments": 35.75,
   "avg_engagement": 402.0,
@@ -46,7 +46,7 @@
     ],
     "top_reel": "https://www.instagram.com/p/DXx73pUBTn1/"
   },
-  "evaluated_at": "2026-05-07T14:41:05+09:00",
+  "evaluated_at": "2026-05-13T17:10:00+09:00",
   "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
   "score": {
     "total": 71.25,
@@ -74,6 +74,16 @@
       "brand_fit_score": 25,
       "retailer_focus": "off_topic",
       "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-07T14:41:05+09:00",
+      "followers": 2624,
+      "engagement_rate": 0.1532,
+      "posts_last_30d": 4,
+      "brand_fit_score": 25,
+      "score_total": 71.25,
+      "grade": "B",
+      "note": "pre-snapshot"
     }
   ],
   "score_total": 71.25,
