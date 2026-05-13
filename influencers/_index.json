@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T14:05:00+09:00",
+  "generated_at": "2026-05-13T17:10:00+09:00",
   "total_records": 75,
   "retailer_focus_distribution": {
     "daiso": 20,
@@ -487,7 +487,7 @@
       "username": "cos_muni",
       "profile_url": "https://www.instagram.com/cos_muni/",
       "fullname": "무니",
-      "followers": 1556,
+      "followers": 1595,
       "following": 784,
       "post_count_total": 61,
       "bio": "",
@@ -530,7 +530,7 @@
         ],
         "top_reel": "https://www.instagram.com/p/DXysE3lztin/"
       },
-      "evaluated_at": "2026-05-07T14:41:05+09:00",
+      "evaluated_at": "2026-05-13T17:10:00+09:00",
       "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
       "score": {
         "total": 87.5,
@@ -2110,7 +2110,7 @@
       "username": "mingjikim_107",
       "profile_url": "https://www.instagram.com/mingjikim_107/",
       "fullname": "밍직임",
-      "followers": 2624,
+      "followers": 2618,
       "following": 1116,
       "post_count_total": 116,
       "bio": "",
@@ -2153,7 +2153,7 @@
         ],
         "top_reel": "https://www.instagram.com/p/DXx73pUBTn1/"
       },
-      "evaluated_at": "2026-05-07T14:41:05+09:00",
+      "evaluated_at": "2026-05-13T17:10:00+09:00",
       "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
       "score": {
         "total": 71.25,
