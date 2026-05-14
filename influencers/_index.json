@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T10:22:59.075068+09:00",
+  "generated_at": "2026-05-14T14:15:00+09:00",
   "total_records": 78,
   "retailer_focus_distribution": {
     "daiso": 21,
@@ -12,8 +12,8 @@
   "grade_distribution": {
     "S": 8,
     "A": 10,
-    "B": 36,
-    "C": 19,
+    "B": 37,
+    "C": 18,
     "D": 5
   },
   "records": [
@@ -743,22 +743,22 @@
       "username": "UC43-ROy5F2-1dVZ726gckuA",
       "fullname": "원츄",
       "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA",
-      "followers": 528,
-      "engagement_rate": 0.0107,
-      "posts_last_30d": 9,
+      "followers": 534,
+      "engagement_rate": 0.0128,
+      "posts_last_30d": 8,
       "sample_size": 20,
       "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "retailer_signal": {
         "daiso_mentions": "30건",
         "olive_young_mentions": "11건",
-        "beauty_topical_strength": "high (54건)",
+        "beauty_topical_strength": "strong (49건)",
         "labrang_blanc_doux_mention": false
       },
-      "evaluated_at": "2026-05-11T10:12:44+09:00",
+      "evaluated_at": "2026-05-14T14:10:00+09:00",
       "score_total": 68.5,
-      "grade": "C",
-      "sample_note": "yt-dlp; views/likes from page metadata | STEP B 10시: yt-dlp 재페치 실패 — 기존 스코어 유지 (snapshot only)"
+      "grade": "B",
+      "sample_note": "2026-05-14T14:00 KST STEP B-Light 재분석 — yt-dlp로 20개 영상 fresh 측정. avg_views=61,395, avg_likes=783, ER=1.28%, posts_30d=8. 점수=68.5 (B)."
     },
     {
       "platform": "youtube",
@@ -1662,7 +1662,7 @@
       "username": "gaeeeeurii",
       "fullname": "개울이 • 기초&베이스 덕후♡",
       "profile_url": "https://www.instagram.com/gaeeeeurii/",
-      "followers": 4572,
+      "followers": 4939,
       "engagement_rate": null,
       "posts_last_30d": null,
       "sample_size": 0,
@@ -1674,10 +1674,10 @@
         "beauty_topical_strength": "약함 (2건, 가시 bio 기준)",
         "labrang_blanc_doux_mention": false
       },
-      "evaluated_at": "2026-05-08T14:09:14+09:00",
+      "evaluated_at": "2026-05-14T14:08:00+09:00",
       "score_total": 50.0,
       "grade": "D",
-      "sample_note": "로그아웃 fast pass — IG 프로필 헤더만 접근, reel 개별 likes/comments 데이터 없음. ER 점수는 추정. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
+      "sample_note": "2026-05-14T14:00 KST STEP B-Light 재분석 — ⚠️ IG 로그아웃 상태로 reel 샘플 불가. og:description으로 followers(4,939)/post_count(25) 실측 갱신. ER·brand_fit·posts_30d는 카리포워드. 점수=50.0 (D)."
     },
     {
       "platform": "youtube",
