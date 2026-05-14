@@ -1,0 +1,32 @@
+{
+  "platform": "youtube",
+  "username": "UCb8_UiUdnM9S7r1aYPAsSMw",
+  "channel_handle": null,
+  "fullname": "헤블 HEBLE",
+  "profile_url": "https://www.youtube.com/channel/UCb8_UiUdnM9S7r1aYPAsSMw",
+  "followers": 156000,
+  "engagement_rate": 0.0,
+  "posts_last_30d": 9,
+  "sample_size": 20,
+  "brand_fit_score": 90,
+  "retailer_focus": "olive_young",
+  "retailer_signal": {
+    "daiso_mentions": "7건",
+    "olive_young_mentions": "11건",
+    "beauty_topical_strength": "strong (60건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-14T17:08:19+09:00",
+  "score_total": 64.5,
+  "grade": "B",
+  "sample_note": "2026-05-14T17:00 KST YT 신규 분석 (yt-dlp 샘플 20건 = 최근 영상+숏폼 혼합). ER=0.00%, posts_30d=9 (sample upload_date 기반 추정). brand_fit=90, retailer_focus=olive_young. ⚠️ YouTube like_count 비공개(None) — ER=0 처리로 점수에 보수적으로 반영.",
+  "history": [
+    {
+      "evaluated_at": "2026-05-14T17:08:19+09:00",
+      "score_total": 64.5,
+      "engagement_rate": 0.0,
+      "followers": 156000,
+      "posts_last_30d": 9
+    }
+  ]
+}
