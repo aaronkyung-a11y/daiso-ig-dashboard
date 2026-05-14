@@ -3,25 +3,25 @@
   "username": "UC43-ROy5F2-1dVZ726gckuA",
   "fullname": "원츄",
   "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA",
-  "followers": 528,
-  "avg_views": 54019.3,
-  "avg_likes": 576.6,
-  "avg_comments": 15.2,
-  "engagement_rate": 0.0107,
-  "posts_last_30d": 9,
+  "followers": 534,
+  "avg_views": 61395.1,
+  "avg_likes": 783.4,
+  "avg_comments": 10.0,
+  "engagement_rate": 0.0128,
+  "posts_last_30d": 8,
   "sample_size": 20,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
     "daiso_mentions": "30건",
     "olive_young_mentions": "11건",
-    "beauty_topical_strength": "high (54건)",
+    "beauty_topical_strength": "strong (49건)",
     "labrang_blanc_doux_mention": false
   },
-  "evaluated_at": "2026-05-11T10:12:44+09:00",
-  "sample_note": "yt-dlp; views/likes from page metadata | STEP B 10시: yt-dlp 재페치 실패 — 기존 스코어 유지 (snapshot only)",
+  "evaluated_at": "2026-05-14T14:10:00+09:00",
+  "sample_note": "2026-05-14T14:00 KST STEP B-Light 재분석 — yt-dlp로 20개 영상 fresh 측정. avg_views=61,395, avg_likes=783, ER=1.28%, posts_30d=8. 점수=68.5 (B).",
   "score_total": 68.5,
-  "grade": "C",
+  "grade": "B",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -32,6 +32,16 @@
       "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-11T10:12:44+09:00",
+      "followers": 528,
+      "engagement_rate": 0.0107,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "score_total": 68.5,
+      "grade": "C",
+      "note": "pre-B-Light snapshot (2026-05-11)"
     }
   ],
   "score": {
@@ -56,7 +66,13 @@
     "channel_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA"
   },
   "post_count_total": 20,
-  "view_to_sub_ratio": 102.3093,
-  "top_video_views": 54019.3,
-  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
+  "view_to_sub_ratio": 114.9721,
+  "top_video_views": 577605,
+  "snapshot_refresh_at": "2026-05-14T14:10:00+09:00",
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 80,
+    "follower_scale": 40
+  }
 }
