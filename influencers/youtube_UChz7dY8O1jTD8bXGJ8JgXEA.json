@@ -3,22 +3,22 @@
   "username": "UChz7dY8O1jTD8bXGJ8JgXEA",
   "fullname": "다이소",
   "profile_url": "https://www.youtube.com/channel/UChz7dY8O1jTD8bXGJ8JgXEA",
-  "followers": 89900,
-  "engagement_rate": 2.4505,
-  "posts_last_30d": 9,
+  "followers": 90100,
+  "engagement_rate": 0.0,
+  "posts_last_30d": 8,
   "sample_size": 18,
-  "brand_fit_score": 75,
+  "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_count": 87,
-    "olive_young_count": 0,
-    "beauty_keyword_count": 6,
-    "our_brand_present": false
+    "daiso_mentions": "218건",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "strong (16건)",
+    "labrang_blanc_doux_mention": false
   },
-  "evaluated_at": "2026-05-12T10:05:00+09:00",
-  "score_total": 68.8,
+  "evaluated_at": "2026-05-14T17:10:30+09:00",
+  "score_total": 62.5,
   "grade": "B",
-  "sample_note": "정상 수집",
+  "sample_note": "2026-05-14T17:00 KST STEP B-Light 재분석 (yt-dlp 샘플 18건). ER=0.00%, posts_30d=8 (sample 기반 추정), brand_fit=90, followers=90100. ⚠️ YouTube like_count 비공개(None) — ER=0 처리로 점수에 보수적으로 반영.",
   "subcomponents": {
     "er_score": 60,
     "brand_fit_score": 75,
@@ -34,6 +34,13 @@
       "posts_last_30d": 9,
       "brand_fit_score": 75,
       "retailer_focus": "daiso"
+    },
+    {
+      "evaluated_at": "2026-05-14T17:10:30+09:00",
+      "score_total": 62.5,
+      "engagement_rate": 0.0,
+      "followers": 90100,
+      "posts_last_30d": 8
     }
   ]
 }
