@@ -3,12 +3,12 @@
   "username": "habaoh_0",
   "profile_url": "https://www.instagram.com/habaoh_0/",
   "fullname": "하바오",
-  "followers": 7998,
+  "followers": 8022,
   "following": 1035,
   "post_count_total": 33,
   "bio": "",
   "sample_size": 1,
-  "sample_note": "1 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(8,022)/post_count(33) 실측 갱신. ER(0.50%)·brand_fit(90)·posts_30d(1)는 STEP B-Light 측정치 캐리포워드. 점수=54.5 (D).",
   "avg_likes": 33.0,
   "avg_comments": 7.0,
   "avg_engagement": 40.0,
@@ -37,24 +37,10 @@
     ],
     "top_reel": "https://www.instagram.com/p/DX_vEEPvDMZ/"
   },
-  "evaluated_at": "2026-05-07T14:41:05+09:00",
+  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
   "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
-  "score": {
-    "total": 54.5,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 90,
-      "consistency": 40,
-      "follower_scale": 60
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
-  "grade": "C",
+  "score": 54.5,
+  "grade": "D",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -65,15 +51,33 @@
       "brand_fit_score": 90,
       "retailer_focus": "beauty_general",
       "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-07T14:41:05+09:00",
+      "followers": 7998,
+      "engagement_rate": 0.005,
+      "posts_last_30d": 1,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 54.5,
+      "grade": "C"
     }
   ],
   "score_total": 54.5,
   "total_score": 54.5,
   "score_breakdown": {
-    "engagement": 40,
+    "er_score": 40,
     "brand_fit": 90,
     "consistency": 40,
-    "follower_scale": 60
+    "follower_scale": 60,
+    "total": 54.5
   },
-  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+  "estimation_flags": {
+    "followers": "measured (og:description)",
+    "post_count_total": "measured (og:description)",
+    "engagement_rate": "carried-forward from B-Light",
+    "brand_fit_score": "carried-forward from B-Light",
+    "posts_last_30d": "carried-forward from B-Light"
+  }
 }

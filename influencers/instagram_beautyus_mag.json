@@ -5,7 +5,7 @@
   "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
   "followers": 88000,
   "following": 273,
-  "post_count_total": 3142,
+  "post_count_total": 3174,
   "bio": "beauty • trend • issue • etc / 뷰티라면 다 좋아 / 얇아진 지갑이 만든 에디터 취향을 담아",
   "external_link": "linktr.ee/beautyus_mag",
   "highlights": [
@@ -127,29 +127,17 @@
       "date": "2026-05-03"
     }
   ],
-  "evaluated_at": "2026-05-12T17:15:00+09:00",
+  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
   "notes": "B-Light rolling refresh. logged-out IG (sample 12, likes mostly hidden — n=2 visible). Wed 17:00 run.",
-  "score": {
-    "total": 75.5,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 90,
-      "consistency": 100,
-      "follower_scale": 80
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
+  "score": 85.5,
+  "grade": "S",
+  "estimation_flags": {
+    "followers": "measured (og:description)",
+    "post_count_total": "measured (og:description)",
+    "engagement_rate": "carried-forward from B-Light",
+    "brand_fit_score": "carried-forward from B-Light",
+    "posts_last_30d": "carried-forward from B-Light"
   },
-  "grade": "B",
-  "estimation_flags": [
-    "avg_likes (12/12 in-window posts likes 숨김; ER carry-forward — 추정)",
-    "engagement_rate (carry-forward 4.87% from prior eval; 가시 표본 n=1 윈도우 밖 — 추정)",
-    "er_score (1-bucket conservative downgrade: 80→60 due to n=1 historical visible only — 추정)"
-  ],
   "history": [
     {
       "evaluated_at": "2026-05-04T09:34:27+09:00",
@@ -355,17 +343,28 @@
       "retailer_focus": "beauty_general",
       "score_total": 75.5,
       "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-12T17:15:00+09:00",
+      "followers": 88000,
+      "engagement_rate": 0.0487,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 75.5,
+      "grade": "B"
     }
   ],
-  "score_total": 75.5,
-  "total_score": 75.5,
+  "score_total": 85.5,
+  "total_score": 85.5,
   "score_breakdown": {
-    "engagement": 60,
+    "er_score": 80,
     "brand_fit": 90,
     "consistency": 100,
-    "follower_scale": 80
+    "follower_scale": 80,
+    "total": 85.5
   },
-  "sample_note": "STEP B-Light 17:00 KST 실측 — 12 posts. 30d 윈도우 내 10건 모두 like_count 숨김 (계정 설정). 가시 like 표본은 단 1건 (2025-03-04 viral, 8396 like) — 윈도우 밖. ER 추정치 carry-forward (0.0487). brand_fit 90 (beauty 22건, 다이소 0, 올영 0). 점수 변동 없음 (75.5 → 75.5).",
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(88,000)/post_count(3174) 실측 갱신. ER(4.87%)·brand_fit(90)·posts_30d(10)는 STEP B-Light 측정치 캐리포워드. 점수=85.5 (S).",
   "visible_in_window_count": 0,
   "sample_reels_snapshot": [
     {

@@ -3,9 +3,9 @@
   "username": "beauty_piona",
   "profile_url": "https://www.instagram.com/beauty_piona/",
   "fullname": "문혜경",
-  "followers": 6222,
+  "followers": 6220,
   "following": 6568,
-  "post_count_total": 582,
+  "post_count_total": 589,
   "bio": "",
   "sample_size": 12,
   "avg_likes": 620.0,
@@ -61,23 +61,9 @@
     ],
     "top_reel": "https://www.instagram.com/p/DRjXE6ukg-a/"
   },
-  "evaluated_at": "2026-05-12T17:15:00+09:00",
+  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
   "notes": "STEP B-Light rolling refresh (Wed 17:00). logged-out IG og:description fallback, 12 reels from feed (incl 3 pinned/old).",
-  "score": {
-    "total": 93.5,
-    "breakdown": {
-      "engagement": 100,
-      "brand_fit": 90,
-      "consistency": 100,
-      "follower_scale": 60
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
+  "score": 93.5,
   "grade": "S",
   "retailer_focus": "daiso",
   "retailer_signal": {
@@ -172,20 +158,35 @@
       "retailer_focus": "daiso",
       "score_total": 93.5,
       "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-12T17:15:00+09:00",
+      "followers": 6222,
+      "engagement_rate": 0.112,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 93.5,
+      "grade": "S"
     }
   ],
-  "estimation_flags": [
-    "engagement_rate (logged-out IG og:description; ER excludes 2 old pinned outside 30d window — 추정 요소)"
-  ],
+  "estimation_flags": {
+    "followers": "measured (og:description)",
+    "post_count_total": "measured (og:description)",
+    "engagement_rate": "carried-forward from B-Light",
+    "brand_fit_score": "carried-forward from B-Light",
+    "posts_last_30d": "carried-forward from B-Light"
+  },
   "score_total": 93.5,
   "total_score": 93.5,
   "score_breakdown": {
-    "engagement": 100,
+    "er_score": 100,
     "brand_fit": 90,
     "consistency": 100,
-    "follower_scale": 60
+    "follower_scale": 60,
+    "total": 93.5
   },
-  "sample_note": "STEP B-Light 17:00 KST 실측 — 12 reels (incl 3 pinned: Nov/Jan/Apr). ER 산출은 30d 윈도우 내 10건 사용 (April 12 boundary 포함, 2 pinned 제외). 다이소 14건 / 뷰티 키워드 37건. like/cm/taken_at 12/12 추출 성공. 점수 변동 없음 (93.5 → 93.5).",
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(6,220)/post_count(589) 실측 갱신. ER(11.20%)·brand_fit(90)·posts_30d(10)는 STEP B-Light 측정치 캐리포워드. 점수=93.5 (S).",
   "sample_reels_snapshot": [
     {
       "code": "DXD7y3aAutK",

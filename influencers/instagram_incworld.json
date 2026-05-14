@@ -3,9 +3,9 @@
   "username": "incworld",
   "fullname": "뷰드름유튜버 인씨 inssi",
   "profile_url": "https://www.instagram.com/incworld/",
-  "followers": 61000,
+  "followers": 62000,
   "following": 992,
-  "post_count_total": 556,
+  "post_count_total": 565,
   "sample_size": 12,
   "engagement_rate": 0.0065,
   "avg_likes": 384.42,
@@ -18,27 +18,14 @@
   "posts_last_30d_estimate": null,
   "brand_fit_score": 90,
   "brand_fit_notes": "beauty 24/daiso 1/oy 2/labrang N",
-  "score": {
-    "total": 62.5,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 90,
-      "consistency": 80,
-      "follower_scale": 80
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
+  "score": 62.5,
   "score_total": 62.5,
   "score_breakdown": {
-    "engagement": 40,
+    "er_score": 40,
     "brand_fit": 90,
     "consistency": 80,
-    "follower_scale": 80
+    "follower_scale": 80,
+    "total": 62.5
   },
   "grade": "C",
   "retailer_focus": "olive_young",
@@ -49,9 +36,15 @@
     "labrang_blanc_doux_mention": false
   },
   "collab_priority": "watchlist",
-  "evaluated_at": "2026-05-08T14:09:14+09:00",
+  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
   "notes": "STEP B-Light rolling refresh (Fri 14:00 KST). 로그아웃 프로필 갱신. ER/BF/Cons는 직전 분석 결과 유지.",
-  "estimation_flags": [],
+  "estimation_flags": {
+    "followers": "measured (og:description)",
+    "post_count_total": "measured (og:description)",
+    "engagement_rate": "carried-forward from B-Light",
+    "brand_fit_score": "carried-forward from B-Light",
+    "posts_last_30d": "carried-forward from B-Light"
+  },
   "history": [
     {
       "evaluated_at": "2026-05-04T09:27:28+09:00",
@@ -107,8 +100,19 @@
       "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-08T14:09:14+09:00",
+      "followers": 61000,
+      "engagement_rate": 0.0065,
+      "posts_last_30d": 7,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 62.5,
+      "grade": "C"
     }
   ],
   "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
-  "sample_note": " | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)"
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(62,000)/post_count(565) 실측 갱신. ER(0.65%)·brand_fit(90)·posts_30d(7)는 STEP B-Light 측정치 캐리포워드. 점수=62.5 (C).",
+  "total_score": 62.5
 }

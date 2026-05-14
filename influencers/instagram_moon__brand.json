@@ -5,10 +5,10 @@
   "fullname": "문브의 데일리야구🇰🇷 K-야구문화•크보•팝업",
   "followers": 45000,
   "following": 995,
-  "post_count_total": 625,
+  "post_count_total": 631,
   "bio": "",
   "sample_size": 8,
-  "sample_note": "8 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(45,000)/post_count(631) 실측 갱신. ER(8.79%)·brand_fit(25)·posts_30d(6)는 STEP B-Light 측정치 캐리포워드. 점수=71.25 (B).",
   "avg_likes": 3863.88,
   "avg_comments": 89.38,
   "avg_engagement": 3953.26,
@@ -58,23 +58,9 @@
     ],
     "top_reel": "https://www.instagram.com/p/DJrboMnzX3m/"
   },
-  "evaluated_at": "2026-05-07T14:41:05+09:00",
+  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
   "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
-  "score": {
-    "total": 71.25,
-    "breakdown": {
-      "engagement": 90,
-      "brand_fit": 25,
-      "consistency": 80,
-      "follower_scale": 80
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
+  "score": 71.25,
   "grade": "B",
   "history": [
     {
@@ -86,15 +72,33 @@
       "brand_fit_score": 25,
       "retailer_focus": "daiso",
       "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-07T14:41:05+09:00",
+      "followers": 45000,
+      "engagement_rate": 0.0879,
+      "posts_last_30d": 6,
+      "brand_fit_score": 25,
+      "retailer_focus": "daiso",
+      "score_total": 71.25,
+      "grade": "B"
     }
   ],
   "score_total": 71.25,
   "total_score": 71.25,
   "score_breakdown": {
-    "engagement": 90,
+    "er_score": 90,
     "brand_fit": 25,
     "consistency": 80,
-    "follower_scale": 80
+    "follower_scale": 80,
+    "total": 71.25
   },
-  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+  "estimation_flags": {
+    "followers": "measured (og:description)",
+    "post_count_total": "measured (og:description)",
+    "engagement_rate": "carried-forward from B-Light",
+    "brand_fit_score": "carried-forward from B-Light",
+    "posts_last_30d": "carried-forward from B-Light"
+  }
 }

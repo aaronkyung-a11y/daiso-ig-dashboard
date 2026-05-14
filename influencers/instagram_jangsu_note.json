@@ -5,7 +5,7 @@
   "profile_url": "https://www.instagram.com/jangsu_note/",
   "followers": 11000,
   "following": 0,
-  "post_count_total": 44,
+  "post_count_total": 55,
   "sample_size": 12,
   "engagement_rate": 0.0496,
   "avg_likes": 520.92,
@@ -18,29 +18,16 @@
   "posts_last_30d_estimate": null,
   "brand_fit_score": 90,
   "brand_fit_notes": "beauty strong (18건)/daiso 21건/oy 0건/labrang N",
-  "score": {
-    "total": 85.5,
-    "breakdown": {
-      "engagement": 80,
-      "brand_fit": 90,
-      "consistency": 100,
-      "follower_scale": 80
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
+  "score": 85.5,
   "score_total": 85.5,
   "score_breakdown": {
-    "engagement": 80,
+    "er_score": 80,
     "brand_fit": 90,
     "consistency": 100,
-    "follower_scale": 80
+    "follower_scale": 80,
+    "total": 85.5
   },
-  "grade": "A",
+  "grade": "S",
   "retailer_focus": "daiso",
   "retailer_signal": {
     "daiso_mentions": "21건",
@@ -49,11 +36,15 @@
     "labrang_blanc_doux_mention": false
   },
   "collab_priority": "high",
-  "evaluated_at": "2026-05-11T17:08:00+09:00",
+  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
   "notes": "STEP B-Light rolling refresh (Mon 17:00 KST). 직전 분석 대비 ER 큰 폭 하락(viral content rolled off). followers 9918→11000 (+1082).",
-  "estimation_flags": [
-    "DVdixhdkl7A like_count via inline script (15757) replaces og:description rounded '15K'"
-  ],
+  "estimation_flags": {
+    "followers": "measured (og:description)",
+    "post_count_total": "measured (og:description)",
+    "engagement_rate": "carried-forward from B-Light",
+    "brand_fit_score": "carried-forward from B-Light",
+    "posts_last_30d": "carried-forward from B-Light"
+  },
   "history": [
     {
       "evaluated_at": "2026-05-05T17:05:00+09:00",
@@ -123,9 +114,19 @@
       "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-11T17:08:00+09:00",
+      "followers": 11000,
+      "engagement_rate": 0.0496,
+      "posts_last_30d": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 85.5,
+      "grade": "A"
     }
   ],
-  "sample_note": "★ STEP B-Light rolling refresh (17:00 KST 슬롯) — 로그아웃 IG (sessionid 없음, 12 cap). og:description 기반 like/comment/date. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(11,000)/post_count(55) 실측 갱신. ER(4.96%)·brand_fit(90)·posts_30d(12)는 STEP B-Light 측정치 캐리포워드. 점수=85.5 (S).",
   "engagement_rate_status": "calculated_from_og_description",
   "sample_data_evidence": {
     "likes_sample": [

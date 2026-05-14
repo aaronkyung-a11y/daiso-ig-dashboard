@@ -5,7 +5,7 @@
   "fullname": "박체리 cherry🍒",
   "followers": 22000,
   "following": 226,
-  "post_count_total": 404,
+  "post_count_total": 406,
   "bio": "",
   "sample_size": 12,
   "avg_likes": 685.9,
@@ -97,27 +97,17 @@
       "cm": 2
     }
   ],
-  "evaluated_at": "2026-05-13T14:05:00+09:00",
+  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
   "notes": "B-Light rolling refresh. logged-out IG (sample 8 reels, code-based extraction). Mon 17:00 run. Consistency held at 80 (partial taken_at coverage).",
-  "score": {
-    "total": 85.5,
-    "breakdown": {
-      "engagement": 80,
-      "brand_fit": 90,
-      "consistency": 100,
-      "follower_scale": 80
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
+  "score": 85.5,
+  "grade": "S",
+  "estimation_flags": {
+    "followers": "measured (og:description)",
+    "post_count_total": "measured (og:description)",
+    "engagement_rate": "carried-forward from B-Light",
+    "brand_fit_score": "carried-forward from B-Light",
+    "posts_last_30d": "carried-forward from B-Light"
   },
-  "grade": "A",
-  "estimation_flags": [
-    "engagement_rate (logged-out IG og:description; 12 reels 모두 like/cm/date 실측)"
-  ],
   "history": [
     {
       "evaluated_at": "2026-05-04T09:34:59+09:00",
@@ -330,18 +320,29 @@
       "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "note": "STEP B-Light 14:00 live refetch (12 reels)"
+    },
+    {
+      "evaluated_at": "2026-05-13T14:05:00+09:00",
+      "followers": 22000,
+      "engagement_rate": 0.0314,
+      "posts_last_30d": 11,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 85.5,
+      "grade": "A"
     }
   ],
   "score_total": 85.5,
   "total_score": 85.5,
   "score_breakdown": {
-    "engagement": 80,
+    "er_score": 80,
     "brand_fit": 90,
     "consistency": 100,
-    "follower_scale": 80
+    "follower_scale": 80,
+    "total": 85.5
   },
   "snapshot_refresh_at": "2026-05-13T14:05:00+09:00",
-  "sample_note": "STEP B-Light 14:00 KST 실측 — 12 reels logged-out IG (og:description). ER 산출은 30d 윈도우 내 11건 사용 (April 13 cutoff). 다이소 5건/올영 14건/뷰티 키워드 15건. 점수 변동 72.5 → 85.5.",
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(22,000)/post_count(406) 실측 갱신. ER(3.14%)·brand_fit(90)·posts_30d(11)는 STEP B-Light 측정치 캐리포워드. 점수=85.5 (S).",
   "sample_data_evidence": {
     "likes_sample": [
       103,

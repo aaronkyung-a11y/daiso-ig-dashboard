@@ -1,27 +1,246 @@
 {
-  "platform": "youtube",
   "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
-  "fullname": "뮤니",
   "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
-  "followers": 1110,
-  "avg_views": 34526,
-  "avg_likes": 1143.5,
-  "avg_comments": 6.2,
-  "engagement_rate": 3.199,
+  "platform": "youtube",
+  "fullname": "뮤니",
+  "channel_id": "UCUCUu_rOf4b5BtKIMRL7jhg",
+  "followers": 1150,
+  "description_bio": "",
+  "videos_analyzed": [
+    {
+      "id": "L2XOZY1XW1g",
+      "title": "하이라이터 갖다 버려도 되는 고능 베이스 찾았오,,, 어제 비비로 발라보고 파데랑도 발라봤는데 궁합 좋아🫶🏻🩷낼 쿠션 도전해 보고 후기 남길게욯ʚ(ȉˬȉ⁎)ɞ˒˒",
+      "view_count": 744,
+      "like_count": 27,
+      "comment_count": 0,
+      "timestamp": 1778578225,
+      "upload_date": "2026-05-12T09:30:25+00:00",
+      "tags": []
+    },
+    {
+      "id": "80lVPgczM2E",
+      "title": "🫧🎀다이소 더마블록 X 마이 스윗 피아노 너무너무 귀여움꒰ ⸝⸝ɞ̴̶̷ ·̮ ɞ̴̶̷⸝⸝꒱#단순선물",
+      "view_count": 4784,
+      "like_count": 101,
+      "comment_count": 1,
+      "timestamp": 1778322940,
+      "upload_date": "2026-05-09T10:35:40+00:00",
+      "tags": []
+    },
+    {
+      "id": "oX44v1LRzRs",
+      "title": "#유료광고 실패 없는 쿠팡 추천템✨🫧#얼라이브랩",
+      "view_count": 16908,
+      "like_count": 517,
+      "comment_count": 4,
+      "timestamp": 1778322821,
+      "upload_date": "2026-05-09T10:33:41+00:00",
+      "tags": []
+    },
+    {
+      "id": "Unsfuu-gasI",
+      "title": "오직 1등템만 추천하는 다이소 추천템!!'🌟🏆#다이소 #다이소추천템 #daiso #학생메이크업 #다이소화장품",
+      "view_count": 271797,
+      "like_count": 9915,
+      "comment_count": 35,
+      "timestamp": 1777284354,
+      "upload_date": "2026-04-27T10:05:54+00:00",
+      "tags": []
+    },
+    {
+      "id": "6FqNKF0S8UQ",
+      "title": "#광고 네이밍❤포켓몬 에디션 이거 레전드 기획이야,,",
+      "view_count": 11812,
+      "like_count": 303,
+      "comment_count": 4,
+      "timestamp": 1777109892,
+      "upload_date": "2026-04-25T09:38:12+00:00",
+      "tags": []
+    },
+    {
+      "id": "wY7rEDKT2qY",
+      "title": "#광고 파우치 필수템!! 퀵 등교 메컵 꿀 템 알려줌!!",
+      "view_count": 12995,
+      "like_count": 258,
+      "comment_count": 5,
+      "timestamp": 1776915116,
+      "upload_date": "2026-04-23T03:31:56+00:00",
+      "tags": []
+    },
+    {
+      "id": "oOsVb6pOSRo",
+      "title": "#광고 올리브영 커버력 최강자를 뽑자면요,,",
+      "view_count": 14745,
+      "like_count": 202,
+      "comment_count": 1,
+      "timestamp": 1776847054,
+      "upload_date": "2026-04-22T08:37:34+00:00",
+      "tags": []
+    },
+    {
+      "id": "xw31P3bE4e8",
+      "title": "#제품제공 올리브영 뽀용 블러 치크 추천!!",
+      "view_count": 5865,
+      "like_count": 114,
+      "comment_count": 6,
+      "timestamp": 1776593906,
+      "upload_date": "2026-04-19T10:18:26+00:00",
+      "tags": []
+    },
+    {
+      "id": "I2JPVaSeTTc",
+      "title": "#광고 트러블 올라올 때 쓰는 트러블 관리법!!",
+      "view_count": 1382,
+      "like_count": 32,
+      "comment_count": 0,
+      "timestamp": 1776593588,
+      "upload_date": "2026-04-19T10:13:08+00:00",
+      "tags": []
+    },
+    {
+      "id": "xASBXibTBvc",
+      "title": "다이소 2천원 물 복숭아 틴트!!! 학교 끝나고 얼른 가보세요오˚₊·—̳͟͞͞♥#추천 #다이소 #다이소틴트 #daiso #봄웜",
+      "view_count": 31857,
+      "like_count": 812,
+      "comment_count": 10,
+      "timestamp": 1776238008,
+      "upload_date": "2026-04-15T07:26:48+00:00",
+      "tags": []
+    },
+    {
+      "id": "EmFnOvG2Hn4",
+      "title": "레전드 꾸운 복숭아 이거임!! #올리브영 #투슬래시포",
+      "view_count": 4705,
+      "like_count": 91,
+      "comment_count": 2,
+      "timestamp": 1776076016,
+      "upload_date": "2026-04-13T10:26:56+00:00",
+      "tags": []
+    },
+    {
+      "id": "jMLF38XpXFY",
+      "title": "만 원 이하 다크닝 절대 안 오는 고능템,,🧈🍋 #투슬래시포 #다크닝",
+      "view_count": 16130,
+      "like_count": 465,
+      "comment_count": 4,
+      "timestamp": 1775734208,
+      "upload_date": "2026-04-09T11:30:08+00:00",
+      "tags": []
+    },
+    {
+      "id": "V8AjbKtF4GE",
+      "title": "동결건조 해야 하는 화장품들 모음",
+      "view_count": 33430,
+      "like_count": 770,
+      "comment_count": 5,
+      "timestamp": 1775641497,
+      "upload_date": "2026-04-08T09:44:57+00:00",
+      "tags": []
+    },
+    {
+      "id": "HprKWNJ77yE",
+      "title": "여러분 이거보고 당장 올영가세욤!!올영 추천템으로 찍어봤어요ʕ”̮ॽु⋆⁺₊⋆ ♡#추천 #올리브영",
+      "view_count": 3918,
+      "like_count": 99,
+      "comment_count": 3,
+      "timestamp": 1775379846,
+      "upload_date": "2026-04-05T09:04:06+00:00",
+      "tags": []
+    },
+    {
+      "id": "qaOVxOga3QY",
+      "title": "캔메이크 신상 너무 예뻐서 미친거지 응,,, #제품제공",
+      "view_count": 5099,
+      "like_count": 116,
+      "comment_count": 2,
+      "timestamp": 1775126410,
+      "upload_date": "2026-04-02T10:40:10+00:00",
+      "tags": []
+    },
+    {
+      "id": "VGYWx4OB_Gc",
+      "title": "#광고 4월 올영픽 라네즈 틴트 꼭 사야 합니다앙👍🏻💕",
+      "view_count": 17071,
+      "like_count": 363,
+      "comment_count": 4,
+      "timestamp": 1775039628,
+      "upload_date": "2026-04-01T10:33:48+00:00",
+      "tags": []
+    },
+    {
+      "id": "XSN6RkIVCyk",
+      "title": "새벽에 하는 다이소 추천템!!!질문 댓 남겨주세요오#유료광고",
+      "view_count": 4674,
+      "like_count": 152,
+      "comment_count": 2,
+      "timestamp": 1774957416,
+      "upload_date": "2026-03-31T11:43:36+00:00",
+      "tags": []
+    },
+    {
+      "id": "RSho11Lc7ok",
+      "title": "#광고 라카 베스트 셀러 맥시글레이어 틴트의 존맛 버터 ver. 틴트 등장 🧈",
+      "view_count": 5542,
+      "like_count": 42,
+      "comment_count": 2,
+      "timestamp": 1774876633,
+      "upload_date": "2026-03-30T13:17:13+00:00",
+      "tags": []
+    },
+    {
+      "id": "pBPaPIta6oQ",
+      "title": "다이소 가격에 복쭝아 립 겟 하기🍑#제품제공다",
+      "view_count": 3338,
+      "like_count": 93,
+      "comment_count": 5,
+      "timestamp": 1774522353,
+      "upload_date": "2026-03-26T10:52:33+00:00",
+      "tags": []
+    },
+    {
+      "id": "QujBPBrZopU",
+      "title": "여쿨라이트 ㄹㅈㄷ 조합 그냥 따라 사세요 후회 안 함!!!#여쿨 #여쿨라",
+      "view_count": 3843,
+      "like_count": 84,
+      "comment_count": 0,
+      "timestamp": 1774350723,
+      "upload_date": "2026-03-24T11:12:03+00:00",
+      "tags": []
+    }
+  ],
+  "sample_size": 20,
   "posts_last_30d": 10,
-  "sample_size": 12,
-  "brand_fit_score": 75,
+  "avg_views": 37288.9,
+  "avg_likes": 1228.1,
+  "avg_comments": 6.6,
+  "engagement_rate": 3.293,
+  "keyword_counts": {
+    "beauty": 54,
+    "labrang": 0,
+    "daiso": 12,
+    "olive_young": 9
+  },
+  "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_count": 10,
-    "olive_young_count": 3,
-    "beauty_keyword_count": 6,
-    "our_brand_present": false
+    "daiso_mentions": "12건",
+    "olive_young_mentions": "9건",
+    "beauty_topical_strength": "strong (54건)",
+    "labrang_blanc_doux_mention": false
   },
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
-  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
-  "score_total": 79.8,
+  "score_breakdown": {
+    "er_score": 80,
+    "brand_fit": 90,
+    "consistency": 100,
+    "follower_scale": 60,
+    "total": 83.5
+  },
+  "score_total": 83.5,
+  "total_score": 83.5,
+  "score": 83.5,
   "grade": "A",
+  "evaluated_at": "2026-05-14T10:17:28.728191+09:00",
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — YT 실측: 20 videos via yt-dlp. YT 실측: 20 videos. ER=3.29%, 키워드 beauty=54, daiso=12, oy=9, labrang=0",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -31,30 +250,16 @@
       "posts_last_30d": 10,
       "brand_fit_score": 75,
       "retailer_focus": "daiso"
-    }
-  ],
-  "score": {
-    "total": 83.5,
-    "breakdown": {
-      "engagement": 80,
-      "brand_fit": 90,
-      "consistency": 100,
-      "follower_scale": 60
     },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "followers": 1110,
+      "engagement_rate": 3.199,
+      "posts_last_30d": 10,
+      "brand_fit_score": 75,
+      "retailer_focus": "daiso",
+      "score_total": 79.8,
+      "grade": "A"
     }
-  },
-  "total_score": 83.5,
-  "notes": "yt-dlp: 20 videos sampled, 10 in 30d window",
-  "brand_fit_notes": "daiso:13건 / oliveyoung:7건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg"
-  },
-  "post_count_total": 20,
-  "view_to_sub_ratio": 31.6145,
-  "top_video_views": 35092.1
+  ]
 }

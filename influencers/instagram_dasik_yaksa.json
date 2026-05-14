@@ -5,10 +5,10 @@
   "fullname": "다식 약사 | 박약다식, 박소윤",
   "followers": 104000,
   "following": 885,
-  "post_count_total": 906,
+  "post_count_total": 923,
   "bio": "",
   "sample_size": 12,
-  "sample_note": "STEP B-Light 14:00 KST 실측 — 12 reels (incl 2 old pinned: Jan 2025, Nov 2025). ER 산출은 30d 윈도우 내 10건 사용 (pinned 제외). 다이소 0건/올영 0건/뷰티 키워드 1건 — pharma/health 콘텐츠로 전환. 점수 변동 60.0 → 60.0.",
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(104,000)/post_count(923) 실측 갱신. ER(0.18%)·brand_fit(60)·posts_30d(10)는 STEP B-Light 측정치 캐리포워드. 점수=60.0 (C).",
   "avg_likes": 126.7,
   "avg_comments": 62.0,
   "engagement_rate": 0.0018,
@@ -68,23 +68,9 @@
     ],
     "top_reel": "https://www.instagram.com/p/DYKGwepvzxG/"
   },
-  "evaluated_at": "2026-05-13T14:05:00+09:00",
+  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
   "notes": "Tue 09:00 STEP B-Light rolling refresh. og:description method (SPA contamination avoided).",
-  "score": {
-    "total": 60.0,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 60,
-      "consistency": 100,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
+  "score": 60.0,
   "grade": "C",
   "avg_engagement": 242.33,
   "top_post_likes": 236,
@@ -160,18 +146,33 @@
       "brand_fit_score": 60,
       "retailer_focus": "beauty_general",
       "note": "STEP B-Light 14:00 live refetch (12 reels incl 2 pinned)"
+    },
+    {
+      "evaluated_at": "2026-05-13T14:05:00+09:00",
+      "followers": 104000,
+      "engagement_rate": 0.0018,
+      "posts_last_30d": 10,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "score_total": 60.0,
+      "grade": "C"
     }
   ],
   "score_total": 60.0,
   "total_score": 60.0,
   "score_breakdown": {
-    "engagement": 40,
+    "er_score": 40,
     "brand_fit": 60,
     "consistency": 100,
-    "follower_scale": 100
+    "follower_scale": 100,
+    "total": 60.0
   },
   "snapshot_refresh_at": "2026-05-13T14:05:00+09:00",
-  "estimation_flags": [
-    "engagement_rate (logged-out IG og:description; 12 reels 모두 like/cm/date 실측)"
-  ]
+  "estimation_flags": {
+    "followers": "measured (og:description)",
+    "post_count_total": "measured (og:description)",
+    "engagement_rate": "carried-forward from B-Light",
+    "brand_fit_score": "carried-forward from B-Light",
+    "posts_last_30d": "carried-forward from B-Light"
+  }
 }

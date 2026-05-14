@@ -5,7 +5,7 @@
   "fullname": "로로",
   "followers": 159000,
   "following": 1543,
-  "post_count_total": 93,
+  "post_count_total": 95,
   "bio": "공쥬들과 함께 잼얘하고 싶어•• (DM환영)",
   "external_link": "linktr.ee/rorobeauty48791",
   "highlights": [
@@ -69,29 +69,17 @@
   "engagement_rate": 0.0351,
   "posts_last_30d_estimate": 3,
   "posts_last_30d_note": "실측값 — taken_at 추출 7/10 reels 중 7개가 30일 내 (cutoff 2026-04-12).",
-  "evaluated_at": "2026-05-12T14:15:00+09:00",
+  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
   "notes": "STEP B-Light rolling refresh (Tue 14:00 KST). IG 로그인 세션 확보. 10 reels 중 like/cm 4건 + taken_at 7건 실측. 6 reels는 lazy-load 미발생.",
-  "score": {
-    "total": 77.0,
-    "breakdown": {
-      "engagement": 80,
-      "brand_fit": 60,
-      "consistency": 80,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
+  "score": 77.0,
+  "grade": "A",
+  "estimation_flags": {
+    "followers": "measured (og:description)",
+    "post_count_total": "measured (og:description)",
+    "engagement_rate": "carried-forward from B-Light",
+    "brand_fit_score": "carried-forward from B-Light",
+    "posts_last_30d": "carried-forward from B-Light"
   },
-  "grade": "B",
-  "estimation_flags": [
-    "brand_fit (carry-forward from prior)",
-    "avg_likes 표본 4/10",
-    "snapshot_refresh_at deprecated"
-  ],
   "history": [
     {
       "evaluated_at": "2026-05-04T09:42:29+09:00",
@@ -249,6 +237,16 @@
       "brand_fit_score": 60,
       "retailer_focus": "olive_young",
       "note": "B-Light Tue 14:00 — 부분 표본 4/10 reels"
+    },
+    {
+      "evaluated_at": "2026-05-12T14:15:00+09:00",
+      "followers": 159000,
+      "engagement_rate": 0.0351,
+      "posts_last_30d": 7,
+      "brand_fit_score": 60,
+      "retailer_focus": "olive_young",
+      "score_total": 77.0,
+      "grade": "B"
     }
   ],
   "brand_fit_score": 60,
@@ -288,10 +286,11 @@
   "score_total": 77.0,
   "total_score": 77.0,
   "score_breakdown": {
-    "engagement": 80,
+    "er_score": 80,
     "brand_fit": 60,
     "consistency": 80,
-    "follower_scale": 100
+    "follower_scale": 100,
+    "total": 77.0
   },
-  "sample_note": "STEP B-Light 14:00 KST 실측 — like/cm 4/10, taken_at 7/10. brand_fit carry-forward."
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(159,000)/post_count(95) 실측 갱신. ER(3.51%)·brand_fit(60)·posts_30d(7)는 STEP B-Light 측정치 캐리포워드. 점수=77.0 (A)."
 }

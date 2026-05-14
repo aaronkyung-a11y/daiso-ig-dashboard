@@ -5,10 +5,10 @@
   "fullname": "조성은 Euniunni 유니언니",
   "followers": 141000,
   "following": 6658,
-  "post_count_total": 2963,
+  "post_count_total": 2968,
   "bio": "",
   "sample_size": 4,
-  "sample_note": "4 reels visited (logged-in IG, code-based extraction). Fast pass mode (3-8 reels). B-Light fast pass. | STEP B 10시: IG 세션 미확보로 라이브 재페치 SKIP — 기존 스코어 유지 (snapshot only)",
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(141,000)/post_count(2968) 실측 갱신. ER(0.26%)·brand_fit(90)·posts_30d(4)는 STEP B-Light 측정치 캐리포워드. 점수=61.5 (C).",
   "avg_likes": 349.5,
   "avg_comments": 22.75,
   "avg_engagement": 372.25,
@@ -46,23 +46,9 @@
     ],
     "top_reel": "https://www.instagram.com/p/DXO0uipgJkZ/"
   },
-  "evaluated_at": "2026-05-07T14:41:05+09:00",
+  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
   "notes": "STEP B-Light rolling refresh (Thu 14:00 KST). Code-based extraction from script blob.",
-  "score": {
-    "total": 61.5,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 90,
-      "consistency": 60,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
+  "score": 61.5,
   "grade": "C",
   "history": [
     {
@@ -123,15 +109,33 @@
       "brand_fit_score": 90,
       "retailer_focus": "beauty_general",
       "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-07T14:41:05+09:00",
+      "followers": 141000,
+      "engagement_rate": 0.0026,
+      "posts_last_30d": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 61.5,
+      "grade": "C"
     }
   ],
   "score_total": 61.5,
   "total_score": 61.5,
   "score_breakdown": {
-    "engagement": 40,
+    "er_score": 40,
     "brand_fit": 90,
     "consistency": 60,
-    "follower_scale": 100
+    "follower_scale": 100,
+    "total": 61.5
   },
-  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
+  "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
+  "estimation_flags": {
+    "followers": "measured (og:description)",
+    "post_count_total": "measured (og:description)",
+    "engagement_rate": "carried-forward from B-Light",
+    "brand_fit_score": "carried-forward from B-Light",
+    "posts_last_30d": "carried-forward from B-Light"
+  }
 }
