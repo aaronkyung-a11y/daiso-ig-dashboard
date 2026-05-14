@@ -3,22 +3,22 @@
   "username": "UCAThGewvLVT5fW8utNfrawA",
   "fullname": "ARADHYA FACT",
   "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
-  "followers": 572000,
-  "engagement_rate": 0.1165,
-  "posts_last_30d": 20,
-  "sample_size": 20,
+  "followers": 579000,
+  "engagement_rate": 0.0,
+  "posts_last_30d": 18,
+  "sample_size": 18,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso_count": 0,
-    "olive_young_count": 0,
-    "beauty_keyword_count": 0,
-    "our_brand_present": false
+    "daiso_mentions": "none",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
   },
-  "evaluated_at": "2026-05-12T10:05:00+09:00",
-  "score_total": 51.2,
+  "evaluated_at": "2026-05-14T17:10:31+09:00",
+  "score_total": 51.25,
   "grade": "C",
-  "sample_note": "likes 일부만 추출 (2/20)",
+  "sample_note": "2026-05-14T17:00 KST STEP B-Light 재분석 (yt-dlp 샘플 18건). ER=0.00%, posts_30d=18 (sample 기반 추정), brand_fit=25, followers=579000. ⚠️ YouTube like_count 비공개(None) — ER=0 처리로 점수에 보수적으로 반영.",
   "subcomponents": {
     "er_score": 40,
     "brand_fit_score": 25,
@@ -34,6 +34,13 @@
       "posts_last_30d": 20,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic"
+    },
+    {
+      "evaluated_at": "2026-05-14T17:10:31+09:00",
+      "score_total": 51.25,
+      "engagement_rate": 0.0,
+      "followers": 579000,
+      "posts_last_30d": 18
     }
   ]
 }
