@@ -1,0 +1,48 @@
+{
+  "platform": "youtube",
+  "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
+  "fullname": "리뷰하는 회사원",
+  "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
+  "handle": "@리뷰하는회사원",
+  "followers": 581000,
+  "engagement_rate": 2.3751,
+  "posts_last_30d": 0,
+  "sample_size": 8,
+  "avg_views": 93412,
+  "avg_likes": 2218,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_mentions": 0,
+    "olive_young_mentions": 0,
+    "beauty_keyword_count": 0,
+    "labrang_mentions": 0
+  },
+  "evaluated_at": "2026-05-15T17:05:00+09:00",
+  "score_total": 52.25,
+  "grade": "D",
+  "score_components": {
+    "er_score": 60,
+    "brand_fit_score": 25,
+    "consistency_score": 40,
+    "follower_score": 100,
+    "weights": {
+      "er": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "followers": 0.1
+    }
+  },
+  "sample_note": "yt-dlp 8개 영상 추출 성공 (목표 18-20개 중 일부 누락 - YT extractor JS runtime 경고로 인한 부분 실패; 추정 아닌 실측 ER/likes/views 기반)",
+  "history": [
+    {
+      "evaluated_at": "2026-05-15T17:05:00+09:00",
+      "score_total": 52.25,
+      "engagement_rate": 2.3751,
+      "followers": 581000,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic"
+    }
+  ]
+}

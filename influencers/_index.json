@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-15T14:11:00+09:00",
-  "total_records": 79,
+  "generated_at": "2026-05-15T17:05:00+09:00",
+  "total_records": 80,
   "grade_distribution": {
     "S": 8,
     "A": 10,
     "B": 38,
     "C": 18,
-    "D": 5
+    "D": 6
   },
   "retailer_focus_distribution": {
     "daiso": 20,
-    "olive_young": 22,
+    "olive_young": 21,
     "beauty_general": 16,
     "mixed": 2,
-    "our_brand": 6,
-    "off_topic": 13
+    "our_brand": 7,
+    "off_topic": 14
   },
   "records": [
     {
@@ -260,43 +260,43 @@
       "fullname": "피부트래블러",
       "profile_url": "https://www.youtube.com/channel/UCodG0bJ3OICRA1bg4TBdU9A",
       "followers": 135000,
-      "engagement_rate": 4.3234,
-      "posts_last_30d": 2,
-      "sample_size": 10,
-      "brand_fit_score": 75,
+      "engagement_rate": 3.3724,
+      "posts_last_30d": 3,
+      "sample_size": 12,
+      "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_count": 0,
-        "olive_young_count": 4,
-        "beauty_keyword_count": 6,
-        "our_brand_present": false
+        "daiso_mentions": 0,
+        "olive_young_mentions": 5,
+        "beauty_keyword_count": 23,
+        "labrang_mentions": 0
       },
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 77.8,
+      "evaluated_at": "2026-05-15T17:05:00+09:00",
+      "score_total": 81.5,
       "grade": "A",
-      "sample_note": "STEP B 풀 재분석. likes 추출 10/10 (JS런타임 없음 → 일부 0)"
+      "sample_note": "2026-05-15T17:05 KST STEP B-Light 롤링 재분석 (yt-dlp 12개 영상 실측). 추정 아님."
     },
     {
       "platform": "youtube",
       "username": "UCSx-2fuyotB8WA8KytyhACg",
       "fullname": "오션 OCEAN",
       "profile_url": "https://www.youtube.com/channel/UCSx-2fuyotB8WA8KytyhACg",
-      "followers": 283000,
-      "engagement_rate": 2.1897,
+      "followers": 284000,
+      "engagement_rate": 1.7745,
       "posts_last_30d": 10,
       "sample_size": 12,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young",
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
       "retailer_signal": {
-        "daiso_count": 0,
-        "olive_young_count": 4,
-        "beauty_keyword_count": 243,
-        "our_brand_present": false
+        "daiso_mentions": 0,
+        "olive_young_mentions": 32,
+        "beauty_keyword_count": 304,
+        "labrang_mentions": 1
       },
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 77.5,
+      "evaluated_at": "2026-05-15T17:05:00+09:00",
+      "score_total": 80.0,
       "grade": "A",
-      "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
+      "sample_note": "2026-05-15T17:05 KST STEP B-Light 롤링 재분석 (yt-dlp 12개 영상 실측). 추정 아님."
     },
     {
       "platform": "youtube",
@@ -1531,6 +1531,28 @@
       "score_total": 52.5,
       "grade": "C",
       "sample_note": "STEP B 풀 재분석. likes 추출 0/12 (JS런타임 없음 → 일부 0)"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
+      "fullname": "리뷰하는 회사원",
+      "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
+      "followers": 581000,
+      "engagement_rate": 2.3751,
+      "posts_last_30d": 0,
+      "sample_size": 8,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "retailer_signal": {
+        "daiso_mentions": 0,
+        "olive_young_mentions": 0,
+        "beauty_keyword_count": 0,
+        "labrang_mentions": 0
+      },
+      "evaluated_at": "2026-05-15T17:05:00+09:00",
+      "score_total": 52.25,
+      "grade": "D",
+      "sample_note": "yt-dlp 8개 영상 추출 성공 (목표 18-20개 중 일부 누락 - YT extractor JS runtime 경고로 인한 부분 실패; 추정 아닌 실측 ER/likes/views 기반)"
     },
     {
       "platform": "youtube",

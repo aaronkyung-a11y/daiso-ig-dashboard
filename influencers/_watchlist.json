@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T10:22:59.075068+09:00",
+  "lastUpdated": "2026-05-15T17:05:00+09:00",
   "auto_refresh": true,
   "refresh_cron": "weekly",
   "accounts": [
@@ -152,7 +152,12 @@
       "platform": "youtube",
       "username": "UCs-DJ22ij2ykpyczPSFZNYQ",
       "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
+      "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ"
     }
   ],
-  "updated_at": "2026-05-11T10:17:33+09:00"
+  "updated_at": "2026-05-15T17:05:00+09:00"
 }
