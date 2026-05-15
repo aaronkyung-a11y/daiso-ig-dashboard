@@ -4,24 +4,21 @@
   "fullname": "뮤제 MUSEE",
   "profile_url": "https://www.youtube.com/channel/UC4BFwp5_Xf16cV1HecJYMJA",
   "followers": 12500,
-  "avg_views": 36900,
-  "avg_likes": 622.2,
-  "avg_comments": 78.3,
-  "engagement_rate": 2.5727,
+  "engagement_rate": 2.1876,
   "posts_last_30d": 0,
-  "sample_size": 12,
+  "sample_size": 18,
   "brand_fit_score": 90,
   "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso_count": 1,
-    "olive_young_count": 7,
-    "beauty_keyword_count": 17,
+    "daiso_count": 13,
+    "olive_young_count": 48,
+    "beauty_keyword_count": 160,
     "our_brand_present": false
   },
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
-  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
+  "evaluated_at": "2026-05-15T14:09:51+09:00",
   "score_total": 66.5,
   "grade": "B",
+  "sample_note": "STEP B-Light 14시 슬롯 재분석. yt-dlp 풀 통계 18/18.",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -31,30 +28,163 @@
       "posts_last_30d": 0,
       "brand_fit_score": 90,
       "retailer_focus": "olive_young"
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "followers": 12500,
+      "engagement_rate": 2.5727,
+      "posts_last_30d": 0,
+      "sample_size": 12,
+      "score_total": 66.5,
+      "grade": "B",
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young"
     }
   ],
-  "score": {
-    "total": 66.5,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 90,
-      "consistency": 40,
-      "follower_scale": 80
+  "records": [
+    {
+      "id": "8-P-JhPFC1s",
+      "title": "어떨까?내돈내산💸투슬래시포 블러셔 6종 전컬러 리뷰💖예쁘게 바르는 꿀팁, 핑크 블러셔 비교",
+      "views": 35398,
+      "likes": 405,
+      "comments": 79,
+      "upload_date": "20250609"
     },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
+    {
+      "id": "9DXxuzjXujI",
+      "title": "미쳤나바✨️올영신상!택배깡📦로즈베이지&미지근&멀멀로즈(홀리카홀리카 시나몬롤, VDL 토스트피치, 롬앤×미피, 민스코×에스쁘아, 클리오, 투슬래시포, 컬러그램, 아떼)",
+      "views": 17324,
+      "likes": 361,
+      "comments": 75,
+      "upload_date": "20260305"
+    },
+    {
+      "id": "9vgJg_ZvOvs",
+      "title": "어떨까?다이소 화장품 털기💸(품절대란 키링화장품, 정보 물어본 립, 존좋 가성비템)",
+      "views": 3592,
+      "likes": 70,
+      "comments": 18,
+      "upload_date": "20250616"
+    },
+    {
+      "id": "G1vu0Fcgj8k",
+      "title": "올영📦가을신상 택배깡☕️미지근&멀멀 베이지 좋아하세요?(에이오유 매트바, 헤라, 밀크터치 립밤, 이글립스, 모렛, 아비브)",
+      "views": 87781,
+      "likes": 2313,
+      "comments": 134,
+      "upload_date": "20250830"
+    },
+    {
+      "id": "Hin6V6RU3yE",
+      "title": "BEST 10🩷미지근&멀멀&뉴트럴 로즈립 추천💬구독자 이벤트(아떼 립밤, 얼터, 힌스, 태오앤더, 코시에로, 컬러그램)",
+      "views": 8529,
+      "likes": 239,
+      "comments": 166,
+      "upload_date": "20260402"
+    },
+    {
+      "id": "MrLs_2BMDaM",
+      "title": "대박 가을신상🤎소프트&멀멀 에뛰드 카페인더딥 컬렉션 전색상☕️왓츠인마이아이즈 더블, 뽀용아이메이커, 포근픽싱틴트, 오버글로이 틴트",
+      "views": 14353,
+      "likes": 195,
+      "comments": 47,
+      "upload_date": "20250904"
+    },
+    {
+      "id": "S5mSWV76Jgg",
+      "title": "미지근&뮤트&멀멀베이지 추천ZIP🤎최초공개✨️네이밍 블러셔 신상깡",
+      "views": 33917,
+      "likes": 323,
+      "comments": 103,
+      "upload_date": "20251205"
+    },
+    {
+      "id": "T8fRHDUoihk",
+      "title": "소프트&멀멀✨️미지근톤 숨꿀템 택배깡📦올영추천템, SNS 영업템, 토코보 립오일, 모렛 틴트, 루리디아, 클리오, 캐트리스 팔레트",
+      "views": 7612,
+      "likes": 147,
+      "comments": 25,
+      "upload_date": "20250727"
+    },
+    {
+      "id": "YB1UPA7jGzw",
+      "title": "위시리스트✨️올영신상&한정 택배깡📦미지근&멀멀&로즈(투에이엔 하이라이터, RMT 하이라이터, 돌체앤가바나 팔레트, 샬롯틸버리, 퓌, 리스키뷰티, 에르메스 립스틱)",
+      "views": 22365,
+      "likes": 561,
+      "comments": 79,
+      "upload_date": "20260101"
+    },
+    {
+      "id": "ZMhBv1bXPpM",
+      "title": "올영가을신상✨️택배깡📦무화과&누디베이지&미지근(아떼립밤, 헤라 브라우니보이, 삐아, 에이오유, 에스쁘아, 페리페라)",
+      "views": 178981,
+      "likes": 4342,
+      "comments": 213,
+      "upload_date": "20250930"
+    },
+    {
+      "id": "_YsrjCAWfJE",
+      "title": "꿀템 폭발🩷지속력 UP 미지근톤 최애템 메이크업 🩵서울뷰티위크 홍보단VLOG(옆광대&중안부 삭제템, 샵에서 쓰는템)",
+      "views": 5304,
+      "likes": 110,
+      "comments": 32,
+      "upload_date": "20250713"
+    },
+    {
+      "id": "gC8q07O4Kbs",
+      "title": "30가지 꿀템모음집✨️미지근&멀멀🩷색조광인 맥시멀리스트 코덕 화장대털기(블러셔, 애교살, 하이라이터, 향수)",
+      "views": 23256,
+      "likes": 683,
+      "comments": 135,
+      "upload_date": "20251110"
+    },
+    {
+      "id": "hceQ1_thGuM",
+      "title": "역대급🫢올영신상모음💕전컬러 얼터X망곰이, 힌스 누블러틴트, 네이밍 블러싱드림즈, 헤라, 비오브X인보라님 블러셔, 아떼",
+      "views": 9353,
+      "likes": 215,
+      "comments": 76,
+      "upload_date": "20260212"
+    },
+    {
+      "id": "jKyqKqRqDZM",
+      "title": "추천템 폭발🩷품절대란 핫한 신상템 메이크업✨️넘버즈인×지냐 파우더, 비오브×인보라 백도복숭아, 데이지크 머메이드 컬렉션, 토니모리 본셉",
+      "views": 11384,
+      "likes": 197,
+      "comments": 41,
+      "upload_date": "20250628"
+    },
+    {
+      "id": "pZZGyy2ugXY",
+      "title": "꿀템폭발✨️20가지 왓츠인마이백👛맥시멀리스트 코덕 보부상백 털기(여름필수템, 아이패드 수납, 미지근 멀멀립, 최애 향수, 미니 키링캠, 쿠션 추천)",
+      "views": 8768,
+      "likes": 215,
+      "comments": 32,
+      "upload_date": "20250807"
+    },
+    {
+      "id": "qGj11EqFLoE",
+      "title": "신상리뷰🚨올영출시 예정틴트💕퓌 3D 볼류밍틴트, 민스코X필리밀리 브러시, 에뛰드X포시러브, 다이소X코시에로, 파넬, 코스알엑스",
+      "views": 7997,
+      "likes": 130,
+      "comments": 32,
+      "upload_date": "20250819"
+    },
+    {
+      "id": "qJkOVBaDQ7Y",
+      "title": "올영추천✨️신상 택배깡📦미지근&모브&멀멀(페리페라 키캡 블러셔, 무지개맨션 립밤, 클리오 모브아카이빙, 에뛰드 립세럼, 오프라 슈퍼 미니하이라이터)",
+      "views": 30808,
+      "likes": 643,
+      "comments": 90,
+      "upload_date": "20251104"
+    },
+    {
+      "id": "zARHgK9DWgM",
+      "title": "미쳤자나?🩵에뛰드×산리오캐릭터즈 에디션❤️‍🔥전제품 메이크업(포근픽싱틴트 12종, 뽀용아이메이커 3종)",
+      "views": 5847,
+      "likes": 64,
+      "comments": 32,
+      "upload_date": "20250704"
     }
-  },
-  "total_score": 66.5,
-  "notes": "yt-dlp: 20 videos sampled, 0 in 30d window",
-  "brand_fit_notes": "daiso:3건 / oliveyoung:9건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UC4BFwp5_Xf16cV1HecJYMJA"
-  },
-  "post_count_total": 20,
-  "view_to_sub_ratio": 2.2738,
-  "top_video_views": 28423.1
+  ]
 }
