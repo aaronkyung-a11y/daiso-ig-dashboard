@@ -1,0 +1,37 @@
+{
+  "platform": "instagram",
+  "username": "ellie._.cos",
+  "fullname": "ellie エリ",
+  "profile_url": "https://www.instagram.com/ellie._.cos/",
+  "followers": 1987,
+  "engagement_rate": 1.1374,
+  "posts_last_30d": 10,
+  "sample_size": 12,
+  "brand_fit_score": 90,
+  "retailer_focus": "olive_young",
+  "retailer_signal": {
+    "daiso_mentions": "5건",
+    "olive_young_mentions": "8건",
+    "beauty_topical_strength": "strong (34건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+  "score_total": 93.5,
+  "grade": "S",
+  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=93.5 (S).",
+  "history": [
+    {
+      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+      "followers": 1987,
+      "engagement_rate": 1.1374,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 93.5,
+      "grade": "S"
+    }
+  ],
+  "following": 989,
+  "post_count_total": 314,
+  "score": 93.5
+}

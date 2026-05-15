@@ -1653,9 +1653,19 @@
   "total_score": 77.0,
   "score": 77.0,
   "grade": "A",
-  "evaluated_at": "2026-05-14T10:17:29.332318+09:00",
-  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — YT 실측: 20 videos via yt-dlp. YT 실측: 20 videos. ER=2.65%, 키워드 beauty=1042, daiso=56, oy=9, labrang=6",
+  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — yt-dlp로 channel_follower_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=77.0 (A).",
   "history": [
+    {
+      "evaluated_at": "2026-05-14T10:17:29.332318+09:00",
+      "followers": 358000,
+      "engagement_rate": 2.649,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 77.0,
+      "grade": "A"
+    },
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
       "score_total": 84.5,

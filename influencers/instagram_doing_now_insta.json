@@ -8,7 +8,7 @@
   "post_count_total": 513,
   "bio": "",
   "sample_size": 1,
-  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(20,000)/post_count(513) 실측 갱신. ER(1.24%)·brand_fit(75)·posts_30d(0)는 STEP B-Light 측정치 캐리포워드. 점수=62.75 (C).",
+  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=62.75 (C).",
   "avg_likes": 214.0,
   "avg_comments": 34.0,
   "avg_engagement": 248.0,
@@ -37,11 +37,21 @@
     ],
     "top_reel": "https://www.instagram.com/p/DX2-Tj6kZdu/"
   },
-  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
   "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
   "score": 62.75,
   "grade": "C",
   "history": [
+    {
+      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+      "followers": 20000,
+      "engagement_rate": 0.0124,
+      "posts_last_30d": 0,
+      "brand_fit_score": 75,
+      "retailer_focus": "beauty_general",
+      "score_total": 62.75,
+      "grade": "C"
+    },
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
       "score_total": 62.75,

@@ -1,0 +1,37 @@
+{
+  "platform": "instagram",
+  "username": "dasik.yaksa",
+  "fullname": "다식 약사 | 박약다식, 박소윤",
+  "profile_url": "https://www.instagram.com/dasik.yaksa/",
+  "followers": 104000,
+  "engagement_rate": 0.0018,
+  "posts_last_30d": 10,
+  "sample_size": 12,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_topical_strength": "weak (1건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+  "score_total": 60.0,
+  "grade": "C",
+  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=60.0 (C).",
+  "history": [
+    {
+      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+      "followers": 104000,
+      "engagement_rate": 0.0018,
+      "posts_last_30d": 10,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "score_total": 60.0,
+      "grade": "C"
+    }
+  ],
+  "following": 883,
+  "post_count_total": 925,
+  "score": 60.0
+}

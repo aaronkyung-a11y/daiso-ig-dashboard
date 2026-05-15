@@ -3,9 +3,9 @@
   "username": "beauty_piona",
   "profile_url": "https://www.instagram.com/beauty_piona/",
   "fullname": "문혜경",
-  "followers": 6220,
-  "following": 6568,
-  "post_count_total": 589,
+  "followers": 6221,
+  "following": 6706,
+  "post_count_total": 591,
   "bio": "",
   "sample_size": 12,
   "avg_likes": 620.0,
@@ -61,7 +61,7 @@
     ],
     "top_reel": "https://www.instagram.com/p/DRjXE6ukg-a/"
   },
-  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
   "notes": "STEP B-Light rolling refresh (Wed 17:00). logged-out IG og:description fallback, 12 reels from feed (incl 3 pinned/old).",
   "score": 93.5,
   "grade": "S",
@@ -73,6 +73,16 @@
     "labrang_blanc_doux_mention": false
   },
   "history": [
+    {
+      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+      "followers": 6220,
+      "engagement_rate": 0.112,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 93.5,
+      "grade": "S"
+    },
     {
       "evaluated_at": "2026-05-04T09:34:05+09:00",
       "followers": 6190,
@@ -186,7 +196,7 @@
     "follower_scale": 60,
     "total": 93.5
   },
-  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(6,220)/post_count(589) 실측 갱신. ER(11.20%)·brand_fit(90)·posts_30d(10)는 STEP B-Light 측정치 캐리포워드. 점수=93.5 (S).",
+  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=93.5 (S).",
   "sample_reels_snapshot": [
     {
       "code": "DXD7y3aAutK",

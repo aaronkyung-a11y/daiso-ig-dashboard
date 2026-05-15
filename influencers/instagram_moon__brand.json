@@ -4,11 +4,11 @@
   "profile_url": "https://www.instagram.com/moon__brand/",
   "fullname": "문브의 데일리야구🇰🇷 K-야구문화•크보•팝업",
   "followers": 45000,
-  "following": 995,
+  "following": 998,
   "post_count_total": 631,
   "bio": "",
   "sample_size": 8,
-  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(45,000)/post_count(631) 실측 갱신. ER(8.79%)·brand_fit(25)·posts_30d(6)는 STEP B-Light 측정치 캐리포워드. 점수=71.25 (B).",
+  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=71.25 (B).",
   "avg_likes": 3863.88,
   "avg_comments": 89.38,
   "avg_engagement": 3953.26,
@@ -58,11 +58,21 @@
     ],
     "top_reel": "https://www.instagram.com/p/DJrboMnzX3m/"
   },
-  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
   "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
   "score": 71.25,
   "grade": "B",
   "history": [
+    {
+      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+      "followers": 45000,
+      "engagement_rate": 0.0879,
+      "posts_last_30d": 6,
+      "brand_fit_score": 25,
+      "retailer_focus": "daiso",
+      "score_total": 71.25,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
       "score_total": 71.25,

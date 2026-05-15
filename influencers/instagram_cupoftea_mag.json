@@ -5,10 +5,10 @@
   "fullname": "컵오브티 매거진",
   "followers": 141000,
   "following": 128,
-  "post_count_total": 496,
+  "post_count_total": 497,
   "bio": "",
   "sample_size": 4,
-  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(141,000)/post_count(496) 실측 갱신. ER(3.07%)·brand_fit(25)·posts_30d(1)는 STEP B-Light 측정치 캐리포워드. 점수=62.25 (C).",
+  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=62.25 (C).",
   "avg_likes": 4317.0,
   "avg_comments": 15.5,
   "avg_engagement": 4332.5,
@@ -46,11 +46,21 @@
     ],
     "top_reel": "https://www.instagram.com/p/DW_l_rNj2Oe/"
   },
-  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
   "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
   "score": 62.25,
   "grade": "C",
   "history": [
+    {
+      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+      "followers": 141000,
+      "engagement_rate": 0.0307,
+      "posts_last_30d": 1,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 62.25,
+      "grade": "C"
+    },
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
       "score_total": 62.25,
