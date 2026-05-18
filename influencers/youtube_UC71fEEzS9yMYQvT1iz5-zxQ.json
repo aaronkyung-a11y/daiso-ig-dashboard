@@ -4,21 +4,16 @@
   "fullname": "뷰라tv",
   "channel_id": "UC71fEEzS9yMYQvT1iz5-zxQ",
   "profile_url": "https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ",
-  "followers": 78600,
+  "followers": 83100,
   "avg_views": 65170,
   "avg_likes": 61.2,
   "avg_comments": 75.8,
-  "engagement_rate": 0.1627,
+  "engagement_rate": 0.0011,
   "posts_last_30d": 4,
-  "sample_size": 5,
-  "brand_fit_score": 100,
-  "retailer_focus": "our_brand",
-  "retailer_signal": {
-    "daiso_count": 17,
-    "olive_young_count": 19,
-    "beauty_keyword_count": 77,
-    "our_brand_present": true
-  },
+  "sample_size": 20,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": "daiso=6, olive_young=4, beauty_kw=21, labrang=False",
   "total_score": 59.5,
   "score_breakdown": {
     "engagement": 40,
@@ -27,8 +22,17 @@
     "follower_scale": 80
   },
   "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "evaluated_at": "2026-05-18T14:11:16+09:00",
   "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 62.0,
+      "engagement_rate": 0.1627,
+      "followers": 78600,
+      "posts_last_30d": 4,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand"
+    },
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
       "score_total": 62.0,
@@ -39,7 +43,7 @@
       "retailer_focus": "our_brand"
     }
   ],
-  "score_total": 62.0,
+  "score_total": 59.5,
   "score": {
     "total": 59.5,
     "breakdown": {
@@ -64,5 +68,5 @@
   "view_to_sub_ratio": 0.8174,
   "top_video_views": 64251.2,
   "top_post_likes": 61.2,
-  "sample_note": "STEP B 풀 재분석. likes 추출 5/5 (JS런타임 없음 → 일부 0)"
+  "sample_note": "B-Light refresh (14:00 slot, weekday). yt-dlp flat+channel meta. detail_sample=20."
 }
