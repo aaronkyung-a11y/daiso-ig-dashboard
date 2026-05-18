@@ -3,26 +3,30 @@
   "username": "UCF-EIhIdEWMXg8z6FuKFuQg",
   "fullname": "아민 ahmin",
   "profile_url": "https://www.youtube.com/channel/UCF-EIhIdEWMXg8z6FuKFuQg",
-  "followers": 13200,
+  "followers": 13400,
   "avg_views": 5948,
   "avg_likes": 232.7,
   "avg_comments": 19.3,
-  "engagement_rate": 3.4911,
+  "engagement_rate": 0.03031,
   "posts_last_30d": 3,
-  "sample_size": 12,
-  "brand_fit_score": 60,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_count": 2,
-    "olive_young_count": 1,
-    "beauty_keyword_count": 2,
-    "our_brand_present": false
-  },
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
-  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
-  "score_total": 72.0,
-  "grade": "B",
+  "sample_size": 20,
+  "brand_fit_score": 75,
+  "retailer_focus": "mixed",
+  "retailer_signal": "daiso=2, olive_young=2, beauty_kw=5, labrang=False",
+  "evaluated_at": "2026-05-18T14:11:16+09:00",
+  "sample_note": "B-Light refresh (14:00 slot, weekday). yt-dlp flat+channel meta. detail_sample=20.",
+  "score_total": 75.8,
+  "grade": "A",
   "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 72.0,
+      "engagement_rate": 3.4911,
+      "followers": 13200,
+      "posts_last_30d": 3,
+      "brand_fit_score": 60,
+      "retailer_focus": "daiso"
+    },
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
       "score_total": 72.0,
@@ -34,7 +38,7 @@
     }
   ],
   "score": {
-    "total": 75.75,
+    "total": 75.8,
     "breakdown": {
       "engagement": 80,
       "brand_fit": 75,
@@ -48,7 +52,7 @@
       "follower_scale": 0.1
     }
   },
-  "total_score": 75.75,
+  "total_score": 75.8,
   "notes": "yt-dlp: 20 videos sampled, 3 in 30d window",
   "brand_fit_notes": "daiso:2건 / oliveyoung:2건 / labrang:N",
   "sample_data_evidence": {
