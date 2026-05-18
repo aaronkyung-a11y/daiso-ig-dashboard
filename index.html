@@ -320,213 +320,264 @@
 
 
 
-const DAISO_DATA = {
-  "lastUpdated": "2026-05-17T22:34:24.013738Z",
-  "cutoffDate": "2026-04-17",
-  "totalReels": 14,
-  "totalEngagement": 162301,
-  "totalViews": 20647168,
-  "viewsLabel": "추정 (likes×128)",
-  "keywords": [
+window.DAISO_DATA = {
+  "lastUpdated": "2026-05-18 01:39",
+  "top10": [
     {
-      "keyword": "다이소일반",
-      "reelCount": 6,
-      "totalEngagement": 66570,
-      "totalViews": 8488576
+      "rank": 1,
+      "name": "더마블록 톤업 선크림 35ml X 마이 스윗 피아노",
+      "brand": "더마블록",
+      "price": 5000,
+      "rating": "4.9",
+      "review_count": 47,
+      "buy_count": "NEW",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260511/thumb/300/2uXrZyGGODGkoMQSl9vC1079348_00_012uXrZyGGODGkoMQSl9vC.jpg",
+      "pdNo": "1079348"
     },
     {
-      "keyword": "정직한실험실",
-      "reelCount": 1,
-      "totalEngagement": 92634,
-      "totalViews": 11810816
+      "rank": 2,
+      "name": "마데카21 테카 솔루션 수딩 미스트 토너 200ml",
+      "brand": "마데카21",
+      "price": 5000,
+      "rating": "4.8",
+      "review_count": 9210,
+      "buy_count": "18만+",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260402/thumb/300/YAGyPq2hshglHl0qRLSj1044553_00_00YAGyPq2hshglHl0qRLSj.jpg",
+      "pdNo": "1044553"
     },
     {
-      "keyword": "더마블록",
-      "reelCount": 1,
-      "totalEngagement": 1974,
-      "totalViews": 245632
+      "rank": 3,
+      "name": "본셉 비타씨 동결 건조 더블샷 앰플 키트",
+      "brand": "본셉",
+      "price": 5000,
+      "rating": "4.8",
+      "review_count": 9286,
+      "buy_count": "27만+",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251216/thumb/300/lcOc1IVBETy66kefZV8g1061918_00_00lcOc1IVBETy66kefZV8g.jpg",
+      "pdNo": "1061918"
     },
     {
-      "keyword": "본셉 비타씨",
-      "reelCount": 1,
-      "totalEngagement": 96,
-      "totalViews": 11264
+      "rank": 4,
+      "name": "메디필 멜라논엑스 기미크림 30ml",
+      "brand": "메디필",
+      "price": 5000,
+      "rating": "4.7",
+      "review_count": 2008,
+      "buy_count": "4.3만+",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251202/thumb/300/JnkokhJkl7RX7wd0O2DZ1068858_00_00JnkokhJkl7RX7wd0O2DZ.jpg",
+      "pdNo": "1068858"
     },
     {
-      "keyword": "메디필",
-      "reelCount": 2,
-      "totalEngagement": 601,
-      "totalViews": 73472
+      "rank": 5,
+      "name": "메디필 엑스트라 슈퍼 9 플러스 2.0 피지 클리너 50ml",
+      "brand": "메디필",
+      "price": 3000,
+      "rating": "4.7",
+      "review_count": 2849,
+      "buy_count": "7.7만+",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251202/thumb/300/NUUuYc7qzsdoTBVfx9UT1053490_00_00NUUuYc7qzsdoTBVfx9UT.jpg",
+      "pdNo": "1053490"
     },
     {
-      "keyword": "VT PDRN",
-      "reelCount": 2,
-      "totalEngagement": 156,
-      "totalViews": 8192
+      "rank": 6,
+      "name": "어퓨 더퓨어 청사과 스칼프 헤어식초 195ml",
+      "brand": "어퓨",
+      "price": 5000,
+      "rating": "5.0",
+      "review_count": 24,
+      "buy_count": "NEW",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260512/thumb/300/MJLEyMLsrLZfeEvSD9Jy1079135_00_01MJLEyMLsrLZfeEvSD9Jy.jpg",
+      "pdNo": "1079135"
     },
     {
-      "keyword": "VT 리들샷",
-      "reelCount": 1,
-      "totalEngagement": 270,
-      "totalViews": 9216
+      "rank": 7,
+      "name": "VT PDRN 광채시트마스크 1매 25g",
+      "brand": "VT",
+      "price": 1000,
+      "rating": "4.8",
+      "review_count": 3336,
+      "buy_count": "15만+",
+      "image_url": "",
+      "pdNo": "1067499"
+    },
+    {
+      "rank": 8,
+      "name": "김정문알로에 큐어알파 워터 스플래쉬 쿨링 선스틱 11g",
+      "brand": "김정문알로에",
+      "price": 5000,
+      "rating": "4.8",
+      "review_count": 63,
+      "buy_count": "NEW",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260508/thumb/300/44rjXskGLLj3cwVOazlL1076685_00_0144rjXskGLLj3cwVOazlL.jpg",
+      "pdNo": "1076685"
+    },
+    {
+      "rank": 9,
+      "name": "본셉 레티놀 2500 IU 링클샷 퍼펙터 15ml",
+      "brand": "본셉",
+      "price": 5000,
+      "rating": "4.8",
+      "review_count": 6700,
+      "buy_count": "16만+",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251218/thumb/300/d8NqIeDpOKYbm6p44Fzf1055168_00_00d8NqIeDpOKYbm6p44Fzf.jpg",
+      "pdNo": "1055168"
+    },
+    {
+      "rank": 10,
+      "name": "마데카21 테카 솔루션 수딩 크림 50ml",
+      "brand": "마데카21",
+      "price": 5000,
+      "rating": "4.8",
+      "review_count": 5581,
+      "buy_count": "12만+",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260402/thumb/300/zs4IuvvzXTUWWtsmvRi61044554_00_00zs4IuvvzXTUWWtsmvRi6.jpg",
+      "pdNo": "1044554"
     }
   ],
-  "topReels": [
+  "keywords": [
     {
-      "keyword": "정직한실험실",
-      "user": "gardenofniiya",
-      "url": "https://www.instagram.com/p/DYHkujZygN8/",
-      "date": "2026-05-09",
-      "likes": 92272,
-      "comments": 362,
-      "engagement": 92634,
-      "views": 11810816,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "다이소일반",
-      "user": "me__sonyeo",
-      "url": "https://www.instagram.com/p/DYSDZXuNhjE/",
-      "date": "2026-05-13",
-      "likes": 63036,
-      "comments": 164,
-      "engagement": 63200,
-      "views": 8068608,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "다이소일반",
-      "user": "salim___hacker",
-      "url": "https://www.instagram.com/p/DYL2hTEx2KP/",
-      "date": "2026-05-11",
-      "likes": 2395,
-      "comments": 24,
-      "engagement": 2419,
-      "views": 306560,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
+      "rank": 1,
       "keyword": "더마블록",
-      "user": "eunchogreen",
-      "url": "https://www.instagram.com/p/DYCufJtRvhT/",
-      "date": "2026-05-07",
-      "likes": 1919,
-      "comments": 55,
-      "engagement": 1974,
-      "views": 245632,
-      "viewsType": "추정 (likes×128)"
+      "totalViews": 242304,
+      "totalEngagement": 1912,
+      "reelCount": 1,
+      "topReels": [
+        {
+          "shortcode": "DX9g_G6yxd_",
+          "user": "hyunny_favorite",
+          "date": "2026-05-05",
+          "likes": 1893,
+          "comments": 19,
+          "engagement": 1912,
+          "views": 242304,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DX9g_G6yxd_/"
+        }
+      ]
     },
     {
-      "keyword": "다이소일반",
-      "user": "kkio__i",
-      "url": "https://www.instagram.com/p/DX_Ja_JRkDd/",
-      "date": "2026-05-06",
-      "likes": 477,
-      "comments": 59,
-      "engagement": 536,
-      "views": 61056,
-      "viewsType": "추정 (likes×128)"
+      "rank": 3,
+      "keyword": "본셉 비타씨/레티놀",
+      "totalViews": 2020736,
+      "totalEngagement": 15866,
+      "reelCount": 2,
+      "topReels": [
+        {
+          "shortcode": "DYbN4gqyvjG",
+          "user": "byu.yomi",
+          "date": "2026-05-17",
+          "likes": 12650,
+          "comments": 56,
+          "engagement": 12706,
+          "views": 1619200,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DYbN4gqyvjG/"
+        },
+        {
+          "shortcode": "DXmGDQTk2bg",
+          "user": "beauty._charmi",
+          "date": "2026-04-26",
+          "likes": 3137,
+          "comments": 23,
+          "engagement": 3160,
+          "views": 401536,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DXmGDQTk2bg/"
+        }
+      ]
     },
     {
-      "keyword": "다이소일반",
-      "user": "unni_list",
-      "url": "https://www.instagram.com/p/DXwABYGDZOr/",
-      "date": "2026-04-30",
-      "likes": 387,
-      "comments": 6,
-      "engagement": 393,
-      "views": 49536,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "메디필",
-      "user": "jangsu_note",
-      "url": "https://www.instagram.com/p/DX9FxIBzpO1/",
-      "date": "2026-05-05",
-      "likes": 383,
-      "comments": 0,
-      "engagement": 383,
-      "views": 49024,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "VT 리들샷",
-      "user": "dongan.beauty.kr",
-      "url": "https://www.instagram.com/p/DXgg7DygbuT/",
-      "date": "2026-04-24",
-      "likes": 72,
-      "comments": 198,
-      "engagement": 270,
-      "views": 9216,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "메디필",
-      "user": "incworld",
-      "url": "https://www.instagram.com/p/DX-jafcPIFF/",
-      "date": "2026-05-06",
-      "likes": 191,
-      "comments": 27,
-      "engagement": 218,
-      "views": 24448,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
+      "rank": 7,
       "keyword": "VT PDRN",
-      "user": "minkie__zips",
-      "url": "https://www.instagram.com/p/DYO5ZgbCmLL/",
-      "date": "2026-05-12",
-      "likes": 48,
-      "comments": 86,
-      "engagement": 134,
-      "views": 6144,
-      "viewsType": "추정 (likes×128)"
+      "totalViews": 65024,
+      "totalEngagement": 656,
+      "reelCount": 1,
+      "topReels": [
+        {
+          "shortcode": "DXYz5YIEYcl",
+          "user": "ha____dobby",
+          "date": "2026-04-21",
+          "likes": 508,
+          "comments": 148,
+          "engagement": 656,
+          "views": 65024,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DXYz5YIEYcl/"
+        }
+      ]
     },
     {
-      "keyword": "본셉 비타씨",
-      "user": "byu.yomi",
-      "url": "https://www.instagram.com/p/DYbN4gqyvjG/",
-      "date": "2026-05-17",
-      "likes": 88,
-      "comments": 8,
-      "engagement": 96,
-      "views": 11264,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "VT PDRN",
-      "user": "ha____dobby",
-      "url": "https://www.instagram.com/p/DXYz5YIEYcl/",
-      "date": "2026-04-21",
-      "likes": 16,
-      "comments": 6,
-      "engagement": 22,
-      "views": 2048,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "다이소일반",
-      "user": "data.storytelling.kr",
-      "url": "https://www.instagram.com/p/DYUt2ykAbNx/",
-      "date": "2026-05-14",
-      "likes": 19,
-      "comments": 0,
-      "engagement": 19,
-      "views": 2432,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "다이소일반",
-      "user": "cosin_office",
-      "url": "https://www.instagram.com/p/DYTy9LLlHC_/",
-      "date": "2026-05-14",
-      "likes": 3,
-      "comments": 0,
-      "engagement": 3,
-      "views": 384,
-      "viewsType": "추정 (likes×128)"
+      "rank": 0,
+      "keyword": "다이소 일반",
+      "totalViews": 384256,
+      "totalEngagement": 3019,
+      "reelCount": 5,
+      "topReels": [
+        {
+          "shortcode": "DXie4M4iWG0",
+          "user": "un_ni_tip",
+          "date": "2026-04-25",
+          "likes": 2004,
+          "comments": 5,
+          "engagement": 2009,
+          "views": 256512,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DXie4M4iWG0/"
+        },
+        {
+          "shortcode": "DX_rsHERPAJ",
+          "user": "ojirapper_",
+          "date": "2026-05-06",
+          "likes": 981,
+          "comments": 10,
+          "engagement": 991,
+          "views": 125568,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DX_rsHERPAJ/"
+        },
+        {
+          "shortcode": "DXsxaMjj4v8",
+          "user": "guliguli_humor",
+          "date": "2026-04-29",
+          "likes": 11,
+          "comments": 0,
+          "engagement": 11,
+          "views": 1408,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DXsxaMjj4v8/"
+        },
+        {
+          "shortcode": "DXvO4nEEysh",
+          "user": "fuu.mag",
+          "date": "2026-04-29",
+          "likes": 3,
+          "comments": 0,
+          "engagement": 3,
+          "views": 384,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DXvO4nEEysh/"
+        },
+        {
+          "shortcode": "DYWrYTiIq6y",
+          "user": "trendit.mag_",
+          "date": "2026-05-15",
+          "likes": 3,
+          "comments": 2,
+          "engagement": 5,
+          "views": 384,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DYWrYTiIq6y/"
+        }
+      ]
     }
-  ]
+  ],
+  "metadata": {
+    "viewsType": "추정 (likes×128)",
+    "likesType": "실측",
+    "commentsType": "실측",
+    "engagementType": "실측 (likes+comments)",
+    "windowDays": 30
+  }
 };
 // DAISO_DATA_END
 
@@ -540,190 +591,204 @@ const DAISO_DATA = {
 
 
 
-const OLIVEYOUNG_DATA = {
-  "lastUpdated": "2026-05-17T22:34:24.013738Z",
-  "cutoffDate": "2026-04-17",
-  "totalReels": 13,
-  "totalEngagement": 23672,
-  "totalViews": 2996352,
-  "viewsLabel": "추정 (likes×128)",
-  "keywords": [
+window.OLIVEYOUNG_DATA = {
+  "lastUpdated": "2026-05-18 01:39",
+  "top10": [
     {
-      "keyword": "메디힐",
-      "reelCount": 4,
-      "totalEngagement": 16073,
-      "totalViews": 2040192
+      "rank": 1,
+      "name": "세포랩 바이오제닉 에센스 블렌디드 포뮬라 (100ml/30ml)",
+      "brand": "세포랩",
+      "price": 14900,
+      "sale_price": 10900
     },
     {
-      "keyword": "닥터지",
-      "reelCount": 4,
-      "totalEngagement": 1102,
-      "totalViews": 136320
+      "rank": 2,
+      "name": "에뛰드 컬 픽스 마스카라",
+      "brand": "에뛰드",
+      "price": 16000,
+      "sale_price": 10900
     },
     {
-      "keyword": "코스노리",
-      "reelCount": 3,
-      "totalEngagement": 5199,
-      "totalViews": 655104
+      "rank": 3,
+      "name": "스킨푸드 당근 PDRN 속수분 패드 100매",
+      "brand": "스킨푸드",
+      "price": 26000,
+      "sale_price": 16700
     },
     {
-      "keyword": "디어달리아",
-      "reelCount": 1,
-      "totalEngagement": 1176,
-      "totalViews": 149760
+      "rank": 4,
+      "name": "엔비피시스 글램 플럼핑 립 글로스/글램 글로우 립 틴트",
+      "brand": "엔비피시스",
+      "price": 16000,
+      "sale_price": 14400
     },
     {
-      "keyword": "일리윤",
-      "reelCount": 1,
-      "totalEngagement": 122,
-      "totalViews": 14976
+      "rank": 5,
+      "name": "스킨1004 마다가스카르 센텔라 앰플 55ml",
+      "brand": "스킨1004",
+      "price": 18000,
+      "sale_price": 18000
+    },
+    {
+      "rank": 6,
+      "name": "AGE20S 시그니처 에센스 팩트 인텐스 커버",
+      "brand": "AGE20S",
+      "price": 38000,
+      "sale_price": 28500
+    },
+    {
+      "rank": 7,
+      "name": "뮤드 엔젤 허그 글레이즈 틴트",
+      "brand": "뮤드",
+      "price": 17000,
+      "sale_price": 10900
+    },
+    {
+      "rank": 8,
+      "name": "AHC 마스터즈 아이시 젤리 선스틱 14g",
+      "brand": "AHC",
+      "price": 18900,
+      "sale_price": 15700
+    },
+    {
+      "rank": 9,
+      "name": "메디힐 에센셜 마스크팩 10매",
+      "brand": "메디힐",
+      "price": 20000,
+      "sale_price": 10000
+    },
+    {
+      "rank": 10,
+      "name": "닥터지 레드블레미쉬 클리어 수딩크림EX 70ml",
+      "brand": "닥터지",
+      "price": 38000,
+      "sale_price": 27100
     }
   ],
-  "topReels": [
+  "keywords": [
     {
-      "keyword": "메디힐",
-      "user": "eyesmag",
-      "url": "https://www.instagram.com/p/DYYjN_qp5r1/",
-      "date": "2026-05-16",
-      "likes": 14066,
-      "comments": 64,
-      "engagement": 14130,
-      "views": 1800448,
-      "viewsType": "추정 (likes×128)"
+      "rank": 9,
+      "keyword": "올리브영 메디힐",
+      "totalViews": 164480,
+      "totalEngagement": 1330,
+      "reelCount": 1,
+      "topReels": [
+        {
+          "shortcode": "DViJ_fHEa6E",
+          "user": "gaeeeeurii",
+          "date": "2026-04-21",
+          "likes": 1285,
+          "comments": 45,
+          "engagement": 1330,
+          "views": 164480,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DViJ_fHEa6E/"
+        }
+      ]
     },
     {
-      "keyword": "코스노리",
-      "user": "mu_smetic",
-      "url": "https://www.instagram.com/p/DXwKSIcO_vz/",
-      "date": "2026-04-30",
-      "likes": 4948,
-      "comments": 29,
-      "engagement": 4977,
-      "views": 633344,
-      "viewsType": "추정 (likes×128)"
+      "rank": 0,
+      "keyword": "올영 포켓몬 콜라보",
+      "totalViews": 3381248,
+      "totalEngagement": 26548,
+      "reelCount": 3,
+      "topReels": [
+        {
+          "shortcode": "DXwjCJ8tj4n",
+          "user": "me__sonyeo",
+          "date": "2026-04-30",
+          "likes": 18507,
+          "comments": 50,
+          "engagement": 18557,
+          "views": 2368896,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DXwjCJ8tj4n/"
+        },
+        {
+          "shortcode": "DX34Tf0P5vd",
+          "user": "nayeon07211",
+          "date": "2026-05-03",
+          "likes": 4016,
+          "comments": 36,
+          "engagement": 4052,
+          "views": 514048,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DX34Tf0P5vd/"
+        },
+        {
+          "shortcode": "DXx-vKvRdzP",
+          "user": "beauketer",
+          "date": "2026-04-30",
+          "likes": 3893,
+          "comments": 46,
+          "engagement": 3939,
+          "views": 498304,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DXx-vKvRdzP/"
+        }
+      ]
     },
     {
-      "keyword": "디어달리아",
-      "user": "data.storytelling.kr",
-      "url": "https://www.instagram.com/p/DYEovzWAZzl/",
-      "date": "2026-05-08",
-      "likes": 1170,
-      "comments": 6,
-      "engagement": 1176,
-      "views": 149760,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "메디힐",
-      "user": "haaan._.ah",
-      "url": "https://www.instagram.com/p/DYPTvcqTUyn/",
-      "date": "2026-05-12",
-      "likes": 867,
-      "comments": 38,
-      "engagement": 905,
-      "views": 110976,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "닥터지",
-      "user": "yj_____07.08",
-      "url": "https://www.instagram.com/p/DXquBO6EewV/",
-      "date": "2026-04-28",
-      "likes": 790,
-      "comments": 29,
-      "engagement": 819,
-      "views": 101120,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "메디힐",
-      "user": "marihanwha99",
-      "url": "https://www.instagram.com/p/DX_2Knzk4md/",
-      "date": "2026-05-06",
-      "likes": 782,
-      "comments": 30,
-      "engagement": 812,
-      "views": 100096,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "메디힐",
-      "user": "_front.office",
-      "url": "https://www.instagram.com/p/DX0qTFVk0LE/",
-      "date": "2026-05-02",
-      "likes": 224,
-      "comments": 2,
-      "engagement": 226,
-      "views": 28672,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "닥터지",
-      "user": "dr.g_official",
-      "url": "https://www.instagram.com/p/DXqPOuOAWAs/",
-      "date": "2026-04-28",
-      "likes": 148,
-      "comments": 6,
-      "engagement": 154,
-      "views": 18944,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "코스노리",
-      "user": "imhayomi",
-      "url": "https://www.instagram.com/p/DYUFL3gx1gN/",
-      "date": "2026-05-14",
-      "likes": 110,
-      "comments": 16,
-      "engagement": 126,
-      "views": 14080,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "일리윤",
-      "user": "illiyoon_official",
-      "url": "https://www.instagram.com/p/DYQtGv8o9mu/",
-      "date": "2026-05-13",
-      "likes": 117,
-      "comments": 5,
-      "engagement": 122,
-      "views": 14976,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "닥터지",
-      "user": "data.storytelling.kr",
-      "url": "https://www.instagram.com/p/DYMhgEPAT7y/",
-      "date": "2026-05-11",
-      "likes": 106,
-      "comments": 1,
-      "engagement": 107,
-      "views": 13568,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "코스노리",
-      "user": "powderroom.co.kr",
-      "url": "https://www.instagram.com/p/DYUT5eRCHtB/",
-      "date": "2026-05-14",
-      "likes": 60,
-      "comments": 36,
-      "engagement": 96,
-      "views": 7680,
-      "viewsType": "추정 (likes×128)"
-    },
-    {
-      "keyword": "닥터지",
-      "user": "runa7030",
-      "url": "https://www.instagram.com/p/DYAS0MZH2ao/",
-      "date": "2026-05-06",
-      "likes": 21,
-      "comments": 1,
-      "engagement": 22,
-      "views": 2688,
-      "viewsType": "추정 (likes×128)"
+      "rank": 0,
+      "keyword": "올리브영 일반",
+      "totalViews": 95232,
+      "totalEngagement": 745,
+      "reelCount": 4,
+      "topReels": [
+        {
+          "shortcode": "DXrfuyogTeI",
+          "user": "data.storytelling.kr",
+          "date": "2026-04-28",
+          "likes": 445,
+          "comments": 1,
+          "engagement": 446,
+          "views": 56960,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DXrfuyogTeI/"
+        },
+        {
+          "shortcode": "DXgi-InGLb4",
+          "user": "play_with_unni",
+          "date": "2026-04-24",
+          "likes": 230,
+          "comments": 0,
+          "engagement": 230,
+          "views": 29440,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DXgi-InGLb4/"
+        },
+        {
+          "shortcode": "DYBgKyrkQ5W",
+          "user": "viewtongworld",
+          "date": "2026-05-06",
+          "likes": 57,
+          "comments": 0,
+          "engagement": 57,
+          "views": 7296,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DYBgKyrkQ5W/"
+        },
+        {
+          "shortcode": "DYM-BJwEpN0",
+          "user": "by.hangyeol",
+          "date": "2026-05-11",
+          "likes": 12,
+          "comments": 0,
+          "engagement": 12,
+          "views": 1536,
+          "type": "추정 (likes×128)",
+          "url": "https://www.instagram.com/p/DYM-BJwEpN0/"
+        }
+      ]
     }
-  ]
+  ],
+  "metadata": {
+    "viewsType": "추정 (likes×128)",
+    "likesType": "실측",
+    "commentsType": "실측",
+    "engagementType": "실측 (likes+comments)",
+    "windowDays": 30
+  }
 };
 // OLIVEYOUNG_DATA_END
 
