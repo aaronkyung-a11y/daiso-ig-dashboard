@@ -3,9 +3,9 @@
   "username": "k_eunmi___",
   "profile_url": "https://www.instagram.com/k_eunmi___/",
   "fullname": "또쭈니맘",
-  "followers": 1640,
+  "followers": 1641,
   "following": 1038,
-  "post_count_total": 128,
+  "post_count_total": 129,
   "bio": "육아/쇼핑/캠핑/여행 / 인생은 오직 한번뿐 즐기자",
   "highlights": [],
   "sample_size": 12,
@@ -101,10 +101,10 @@
   "engagement_rate": 0.0223,
   "posts_last_30d": 3,
   "posts_last_30d_note": "실측값 — 12개 visible posts 중 3개가 30일 내 (taken_at 기반)",
-  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+  "evaluated_at": "2026-05-18T10:09:59.161033+09:00",
   "notes": "STEP B-Light rolling refresh (Mon 17:00 KST). followers 1650→1636 (-14, 약 1% 감소). 육아 콘텐츠 위주, 뷰티 관련성 없음 유지. 점수 51.25 동일, 등급 C 유지.",
   "score": 51.25,
-  "grade": "D",
+  "grade": "C",
   "estimation_flags": {
     "followers": "measured (og:description)",
     "post_count_total": "measured (og:description)",
@@ -205,6 +205,30 @@
       "retailer_focus": "off_topic",
       "score_total": 51.25,
       "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 1640,
+      "engagement_rate": 0.0223,
+      "posts_last_30d": 3,
+      "brand_fit_score": 25,
+      "score_total": 51.25
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 1641,
+      "engagement_rate": 0.0223,
+      "posts_last_30d": 3,
+      "brand_fit_score": 25,
+      "score_total": 51.25
+    },
+    {
+      "evaluated_at": "2026-05-18T10:09:31.602405+09:00",
+      "followers": 1641,
+      "engagement_rate": 0.0223,
+      "posts_last_30d": 3,
+      "brand_fit_score": 25,
+      "score_total": 51.25
     }
   ],
   "brand_fit_score": 25,
@@ -271,7 +295,7 @@
     "follower_scale": 60,
     "total": 51.25
   },
-  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=51.25 (D).",
+  "sample_note": "2026-05-18T10:09 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=51.25 (C).",
   "engagement_rate_status": "calculated_from_og_description",
   "snapshot_refresh_at": "2026-05-12T10:15:00+09:00"
 }

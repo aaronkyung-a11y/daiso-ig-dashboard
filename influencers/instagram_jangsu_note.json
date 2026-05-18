@@ -3,9 +3,9 @@
   "username": "jangsu_note",
   "fullname": "장수노트",
   "profile_url": "https://www.instagram.com/jangsu_note/",
-  "followers": 11000,
+  "followers": 12000,
   "following": 0,
-  "post_count_total": 56,
+  "post_count_total": 57,
   "sample_size": 12,
   "engagement_rate": 0.0496,
   "avg_likes": 520.92,
@@ -36,7 +36,7 @@
     "labrang_blanc_doux_mention": false
   },
   "collab_priority": "high",
-  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+  "evaluated_at": "2026-05-18T10:09:59.161033+09:00",
   "notes": "STEP B-Light rolling refresh (Mon 17:00 KST). 직전 분석 대비 ER 큰 폭 하락(viral content rolled off). followers 9918→11000 (+1082).",
   "estimation_flags": {
     "followers": "measured (og:description)",
@@ -105,17 +105,6 @@
       "avg_comments": 37
     },
     {
-      "evaluated_at": "2026-05-05T17:05:00+09:00",
-      "engagement_rate": 0.2298,
-      "avg_likes": 2242.17,
-      "avg_comments": 36.67,
-      "posts_last_30d": 9,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso",
-      "score_total": 90.5,
-      "grade": "S"
-    },
-    {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
       "score_total": 85.5,
       "engagement_rate": 0.0496,
@@ -134,9 +123,33 @@
       "retailer_focus": "daiso",
       "score_total": 85.5,
       "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 11000,
+      "engagement_rate": 0.0496,
+      "posts_last_30d": 12,
+      "brand_fit_score": 90,
+      "score_total": 85.5
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 11000,
+      "engagement_rate": 0.0496,
+      "posts_last_30d": 12,
+      "brand_fit_score": 90,
+      "score_total": 85.5
+    },
+    {
+      "evaluated_at": "2026-05-18T10:09:31.602405+09:00",
+      "followers": 11000,
+      "engagement_rate": 0.0496,
+      "posts_last_30d": 12,
+      "brand_fit_score": 90,
+      "score_total": 85.5
     }
   ],
-  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=85.5 (S).",
+  "sample_note": "2026-05-18T10:09 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=85.5 (S).",
   "engagement_rate_status": "calculated_from_og_description",
   "sample_data_evidence": {
     "likes_sample": [

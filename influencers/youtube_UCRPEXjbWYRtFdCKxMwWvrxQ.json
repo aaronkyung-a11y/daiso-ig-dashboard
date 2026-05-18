@@ -4,7 +4,7 @@
   "platform": "youtube",
   "fullname": "유리나 Yurina",
   "channel_id": "UCRPEXjbWYRtFdCKxMwWvrxQ",
-  "followers": 2190,
+  "followers": 2260,
   "description_bio": "",
   "videos_analyzed": [
     {
@@ -239,8 +239,8 @@
   "total_score": 73.5,
   "score": 73.5,
   "grade": "B",
-  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — yt-dlp로 channel_follower_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=73.5 (B).",
+  "evaluated_at": "2026-05-18T10:13:53.083817+09:00",
+  "sample_note": "2026-05-18T10:13 KST STEP B 풀 재분석 (YT) — yt-dlp로 followers 실측 갱신, ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=73.5 (B).",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:11:09.293038+09:00",
@@ -251,6 +251,14 @@
       "retailer_focus": "daiso",
       "score_total": 73.5,
       "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 2190,
+      "engagement_rate": 2.198,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "score_total": 73.5
     }
   ]
 }

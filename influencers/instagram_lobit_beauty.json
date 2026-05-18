@@ -5,7 +5,7 @@
   "fullname": "로빗 lobit🐰🫧",
   "followers": 11000,
   "following": 206,
-  "post_count_total": 36,
+  "post_count_total": 37,
   "bio": "예술가 / 뷰티 꿀팁과 꿀템을 공유해요",
   "highlights": [],
   "sample_size": 12,
@@ -101,7 +101,7 @@
   "engagement_rate": 0.3451,
   "posts_last_30d": 2,
   "posts_last_30d_note": "실측값 — taken_at 추출 8/12 reels 중 2개가 30일 내 (cutoff 2026-04-12). 4 reels는 taken_at 미추출 (lazy-load 미발생).",
-  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+  "evaluated_at": "2026-05-18T10:10:19.950286+09:00",
   "notes": "STEP B-Light rolling refresh (Tue 14:00 KST). IG 로그인 세션 확보, 12 reels 중 like/cm 8건 + taken_at 9건 실측. 미추출 4 reels는 lazy-load 미발생 — 부분 표본 기반 ER.",
   "score": 89.5,
   "grade": "S",
@@ -175,18 +175,6 @@
       "retailer_focus": "daiso"
     },
     {
-      "evaluated_at": "2026-04-30T13:58:42+09:00",
-      "sample_size": 3,
-      "followers": 9515,
-      "avg_likes": 2044,
-      "avg_comments": 34,
-      "engagement_rate": 0.2184,
-      "score_total": 91.8,
-      "grade": "S",
-      "brand_fit_score": 95,
-      "retailer_focus": "daiso"
-    },
-    {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
       "score_total": 92.5,
       "engagement_rate": 0.5241,
@@ -207,14 +195,20 @@
       "note": "B-Light Tue 14:00 — 부분 표본 8/12 reels"
     },
     {
-      "evaluated_at": "2026-05-12T14:15:00+09:00",
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
       "followers": 11000,
       "engagement_rate": 0.3451,
       "posts_last_30d": 2,
       "brand_fit_score": 90,
-      "retailer_focus": "olive_young",
-      "score_total": 89.5,
-      "grade": "A"
+      "score_total": 89.5
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 11000,
+      "engagement_rate": 0.3451,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "score_total": 89.5
     }
   ],
   "brand_fit_score": 90,
@@ -268,5 +262,5 @@
     "follower_scale": 80,
     "total": 89.5
   },
-  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=89.5 (S)."
+  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=89.5 (S)."
 }

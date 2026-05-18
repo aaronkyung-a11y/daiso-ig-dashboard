@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T17:05:00+09:00",
+  "lastUpdated": "2026-05-18T10:14:19.541993+09:00",
   "auto_refresh": true,
   "refresh_cron": "weekly",
   "accounts": [
@@ -157,7 +157,22 @@
       "platform": "youtube",
       "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
       "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCodG0bJ3OICRA1bg4TBdU9A",
+      "profile_url": "https://www.youtube.com/channel/UCodG0bJ3OICRA1bg4TBdU9A"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCSx-2fuyotB8WA8KytyhACg",
+      "profile_url": "https://www.youtube.com/channel/UCSx-2fuyotB8WA8KytyhACg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCrlUlicedicJ5mlibqC62Eg",
+      "profile_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg"
     }
   ],
-  "updated_at": "2026-05-15T17:05:00+09:00"
+  "updated_at": "2026-05-18T10:14:19.541993+09:00"
 }

@@ -3,7 +3,7 @@
   "username": "beauty._charmi",
   "fullname": "챠미뷰티 l 홈케어•색조템•뷰티꿀팁",
   "profile_url": "https://www.instagram.com/beauty._charmi/",
-  "followers": 57000,
+  "followers": 56000,
   "engagement_rate": 0.0034,
   "posts_last_30d": 4,
   "sample_size": 4,
@@ -15,10 +15,10 @@
     "beauty_topical_strength": "medium (5건)",
     "labrang_blanc_doux_mention": false
   },
-  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+  "evaluated_at": "2026-05-18T10:10:33.766400+09:00",
   "score_total": 55.75,
   "grade": "C",
-  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=55.75 (C).",
+  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=55.75 (C).",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -29,6 +29,22 @@
       "retailer_focus": "beauty_general",
       "score_total": 55.75,
       "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 57000,
+      "engagement_rate": 0.0034,
+      "posts_last_30d": 4,
+      "brand_fit_score": 75,
+      "score_total": 55.75
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 57000,
+      "engagement_rate": 0.0034,
+      "posts_last_30d": 4,
+      "brand_fit_score": 75,
+      "score_total": 55.75
     }
   ],
   "following": 1033,

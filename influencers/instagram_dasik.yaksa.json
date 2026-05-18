@@ -15,10 +15,10 @@
     "beauty_topical_strength": "weak (1건)",
     "labrang_blanc_doux_mention": false
   },
-  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+  "evaluated_at": "2026-05-18T10:10:19.950286+09:00",
   "score_total": 60.0,
-  "grade": "C",
-  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=60.0 (C).",
+  "grade": "B",
+  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=60.0 (B).",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -29,9 +29,25 @@
       "retailer_focus": "beauty_general",
       "score_total": 60.0,
       "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 104000,
+      "engagement_rate": 0.0018,
+      "posts_last_30d": 10,
+      "brand_fit_score": 60,
+      "score_total": 60.0
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 104000,
+      "engagement_rate": 0.0018,
+      "posts_last_30d": 10,
+      "brand_fit_score": 60,
+      "score_total": 60.0
     }
   ],
-  "following": 883,
-  "post_count_total": 925,
+  "following": 885,
+  "post_count_total": 928,
   "score": 60.0
 }

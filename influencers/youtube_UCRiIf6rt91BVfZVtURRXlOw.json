@@ -4,7 +4,7 @@
   "platform": "youtube",
   "fullname": "지냐 Jinyaa",
   "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
-  "followers": 358000,
+  "followers": 359000,
   "description_bio": "",
   "videos_analyzed": [
     {
@@ -1653,8 +1653,8 @@
   "total_score": 77.0,
   "score": 77.0,
   "grade": "A",
-  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — yt-dlp로 channel_follower_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=77.0 (A).",
+  "evaluated_at": "2026-05-18T10:13:53.083817+09:00",
+  "sample_note": "2026-05-18T10:13 KST STEP B 풀 재분석 (YT) — yt-dlp로 followers 실측 갱신, ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=77.0 (A).",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:17:29.332318+09:00",
@@ -1684,14 +1684,12 @@
       "brand_fit_score": 100
     },
     {
-      "evaluated_at": "2026-05-13T01:11:43Z",
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
       "followers": 358000,
-      "engagement_rate": 2.67,
+      "engagement_rate": 2.649,
       "posts_last_30d": 5,
       "brand_fit_score": 100,
-      "retailer_focus": "our_brand",
-      "score_total": 77.0,
-      "grade": "A"
+      "score_total": 77.0
     }
   ]
 }

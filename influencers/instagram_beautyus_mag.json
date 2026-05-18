@@ -5,7 +5,7 @@
   "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
   "followers": 88000,
   "following": 273,
-  "post_count_total": 3180,
+  "post_count_total": 3190,
   "bio": "beauty • trend • issue • etc / 뷰티라면 다 좋아 / 얇아진 지갑이 만든 에디터 취향을 담아",
   "external_link": "linktr.ee/beautyus_mag",
   "highlights": [
@@ -127,7 +127,7 @@
       "date": "2026-05-03"
     }
   ],
-  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+  "evaluated_at": "2026-05-18T10:09:59.161033+09:00",
   "notes": "B-Light rolling refresh. logged-out IG (sample 12, likes mostly hidden — n=2 visible). Wed 17:00 run.",
   "score": 85.5,
   "grade": "S",
@@ -363,6 +363,30 @@
       "retailer_focus": "beauty_general",
       "score_total": 75.5,
       "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 88000,
+      "engagement_rate": 0.0487,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "score_total": 85.5
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 88000,
+      "engagement_rate": 0.0487,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "score_total": 85.5
+    },
+    {
+      "evaluated_at": "2026-05-18T10:09:31.602405+09:00",
+      "followers": 88000,
+      "engagement_rate": 0.0487,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "score_total": 85.5
     }
   ],
   "score_total": 85.5,
@@ -374,7 +398,7 @@
     "follower_scale": 80,
     "total": 85.5
   },
-  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=85.5 (S).",
+  "sample_note": "2026-05-18T10:09 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=85.5 (S).",
   "visible_in_window_count": 0,
   "sample_reels_snapshot": [
     {

@@ -3,12 +3,12 @@
   "username": "habaoh_0",
   "profile_url": "https://www.instagram.com/habaoh_0/",
   "fullname": "하바오",
-  "followers": 8024,
+  "followers": 8050,
   "following": 1039,
-  "post_count_total": 33,
+  "post_count_total": 35,
   "bio": "",
   "sample_size": 1,
-  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=54.5 (D).",
+  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=54.5 (C).",
   "avg_likes": 33.0,
   "avg_comments": 7.0,
   "avg_engagement": 40.0,
@@ -37,10 +37,10 @@
     ],
     "top_reel": "https://www.instagram.com/p/DX_vEEPvDMZ/"
   },
-  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+  "evaluated_at": "2026-05-18T10:10:33.766400+09:00",
   "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
   "score": 54.5,
-  "grade": "D",
+  "grade": "C",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -71,6 +71,22 @@
       "retailer_focus": "beauty_general",
       "score_total": 54.5,
       "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 8024,
+      "engagement_rate": 0.005,
+      "posts_last_30d": 1,
+      "brand_fit_score": 90,
+      "score_total": 54.5
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 8050,
+      "engagement_rate": 0.005,
+      "posts_last_30d": 1,
+      "brand_fit_score": 90,
+      "score_total": 54.5
     }
   ],
   "score_total": 54.5,

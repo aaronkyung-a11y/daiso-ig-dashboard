@@ -1052,8 +1052,8 @@
   "total_score": 84.5,
   "score": 84.5,
   "grade": "A",
-  "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-  "sample_note": "2026-05-15T10:11 KST STEP B 풀 재분석 — yt-dlp로 channel_follower_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=84.5 (A).",
+  "evaluated_at": "2026-05-18T10:13:46.824293+09:00",
+  "sample_note": "2026-05-18T10:13 KST STEP B 풀 재분석 (YT) — yt-dlp로 followers 실측 갱신, ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=84.5 (A).",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:16:44.508399+09:00",
@@ -1088,14 +1088,12 @@
       "retailer_focus": "mixed"
     },
     {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
       "followers": 175000,
-      "engagement_rate": 1.7591,
-      "posts_last_30d": 4,
+      "engagement_rate": 3.11,
+      "posts_last_30d": 5,
       "brand_fit_score": 90,
-      "retailer_focus": "mixed",
-      "score_total": 71.5,
-      "grade": "B"
+      "score_total": 84.5
     }
   ]
 }
