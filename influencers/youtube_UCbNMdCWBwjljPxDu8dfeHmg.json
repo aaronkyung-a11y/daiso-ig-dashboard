@@ -4,19 +4,19 @@
   "fullname": "박체리 cherry",
   "channel_id": "UCbNMdCWBwjljPxDu8dfeHmg",
   "profile_url": "https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg",
-  "followers": 49800,
+  "followers": 49900,
   "avg_views": 58105,
   "avg_likes": 671.0,
   "avg_comments": 21.0,
-  "engagement_rate": 1.1892,
+  "engagement_rate": 1.1537,
   "posts_last_30d": 0,
   "sample_size": 2,
-  "brand_fit_score": 75,
+  "brand_fit_score": 90,
   "retailer_focus": "beauty_general",
   "retailer_signal": {
     "daiso_count": 0,
     "olive_young_count": 0,
-    "beauty_keyword_count": 6,
+    "beauty_keyword_count": 23,
     "our_brand_present": false
   },
   "total_score": 66.5,
@@ -27,7 +27,7 @@
     "follower_scale": 80
   },
   "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "evaluated_at": "2026-05-19T17:08:29+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,9 +37,27 @@
       "posts_last_30d": 0,
       "brand_fit_score": 75,
       "retailer_focus": "beauty_general"
+    },
+    {
+      "followers": 49800,
+      "engagement_rate": 1.1892,
+      "posts_last_30d": 0,
+      "sample_size": 2,
+      "brand_fit_score": 75,
+      "retailer_focus": "beauty_general",
+      "retailer_signal": {
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 6,
+        "our_brand_present": false
+      },
+      "score_total": 62.8,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 2/2 (JS런타임 없음 → 일부 0)"
     }
   ],
-  "score_total": 62.8,
+  "score_total": 66.5,
   "score": {
     "total": 66.5,
     "breakdown": {
@@ -64,5 +82,5 @@
   "view_to_sub_ratio": 1.1666,
   "top_video_views": 58095.0,
   "top_post_likes": 671.0,
-  "sample_note": "STEP B 풀 재분석. likes 추출 2/2 (JS런타임 없음 → 일부 0)"
+  "sample_note": "STEP B-Light 재분석 (17시 슬롯). yt-dlp 메타 추출 2/2 성공."
 }

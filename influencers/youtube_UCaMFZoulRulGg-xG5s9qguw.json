@@ -4,13 +4,13 @@
   "fullname": "백세 건강보감",
   "channel_id": "UCaMFZoulRulGg-xG5s9qguw",
   "profile_url": "https://www.youtube.com/channel/UCaMFZoulRulGg-xG5s9qguw",
-  "followers": 6680,
+  "followers": 7390,
   "avg_views": 17,
   "avg_likes": 1.4,
   "avg_comments": 0.0,
-  "engagement_rate": 8.4507,
+  "engagement_rate": 9.0909,
   "posts_last_30d": 0,
-  "sample_size": 4,
+  "sample_size": 10,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
@@ -27,7 +27,7 @@
     "follower_scale": 60
   },
   "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "evaluated_at": "2026-05-19T17:07:49+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,9 +37,27 @@
       "posts_last_30d": 0,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic"
+    },
+    {
+      "followers": 6680,
+      "engagement_rate": 8.4507,
+      "posts_last_30d": 0,
+      "sample_size": 4,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "retailer_signal": {
+        "daiso_count": 0,
+        "olive_young_count": 0,
+        "beauty_keyword_count": 0,
+        "our_brand_present": false
+      },
+      "score_total": 63.2,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "sample_note": "STEP B 풀 재분석. likes 추출 3/4 (JS런타임 없음 → 일부 0)"
     }
   ],
-  "score_total": 63.2,
+  "score_total": 63.25,
   "score": {
     "total": 72.0,
     "breakdown": {
@@ -64,5 +82,5 @@
   "view_to_sub_ratio": 0.0025,
   "top_video_views": 16.6,
   "top_post_likes": 1.4,
-  "sample_note": "STEP B 풀 재분석. likes 추출 3/4 (JS런타임 없음 → 일부 0)"
+  "sample_note": "STEP B-Light 재분석 (17시 슬롯). yt-dlp 메타 추출 10/10 성공."
 }
