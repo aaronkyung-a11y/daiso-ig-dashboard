@@ -1,0 +1,36 @@
+{
+  "platform": "youtube",
+  "username": "UC6zDQHALEBtuEhGYlT1ZTfA",
+  "profile_url": "https://www.youtube.com/channel/UC6zDQHALEBtuEhGYlT1ZTfA",
+  "evaluated_at": "2026-05-19T05:09:29.530649+00:00",
+  "fullname": "선데이미디어",
+  "followers": 28100,
+  "sample_size": 20,
+  "avg_views": 0,
+  "avg_likes": 8,
+  "engagement_rate": 0.03,
+  "posts_last_30d": 20,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 90,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 9
+  },
+  "sample_note": "YT 분석 (videos: 20, deep: 3)",
+  "score_total": 65.5,
+  "grade": "A",
+  "history": [
+    {
+      "evaluated_at": "2026-05-19T05:09:29.530649+00:00",
+      "engagement_rate": 0.03,
+      "followers": 28100,
+      "brand_fit_score": 90,
+      "posts_last_30d": 20,
+      "score_total": 65.5,
+      "grade": "A"
+    }
+  ]
+}
