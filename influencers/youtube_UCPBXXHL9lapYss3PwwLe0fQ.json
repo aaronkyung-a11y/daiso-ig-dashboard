@@ -1,0 +1,36 @@
+{
+  "platform": "youtube",
+  "username": "UCPBXXHL9lapYss3PwwLe0fQ",
+  "profile_url": "https://www.youtube.com/channel/UCPBXXHL9lapYss3PwwLe0fQ",
+  "evaluated_at": "2026-05-19T05:06:58.696650+00:00",
+  "fullname": "뷰요미",
+  "followers": 6470,
+  "_channel_desc": "💄추천템 • 솔직 리뷰 • 꿀팁 • 언박싱\n❤️ 하루 1분, 꿀템 얻어가는 시간\n💬궁금한 제품 요청은 DM or 댓글\n💌 byuyomi@gmail.com",
+  "sample_size": 0,
+  "engagement_rate": 0,
+  "avg_views": 0,
+  "avg_likes": 0,
+  "posts_last_30d": 0,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 0
+  },
+  "sample_note": "⚠️ yt-dlp: 영상 0개 (비공개/지역제한 가능)",
+  "score_total": 38.2,
+  "grade": "C",
+  "history": [
+    {
+      "evaluated_at": "2026-05-19T05:06:58.696650+00:00",
+      "engagement_rate": 0,
+      "followers": 6470,
+      "brand_fit_score": 25,
+      "posts_last_30d": 0,
+      "score_total": 38.2,
+      "grade": "C"
+    }
+  ]
+}
