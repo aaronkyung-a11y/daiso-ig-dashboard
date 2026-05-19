@@ -1,0 +1,36 @@
+{
+  "platform": "youtube",
+  "username": "UCLyRxUcEIUvrG5wAS2TaE9w",
+  "profile_url": "https://www.youtube.com/channel/UCLyRxUcEIUvrG5wAS2TaE9w",
+  "evaluated_at": "2026-05-19T05:08:22.659922+00:00",
+  "fullname": "피부는 희쌤",
+  "followers": 17400,
+  "sample_size": 20,
+  "avg_views": 0,
+  "avg_likes": 301,
+  "engagement_rate": 2.72,
+  "posts_last_30d": 20,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso": 17,
+    "olive_young": 3,
+    "our_brand": true,
+    "beauty_kw": 32
+  },
+  "sample_note": "YT 분석 (videos: 20, deep: 3)",
+  "score_total": 78.0,
+  "grade": "A",
+  "history": [
+    {
+      "evaluated_at": "2026-05-19T05:08:22.659922+00:00",
+      "engagement_rate": 2.72,
+      "followers": 17400,
+      "brand_fit_score": 100,
+      "posts_last_30d": 20,
+      "score_total": 78.0,
+      "grade": "A"
+    }
+  ]
+}
