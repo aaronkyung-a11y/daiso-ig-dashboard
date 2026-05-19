@@ -1,0 +1,36 @@
+{
+  "platform": "youtube",
+  "username": "UCqrNqg3UgVoD3Sa-F_TxuSA",
+  "profile_url": "https://www.youtube.com/channel/UCqrNqg3UgVoD3Sa-F_TxuSA",
+  "evaluated_at": "2026-05-19T05:09:15.847936+00:00",
+  "fullname": "디렉터 파이",
+  "followers": 1040000,
+  "sample_size": 20,
+  "avg_views": 0,
+  "avg_likes": 1189,
+  "engagement_rate": 2.4,
+  "posts_last_30d": 20,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 2,
+    "our_brand": true,
+    "beauty_kw": 27
+  },
+  "sample_note": "YT 분석 (videos: 20, deep: 3)",
+  "score_total": 80.0,
+  "grade": "S",
+  "history": [
+    {
+      "evaluated_at": "2026-05-19T05:09:15.847936+00:00",
+      "engagement_rate": 2.4,
+      "followers": 1040000,
+      "brand_fit_score": 100,
+      "posts_last_30d": 20,
+      "score_total": 80.0,
+      "grade": "S"
+    }
+  ]
+}
