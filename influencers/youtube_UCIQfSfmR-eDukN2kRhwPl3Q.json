@@ -1,0 +1,36 @@
+{
+  "platform": "youtube",
+  "username": "UCIQfSfmR-eDukN2kRhwPl3Q",
+  "profile_url": "https://www.youtube.com/channel/UCIQfSfmR-eDukN2kRhwPl3Q",
+  "evaluated_at": "2026-05-19T05:07:18.870088+00:00",
+  "fullname": "키키하우스 KIKIHOUSE",
+  "followers": 5720,
+  "_channel_desc": "혼자 사는 20대 집순이의 일상들 🌷\nkikihouuse@gmail.com",
+  "sample_size": 0,
+  "engagement_rate": 0,
+  "avg_views": 0,
+  "avg_likes": 0,
+  "posts_last_30d": 0,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 0
+  },
+  "sample_note": "⚠️ yt-dlp: 영상 0개 (비공개/지역제한 가능)",
+  "score_total": 38.2,
+  "grade": "C",
+  "history": [
+    {
+      "evaluated_at": "2026-05-19T05:07:18.870088+00:00",
+      "engagement_rate": 0,
+      "followers": 5720,
+      "brand_fit_score": 25,
+      "posts_last_30d": 0,
+      "score_total": 38.2,
+      "grade": "C"
+    }
+  ]
+}
