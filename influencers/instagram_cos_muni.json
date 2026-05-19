@@ -3,12 +3,12 @@
   "username": "cos_muni",
   "profile_url": "https://www.instagram.com/cos_muni/",
   "fullname": "무니",
-  "followers": 1642,
+  "followers": 1651,
   "following": 784,
-  "post_count_total": 64,
+  "post_count_total": 65,
   "bio": "",
   "sample_size": 4,
-  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=87.5 (S).",
+  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=87.5 (S). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
   "avg_likes": 1010.5,
   "avg_comments": 8.25,
   "avg_engagement": 1018.75,
@@ -46,7 +46,7 @@
     ],
     "top_reel": "https://www.instagram.com/p/DXysE3lztin/"
   },
-  "evaluated_at": "2026-05-18T10:10:33.766400+09:00",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
   "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
   "score": 87.5,
   "grade": "S",
@@ -106,6 +106,16 @@
       "posts_last_30d": 4,
       "brand_fit_score": 90,
       "score_total": 87.5
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 1651,
+      "engagement_rate": 0.6547,
+      "posts_last_30d": 4,
+      "brand_fit_score": 90,
+      "score_total": 87.5,
+      "grade": "S",
+      "note": "STEP B light refresh"
     }
   ],
   "score_total": 87.5,

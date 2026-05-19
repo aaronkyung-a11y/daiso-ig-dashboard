@@ -4,7 +4,7 @@
   "fullname": "오션 OCEAN",
   "profile_url": "https://www.youtube.com/channel/UCSx-2fuyotB8WA8KytyhACg",
   "handle": "@ocean_beauty",
-  "followers": 284000,
+  "followers": 285000,
   "engagement_rate": 1.7745,
   "posts_last_30d": 10,
   "sample_size": 12,
@@ -18,7 +18,7 @@
     "beauty_keyword_count": 304,
     "labrang_mentions": 1
   },
-  "evaluated_at": "2026-05-15T17:05:00+09:00",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
   "score_total": 80.0,
   "grade": "A",
   "score_components": {
@@ -33,7 +33,7 @@
       "followers": 0.1
     }
   },
-  "sample_note": "2026-05-15T17:05 KST STEP B-Light 롤링 재분석 (yt-dlp 12개 영상 실측). 추정 아님.",
+  "sample_note": "2026-05-15T17:05 KST STEP B-Light 롤링 재분석 (yt-dlp 12개 영상 실측). 추정 아님. | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -52,6 +52,25 @@
       "posts_last_30d": 10,
       "brand_fit_score": 100,
       "retailer_focus": "our_brand"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 285000,
+      "engagement_rate": 1.7745,
+      "posts_last_30d": 10,
+      "brand_fit_score": 100,
+      "score_total": 80.0,
+      "grade": "A",
+      "note": "STEP B light refresh"
     }
-  ]
+  ],
+  "score": 80.0,
+  "total_score": 80.0,
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit": 100,
+    "consistency": 100,
+    "follower_scale": 100,
+    "total": 80.0
+  }
 }

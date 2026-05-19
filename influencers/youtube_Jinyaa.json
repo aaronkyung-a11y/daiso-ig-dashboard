@@ -1653,8 +1653,8 @@
   "total_score": 77.0,
   "score": 77.0,
   "grade": "A",
-  "evaluated_at": "2026-05-18T10:13:46.824293+09:00",
-  "sample_note": "2026-05-18T10:13 KST STEP B 풀 재분석 (YT) — yt-dlp로 followers 실측 갱신, ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=77.0 (A).",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
+  "sample_note": "2026-05-18T10:13 KST STEP B 풀 재분석 (YT) — yt-dlp로 followers 실측 갱신, ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=77.0 (A). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:15:57.468735+09:00",
@@ -1944,6 +1944,16 @@
       "posts_last_30d": 5,
       "brand_fit_score": 100,
       "score_total": 77.0
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 359000,
+      "engagement_rate": 2.649,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "score_total": 77.0,
+      "grade": "A",
+      "note": "STEP B light refresh"
     }
   ]
 }

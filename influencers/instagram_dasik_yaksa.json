@@ -4,11 +4,11 @@
   "profile_url": "https://www.instagram.com/dasik.yaksa/",
   "fullname": "다식 약사 | 박약다식, 박소윤",
   "followers": 104000,
-  "following": 885,
-  "post_count_total": 923,
+  "following": 887,
+  "post_count_total": 932,
   "bio": "",
   "sample_size": 12,
-  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(104,000)/post_count(923) 실측 갱신. ER(0.18%)·brand_fit(60)·posts_30d(10)는 STEP B-Light 측정치 캐리포워드. 점수=60.0 (C).",
+  "sample_note": "2026-05-14T10:00 KST 풀 재분석 — ⚠️ IG 로그아웃 상태로 풀 reel 샘플 불가. og:description으로 followers(104,000)/post_count(923) 실측 갱신. ER(0.18%)·brand_fit(60)·posts_30d(10)는 STEP B-Light 측정치 캐리포워드. 점수=60.0 (C). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
   "avg_likes": 126.7,
   "avg_comments": 62.0,
   "engagement_rate": 0.0018,
@@ -68,7 +68,7 @@
     ],
     "top_reel": "https://www.instagram.com/p/DYKGwepvzxG/"
   },
-  "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
   "notes": "Tue 09:00 STEP B-Light rolling refresh. og:description method (SPA contamination avoided).",
   "score": 60.0,
   "grade": "C",
@@ -156,6 +156,16 @@
       "retailer_focus": "beauty_general",
       "score_total": 60.0,
       "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 104000,
+      "engagement_rate": 0.0018,
+      "posts_last_30d": 10,
+      "brand_fit_score": 60,
+      "score_total": 60.0,
+      "grade": "C",
+      "note": "STEP B light refresh"
     }
   ],
   "score_total": 60.0,

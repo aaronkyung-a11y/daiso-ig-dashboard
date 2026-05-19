@@ -4,7 +4,7 @@
   "fullname": "뷰드름유튜버 인씨 inssi",
   "profile_url": "https://www.instagram.com/incworld/",
   "followers": 62000,
-  "following": 1007,
+  "following": 1012,
   "post_count_total": 565,
   "sample_size": 12,
   "engagement_rate": 0.0065,
@@ -27,7 +27,7 @@
     "follower_scale": 80,
     "total": 62.5
   },
-  "grade": "B",
+  "grade": "C",
   "retailer_focus": "olive_young",
   "retailer_signal": {
     "daiso_mentions": "1건",
@@ -36,7 +36,7 @@
     "labrang_blanc_doux_mention": false
   },
   "collab_priority": "watchlist",
-  "evaluated_at": "2026-05-18T10:10:19.950286+09:00",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
   "notes": "STEP B-Light rolling refresh (Fri 14:00 KST). 로그아웃 프로필 갱신. ER/BF/Cons는 직전 분석 결과 유지.",
   "estimation_flags": {
     "followers": "measured (og:description)",
@@ -126,9 +126,19 @@
       "posts_last_30d": 7,
       "brand_fit_score": 90,
       "score_total": 62.5
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 62000,
+      "engagement_rate": 0.0065,
+      "posts_last_30d": 7,
+      "brand_fit_score": 90,
+      "score_total": 62.5,
+      "grade": "C",
+      "note": "STEP B light refresh"
     }
   ],
   "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
-  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=62.5 (B).",
+  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=62.5 (B). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
   "total_score": 62.5
 }

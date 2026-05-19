@@ -101,7 +101,7 @@
   "engagement_rate": 0.3451,
   "posts_last_30d": 2,
   "posts_last_30d_note": "실측값 — taken_at 추출 8/12 reels 중 2개가 30일 내 (cutoff 2026-04-12). 4 reels는 taken_at 미추출 (lazy-load 미발생).",
-  "evaluated_at": "2026-05-18T10:10:19.950286+09:00",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
   "notes": "STEP B-Light rolling refresh (Tue 14:00 KST). IG 로그인 세션 확보, 12 reels 중 like/cm 8건 + taken_at 9건 실측. 미추출 4 reels는 lazy-load 미발생 — 부분 표본 기반 ER.",
   "score": 89.5,
   "grade": "S",
@@ -209,6 +209,16 @@
       "posts_last_30d": 2,
       "brand_fit_score": 90,
       "score_total": 89.5
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 11000,
+      "engagement_rate": 0.3451,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "score_total": 89.5,
+      "grade": "S",
+      "note": "STEP B light refresh"
     }
   ],
   "brand_fit_score": 90,
@@ -262,5 +272,5 @@
     "follower_scale": 80,
     "total": 89.5
   },
-  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=89.5 (S)."
+  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=89.5 (S). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)"
 }

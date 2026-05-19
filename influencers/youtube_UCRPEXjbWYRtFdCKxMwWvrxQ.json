@@ -2,9 +2,9 @@
   "username": "UCRPEXjbWYRtFdCKxMwWvrxQ",
   "profile_url": "https://www.youtube.com/channel/UCRPEXjbWYRtFdCKxMwWvrxQ",
   "platform": "youtube",
-  "fullname": "유리나 Yurina",
+  "fullname": "유리나 𝒀𝒖𝒓𝒊𝒏𝒂",
   "channel_id": "UCRPEXjbWYRtFdCKxMwWvrxQ",
-  "followers": 2260,
+  "followers": 2270,
   "description_bio": "",
   "videos_analyzed": [
     {
@@ -239,8 +239,8 @@
   "total_score": 73.5,
   "score": 73.5,
   "grade": "B",
-  "evaluated_at": "2026-05-18T10:13:53.083817+09:00",
-  "sample_note": "2026-05-18T10:13 KST STEP B 풀 재분석 (YT) — yt-dlp로 followers 실측 갱신, ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=73.5 (B).",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
+  "sample_note": "2026-05-18T10:13 KST STEP B 풀 재분석 (YT) — yt-dlp로 followers 실측 갱신, ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=73.5 (B). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:11:09.293038+09:00",
@@ -259,6 +259,16 @@
       "posts_last_30d": 15,
       "brand_fit_score": 90,
       "score_total": 73.5
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 2270,
+      "engagement_rate": 2.198,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "score_total": 73.5,
+      "grade": "B",
+      "note": "STEP B light refresh"
     }
   ]
 }

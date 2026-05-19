@@ -19,15 +19,16 @@
     "beauty_keyword_count": 11,
     "our_brand_present": false
   },
-  "total_score": 70.75,
+  "total_score": 77.5,
   "score_breakdown": {
-    "engagement": 60,
+    "er_score": 60,
     "brand_fit": 90,
     "consistency": 100,
-    "follower_scale": 100
+    "follower_scale": 100,
+    "total": 77.5
   },
   "grade": "A",
-  "evaluated_at": "2026-05-18T17:08:44.760280+09:00",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -46,24 +47,20 @@
       "posts_last_30d": 10,
       "brand_fit_score": 90,
       "retailer_focus": "mixed"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 567000,
+      "engagement_rate": 2.299,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "score_total": 77.5,
+      "grade": "A",
+      "note": "STEP B light refresh"
     }
   ],
   "score_total": 77.5,
-  "score": {
-    "total": 70.75,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 75,
-      "consistency": 80,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
+  "score": 77.5,
   "notes": "youtube sample: 5 items",
   "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
   "sample_data_evidence": {
@@ -73,5 +70,5 @@
   "view_to_sub_ratio": 0.0803,
   "top_video_views": 45435.4,
   "top_post_likes": 1242.6,
-  "sample_note": "STEP B-Light 17:00 재분석. yt-dlp sample=10, posts_30d=10"
+  "sample_note": "STEP B-Light 17:00 재분석. yt-dlp sample=10, posts_30d=10 | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)"
 }

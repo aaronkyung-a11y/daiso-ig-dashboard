@@ -3,12 +3,12 @@
   "username": "view_bbang_",
   "profile_url": "https://www.instagram.com/view_bbang_/",
   "fullname": "뷰빵",
-  "followers": 396,
-  "following": 489,
+  "followers": 414,
+  "following": 505,
   "post_count_total": 12,
   "bio": "",
   "sample_size": 3,
-  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=69.25 (B).",
+  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=69.25 (B). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
   "avg_likes": 43.0,
   "avg_comments": 11.33,
   "avg_engagement": 54.33,
@@ -43,9 +43,9 @@
     ],
     "top_reel": "https://www.instagram.com/p/DXQ34eckjJq/"
   },
-  "evaluated_at": "2026-05-18T10:10:33.766400+09:00",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
   "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
-  "score": 69.25,
+  "score": 69.2,
   "grade": "B",
   "history": [
     {
@@ -93,16 +93,26 @@
       "posts_last_30d": 3,
       "brand_fit_score": 25,
       "score_total": 69.25
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 414,
+      "engagement_rate": 0.1561,
+      "posts_last_30d": 3,
+      "brand_fit_score": 25,
+      "score_total": 69.2,
+      "grade": "B",
+      "note": "STEP B light refresh"
     }
   ],
-  "score_total": 69.25,
-  "total_score": 69.25,
+  "score_total": 69.2,
+  "total_score": 69.2,
   "score_breakdown": {
     "er_score": 100,
     "brand_fit": 25,
     "consistency": 60,
     "follower_scale": 40,
-    "total": 69.25
+    "total": 69.2
   },
   "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
   "estimation_flags": {

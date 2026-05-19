@@ -3,7 +3,7 @@
   "username": "ellie._.cos",
   "fullname": "ellie エリ",
   "profile_url": "https://www.instagram.com/ellie._.cos/",
-  "followers": 2020,
+  "followers": 2027,
   "engagement_rate": 1.1374,
   "posts_last_30d": 10,
   "sample_size": 12,
@@ -15,10 +15,10 @@
     "beauty_topical_strength": "strong (34건)",
     "labrang_blanc_doux_mention": false
   },
-  "evaluated_at": "2026-05-18T10:09:59.161033+09:00",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
   "score_total": 93.5,
   "grade": "S",
-  "sample_note": "2026-05-18T10:09 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=93.5 (S).",
+  "sample_note": "2026-05-18T10:09 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=93.5 (S). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -53,9 +53,27 @@
       "posts_last_30d": 10,
       "brand_fit_score": 90,
       "score_total": 93.5
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 2027,
+      "engagement_rate": 1.1374,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "score_total": 93.5,
+      "grade": "S",
+      "note": "STEP B light refresh"
     }
   ],
   "following": 991,
   "post_count_total": 317,
-  "score": 93.5
+  "score": 93.5,
+  "total_score": 93.5,
+  "score_breakdown": {
+    "er_score": 100,
+    "brand_fit": 90,
+    "consistency": 100,
+    "follower_scale": 60,
+    "total": 93.5
+  }
 }

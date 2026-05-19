@@ -4,7 +4,7 @@
   "profile_url": "https://www.instagram.com/rorobeauty48791/",
   "fullname": "로로",
   "followers": 160000,
-  "following": 1553,
+  "following": 1554,
   "post_count_total": 86,
   "bio": "공쥬들과 함께 잼얘하고 싶어•• (DM환영)",
   "external_link": "linktr.ee/rorobeauty48791",
@@ -69,7 +69,7 @@
   "engagement_rate": 0.0351,
   "posts_last_30d_estimate": 3,
   "posts_last_30d_note": "실측값 — taken_at 추출 7/10 reels 중 7개가 30일 내 (cutoff 2026-04-12).",
-  "evaluated_at": "2026-05-18T10:09:59.161033+09:00",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
   "notes": "STEP B-Light rolling refresh (Tue 14:00 KST). IG 로그인 세션 확보. 10 reels 중 like/cm 4건 + taken_at 7건 실측. 6 reels는 lazy-load 미발생.",
   "score": 77.0,
   "grade": "A",
@@ -271,6 +271,16 @@
       "posts_last_30d": 7,
       "brand_fit_score": 60,
       "score_total": 77.0
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 160000,
+      "engagement_rate": 0.0351,
+      "posts_last_30d": 7,
+      "brand_fit_score": 60,
+      "score_total": 77.0,
+      "grade": "A",
+      "note": "STEP B light refresh"
     }
   ],
   "brand_fit_score": 60,
@@ -316,5 +326,5 @@
     "follower_scale": 100,
     "total": 77.0
   },
-  "sample_note": "2026-05-18T10:09 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=77.0 (A)."
+  "sample_note": "2026-05-18T10:09 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=77.0 (A). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)"
 }

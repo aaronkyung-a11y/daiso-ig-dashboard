@@ -5,10 +5,10 @@
   "fullname": "두나 | 이슈•꿀팁•뷰티",
   "followers": 20000,
   "following": 127,
-  "post_count_total": 518,
+  "post_count_total": 519,
   "bio": "",
   "sample_size": 1,
-  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=62.75 (B).",
+  "sample_note": "2026-05-18T10:10 KST STEP B 풀 재분석 — IG 로그아웃 상태로 풀 reel 샘플 불가. og:description(Googlebot UA)으로 followers/post_count 실측 갱신. ER/brand_fit/posts_30d는 직전 측정치 캐리포워드(추정 아님). 점수=62.75 (B). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
   "avg_likes": 214.0,
   "avg_comments": 34.0,
   "avg_engagement": 248.0,
@@ -37,10 +37,10 @@
     ],
     "top_reel": "https://www.instagram.com/p/DX2-Tj6kZdu/"
   },
-  "evaluated_at": "2026-05-18T10:10:33.766400+09:00",
+  "evaluated_at": "2026-05-19T10:18:09+09:00",
   "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
-  "score": 62.75,
-  "grade": "B",
+  "score": 62.8,
+  "grade": "C",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -87,16 +87,26 @@
       "posts_last_30d": 0,
       "brand_fit_score": 75,
       "score_total": 62.75
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 20000,
+      "engagement_rate": 0.0124,
+      "posts_last_30d": 0,
+      "brand_fit_score": 75,
+      "score_total": 62.8,
+      "grade": "C",
+      "note": "STEP B light refresh"
     }
   ],
-  "score_total": 62.75,
-  "total_score": 62.75,
+  "score_total": 62.8,
+  "total_score": 62.8,
   "score_breakdown": {
     "er_score": 60,
     "brand_fit": 75,
     "consistency": 40,
     "follower_scale": 80,
-    "total": 62.75
+    "total": 62.8
   },
   "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
   "estimation_flags": {
