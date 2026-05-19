@@ -1,16 +1,15 @@
 {
   "platform": "youtube",
   "username": "UCHCL-VtQlNJTmPA7oy6HQXg",
-  "fullname": "선스캣 sun's cat",
-  "channel_id": "UCHCL-VtQlNJTmPA7oy6HQXg",
   "profile_url": "https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg",
-  "followers": 1470,
-  "avg_views": 4247,
-  "avg_likes": 1496.8,
-  "avg_comments": 17.1,
-  "engagement_rate": 1.5226,
-  "posts_last_30d": 3,
-  "sample_size": 3,
+  "evaluated_at": "2026-05-19T05:11:19.065837+00:00",
+  "fullname": "선스캣 sun's cat",
+  "followers": 1600,
+  "sample_size": 0,
+  "avg_views": 0,
+  "avg_likes": 0,
+  "engagement_rate": 0,
+  "posts_last_30d": 0,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
@@ -19,15 +18,9 @@
     "beauty_keyword_count": 0,
     "our_brand_present": false
   },
-  "total_score": 69.75,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 75,
-    "consistency": 100,
-    "follower_scale": 60
-  },
+  "sample_note": "⚠️ B-Light: yt-dlp videos=0, prior values carried forward",
+  "score_total": 38.2,
   "grade": "C",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,32 +30,15 @@
       "posts_last_30d": 3,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic"
-    }
-  ],
-  "score_total": 51.2,
-  "score": {
-    "total": 69.75,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 75,
-      "consistency": 100,
-      "follower_scale": 60
     },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
+    {
+      "evaluated_at": "2026-05-19T05:11:19.065837+00:00",
+      "engagement_rate": 0,
+      "followers": 1600,
+      "brand_fit_score": 25,
+      "posts_last_30d": 0,
+      "score_total": 38.2,
+      "grade": "C"
     }
-  },
-  "notes": "youtube sample: 11 items",
-  "brand_fit_notes": "daiso:3건 / oliveyoung:2건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg"
-  },
-  "post_count_total": 11,
-  "view_to_sub_ratio": 41.8628,
-  "top_video_views": 61538.3,
-  "top_post_likes": 1496.8,
-  "sample_note": "STEP B 풀 재분석. likes 추출 3/3 (JS런타임 없음 → 일부 0)"
+  ]
 }
