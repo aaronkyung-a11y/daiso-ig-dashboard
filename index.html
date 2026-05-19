@@ -317,179 +317,291 @@
 
 
 
-const daisoData = {
-  "lastUpdated": "2026-05-19",
-  "cutoff": "2026-04-19",
-  "totalReels": 3,
-  "totalLikes": 97,
-  "totalComments": 10,
-  "totalEngagement": 107,
-  "totalViewsEstimated": 12416,
-  "brands": [
+const DAISO_DATA = {
+  "lastUpdated": "2026-05-20T07:46+09:00",
+  "top10": [
     {
       "rank": 1,
-      "keyword": "VT PDRN 광채토너",
-      "productTitle": "[퀵수분충전]VT PDRN 광채토너 200 ml",
-      "productPrice": 5000,
-      "pdNo": "",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "VT PDRN 광채토너 200ml",
+      "brand": "VT",
+      "price": 5000,
+      "rating": 4.8,
+      "reviews": "5,266"
     },
     {
       "rank": 2,
-      "keyword": "마데카21 토너",
-      "productTitle": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
-      "productPrice": 5000,
-      "pdNo": "1044553",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "마데카21 테카 솔루션 수딩 미스트 토너 200ml",
+      "brand": "마데카21",
+      "price": 5000,
+      "rating": 4.8,
+      "reviews": "9,341"
     },
     {
       "rank": 3,
-      "keyword": "본셉 비타씨",
-      "productTitle": "본셉 비타씨 동결 건조 더블샷 앰플 키트",
-      "productPrice": 5000,
-      "pdNo": "1061918",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "본셉 비타씨 동결 건조 더블샷 앰플 키트",
+      "brand": "본셉",
+      "price": 5000,
+      "rating": 4.8,
+      "reviews": "9,396"
     },
     {
       "rank": 4,
-      "keyword": "VT PDRN 광채시트마스크",
-      "productTitle": "[수분충전]VT PDRN 광채시트마스크 1매 25 g",
-      "productPrice": 5000,
-      "pdNo": "1067499",
-      "reelCount": 1,
-      "totalViews": 10368,
-      "totalLikes": 81,
-      "totalComments": 8,
-      "totalEngagement": 89,
-      "topReels": [
-        {
-          "user": "whynaction",
-          "date": "2026-05-17",
-          "likes": 81,
-          "comments": 8,
-          "engagement": 89,
-          "views": 10368,
-          "url": "https://www.instagram.com/p/DYcVuAQzyQW/",
-          "type": "추정 (likes×128)"
-        }
-      ]
+      "name": "본셉 레티놀 2500IU 링클샷 퍼펙터 15ml",
+      "brand": "본셉",
+      "price": 5000,
+      "rating": 4.8,
+      "reviews": "6,763"
     },
     {
       "rank": 5,
-      "keyword": "어퓨 헤어식초",
-      "productTitle": "어퓨 더퓨어 청사과 스칼프 헤어식초 195 ml",
-      "productPrice": 5000,
-      "pdNo": "1079135",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "윙크걸 기름종이 파우더",
+      "brand": "윙크걸",
+      "price": 3000,
+      "rating": 4.8,
+      "reviews": "891"
     },
     {
       "rank": 6,
-      "keyword": "본셉 레티놀",
-      "productTitle": "본셉 레티놀 2500 IU 링클샷 퍼펙터 15 ml",
-      "productPrice": 5000,
-      "pdNo": "1055168",
-      "reelCount": 1,
-      "totalViews": 384,
-      "totalLikes": 3,
-      "totalComments": 0,
-      "totalEngagement": 3,
-      "topReels": [
-        {
-          "user": "mingpick_review",
-          "date": "2026-05-18",
-          "likes": 3,
-          "comments": 0,
-          "engagement": 3,
-          "views": 384,
-          "url": "https://www.instagram.com/p/DYfwI7BzRrU/",
-          "type": "추정 (likes×128)"
-        }
-      ]
+      "name": "더랩 바이 블랑두 클리어 히알 물광 부스터 앰플 30ml",
+      "brand": "더랩 바이 블랑두",
+      "price": 5000,
+      "rating": 4.8,
+      "reviews": "3,835"
     },
     {
       "rank": 7,
-      "keyword": "셀더마데일리 아줄렌",
-      "productTitle": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
-      "productPrice": 2000,
-      "pdNo": "1059832",
-      "reelCount": 1,
-      "totalViews": 1664,
-      "totalLikes": 13,
-      "totalComments": 2,
-      "totalEngagement": 15,
-      "topReels": [
-        {
-          "user": "guliguli_humor",
-          "date": "2026-04-29",
-          "likes": 13,
-          "comments": 2,
-          "engagement": 15,
-          "views": 1664,
-          "url": "https://www.instagram.com/p/DXsxaMjj4v8/",
-          "type": "추정 (likes×128)"
-        }
-      ]
+      "name": "어퓨 더퓨어 청사과 스칼프 헤어식초 195ml",
+      "brand": "어퓨",
+      "price": 5000,
+      "rating": 4.9,
+      "reviews": "42"
     },
     {
       "rank": 8,
-      "keyword": "정직한실험실 헤어마스크",
-      "productTitle": "정직한실험실 엑스퍼트 너리싱 헤어마스크 250 ml",
-      "productPrice": 5000,
-      "pdNo": "1076110",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "VT PDRN 광채시트마스크 1매 25g",
+      "brand": "VT",
+      "price": 1000,
+      "rating": 4.8,
+      "reviews": "3,446"
     },
     {
       "rank": 9,
-      "keyword": "더랩 블랑두 물광 크림",
-      "productTitle": "더랩 바이 블랑두 클리어 히알 물광 크림 50 ml",
-      "productPrice": 5000,
-      "pdNo": "1060645",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "VT PDRN 광채크림 50ml",
+      "brand": "VT",
+      "price": 5000,
+      "rating": 4.8,
+      "reviews": "2,955"
     },
     {
       "rank": 10,
-      "keyword": "메디필 멜라논엑스",
-      "productTitle": "메디필 멜라논엑스 기미크림 30 ml",
-      "productPrice": 5000,
-      "pdNo": "1068858",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "로로스키니 복부용 패치 3매입",
+      "brand": "로로스키니",
+      "price": 2000,
+      "rating": 4.5,
+      "reviews": "381"
     }
-  ]
+  ],
+  "ig": {
+    "windowDays": 30,
+    "cutoff": "2026-04-20",
+    "totalReels": 13,
+    "totalEngagement": 32391,
+    "totalLikes": 29203,
+    "totalComments": 3188,
+    "byKeyword": [
+      {
+        "keyword": "본셉",
+        "reelCount": 3,
+        "totalViews": 1890944,
+        "totalEngagement": 15331,
+        "totalLikes": 14773,
+        "totalComments": 558,
+        "topReels": [
+          {
+            "user": "byu.yomi",
+            "likes": 12689,
+            "comments": 57,
+            "engagement": 12746,
+            "views": 1624192,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-17",
+            "url": "https://www.instagram.com/p/DYbN4gqyvjG/"
+          },
+          {
+            "user": "un_ni_tip",
+            "likes": 2013,
+            "comments": 5,
+            "engagement": 2018,
+            "views": 257664,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-04-25",
+            "url": "https://www.instagram.com/p/DXie4M4iWG0/"
+          },
+          {
+            "user": "celebritypick2",
+            "likes": 71,
+            "comments": 496,
+            "engagement": 567,
+            "views": 9088,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-18",
+            "url": "https://www.instagram.com/p/DYePbI5EeY4/"
+          }
+        ]
+      },
+      {
+        "keyword": "윙크걸",
+        "reelCount": 2,
+        "totalViews": 1215104,
+        "totalEngagement": 9517,
+        "totalLikes": 9493,
+        "totalComments": 24,
+        "topReels": [
+          {
+            "user": "merryview1",
+            "likes": 9479,
+            "comments": 22,
+            "engagement": 9501,
+            "views": 1213312,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-03",
+            "url": "https://www.instagram.com/p/DX4EJGcR4Wm/"
+          },
+          {
+            "user": "guliguli_humor",
+            "likes": 14,
+            "comments": 2,
+            "engagement": 16,
+            "views": 1792,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-04-29",
+            "url": "https://www.instagram.com/p/DXsxaMjj4v8/"
+          }
+        ]
+      },
+      {
+        "keyword": "VT PDRN",
+        "reelCount": 2,
+        "totalViews": 161792,
+        "totalEngagement": 3726,
+        "totalLikes": 1264,
+        "totalComments": 2462,
+        "topReels": [
+          {
+            "user": "ha____dobby",
+            "likes": 941,
+            "comments": 2453,
+            "engagement": 3394,
+            "views": 120448,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-04-21",
+            "url": "https://www.instagram.com/p/DXYz5YIEYcl/"
+          },
+          {
+            "user": "seo.lody",
+            "likes": 323,
+            "comments": 9,
+            "engagement": 332,
+            "views": 41344,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-16",
+            "url": "https://www.instagram.com/p/DYZMv_JxVO-/"
+          }
+        ]
+      },
+      {
+        "keyword": "블랑두",
+        "reelCount": 3,
+        "totalViews": 367232,
+        "totalEngagement": 2921,
+        "totalLikes": 2869,
+        "totalComments": 52,
+        "topReels": [
+          {
+            "user": "iove_cosmetic",
+            "likes": 1845,
+            "comments": 20,
+            "engagement": 1865,
+            "views": 236160,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-15",
+            "url": "https://www.instagram.com/p/DYW1CfoJjhk/"
+          },
+          {
+            "user": "i0i88",
+            "likes": 1022,
+            "comments": 32,
+            "engagement": 1054,
+            "views": 130816,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-03",
+            "url": "https://www.instagram.com/p/DX3ysCjmIo7/"
+          },
+          {
+            "user": "minkie__zips",
+            "likes": 2,
+            "comments": 0,
+            "engagement": 2,
+            "views": 256,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-12",
+            "url": "https://www.instagram.com/p/DYO5ZgbCmLL/"
+          }
+        ]
+      },
+      {
+        "keyword": "어퓨",
+        "reelCount": 1,
+        "totalViews": 102144,
+        "totalEngagement": 867,
+        "totalLikes": 798,
+        "totalComments": 69,
+        "topReels": [
+          {
+            "user": "codduck.picks",
+            "likes": 798,
+            "comments": 69,
+            "engagement": 867,
+            "views": 102144,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-07",
+            "url": "https://www.instagram.com/p/DYB857Sx45k/"
+          }
+        ]
+      },
+      {
+        "keyword": "마데카21",
+        "reelCount": 2,
+        "totalViews": 768,
+        "totalEngagement": 29,
+        "totalLikes": 6,
+        "totalComments": 23,
+        "topReels": [
+          {
+            "user": "seo_han0216",
+            "likes": 3,
+            "comments": 21,
+            "engagement": 24,
+            "views": 384,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-19",
+            "url": "https://www.instagram.com/p/DYghDjapgDz/"
+          },
+          {
+            "user": "sorakim_showhost",
+            "likes": 3,
+            "comments": 2,
+            "engagement": 5,
+            "views": 384,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-04-21",
+            "url": "https://www.instagram.com/p/DXaY_v8SN2f/"
+          }
+        ]
+      }
+    ],
+    "viewsLabel": "추정 (likes×128)"
+  }
 };
 // DAISO_DATA_END
 
@@ -500,167 +612,186 @@ const daisoData = {
 
 
 
-const oliveyoungData = {
-  "lastUpdated": "2026-05-19",
-  "cutoff": "2026-04-19",
-  "totalReels": 2,
-  "totalLikes": 281,
-  "totalComments": 280,
-  "totalEngagement": 561,
-  "totalViewsEstimated": 35968,
-  "brands": [
+const OLIVEYOUNG_DATA = {
+  "lastUpdated": "2026-05-20T07:46+09:00",
+  "top10": [
     {
       "rank": 1,
-      "keyword": "메디힐 에센셜 마스크팩",
-      "productTitle": "[15년 연속 1위] 메디힐 에센셜 마스크팩 10매/10+1매 기획 7종",
-      "productPrice": 10000,
-      "goodsNo": "A000000223414",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "일리윤 프레쉬모이스춰 스크럽워시 몬치치 한정에디션",
+      "brand": "일리윤",
+      "price": 16900,
+      "price_orig": 24900
     },
     {
       "rank": 2,
-      "keyword": "브리스킨 세컨드스킨 마스크",
-      "productTitle": "[리뉴얼/증정이벤트] 브리스킨 리얼 핏 세컨드스킨 마스크1/5매입",
-      "productPrice": 12750,
-      "goodsNo": "",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "메노킨 30초 퀵 버블 마스크 6종 중 택1",
+      "brand": "메노킨",
+      "price": 25300,
+      "price_orig": 28500
     },
     {
       "rank": 3,
-      "keyword": "아누아 데일리케어 마스크팩",
-      "productTitle": "[수지pick/올영단독] 아누아 데일리케어 마스크팩 5매 기획 8종",
-      "productPrice": 9500,
-      "goodsNo": "",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "메디힐 에센셜 마스크팩 10매 기획",
+      "brand": "메디힐",
+      "price": 10000,
+      "price_orig": 20000
     },
     {
       "rank": 4,
-      "keyword": "라운드랩 자작나무 선크림",
-      "productTitle": "[1등썬] 라운드랩 자작나무 수분 선크림 50ml 기획",
-      "productPrice": 17500,
-      "goodsNo": "",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "오브제 포어 제로 오일 컨트롤 선스틱 18g",
+      "brand": "오브제",
+      "price": 18500,
+      "price_orig": 25000
     },
     {
       "rank": 5,
-      "keyword": "브링그린 시카 수딩 크림",
-      "productTitle": "[유수분밸런스]브링그린 티트리 시카 수딩 크림 플러스 100ml",
-      "productPrice": 18900,
-      "goodsNo": "",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "블랑디바 워터벨벳 쿠션 13g 3종",
+      "brand": "블랑디바",
+      "price": 27200,
+      "price_orig": 34000
     },
     {
       "rank": 6,
-      "keyword": "어노브 헤어 마스크",
-      "productTitle": "[4년 연속 1위] 어노브 딥 데미지 리페어 헤어 마스크 (트리트먼트/헤어팩) 320ml",
-      "productPrice": 28800,
-      "goodsNo": "",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "이옴 트러블 패치 마스크 3매",
+      "brand": "이옴",
+      "price": 14700
     },
     {
       "rank": 7,
-      "keyword": "려 루트젠 두피에센스",
-      "productTitle": "[올영1위] 려 루트젠 탈모증상케어 두피에센스 80ML 더블기획",
-      "productPrice": 21900,
-      "goodsNo": "A000000197603",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "닥터지 레드블레미쉬 클리어 수딩크림EX 70ml 1+1",
+      "brand": "닥터지",
+      "price": 27100
     },
     {
       "rank": 8,
-      "keyword": "쥬베룩 콜라겐 마스크",
-      "productTitle": "쥬베룩 PDLLA 콜라겐 부스팅 마스크 4매",
-      "productPrice": 31400,
-      "goodsNo": "",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "라로슈포제 시카플라스트 밤 B5+ 100ml 기획",
+      "brand": "라로슈포제",
+      "price": 29900
     },
     {
       "rank": 9,
-      "keyword": "미쟝센 퍼펙트 세럼",
-      "productTitle": "미쟝센 퍼펙트 세럼 기획 2종 택1",
-      "productPrice": 17700,
-      "goodsNo": "",
-      "reelCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0,
-      "totalEngagement": 0,
-      "topReels": []
+      "name": "어노브 딥 데미지 리페어 헤어 마스크 320ml 더블 기획",
+      "brand": "어노브",
+      "price": 28800
     },
     {
       "rank": 10,
-      "keyword": "닥터지 레드블레미쉬 수딩크림",
-      "productTitle": "[5월올영픽/포켓몬] 닥터지 레드블레미쉬 클리어 수딩크림EX 70ml 1+1기획",
-      "productPrice": 27100,
-      "goodsNo": "A000000253384",
-      "reelCount": 2,
-      "totalViews": 35968,
-      "totalLikes": 281,
-      "totalComments": 280,
-      "totalEngagement": 561,
-      "topReels": [
-        {
-          "user": "meow_yewon",
-          "date": "2026-04-20",
-          "likes": 278,
-          "comments": 277,
-          "engagement": 555,
-          "views": 35584,
-          "url": "https://www.instagram.com/p/DXVoaXlCUyI/",
-          "type": "추정 (likes×128)"
-        },
-        {
-          "user": "",
-          "date": "2026-05-18",
-          "likes": 3,
-          "comments": 3,
-          "engagement": 6,
-          "views": 384,
-          "url": "https://www.instagram.com/p/DYd8l1Uh3CO/",
-          "type": "추정 (likes×128)"
-        }
-      ]
+      "name": "MAC 러스터글래스 스테인글래스 립 틴트",
+      "brand": "맥",
+      "price": 37250
     }
-  ]
+  ],
+  "ig": {
+    "windowDays": 30,
+    "cutoff": "2026-04-20",
+    "totalReels": 6,
+    "totalEngagement": 17237,
+    "totalLikes": 17086,
+    "totalComments": 151,
+    "byKeyword": [
+      {
+        "keyword": "메노킨",
+        "reelCount": 1,
+        "totalViews": 1535744,
+        "totalEngagement": 12066,
+        "totalLikes": 11998,
+        "totalComments": 68,
+        "topReels": [
+          {
+            "user": "zerostore030",
+            "likes": 11998,
+            "comments": 68,
+            "engagement": 12066,
+            "views": 1535744,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-04-20",
+            "url": "https://www.instagram.com/p/DXWkjGxD1PY/"
+          }
+        ]
+      },
+      {
+        "keyword": "닥터지",
+        "reelCount": 3,
+        "totalViews": 629888,
+        "totalEngagement": 4995,
+        "totalLikes": 4921,
+        "totalComments": 74,
+        "topReels": [
+          {
+            "user": "dr_piyong_gwanggyo_tones",
+            "likes": 4420,
+            "comments": 73,
+            "engagement": 4493,
+            "views": 565760,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-08",
+            "url": "https://www.instagram.com/p/DYE2SisT-jE/"
+          },
+          {
+            "user": "data.storytelling.kr",
+            "likes": 459,
+            "comments": 1,
+            "engagement": 460,
+            "views": 58752,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-04-28",
+            "url": "https://www.instagram.com/p/DXrfuyogTeI/"
+          },
+          {
+            "user": "dr.g_official",
+            "likes": 42,
+            "comments": 0,
+            "engagement": 42,
+            "views": 5376,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-04-28",
+            "url": "https://www.instagram.com/p/DXqPOuOAWAs/"
+          }
+        ]
+      },
+      {
+        "keyword": "오브제",
+        "reelCount": 1,
+        "totalViews": 16512,
+        "totalEngagement": 130,
+        "totalLikes": 129,
+        "totalComments": 1,
+        "topReels": [
+          {
+            "user": "today__list",
+            "likes": 129,
+            "comments": 1,
+            "engagement": 130,
+            "views": 16512,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-08",
+            "url": "https://www.instagram.com/p/DYD8xsGTlVC/"
+          }
+        ]
+      },
+      {
+        "keyword": "라로슈포제",
+        "reelCount": 1,
+        "totalViews": 4864,
+        "totalEngagement": 46,
+        "totalLikes": 38,
+        "totalComments": 8,
+        "topReels": [
+          {
+            "user": "sygeneration",
+            "likes": 38,
+            "comments": 8,
+            "engagement": 46,
+            "views": 4864,
+            "viewsType": "추정 (likes×128)",
+            "date": "2026-05-19",
+            "url": "https://www.instagram.com/p/DYhSAmzgcyn/"
+          }
+        ]
+      }
+    ],
+    "viewsLabel": "추정 (likes×128)"
+  }
 };
 // OLIVEYOUNG_DATA_END
 
