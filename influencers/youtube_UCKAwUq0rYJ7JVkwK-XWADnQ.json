@@ -2,32 +2,23 @@
   "platform": "youtube",
   "username": "UCKAwUq0rYJ7JVkwK-XWADnQ",
   "fullname": "박지윤의 피부 설명서",
-  "channel_id": "UCKAwUq0rYJ7JVkwK-XWADnQ",
   "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ",
-  "followers": 49300,
-  "avg_views": 54247,
-  "avg_likes": 236.0,
-  "avg_comments": 13.2,
-  "engagement_rate": 1.8955,
+  "followers": 50000,
+  "engagement_rate": 1.78,
   "posts_last_30d": 4,
-  "sample_size": 12,
+  "sample_size": 17,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_count": 3,
-    "olive_young_count": 2,
-    "beauty_keyword_count": 11,
-    "our_brand_present": false
+    "daiso_mentions_count": 1,
+    "olive_young_mentions_count": 0,
+    "beauty_keyword_count": 26,
+    "labrang_mentioned": false
   },
-  "total_score": 68.75,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 75,
-    "consistency": 80,
-    "follower_scale": 80
-  },
+  "evaluated_at": "2026-05-20T14:09:16+09:00",
+  "score_total": 69.5,
   "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": "yt-dlp flat playlist; titles only for keyword scan; sample=17; posts_30d uses upload_date",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,32 +28,17 @@
       "posts_last_30d": 4,
       "brand_fit_score": 90,
       "retailer_focus": "daiso"
-    }
-  ],
-  "score_total": 69.5,
-  "score": {
-    "total": 68.75,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 75,
-      "consistency": 80,
-      "follower_scale": 80
     },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "engagement_rate": 1.8955,
+      "posts_last_30d": 4,
+      "sample_size": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 69.5,
+      "grade": "B",
+      "followers": 49300
     }
-  },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:1건 / oliveyoung:0건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ"
-  },
-  "post_count_total": 5,
-  "view_to_sub_ratio": 0.2838,
-  "top_video_views": 13990.6,
-  "top_post_likes": 236.0,
-  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
+  ]
 }
