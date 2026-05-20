@@ -3,37 +3,22 @@
   "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
   "fullname": "리뷰하는 회사원",
   "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
-  "handle": "@리뷰하는회사원",
-  "followers": 25400,
-  "engagement_rate": 2.3751,
+  "followers": 581000,
+  "engagement_rate": 0.0235,
   "posts_last_30d": 0,
-  "sample_size": 8,
-  "avg_views": 93412,
-  "avg_likes": 2218,
-  "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
+  "sample_size": 9,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
   "retailer_signal": {
-    "daiso_mentions": 0,
-    "olive_young_mentions": 0,
-    "beauty_keyword_count": 0,
-    "labrang_mentions": 0
+    "beauty_count": 1,
+    "daiso_count": 0,
+    "olive_young_count": 0,
+    "labrang_present": false
   },
-  "evaluated_at": "2026-05-19T10:18:09+09:00",
-  "score_total": 50.2,
-  "grade": "C",
-  "score_components": {
-    "er_score": 60,
-    "brand_fit_score": 25,
-    "consistency_score": 40,
-    "follower_score": 100,
-    "weights": {
-      "er": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "followers": 0.1
-    }
-  },
-  "sample_note": "2026-05-18T10:13 KST STEP B 풀 재분석 (YT) — yt-dlp로 followers 실측 갱신, ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=52.25 (C). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
+  "evaluated_at": "2026-05-20T10:17:21.579218+09:00",
+  "score_total": 61.0,
+  "grade": "B",
+  "sample_note": "ok",
   "history": [
     {
       "evaluated_at": "2026-05-15T17:05:00+09:00",
@@ -53,15 +38,30 @@
       "score_total": 50.2,
       "grade": "C",
       "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 25400,
+      "engagement_rate": 2.3751,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 50.2,
+      "grade": "C"
     }
   ],
-  "score": 50.2,
-  "total_score": 50.2,
   "score_breakdown": {
     "er_score": 60,
-    "brand_fit": 25,
-    "consistency": 40,
-    "follower_scale": 80,
-    "total": 50.2
-  }
+    "bf_score": 60,
+    "posts_score": 40,
+    "foll_score": 100,
+    "weights": {
+      "er": 0.5,
+      "bf": 0.25,
+      "posts": 0.15,
+      "foll": 0.1
+    }
+  },
+  "score": 50.2,
+  "total_score": 50.2
 }

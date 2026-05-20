@@ -1,246 +1,24 @@
 {
-  "username": "UCRPEXjbWYRtFdCKxMwWvrxQ",
-  "profile_url": "https://www.youtube.com/channel/UCRPEXjbWYRtFdCKxMwWvrxQ",
   "platform": "youtube",
+  "username": "UCRPEXjbWYRtFdCKxMwWvrxQ",
   "fullname": "유리나 𝒀𝒖𝒓𝒊𝒏𝒂",
-  "channel_id": "UCRPEXjbWYRtFdCKxMwWvrxQ",
-  "followers": 2270,
-  "description_bio": "",
-  "videos_analyzed": [
-    {
-      "id": "2F21YMCf4IM",
-      "title": "ㄹㅈㄷ 다이소추천템 딱 1등만 알려줌!! 🖤광고",
-      "view_count": 10603,
-      "like_count": 196,
-      "comment_count": 13,
-      "timestamp": 1778668102,
-      "upload_date": "2026-05-13T10:28:22+00:00",
-      "tags": []
-    },
-    {
-      "id": "2P3rv0IKPYw",
-      "title": "13호 꿀피부 유지하는 피부관리 루틴🍯#유료광고",
-      "view_count": 4521,
-      "like_count": 67,
-      "comment_count": 9,
-      "timestamp": 1778582037,
-      "upload_date": "2026-05-12T10:33:57+00:00",
-      "tags": []
-    },
-    {
-      "id": "9S7H373n0eg",
-      "title": "상큼청순 코랄 블러셔 Best 3",
-      "view_count": 16245,
-      "like_count": 269,
-      "comment_count": 9,
-      "timestamp": 1778502708,
-      "upload_date": "2026-05-11T12:31:48+00:00",
-      "tags": []
-    },
-    {
-      "id": "_zvS4Ml15cU",
-      "title": "올영에서 매끈피부템을 찾았어요 한달이나 써보고 가져옴!! #유료광고",
-      "view_count": 2813,
-      "like_count": 45,
-      "comment_count": 6,
-      "timestamp": 1777891216,
-      "upload_date": "2026-05-04T10:40:16+00:00",
-      "tags": []
-    },
-    {
-      "id": "PC3VtRRi6Rw",
-      "title": "놓치면 안될 올영 신상 코스노리 포켓몬 에디션💜💛유료광고",
-      "view_count": 19440,
-      "like_count": 477,
-      "comment_count": 15,
-      "timestamp": 1777549994,
-      "upload_date": "2026-04-30T11:53:14+00:00",
-      "tags": []
-    },
-    {
-      "id": "oH2NL9iuzTg",
-      "title": "5월 올영신상 대박템 삐아 포켓몬 에디션💜 이걸 참아요...? 왜...?#유료광고",
-      "view_count": 21690,
-      "like_count": 356,
-      "comment_count": 7,
-      "timestamp": 1777541486,
-      "upload_date": "2026-04-30T09:31:26+00:00",
-      "tags": []
-    },
-    {
-      "id": "FqY2e11aylU",
-      "title": "고능한 다이소추천템 5가지 #다이소추천템",
-      "view_count": 529050,
-      "like_count": 12169,
-      "comment_count": 93,
-      "timestamp": 1777289139,
-      "upload_date": "2026-04-27T11:25:39+00:00",
-      "tags": []
-    },
-    {
-      "id": "sSkkdFIdaqY",
-      "title": "평생 품고 갈 올영 컨실러 Best 2 낋여왔어요... 🖤유료광고",
-      "view_count": 27634,
-      "like_count": 432,
-      "comment_count": 7,
-      "timestamp": 1777024886,
-      "upload_date": "2026-04-24T10:01:26+00:00",
-      "tags": []
-    },
-    {
-      "id": "jNxXqF7yFRI",
-      "title": "만원이하 ㅈㄴ 예쁜 학생틴트추천",
-      "view_count": 28399,
-      "like_count": 626,
-      "comment_count": 92,
-      "timestamp": 1776852091,
-      "upload_date": "2026-04-22T10:01:31+00:00",
-      "tags": []
-    },
-    {
-      "id": "SXI0bju_Zgs",
-      "title": "트러블 진정 올영 추천템!",
-      "view_count": 5489,
-      "like_count": 86,
-      "comment_count": 10,
-      "timestamp": 1776686196,
-      "upload_date": "2026-04-20T11:56:36+00:00",
-      "tags": []
-    },
-    {
-      "id": "vYgnUTM2sdM",
-      "title": "짝남 꼬시는 올영 향기템 찾음! #유료광고",
-      "view_count": 8022,
-      "like_count": 255,
-      "comment_count": 9,
-      "timestamp": 1776507932,
-      "upload_date": "2026-04-18T10:25:32+00:00",
-      "tags": []
-    },
-    {
-      "id": "K6JxMmLpYOg",
-      "title": "다이소엔 없는 쿠팡 추천템 Best 3",
-      "view_count": 25881,
-      "like_count": 451,
-      "comment_count": 23,
-      "timestamp": 1776425475,
-      "upload_date": "2026-04-17T11:31:15+00:00",
-      "tags": []
-    },
-    {
-      "id": "34uwSFsbBcU",
-      "title": "캔메이크 신상 이것만은 매입해야만...! #유탠메이크잇크루",
-      "view_count": 31425,
-      "like_count": 906,
-      "comment_count": 11,
-      "timestamp": 1776333585,
-      "upload_date": "2026-04-16T09:59:45+00:00",
-      "tags": []
-    },
-    {
-      "id": "SSUbF38UQtU",
-      "title": "올영 왕왕 추천템! 클렌징밤은 이거 #타채널광고",
-      "view_count": 14079,
-      "like_count": 126,
-      "comment_count": 5,
-      "timestamp": 1776252006,
-      "upload_date": "2026-04-15T11:20:06+00:00",
-      "tags": []
-    },
-    {
-      "id": "XpWzFf6qzOk",
-      "title": "캔메이크 팝업 솔직후기 꿀팁 총정리 #제품제공",
-      "view_count": 16870,
-      "like_count": 291,
-      "comment_count": 4,
-      "timestamp": 1776170734,
-      "upload_date": "2026-04-14T12:45:34+00:00",
-      "tags": []
-    },
-    {
-      "id": "2CBmYjYv05g",
-      "title": "블랙헤드 박멸법 이대로만 해 #유료광고",
-      "view_count": 13108,
-      "like_count": 311,
-      "comment_count": 12,
-      "timestamp": 1776075752,
-      "upload_date": "2026-04-13T10:22:32+00:00",
-      "tags": []
-    },
-    {
-      "id": "ZwVJs48IwVw",
-      "title": "다이소필수템 여쿨 파우치템ver.",
-      "view_count": 53012,
-      "like_count": 1030,
-      "comment_count": 11,
-      "timestamp": 1775987284,
-      "upload_date": "2026-04-12T09:48:04+00:00",
-      "tags": []
-    },
-    {
-      "id": "9X4o4tk9BTY",
-      "title": "다이소 인생템 5가지 #다이소추천템",
-      "view_count": 300218,
-      "like_count": 6315,
-      "comment_count": 17,
-      "timestamp": 1775911111,
-      "upload_date": "2026-04-11T12:38:31+00:00",
-      "tags": []
-    },
-    {
-      "id": "nsAPhWq9Rck",
-      "title": "올영 다이소 청순 쌩얼메이크업템",
-      "view_count": 6090,
-      "like_count": 172,
-      "comment_count": 12,
-      "timestamp": 1775643255,
-      "upload_date": "2026-04-08T10:14:15+00:00",
-      "tags": []
-    },
-    {
-      "id": "8Cq-FwqMU-Y",
-      "title": "썸남 남친 만드는 필승 봄 메이크업템",
-      "view_count": 38263,
-      "like_count": 953,
-      "comment_count": 14,
-      "timestamp": 1775560488,
-      "upload_date": "2026-04-07T11:14:48+00:00",
-      "tags": []
-    }
-  ],
-  "sample_size": 20,
-  "posts_last_30d": 15,
-  "avg_views": 50810.7,
-  "avg_likes": 1116.8,
-  "avg_comments": 20.9,
-  "engagement_rate": 2.198,
-  "keyword_counts": {
-    "beauty": 36,
-    "labrang": 0,
-    "daiso": 14,
-    "olive_young": 6
-  },
+  "profile_url": "https://www.youtube.com/channel/UCRPEXjbWYRtFdCKxMwWvrxQ",
+  "followers": 2280,
+  "engagement_rate": 0.0221,
+  "posts_last_30d": 14,
+  "sample_size": 15,
   "brand_fit_score": 90,
-  "retailer_focus": "daiso",
+  "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso_mentions": "14건",
-    "olive_young_mentions": "6건",
-    "beauty_topical_strength": "strong (36건)",
-    "labrang_blanc_doux_mention": false
+    "beauty_count": 64,
+    "daiso_count": 10,
+    "olive_young_count": 26,
+    "labrang_present": false
   },
-  "score_breakdown": {
-    "er_score": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "follower_scale": 60,
-    "total": 73.5
-  },
+  "evaluated_at": "2026-05-20T10:16:21.403670+09:00",
   "score_total": 73.5,
-  "total_score": 73.5,
-  "score": 73.5,
   "grade": "B",
-  "evaluated_at": "2026-05-19T10:18:09+09:00",
-  "sample_note": "2026-05-18T10:13 KST STEP B 풀 재분석 (YT) — yt-dlp로 followers 실측 갱신, ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=73.5 (B). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
+  "sample_note": "shorts_only",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:11:09.293038+09:00",
@@ -269,6 +47,30 @@
       "score_total": 73.5,
       "grade": "B",
       "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 2270,
+      "engagement_rate": 2.198,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 73.5,
+      "grade": "B"
     }
-  ]
+  ],
+  "score_breakdown": {
+    "er_score": 60,
+    "bf_score": 90,
+    "posts_score": 100,
+    "foll_score": 60,
+    "weights": {
+      "er": 0.5,
+      "bf": 0.25,
+      "posts": 0.15,
+      "foll": 0.1
+    }
+  },
+  "score": 73.5,
+  "total_score": 73.5
 }

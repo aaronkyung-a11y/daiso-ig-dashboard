@@ -1,0 +1,35 @@
+{
+  "platform": "youtube",
+  "username": "UCdgKFoa_nAO0DVm8stiA0Ig",
+  "fullname": "지나스ㅣ 동안연구소",
+  "profile_url": "https://www.youtube.com/channel/UCdgKFoa_nAO0DVm8stiA0Ig",
+  "followers": 51900,
+  "engagement_rate": 0.0175,
+  "posts_last_30d": 2,
+  "sample_size": 18,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "beauty_count": 199,
+    "daiso_count": 14,
+    "olive_young_count": 11,
+    "labrang_present": false
+  },
+  "evaluated_at": "2026-05-20T10:13:14.853304+09:00",
+  "score_total": 69.5,
+  "grade": "B",
+  "sample_note": "ok",
+  "history": [],
+  "score_breakdown": {
+    "er_score": 60,
+    "bf_score": 90,
+    "posts_score": 60,
+    "foll_score": 80,
+    "weights": {
+      "er": 0.5,
+      "bf": 0.25,
+      "posts": 0.15,
+      "foll": 0.1
+    }
+  }
+}

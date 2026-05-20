@@ -1,246 +1,24 @@
 {
-  "username": "UCs-DJ22ij2ykpyczPSFZNYQ",
-  "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
   "platform": "youtube",
+  "username": "UCs-DJ22ij2ykpyczPSFZNYQ",
   "fullname": "Nyam",
-  "channel_id": "UCs-DJ22ij2ykpyczPSFZNYQ",
-  "followers": 46,
-  "description_bio": "",
-  "videos_analyzed": [
-    {
-      "id": "MKqNfekwiKY",
-      "title": "[Vlog] 퇴사? 다시 시작합니다 | 일상 브이로그",
-      "view_count": 44,
-      "like_count": 2,
-      "comment_count": 3,
-      "timestamp": 1749458820,
-      "upload_date": "2025-06-09T08:47:00+00:00",
-      "tags": []
-    },
-    {
-      "id": "SLTvbkQdU_A",
-      "title": "지속력, 밀착력 좋은 여름 코렉터가 있다고요?",
-      "view_count": 828,
-      "like_count": 3,
-      "comment_count": 0,
-      "timestamp": 1778497766,
-      "upload_date": "2026-05-11T11:09:26+00:00",
-      "tags": []
-    },
-    {
-      "id": "ARvL6wEJjZg",
-      "title": "올리브영 포켓몬 콜라보 가성비 추천템 3개!",
-      "view_count": 5376,
-      "like_count": 51,
-      "comment_count": 2,
-      "timestamp": 1778029000,
-      "upload_date": "2026-05-06T00:56:40+00:00",
-      "tags": []
-    },
-    {
-      "id": "dKjwbwlEZq4",
-      "title": "다이소 품절대란 만능치트키!",
-      "view_count": 23840,
-      "like_count": 606,
-      "comment_count": 3,
-      "timestamp": 1777732304,
-      "upload_date": "2026-05-02T14:31:44+00:00",
-      "tags": []
-    },
-    {
-      "id": "U8nditJWevI",
-      "title": "틴트를 키링으로 어떻게 쓰는 건데",
-      "view_count": 2922,
-      "like_count": 19,
-      "comment_count": 0,
-      "timestamp": 1777641588,
-      "upload_date": "2026-05-01T13:19:48+00:00",
-      "tags": []
-    },
-    {
-      "id": "c4Cwxppdgs8",
-      "title": "이제 아침에 일어나도 안 빨개짐",
-      "view_count": 2056,
-      "like_count": 8,
-      "comment_count": 0,
-      "timestamp": 1777429181,
-      "upload_date": "2026-04-29T02:19:41+00:00",
-      "tags": []
-    },
-    {
-      "id": "LWd3f0SxlaE",
-      "title": "무쌍 눈에 롬앤 마스카라 어떨까?",
-      "view_count": 2133,
-      "like_count": 6,
-      "comment_count": 0,
-      "timestamp": 1776935015,
-      "upload_date": "2026-04-23T09:03:35+00:00",
-      "tags": []
-    },
-    {
-      "id": "6Yk4bHGFr6k",
-      "title": "라카 신상 이 조합 모르면 손해",
-      "view_count": 1323,
-      "like_count": 7,
-      "comment_count": 0,
-      "timestamp": 1776647294,
-      "upload_date": "2026-04-20T01:08:14+00:00",
-      "tags": []
-    },
-    {
-      "id": "EJBnje7pzLI",
-      "title": "개복치 피부는 기초제품 어떻게 쓸까",
-      "view_count": 1900,
-      "like_count": 15,
-      "comment_count": 0,
-      "timestamp": 1776477170,
-      "upload_date": "2026-04-18T01:52:50+00:00",
-      "tags": []
-    },
-    {
-      "id": "2uc2VGAldWY",
-      "title": "밤티 속눈썹 바꿔봤어요",
-      "view_count": 1673,
-      "like_count": 6,
-      "comment_count": 0,
-      "timestamp": 1776210611,
-      "upload_date": "2026-04-14T23:50:11+00:00",
-      "tags": []
-    },
-    {
-      "id": "G5h37cWSSVo",
-      "title": "#세잔느 아이팔레트와 봄웜라라 렛츠고",
-      "view_count": 1923,
-      "like_count": 2,
-      "comment_count": 2,
-      "timestamp": 1776086267,
-      "upload_date": "2026-04-13T13:17:47+00:00",
-      "tags": []
-    },
-    {
-      "id": "LJP3fz5ERC8",
-      "title": "쿨톤 핑크빔 vs 뉴트럴 데일리, 당신의 선택은?",
-      "view_count": 6223,
-      "like_count": 19,
-      "comment_count": 0,
-      "timestamp": 1775836645,
-      "upload_date": "2026-04-10T15:57:25+00:00",
-      "tags": []
-    },
-    {
-      "id": "EzG8M4rJgG8",
-      "title": "민감성피부 크림 살말? 딱 정해드림",
-      "view_count": 2142,
-      "like_count": 9,
-      "comment_count": 0,
-      "timestamp": 1775650546,
-      "upload_date": "2026-04-08T12:15:46+00:00",
-      "tags": []
-    },
-    {
-      "id": "7f42KLZeSb4",
-      "title": "4월이제시작했는데거지된썰푼다💸",
-      "view_count": 2761,
-      "like_count": 14,
-      "comment_count": 0,
-      "timestamp": 1775379307,
-      "upload_date": "2026-04-05T08:55:07+00:00",
-      "tags": []
-    },
-    {
-      "id": "nJwLDSK-5d4",
-      "title": "#타채널협찬 여러분 죄송합니다!",
-      "view_count": 1050,
-      "like_count": 5,
-      "comment_count": 0,
-      "timestamp": 1774951884,
-      "upload_date": "2026-03-31T10:11:24+00:00",
-      "tags": []
-    },
-    {
-      "id": "bZobAXfQ8SA",
-      "title": "다크닝 뿌수기! 👊💥",
-      "view_count": 1748,
-      "like_count": 9,
-      "comment_count": 0,
-      "timestamp": 1774869265,
-      "upload_date": "2026-03-30T11:14:25+00:00",
-      "tags": []
-    },
-    {
-      "id": "mI6xRFeq5xk",
-      "title": "마지막 장면이 익숙하다면 당신의 눈은 이미..",
-      "view_count": 2216,
-      "like_count": 9,
-      "comment_count": 0,
-      "timestamp": 1774672053,
-      "upload_date": "2026-03-28T04:27:33+00:00",
-      "tags": []
-    },
-    {
-      "id": "XNq8ct0KSME",
-      "title": "스테로이드 연고 쓰다 장벽 다 무너진사람",
-      "view_count": 1368,
-      "like_count": 6,
-      "comment_count": 0,
-      "timestamp": 1774525221,
-      "upload_date": "2026-03-26T11:40:21+00:00",
-      "tags": []
-    },
-    {
-      "id": "AXvyYQCwPAE",
-      "title": "밤티 개복치 입술 이거 어쩌냐고요",
-      "view_count": 1488,
-      "like_count": 8,
-      "comment_count": 1,
-      "timestamp": 1774435977,
-      "upload_date": "2026-03-25T10:52:57+00:00",
-      "tags": []
-    },
-    {
-      "id": "C56BWf5CR64",
-      "title": "대문자 P 커플 데이트 특",
-      "view_count": 481,
-      "like_count": 2,
-      "comment_count": 0,
-      "timestamp": 1750845932,
-      "upload_date": "2025-06-25T10:05:32+00:00",
-      "tags": []
-    }
-  ],
-  "sample_size": 20,
-  "posts_last_30d": 9,
-  "avg_views": 4672.3,
-  "avg_likes": 80.1,
-  "avg_comments": 0.6,
-  "engagement_rate": 1.715,
-  "keyword_counts": {
-    "beauty": 33,
-    "labrang": 0,
-    "daiso": 7,
-    "olive_young": 9
-  },
-  "brand_fit_score": 90,
-  "retailer_focus": "olive_young",
+  "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
+  "followers": 47,
+  "engagement_rate": 0.0444,
+  "posts_last_30d": 0,
+  "sample_size": 1,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso_mentions": "7건",
-    "olive_young_mentions": "9건",
-    "beauty_topical_strength": "strong (33건)",
-    "labrang_blanc_doux_mention": false
+    "beauty_count": 0,
+    "daiso_count": 0,
+    "olive_young_count": 0,
+    "labrang_present": false
   },
-  "score_breakdown": {
-    "er_score": 60,
-    "brand_fit": 90,
-    "consistency": 80,
-    "follower_scale": 40,
-    "total": 68.5
-  },
-  "score_total": 68.5,
-  "total_score": 68.5,
-  "score": 68.5,
-  "grade": "B",
-  "evaluated_at": "2026-05-19T10:18:09+09:00",
-  "sample_note": "2026-05-18T10:13 KST STEP B 풀 재분석 (YT) — yt-dlp로 followers 실측 갱신, ER/brand_fit/posts_30d는 직전 측정치 캐리포워드. 점수=68.5 (B). | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
+  "evaluated_at": "2026-05-20T10:16:42.238790+09:00",
+  "score_total": 56.25,
+  "grade": "C",
+  "sample_note": "ok",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:13:42.874909+09:00",
@@ -269,6 +47,30 @@
       "score_total": 68.5,
       "grade": "B",
       "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 46,
+      "engagement_rate": 1.715,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 68.5,
+      "grade": "B"
     }
-  ]
+  ],
+  "score_breakdown": {
+    "er_score": 80,
+    "bf_score": 25,
+    "posts_score": 40,
+    "foll_score": 40,
+    "weights": {
+      "er": 0.5,
+      "bf": 0.25,
+      "posts": 0.15,
+      "foll": 0.1
+    }
+  },
+  "score": 68.5,
+  "total_score": 68.5
 }

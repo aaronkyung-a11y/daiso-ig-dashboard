@@ -1,27 +1,24 @@
 {
   "platform": "youtube",
   "username": "UChaTUCM7bPBTJaIZQ83PNwQ",
-  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
-  "evaluated_at": "2026-05-19T05:09:02.898661+00:00",
   "fullname": "스완SWAN_현실남자관리",
+  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
   "followers": 497000,
-  "sample_size": 20,
-  "avg_views": 0,
-  "avg_likes": 1094,
-  "engagement_rate": 2.03,
-  "posts_last_30d": 20,
-  "_posts_last_30d_est": true,
+  "engagement_rate": 0.0213,
+  "posts_last_30d": 7,
+  "sample_size": 15,
   "brand_fit_score": 100,
   "retailer_focus": "our_brand",
   "retailer_signal": {
-    "daiso": 1,
-    "olive_young": 1,
-    "our_brand": true,
-    "beauty_kw": 13
+    "beauty_count": 147,
+    "daiso_count": 0,
+    "olive_young_count": 0,
+    "labrang_present": true
   },
-  "sample_note": "YT 분석 (videos: 20, deep: 3)",
-  "score_total": 80.0,
-  "grade": "S",
+  "evaluated_at": "2026-05-20T10:18:19.980450+09:00",
+  "score_total": 77.0,
+  "grade": "A",
+  "sample_note": "ok",
   "history": [
     {
       "evaluated_at": "2026-05-19T05:09:02.898661+00:00",
@@ -31,6 +28,28 @@
       "posts_last_30d": 20,
       "score_total": 80.0,
       "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-19T05:09:02.898661+00:00",
+      "followers": 497000,
+      "engagement_rate": 2.03,
+      "posts_last_30d": 20,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 80.0,
+      "grade": "S"
     }
-  ]
+  ],
+  "score_breakdown": {
+    "er_score": 60,
+    "bf_score": 100,
+    "posts_score": 80,
+    "foll_score": 100,
+    "weights": {
+      "er": 0.5,
+      "bf": 0.25,
+      "posts": 0.15,
+      "foll": 0.1
+    }
+  }
 }

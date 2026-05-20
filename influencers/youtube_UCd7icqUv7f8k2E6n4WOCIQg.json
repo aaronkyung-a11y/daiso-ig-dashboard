@@ -1,0 +1,35 @@
+{
+  "platform": "youtube",
+  "username": "UCd7icqUv7f8k2E6n4WOCIQg",
+  "fullname": "Pibukyurl",
+  "profile_url": "https://www.youtube.com/channel/UCd7icqUv7f8k2E6n4WOCIQg",
+  "followers": 57400,
+  "engagement_rate": 0.041,
+  "posts_last_30d": 6,
+  "sample_size": 18,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "beauty_count": 427,
+    "daiso_count": 3,
+    "olive_young_count": 1,
+    "labrang_present": false
+  },
+  "evaluated_at": "2026-05-20T10:12:51.609635+09:00",
+  "score_total": 82.5,
+  "grade": "A",
+  "sample_note": "ok",
+  "history": [],
+  "score_breakdown": {
+    "er_score": 80,
+    "bf_score": 90,
+    "posts_score": 80,
+    "foll_score": 80,
+    "weights": {
+      "er": 0.5,
+      "bf": 0.25,
+      "posts": 0.15,
+      "foll": 0.1
+    }
+  }
+}

@@ -2,33 +2,23 @@
   "platform": "youtube",
   "username": "UCrlUlicedicJ5mlibqC62Eg",
   "fullname": "뷰드름 유튜버 인씨",
-  "channel_id": "UCrlUlicedicJ5mlibqC62Eg",
   "profile_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
   "followers": 567000,
-  "avg_views": 42549.0,
-  "avg_likes": 978.0,
-  "avg_comments": 202.8,
-  "engagement_rate": 2.299,
-  "posts_last_30d": 10,
-  "sample_size": 10,
-  "brand_fit_score": 90,
-  "retailer_focus": "mixed",
+  "engagement_rate": 0.0209,
+  "posts_last_30d": 13,
+  "sample_size": 15,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
   "retailer_signal": {
-    "daiso_count": 2,
-    "olive_young_count": 2,
-    "beauty_keyword_count": 11,
-    "our_brand_present": false
+    "beauty_count": 174,
+    "daiso_count": 24,
+    "olive_young_count": 5,
+    "labrang_present": true
   },
-  "total_score": 77.5,
-  "score_breakdown": {
-    "er_score": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "follower_scale": 100,
-    "total": 77.5
-  },
+  "evaluated_at": "2026-05-20T10:17:50.583289+09:00",
+  "score_total": 80.0,
   "grade": "A",
-  "evaluated_at": "2026-05-19T10:18:09+09:00",
+  "sample_note": "ok",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -57,18 +47,31 @@
       "score_total": 77.5,
       "grade": "A",
       "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 567000,
+      "engagement_rate": 2.299,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "mixed",
+      "score_total": 77.5,
+      "grade": "A"
     }
   ],
-  "score_total": 77.5,
-  "score": 77.5,
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg"
+  "score_breakdown": {
+    "er_score": 60,
+    "bf_score": 100,
+    "posts_score": 100,
+    "foll_score": 100,
+    "weights": {
+      "er": 0.5,
+      "bf": 0.25,
+      "posts": 0.15,
+      "foll": 0.1
+    }
   },
   "post_count_total": 5,
-  "view_to_sub_ratio": 0.0803,
-  "top_video_views": 45435.4,
-  "top_post_likes": 1242.6,
-  "sample_note": "STEP B-Light 17:00 재분석. yt-dlp sample=10, posts_30d=10 | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)"
+  "score": 77.5,
+  "total_score": 77.5
 }

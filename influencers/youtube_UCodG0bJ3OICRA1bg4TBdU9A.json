@@ -3,37 +3,22 @@
   "username": "UCodG0bJ3OICRA1bg4TBdU9A",
   "fullname": "피부트래블러",
   "profile_url": "https://www.youtube.com/channel/UCodG0bJ3OICRA1bg4TBdU9A",
-  "handle": "@피부트래블러",
   "followers": 135000,
-  "engagement_rate": 3.3724,
-  "posts_last_30d": 3,
-  "sample_size": 12,
-  "avg_views": 575,
-  "avg_likes": 19,
+  "engagement_rate": 0.0283,
+  "posts_last_30d": 4,
+  "sample_size": 15,
   "brand_fit_score": 90,
   "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso_mentions": 0,
-    "olive_young_mentions": 5,
-    "beauty_keyword_count": 23,
-    "labrang_mentions": 0
+    "beauty_count": 25,
+    "daiso_count": 0,
+    "olive_young_count": 5,
+    "labrang_present": false
   },
-  "evaluated_at": "2026-05-19T10:18:09+09:00",
-  "score_total": 81.5,
-  "grade": "A",
-  "score_components": {
-    "er_score": 80,
-    "brand_fit_score": 90,
-    "consistency_score": 60,
-    "follower_score": 100,
-    "weights": {
-      "er": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "followers": 0.1
-    }
-  },
-  "sample_note": "2026-05-15T17:05 KST STEP B-Light 롤링 재분석 (yt-dlp 12개 영상 실측). 추정 아님. | STEP B light refresh 2026-05-19 (followers/posts only; ER & brand_fit preserved)",
+  "evaluated_at": "2026-05-20T10:17:22.700566+09:00",
+  "score_total": 71.5,
+  "grade": "B",
+  "sample_note": "ok",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -62,15 +47,30 @@
       "score_total": 81.5,
       "grade": "A",
       "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 135000,
+      "engagement_rate": 3.3724,
+      "posts_last_30d": 3,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 81.5,
+      "grade": "A"
     }
   ],
-  "score": 81.5,
-  "total_score": 81.5,
   "score_breakdown": {
-    "er_score": 80,
-    "brand_fit": 90,
-    "consistency": 60,
-    "follower_scale": 100,
-    "total": 81.5
-  }
+    "er_score": 60,
+    "bf_score": 90,
+    "posts_score": 60,
+    "foll_score": 100,
+    "weights": {
+      "er": 0.5,
+      "bf": 0.25,
+      "posts": 0.15,
+      "foll": 0.1
+    }
+  },
+  "score": 81.5,
+  "total_score": 81.5
 }
