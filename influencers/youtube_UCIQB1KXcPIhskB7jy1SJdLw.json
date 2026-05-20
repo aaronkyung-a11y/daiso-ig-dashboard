@@ -2,32 +2,23 @@
   "platform": "youtube",
   "username": "UCIQB1KXcPIhskB7jy1SJdLw",
   "fullname": "Dr.란의 스킨다이어리",
-  "channel_id": "UCIQB1KXcPIhskB7jy1SJdLw",
   "profile_url": "https://www.youtube.com/channel/UCIQB1KXcPIhskB7jy1SJdLw",
-  "followers": 479,
-  "avg_views": 462,
-  "avg_likes": 0.8,
-  "avg_comments": 0.0,
-  "engagement_rate": 1.3151,
+  "followers": 495,
+  "engagement_rate": 1.28,
   "posts_last_30d": 4,
-  "sample_size": 12,
+  "sample_size": 20,
   "brand_fit_score": 90,
   "retailer_focus": "beauty_general",
   "retailer_signal": {
-    "daiso_count": 0,
-    "olive_young_count": 0,
-    "beauty_keyword_count": 17,
-    "our_brand_present": false
+    "daiso_mentions_count": 0,
+    "olive_young_mentions_count": 0,
+    "beauty_keyword_count": 22,
+    "labrang_mentioned": false
   },
-  "total_score": 48.0,
-  "score_breakdown": {
-    "engagement": 40,
-    "brand_fit": 60,
-    "consistency": 60,
-    "follower_scale": 40
-  },
+  "evaluated_at": "2026-05-20T14:09:16+09:00",
+  "score_total": 65.5,
   "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": "yt-dlp flat playlist; titles only for keyword scan; sample=20; posts_30d uses upload_date",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,32 +28,17 @@
       "posts_last_30d": 4,
       "brand_fit_score": 90,
       "retailer_focus": "beauty_general"
-    }
-  ],
-  "score_total": 65.5,
-  "score": {
-    "total": 48.0,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 60,
-      "consistency": 60,
-      "follower_scale": 40
     },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "engagement_rate": 1.3151,
+      "posts_last_30d": 4,
+      "sample_size": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 65.5,
+      "grade": "B",
+      "followers": 479
     }
-  },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCIQB1KXcPIhskB7jy1SJdLw"
-  },
-  "post_count_total": 5,
-  "view_to_sub_ratio": 0.1704,
-  "top_video_views": 81.6,
-  "top_post_likes": 0.8,
-  "sample_note": "STEP B 풀 재분석. likes 추출 9/12 (JS런타임 없음 → 일부 0)"
+  ]
 }
