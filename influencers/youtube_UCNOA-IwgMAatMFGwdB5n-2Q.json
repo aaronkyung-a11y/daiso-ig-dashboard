@@ -4,30 +4,30 @@
   "fullname": "서윤초이 seoyoonchoi",
   "channel_id": "UCNOA-IwgMAatMFGwdB5n-2Q",
   "profile_url": "https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q",
-  "followers": 10500,
-  "avg_views": 20683,
-  "avg_likes": 548.4,
-  "avg_comments": 41.4,
-  "engagement_rate": 2.9742,
-  "posts_last_30d": 2,
-  "sample_size": 6,
-  "brand_fit_score": 60,
-  "retailer_focus": "daiso",
+  "followers": 11000,
+  "avg_views": 28129.2,
+  "avg_likes": 715.87,
+  "avg_comments": 48.07,
+  "engagement_rate": 2.7158,
+  "posts_last_30d": 3,
+  "sample_size": 15,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
   "retailer_signal": {
-    "daiso_count": 9,
-    "olive_young_count": 0,
-    "beauty_keyword_count": 2,
-    "our_brand_present": false
+    "daiso_count": 47,
+    "olive_young_count": 11,
+    "beauty_keyword_count": 41,
+    "our_brand_present": true
   },
-  "total_score": 53.25,
+  "total_score": 72.0,
   "score_breakdown": {
     "engagement": 60,
-    "brand_fit": 25,
+    "brand_fit": 100,
     "consistency": 60,
     "follower_scale": 80
   },
-  "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "grade": "A",
+  "evaluated_at": "2026-05-20T17:00:00+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,14 +37,23 @@
       "posts_last_30d": 2,
       "brand_fit_score": 60,
       "retailer_focus": "daiso"
+    },
+    {
+      "evaluated_at": "2026-05-20T17:00:00+09:00",
+      "score_total": 72.0,
+      "engagement_rate": 2.7158,
+      "followers": 11000,
+      "posts_last_30d": 3,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand"
     }
   ],
-  "score_total": 62.0,
+  "score_total": 72.0,
   "score": {
-    "total": 53.25,
+    "total": 72.0,
     "breakdown": {
       "engagement": 60,
-      "brand_fit": 25,
+      "brand_fit": 100,
       "consistency": 60,
       "follower_scale": 80
     },
@@ -56,7 +65,7 @@
     }
   },
   "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:1건 / oliveyoung:none / labrang:N",
+  "brand_fit_notes": "daiso:47건 / oliveyoung:11건 / labrang:Y / 뷰티키워드:41",
   "sample_data_evidence": {
     "channel_url": "https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q"
   },
@@ -64,5 +73,5 @@
   "view_to_sub_ratio": 1.8859,
   "top_video_views": 19802.4,
   "top_post_likes": 548.4,
-  "sample_note": "STEP B 풀 재분석. likes 추출 6/6 (JS런타임 없음 → 일부 0)"
+  "sample_note": "STEP B-Light rolling refresh (17:00 슬롯). yt-dlp full extraction 15/15. 모든 수치 실측."
 }
