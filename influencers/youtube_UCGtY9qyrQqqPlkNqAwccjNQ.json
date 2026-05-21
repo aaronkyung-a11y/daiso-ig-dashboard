@@ -1,67 +1,80 @@
 {
-  "platform": "youtube",
-  "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
-  "fullname": "리뷰하는 회사원",
-  "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
-  "followers": 581000,
-  "engagement_rate": 0.0235,
-  "posts_last_30d": 0,
-  "sample_size": 9,
-  "brand_fit_score": 60,
-  "retailer_focus": "beauty_general",
-  "retailer_signal": {
-    "beauty_count": 1,
-    "daiso_count": 0,
-    "olive_young_count": 0,
-    "labrang_present": false
+ "platform": "youtube",
+ "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
+ "fullname": "리뷰하는 회사원",
+ "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
+ "followers": 581000,
+ "engagement_rate": 0.0219,
+ "posts_last_30d": 0,
+ "sample_size": 6,
+ "brand_fit_score": 25,
+ "retailer_focus": "off_topic",
+ "retailer_signal": {
+  "daiso_mentions": "none",
+  "olive_young_mentions": "none",
+  "beauty_topical_strength": "none (0건)",
+  "labrang_blanc_doux_mention": false
+ },
+ "evaluated_at": "2026-05-21T10:00:00+09:00",
+ "score_total": 52.25,
+ "grade": "C",
+ "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — yt-dlp 최근 6개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측.",
+ "history": [
+  {
+   "evaluated_at": "2026-05-15T17:05:00+09:00",
+   "score_total": 52.25,
+   "engagement_rate": 2.3751,
+   "followers": 581000,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic"
   },
-  "evaluated_at": "2026-05-20T10:17:21.579218+09:00",
-  "score_total": 61.0,
-  "grade": "B",
-  "sample_note": "ok",
-  "history": [
-    {
-      "evaluated_at": "2026-05-15T17:05:00+09:00",
-      "score_total": 52.25,
-      "engagement_rate": 2.3751,
-      "followers": 581000,
-      "posts_last_30d": 0,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic"
-    },
-    {
-      "evaluated_at": "2026-05-19T10:18:09+09:00",
-      "followers": 25400,
-      "engagement_rate": 2.3751,
-      "posts_last_30d": 0,
-      "brand_fit_score": 25,
-      "score_total": 50.2,
-      "grade": "C",
-      "note": "STEP B light refresh"
-    },
-    {
-      "evaluated_at": "2026-05-19T10:18:09+09:00",
-      "followers": 25400,
-      "engagement_rate": 2.3751,
-      "posts_last_30d": 0,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
-      "score_total": 50.2,
-      "grade": "C"
-    }
-  ],
-  "score_breakdown": {
-    "er_score": 60,
-    "bf_score": 60,
-    "posts_score": 40,
-    "foll_score": 100,
-    "weights": {
-      "er": 0.5,
-      "bf": 0.25,
-      "posts": 0.15,
-      "foll": 0.1
-    }
+  {
+   "evaluated_at": "2026-05-19T10:18:09+09:00",
+   "followers": 25400,
+   "engagement_rate": 2.3751,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "score_total": 50.2,
+   "grade": "C",
+   "note": "STEP B light refresh"
   },
-  "score": 50.2,
-  "total_score": 50.2
+  {
+   "evaluated_at": "2026-05-19T10:18:09+09:00",
+   "followers": 25400,
+   "engagement_rate": 2.3751,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 50.2,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-05-21T10:00:00+09:00",
+   "followers": 581000,
+   "engagement_rate": 0.0219,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 52.25,
+   "grade": "C"
+  }
+ ],
+ "score_breakdown": {
+  "er_score": 60,
+  "brand_fit_score": 25,
+  "consistency_score": 40,
+  "follower_scale_score": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "score": 52.25,
+ "total_score": 52.25,
+ "avg_likes": 1559.5,
+ "avg_views": 71078.8,
+ "estimation_flags": {
+  "engagement_rate": "measured",
+  "posts_last_30d": "measured(upload_date)",
+  "brand_fit": "measured(title+tags)",
+  "followers": "measured"
+ }
 }
