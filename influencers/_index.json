@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T14:00:00+09:00",
+  "generated_at": "2026-05-21T17:17:00+09:00",
   "total_records": 92,
   "platform_counts": {
     "instagram": 23,
@@ -1232,7 +1232,7 @@
       "fullname": "김밍 KIMMING",
       "profile_url": "https://www.youtube.com/channel/UCTjwlF8Y8hxR85JPUoZv-6A",
       "followers": 282000,
-      "engagement_rate": 0.5255,
+      "engagement_rate": 0.4435,
       "posts_last_30d": 0,
       "sample_size": 3,
       "brand_fit_score": 60,
@@ -1243,10 +1243,10 @@
         "beauty_keyword_count": 2,
         "our_brand_present": false
       },
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "evaluated_at": "2026-05-21T17:17:00+09:00",
       "score_total": 51.0,
       "grade": "C",
-      "sample_note": "STEP B 풀 재분석. likes 추출 2/3 (JS런타임 없음 → 일부 0)"
+      "sample_note": "STEP B-Light 라이브 재측정(Chrome). ER=avg_likes/avg_views(SKILL식). avg_comments는 이번 미수집→이전값 유지(carry-forward). brand_fit/retailer_focus 는 영상 설명 라이브 추출 불가로 이전값 유지. 영상1건 좋아요 비공개→0 처리."
     },
     {
       "platform": "youtube",
@@ -1275,8 +1275,8 @@
       "username": "UCVRAHN1wuI9pUDyeSAc_I1A",
       "fullname": "쏘민_뷰티에대한모든것",
       "profile_url": "https://www.youtube.com/channel/UCVRAHN1wuI9pUDyeSAc_I1A",
-      "followers": 12600,
-      "engagement_rate": 0.9616,
+      "followers": 12700,
+      "engagement_rate": 0.8255,
       "posts_last_30d": 0,
       "sample_size": 7,
       "brand_fit_score": 90,
@@ -1287,10 +1287,10 @@
         "beauty_keyword_count": 12,
         "our_brand_present": false
       },
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "evaluated_at": "2026-05-21T17:17:00+09:00",
       "score_total": 56.5,
       "grade": "C",
-      "sample_note": "STEP B 풀 재분석. likes 추출 7/7 (JS런타임 없음 → 일부 0)"
+      "sample_note": "STEP B-Light 라이브 재측정(Chrome). ER=avg_likes/avg_views(SKILL식). avg_comments는 이번 미수집→이전값 유지(carry-forward). brand_fit/retailer_focus 는 영상 설명 라이브 추출 불가로 이전값 유지."
     },
     {
       "platform": "youtube",
