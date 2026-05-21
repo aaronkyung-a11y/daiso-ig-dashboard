@@ -4,20 +4,20 @@
   "fullname": "장수의 비밀",
   "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
   "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
-  "followers": 158000,
+  "followers": 160000,
   "avg_views": 69090,
   "avg_likes": 374.6,
   "avg_comments": 0.8,
-  "engagement_rate": 1.1149,
-  "posts_last_30d": 12,
-  "sample_size": 12,
-  "brand_fit_score": 25,
+  "engagement_rate": 1.1214,
+  "posts_last_30d": 22,
+  "sample_size": 22,
+  "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_count": 10,
-    "olive_young_count": 1,
-    "beauty_keyword_count": 0,
-    "our_brand_present": false
+    "daiso_mentions": "74건",
+    "olive_young_mentions": "18건",
+    "beauty_topical_strength": "strong (144건)",
+    "labrang_blanc_doux_mention": false
   },
   "total_score": 70.75,
   "score_breakdown": {
@@ -26,8 +26,8 @@
     "consistency": 80,
     "follower_scale": 100
   },
-  "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "grade": "A",
+  "evaluated_at": "2026-05-21T14:00:00+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,9 +37,20 @@
       "posts_last_30d": 12,
       "brand_fit_score": 25,
       "retailer_focus": "daiso"
+    },
+    {
+      "followers": 158000,
+      "engagement_rate": 1.1149,
+      "posts_last_30d": 12,
+      "sample_size": 12,
+      "brand_fit_score": 25,
+      "retailer_focus": "daiso",
+      "score_total": 61.2,
+      "grade": "B",
+      "evaluated_at": "2026-05-12T10:15:00+09:00"
     }
   ],
-  "score_total": 61.2,
+  "score_total": 77.5,
   "score": {
     "total": 70.75,
     "breakdown": {
@@ -64,5 +75,5 @@
   "view_to_sub_ratio": 0.2321,
   "top_video_views": 36674.2,
   "top_post_likes": 374.6,
-  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
+  "sample_note": "2026-05-21T14:00 KST STEP B-Light rolling refresh — yt-dlp 실측 (구독자 og 실측, 최근 22개 영상 ER 실측, 키워드 144건). avg_views=80,644 avg_likes=904. 전 구성요소 실측(추정 없음)."
 }
