@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-05-22T14:00:00+09:00",
+ "generated_at": "2026-05-22T17:10:00+09:00",
  "total_records": 92,
  "platform_counts": {
   "instagram": 23,
@@ -8,9 +8,9 @@
  "retailer_focus_distribution": {
   "olive_young": 24,
   "daiso": 28,
-  "beauty_general": 16,
+  "beauty_general": 17,
   "our_brand": 6,
-  "off_topic": 15,
+  "off_topic": 14,
   "mixed": 3
  },
  "grade_distribution": {
@@ -1341,9 +1341,9 @@
    "username": "UCWYY6sFq1PyyKYKrM0HGcvQ",
    "fullname": "삐TV",
    "profile_url": "https://www.youtube.com/channel/UCWYY6sFq1PyyKYKrM0HGcvQ",
-   "followers": 2060,
-   "engagement_rate": 25.5814,
-   "posts_last_30d": 1,
+   "followers": 2090,
+   "engagement_rate": 2.1277,
+   "posts_last_30d": 0,
    "sample_size": 1,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
@@ -1353,9 +1353,9 @@
     "beauty_keyword_count": 0,
     "our_brand_present": false
    },
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 68.2,
-   "grade": "B",
+   "evaluated_at": "2026-05-22T17:10:00+09:00",
+   "score_total": 48.25,
+   "grade": "C",
    "sample_note": "STEP B 풀 재분석. likes 추출 1/1 (JS런타임 없음 → 일부 0)"
   },
   {
@@ -1363,21 +1363,21 @@
    "username": "UCX0Qk4QtPOlEwBmsbIG4vOg",
    "fullname": "리뷰야놀자",
    "profile_url": "https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg",
-   "followers": 699000,
-   "engagement_rate": 1.0035,
+   "followers": 700000,
+   "engagement_rate": 1.0548,
    "posts_last_30d": 0,
-   "sample_size": 4,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
+   "sample_size": 16,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
    "retailer_signal": {
     "daiso_count": 0,
     "olive_young_count": 0,
-    "beauty_keyword_count": 0,
+    "beauty_keyword_count": 2,
     "our_brand_present": false
    },
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 52.2,
-   "grade": "C",
+   "evaluated_at": "2026-05-22T17:10:00+09:00",
+   "score_total": 61.0,
+   "grade": "B",
    "sample_note": "STEP B 풀 재분석. likes 추출 4/4 (JS런타임 없음 → 일부 0)"
   },
   {

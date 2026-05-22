@@ -1,68 +1,77 @@
 {
-  "platform": "youtube",
-  "username": "UCX0Qk4QtPOlEwBmsbIG4vOg",
-  "fullname": "리뷰야놀자",
-  "channel_id": "UCX0Qk4QtPOlEwBmsbIG4vOg",
-  "profile_url": "https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg",
-  "followers": 699000,
-  "avg_views": 88985,
-  "avg_likes": 954.4,
-  "avg_comments": 117.2,
-  "engagement_rate": 1.0035,
-  "posts_last_30d": 0,
-  "sample_size": 4,
-  "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
-  "retailer_signal": {
-    "daiso_count": 0,
-    "olive_young_count": 0,
-    "beauty_keyword_count": 0,
-    "our_brand_present": false
+ "platform": "youtube",
+ "username": "UCX0Qk4QtPOlEwBmsbIG4vOg",
+ "fullname": "리뷰야놀자",
+ "channel_id": "UCX0Qk4QtPOlEwBmsbIG4vOg",
+ "profile_url": "https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg",
+ "followers": 700000,
+ "avg_views": 87205.2,
+ "avg_likes": 919.81,
+ "avg_comments": 103.25,
+ "engagement_rate": 1.0548,
+ "posts_last_30d": 0,
+ "sample_size": 16,
+ "brand_fit_score": 60,
+ "retailer_focus": "beauty_general",
+ "retailer_signal": {
+  "daiso_count": 0,
+  "olive_young_count": 0,
+  "beauty_keyword_count": 2,
+  "our_brand_present": false
+ },
+ "total_score": 61.0,
+ "score_breakdown": {
+  "engagement": 60,
+  "brand_fit": 60,
+  "consistency": 40,
+  "follower_scale": 100
+ },
+ "grade": "B",
+ "evaluated_at": "2026-05-22T17:10:00+09:00",
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 52.2,
+   "engagement_rate": 1.0035,
+   "followers": 699000,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic"
   },
-  "total_score": 52.25,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 25,
-    "consistency": 40,
-    "follower_scale": 100
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 52.2,
+   "engagement_rate": 1.0035,
+   "followers": 699000,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic"
+  }
+ ],
+ "score_total": 61.0,
+ "score": {
+  "total": 61.0,
+  "breakdown": {
+   "engagement": 60,
+   "brand_fit": 60,
+   "consistency": 40,
+   "follower_scale": 100
   },
-  "grade": "C",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 52.2,
-      "engagement_rate": 1.0035,
-      "followers": 699000,
-      "posts_last_30d": 0,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic"
-    }
-  ],
-  "score_total": 52.2,
-  "score": {
-    "total": 52.25,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 25,
-      "consistency": 40,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg"
-  },
-  "post_count_total": 5,
-  "view_to_sub_ratio": 0.1303,
-  "top_video_views": 91095.8,
-  "top_post_likes": 954.4,
-  "sample_note": "STEP B 풀 재분석. likes 추출 4/4 (JS런타임 없음 → 일부 0)"
+  "weights": {
+   "engagement": 0.5,
+   "brand_fit": 0.25,
+   "consistency": 0.15,
+   "follower_scale": 0.1
+  }
+ },
+ "notes": "youtube sample: 16 items (B-Light refresh)",
+ "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N / beauty_kw:2",
+ "sample_data_evidence": {
+  "channel_url": "https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg"
+ },
+ "post_count_total": 5,
+ "view_to_sub_ratio": 0.1303,
+ "top_video_views": 91095.8,
+ "top_post_likes": 954.4,
+ "sample_note": "STEP B 풀 재분석. likes 추출 4/4 (JS런타임 없음 → 일부 0)"
 }
