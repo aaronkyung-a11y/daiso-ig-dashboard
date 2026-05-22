@@ -1,68 +1,78 @@
 {
-  "platform": "youtube",
-  "username": "UCVbW7vOtOnmjyDORZB4Sz0w",
-  "fullname": "관리는 하고 살자",
-  "channel_id": "UCVbW7vOtOnmjyDORZB4Sz0w",
-  "profile_url": "https://www.youtube.com/channel/UCVbW7vOtOnmjyDORZB4Sz0w",
-  "followers": 358000,
-  "avg_views": 28907,
-  "avg_likes": 588.2,
-  "avg_comments": 74.0,
-  "engagement_rate": 2.469,
-  "posts_last_30d": 7,
-  "sample_size": 11,
-  "brand_fit_score": 90,
-  "retailer_focus": "olive_young",
-  "retailer_signal": {
-    "daiso_count": 0,
-    "olive_young_count": 3,
-    "beauty_keyword_count": 12,
-    "our_brand_present": false
+ "platform": "youtube",
+ "username": "UCVbW7vOtOnmjyDORZB4Sz0w",
+ "fullname": "관리는 하고 살자",
+ "channel_id": "UCVbW7vOtOnmjyDORZB4Sz0w",
+ "profile_url": "https://www.youtube.com/channel/UCVbW7vOtOnmjyDORZB4Sz0w",
+ "followers": 358000,
+ "avg_views": 31969.7,
+ "avg_likes": 687.9,
+ "avg_comments": 94.4,
+ "engagement_rate": 0.0215,
+ "posts_last_30d": 7,
+ "sample_size": 14,
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
+ "retailer_signal": {
+  "daiso_count": 0,
+  "olive_young_count": 3,
+  "beauty_keyword_count": 25,
+  "our_brand_present": false
+ },
+ "total_score": 74.5,
+ "score_breakdown": {
+  "engagement": 60,
+  "brand_fit": 90,
+  "consistency": 80,
+  "follower_scale": 100
+ },
+ "grade": "B",
+ "evaluated_at": "2026-05-22T14:00:00+09:00",
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 74.5,
+   "engagement_rate": 2.469,
+   "followers": 358000,
+   "posts_last_30d": 7,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   },
-  "total_score": 67.0,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 60,
-    "consistency": 80,
-    "follower_scale": 100
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 74.5,
+   "grade": "B",
+   "engagement_rate": 2.469,
+   "followers": 358000,
+   "posts_last_30d": 7,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
+  }
+ ],
+ "score_total": 74.5,
+ "score": {
+  "total": 74.5,
+  "breakdown": {
+   "engagement": 60,
+   "brand_fit": 90,
+   "consistency": 80,
+   "follower_scale": 100
   },
-  "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 74.5,
-      "engagement_rate": 2.469,
-      "followers": 358000,
-      "posts_last_30d": 7,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young"
-    }
-  ],
-  "score_total": 74.5,
-  "score": {
-    "total": 67.0,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 60,
-      "consistency": 80,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCVbW7vOtOnmjyDORZB4Sz0w"
-  },
-  "post_count_total": 5,
-  "view_to_sub_ratio": 0.0713,
-  "top_video_views": 25529.6,
-  "top_post_likes": 588.2,
-  "sample_note": "STEP B 풀 재분석. likes 추출 11/11 (JS런타임 없음 → 일부 0)"
+  "weights": {
+   "engagement": 0.5,
+   "brand_fit": 0.25,
+   "consistency": 0.15,
+   "follower_scale": 0.1
+  }
+ },
+ "notes": "youtube sample: 5 items",
+ "brand_fit_notes": "daiso:0건 / oliveyoung:3건 / beauty:25건 / labrang:N",
+ "sample_data_evidence": {
+  "channel_url": "https://www.youtube.com/channel/UCVbW7vOtOnmjyDORZB4Sz0w"
+ },
+ "post_count_total": 5,
+ "view_to_sub_ratio": 0.0713,
+ "top_video_views": 25529.6,
+ "top_post_likes": 588.2,
+ "sample_note": "2026-05-22T14:00 KST STEP B-Light 롤링 재분석 — yt-dlp /videos 최근 14개 실측(views/likes/comments/upload_date 전부 추출, likes 14/14). ER=avg_likes/avg_views 실측. brand_fit·retailer_focus=title+tags+description 키워드 실측. (추정치 없음)"
 }
