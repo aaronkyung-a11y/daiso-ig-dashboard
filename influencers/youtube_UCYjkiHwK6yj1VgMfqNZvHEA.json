@@ -5,29 +5,29 @@
   "channel_id": "UCYjkiHwK6yj1VgMfqNZvHEA",
   "profile_url": "https://www.youtube.com/channel/UCYjkiHwK6yj1VgMfqNZvHEA",
   "followers": 125000,
-  "avg_views": 18103,
-  "avg_likes": 541.4,
-  "avg_comments": 73.2,
-  "engagement_rate": 1.9549,
+  "avg_views": 19785.9,
+  "avg_likes": 334.5,
+  "avg_comments": 44.4,
+  "engagement_rate": 1.6906,
   "posts_last_30d": 4,
-  "sample_size": 12,
-  "brand_fit_score": 60,
+  "sample_size": 18,
+  "brand_fit_score": 90,
   "retailer_focus": "beauty_general",
   "retailer_signal": {
     "daiso_count": 0,
     "olive_young_count": 0,
-    "beauty_keyword_count": 1,
+    "beauty_keyword_count": 25,
     "our_brand_present": false
   },
-  "total_score": 64.0,
+  "total_score": 71.5,
   "score_breakdown": {
     "engagement": 60,
-    "brand_fit": 60,
+    "brand_fit": 90,
     "consistency": 60,
     "follower_scale": 100
   },
   "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "evaluated_at": "2026-05-25T17:04:00+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,14 +37,23 @@
       "posts_last_30d": 4,
       "brand_fit_score": 60,
       "retailer_focus": "beauty_general"
+    },
+    {
+      "evaluated_at": "2026-05-25T17:04:00+09:00",
+      "score_total": 71.5,
+      "engagement_rate": 1.6906,
+      "followers": 125000,
+      "posts_last_30d": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general"
     }
   ],
-  "score_total": 64.0,
+  "score_total": 71.5,
   "score": {
-    "total": 64.0,
+    "total": 71.5,
     "breakdown": {
       "engagement": 60,
-      "brand_fit": 60,
+      "brand_fit": 90,
       "consistency": 60,
       "follower_scale": 100
     },
@@ -55,14 +64,14 @@
       "follower_scale": 0.1
     }
   },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
+  "notes": "yt-dlp B-Light: 18 videos sampled (videos tab), 4 in 30d window",
+  "brand_fit_notes": "daiso:0건 / oliveyoung:0건 / labrang:N",
   "sample_data_evidence": {
     "channel_url": "https://www.youtube.com/channel/UCYjkiHwK6yj1VgMfqNZvHEA"
   },
-  "post_count_total": 5,
+  "post_count_total": 18,
   "view_to_sub_ratio": 0.2406,
   "top_video_views": 30077.6,
   "top_post_likes": 541.4,
-  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
+  "sample_note": "STEP B-Light 재분석 (17시 슬롯). likes 추출 18/18. ER=avg_likes/avg_views*100."
 }
