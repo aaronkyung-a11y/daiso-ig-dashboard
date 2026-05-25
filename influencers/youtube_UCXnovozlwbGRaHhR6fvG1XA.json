@@ -4,7 +4,7 @@
   "fullname": "유정하다",
   "channel_id": "UCXnovozlwbGRaHhR6fvG1XA",
   "profile_url": "https://www.youtube.com/channel/UCXnovozlwbGRaHhR6fvG1XA",
-  "followers": 740,
+  "followers": 753,
   "avg_views": 25753,
   "avg_likes": 0.0,
   "avg_comments": 4.2,
@@ -19,7 +19,7 @@
     "beauty_keyword_count": 22,
     "our_brand_present": false
   },
-  "total_score": 48.75,
+  "total_score": 52.5,
   "score_breakdown": {
     "engagement": 40,
     "brand_fit": 75,
@@ -27,7 +27,7 @@
     "follower_scale": 40
   },
   "grade": "C",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "evaluated_at": "2026-05-25T14:30:00+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,24 +37,18 @@
       "posts_last_30d": 0,
       "brand_fit_score": 90,
       "retailer_focus": "daiso"
+    },
+    {
+      "date": "2026-05-12T10:15:00+09:00",
+      "score_total": 52.5,
+      "engagement_rate": 0.0372,
+      "followers": 740,
+      "posts_last_30d": 0,
+      "retailer_focus": "daiso"
     }
   ],
   "score_total": 52.5,
-  "score": {
-    "total": 48.75,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 75,
-      "consistency": 40,
-      "follower_scale": 40
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
+  "score": 52.5,
   "notes": "youtube sample: 5 items",
   "brand_fit_notes": "daiso:3건 / oliveyoung:none / labrang:N",
   "sample_data_evidence": {
@@ -64,5 +58,5 @@
   "view_to_sub_ratio": 19.9078,
   "top_video_views": 14731.8,
   "top_post_likes": 0.0,
-  "sample_note": "STEP B 풀 재분석. likes 추출 0/12 (JS런타임 없음 → 일부 0)"
+  "sample_note": "B-Light refresh 2026-05-25 14:00 KST. Shorts-only channel; yt-dlp cannot read Shorts like_count (no real zero) -> engagement_rate CARRIED FORWARD from 2026-05-12 (NOT re-measured). followers 740->753, latest upload 2026-01-18 so posts_last_30d=0. brand_fit/retailer re-measured from titles+desc+tags (daiso-heavy)."
 }

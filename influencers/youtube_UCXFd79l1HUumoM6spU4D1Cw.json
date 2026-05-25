@@ -4,13 +4,13 @@
   "fullname": "닥터블랑_예뻐지는비결",
   "channel_id": "UCXFd79l1HUumoM6spU4D1Cw",
   "profile_url": "https://www.youtube.com/channel/UCXFd79l1HUumoM6spU4D1Cw",
-  "followers": 179000,
-  "avg_views": 45816,
-  "avg_likes": 597.8,
+  "followers": 181000,
+  "avg_views": 52791,
+  "avg_likes": 924,
   "avg_comments": 59.8,
-  "engagement_rate": 1.829,
+  "engagement_rate": 1.751,
   "posts_last_30d": 4,
-  "sample_size": 12,
+  "sample_size": 14,
   "brand_fit_score": 90,
   "retailer_focus": "olive_young",
   "retailer_signal": {
@@ -19,7 +19,7 @@
     "beauty_keyword_count": 28,
     "our_brand_present": false
   },
-  "total_score": 67.0,
+  "total_score": 71.5,
   "score_breakdown": {
     "engagement": 60,
     "brand_fit": 60,
@@ -27,7 +27,7 @@
     "follower_scale": 100
   },
   "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "evaluated_at": "2026-05-25T14:30:00+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,24 +37,18 @@
       "posts_last_30d": 4,
       "brand_fit_score": 90,
       "retailer_focus": "olive_young"
+    },
+    {
+      "date": "2026-05-12T10:15:00+09:00",
+      "score_total": 71.5,
+      "engagement_rate": 1.829,
+      "followers": 179000,
+      "posts_last_30d": 4,
+      "retailer_focus": "olive_young"
     }
   ],
   "score_total": 71.5,
-  "score": {
-    "total": 67.0,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 60,
-      "consistency": 80,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
+  "score": 71.5,
   "notes": "youtube sample: 5 items",
   "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
   "sample_data_evidence": {
@@ -64,5 +58,5 @@
   "view_to_sub_ratio": 0.2076,
   "top_video_views": 37166.0,
   "top_post_likes": 597.8,
-  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
+  "sample_note": "B-Light refresh 2026-05-25 14:00 KST. Long-form videos, real like_count. ER over recent 14 uploads (comparable to prior sample). posts_last_30d=4 (uploads since 2026-04-25)."
 }
