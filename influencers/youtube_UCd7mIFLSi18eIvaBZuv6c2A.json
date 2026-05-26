@@ -5,18 +5,18 @@
   "channel_id": "UCd7mIFLSi18eIvaBZuv6c2A",
   "profile_url": "https://www.youtube.com/channel/UCd7mIFLSi18eIvaBZuv6c2A",
   "followers": 15900,
-  "avg_views": 4557,
-  "avg_likes": 253.4,
-  "avg_comments": 10.4,
-  "engagement_rate": 2.8618,
+  "avg_views": 4563.7,
+  "avg_likes": 125.0,
+  "avg_comments": 5.6,
+  "engagement_rate": 2.74,
   "posts_last_30d": 0,
   "sample_size": 12,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_count": 9,
+    "daiso_count": 10,
     "olive_young_count": 0,
-    "beauty_keyword_count": 31,
+    "beauty_keyword_count": 42,
     "our_brand_present": false
   },
   "total_score": 66.5,
@@ -27,12 +27,30 @@
     "follower_scale": 80
   },
   "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "evaluated_at": "2026-05-27T06:30:36+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
       "score_total": 66.5,
       "engagement_rate": 2.8618,
+      "followers": 15900,
+      "posts_last_30d": 0,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso"
+    },
+    {
+      "evaluated_at": "2026-05-27T06:12:24+09:00",
+      "score_total": 66.5,
+      "engagement_rate": 0.0274,
+      "followers": 15900,
+      "posts_last_30d": 0,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso"
+    },
+    {
+      "evaluated_at": "2026-05-27T06:30:36+09:00",
+      "score_total": 66.5,
+      "engagement_rate": 2.74,
       "followers": 15900,
       "posts_last_30d": 0,
       "brand_fit_score": 90,
@@ -64,5 +82,5 @@
   "view_to_sub_ratio": 0.5835,
   "top_video_views": 9277.6,
   "top_post_likes": 253.4,
-  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
+  "sample_note": "STEP B-Light rolling refresh (06시 비정기 슬롯). yt-dlp 실측 샘플 12개."
 }

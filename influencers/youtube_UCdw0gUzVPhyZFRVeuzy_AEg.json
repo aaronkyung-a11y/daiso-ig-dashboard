@@ -3,25 +3,25 @@
   "username": "UCdw0gUzVPhyZFRVeuzy_AEg",
   "fullname": "하우머치코리아 (HOWMUCH KOREA)",
   "profile_url": "https://www.youtube.com/channel/UCdw0gUzVPhyZFRVeuzy_AEg",
-  "followers": 111000,
-  "avg_views": 79488,
-  "avg_likes": 837.7,
-  "avg_comments": 108.3,
-  "engagement_rate": 1.5487,
+  "followers": 113000,
+  "avg_views": 79649.1,
+  "avg_likes": 1137.2,
+  "avg_comments": 93.4,
+  "engagement_rate": 1.43,
   "posts_last_30d": 0,
   "sample_size": 12,
-  "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
+  "brand_fit_score": 90,
+  "retailer_focus": "beauty_general",
   "retailer_signal": {
     "daiso_count": 0,
     "olive_young_count": 0,
-    "beauty_keyword_count": 0,
+    "beauty_keyword_count": 12,
     "our_brand_present": false
   },
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
-  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)",
-  "score_total": 52.2,
-  "grade": "C",
+  "evaluated_at": "2026-05-27T06:31:03+09:00",
+  "sample_note": "STEP B-Light rolling refresh (06시 비정기 슬롯). yt-dlp 실측 샘플 12개.",
+  "score_total": 68.5,
+  "grade": "B",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -31,13 +31,22 @@
       "posts_last_30d": 0,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic"
+    },
+    {
+      "evaluated_at": "2026-05-27T06:31:03+09:00",
+      "score_total": 68.5,
+      "engagement_rate": 1.43,
+      "followers": 113000,
+      "posts_last_30d": 0,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general"
     }
   ],
   "score": {
-    "total": 52.25,
+    "total": 68.5,
     "breakdown": {
       "engagement": 60,
-      "brand_fit": 25,
+      "brand_fit": 90,
       "consistency": 40,
       "follower_scale": 100
     },
@@ -48,7 +57,7 @@
       "follower_scale": 0.1
     }
   },
-  "total_score": 52.25,
+  "total_score": 68.5,
   "notes": "yt-dlp: 20 videos sampled, 0 in 30d window",
   "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
   "sample_data_evidence": {
@@ -56,5 +65,11 @@
   },
   "post_count_total": 20,
   "view_to_sub_ratio": 0.5388,
-  "top_video_views": 59811.1
+  "top_video_views": 59811.1,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 40,
+    "follower_scale": 100
+  }
 }

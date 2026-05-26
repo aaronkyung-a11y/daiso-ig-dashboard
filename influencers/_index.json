@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-05-26T14:00:00+09:00",
+ "generated_at": "2026-05-27T06:32:33+09:00",
  "total_records": 92,
  "platform_counts": {
   "instagram": 23,
@@ -9,15 +9,15 @@
   "olive_young": 24,
   "daiso": 27,
   "our_brand": 6,
-  "beauty_general": 17,
+  "beauty_general": 18,
   "mixed": 4,
-  "off_topic": 14
+  "off_topic": 13
  },
  "grade_distribution": {
   "S": 9,
   "A": 24,
-  "B": 36,
-  "C": 20,
+  "B": 37,
+  "C": 19,
   "D": 3
  },
  "score_total_null_count": 0,
@@ -1189,21 +1189,21 @@
    "fullname": "전지적 피부 시점",
    "profile_url": "https://www.youtube.com/channel/UCd7mIFLSi18eIvaBZuv6c2A",
    "followers": 15900,
-   "engagement_rate": 2.8618,
+   "engagement_rate": 2.74,
    "posts_last_30d": 0,
    "sample_size": 12,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "retailer_signal": {
-    "daiso_count": 9,
+    "daiso_count": 10,
     "olive_young_count": 0,
-    "beauty_keyword_count": 31,
+    "beauty_keyword_count": 42,
     "our_brand_present": false
    },
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "evaluated_at": "2026-05-27T06:30:36+09:00",
    "score_total": 66.5,
    "grade": "B",
-   "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
+   "sample_note": "STEP B-Light rolling refresh (06시 비정기 슬롯). yt-dlp 실측 샘플 12개."
   },
   {
    "platform": "instagram",
@@ -1772,22 +1772,22 @@
    "username": "UCdw0gUzVPhyZFRVeuzy_AEg",
    "fullname": "하우머치코리아 (HOWMUCH KOREA)",
    "profile_url": "https://www.youtube.com/channel/UCdw0gUzVPhyZFRVeuzy_AEg",
-   "followers": 111000,
-   "engagement_rate": 1.5487,
+   "followers": 113000,
+   "engagement_rate": 1.43,
    "posts_last_30d": 0,
    "sample_size": 12,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
    "retailer_signal": {
     "daiso_count": 0,
     "olive_young_count": 0,
-    "beauty_keyword_count": 0,
+    "beauty_keyword_count": 12,
     "our_brand_present": false
    },
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 52.2,
-   "grade": "C",
-   "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
+   "evaluated_at": "2026-05-27T06:31:03+09:00",
+   "score_total": 68.5,
+   "grade": "B",
+   "sample_note": "STEP B-Light rolling refresh (06시 비정기 슬롯). yt-dlp 실측 샘플 12개."
   },
   {
    "platform": "instagram",
