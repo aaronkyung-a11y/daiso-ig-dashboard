@@ -204,7 +204,7 @@ function render() {
       });
     });
   }
-  document.getElementById('lastUpd').textContent = new Date(data.lastUpdated).toLocaleString('ko-KR');
+  document.getElementById('lastUpd').textContent = new Date(data.lastUpd || data.lastUpdated).toLocaleString('ko-KR');
   document.getElementById('totalCount').textContent = data.accounts.length;
   const ig = data.accounts.filter(a => a.platform === 'instagram').length;
   const yt = data.accounts.filter(a => a.platform === 'youtube').length;
