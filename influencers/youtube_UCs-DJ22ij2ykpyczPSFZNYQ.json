@@ -3,8 +3,8 @@
  "username": "UCs-DJ22ij2ykpyczPSFZNYQ",
  "fullname": "Nyam",
  "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
- "followers": 48,
- "engagement_rate": 0.0444,
+ "followers": 49,
+ "engagement_rate": 0.0435,
  "posts_last_30d": 0,
  "sample_size": 1,
  "brand_fit_score": 25,
@@ -15,10 +15,10 @@
   "beauty_topical_strength": "none (0건)",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-05-21T10:00:00+09:00",
- "score_total": 56.25,
- "grade": "C",
- "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — yt-dlp 최근 1개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. ⚠️ 샘플 1개(추출 제한, 추정 아님).",
+ "evaluated_at": "2026-05-26T10:17:00+09:00",
+ "score_total": 56.2,
+ "grade": "B",
+ "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 1개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:13:42.874909+09:00",
@@ -67,6 +67,17 @@
    "retailer_focus": "off_topic",
    "score_total": 56.25,
    "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-05-26T10:17:00+09:00",
+   "followers": 49,
+   "engagement_rate": 0.0435,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 56.2,
+   "grade": "B",
+   "note": "STEP B full re-analysis (10:00 KST)"
   }
  ],
  "score_breakdown": {
@@ -76,10 +87,10 @@
   "follower_scale_score": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "score": 56.25,
- "total_score": 56.25,
+ "score": 56.2,
+ "total_score": 56.2,
  "avg_likes": 2.0,
- "avg_views": 45.0,
+ "avg_views": 46.0,
  "estimation_flags": {
   "engagement_rate": "measured",
   "posts_last_30d": "measured(upload_date)",

@@ -4,9 +4,9 @@
  "fullname": "스완SWAN_현실남자관리",
  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
  "followers": 497000,
- "engagement_rate": 0.0193,
- "posts_last_30d": 8,
- "sample_size": 8,
+ "engagement_rate": 0.0155,
+ "posts_last_30d": 7,
+ "sample_size": 10,
  "brand_fit_score": 60,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
@@ -15,10 +15,10 @@
   "beauty_topical_strength": "weak (2건)",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-05-21T10:00:00+09:00",
+ "evaluated_at": "2026-05-26T10:17:00+09:00",
  "score_total": 67.0,
  "grade": "B",
- "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — yt-dlp 최근 8개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측.",
+ "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 10개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
  "history": [
   {
    "evaluated_at": "2026-05-19T05:09:02.898661+00:00",
@@ -48,6 +48,17 @@
    "retailer_focus": "beauty_general",
    "score_total": 67.0,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-05-26T10:17:00+09:00",
+   "followers": 497000,
+   "engagement_rate": 0.0155,
+   "posts_last_30d": 7,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "score_total": 67.0,
+   "grade": "B",
+   "note": "STEP B full re-analysis (10:00 KST)"
   }
  ],
  "score_breakdown": {
@@ -57,8 +68,8 @@
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "avg_likes": 1378.1,
- "avg_views": 71324.9,
+ "avg_likes": 1620.3,
+ "avg_views": 104486.2,
  "estimation_flags": {
   "engagement_rate": "measured",
   "posts_last_30d": "measured(upload_date)",

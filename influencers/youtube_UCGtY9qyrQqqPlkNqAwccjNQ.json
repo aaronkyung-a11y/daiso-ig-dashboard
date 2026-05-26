@@ -4,9 +4,9 @@
  "fullname": "리뷰하는 회사원",
  "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
  "followers": 581000,
- "engagement_rate": 0.0219,
+ "engagement_rate": 0.0237,
  "posts_last_30d": 0,
- "sample_size": 6,
+ "sample_size": 8,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -15,10 +15,10 @@
   "beauty_topical_strength": "none (0건)",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-05-21T10:00:00+09:00",
- "score_total": 52.25,
+ "evaluated_at": "2026-05-26T10:17:00+09:00",
+ "score_total": 52.2,
  "grade": "C",
- "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — yt-dlp 최근 6개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측.",
+ "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 8개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
  "history": [
   {
    "evaluated_at": "2026-05-15T17:05:00+09:00",
@@ -58,6 +58,17 @@
    "retailer_focus": "off_topic",
    "score_total": 52.25,
    "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-05-26T10:17:00+09:00",
+   "followers": 581000,
+   "engagement_rate": 0.0237,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 52.2,
+   "grade": "C",
+   "note": "STEP B full re-analysis (10:00 KST)"
   }
  ],
  "score_breakdown": {
@@ -67,10 +78,10 @@
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "score": 52.25,
- "total_score": 52.25,
- "avg_likes": 1559.5,
- "avg_views": 71078.8,
+ "score": 52.2,
+ "total_score": 52.2,
+ "avg_likes": 2222.88,
+ "avg_views": 93767.0,
  "estimation_flags": {
   "engagement_rate": "measured",
   "posts_last_30d": "measured(upload_date)",

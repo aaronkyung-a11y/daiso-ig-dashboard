@@ -4,21 +4,21 @@
  "fullname": "뷰드름 유튜버 인씨",
  "profile_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
  "followers": 567000,
- "engagement_rate": 0.0188,
- "posts_last_30d": 8,
- "sample_size": 8,
+ "engagement_rate": 0.0174,
+ "posts_last_30d": 10,
+ "sample_size": 10,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "weak (1건)",
+  "daiso_mentions": "present (1건)",
   "olive_young_mentions": "none",
-  "beauty_topical_strength": "strong (8건)",
+  "beauty_topical_strength": "strong (10건)",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-05-21T10:00:00+09:00",
- "score_total": 74.5,
- "grade": "B",
- "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — yt-dlp 최근 8개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측.",
+ "evaluated_at": "2026-05-26T10:17:00+09:00",
+ "score_total": 77.5,
+ "grade": "A",
+ "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 10개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -67,23 +67,34 @@
    "retailer_focus": "daiso",
    "score_total": 74.5,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-05-26T10:17:00+09:00",
+   "followers": 567000,
+   "engagement_rate": 0.0174,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 77.5,
+   "grade": "A",
+   "note": "STEP B full re-analysis (10:00 KST)"
   }
  ],
  "score_breakdown": {
   "er_score": 60,
   "brand_fit_score": 90,
-  "consistency_score": 80,
+  "consistency_score": 100,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "post_count_total": 5,
- "score": 74.5,
- "total_score": 74.5,
- "avg_likes": 579.8,
- "avg_views": 30790.6,
+ "score": 77.5,
+ "total_score": 77.5,
+ "avg_likes": 663.1,
+ "avg_views": 38017.2,
  "estimation_flags": {
   "engagement_rate": "measured",
-  "posts_last_30d": "measured(upload_date)",
+  "posts_last_30d": "measured(upload_date, sample-capped lower bound)",
   "brand_fit": "measured(title+tags)",
   "followers": "measured"
  }

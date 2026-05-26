@@ -4,21 +4,21 @@
  "fullname": "오션 OCEAN",
  "profile_url": "https://www.youtube.com/channel/UCSx-2fuyotB8WA8KytyhACg",
  "followers": 286000,
- "engagement_rate": 0.0266,
- "posts_last_30d": 8,
- "sample_size": 8,
+ "engagement_rate": 0.0257,
+ "posts_last_30d": 9,
+ "sample_size": 10,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "none",
-  "olive_young_mentions": "strong (28건)",
-  "beauty_topical_strength": "strong (162건)",
+  "olive_young_mentions": "present (28건)",
+  "beauty_topical_strength": "strong (209건)",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-05-21T10:00:00+09:00",
+ "evaluated_at": "2026-05-26T10:17:00+09:00",
  "score_total": 74.5,
- "grade": "B",
- "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — yt-dlp 최근 8개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측.",
+ "grade": "A",
+ "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 10개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -67,6 +67,17 @@
    "retailer_focus": "olive_young",
    "score_total": 74.5,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-05-26T10:17:00+09:00",
+   "followers": 286000,
+   "engagement_rate": 0.0257,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 74.5,
+   "grade": "A",
+   "note": "STEP B full re-analysis (10:00 KST)"
   }
  ],
  "score_breakdown": {
@@ -78,8 +89,8 @@
  },
  "score": 74.5,
  "total_score": 74.5,
- "avg_likes": 904.4,
- "avg_views": 33995.8,
+ "avg_likes": 815.0,
+ "avg_views": 31688.0,
  "estimation_flags": {
   "engagement_rate": "measured",
   "posts_last_30d": "measured(upload_date)",

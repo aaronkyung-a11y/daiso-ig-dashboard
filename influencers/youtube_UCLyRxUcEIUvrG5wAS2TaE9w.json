@@ -2,24 +2,24 @@
  "platform": "youtube",
  "username": "UCLyRxUcEIUvrG5wAS2TaE9w",
  "profile_url": "https://www.youtube.com/channel/UCLyRxUcEIUvrG5wAS2TaE9w",
- "evaluated_at": "2026-05-21T10:00:00+09:00",
+ "evaluated_at": "2026-05-26T10:17:00+09:00",
  "fullname": "피부는 희쌤",
- "followers": 17500,
- "sample_size": 8,
- "avg_views": 16590.6,
- "avg_likes": 417.2,
- "engagement_rate": 0.0251,
+ "followers": 17700,
+ "sample_size": 10,
+ "avg_views": 17123.4,
+ "avg_likes": 439.4,
+ "engagement_rate": 0.0257,
  "posts_last_30d": 4,
  "_posts_last_30d_est": true,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "strong (11건)",
-  "olive_young_mentions": "medium (3건)",
-  "beauty_topical_strength": "strong (64건)",
+  "daiso_mentions": "present (11건)",
+  "olive_young_mentions": "present (4건)",
+  "beauty_topical_strength": "strong (76건)",
   "labrang_blanc_doux_mention": false
  },
- "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — yt-dlp 최근 8개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측.",
+ "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 10개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
  "score_total": 69.5,
  "grade": "B",
  "history": [
@@ -41,6 +41,17 @@
    "retailer_focus": "daiso",
    "score_total": 69.5,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-05-26T10:17:00+09:00",
+   "followers": 17700,
+   "engagement_rate": 0.0257,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 69.5,
+   "grade": "B",
+   "note": "STEP B full re-analysis (10:00 KST)"
   }
  ],
  "estimation_flags": {

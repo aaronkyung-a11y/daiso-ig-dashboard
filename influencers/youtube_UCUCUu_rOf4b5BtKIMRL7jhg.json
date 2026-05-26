@@ -3,22 +3,22 @@
  "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
  "fullname": "뮤니",
  "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
- "followers": 1190,
- "engagement_rate": 0.0357,
- "posts_last_30d": 6,
- "sample_size": 6,
+ "followers": 1250,
+ "engagement_rate": 0.0352,
+ "posts_last_30d": 7,
+ "sample_size": 8,
  "brand_fit_score": 75,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "medium (6건)",
-  "olive_young_mentions": "none",
+  "daiso_mentions": "present (9건)",
+  "olive_young_mentions": "present (2건)",
   "beauty_topical_strength": "medium (5건)",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-05-21T10:00:00+09:00",
- "score_total": 76.75,
+ "evaluated_at": "2026-05-26T10:17:00+09:00",
+ "score_total": 76.8,
  "grade": "A",
- "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — yt-dlp 최근 6개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측.",
+ "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 8개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:17:28.728191+09:00",
@@ -76,6 +76,17 @@
    "retailer_focus": "daiso",
    "score_total": 76.75,
    "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-05-26T10:17:00+09:00",
+   "followers": 1250,
+   "engagement_rate": 0.0352,
+   "posts_last_30d": 7,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "score_total": 76.8,
+   "grade": "A",
+   "note": "STEP B full re-analysis (10:00 KST)"
   }
  ],
  "score_breakdown": {
@@ -85,10 +96,10 @@
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "score": 76.75,
- "total_score": 76.75,
- "avg_likes": 1993.7,
- "avg_views": 55896.0,
+ "score": 76.8,
+ "total_score": 76.8,
+ "avg_likes": 1635.12,
+ "avg_views": 46478.12,
  "estimation_flags": {
   "engagement_rate": "measured",
   "posts_last_30d": "measured(upload_date)",

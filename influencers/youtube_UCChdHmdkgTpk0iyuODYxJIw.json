@@ -3,22 +3,22 @@
  "username": "UCChdHmdkgTpk0iyuODYxJIw",
  "fullname": "해니 haeni beauty",
  "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
- "followers": 478000,
- "engagement_rate": 0.0358,
- "posts_last_30d": 3,
- "sample_size": 8,
+ "followers": 479000,
+ "engagement_rate": 0.0432,
+ "posts_last_30d": 4,
+ "sample_size": 10,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "none",
-  "olive_young_mentions": "weak (1건)",
-  "beauty_topical_strength": "strong (185건)",
+  "olive_young_mentions": "present (1건)",
+  "beauty_topical_strength": "strong (228건)",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-05-21T10:00:00+09:00",
+ "evaluated_at": "2026-05-26T10:17:00+09:00",
  "score_total": 81.5,
  "grade": "A",
- "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — yt-dlp 최근 8개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측.",
+ "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 10개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:16:44.698250+09:00",
@@ -76,6 +76,17 @@
    "retailer_focus": "olive_young",
    "score_total": 81.5,
    "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-05-26T10:17:00+09:00",
+   "followers": 479000,
+   "engagement_rate": 0.0432,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 81.5,
+   "grade": "A",
+   "note": "STEP B full re-analysis (10:00 KST)"
   }
  ],
  "score_breakdown": {
@@ -87,8 +98,8 @@
  },
  "score": 81.5,
  "total_score": 81.5,
- "avg_likes": 1119.4,
- "avg_views": 31297.6,
+ "avg_likes": 2025.5,
+ "avg_views": 46865.7,
  "estimation_flags": {
   "engagement_rate": "measured",
   "posts_last_30d": "measured(upload_date)",
