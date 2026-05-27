@@ -5,29 +5,29 @@
   "channel_id": "UCjegsOAf5nOCfLfMpLyNj0A",
   "profile_url": "https://www.youtube.com/channel/UCjegsOAf5nOCfLfMpLyNj0A",
   "followers": 218000,
-  "avg_views": 14122,
-  "avg_likes": 13.8,
+  "avg_views": 14500.2,
+  "avg_likes": 21.71,
   "avg_comments": 9.0,
-  "engagement_rate": 0.2596,
-  "posts_last_30d": 9,
-  "sample_size": 9,
+  "engagement_rate": 0.15,
+  "posts_last_30d": 17,
+  "sample_size": 17,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_count": 12,
+    "daiso_count": 24,
     "olive_young_count": 0,
-    "beauty_keyword_count": 19,
+    "beauty_keyword_count": 42,
     "our_brand_present": false
   },
-  "total_score": 57.0,
+  "total_score": 67.5,
   "score_breakdown": {
     "engagement": 40,
-    "brand_fit": 60,
-    "consistency": 80,
+    "brand_fit": 90,
+    "consistency": 100,
     "follower_scale": 100
   },
   "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "evaluated_at": "2026-05-27T14:10:00+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,15 +37,24 @@
       "posts_last_30d": 9,
       "brand_fit_score": 90,
       "retailer_focus": "daiso"
+    },
+    {
+      "evaluated_at": "2026-05-27T14:10:00+09:00",
+      "score_total": 67.5,
+      "engagement_rate": 0.15,
+      "followers": 218000,
+      "posts_last_30d": 17,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso"
     }
   ],
-  "score_total": 64.5,
+  "score_total": 67.5,
   "score": {
-    "total": 57.0,
+    "total": 67.5,
     "breakdown": {
       "engagement": 40,
-      "brand_fit": 60,
-      "consistency": 80,
+      "brand_fit": 90,
+      "consistency": 100,
       "follower_scale": 100
     },
     "weights": {
@@ -64,5 +73,5 @@
   "view_to_sub_ratio": 0.0122,
   "top_video_views": 2667.4,
   "top_post_likes": 13.8,
-  "sample_note": "STEP B 풀 재분석. likes 추출 9/9 (JS런타임 없음 → 일부 0)"
+  "sample_note": "STEP B-Light(14시) 재분석. yt-dlp likes 추출 sample 17건 (JS런타임 없음 → 일부 0 가능, 추정 포함)"
 }
