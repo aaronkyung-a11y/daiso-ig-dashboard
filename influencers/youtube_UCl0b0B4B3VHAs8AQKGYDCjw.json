@@ -1,68 +1,84 @@
 {
-  "platform": "youtube",
-  "username": "UCl0b0B4B3VHAs8AQKGYDCjw",
-  "fullname": "일돈나",
-  "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
-  "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
-  "followers": 1110,
-  "avg_views": 83503,
-  "avg_likes": 1947.0,
-  "avg_comments": 19.0,
-  "engagement_rate": 1.7257,
-  "posts_last_30d": 6,
-  "sample_size": 12,
-  "brand_fit_score": 90,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_count": 24,
-    "olive_young_count": 9,
-    "beauty_keyword_count": 23,
-    "our_brand_present": false
+ "platform": "youtube",
+ "username": "UCl0b0B4B3VHAs8AQKGYDCjw",
+ "fullname": "일돈나",
+ "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
+ "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
+ "followers": 1280,
+ "avg_views": 31373.0,
+ "avg_likes": 407.1,
+ "avg_comments": 8.3,
+ "engagement_rate": 0.013,
+ "posts_last_30d": 7,
+ "sample_size": 7,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso_count": 93,
+  "olive_young_count": 38,
+  "beauty_keyword_count": 17,
+  "our_brand_present": false
+ },
+ "total_score": 70.5,
+ "score_breakdown": {
+  "engagement": 60,
+  "brand_fit": 60,
+  "consistency": 80,
+  "follower_scale": 60
+ },
+ "grade": "B",
+ "evaluated_at": "2026-05-27T17:05:00+09:00",
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 70.5,
+   "engagement_rate": 1.7257,
+   "followers": 1110,
+   "posts_last_30d": 6,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   },
-  "total_score": 63.0,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 60,
-    "consistency": 80,
-    "follower_scale": 60
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "followers": 1110,
+   "engagement_rate": 1.7257,
+   "posts_last_30d": 6,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 70.5,
+   "grade": "B"
+  }
+ ],
+ "score_total": 70.5,
+ "score": {
+  "total": 70.5,
+  "breakdown": {
+   "engagement": 60,
+   "brand_fit": 90,
+   "consistency": 80,
+   "follower_scale": 60
   },
-  "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 70.5,
-      "engagement_rate": 1.7257,
-      "followers": 1110,
-      "posts_last_30d": 6,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso"
-    }
-  ],
-  "score_total": 70.5,
-  "score": {
-    "total": 63.0,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 60,
-      "consistency": 80,
-      "follower_scale": 60
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:5건 / oliveyoung:2건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw"
-  },
-  "post_count_total": 5,
-  "view_to_sub_ratio": 100.8373,
-  "top_video_views": 111929.4,
-  "top_post_likes": 1947.0,
-  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
+  "weights": {
+   "engagement": 0.5,
+   "brand_fit": 0.25,
+   "consistency": 0.15,
+   "follower_scale": 0.1
+  }
+ },
+ "notes": "yt-dlp: 7 videos sampled, 7 in 30d window",
+ "brand_fit_notes": "daiso:93건 / oliveyoung:38건 / labrang:N",
+ "sample_data_evidence": {
+  "channel_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw"
+ },
+ "post_count_total": 5,
+ "view_to_sub_ratio": 100.8373,
+ "top_video_views": 111929.4,
+ "top_post_likes": 1947.0,
+ "sample_note": "2026-05-27T17:05:00+09:00 STEP B-Light (17시 슬롯) 재분석 — yt-dlp 채널 영상 7건 실측(조회/좋아요/댓글/업로드일). ER=avg_likes/avg_views. brand_fit·retailer_focus=title+tags+description 키워드 실측. likes 추출 7/7. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "estimation_flags": {
+  "engagement_rate": "measured(avg_likes/avg_views, yt-dlp)",
+  "posts_last_30d": "measured(upload_date/timestamp)",
+  "brand_fit": "measured(title+tags+description keywords)",
+  "followers": "measured(channel_follower_count)"
+ }
 }

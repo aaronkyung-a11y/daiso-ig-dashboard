@@ -1,60 +1,76 @@
 {
-  "platform": "youtube",
-  "username": "UCkCQe4QPcKCvB3PTzIWHn2g",
-  "fullname": "하이하쥬 hihajyu",
-  "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g",
-  "followers": 8,
-  "avg_views": 5692,
-  "avg_likes": 60.2,
-  "avg_comments": 0.8,
-  "engagement_rate": 0.9628,
-  "posts_last_30d": 5,
-  "sample_size": 5,
-  "brand_fit_score": 60,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_count": 3,
-    "olive_young_count": 1,
-    "beauty_keyword_count": 2,
-    "our_brand_present": false
+ "platform": "youtube",
+ "username": "UCkCQe4QPcKCvB3PTzIWHn2g",
+ "fullname": "하이하쥬 hihajyu",
+ "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g",
+ "followers": 23,
+ "avg_views": 5000.2,
+ "avg_likes": 49.9,
+ "avg_comments": 6.0,
+ "engagement_rate": 0.01,
+ "posts_last_30d": 8,
+ "sample_size": 8,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso_count": 7,
+  "olive_young_count": 1,
+  "beauty_keyword_count": 9,
+  "our_brand_present": true
+ },
+ "evaluated_at": "2026-05-27T17:05:00+09:00",
+ "sample_note": "2026-05-27T17:05:00+09:00 STEP B-Light (17시 슬롯) 재분석 — yt-dlp 채널 영상 8건 실측(조회/좋아요/댓글/업로드일). ER=avg_likes/avg_views. brand_fit·retailer_focus=title+tags+description 키워드 실측. likes 추출 8/8. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "score_total": 61.0,
+ "grade": "C",
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 51.0,
+   "engagement_rate": 0.9628,
+   "followers": 8,
+   "posts_last_30d": 5,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso"
   },
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
-  "sample_note": "STEP B 풀 재분석. likes 추출 5/5 (JS런타임 없음 → 일부 0)",
-  "score_total": 51.0,
-  "grade": "C",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 51.0,
-      "engagement_rate": 0.9628,
-      "followers": 8,
-      "posts_last_30d": 5,
-      "brand_fit_score": 60,
-      "retailer_focus": "daiso"
-    }
-  ],
-  "score": {
-    "total": 51.75,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 75,
-      "consistency": 60,
-      "follower_scale": 40
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "followers": 8,
+   "engagement_rate": 0.9628,
+   "posts_last_30d": 5,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso",
+   "score_total": 51.0,
+   "grade": "C"
+  }
+ ],
+ "score": {
+  "total": 61.0,
+  "breakdown": {
+   "engagement": 40,
+   "brand_fit": 100,
+   "consistency": 80,
+   "follower_scale": 40
   },
-  "total_score": 51.75,
-  "notes": "yt-dlp: 4 videos sampled, 4 in 30d window",
-  "brand_fit_notes": "daiso:3건 / oliveyoung:none / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g"
-  },
-  "post_count_total": 4,
-  "view_to_sub_ratio": 760.85,
-  "top_video_views": 6086.8
+  "weights": {
+   "engagement": 0.5,
+   "brand_fit": 0.25,
+   "consistency": 0.15,
+   "follower_scale": 0.1
+  }
+ },
+ "total_score": 61.0,
+ "notes": "yt-dlp: 8 videos sampled, 8 in 30d window",
+ "brand_fit_notes": "daiso:7건 / oliveyoung:1건 / labrang:Y",
+ "sample_data_evidence": {
+  "channel_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g"
+ },
+ "post_count_total": 4,
+ "view_to_sub_ratio": 760.85,
+ "top_video_views": 6086.8,
+ "estimation_flags": {
+  "engagement_rate": "measured(avg_likes/avg_views, yt-dlp)",
+  "posts_last_30d": "measured(upload_date/timestamp)",
+  "brand_fit": "measured(title+tags+description keywords)",
+  "followers": "measured(channel_follower_count)"
+ }
 }
