@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-27T10:35:00+09:00",
+  "generated_at": "2026-05-27T14:10:00+09:00",
   "total_records": 92,
   "platform_counts": {
     "instagram": 23,
     "youtube": 69
   },
   "retailer_focus_distribution": {
-    "olive_young": 21,
-    "daiso": 26,
     "our_brand": 15,
-    "beauty_general": 15,
+    "olive_young": 22,
+    "daiso": 26,
+    "beauty_general": 14,
     "mixed": 5,
     "off_topic": 10
   },
@@ -1448,43 +1448,43 @@
       "fullname": "나는의사다",
       "profile_url": "https://www.youtube.com/channel/UCjegsOAf5nOCfLfMpLyNj0A",
       "followers": 218000,
-      "engagement_rate": 0.2596,
-      "posts_last_30d": 9,
-      "sample_size": 9,
+      "engagement_rate": 0.15,
+      "posts_last_30d": 17,
+      "sample_size": 17,
       "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "retailer_signal": {
-        "daiso_count": 12,
+        "daiso_count": 24,
         "olive_young_count": 0,
-        "beauty_keyword_count": 19,
+        "beauty_keyword_count": 42,
         "our_brand_present": false
       },
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 64.5,
+      "evaluated_at": "2026-05-27T14:10:00+09:00",
+      "score_total": 67.5,
       "grade": "B",
-      "sample_note": "STEP B 풀 재분석. likes 추출 9/9 (JS런타임 없음 → 일부 0)"
+      "sample_note": "STEP B-Light(14시) 재분석. yt-dlp likes 추출 sample 17건 (JS런타임 없음 → 일부 0 가능, 추정 포함)"
     },
     {
       "platform": "youtube",
       "username": "UCk1BE73NfSUGz19LpNg9E-w",
       "fullname": "daily miracle~",
       "profile_url": "https://www.youtube.com/channel/UCk1BE73NfSUGz19LpNg9E-w",
-      "followers": 384000,
-      "engagement_rate": 2.0276,
+      "followers": 383000,
+      "engagement_rate": 1.98,
       "posts_last_30d": 4,
       "sample_size": 4,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general",
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
       "retailer_signal": {
         "daiso_count": 0,
-        "olive_young_count": 0,
-        "beauty_keyword_count": 1,
+        "olive_young_count": 2,
+        "beauty_keyword_count": 14,
         "our_brand_present": false
       },
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 64.0,
+      "evaluated_at": "2026-05-27T14:10:00+09:00",
+      "score_total": 71.5,
       "grade": "B",
-      "sample_note": "STEP B 풀 재분석. likes 추출 4/4 (JS런타임 없음 → 일부 0)"
+      "sample_note": "STEP B-Light(14시) 재분석. yt-dlp likes 추출 sample 4건 (JS런타임 없음 → 일부 0 가능, 추정 포함)"
     },
     {
       "platform": "youtube",
