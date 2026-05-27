@@ -1,150 +1,115 @@
 {
- "platform": "instagram",
- "username": "moon__brand",
- "profile_url": "https://www.instagram.com/moon__brand/",
- "fullname": "문브의 데일리야구🇰🇷 K-야구문화•크보•팝업",
- "followers": 45083,
- "following": 1001,
- "post_count_total": 635,
- "bio": "",
- "sample_size": 12,
- "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — IG 로그인, web feed API로 최근 12개 reel 실측(좋아요/댓글/조회/캡션). ER=(평균 좋아요+댓글)/팔로워 실측. brand_fit·retailer_focus=캡션+bio 키워드 실측.",
- "avg_likes": 3195,
- "avg_comments": 63.6,
- "avg_engagement": 3953.26,
- "engagement_rate": 0.0723,
- "top_post_likes": 15679,
- "posts_last_30d": 9,
- "posts_last_30d_note": "추정 (분석 샘플 기반, 실제 게시 빈도와 다를 수 있음)",
- "brand_fit_score": 25,
- "retailer_focus": "daiso",
- "retailer_signal": {
-  "daiso_mentions": "weak (1건)",
-  "olive_young_mentions": "none",
-  "beauty_topical_strength": "none (0건)",
-  "labrang_blanc_doux_mention": false
- },
- "brand_fit_notes": "beauty 0/daiso 1건/oy none/labrang N",
- "sample_data_evidence": {
-  "likes_sample": [
-   8953,
-   15679,
-   2049,
-   379,
-   907,
-   774,
-   378,
-   1792
-  ],
-  "comments_sample": [
-   114,
-   321,
-   132,
-   13,
-   49,
-   16,
-   22,
-   48
-  ],
-  "reel_codes": [
-   "DPyoPwpk6gU",
-   "DJrboMnzX3m",
-   "DX_zl4BOlfN",
-   "DX0JdkdO5c7",
-   "DXyCfrWuBGv",
-   "DXt0LeFjia0",
-   "DXtSgwfjmNp",
-   "DXl6OhlDiPz"
-  ],
-  "top_reel": "https://www.instagram.com/p/DJrboMnzX3m/"
- },
- "evaluated_at": "2026-05-21T10:00:00+09:00",
- "notes": "STEP A new analysis from Form CSV. Code-based extraction from script blob.",
- "score": 71.25,
- "grade": "B",
- "history": [
-  {
-   "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
-   "followers": 45000,
-   "engagement_rate": 0.0879,
-   "posts_last_30d": 6,
-   "brand_fit_score": 25,
-   "retailer_focus": "daiso",
-   "score_total": 71.25,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 71.25,
-   "engagement_rate": 0.0879,
-   "followers": 45000,
-   "posts_last_30d": 6,
-   "brand_fit_score": 25,
-   "retailer_focus": "daiso",
-   "note": "snapshot_only (no live refetch)"
-  },
-  {
-   "evaluated_at": "2026-05-07T14:41:05+09:00",
-   "followers": 45000,
-   "engagement_rate": 0.0879,
-   "posts_last_30d": 6,
-   "brand_fit_score": 25,
-   "retailer_focus": "daiso",
-   "score_total": 71.25,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-   "followers": 45000,
-   "engagement_rate": 0.0879,
-   "posts_last_30d": 6,
-   "brand_fit_score": 25,
-   "score_total": 71.25
-  },
-  {
-   "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
-   "followers": 45000,
-   "engagement_rate": 0.0879,
-   "posts_last_30d": 6,
-   "brand_fit_score": 25,
-   "score_total": 71.25
-  },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 45000,
-   "engagement_rate": 0.0879,
-   "posts_last_30d": 6,
-   "brand_fit_score": 25,
-   "score_total": 71.2,
-   "grade": "B",
-   "note": "STEP B light refresh"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 45083,
-   "engagement_rate": 0.0723,
-   "posts_last_30d": 9,
-   "brand_fit_score": 25,
-   "retailer_focus": "daiso",
-   "score_total": 71.25,
-   "grade": "B"
-  }
- ],
- "score_total": 71.25,
- "total_score": 71.25,
- "score_breakdown": {
-  "er_score": 90,
+  "platform": "instagram",
+  "username": "moon__brand",
+  "fullname": "문브의 데일리야구🇰🇷 K-야구문화•크보•팝업",
+  "profile_url": "https://www.instagram.com/moon__brand/",
+  "followers": 45092,
+  "engagement_rate": 0.0727,
+  "posts_last_30d": 9,
+  "sample_size": 12,
   "brand_fit_score": 25,
-  "consistency_score": 80,
-  "follower_scale_score": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "snapshot_refresh_at": "2026-05-12T10:15:00+09:00",
- "estimation_flags": {
-  "engagement_rate": "measured",
-  "posts_last_30d": "measured(taken_at)",
-  "brand_fit": "measured(captions)",
-  "followers": "measured"
- },
- "avg_views": 349348
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "weak (1건)",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "none",
+    "labrang_blanc_doux_mention": false
+  },
+  "avg_likes": 3210,
+  "avg_comments": 67,
+  "evaluated_at": "2026-05-27T10:33:00+09:00",
+  "score_total": 71.2,
+  "grade": "B",
+  "score_breakdown": {
+    "er_score": 90,
+    "brand_fit_score": 25,
+    "consistency_score": 80,
+    "follower_scale_score": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "engagement_rate": "measured((avg_likes+avg_comments)/followers, 12-reel sample)",
+    "posts_last_30d": "measured(taken_at)",
+    "brand_fit": "measured(caption+bio keywords)",
+    "followers": "measured"
+  },
+  "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+  "history": [
+    {
+      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+      "followers": 45000,
+      "engagement_rate": 0.0879,
+      "posts_last_30d": 6,
+      "brand_fit_score": 25,
+      "retailer_focus": "daiso",
+      "score_total": 71.25,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 71.25,
+      "engagement_rate": 0.0879,
+      "followers": 45000,
+      "posts_last_30d": 6,
+      "brand_fit_score": 25,
+      "retailer_focus": "daiso",
+      "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-07T14:41:05+09:00",
+      "followers": 45000,
+      "engagement_rate": 0.0879,
+      "posts_last_30d": 6,
+      "brand_fit_score": 25,
+      "retailer_focus": "daiso",
+      "score_total": 71.25,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 45000,
+      "engagement_rate": 0.0879,
+      "posts_last_30d": 6,
+      "brand_fit_score": 25,
+      "score_total": 71.25
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 45000,
+      "engagement_rate": 0.0879,
+      "posts_last_30d": 6,
+      "brand_fit_score": 25,
+      "score_total": 71.25
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 45000,
+      "engagement_rate": 0.0879,
+      "posts_last_30d": 6,
+      "brand_fit_score": 25,
+      "score_total": 71.2,
+      "grade": "B",
+      "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 45083,
+      "engagement_rate": 0.0723,
+      "posts_last_30d": 9,
+      "brand_fit_score": 25,
+      "retailer_focus": "daiso",
+      "score_total": 71.25,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "score_total": 71.25,
+      "engagement_rate": 0.0723,
+      "followers": 45083,
+      "posts_last_30d": 9,
+      "brand_fit_score": 25,
+      "retailer_focus": "daiso",
+      "grade": "B"
+    }
+  ]
 }

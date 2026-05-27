@@ -1,72 +1,79 @@
 {
- "platform": "youtube",
- "username": "UCLyRxUcEIUvrG5wAS2TaE9w",
- "profile_url": "https://www.youtube.com/channel/UCLyRxUcEIUvrG5wAS2TaE9w",
- "evaluated_at": "2026-05-26T10:17:00+09:00",
- "fullname": "피부는 희쌤",
- "followers": 17700,
- "sample_size": 10,
- "avg_views": 17123.4,
- "avg_likes": 439.4,
- "engagement_rate": 0.0257,
- "posts_last_30d": 4,
- "_posts_last_30d_est": true,
- "brand_fit_score": 90,
- "retailer_focus": "daiso",
- "retailer_signal": {
-  "daiso_mentions": "present (11건)",
-  "olive_young_mentions": "present (4건)",
-  "beauty_topical_strength": "strong (76건)",
-  "labrang_blanc_doux_mention": false
- },
- "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 10개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
- "score_total": 69.5,
- "grade": "B",
- "history": [
-  {
-   "evaluated_at": "2026-05-19T05:08:22.659922+00:00",
-   "engagement_rate": 2.72,
-   "followers": 17400,
-   "brand_fit_score": 100,
-   "posts_last_30d": 20,
-   "score_total": 78.0,
-   "grade": "A"
+  "platform": "youtube",
+  "username": "UCLyRxUcEIUvrG5wAS2TaE9w",
+  "fullname": "피부는 희쌤",
+  "profile_url": "https://www.youtube.com/channel/UCLyRxUcEIUvrG5wAS2TaE9w",
+  "followers": 17700,
+  "engagement_rate": 0.022,
+  "posts_last_30d": 4,
+  "sample_size": 14,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso_mentions": "strong (21건)",
+    "olive_young_mentions": "strong (41건)",
+    "beauty_topical_strength": "strong (176건)",
+    "labrang_blanc_doux_mention": true
   },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 17500,
-   "engagement_rate": 0.0251,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 69.5,
-   "grade": "B"
+  "avg_likes": 609.9,
+  "avg_views": 27710.5,
+  "evaluated_at": "2026-05-27T10:33:00+09:00",
+  "score_total": 72.0,
+  "grade": "B",
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 100,
+    "consistency_score": 60,
+    "follower_scale_score": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  {
-   "evaluated_at": "2026-05-26T10:17:00+09:00",
-   "followers": 17700,
-   "engagement_rate": 0.0257,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 69.5,
-   "grade": "B",
-   "note": "STEP B full re-analysis (10:00 KST)"
-  }
- ],
- "estimation_flags": {
-  "engagement_rate": "measured",
-  "posts_last_30d": "measured(upload_date)",
-  "brand_fit": "measured(title+tags)",
-  "followers": "measured"
- },
- "score_breakdown": {
-  "er_score": 60,
-  "brand_fit_score": 90,
-  "consistency_score": 60,
-  "follower_scale_score": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "score": 69.5,
- "total_score": 69.5
+  "estimation_flags": {
+    "engagement_rate": "measured(avg_likes/avg_views, yt-dlp)",
+    "posts_last_30d": "measured(upload_date)",
+    "brand_fit": "measured(title+description+tags)",
+    "followers": "measured"
+  },
+  "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — yt-dlp 최근 14개 영상 실측(조회/좋아요/날짜/제목·설명·태그). ER=평균좋아요/평균조회. brand_fit·retailer_focus=제목+설명+태그 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+  "history": [
+    {
+      "evaluated_at": "2026-05-19T05:08:22.659922+00:00",
+      "engagement_rate": 2.72,
+      "followers": 17400,
+      "brand_fit_score": 100,
+      "posts_last_30d": 20,
+      "score_total": 78.0,
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 17500,
+      "engagement_rate": 0.0251,
+      "posts_last_30d": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 69.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "followers": 17700,
+      "engagement_rate": 0.0257,
+      "posts_last_30d": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 69.5,
+      "grade": "B",
+      "note": "STEP B full re-analysis (10:00 KST)"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "score_total": 69.5,
+      "engagement_rate": 0.0257,
+      "followers": 17700,
+      "posts_last_30d": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "grade": "B"
+    }
+  ]
 }

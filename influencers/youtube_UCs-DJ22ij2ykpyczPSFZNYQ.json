@@ -1,100 +1,108 @@
 {
- "platform": "youtube",
- "username": "UCs-DJ22ij2ykpyczPSFZNYQ",
- "fullname": "Nyam",
- "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
- "followers": 49,
- "engagement_rate": 0.0435,
- "posts_last_30d": 0,
- "sample_size": 1,
- "brand_fit_score": 25,
- "retailer_focus": "off_topic",
- "retailer_signal": {
-  "daiso_mentions": "none",
-  "olive_young_mentions": "none",
-  "beauty_topical_strength": "none (0건)",
-  "labrang_blanc_doux_mention": false
- },
- "evaluated_at": "2026-05-26T10:17:00+09:00",
- "score_total": 56.2,
- "grade": "B",
- "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 1개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
- "history": [
-  {
-   "evaluated_at": "2026-05-14T10:13:42.874909+09:00",
-   "followers": 41,
-   "engagement_rate": 1.715,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 68.5,
-   "grade": "B"
+  "platform": "youtube",
+  "username": "UCs-DJ22ij2ykpyczPSFZNYQ",
+  "fullname": "Nyam",
+  "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
+  "followers": 49,
+  "engagement_rate": 0.0137,
+  "posts_last_30d": 9,
+  "sample_size": 14,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "strong (13건)",
+    "olive_young_mentions": "strong (9건)",
+    "beauty_topical_strength": "strong (29건)",
+    "labrang_blanc_doux_mention": false
   },
-  {
-   "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-   "followers": 42,
-   "engagement_rate": 1.715,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "score_total": 68.5
+  "avg_likes": 76.2,
+  "avg_views": 5582.5,
+  "evaluated_at": "2026-05-27T10:33:00+09:00",
+  "score_total": 68.5,
+  "grade": "B",
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 90,
+    "consistency_score": 80,
+    "follower_scale_score": 40,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 46,
-   "engagement_rate": 1.715,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "score_total": 68.5,
-   "grade": "B",
-   "note": "STEP B light refresh"
+  "estimation_flags": {
+    "engagement_rate": "measured(avg_likes/avg_views, yt-dlp)",
+    "posts_last_30d": "measured(upload_date)",
+    "brand_fit": "measured(title+description+tags)",
+    "followers": "measured"
   },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 46,
-   "engagement_rate": 1.715,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 68.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 48,
-   "engagement_rate": 0.0444,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.25,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-05-26T10:17:00+09:00",
-   "followers": 49,
-   "engagement_rate": 0.0435,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.2,
-   "grade": "B",
-   "note": "STEP B full re-analysis (10:00 KST)"
-  }
- ],
- "score_breakdown": {
-  "er_score": 80,
-  "brand_fit_score": 25,
-  "consistency_score": 40,
-  "follower_scale_score": 40,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "score": 56.2,
- "total_score": 56.2,
- "avg_likes": 2.0,
- "avg_views": 46.0,
- "estimation_flags": {
-  "engagement_rate": "measured",
-  "posts_last_30d": "measured(upload_date)",
-  "brand_fit": "measured(title+tags)",
-  "followers": "measured"
- }
+  "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — yt-dlp 최근 14개 영상 실측(조회/좋아요/날짜/제목·설명·태그). ER=평균좋아요/평균조회. brand_fit·retailer_focus=제목+설명+태그 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+  "history": [
+    {
+      "evaluated_at": "2026-05-14T10:13:42.874909+09:00",
+      "followers": 41,
+      "engagement_rate": 1.715,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 68.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 42,
+      "engagement_rate": 1.715,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "score_total": 68.5
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 46,
+      "engagement_rate": 1.715,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "score_total": 68.5,
+      "grade": "B",
+      "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 46,
+      "engagement_rate": 1.715,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 68.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 48,
+      "engagement_rate": 0.0444,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 56.25,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "followers": 49,
+      "engagement_rate": 0.0435,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 56.2,
+      "grade": "B",
+      "note": "STEP B full re-analysis (10:00 KST)"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "score_total": 56.2,
+      "engagement_rate": 0.0435,
+      "followers": 49,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "B"
+    }
+  ]
 }

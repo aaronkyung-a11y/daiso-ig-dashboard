@@ -1,81 +1,89 @@
 {
- "platform": "youtube",
- "username": "UChaTUCM7bPBTJaIZQ83PNwQ",
- "fullname": "스완SWAN_현실남자관리",
- "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
- "followers": 497000,
- "engagement_rate": 0.0155,
- "posts_last_30d": 7,
- "sample_size": 10,
- "brand_fit_score": 60,
- "retailer_focus": "beauty_general",
- "retailer_signal": {
-  "daiso_mentions": "none",
-  "olive_young_mentions": "none",
-  "beauty_topical_strength": "weak (2건)",
-  "labrang_blanc_doux_mention": false
- },
- "evaluated_at": "2026-05-26T10:17:00+09:00",
- "score_total": 67.0,
- "grade": "B",
- "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 10개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
- "history": [
-  {
-   "evaluated_at": "2026-05-19T05:09:02.898661+00:00",
-   "engagement_rate": 2.03,
-   "followers": 497000,
-   "brand_fit_score": 100,
-   "posts_last_30d": 20,
-   "score_total": 80.0,
-   "grade": "S"
+  "platform": "youtube",
+  "username": "UChaTUCM7bPBTJaIZQ83PNwQ",
+  "fullname": "스완SWAN_현실남자관리",
+  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
+  "followers": 497000,
+  "engagement_rate": 0.0183,
+  "posts_last_30d": 6,
+  "sample_size": 14,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso_mentions": "weak (1건)",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "strong (24건)",
+    "labrang_blanc_doux_mention": true
   },
-  {
-   "evaluated_at": "2026-05-19T05:09:02.898661+00:00",
-   "followers": 497000,
-   "engagement_rate": 2.03,
-   "posts_last_30d": 20,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 80.0,
-   "grade": "S"
+  "avg_likes": 2143.6,
+  "avg_views": 116927.6,
+  "evaluated_at": "2026-05-27T10:33:00+09:00",
+  "score_total": 77.0,
+  "grade": "A",
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 100,
+    "consistency_score": 80,
+    "follower_scale_score": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 497000,
-   "engagement_rate": 0.0193,
-   "posts_last_30d": 8,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 67.0,
-   "grade": "B"
+  "estimation_flags": {
+    "engagement_rate": "measured(avg_likes/avg_views, yt-dlp)",
+    "posts_last_30d": "measured(upload_date)",
+    "brand_fit": "measured(title+description+tags)",
+    "followers": "measured"
   },
-  {
-   "evaluated_at": "2026-05-26T10:17:00+09:00",
-   "followers": 497000,
-   "engagement_rate": 0.0155,
-   "posts_last_30d": 7,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 67.0,
-   "grade": "B",
-   "note": "STEP B full re-analysis (10:00 KST)"
-  }
- ],
- "score_breakdown": {
-  "er_score": 60,
-  "brand_fit_score": 60,
-  "consistency_score": 80,
-  "follower_scale_score": 100,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "avg_likes": 1620.3,
- "avg_views": 104486.2,
- "estimation_flags": {
-  "engagement_rate": "measured",
-  "posts_last_30d": "measured(upload_date)",
-  "brand_fit": "measured(title+tags)",
-  "followers": "measured"
- },
- "score": 67.0,
- "total_score": 67.0
+  "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — yt-dlp 최근 14개 영상 실측(조회/좋아요/날짜/제목·설명·태그). ER=평균좋아요/평균조회. brand_fit·retailer_focus=제목+설명+태그 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+  "history": [
+    {
+      "evaluated_at": "2026-05-19T05:09:02.898661+00:00",
+      "engagement_rate": 2.03,
+      "followers": 497000,
+      "brand_fit_score": 100,
+      "posts_last_30d": 20,
+      "score_total": 80.0,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-19T05:09:02.898661+00:00",
+      "followers": 497000,
+      "engagement_rate": 2.03,
+      "posts_last_30d": 20,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 80.0,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 497000,
+      "engagement_rate": 0.0193,
+      "posts_last_30d": 8,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "score_total": 67.0,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "followers": 497000,
+      "engagement_rate": 0.0155,
+      "posts_last_30d": 7,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "score_total": 67.0,
+      "grade": "B",
+      "note": "STEP B full re-analysis (10:00 KST)"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "score_total": 67.0,
+      "engagement_rate": 0.0155,
+      "followers": 497000,
+      "posts_last_30d": 7,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "grade": "B"
+    }
+  ]
 }

@@ -1,98 +1,103 @@
 {
- "platform": "instagram",
- "username": "ellie._.cos",
- "fullname": "ellie エリ",
- "profile_url": "https://www.instagram.com/ellie._.cos/",
- "followers": 2030,
- "engagement_rate": 0.852,
- "posts_last_30d": 10,
- "sample_size": 12,
- "brand_fit_score": 90,
- "retailer_focus": "daiso",
- "retailer_signal": {
-  "daiso_mentions": "medium (6건)",
-  "olive_young_mentions": "medium (3건)",
-  "beauty_topical_strength": "strong (56건)",
-  "labrang_blanc_doux_mention": false
- },
- "evaluated_at": "2026-05-21T10:00:00+09:00",
- "score_total": 93.5,
- "grade": "S",
- "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — IG 로그인, web feed API로 최근 12개 reel 실측(좋아요/댓글/조회/캡션). ER=(평균 좋아요+댓글)/팔로워 실측. brand_fit·retailer_focus=캡션+bio 키워드 실측.",
- "history": [
-  {
-   "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
-   "followers": 1987,
-   "engagement_rate": 1.1374,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 93.5,
-   "grade": "S"
+  "platform": "instagram",
+  "username": "ellie._.cos",
+  "fullname": "ellie エリ",
+  "profile_url": "https://www.instagram.com/ellie._.cos/",
+  "followers": 2061,
+  "engagement_rate": 0.7417,
+  "posts_last_30d": 10,
+  "sample_size": 12,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso_mentions": "medium (6건)",
+    "olive_young_mentions": "strong (13건)",
+    "beauty_topical_strength": "strong (27건)",
+    "labrang_blanc_doux_mention": true
   },
-  {
-   "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-   "followers": 1987,
-   "engagement_rate": 1.1374,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "score_total": 93.5
+  "avg_likes": 1514,
+  "avg_comments": 14,
+  "evaluated_at": "2026-05-27T10:33:00+09:00",
+  "score_total": 96.0,
+  "grade": "S",
+  "score_breakdown": {
+    "er_score": 100,
+    "brand_fit_score": 100,
+    "consistency_score": 100,
+    "follower_scale_score": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  {
-   "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
-   "followers": 2020,
-   "engagement_rate": 1.1374,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "score_total": 93.5
+  "estimation_flags": {
+    "engagement_rate": "measured((avg_likes+avg_comments)/followers, 12-reel sample)",
+    "posts_last_30d": "measured(taken_at)",
+    "brand_fit": "measured(caption+bio keywords)",
+    "followers": "measured"
   },
-  {
-   "evaluated_at": "2026-05-18T10:09:31.602405+09:00",
-   "followers": 2020,
-   "engagement_rate": 1.1374,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "score_total": 93.5
-  },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 2027,
-   "engagement_rate": 1.1374,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "score_total": 93.5,
-   "grade": "S",
-   "note": "STEP B light refresh"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 2030,
-   "engagement_rate": 0.852,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 93.5,
-   "grade": "S"
-  }
- ],
- "following": 991,
- "post_count_total": 317,
- "score": 93.5,
- "total_score": 93.5,
- "score_breakdown": {
-  "er_score": 100,
-  "brand_fit_score": 90,
-  "consistency_score": 100,
-  "follower_scale_score": 60,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "avg_likes": 1697.3,
- "avg_comments": 32.3,
- "avg_views": 116028,
- "estimation_flags": {
-  "engagement_rate": "measured",
-  "posts_last_30d": "measured(taken_at)",
-  "brand_fit": "measured(captions)",
-  "followers": "measured"
- }
+  "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+  "history": [
+    {
+      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+      "followers": 1987,
+      "engagement_rate": 1.1374,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 93.5,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 1987,
+      "engagement_rate": 1.1374,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "score_total": 93.5
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 2020,
+      "engagement_rate": 1.1374,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "score_total": 93.5
+    },
+    {
+      "evaluated_at": "2026-05-18T10:09:31.602405+09:00",
+      "followers": 2020,
+      "engagement_rate": 1.1374,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "score_total": 93.5
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 2027,
+      "engagement_rate": 1.1374,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "score_total": 93.5,
+      "grade": "S",
+      "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 2030,
+      "engagement_rate": 0.852,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 93.5,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "score_total": 93.5,
+      "engagement_rate": 0.852,
+      "followers": 2030,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "grade": "S"
+    }
+  ]
 }

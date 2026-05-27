@@ -1,91 +1,99 @@
 {
- "platform": "youtube",
- "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
- "fullname": "리뷰하는 회사원",
- "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
- "followers": 581000,
- "engagement_rate": 0.0237,
- "posts_last_30d": 0,
- "sample_size": 8,
- "brand_fit_score": 25,
- "retailer_focus": "off_topic",
- "retailer_signal": {
-  "daiso_mentions": "none",
-  "olive_young_mentions": "none",
-  "beauty_topical_strength": "none (0건)",
-  "labrang_blanc_doux_mention": false
- },
- "evaluated_at": "2026-05-26T10:17:00+09:00",
- "score_total": 52.2,
- "grade": "C",
- "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 8개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
- "history": [
-  {
-   "evaluated_at": "2026-05-15T17:05:00+09:00",
-   "score_total": 52.25,
-   "engagement_rate": 2.3751,
-   "followers": 581000,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic"
-  },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 25400,
-   "engagement_rate": 2.3751,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "score_total": 50.2,
-   "grade": "C",
-   "note": "STEP B light refresh"
-  },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 25400,
-   "engagement_rate": 2.3751,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 50.2,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 581000,
-   "engagement_rate": 0.0219,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 52.25,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-05-26T10:17:00+09:00",
-   "followers": 581000,
-   "engagement_rate": 0.0237,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 52.2,
-   "grade": "C",
-   "note": "STEP B full re-analysis (10:00 KST)"
-  }
- ],
- "score_breakdown": {
-  "er_score": 60,
+  "platform": "youtube",
+  "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
+  "fullname": "리뷰하는 회사원",
+  "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
+  "followers": 581000,
+  "engagement_rate": 0.0172,
+  "posts_last_30d": 14,
+  "sample_size": 14,
   "brand_fit_score": 25,
-  "consistency_score": 40,
-  "follower_scale_score": 100,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "score": 52.2,
- "total_score": 52.2,
- "avg_likes": 2222.88,
- "avg_views": 93767.0,
- "estimation_flags": {
-  "engagement_rate": "measured",
-  "posts_last_30d": "measured(upload_date)",
-  "brand_fit": "measured(title+tags)",
-  "followers": "measured"
- }
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "weak (1건)",
+    "olive_young_mentions": "none",
+    "beauty_topical_strength": "none",
+    "labrang_blanc_doux_mention": false
+  },
+  "avg_likes": 4454.6,
+  "avg_views": 258709.1,
+  "evaluated_at": "2026-05-27T10:33:00+09:00",
+  "score_total": 61.2,
+  "grade": "C",
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 25,
+    "consistency_score": 100,
+    "follower_scale_score": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "engagement_rate": "measured(avg_likes/avg_views, yt-dlp)",
+    "posts_last_30d": "measured(upload_date; sample-capped lower bound — likely undercount)",
+    "brand_fit": "measured(title+description+tags)",
+    "followers": "measured"
+  },
+  "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — yt-dlp 최근 14개 영상 실측(조회/좋아요/날짜/제목·설명·태그). ER=평균좋아요/평균조회. brand_fit·retailer_focus=제목+설명+태그 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+  "history": [
+    {
+      "evaluated_at": "2026-05-15T17:05:00+09:00",
+      "score_total": 52.25,
+      "engagement_rate": 2.3751,
+      "followers": 581000,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 25400,
+      "engagement_rate": 2.3751,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "score_total": 50.2,
+      "grade": "C",
+      "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 25400,
+      "engagement_rate": 2.3751,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 50.2,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 581000,
+      "engagement_rate": 0.0219,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 52.25,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "followers": 581000,
+      "engagement_rate": 0.0237,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 52.2,
+      "grade": "C",
+      "note": "STEP B full re-analysis (10:00 KST)"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "score_total": 52.2,
+      "engagement_rate": 0.0237,
+      "followers": 581000,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "C"
+    }
+  ]
 }

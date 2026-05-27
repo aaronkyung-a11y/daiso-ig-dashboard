@@ -1,100 +1,108 @@
 {
- "platform": "youtube",
- "username": "UCRPEXjbWYRtFdCKxMwWvrxQ",
- "fullname": "유리나 𝒀𝒖𝒓𝒊𝒏𝒂",
- "profile_url": "https://www.youtube.com/channel/UCRPEXjbWYRtFdCKxMwWvrxQ",
- "followers": 2410,
- "engagement_rate": 0.0185,
- "posts_last_30d": 8,
- "sample_size": 8,
- "brand_fit_score": 60,
- "retailer_focus": "daiso",
- "retailer_signal": {
-  "daiso_mentions": "present (4건)",
-  "olive_young_mentions": "present (1건)",
-  "beauty_topical_strength": "weak (2건)",
-  "labrang_blanc_doux_mention": false
- },
- "evaluated_at": "2026-05-26T10:17:00+09:00",
- "score_total": 63.0,
- "grade": "B",
- "sample_note": "2026-05-26T10:17 KST STEP B 풀 재분석 — yt-dlp 최근 8개 영상 실측(조회/좋아요/날짜). ER=평균좋아요/평균조회. brand_fit=제목+태그 키워드 실측. grade thresholds S>=85/A>=70/B>=55/C>=40.",
- "history": [
-  {
-   "evaluated_at": "2026-05-14T10:11:09.293038+09:00",
-   "followers": 2160,
-   "engagement_rate": 2.198,
-   "posts_last_30d": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 73.5,
-   "grade": "B"
+  "platform": "youtube",
+  "username": "UCRPEXjbWYRtFdCKxMwWvrxQ",
+  "fullname": "유리나 𝒀𝒖𝒓𝒊𝒏𝒂",
+  "profile_url": "https://www.youtube.com/channel/UCRPEXjbWYRtFdCKxMwWvrxQ",
+  "followers": 2450,
+  "engagement_rate": 0.0194,
+  "posts_last_30d": 14,
+  "sample_size": 14,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso_mentions": "strong (20건)",
+    "olive_young_mentions": "strong (9건)",
+    "beauty_topical_strength": "strong (33건)",
+    "labrang_blanc_doux_mention": true
   },
-  {
-   "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-   "followers": 2190,
-   "engagement_rate": 2.198,
-   "posts_last_30d": 15,
-   "brand_fit_score": 90,
-   "score_total": 73.5
+  "avg_likes": 447.3,
+  "avg_views": 23054.2,
+  "evaluated_at": "2026-05-27T10:33:00+09:00",
+  "score_total": 76.0,
+  "grade": "A",
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 100,
+    "consistency_score": 100,
+    "follower_scale_score": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 2270,
-   "engagement_rate": 2.198,
-   "posts_last_30d": 15,
-   "brand_fit_score": 90,
-   "score_total": 73.5,
-   "grade": "B",
-   "note": "STEP B light refresh"
+  "estimation_flags": {
+    "engagement_rate": "measured(avg_likes/avg_views, yt-dlp)",
+    "posts_last_30d": "measured(upload_date; sample-capped lower bound — likely undercount)",
+    "brand_fit": "measured(title+description+tags)",
+    "followers": "measured"
   },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 2270,
-   "engagement_rate": 2.198,
-   "posts_last_30d": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 73.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 2290,
-   "engagement_rate": 0.0214,
-   "posts_last_30d": 6,
-   "brand_fit_score": 60,
-   "retailer_focus": "daiso",
-   "score_total": 63.0,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-05-26T10:17:00+09:00",
-   "followers": 2410,
-   "engagement_rate": 0.0185,
-   "posts_last_30d": 8,
-   "brand_fit_score": 60,
-   "retailer_focus": "daiso",
-   "score_total": 63.0,
-   "grade": "B",
-   "note": "STEP B full re-analysis (10:00 KST)"
-  }
- ],
- "score_breakdown": {
-  "er_score": 60,
-  "brand_fit_score": 60,
-  "consistency_score": 80,
-  "follower_scale_score": 60,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "score": 63.0,
- "total_score": 63.0,
- "avg_likes": 434.5,
- "avg_views": 23484.38,
- "estimation_flags": {
-  "engagement_rate": "measured",
-  "posts_last_30d": "measured(upload_date)",
-  "brand_fit": "measured(title+tags)",
-  "followers": "measured"
- }
+  "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — yt-dlp 최근 14개 영상 실측(조회/좋아요/날짜/제목·설명·태그). ER=평균좋아요/평균조회. brand_fit·retailer_focus=제목+설명+태그 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+  "history": [
+    {
+      "evaluated_at": "2026-05-14T10:11:09.293038+09:00",
+      "followers": 2160,
+      "engagement_rate": 2.198,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 73.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 2190,
+      "engagement_rate": 2.198,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "score_total": 73.5
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 2270,
+      "engagement_rate": 2.198,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "score_total": 73.5,
+      "grade": "B",
+      "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 2270,
+      "engagement_rate": 2.198,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 73.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 2290,
+      "engagement_rate": 0.0214,
+      "posts_last_30d": 6,
+      "brand_fit_score": 60,
+      "retailer_focus": "daiso",
+      "score_total": 63.0,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "followers": 2410,
+      "engagement_rate": 0.0185,
+      "posts_last_30d": 8,
+      "brand_fit_score": 60,
+      "retailer_focus": "daiso",
+      "score_total": 63.0,
+      "grade": "B",
+      "note": "STEP B full re-analysis (10:00 KST)"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "score_total": 63.0,
+      "engagement_rate": 0.0185,
+      "followers": 2410,
+      "posts_last_30d": 8,
+      "brand_fit_score": 60,
+      "retailer_focus": "daiso",
+      "grade": "B"
+    }
+  ]
 }

@@ -1,286 +1,166 @@
 {
- "platform": "instagram",
- "username": "lobit_beauty",
- "profile_url": "https://www.instagram.com/lobit_beauty/",
- "fullname": "로빗 lobit🐰🫧",
- "followers": 11728,
- "following": 206,
- "post_count_total": 37,
- "bio": "예술가 / 뷰티 꿀팁과 꿀템을 공유해요",
- "highlights": [],
- "sample_size": 12,
- "sample_reels": [
-  {
-   "code": "DXl_u5My3O9",
-   "date": "2026-04-26",
-   "likes": 1984,
-   "comments": 28,
-   "caption": "광고❌ 다이소 레전드 퍼프 브러쉬 모음집!! 다이소 퍼프 브러쉬 다 써본 코덕이 추천하는 찐 레전드템 모음 #다이소 #올리브영 #다이소화장품 #다이소꿀템 #다이소퍼프브러쉬"
-  },
-  {
-   "code": "DXbs1RvSn7d",
-   "date": "2026-04-22",
-   "likes": 4872,
-   "comments": 44,
-   "caption": "광고❌안보면 후회하는 올영보다 훨씬 좋은 다이소템 4탄 #다이소 #올리브영 #다이소화장품 #다이소꿀템 #코덕"
-  },
-  {
-   "code": "DXHFyvKSFo0",
-   "date": "2026-04-14",
-   "likes": 548,
-   "comments": 33,
-   "caption": "안보면 후회하는 올영 흔적 요철 순삭템! #광고 #올영추천템 #올영인생템 #코덕 #아이소이 트러블흔적세럼 올영픽"
-  },
-  {
-   "code": "DXB8-JbyrwA",
-   "date": "2026-04-12",
-   "likes": 801,
-   "comments": 27,
-   "caption": "안보면 후회하는 올영 레전드 청담샵템 #올영인생템 #올리브영 #다이소화장품 #메디큐브 화잘먹선크림 글로우선크림 선크림추천 올영추천템"
-  },
-  {
-   "code": "DW6OFwkyvBH",
-   "date": "2026-04-09",
-   "likes": 18000,
-   "comments": 93,
-   "caption": "광고❌올영보다 훨씬 좋은 다이소템3탄 다이소에 수백쓴 다이소 광인 #다이소 #올리브영 #다이소화장품 #다이소꿀템 #코덕"
-  },
-  {
-   "code": "DW1Ewa7S28X",
-   "date": "2026-04-07",
-   "likes": 1371,
-   "comments": 28,
-   "caption": "안보면 후회하는 올영 블러셔 찐템! #광고 #올리브영 #올영추천템 #블러셔추천 #다이소화장품"
-  },
-  {
-   "code": "DWv7f37yaKi",
-   "date": "2026-04-05",
-   "likes": 26000,
-   "comments": 59,
-   "caption": "광고❌안보면 후회하는 올영보다 훨씬 좋은 다이소템 2탄 #다이소 #올리브영 #다이소화장품 #다이소꿀템 #코덕"
-  },
-  {
-   "code": "DWloH1YS0dk",
-   "date": "2026-04-01",
-   "likes": 805,
-   "comments": 48,
-   "caption": "안보면 후회하는 올영 선크림 추천템 올영 vvip ... 올영 선크림 1등 ... 올영에서 선젤 ... 올영에서 1+1 ... 올영에서 10800원 #올리브영 #올영선크림 #올영추천템 #올영인생템 식물나라 가벼운수분선젤 보송페이스&바디선스틱"
-  },
-  {
-   "code": "DWd4pdty162",
-   "date": "2026-03-29",
-   "likes": 5538,
-   "comments": 54,
-   "caption": "안보면 후회하는 올영 파데 추천템 #광고 올영 vvip 베이스 정보 베이스 다크닝 베이스 쿠션 #AGE20S #벨벳래스팅파운데이션팩트 #올영추천템 #올리브영 올영파데 올영팩트 올영인생템 다이소 다이소화장품"
-  },
-  {
-   "code": "DWWK3iSyRx-",
-   "date": "2026-03-26",
-   "likes": 169,
-   "comments": 31,
-   "caption": "약국1티어 화장품 #광고 톰 CPR 세럼 콜라겐 펩타이드 레티날 약국템 약국세럼 약국크림 올영 올영추천템 올리브영"
-  },
-  {
-   "code": "DWOd9paSnjG",
-   "date": "2026-03-23",
-   "likes": 1078,
-   "comments": 107,
-   "caption": "안보면 후회하는 올영 레전드 트러블 색소침착템 #광고 동아제약 화장품 #올리브영 #올영추천템 다이소화장품"
-  },
-  {
-   "code": "DWBjpc7S6dE",
-   "date": "2026-03-18",
-   "likes": 1118,
-   "comments": 57,
-   "caption": "안보면 후회하는 레전드 목욕 인생템 #광고 포맨트 아크네 퍼퓸샤워 (올리브영 구매가능) 다이소 정직한실험실 헤어마스크 다이소 샤워볼 다이소 크린 타올밴드 #올리브영 #다이소 #다이소화장품 올영추천템"
-  }
- ],
- "avg_likes": 5333.9,
- "avg_comments": 42.2,
- "avg_engagement": 3795.88,
- "engagement_rate": 0.4584,
- "posts_last_30d": 7,
- "posts_last_30d_note": "실측값 — taken_at 추출 8/12 reels 중 2개가 30일 내 (cutoff 2026-04-12). 4 reels는 taken_at 미추출 (lazy-load 미발생).",
- "evaluated_at": "2026-05-21T10:00:00+09:00",
- "notes": "STEP B-Light rolling refresh (Tue 14:00 KST). IG 로그인 세션 확보, 12 reels 중 like/cm 8건 + taken_at 9건 실측. 미추출 4 reels는 lazy-load 미발생 — 부분 표본 기반 ER.",
- "score": 92.5,
- "grade": "S",
- "estimation_flags": {
-  "engagement_rate": "measured",
-  "posts_last_30d": "measured(taken_at)",
-  "brand_fit": "measured(captions)",
-  "followers": "measured"
- },
- "history": [
-  {
-   "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
-   "followers": 11000,
-   "engagement_rate": 0.3451,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 89.5,
-   "grade": "S"
-  },
-  {
-   "evaluated_at": "2026-05-04T09:40:46+09:00",
-   "followers": 9991,
-   "engagement_rate": 0.741,
-   "avg_likes": 7355.25,
-   "avg_comments": 47.88,
-   "sample_size": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "grade": "S",
-   "score_total": 90.5,
-   "posts_last_30d": 6
-  },
-  {
-   "evaluated_at": "2026-05-04T09:29:21+09:00",
-   "followers": 9991,
-   "engagement_rate": 0.6816,
-   "avg_likes": 6765.12,
-   "avg_comments": 44.5,
-   "sample_size": 8,
-   "brand_fit_score": 25,
-   "retailer_focus": "olive_young",
-   "grade": "B",
-   "score_total": 74.2,
-   "posts_last_30d": 7
-  },
-  {
-   "evaluated_at": "2026-05-01T17:04:00+09:00",
-   "followers": 9744,
-   "engagement_rate": 0.7487,
-   "avg_likes": 7252.4,
-   "avg_comments": 43.29,
-   "sample_size": 7,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "grade": "S",
-   "score_total": 90.5,
-   "posts_last_30d": null
-  },
-  {
-   "evaluated_at": "2026-04-30T13:58:42+09:00",
-   "sample_size": 3,
-   "followers": 9515,
-   "avg_likes": 2044,
-   "avg_comments": 34,
-   "engagement_rate": 0.2184,
-   "score_total": 91.8,
-   "grade": "S",
-   "brand_fit_score": 95,
-   "retailer_focus": "daiso"
-  },
-  {
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 92.5,
-   "engagement_rate": 0.5241,
-   "followers": 10000,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "note": "snapshot_only (no live refetch)"
-  },
-  {
-   "evaluated_at": "2026-05-12T14:15:00+09:00",
-   "score_total": 89.5,
-   "engagement_rate": 0.3451,
-   "followers": 11000,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "note": "B-Light Tue 14:00 — 부분 표본 8/12 reels"
-  },
-  {
-   "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-   "followers": 11000,
-   "engagement_rate": 0.3451,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "score_total": 89.5
-  },
-  {
-   "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
-   "followers": 11000,
-   "engagement_rate": 0.3451,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "score_total": 89.5
-  },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 11000,
-   "engagement_rate": 0.3451,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "score_total": 89.5,
-   "grade": "S",
-   "note": "STEP B light refresh"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 11728,
-   "engagement_rate": 0.4584,
-   "posts_last_30d": 7,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 92.5,
-   "grade": "S"
-  }
- ],
- "brand_fit_score": 90,
- "brand_fit_notes": "beauty 18/daiso 31/oy 47/labrang N — 다이소+올영 헤비 토픽",
- "retailer_focus": "daiso",
- "retailer_signal": {
-  "daiso_mentions": "strong (44건)",
-  "olive_young_mentions": "strong (28건)",
-  "beauty_topical_strength": "strong (26건)",
-  "labrang_blanc_doux_mention": false
- },
- "sample_data_evidence": {
-  "likes_sample": [
-   488,
-   488,
-   2249,
-   5414,
-   574,
-   905,
-   905,
-   19021
-  ],
-  "comments_sample": [
-   25,
-   25,
-   36,
-   47,
-   33,
-   33,
-   27,
-   97
-  ],
-  "taken_at_sample": [
-   1778415696,
-   1778328449,
-   1775735144,
-   1775562513,
-   1775389860,
-   1775044223,
-   1774784526,
-   1774525670
-  ]
- },
- "top_post_likes": 19021,
- "score_total": 92.5,
- "total_score": 92.5,
- "score_breakdown": {
-  "er_score": 100,
+  "platform": "instagram",
+  "username": "lobit_beauty",
+  "fullname": "로빗 lobit🐰🫧",
+  "profile_url": "https://www.instagram.com/lobit_beauty/",
+  "followers": 13069,
+  "engagement_rate": 0.1313,
+  "posts_last_30d": 8,
+  "sample_size": 12,
   "brand_fit_score": 90,
-  "consistency_score": 80,
-  "follower_scale_score": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "sample_note": "2026-05-21T10:00 KST STEP B 풀 재분석 — IG 로그인, web feed API로 최근 12개 reel 실측(좋아요/댓글/조회/캡션). ER=(평균 좋아요+댓글)/팔로워 실측. brand_fit·retailer_focus=캡션+bio 키워드 실측.",
- "avg_views": 468151
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "strong (38건)",
+    "olive_young_mentions": "strong (28건)",
+    "beauty_topical_strength": "strong (27건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "avg_likes": 1681,
+  "avg_comments": 35,
+  "evaluated_at": "2026-05-27T10:33:00+09:00",
+  "score_total": 92.5,
+  "grade": "S",
+  "score_breakdown": {
+    "er_score": 100,
+    "brand_fit_score": 90,
+    "consistency_score": 80,
+    "follower_scale_score": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "engagement_rate": "measured((avg_likes+avg_comments)/followers, 12-reel sample)",
+    "posts_last_30d": "measured(taken_at)",
+    "brand_fit": "measured(caption+bio keywords)",
+    "followers": "measured"
+  },
+  "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+  "history": [
+    {
+      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+      "followers": 11000,
+      "engagement_rate": 0.3451,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 89.5,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-04T09:40:46+09:00",
+      "followers": 9991,
+      "engagement_rate": 0.741,
+      "avg_likes": 7355.25,
+      "avg_comments": 47.88,
+      "sample_size": 8,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "grade": "S",
+      "score_total": 90.5,
+      "posts_last_30d": 6
+    },
+    {
+      "evaluated_at": "2026-05-04T09:29:21+09:00",
+      "followers": 9991,
+      "engagement_rate": 0.6816,
+      "avg_likes": 6765.12,
+      "avg_comments": 44.5,
+      "sample_size": 8,
+      "brand_fit_score": 25,
+      "retailer_focus": "olive_young",
+      "grade": "B",
+      "score_total": 74.2,
+      "posts_last_30d": 7
+    },
+    {
+      "evaluated_at": "2026-05-01T17:04:00+09:00",
+      "followers": 9744,
+      "engagement_rate": 0.7487,
+      "avg_likes": 7252.4,
+      "avg_comments": 43.29,
+      "sample_size": 7,
+      "brand_fit_score": 90,
+      "retailer_focus": "mixed",
+      "grade": "S",
+      "score_total": 90.5,
+      "posts_last_30d": null
+    },
+    {
+      "evaluated_at": "2026-04-30T13:58:42+09:00",
+      "sample_size": 3,
+      "followers": 9515,
+      "avg_likes": 2044,
+      "avg_comments": 34,
+      "engagement_rate": 0.2184,
+      "score_total": 91.8,
+      "grade": "S",
+      "brand_fit_score": 95,
+      "retailer_focus": "daiso"
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 92.5,
+      "engagement_rate": 0.5241,
+      "followers": 10000,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-12T14:15:00+09:00",
+      "score_total": 89.5,
+      "engagement_rate": 0.3451,
+      "followers": 11000,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "note": "B-Light Tue 14:00 — 부분 표본 8/12 reels"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 11000,
+      "engagement_rate": 0.3451,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "score_total": 89.5
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 11000,
+      "engagement_rate": 0.3451,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "score_total": 89.5
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 11000,
+      "engagement_rate": 0.3451,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "score_total": 89.5,
+      "grade": "S",
+      "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 11728,
+      "engagement_rate": 0.4584,
+      "posts_last_30d": 7,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 92.5,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "score_total": 92.5,
+      "engagement_rate": 0.4584,
+      "followers": 11728,
+      "posts_last_30d": 7,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "grade": "S"
+    }
+  ]
 }
