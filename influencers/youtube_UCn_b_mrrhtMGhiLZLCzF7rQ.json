@@ -8,16 +8,16 @@
   "avg_views": 13712,
   "avg_likes": 176.0,
   "avg_comments": 58.6,
-  "engagement_rate": 1.715,
-  "posts_last_30d": 1,
-  "sample_size": 12,
+  "engagement_rate": 1.1332,
+  "posts_last_30d": 2,
+  "sample_size": 20,
   "brand_fit_score": 90,
   "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso_count": 6,
-    "olive_young_count": 18,
-    "beauty_keyword_count": 64,
-    "our_brand_present": false
+    "daiso": 6,
+    "olive_young": 53,
+    "beauty_keywords": 276,
+    "labrang_present": false
   },
   "total_score": 64.75,
   "score_breakdown": {
@@ -27,8 +27,19 @@
     "follower_scale": 100
   },
   "grade": "B",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "evaluated_at": "2026-05-28T14:15:00+09:00",
   "history": [
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "followers": 113000,
+      "engagement_rate": 1.715,
+      "posts_last_30d": 1,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 68.5,
+      "grade": "B",
+      "sample_size": 12
+    },
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
       "score_total": 68.5,
@@ -39,7 +50,7 @@
       "retailer_focus": "olive_young"
     }
   ],
-  "score_total": 68.5,
+  "score_total": 71.5,
   "score": {
     "total": 64.75,
     "breakdown": {
@@ -64,5 +75,5 @@
   "view_to_sub_ratio": 0.1015,
   "top_video_views": 11466.2,
   "top_post_likes": 176.0,
-  "sample_note": "STEP B 풀 재분석. likes 추출 12/12 (JS런타임 없음 → 일부 0)"
+  "sample_note": "yt-dlp 최근 20개 영상 기반"
 }
