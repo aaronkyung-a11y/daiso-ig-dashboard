@@ -1,0 +1,52 @@
+{
+  "platform": "youtube",
+  "username": "UCwFNiYnTtrYuwO7YRWomatw",
+  "fullname": "살림토끼",
+  "channel_id": "UCwFNiYnTtrYuwO7YRWomatw",
+  "profile_url": "https://www.youtube.com/channel/UCwFNiYnTtrYuwO7YRWomatw",
+  "followers": 118000,
+  "avg_views": 77759.5,
+  "avg_likes": 612.5,
+  "avg_comments": 22.7,
+  "engagement_rate": 0.0079,
+  "posts_last_30d": 0,
+  "sample_size": 14,
+  "brand_fit_score": 25,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "18건",
+    "olive_young_mentions": "0건",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 25,
+    "consistency": 40,
+    "follower_scale": 100
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-28T10:00:00+09:00",
+  "history": [],
+  "score_total": 42.25,
+  "score": {
+    "total": 42.25,
+    "breakdown": {
+      "engagement": 40,
+      "brand_fit": 25,
+      "consistency": 40,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "total_score": 42.25,
+  "notes": "youtube sample: 14 items",
+  "brand_fit_notes": "daiso:18건 / oliveyoung:0건 / beauty:0건 / labrang:N",
+  "post_count_total": 14,
+  "sample_note": "2026-05-28T10:00:00+09:00 STEP A queue 신규분석 — yt-dlp 실측 (구독자 118000, 샘플 14개). avg_views=77759.5 avg_likes=612.5. posts_last_30d=timestamp 실측. brand_fit_score는 제목+태그 키워드 기반(추정)."
+}

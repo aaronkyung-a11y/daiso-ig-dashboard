@@ -1,0 +1,52 @@
+{
+  "platform": "youtube",
+  "username": "UCKn4BDg7hnEDhnr_ukz9-aw",
+  "fullname": "건강씨그날",
+  "channel_id": "UCKn4BDg7hnEDhnr_ukz9-aw",
+  "profile_url": "https://www.youtube.com/channel/UCKn4BDg7hnEDhnr_ukz9-aw",
+  "followers": 120000,
+  "avg_views": 42069.7,
+  "avg_likes": 365.2,
+  "avg_comments": 2.0,
+  "engagement_rate": 0.0087,
+  "posts_last_30d": 6,
+  "sample_size": 6,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "13건",
+    "olive_young_mentions": "0건",
+    "beauty_topical_strength": "strong (15건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 90,
+    "consistency": 80,
+    "follower_scale": 100
+  },
+  "grade": "B",
+  "evaluated_at": "2026-05-28T10:00:00+09:00",
+  "history": [],
+  "score_total": 64.5,
+  "score": {
+    "total": 64.5,
+    "breakdown": {
+      "engagement": 40,
+      "brand_fit": 90,
+      "consistency": 80,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "total_score": 64.5,
+  "notes": "youtube sample: 6 items",
+  "brand_fit_notes": "daiso:13건 / oliveyoung:0건 / beauty:15건 / labrang:N",
+  "post_count_total": 13,
+  "sample_note": "2026-05-28T10:00:00+09:00 STEP A queue 신규분석 — yt-dlp 실측 (구독자 120000, 샘플 6개). avg_views=42069.7 avg_likes=365.2. posts_last_30d=timestamp 실측. brand_fit_score는 제목+태그 키워드 기반(추정)."
+}

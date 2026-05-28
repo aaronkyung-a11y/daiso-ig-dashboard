@@ -2,38 +2,31 @@
   "platform": "youtube",
   "username": "UCJC3eND1vV_MR_UJB7-E9LQ",
   "fullname": "민카롱",
+  "channel_id": "UCJC3eND1vV_MR_UJB7-E9LQ",
   "profile_url": "https://www.youtube.com/channel/UCJC3eND1vV_MR_UJB7-E9LQ",
   "followers": 436000,
-  "engagement_rate": 0.0168,
+  "avg_views": 44459.5,
+  "avg_likes": 482.8,
+  "avg_comments": 84.8,
+  "engagement_rate": 0.0109,
   "posts_last_30d": 4,
-  "sample_size": 14,
-  "brand_fit_score": 100,
-  "retailer_focus": "our_brand",
+  "sample_size": 4,
+  "brand_fit_score": 90,
+  "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso_mentions": "medium (3건)",
-    "olive_young_mentions": "medium (5건)",
-    "beauty_topical_strength": "strong (162건)",
-    "labrang_blanc_doux_mention": true
+    "daiso_mentions": "3건",
+    "olive_young_mentions": "4건",
+    "beauty_topical_strength": "strong (83건)",
+    "labrang_blanc_doux_mention": false
   },
-  "avg_likes": 1369.9,
-  "avg_views": 81569.4,
-  "evaluated_at": "2026-05-27T10:33:00+09:00",
-  "score_total": 74.0,
-  "grade": "B",
   "score_breakdown": {
-    "er_score": 60,
-    "brand_fit_score": 100,
-    "consistency_score": 60,
-    "follower_scale_score": 100,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 60,
+    "follower_scale": 100
   },
-  "estimation_flags": {
-    "engagement_rate": "measured(avg_likes/avg_views, yt-dlp)",
-    "posts_last_30d": "measured(upload_date)",
-    "brand_fit": "measured(title+description+tags)",
-    "followers": "measured"
-  },
-  "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — yt-dlp 최근 14개 영상 실측(조회/좋아요/날짜/제목·설명·태그). ER=평균좋아요/평균조회. brand_fit·retailer_focus=제목+설명+태그 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+  "grade": "A",
+  "evaluated_at": "2026-05-28T10:00:00+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-14T10:13:01.480932+09:00",
@@ -103,6 +96,37 @@
       "brand_fit_score": 90,
       "retailer_focus": "mixed",
       "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-05-27T10:33:00+09:00",
+      "score_total": 74.0,
+      "engagement_rate": 0.0168,
+      "followers": 436000,
+      "posts_last_30d": 4,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "grade": "B"
     }
-  ]
+  ],
+  "score_total": 71.5,
+  "score": {
+    "total": 71.5,
+    "breakdown": {
+      "engagement": 60,
+      "brand_fit": 90,
+      "consistency": 60,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "total_score": 71.5,
+  "notes": "youtube sample: 4 items",
+  "brand_fit_notes": "daiso:3건 / oliveyoung:4건 / beauty:83건 / labrang:N",
+  "post_count_total": 7,
+  "sample_note": "2026-05-28T10:00:00+09:00 STEP B 풀 재분석 — yt-dlp 실측 (구독자 436000, 샘플 4개). avg_views=44459.5 avg_likes=482.8. posts_last_30d 실측. brand_fit는 제목+태그+설명 키워드 기반(추정)."
 }

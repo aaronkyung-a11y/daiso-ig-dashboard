@@ -1,0 +1,52 @@
+{
+  "platform": "youtube",
+  "username": "UCkEWsTetbUuGDg_O1S5UVBg",
+  "fullname": "살림남 The Life",
+  "channel_id": "UCkEWsTetbUuGDg_O1S5UVBg",
+  "profile_url": "https://www.youtube.com/channel/UCkEWsTetbUuGDg_O1S5UVBg",
+  "followers": 474000,
+  "avg_views": 114923.8,
+  "avg_likes": 941.5,
+  "avg_comments": 57.7,
+  "engagement_rate": 0.0082,
+  "posts_last_30d": 0,
+  "sample_size": 16,
+  "brand_fit_score": 75,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "106건",
+    "olive_young_mentions": "0건",
+    "beauty_topical_strength": "medium (7건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 75,
+    "consistency": 40,
+    "follower_scale": 100
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-28T10:00:00+09:00",
+  "history": [],
+  "score_total": 54.75,
+  "score": {
+    "total": 54.75,
+    "breakdown": {
+      "engagement": 40,
+      "brand_fit": 75,
+      "consistency": 40,
+      "follower_scale": 100
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "total_score": 54.75,
+  "notes": "youtube sample: 16 items",
+  "brand_fit_notes": "daiso:106건 / oliveyoung:0건 / beauty:7건 / labrang:N",
+  "post_count_total": 16,
+  "sample_note": "2026-05-28T10:00:00+09:00 STEP A queue 신규분석 — yt-dlp 실측 (구독자 474000, 샘플 16개). avg_views=114923.8 avg_likes=941.5. posts_last_30d=timestamp 실측. brand_fit_score는 제목+태그 키워드 기반(추정)."
+}

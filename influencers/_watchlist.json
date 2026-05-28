@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T10:19:12.827885+09:00",
+  "lastUpdated": "2026-05-28T10:00:00+09:00",
   "auto_refresh": true,
   "refresh_cron": "weekly",
   "accounts": [
@@ -187,7 +187,57 @@
       "platform": "youtube",
       "username": "UCLyRxUcEIUvrG5wAS2TaE9w",
       "profile_url": "https://www.youtube.com/channel/UCLyRxUcEIUvrG5wAS2TaE9w"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC2bN1vE7esxNXhBSYIHzQwg",
+      "profile_url": "https://www.youtube.com/channel/UC2bN1vE7esxNXhBSYIHzQwg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCCZr7t-gZ62L056QOW3RXdQ",
+      "profile_url": "https://www.youtube.com/channel/UCCZr7t-gZ62L056QOW3RXdQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCED7YKsAzQ2qi2e-cJ7yTEg",
+      "profile_url": "https://www.youtube.com/channel/UCED7YKsAzQ2qi2e-cJ7yTEg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCKn4BDg7hnEDhnr_ukz9-aw",
+      "profile_url": "https://www.youtube.com/channel/UCKn4BDg7hnEDhnr_ukz9-aw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCkEWsTetbUuGDg_O1S5UVBg",
+      "profile_url": "https://www.youtube.com/channel/UCkEWsTetbUuGDg_O1S5UVBg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UClgkEMblgt1EUDYejTMiYug",
+      "profile_url": "https://www.youtube.com/channel/UClgkEMblgt1EUDYejTMiYug"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCo9OPeVJL5hgPtwxUTEBgSA",
+      "profile_url": "https://www.youtube.com/channel/UCo9OPeVJL5hgPtwxUTEBgSA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCoCxuPrH7NwbBprRjSD2IKw",
+      "profile_url": "https://www.youtube.com/channel/UCoCxuPrH7NwbBprRjSD2IKw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCrNISLWm4d6SRf8AUjoGm1g",
+      "profile_url": "https://www.youtube.com/channel/UCrNISLWm4d6SRf8AUjoGm1g"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCwFNiYnTtrYuwO7YRWomatw",
+      "profile_url": "https://www.youtube.com/channel/UCwFNiYnTtrYuwO7YRWomatw"
     }
   ],
-  "updated_at": "2026-05-20T10:19:12.827885+09:00"
+  "updated_at": "2026-05-28T10:00:00+09:00"
 }

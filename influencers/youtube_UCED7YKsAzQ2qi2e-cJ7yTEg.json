@@ -1,0 +1,52 @@
+{
+  "platform": "youtube",
+  "username": "UCED7YKsAzQ2qi2e-cJ7yTEg",
+  "fullname": "merryview메리뷰",
+  "channel_id": "UCED7YKsAzQ2qi2e-cJ7yTEg",
+  "profile_url": "https://www.youtube.com/channel/UCED7YKsAzQ2qi2e-cJ7yTEg",
+  "followers": 32900,
+  "avg_views": 91493.5,
+  "avg_likes": 1551.9,
+  "avg_comments": 22.0,
+  "engagement_rate": 0.017,
+  "posts_last_30d": 8,
+  "sample_size": 8,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "27건",
+    "olive_young_mentions": "7건",
+    "beauty_topical_strength": "strong (20건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 80,
+    "follower_scale": 80
+  },
+  "grade": "A",
+  "evaluated_at": "2026-05-28T10:00:00+09:00",
+  "history": [],
+  "score_total": 72.5,
+  "score": {
+    "total": 72.5,
+    "breakdown": {
+      "engagement": 60,
+      "brand_fit": 90,
+      "consistency": 80,
+      "follower_scale": 80
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "total_score": 72.5,
+  "notes": "youtube sample: 8 items",
+  "brand_fit_notes": "daiso:27건 / oliveyoung:7건 / beauty:20건 / labrang:N",
+  "post_count_total": 14,
+  "sample_note": "2026-05-28T10:00:00+09:00 STEP A queue 신규분석 — yt-dlp 실측 (구독자 32900, 샘플 8개). avg_views=91493.5 avg_likes=1551.9. posts_last_30d=timestamp 실측. brand_fit_score는 제목+태그 키워드 기반(추정)."
+}

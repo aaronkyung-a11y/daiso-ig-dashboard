@@ -1,0 +1,52 @@
+{
+  "platform": "youtube",
+  "username": "UCCZr7t-gZ62L056QOW3RXdQ",
+  "fullname": "니야 Niiya",
+  "channel_id": "UCCZr7t-gZ62L056QOW3RXdQ",
+  "profile_url": "https://www.youtube.com/channel/UCCZr7t-gZ62L056QOW3RXdQ",
+  "followers": 48900,
+  "avg_views": 271374.5,
+  "avg_likes": 3947.4,
+  "avg_comments": 126.2,
+  "engagement_rate": 0.0145,
+  "posts_last_30d": 8,
+  "sample_size": 8,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_topical_strength": "weak (2건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 60,
+    "consistency": 80,
+    "follower_scale": 80
+  },
+  "grade": "B",
+  "evaluated_at": "2026-05-28T10:00:00+09:00",
+  "history": [],
+  "score_total": 65.0,
+  "score": {
+    "total": 65.0,
+    "breakdown": {
+      "engagement": 60,
+      "brand_fit": 60,
+      "consistency": 80,
+      "follower_scale": 80
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "total_score": 65.0,
+  "notes": "youtube sample: 8 items",
+  "brand_fit_notes": "daiso:0건 / oliveyoung:0건 / beauty:2건 / labrang:N",
+  "post_count_total": 14,
+  "sample_note": "2026-05-28T10:00:00+09:00 STEP A queue 신규분석 — yt-dlp 실측 (구독자 48900, 샘플 8개). avg_views=271374.5 avg_likes=3947.4. posts_last_30d=timestamp 실측. brand_fit_score는 제목+태그 키워드 기반(추정)."
+}
