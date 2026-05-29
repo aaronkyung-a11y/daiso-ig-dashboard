@@ -4,25 +4,34 @@
   "fullname": "뷰라tv",
   "channel_id": "UC71fEEzS9yMYQvT1iz5-zxQ",
   "profile_url": "https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ",
-  "followers": 83100,
-  "avg_views": 65170,
-  "avg_likes": 61.2,
-  "avg_comments": 75.8,
-  "engagement_rate": 0.0011,
+  "followers": 87000,
+  "avg_views": 63392.4,
+  "avg_likes": 57.6,
+  "avg_comments": 69.2,
+  "engagement_rate": 0.0009,
   "posts_last_30d": 4,
-  "sample_size": 20,
+  "sample_size": 18,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
-  "retailer_signal": "daiso=6, olive_young=4, beauty_kw=21, labrang=False",
-  "total_score": 59.5,
+  "retailer_signal": {
+    "daiso_mentions": "5건",
+    "olive_young_mentions": "3건",
+    "beauty_keyword_count": 9,
+    "labrang_present": false
+  },
   "score_breakdown": {
-    "engagement": 40,
+    "er_score": 40,
     "brand_fit": 90,
     "consistency": 60,
-    "follower_scale": 80
+    "follower": 80
   },
   "grade": "B",
-  "evaluated_at": "2026-05-18T14:11:16+09:00",
+  "evaluated_at": "2026-05-29T17:08:34.991311+09:00",
+  "score_total": 59.5,
+  "score": 59.5,
+  "total_score": 59.5,
+  "notes": "STEP B-Light 자동 재분석 (rolling refresh)",
+  "sample_note": "yt-dlp 샘플 18개 (최근 영상 기반). YouTube Data API 미사용 — yt-dlp v2026.03.17 추출.",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -41,32 +50,16 @@
       "posts_last_30d": 4,
       "brand_fit_score": 100,
       "retailer_focus": "our_brand"
-    }
-  ],
-  "score_total": 59.5,
-  "score": {
-    "total": 59.5,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 90,
-      "consistency": 60,
-      "follower_scale": 80
     },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
+    {
+      "evaluated_at": "2026-05-29T17:08:34.991311+09:00",
+      "score_total": 59.5,
+      "er": 0.0009,
+      "posts_30d": 4,
+      "followers": 87000,
+      "brand_fit": 90,
+      "retailer_focus": "daiso",
+      "grade": "B"
     }
-  },
-  "notes": "youtube sample: 20 items",
-  "brand_fit_notes": "daiso:5건 / oliveyoung:3건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ"
-  },
-  "post_count_total": 20,
-  "view_to_sub_ratio": 0.8174,
-  "top_video_views": 64251.2,
-  "top_post_likes": 61.2,
-  "sample_note": "B-Light refresh (14:00 slot, weekday). yt-dlp flat+channel meta. detail_sample=20."
+  ]
 }
