@@ -2,23 +2,49 @@
   "platform": "youtube",
   "username": "UC5BqeEsHJnYM4O4xvWJK3Cg",
   "fullname": "쎄이 SSAY",
+  "channel_id": "UC5BqeEsHJnYM4O4xvWJK3Cg",
   "profile_url": "https://www.youtube.com/channel/UC5BqeEsHJnYM4O4xvWJK3Cg",
-  "followers": 6560,
-  "engagement_rate": 1.3588,
-  "posts_last_30d": 2,
+  "followers": 6600,
+  "avg_views": 4273.5,
+  "avg_likes": 56.3,
+  "avg_comments": 14.1,
+  "engagement_rate": 0.0132,
+  "posts_last_30d": 1,
   "sample_size": 18,
   "brand_fit_score": 90,
   "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso_count": 88,
-    "olive_young_count": 122,
-    "beauty_keyword_count": 178,
-    "our_brand_present": false
+    "daiso_mentions": "88건",
+    "olive_young_mentions": "128건",
+    "beauty_topical_strength": "strong (181건)",
+    "labrang_blanc_doux_mention": false
   },
-  "evaluated_at": "2026-05-15T14:09:51+09:00",
-  "score_total": 67.5,
-  "grade": "B",
-  "sample_note": "STEP B-Light 14시 슬롯 재분석. yt-dlp 풀 통계 18/18.",
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 40,
+    "follower_scale": 60
+  },
+  "grade": "C",
+  "evaluated_at": "2026-05-29T14:08:00+09:00",
+  "score_total": 64.5,
+  "sample_note": "youtube sample: 18 items",
+  "score": {
+    "total": 64.5,
+    "breakdown": {
+      "engagement": 60,
+      "brand_fit": 90,
+      "consistency": 40,
+      "follower_scale": 60
+    },
+    "weights": {
+      "engagement": 0.5,
+      "brand_fit": 0.25,
+      "consistency": 0.15,
+      "follower_scale": 0.1
+    }
+  },
+  "total_score": 64.5,
   "history": [
     {
       "evaluated_at": "2026-05-08T09:09:20+09:00",
@@ -52,152 +78,17 @@
       "grade": "B",
       "brand_fit_score": 90,
       "retailer_focus": "daiso"
+    },
+    {
+      "evaluated_at": "2026-05-15T14:09:51+09:00",
+      "followers": 6560,
+      "engagement_rate": 1.3588,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "score_total": 67.5,
+      "grade": "B",
+      "note": "pre B-Light 2026-05-29T14:00"
     }
   ],
-  "records": [
-    {
-      "id": "1SztaMK8ktE",
-      "title": "모공,요철부각❌내돈내산 인생 하이라이터 추구미별 추천✨(데일리 하이라이터, 핑크빔 하이라이터, 도우인 하이라이터)",
-      "views": 3342,
-      "likes": 29,
-      "comments": 6,
-      "upload_date": "20260105"
-    },
-    {
-      "id": "1dtpKvxFx9M",
-      "title": "돈키호테 쇼핑리스트🛒이거 안 보면 손해보는 일본 화장품 추천템",
-      "views": 12745,
-      "likes": 67,
-      "comments": 2,
-      "upload_date": "20251024"
-    },
-    {
-      "id": "7byxxfkZoSI",
-      "title": "민생지원금 올리브영에⁉️바로 낋여온 올리브영 추천템✨쿠션·하이라이터·틴트·아이섀도우·블러셔",
-      "views": 919,
-      "likes": 14,
-      "comments": 2,
-      "upload_date": "20250804"
-    },
-    {
-      "id": "KKJDdL8P3_M",
-      "title": "올영세일 고민된다면 꼭 보세요‼️ 신상 포함 기초부터 색조까지 무덤까지 들고 갈 인생템 추천🫧",
-      "views": 1163,
-      "likes": 14,
-      "comments": 5,
-      "upload_date": "20250829"
-    },
-    {
-      "id": "KPGNQxNTImU",
-      "title": "재구매템부터 실망템까지! 다이소 연말결산 추천템&비추템 | 가성비 다이소 화장품, 쿠션 비교, 겨울 스킨케어 추천",
-      "views": 28836,
-      "likes": 479,
-      "comments": 40,
-      "upload_date": "20251227"
-    },
-    {
-      "id": "Pwjf5WXdJp8",
-      "title": "복합성이 추천하는 올영세일 스킨케어 추천템✨",
-      "views": 420,
-      "likes": 7,
-      "comments": 2,
-      "upload_date": "20250831"
-    },
-    {
-      "id": "QnNhKfgvaNU",
-      "title": "3만원으로 풀메이크업 가능?? 다이소 화장품 털어서 해본 메이크업✨다이소 가성비 화장품 추천",
-      "views": 203,
-      "likes": 12,
-      "comments": 2,
-      "upload_date": "20250617"
-    },
-    {
-      "id": "SNOUAZ4yilo",
-      "title": "잠 못잤어..?😫칙칙한 다크서클 한 방에 가리는 법",
-      "views": 1027,
-      "likes": 38,
-      "comments": 4,
-      "upload_date": "20251210"
-    },
-    {
-      "id": "T6Nev_KGZbk",
-      "title": "6월 올영세일 때 놓치면 아까운 삐아 추천템! 숨은 꿀템까지 한가득〰️",
-      "views": 950,
-      "likes": 15,
-      "comments": 0,
-      "upload_date": "20250601"
-    },
-    {
-      "id": "TmVf976HUME",
-      "title": "백화점 향수랑 존똑인데...?🫢 명품향수 필요없는 니치향수 추천 | 912 향수",
-      "views": 8155,
-      "likes": 35,
-      "comments": 10,
-      "upload_date": "20250827"
-    },
-    {
-      "id": "WELAWoSMjFc",
-      "title": "광고❌다이소 색조 신상 다 털었다..! 전제품 솔직후기🔥에뛰드, 브이티, 보브",
-      "views": 3718,
-      "likes": 49,
-      "comments": 4,
-      "upload_date": "20260315"
-    },
-    {
-      "id": "XY6KkS-e_zQ",
-      "title": "구독자 이벤트💝트러블 잘 나는 사람 주목! 바르면 쏙 들어가는 재생크림 추천",
-      "views": 318,
-      "likes": 25,
-      "comments": 32,
-      "upload_date": "20251219"
-    },
-    {
-      "id": "Yq4GtXPgZL4",
-      "title": "다이소 4월 신상 모음.zip🛍️팩폭리뷰 날려버린 다이소 신상 추천템vs비추템 | 듀이트리, 에딧비, 더봄, 싸이닉",
-      "views": 4574,
-      "likes": 38,
-      "comments": 12,
-      "upload_date": "20260420"
-    },
-    {
-      "id": "cEXglGASU4k",
-      "title": "돈낭비 NO‼️올영세일 핵심템만 가져왔습니다🛍️헤어, 바디, 다이어트 간식 모음(라보에이치,오프온,바이탈뷰티,랩노쉬)",
-      "views": 321,
-      "likes": 4,
-      "comments": 1,
-      "upload_date": "20260227"
-    },
-    {
-      "id": "cEgxw1mEBjw",
-      "title": "총알 장전하세요🔫찐으로 만족스러웠던 올영세일 추천템!  | 듀이트리, 퐁당, 어뮤즈, 리스키, 얼터너티브스테레오, 투크, 페리페라",
-      "views": 969,
-      "likes": 14,
-      "comments": 4,
-      "upload_date": "20260302"
-    },
-    {
-      "id": "ox8evtVfE5s",
-      "title": "자칭 다이소vvip의 신상 리뷰‼️다이소 신상 추천템 | 정샘물,디어씽,TS,본셉,케어존플러스",
-      "views": 627,
-      "likes": 7,
-      "comments": 0,
-      "upload_date": "20260201"
-    },
-    {
-      "id": "pfo-YLKg7D4",
-      "title": "파데보다 피부결 좋아보이는 파데프리 선크림 추천템✨",
-      "views": 3259,
-      "likes": 130,
-      "comments": 127,
-      "upload_date": "20260505"
-    },
-    {
-      "id": "qVxb-oe6Hfg",
-      "title": "광고❌신상 싹 털어온 올영깡🛍️실패없는 올리브영 추천템/아쉬운 점까지 팩폭리뷰🔥",
-      "views": 1387,
-      "likes": 14,
-      "comments": 4,
-      "upload_date": "20260323"
-    }
-  ]
+  "notes": "B-Light rolling refresh 2026-05-29 14:00 KST (yt-dlp, 18 videos)"
 }
