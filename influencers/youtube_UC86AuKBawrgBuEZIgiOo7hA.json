@@ -1,0 +1,38 @@
+{
+  "platform": "youtube",
+  "username": "Celeb_tip",
+  "fullname": "셀럽의 건강비결",
+  "channel_id": "UC86AuKBawrgBuEZIgiOo7hA",
+  "profile_url": "https://www.youtube.com/channel/UC86AuKBawrgBuEZIgiOo7hA",
+  "followers": 103000,
+  "avg_views": 0,
+  "avg_likes": 0,
+  "avg_comments": 0,
+  "engagement_rate": 0,
+  "posts_last_30d": 0,
+  "sample_size": 0,
+  "brand_fit_score": 75,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_topical_strength": "medium (5건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-29T10:09:49+09:00",
+  "score_total": 54.8,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 75,
+    "consistency": 40,
+    "follower_scale": 100
+  },
+  "grade": "C",
+  "sample_note": "2026-05-29T10:09:49+09:00 STEP A 신규 분석 — yt-dlp 실측 (구독자 103000, 샘플 0개). ER=avg_likes/avg_views. brand_fit·retailer_focus=제목+태그+설명 키워드 기반(실측 텍스트, 분류는 키워드 추정).",
+  "estimation_flags": {
+    "engagement_rate": "measured (likes/views, sample 0)",
+    "posts_last_30d": "measured (video timestamps)",
+    "brand_fit": "estimated (keyword counts in title+desc+tags)",
+    "followers": "measured (channel_follower_count from yt-dlp)"
+  }
+}

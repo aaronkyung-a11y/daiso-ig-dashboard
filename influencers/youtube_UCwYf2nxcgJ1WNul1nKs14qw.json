@@ -1,19 +1,40 @@
 {
   "platform": "youtube",
-  "username": "UCwYf2nxcgJ1WNul1nKs14qw",
+  "username": "청춘백과-d9w",
   "fullname": "청춘백과",
+  "channel_id": "UCwYf2nxcgJ1WNul1nKs14qw",
   "profile_url": "https://www.youtube.com/channel/UCwYf2nxcgJ1WNul1nKs14qw",
-  "followers": 71,
-  "engagement_rate": 1.03,
-  "posts_last_30d": 2,
-  "sample_size": 2,
-  "brand_fit_score": 90,
-  "retailer_focus": "daiso",
-  "retailer_signal": "daiso_mentions=13, oy_mentions=0, beauty_kw_count=11, labrang_present=False",
-  "evaluated_at": "2026-05-13T01:07:44Z",
-  "score_total": 65.5,
-  "grade": "B",
-  "sample_note": "YouTube channel small (71 subs); only 2 videos available on channel; both Daiso-beauty themed (Coupang partner). er computed from likes/views.",
+  "followers": 89,
+  "avg_views": 0,
+  "avg_likes": 0,
+  "avg_comments": 0,
+  "engagement_rate": 0,
+  "posts_last_30d": 0,
+  "sample_size": 0,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_topical_strength": "weak (1건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-29T10:11:31+09:00",
+  "score_total": 45.0,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 60,
+    "consistency": 40,
+    "follower_scale": 40
+  },
+  "grade": "D",
+  "sample_note": "2026-05-29T10:11:31+09:00 STEP B 풀 재분석(부분) — yt-dlp 실측. 샘플 0개.",
+  "estimation_flags": {
+    "engagement_rate": "measured (likes/views, sample 0)",
+    "posts_last_30d": "measured (video timestamps)",
+    "brand_fit": "estimated (keyword counts in title+desc+tags)",
+    "followers": "measured (channel_follower_count from yt-dlp)"
+  },
   "history": [
     {
       "evaluated_at": "2026-05-13T01:07:44Z",
@@ -22,6 +43,16 @@
       "followers": 71,
       "score_total": 65.5,
       "brand_fit_score": 90
+    },
+    {
+      "evaluated_at": "2026-05-13T01:07:44Z",
+      "score_total": 65.5,
+      "engagement_rate": 1.03,
+      "followers": 71,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "grade": "B"
     }
   ]
 }

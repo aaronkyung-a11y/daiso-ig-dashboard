@@ -1,33 +1,40 @@
 {
   "platform": "youtube",
-  "username": "UCzBbE7x7mPrs56PvCc0errA",
+  "username": "nana6a6y",
   "fullname": "나나씨 Nanasi",
   "channel_id": "UCzBbE7x7mPrs56PvCc0errA",
   "profile_url": "https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA",
   "followers": 160000,
-  "avg_views": 39057,
-  "avg_likes": 178.8,
-  "avg_comments": 10.4,
-  "engagement_rate": 1.9808,
-  "posts_last_30d": 3,
-  "sample_size": 3,
+  "avg_views": 0,
+  "avg_likes": 0,
+  "avg_comments": 0,
+  "engagement_rate": 0,
+  "posts_last_30d": 0,
+  "sample_size": 0,
   "brand_fit_score": 25,
-  "retailer_focus": "olive_young",
+  "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso_count": 0,
-    "olive_young_count": 1,
-    "beauty_keyword_count": 0,
-    "our_brand_present": false
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
   },
-  "total_score": 57.75,
+  "evaluated_at": "2026-05-29T10:10:41+09:00",
+  "score_total": 42.2,
   "score_breakdown": {
     "engagement": 40,
-    "brand_fit": 75,
-    "consistency": 60,
+    "brand_fit": 25,
+    "consistency": 40,
     "follower_scale": 100
   },
-  "grade": "C",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "grade": "D",
+  "sample_note": "2026-05-29T10:10:41+09:00 STEP B 풀 재분석(부분) — yt-dlp 실측. 샘플 0개.",
+  "estimation_flags": {
+    "engagement_rate": "measured (likes/views, sample 0)",
+    "posts_last_30d": "measured (video timestamps)",
+    "brand_fit": "estimated (keyword counts in title+desc+tags)",
+    "followers": "measured (channel_follower_count from yt-dlp)"
+  },
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,32 +44,16 @@
       "posts_last_30d": 3,
       "brand_fit_score": 25,
       "retailer_focus": "olive_young"
-    }
-  ],
-  "score_total": 55.2,
-  "score": {
-    "total": 57.75,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 75,
-      "consistency": 60,
-      "follower_scale": 100
     },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 55.2,
+      "engagement_rate": 1.9808,
+      "followers": 160000,
+      "posts_last_30d": 3,
+      "brand_fit_score": 25,
+      "retailer_focus": "olive_young",
+      "grade": "C"
     }
-  },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA"
-  },
-  "post_count_total": 5,
-  "view_to_sub_ratio": 0.4884,
-  "top_video_views": 78136.4,
-  "top_post_likes": 178.8,
-  "sample_note": "STEP B 풀 재분석. likes 추출 3/3 (JS런타임 없음 → 일부 0)"
+  ]
 }

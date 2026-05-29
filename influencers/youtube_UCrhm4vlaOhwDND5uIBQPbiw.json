@@ -1,25 +1,26 @@
 {
   "platform": "youtube",
-  "username": "UCrhm4vlaOhwDND5uIBQPbiw",
+  "username": "myrg_studio",
   "fullname": "마이알지",
   "channel_id": "UCrhm4vlaOhwDND5uIBQPbiw",
   "profile_url": "https://www.youtube.com/channel/UCrhm4vlaOhwDND5uIBQPbiw",
-  "followers": 11600,
-  "avg_views": 290,
+  "followers": 11700,
+  "avg_views": 273.7,
   "avg_likes": 0.0,
   "avg_comments": 0.0,
   "engagement_rate": 0.0,
   "posts_last_30d": 0,
-  "sample_size": 5,
+  "sample_size": 6,
   "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
+  "retailer_focus": "mixed",
   "retailer_signal": {
-    "daiso_count": 0,
-    "olive_young_count": 0,
-    "beauty_keyword_count": 0,
-    "our_brand_present": false
+    "daiso_mentions": "1건",
+    "olive_young_mentions": "1건",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
   },
-  "total_score": 40.25,
+  "evaluated_at": "2026-05-29T10:10:56+09:00",
+  "score_total": 40.2,
   "score_breakdown": {
     "engagement": 40,
     "brand_fit": 25,
@@ -27,7 +28,13 @@
     "follower_scale": 80
   },
   "grade": "D",
-  "evaluated_at": "2026-05-12T10:15:00+09:00",
+  "sample_note": "2026-05-29T10:10:56+09:00 STEP B 풀 재분석(부분) — yt-dlp 실측. 샘플 6개.",
+  "estimation_flags": {
+    "engagement_rate": "measured (likes/views, sample 6)",
+    "posts_last_30d": "measured (video timestamps)",
+    "brand_fit": "estimated (keyword counts in title+desc+tags)",
+    "followers": "measured (channel_follower_count from yt-dlp)"
+  },
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,32 +44,16 @@
       "posts_last_30d": 0,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic"
-    }
-  ],
-  "score_total": 40.2,
-  "score": {
-    "total": 40.25,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 25,
-      "consistency": 40,
-      "follower_scale": 80
     },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 40.2,
+      "engagement_rate": 0.0,
+      "followers": 11600,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "D"
     }
-  },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:1건 / oliveyoung:1건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCrhm4vlaOhwDND5uIBQPbiw"
-  },
-  "post_count_total": 5,
-  "view_to_sub_ratio": 0.025,
-  "top_video_views": 289.6,
-  "top_post_likes": 0.0,
-  "sample_note": "STEP B 풀 재분석. likes 추출 0/5 (JS런타임 없음 → 일부 0)"
+  ]
 }

@@ -1,0 +1,38 @@
+{
+  "platform": "youtube",
+  "username": "CODAquatt",
+  "fullname": "꼬다쾃 CODAQUATT",
+  "channel_id": "UCBEvSDXPu2rsaI7pRV9W1UQ",
+  "profile_url": "https://www.youtube.com/channel/UCBEvSDXPu2rsaI7pRV9W1UQ",
+  "followers": 38000,
+  "avg_views": 26203.0,
+  "avg_likes": 354.2,
+  "avg_comments": 55.6,
+  "engagement_rate": 0.0135,
+  "posts_last_30d": 1,
+  "sample_size": 8,
+  "brand_fit_score": 90,
+  "retailer_focus": "olive_young",
+  "retailer_signal": {
+    "daiso_mentions": "1건",
+    "olive_young_mentions": "2건",
+    "beauty_topical_strength": "strong (30건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-29T10:08:37+09:00",
+  "score_total": 66.5,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 90,
+    "consistency": 40,
+    "follower_scale": 80
+  },
+  "grade": "B",
+  "sample_note": "2026-05-29T10:08:37+09:00 STEP A 신규 분석 — yt-dlp 실측 (구독자 38000, 샘플 8개). ER=avg_likes/avg_views. brand_fit·retailer_focus=제목+태그+설명 키워드 기반(실측 텍스트, 분류는 키워드 추정).",
+  "estimation_flags": {
+    "engagement_rate": "measured (likes/views, sample 8)",
+    "posts_last_30d": "measured (video timestamps)",
+    "brand_fit": "estimated (keyword counts in title+desc+tags)",
+    "followers": "measured (channel_follower_count from yt-dlp)"
+  }
+}

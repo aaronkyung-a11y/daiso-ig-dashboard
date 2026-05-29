@@ -1,0 +1,38 @@
+{
+  "platform": "youtube",
+  "username": "solucete",
+  "fullname": "서히",
+  "channel_id": "UCCutD4GABbPGfmRy72hQ1mA",
+  "profile_url": "https://www.youtube.com/channel/UCCutD4GABbPGfmRy72hQ1mA",
+  "followers": 36300,
+  "avg_views": 15005.8,
+  "avg_likes": 251.0,
+  "avg_comments": 35.0,
+  "engagement_rate": 0.0167,
+  "posts_last_30d": 0,
+  "sample_size": 5,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_topical_strength": "none (0건)",
+    "labrang_blanc_doux_mention": false
+  },
+  "evaluated_at": "2026-05-29T10:09:47+09:00",
+  "score_total": 50.2,
+  "score_breakdown": {
+    "engagement": 60,
+    "brand_fit": 25,
+    "consistency": 40,
+    "follower_scale": 80
+  },
+  "grade": "C",
+  "sample_note": "2026-05-29T10:09:47+09:00 STEP A 신규 분석 — yt-dlp 실측 (구독자 36300, 샘플 5개). ER=avg_likes/avg_views. brand_fit·retailer_focus=제목+태그+설명 키워드 기반(실측 텍스트, 분류는 키워드 추정).",
+  "estimation_flags": {
+    "engagement_rate": "measured (likes/views, sample 5)",
+    "posts_last_30d": "measured (video timestamps)",
+    "brand_fit": "estimated (keyword counts in title+desc+tags)",
+    "followers": "measured (channel_follower_count from yt-dlp)"
+  }
+}

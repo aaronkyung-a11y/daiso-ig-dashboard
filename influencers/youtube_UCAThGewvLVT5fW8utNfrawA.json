@@ -1,29 +1,39 @@
 {
   "platform": "youtube",
-  "username": "UCAThGewvLVT5fW8utNfrawA",
+  "username": "aradhya_fact_55",
   "fullname": "ARADHYA FACT",
+  "channel_id": "UCAThGewvLVT5fW8utNfrawA",
   "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
-  "followers": 579000,
-  "engagement_rate": 0.0,
-  "posts_last_30d": 18,
-  "sample_size": 18,
+  "followers": 607000,
+  "avg_views": 0,
+  "avg_likes": 0,
+  "avg_comments": 0,
+  "engagement_rate": 0,
+  "posts_last_30d": 0,
+  "sample_size": 0,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso_mentions": "none",
-    "olive_young_mentions": "none",
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
     "beauty_topical_strength": "none (0건)",
     "labrang_blanc_doux_mention": false
   },
-  "evaluated_at": "2026-05-14T17:10:31+09:00",
-  "score_total": 51.25,
-  "grade": "C",
-  "sample_note": "2026-05-14T17:00 KST STEP B-Light 재분석 (yt-dlp 샘플 18건). ER=0.00%, posts_30d=18 (sample 기반 추정), brand_fit=25, followers=579000. ⚠️ YouTube like_count 비공개(None) — ER=0 처리로 점수에 보수적으로 반영.",
-  "subcomponents": {
-    "er_score": 40,
-    "brand_fit_score": 25,
-    "posts_score": 100,
-    "followers_score": 100
+  "evaluated_at": "2026-05-29T10:12:25+09:00",
+  "score_total": 42.2,
+  "score_breakdown": {
+    "engagement": 40,
+    "brand_fit": 25,
+    "consistency": 40,
+    "follower_scale": 100
+  },
+  "grade": "D",
+  "sample_note": "2026-05-29T10:12:25+09:00 STEP B 풀 재분석(부분) — yt-dlp 실측. 샘플 0개.",
+  "estimation_flags": {
+    "engagement_rate": "measured (likes/views, sample 0)",
+    "posts_last_30d": "measured (video timestamps)",
+    "brand_fit": "estimated (keyword counts in title+desc+tags)",
+    "followers": "measured (channel_follower_count from yt-dlp)"
   },
   "history": [
     {
@@ -41,6 +51,16 @@
       "engagement_rate": 0.0,
       "followers": 579000,
       "posts_last_30d": 18
+    },
+    {
+      "evaluated_at": "2026-05-14T17:10:31+09:00",
+      "score_total": 51.25,
+      "engagement_rate": 0.0,
+      "followers": 579000,
+      "posts_last_30d": 18,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "C"
     }
   ]
 }
