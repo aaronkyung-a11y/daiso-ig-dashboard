@@ -3,12 +3,12 @@
   "username": "gaeeeeurii",
   "profile_url": "https://www.instagram.com/gaeeeeurii/",
   "fullname": "개울이 • 기초&베이스 덕후♡",
-  "followers": 4939,
+  "followers": 5555,
   "following": 22,
-  "post_count_total": 25,
+  "post_count_total": 44,
   "bio": "기초&베이스 덕후",
   "sample_size": 0,
-  "sample_note": "2026-05-14T14:00 KST STEP B-Light 재분석 — ⚠️ IG 로그아웃 상태로 reel 샘플 불가. og:description으로 followers(4,939)/post_count(25) 실측 갱신. ER·brand_fit·posts_30d는 카리포워드. 점수=50.0 (D).",
+  "sample_note": "2026-05-29T14:00 KST STEP B-Light 재분석 — ⚠️ IG 로그아웃 상태로 reel 샘플 불가. 페이지 헤더로 followers(5,555)/post_count(44) 실측 갱신. ER·brand_fit·posts_30d는 캐리포워드. 점수=50.0 (D).",
   "avg_likes": null,
   "avg_comments": null,
   "avg_engagement": null,
@@ -31,8 +31,8 @@
     "reel_codes": [],
     "top_reel": null
   },
-  "evaluated_at": "2026-05-14T14:08:00+09:00",
-  "notes": "STEP A 신규 분석 (Form 큐, Fri 14:00 KST). 로그아웃 모드 — 프로필 헤더 + 가시 bio 기반 평가. 점수 추정.",
+  "evaluated_at": "2026-05-29T14:08:00+09:00",
+  "notes": "B-Light rolling refresh 2026-05-29 14:00 KST (로그아웃 모드, 헤더 데이터만 갱신)",
   "score": {
     "total": 50.0,
     "breakdown": {
@@ -78,6 +78,16 @@
       "score_total": 50.0,
       "grade": "D",
       "note": "pre-B-Light snapshot"
+    },
+    {
+      "evaluated_at": "2026-05-14T14:08:00+09:00",
+      "followers": 4939,
+      "engagement_rate": null,
+      "posts_last_30d": null,
+      "brand_fit_score": 60,
+      "score_total": 50.0,
+      "grade": "D",
+      "note": "pre B-Light 2026-05-29T14:00"
     }
   ],
   "score_total": 50.0,
@@ -88,5 +98,5 @@
     "consistency": 60,
     "follower_scale": 60
   },
-  "snapshot_refresh_at": "2026-05-14T14:08:00+09:00"
+  "snapshot_refresh_at": "2026-05-29T14:08:00+09:00"
 }
