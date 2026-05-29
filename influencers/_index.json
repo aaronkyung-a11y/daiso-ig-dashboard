@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T10:14:11+09:00",
+  "generated_at": "2026-05-29T14:10:00+09:00",
   "total_records": 111,
   "platform_counts": {
     "youtube": 88,
@@ -15,9 +15,9 @@
   },
   "grade_distribution": {
     "A": 35,
-    "B": 38,
+    "B": 37,
     "D": 12,
-    "C": 18,
+    "C": 19,
     "S": 8
   },
   "score_total_null_count": 0,
@@ -4362,22 +4362,22 @@
       "username": "UC5BqeEsHJnYM4O4xvWJK3Cg",
       "fullname": "쎄이 SSAY",
       "profile_url": "https://www.youtube.com/channel/UC5BqeEsHJnYM4O4xvWJK3Cg",
-      "followers": 6560,
-      "engagement_rate": 1.3588,
-      "posts_last_30d": 2,
+      "followers": 6600,
+      "engagement_rate": 0.0132,
+      "posts_last_30d": 1,
       "sample_size": 18,
       "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso_count": 88,
-        "olive_young_count": 122,
-        "beauty_keyword_count": 178,
-        "our_brand_present": false
+        "daiso_mentions": "88건",
+        "olive_young_mentions": "128건",
+        "beauty_topical_strength": "strong (181건)",
+        "labrang_blanc_doux_mention": false
       },
-      "evaluated_at": "2026-05-15T14:09:51+09:00",
-      "score_total": 67.5,
-      "grade": "B",
-      "sample_note": "STEP B-Light 14시 슬롯 재분석. yt-dlp 풀 통계 18/18.",
+      "evaluated_at": "2026-05-29T14:08:00+09:00",
+      "score_total": 64.5,
+      "grade": "C",
+      "sample_note": "youtube sample: 18 items",
       "records": [
         {
           "id": "1SztaMK8ktE",
@@ -5088,12 +5088,12 @@
       "username": "gaeeeeurii",
       "profile_url": "https://www.instagram.com/gaeeeeurii/",
       "fullname": "개울이 • 기초&베이스 덕후♡",
-      "followers": 4939,
+      "followers": 5555,
       "following": 22,
       "post_count_total": 25,
       "bio": "기초&베이스 덕후",
       "sample_size": 0,
-      "sample_note": "2026-05-14T14:00 KST STEP B-Light 재분석 — ⚠️ IG 로그아웃 상태로 reel 샘플 불가. og:description으로 followers(4,939)/post_count(25) 실측 갱신. ER·brand_fit·posts_30d는 카리포워드. 점수=50.0 (D).",
+      "sample_note": "2026-05-29T14:00 KST STEP B-Light 재분석 — ⚠️ IG 로그아웃 상태로 reel 샘플 불가. 페이지 헤더로 followers(5,555)/post_count(44) 실측 갱신. ER·brand_fit·posts_30d는 캐리포워드. 점수=50.0 (D).",
       "avg_likes": null,
       "avg_comments": null,
       "avg_engagement": null,
@@ -5116,7 +5116,7 @@
         "reel_codes": [],
         "top_reel": null
       },
-      "evaluated_at": "2026-05-14T14:08:00+09:00",
+      "evaluated_at": "2026-05-29T14:08:00+09:00",
       "notes": "STEP A 신규 분석 (Form 큐, Fri 14:00 KST). 로그아웃 모드 — 프로필 헤더 + 가시 bio 기반 평가. 점수 추정.",
       "score": {
         "total": 50.0,
