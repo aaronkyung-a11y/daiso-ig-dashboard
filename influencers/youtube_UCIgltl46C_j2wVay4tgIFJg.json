@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "username": "UCIgltl46C_j2wVay4tgIFJg",
+  "profile_url": "https://www.youtube.com/channel/UCIgltl46C_j2wVay4tgIFJg",
+  "evaluated_at": "2026-06-01T01:09:49.747997+00:00",
+  "fullname": "골랐다",
+  "followers": 1880,
+  "_channel_desc": "살까 말까 고민될 땐? 제가 대신, 골랐다! 🛒\n다이소·이케아·코스트코·대형마트까지~\n직접 써보고 골라낸 살림템과 생활 꿀팁을\n짧고 빠르게 알려드리는 쇼츠 채널입니다💡\n\n수납템, 정리템, 꼭 필요한 생활용품들!\n사기 전에, 골랐다 먼저 보고 가세요 👀\n\n",
+  "sample_size": 6,
+  "avg_views": 4376,
+  "avg_likes": 42,
+  "engagement_rate": 0.0097,
+  "posts_last_30d": 25,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso": 117,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 61
+  },
+  "score_breakdown": {
+    "er_score": 40,
+    "brand_fit_score": 90,
+    "consistency_score": 100,
+    "follower_scale_score": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "score_total": 63.5,
+  "grade": "C",
+  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+}

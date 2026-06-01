@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "username": "UCZdDMMKj3wgBfo9KU79mdMw",
+  "profile_url": "https://www.youtube.com/channel/UCZdDMMKj3wgBfo9KU79mdMw",
+  "evaluated_at": "2026-06-01T01:10:21.044385+00:00",
+  "fullname": "ぼっちの内科医",
+  "followers": 7200,
+  "_channel_desc": "エンタメ✖️医療🩺\n基本一人ぼっちで撮影🎥\n\n目標は、良い治療がある事を知らずに苦しんでる患者さんに、少しでも情報が届くこと\n\n🎵ミセス🍏、Le Sserafim、YOASOBI\n👨‍⚕️総合内科専門医、消化器病専門医、消化器内視鏡専門医 \n◯メディア出演多数\nお仕事依頼はDM✉️にお願いします",
+  "sample_size": 1,
+  "avg_views": 357,
+  "avg_likes": 6,
+  "engagement_rate": 0.0168,
+  "posts_last_30d": 0,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 0
+  },
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 25,
+    "consistency_score": 40,
+    "follower_scale_score": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "score_total": 48.25,
+  "grade": "D",
+  "sample_note": "YT 분석 (videos: 1, 상세 샘플: 1) — yt-dlp 자동 추출"
+}

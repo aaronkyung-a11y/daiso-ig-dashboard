@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "username": "UCn7Ifm7sq_IIMivtzZ-LtnA",
+  "profile_url": "https://www.youtube.com/channel/UCn7Ifm7sq_IIMivtzZ-LtnA",
+  "evaluated_at": "2026-06-01T01:10:47.680609+00:00",
+  "fullname": "호박스Hobox",
+  "followers": 79000,
+  "_channel_desc": "지금보다 잘생겨지기 위한 남자 관리법\n\ninstagram : @hyeo_n0\nE-mail : ahh6791@naver.com\n\n\n",
+  "sample_size": 6,
+  "avg_views": 14887,
+  "avg_likes": 203,
+  "engagement_rate": 0.0137,
+  "posts_last_30d": 25,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 90,
+  "retailer_focus": "olive_young",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 10,
+    "our_brand": false,
+    "beauty_kw": 22
+  },
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 90,
+    "consistency_score": 100,
+    "follower_scale_score": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "score_total": 75.5,
+  "grade": "A",
+  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+}

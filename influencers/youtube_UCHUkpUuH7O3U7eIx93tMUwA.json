@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "username": "UCHUkpUuH7O3U7eIx93tMUwA",
+  "profile_url": "https://www.youtube.com/channel/UCHUkpUuH7O3U7eIx93tMUwA",
+  "evaluated_at": "2026-06-01T01:09:49.752633+00:00",
+  "fullname": "먼지나방 스토그래피",
+  "followers": 100000,
+  "_channel_desc": "먼지나방이 설명해주는 쉽고 즐거운 뷰티!\n\n콘텐츠 제작 문의 \nceo@dustmothstg.com\nmkt@dustmothstg.com\n회사 위치 : 서울시 구로구 디지털로 26길 111, JNK디지털타워 408~410호 먼지나방 스토그래피\n",
+  "sample_size": 6,
+  "avg_views": 5968,
+  "avg_likes": 134,
+  "engagement_rate": 0.0224,
+  "posts_last_30d": 25,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso": 11,
+    "olive_young": 0,
+    "our_brand": true,
+    "beauty_kw": 113
+  },
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 100,
+    "consistency_score": 100,
+    "follower_scale_score": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "score_total": 80.0,
+  "grade": "A",
+  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+}

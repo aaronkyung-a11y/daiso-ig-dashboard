@@ -1,52 +1,45 @@
 {
   "platform": "youtube",
   "username": "UCo9OPeVJL5hgPtwxUTEBgSA",
-  "fullname": "룡지니",
-  "channel_id": "UCo9OPeVJL5hgPtwxUTEBgSA",
   "profile_url": "https://www.youtube.com/channel/UCo9OPeVJL5hgPtwxUTEBgSA",
-  "followers": 73400,
-  "avg_views": 70005.6,
-  "avg_likes": 741.8,
-  "avg_comments": 16.4,
-  "engagement_rate": 0.0106,
-  "posts_last_30d": 11,
-  "sample_size": 11,
-  "brand_fit_score": 90,
-  "retailer_focus": "daiso",
+  "evaluated_at": "2026-06-01T01:12:42.496632+00:00",
+  "fullname": "룡지니",
+  "followers": 73500,
+  "_channel_desc": "피부 결에 집착하는 \"결\"벽주의자 ✨\n   \n💌 jinnnnnnnm@gmail.com\n",
+  "sample_size": 0,
+  "avg_views": 0,
+  "avg_likes": 0,
+  "engagement_rate": 0.0,
+  "posts_last_30d": 0,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso_mentions": "31건",
-    "olive_young_mentions": "6건",
-    "beauty_topical_strength": "strong (49건)",
-    "labrang_blanc_doux_mention": false
+    "daiso": 0,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 0
   },
   "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "follower_scale": 80
+    "er_score": 40,
+    "brand_fit_score": 25,
+    "consistency_score": 40,
+    "follower_scale_score": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  "grade": "A",
-  "evaluated_at": "2026-05-28T10:00:00+09:00",
-  "history": [],
-  "score_total": 75.5,
-  "score": {
-    "total": 75.5,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 90,
-      "consistency": 100,
-      "follower_scale": 80
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
+  "score_total": 40.25,
+  "grade": "D",
+  "sample_note": "YT 분석 (videos: 4, 상세 샘플: 0) — yt-dlp 자동 추출",
+  "history": [
+    {
+      "evaluated_at": "2026-05-28T10:00:00+09:00",
+      "followers": 73400,
+      "engagement_rate": 0.0106,
+      "posts_last_30d": 11,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 75.5,
+      "grade": "A"
     }
-  },
-  "total_score": 75.5,
-  "notes": "youtube sample: 11 items",
-  "brand_fit_notes": "daiso:31건 / oliveyoung:6건 / beauty:49건 / labrang:N",
-  "post_count_total": 15,
-  "sample_note": "2026-05-28T10:00:00+09:00 STEP A queue 신규분석 — yt-dlp 실측 (구독자 73400, 샘플 11개). avg_views=70005.6 avg_likes=741.8. posts_last_30d=timestamp 실측. brand_fit_score는 제목+태그 키워드 기반(추정)."
+  ]
 }

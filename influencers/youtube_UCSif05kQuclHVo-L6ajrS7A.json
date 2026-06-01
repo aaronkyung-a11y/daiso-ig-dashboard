@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "username": "UCSif05kQuclHVo-L6ajrS7A",
+  "profile_url": "https://www.youtube.com/channel/UCSif05kQuclHVo-L6ajrS7A",
+  "evaluated_at": "2026-06-01T01:09:49.696745+00:00",
+  "fullname": "Stories Woven by Time",
+  "followers": 21000,
+  "_channel_desc": "Welcome to \"Stories Woven by Time.\"\n\nThis is a special place where we bring real-life stories to life. We take the diverse experiences shared by you, our community, and people just like us, and adapt them into compelling audio dramas.\n\nWe don't just read stories; we rebuild them.\n\nJoin us for:\n\nHeart-touching tales that warm your soul.\n\nSurprising stories with twists you'll never see coming.\n\nIntense, real-life dramas that feel both familiar and shocking.\n\nWe dramatize the joys, sorrows, and com",
+  "sample_size": 6,
+  "avg_views": 37266,
+  "avg_likes": 479,
+  "engagement_rate": 0.0129,
+  "posts_last_30d": 25,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 95,
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso": 14,
+    "olive_young": 0,
+    "our_brand": true,
+    "beauty_kw": 7
+  },
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 95,
+    "consistency_score": 100,
+    "follower_scale_score": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "score_total": 76.75,
+  "grade": "A",
+  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+}

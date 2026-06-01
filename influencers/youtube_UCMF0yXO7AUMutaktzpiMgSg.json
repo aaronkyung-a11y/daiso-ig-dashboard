@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "username": "UCMF0yXO7AUMutaktzpiMgSg",
+  "profile_url": "https://www.youtube.com/channel/UCMF0yXO7AUMutaktzpiMgSg",
+  "evaluated_at": "2026-06-01T01:09:49.749537+00:00",
+  "fullname": "뽀얌_ angel",
+  "followers": 9480,
+  "_channel_desc": "🥹",
+  "sample_size": 6,
+  "avg_views": 18015,
+  "avg_likes": 216,
+  "engagement_rate": 0.012,
+  "posts_last_30d": 25,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 0
+  },
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 25,
+    "consistency_score": 100,
+    "follower_scale_score": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "score_total": 57.25,
+  "grade": "C",
+  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+}

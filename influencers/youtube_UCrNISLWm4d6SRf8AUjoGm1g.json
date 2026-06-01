@@ -1,52 +1,45 @@
 {
   "platform": "youtube",
   "username": "UCrNISLWm4d6SRf8AUjoGm1g",
-  "fullname": "미니피 minniep",
-  "channel_id": "UCrNISLWm4d6SRf8AUjoGm1g",
   "profile_url": "https://www.youtube.com/channel/UCrNISLWm4d6SRf8AUjoGm1g",
-  "followers": 117000,
-  "avg_views": 36518.3,
-  "avg_likes": 1076.4,
-  "avg_comments": 84.5,
-  "engagement_rate": 0.0295,
-  "posts_last_30d": 12,
-  "sample_size": 12,
-  "brand_fit_score": 90,
-  "retailer_focus": "beauty_general",
+  "evaluated_at": "2026-06-01T01:13:15.272857+00:00",
+  "fullname": "미니피 minniep",
+  "followers": 118000,
+  "_channel_desc": "안녕하세요 승민입니다..\n예쁜 거, 좋은 거, 맛있는 거, 유용한것들을 공유해 보려구요 .. ♥ \n\n📧minniep725@gmail.com\n",
+  "sample_size": 0,
+  "avg_views": 0,
+  "avg_likes": 0,
+  "engagement_rate": 0.0,
+  "posts_last_30d": 0,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_topical_strength": "strong (23건)",
-    "labrang_blanc_doux_mention": false
+    "daiso": 0,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 0
   },
   "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "follower_scale": 100
+    "er_score": 40,
+    "brand_fit_score": 25,
+    "consistency_score": 40,
+    "follower_scale_score": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  "grade": "A",
-  "evaluated_at": "2026-05-28T10:00:00+09:00",
-  "history": [],
-  "score_total": 77.5,
-  "score": {
-    "total": 77.5,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 90,
-      "consistency": 100,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
+  "score_total": 42.25,
+  "grade": "D",
+  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 0) — yt-dlp 자동 추출",
+  "history": [
+    {
+      "evaluated_at": "2026-05-28T10:00:00+09:00",
+      "followers": 117000,
+      "engagement_rate": 0.0295,
+      "posts_last_30d": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 77.5,
+      "grade": "A"
     }
-  },
-  "total_score": 77.5,
-  "notes": "youtube sample: 12 items",
-  "brand_fit_notes": "daiso:0건 / oliveyoung:0건 / beauty:23건 / labrang:N",
-  "post_count_total": 15,
-  "sample_note": "2026-05-28T10:00:00+09:00 STEP A queue 신규분석 — yt-dlp 실측 (구독자 117000, 샘플 12개). avg_views=36518.3 avg_likes=1076.4. posts_last_30d=timestamp 실측. brand_fit_score는 제목+태그 키워드 기반(추정)."
+  ]
 }

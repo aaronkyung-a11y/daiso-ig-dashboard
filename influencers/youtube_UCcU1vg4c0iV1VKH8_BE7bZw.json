@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "username": "UCcU1vg4c0iV1VKH8_BE7bZw",
+  "profile_url": "https://www.youtube.com/channel/UCcU1vg4c0iV1VKH8_BE7bZw",
+  "evaluated_at": "2026-06-01T01:10:21.047139+00:00",
+  "fullname": "찐예쁨연구소",
+  "followers": 1180,
+  "_channel_desc": "예뻐지는 꿀팁 다 모아보기!",
+  "sample_size": 6,
+  "avg_views": 1743,
+  "avg_likes": 39,
+  "engagement_rate": 0.0224,
+  "posts_last_30d": 25,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 25,
+  "retailer_focus": "mixed",
+  "retailer_signal": {
+    "daiso": 1,
+    "olive_young": 1,
+    "our_brand": false,
+    "beauty_kw": 0
+  },
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 25,
+    "consistency_score": 100,
+    "follower_scale_score": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "score_total": 57.25,
+  "grade": "C",
+  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+}

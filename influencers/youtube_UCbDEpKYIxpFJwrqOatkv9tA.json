@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "username": "UCbDEpKYIxpFJwrqOatkv9tA",
+  "profile_url": "https://www.youtube.com/channel/UCbDEpKYIxpFJwrqOatkv9tA",
+  "evaluated_at": "2026-06-01T01:10:21.048444+00:00",
+  "fullname": "서로디 lody",
+  "followers": 718,
+  "_channel_desc": "팝업에 미친 거지코덕.\n공짜선물 팝업투어 매주 업로드💅\ngwattimong@gmail.com",
+  "sample_size": 3,
+  "avg_views": 1501,
+  "avg_likes": 44,
+  "engagement_rate": 0.0293,
+  "posts_last_30d": 2,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 0
+  },
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 25,
+    "consistency_score": 60,
+    "follower_scale_score": 40,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "score_total": 49.25,
+  "grade": "D",
+  "sample_note": "YT 분석 (videos: 3, 상세 샘플: 3) — yt-dlp 자동 추출"
+}

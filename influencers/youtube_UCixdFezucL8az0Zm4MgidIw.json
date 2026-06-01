@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "username": "UCixdFezucL8az0Zm4MgidIw",
+  "profile_url": "https://www.youtube.com/channel/UCixdFezucL8az0Zm4MgidIw",
+  "evaluated_at": "2026-06-01T01:10:47.676710+00:00",
+  "fullname": "알파템",
+  "followers": 11300,
+  "_channel_desc": "🔮직접 사용해보고 생활에 +α가 되는 아이템을 소개합니다.\n🔮알파템으로 생활을 트렌디하게.\n💌협업 및 문의: alphaitem@treasurehunter.co.kr\n",
+  "sample_size": 6,
+  "avg_views": 31267,
+  "avg_likes": 142,
+  "engagement_rate": 0.0046,
+  "posts_last_30d": 20,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 60,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso": 87,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 1
+  },
+  "score_breakdown": {
+    "er_score": 40,
+    "brand_fit_score": 60,
+    "consistency_score": 100,
+    "follower_scale_score": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "score_total": 58.0,
+  "grade": "C",
+  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+}

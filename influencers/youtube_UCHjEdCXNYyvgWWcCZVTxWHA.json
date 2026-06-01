@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "username": "UCHjEdCXNYyvgWWcCZVTxWHA",
+  "profile_url": "https://www.youtube.com/channel/UCHjEdCXNYyvgWWcCZVTxWHA",
+  "evaluated_at": "2026-06-01T01:09:49.688223+00:00",
+  "fullname": "tibet brother",
+  "followers": 493000,
+  "_channel_desc": "beauty, health, and styling for men.\nI use it myself and review good beauty/hair products.\nI'll come back with realistic workout content for men.\ncontact: ilsan9924@naver.com\ninstagram: @juuun_d\n",
+  "sample_size": 6,
+  "avg_views": 57694,
+  "avg_likes": 1514,
+  "engagement_rate": 0.0262,
+  "posts_last_30d": 25,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 90,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 29
+  },
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 90,
+    "consistency_score": 100,
+    "follower_scale_score": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "score_total": 77.5,
+  "grade": "A",
+  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+}

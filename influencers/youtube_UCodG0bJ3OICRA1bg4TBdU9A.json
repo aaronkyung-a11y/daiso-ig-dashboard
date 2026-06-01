@@ -1,32 +1,35 @@
 {
   "platform": "youtube",
   "username": "UCodG0bJ3OICRA1bg4TBdU9A",
-  "fullname": "피부트래블러",
-  "channel_id": "UCodG0bJ3OICRA1bg4TBdU9A",
   "profile_url": "https://www.youtube.com/channel/UCodG0bJ3OICRA1bg4TBdU9A",
+  "evaluated_at": "2026-06-01T01:11:51.456664+00:00",
+  "fullname": "피부트래블러",
   "followers": 135000,
-  "avg_views": 340.7,
-  "avg_likes": 11.7,
-  "avg_comments": 3.0,
-  "engagement_rate": 0.0343,
-  "posts_last_30d": 3,
-  "sample_size": 3,
-  "brand_fit_score": 90,
-  "retailer_focus": "beauty_general",
+  "_channel_desc": "대한민국 2% 피부과 전문의 14년차 노성민\n\n피부과전문의의 건강한 피부 상담이 필요하시다면,\n📞 02-2296-7007\n\n노성민 원장\n\n· 연세대학교 의과대학 최우등 졸업\n· 연세대학교 의과대학원 피부과학석사\n· 신촌 세브란스 병원 피부과 전공의 수료\n· 서울 병무청 징병전담의사 피부과 과장\n· 전) CNP 차앤박 피부과 원장\n· 전) 리뉴미 피부과 원장\n· 전) McKinsey & Company Seoul Office Consultant\n· 현) 벤자민피부과의원 신사 대표원장\n\n· 대한피부과학회 정회원\n· 대한피부과의사회 정회원\n· 대한모발학회 정회원\n· 대한미용피부외과학회 정회원\n· 대한피부항노화학회 정회원\n· 대한여드름학회 정회원\n· 대한아토피피부염학회 정회원\n",
+  "sample_size": 0,
+  "avg_views": 0,
+  "avg_likes": 0,
+  "engagement_rate": 0.0,
+  "posts_last_30d": 0,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_topical_strength": "strong (9건)",
-    "labrang_blanc_doux_mention": false
+    "daiso": 0,
+    "olive_young": 0,
+    "our_brand": false,
+    "beauty_kw": 0
   },
   "score_breakdown": {
-    "engagement": 80,
-    "brand_fit": 90,
-    "consistency": 60,
-    "follower_scale": 100
+    "er_score": 40,
+    "brand_fit_score": 25,
+    "consistency_score": 40,
+    "follower_scale_score": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  "grade": "A",
-  "evaluated_at": "2026-05-28T10:00:00+09:00",
+  "score_total": 42.25,
+  "grade": "D",
+  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 0) — yt-dlp 자동 추출",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -106,27 +109,16 @@
       "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "grade": "A"
-    }
-  ],
-  "score_total": 81.5,
-  "score": {
-    "total": 81.5,
-    "breakdown": {
-      "engagement": 80,
-      "brand_fit": 90,
-      "consistency": 60,
-      "follower_scale": 100
     },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
+    {
+      "evaluated_at": "2026-05-28T10:00:00+09:00",
+      "followers": 135000,
+      "engagement_rate": 0.0343,
+      "posts_last_30d": 3,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 81.5,
+      "grade": "A"
     }
-  },
-  "total_score": 81.5,
-  "notes": "youtube sample: 3 items",
-  "brand_fit_notes": "daiso:0건 / oliveyoung:0건 / beauty:9건 / labrang:N",
-  "post_count_total": 8,
-  "sample_note": "2026-05-28T10:00:00+09:00 STEP B 풀 재분석 — yt-dlp 실측 (구독자 135000, 샘플 3개). avg_views=340.7 avg_likes=11.7. posts_last_30d 실측. brand_fit는 제목+태그+설명 키워드 기반(추정)."
+  ]
 }

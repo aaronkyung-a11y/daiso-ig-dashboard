@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "username": "UCHa6h8DGLYkAljbskQbIXHw",
+  "profile_url": "https://www.youtube.com/channel/UCHa6h8DGLYkAljbskQbIXHw",
+  "evaluated_at": "2026-06-01T01:09:49.743734+00:00",
+  "fullname": "톡신TOXIN",
+  "followers": 205000,
+  "_channel_desc": "무쌍 원탑! 사람 바꾸는 BA 메이크업 장인 톡신입니다💜",
+  "sample_size": 6,
+  "avg_views": 9633,
+  "avg_likes": 214,
+  "engagement_rate": 0.0222,
+  "posts_last_30d": 8,
+  "_posts_last_30d_est": true,
+  "brand_fit_score": 90,
+  "retailer_focus": "olive_young",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 7,
+    "our_brand": false,
+    "beauty_kw": 53
+  },
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 90,
+    "consistency_score": 80,
+    "follower_scale_score": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "score_total": 74.5,
+  "grade": "B",
+  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+}
