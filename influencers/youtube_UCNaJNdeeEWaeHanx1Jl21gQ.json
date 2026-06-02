@@ -1,27 +1,24 @@
 {
   "platform": "youtube",
   "username": "UCNaJNdeeEWaeHanx1Jl21gQ",
-  "profile_url": "https://www.youtube.com/channel/UCNaJNdeeEWaeHanx1Jl21gQ",
-  "evaluated_at": "2026-05-19T05:08:36.130020+00:00",
   "fullname": "수미차올라",
-  "followers": 40900,
+  "profile_url": "https://www.youtube.com/channel/UCNaJNdeeEWaeHanx1Jl21gQ",
+  "followers": 41000,
+  "engagement_rate": 1.2,
+  "posts_last_30d": 4,
   "sample_size": 20,
-  "avg_views": 0,
-  "avg_likes": 194,
-  "engagement_rate": 1.55,
-  "posts_last_30d": 20,
-  "_posts_last_30d_est": true,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
     "daiso": 3,
     "olive_young": 0,
-    "our_brand": false,
-    "beauty_kw": 11
+    "beauty": 49,
+    "our_brand": false
   },
-  "sample_note": "YT 분석 (videos: 20, deep: 3)",
-  "score_total": 75.5,
-  "grade": "A",
+  "evaluated_at": "2026-06-02T17:08:22+09:00",
+  "score_total": 69.5,
+  "grade": "B",
+  "sample_note": "sample=20",
   "history": [
     {
       "evaluated_at": "2026-05-19T05:08:36.130020+00:00",
@@ -29,6 +26,16 @@
       "followers": 40900,
       "brand_fit_score": 90,
       "posts_last_30d": 20,
+      "score_total": 75.5,
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-05-19T05:08:36.130020+00:00",
+      "engagement_rate": 1.55,
+      "posts_last_30d": 20,
+      "followers": 40900,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
       "score_total": 75.5,
       "grade": "A"
     }

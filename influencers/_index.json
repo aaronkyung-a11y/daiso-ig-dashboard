@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-06-02T14:12:47+09:00",
-  "last_run_mode": "queue+B-Light (14:00 slot — STEP B SKIPPED, B-Light: 2 oldest)",
+  "last_updated": "2026-06-02T17:10:16+09:00",
+  "last_run_mode": "queue+B-Light (17:00 slot — STEP B SKIPPED, B-Light: 2 oldest)",
   "total": 134,
   "platforms": {
     "instagram": 23,
     "youtube": 111
   },
   "grades": {
-    "B": 38,
+    "B": 40,
     "S": 11,
-    "A": 23,
+    "A": 21,
     "D": 30,
     "C": 32
   },
@@ -577,22 +577,22 @@
       "username": "UC-hvam4FHeXJDQZ5sCW132A",
       "fullname": "청담 닥터원",
       "profile_url": "https://www.youtube.com/channel/UC-hvam4FHeXJDQZ5sCW132A",
-      "followers": 5990,
-      "engagement_rate": 1.71,
-      "posts_last_30d": 13,
+      "followers": 6040,
+      "engagement_rate": 1.45,
+      "posts_last_30d": 1,
       "sample_size": 20,
       "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "retailer_signal": {
-        "daiso": 1,
-        "olive_young": 4,
-        "our_brand": false,
-        "beauty_kw": 19
+        "daiso": 14,
+        "olive_young": 48,
+        "beauty": 107,
+        "our_brand": false
       },
-      "score_total": 73.5,
-      "grade": "A",
-      "evaluated_at": "2026-05-19T05:08:49.542483+00:00",
-      "sample_note": "YT 분석 (videos: 20, deep: 3)"
+      "evaluated_at": "2026-06-02T17:09:29+09:00",
+      "score_total": 64.5,
+      "grade": "B",
+      "sample_note": "sample=20"
     },
     {
       "platform": "youtube",
@@ -1452,22 +1452,22 @@
       "username": "UCNaJNdeeEWaeHanx1Jl21gQ",
       "fullname": "수미차올라",
       "profile_url": "https://www.youtube.com/channel/UCNaJNdeeEWaeHanx1Jl21gQ",
-      "followers": 40900,
-      "engagement_rate": 1.55,
-      "posts_last_30d": 20,
+      "followers": 41000,
+      "engagement_rate": 1.2,
+      "posts_last_30d": 4,
       "sample_size": 20,
       "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "retailer_signal": {
         "daiso": 3,
         "olive_young": 0,
-        "our_brand": false,
-        "beauty_kw": 11
+        "beauty": 49,
+        "our_brand": false
       },
-      "score_total": 75.5,
-      "grade": "A",
-      "evaluated_at": "2026-05-19T05:08:36.130020+00:00",
-      "sample_note": "YT 분석 (videos: 20, deep: 3)"
+      "evaluated_at": "2026-06-02T17:08:22+09:00",
+      "score_total": 69.5,
+      "grade": "B",
+      "sample_note": "sample=20"
     },
     {
       "platform": "youtube",
