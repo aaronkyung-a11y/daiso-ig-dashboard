@@ -1,5 +1,6 @@
 {
-  "last_updated": "2026-06-01T17:10:48.638828+09:00",
+  "last_updated": "2026-06-02T10:09:52.213677+09:00",
+  "last_run_mode": "queue+integrity (10:00 slot; full live re-analysis deferred — IG session unavailable in autonomous env)",
   "total": 134,
   "platforms": {
     "instagram": 23,
@@ -596,15 +597,12 @@
     {
       "platform": "youtube",
       "username": "UC0-yyrDjTJ1YFzmV12vEp0Q",
-      "profile_url": "https://www.youtube.com/channel/UC0-yyrDjTJ1YFzmV12vEp0Q",
-      "evaluated_at": "2026-06-01T17:10:19.334122+09:00",
       "fullname": "시네 si-ne",
+      "profile_url": "https://www.youtube.com/channel/UC0-yyrDjTJ1YFzmV12vEp0Q",
       "followers": 498000,
-      "sample_size": 20,
-      "avg_views": 93152.8,
-      "avg_likes": 1679.1,
       "engagement_rate": 0.0195,
       "posts_last_30d": 3,
+      "sample_size": 20,
       "brand_fit_score": 90,
       "retailer_focus": "daiso",
       "retailer_signal": {
@@ -615,6 +613,7 @@
       },
       "score_total": 71.5,
       "grade": "B",
+      "evaluated_at": "2026-06-01T17:10:19.334122+09:00",
       "sample_note": "2026-06-01T17:10:19.334122+09:00 STEP B-Light 17:00 — yt-dlp 재추출, view_count·like_count·comment_count·timestamp·title+description+tags 실측. ER=(avg_likes+avg_comments)/avg_views. brand_fit·retailer_focus=캡션/태그 키워드 실측."
     },
     {
@@ -1473,15 +1472,12 @@
     {
       "platform": "youtube",
       "username": "UCPBXXHL9lapYss3PwwLe0fQ",
-      "profile_url": "https://www.youtube.com/channel/UCPBXXHL9lapYss3PwwLe0fQ",
-      "evaluated_at": "2026-06-01T17:10:19.334122+09:00",
       "fullname": "뷰요미",
+      "profile_url": "https://www.youtube.com/channel/UCPBXXHL9lapYss3PwwLe0fQ",
       "followers": 7140,
-      "sample_size": 20,
-      "avg_views": 88809.1,
-      "avg_likes": 1096.2,
       "engagement_rate": 0.0125,
       "posts_last_30d": 20,
+      "sample_size": 20,
       "brand_fit_score": 100,
       "retailer_focus": "our_brand",
       "retailer_signal": {
@@ -1492,6 +1488,7 @@
       },
       "score_total": 76.0,
       "grade": "A",
+      "evaluated_at": "2026-06-01T17:10:19.334122+09:00",
       "sample_note": "2026-06-01T17:10:19.334122+09:00 STEP B-Light 17:00 — yt-dlp 재추출, view_count·like_count·comment_count·timestamp·title+description+tags 실측. ER=(avg_likes+avg_comments)/avg_views. brand_fit·retailer_focus=캡션/태그 키워드 실측."
     },
     {
