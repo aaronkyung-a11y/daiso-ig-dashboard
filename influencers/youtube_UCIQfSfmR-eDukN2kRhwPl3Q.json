@@ -2,26 +2,26 @@
   "platform": "youtube",
   "username": "UCIQfSfmR-eDukN2kRhwPl3Q",
   "profile_url": "https://www.youtube.com/channel/UCIQfSfmR-eDukN2kRhwPl3Q",
-  "evaluated_at": "2026-05-19T05:07:18.870088+00:00",
+  "evaluated_at": "2026-06-02T14:10:46+09:00",
   "fullname": "키키하우스 KIKIHOUSE",
-  "followers": 5720,
+  "followers": 6260,
   "_channel_desc": "혼자 사는 20대 집순이의 일상들 🌷\nkikihouuse@gmail.com",
-  "sample_size": 0,
-  "engagement_rate": 0,
-  "avg_views": 0,
-  "avg_likes": 0,
-  "posts_last_30d": 0,
-  "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
+  "sample_size": 16,
+  "engagement_rate": 0.0116,
+  "avg_views": 94641.4,
+  "avg_likes": 1094.3,
+  "posts_last_30d": 11,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso": 0,
+    "daiso": 11,
     "olive_young": 0,
     "our_brand": false,
-    "beauty_kw": 0
+    "beauty_kw": 20
   },
-  "sample_note": "⚠️ yt-dlp: 영상 0개 (비공개/지역제한 가능)",
-  "score_total": 38.2,
-  "grade": "C",
+  "sample_note": "STEP B-Light 14:00 — yt-dlp 메타데이터, sample=16",
+  "score_total": 73.5,
+  "grade": "B",
   "history": [
     {
       "evaluated_at": "2026-05-19T05:07:18.870088+00:00",
@@ -29,6 +29,16 @@
       "followers": 5720,
       "brand_fit_score": 25,
       "posts_last_30d": 0,
+      "score_total": 38.2,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-19T05:07:18.870088+00:00",
+      "followers": 5720,
+      "engagement_rate": 0,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
       "score_total": 38.2,
       "grade": "C"
     }

@@ -2,27 +2,26 @@
   "platform": "youtube",
   "username": "UCxAdlKnB5u0a7A-iqRa5jYw",
   "profile_url": "https://www.youtube.com/channel/UCxAdlKnB5u0a7A-iqRa5jYw",
-  "evaluated_at": "2026-05-19T05:07:01.368885+00:00",
+  "evaluated_at": "2026-06-02T14:10:46+09:00",
   "fullname": "단이 DANI",
   "followers": 233000,
   "_channel_desc": "고품격 뷰티 패션 채널\n instagram @hhhan_na_",
-  "sample_size": 25,
-  "avg_views": 36746,
+  "sample_size": 20,
+  "avg_views": 39512.3,
   "avg_likes": 0,
   "engagement_rate": 0.0,
-  "posts_last_30d": 21,
-  "_posts_last_30d_est": true,
+  "posts_last_30d": 8,
   "brand_fit_score": 90,
   "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso": 1,
-    "olive_young": 4,
+    "daiso": 0,
+    "olive_young": 40,
     "our_brand": false,
-    "beauty_kw": 10
+    "beauty_kw": 50
   },
-  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6)",
-  "score_total": 67.5,
-  "grade": "A",
+  "sample_note": "STEP B-Light 14:00 — yt-dlp 메타데이터, sample=20",
+  "score_total": 64.5,
+  "grade": "C",
   "history": [
     {
       "evaluated_at": "2026-05-19T05:07:01.368885+00:00",
@@ -30,6 +29,16 @@
       "followers": 233000,
       "brand_fit_score": 90,
       "posts_last_30d": 21,
+      "score_total": 67.5,
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-05-19T05:07:01.368885+00:00",
+      "followers": 233000,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 21,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
       "score_total": 67.5,
       "grade": "A"
     }
