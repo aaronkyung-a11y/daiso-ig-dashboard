@@ -2,24 +2,24 @@
   "platform": "youtube",
   "username": "UCH5Eg4KvlMGPNIHZJSAUH8A",
   "profile_url": "https://www.youtube.com/channel/UCH5Eg4KvlMGPNIHZJSAUH8A",
-  "evaluated_at": "2026-05-19T05:11:11.125384+00:00",
+  "evaluated_at": "2026-06-03T14:08:16.662050+09:00",
   "fullname": "홀앙희",
-  "followers": 4410,
-  "sample_size": 0,
+  "followers": 4440,
+  "sample_size": 18,
   "avg_views": 0,
   "avg_likes": 0,
-  "engagement_rate": 0,
-  "posts_last_30d": 0,
+  "engagement_rate": 0.5511,
+  "posts_last_30d": 11,
   "brand_fit_score": 90,
   "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso_count": 5,
-    "olive_young_count": 24,
-    "beauty_keyword_count": 20,
-    "our_brand_present": false
+    "daiso_mentions": "strong (17건)",
+    "olive_young_mentions": "strong (49건)",
+    "beauty_topical_strength": "strong (44건)",
+    "labrang_blanc_doux_mention": false
   },
-  "sample_note": "⚠️ B-Light: yt-dlp videos=0, prior values carried forward",
-  "score_total": 54.5,
+  "sample_note": "YT shorts 18개 분석 (B-Light rolling refresh). avg_views=17681, avg_likes=97.",
+  "score_total": 63.5,
   "grade": "B",
   "history": [
     {
@@ -37,6 +37,16 @@
       "followers": 4410,
       "brand_fit_score": 90,
       "posts_last_30d": 0,
+      "score_total": 54.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-19T05:11:11.125384+00:00",
+      "followers": 4410,
+      "engagement_rate": 0,
+      "posts_last_30d": 0,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
       "score_total": 54.5,
       "grade": "B"
     }
