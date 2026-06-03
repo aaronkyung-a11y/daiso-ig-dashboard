@@ -2,25 +2,25 @@
   "platform": "youtube",
   "username": "UCHCL-VtQlNJTmPA7oy6HQXg",
   "profile_url": "https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg",
-  "evaluated_at": "2026-05-19T05:11:19.065837+00:00",
+  "evaluated_at": "2026-06-03T14:08:17.044221+09:00",
   "fullname": "선스캣 sun's cat",
-  "followers": 1600,
-  "sample_size": 0,
+  "followers": 2050,
+  "sample_size": 18,
   "avg_views": 0,
   "avg_likes": 0,
-  "engagement_rate": 0,
-  "posts_last_30d": 0,
-  "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
+  "engagement_rate": 2.0757,
+  "posts_last_30d": 18,
+  "brand_fit_score": 90,
+  "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso_count": 0,
-    "olive_young_count": 0,
-    "beauty_keyword_count": 0,
-    "our_brand_present": false
+    "daiso_mentions": "weak (3건)",
+    "olive_young_mentions": "strong (39건)",
+    "beauty_topical_strength": "strong (69건)",
+    "labrang_blanc_doux_mention": false
   },
-  "sample_note": "⚠️ B-Light: yt-dlp videos=0, prior values carried forward",
-  "score_total": 38.2,
-  "grade": "C",
+  "sample_note": "YT shorts 18개 분석 (B-Light rolling refresh). avg_views=33167, avg_likes=688.",
+  "score_total": 73.5,
+  "grade": "B",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -37,6 +37,16 @@
       "followers": 1600,
       "brand_fit_score": 25,
       "posts_last_30d": 0,
+      "score_total": 38.2,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-19T05:11:19.065837+00:00",
+      "followers": 1600,
+      "engagement_rate": 0,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
       "score_total": 38.2,
       "grade": "C"
     }
