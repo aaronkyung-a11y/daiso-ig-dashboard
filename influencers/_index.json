@@ -1,25 +1,25 @@
 {
-  "last_updated": "2026-06-03T14:09:14.090783+09:00",
-  "last_run_mode": "queue+B-Light (14:00 slot — Form큐 0 신규 / B-Light 2건 재분석)",
+  "last_updated": "2026-06-03T17:10:03.631724+09:00",
+  "last_run_mode": "queue+B-Light (17:00 slot — Form큐 0 신규 / B-Light 2건 재분석)",
   "total": 134,
   "platforms": {
     "instagram": 23,
     "youtube": 111
   },
   "grades": {
+    "S": 11,
     "A": 20,
-    "B": 42,
-    "C": 30,
-    "D": 31,
-    "S": 11
+    "B": 43,
+    "C": 29,
+    "D": 31
   },
   "retailer_focus": {
-    "olive_young": 37,
-    "off_topic": 30,
-    "beauty_general": 28,
-    "daiso": 25,
     "our_brand": 9,
-    "mixed": 5
+    "olive_young": 37,
+    "daiso": 25,
+    "beauty_general": 28,
+    "mixed": 5,
+    "off_topic": 30
   },
   "records": [
     {
@@ -529,25 +529,19 @@
       "username": "UCQN8kxyq6a_z0-49pG8g09w",
       "fullname": "장수의 비밀",
       "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
-      "followers": 160000,
-      "engagement_rate": 1.1214,
-      "posts_last_30d": 22,
-      "sample_size": 22,
+      "followers": 161000,
+      "engagement_rate": 1.4015,
+      "posts_last_30d": 9,
+      "sample_size": 9,
       "brand_fit_score": 90,
       "retailer_focus": "daiso",
-      "retailer_signal": {
-        "daiso_mentions": "74건",
-        "olive_young_mentions": "18건",
-        "beauty_topical_strength": "strong (144건)",
-        "labrang_blanc_doux_mention": false
-      },
-      "evaluated_at": "2026-05-21T14:00:00+09:00",
-      "score_total": 77.5,
+      "retailer_signal": "다이소x19, 올영x7",
+      "evaluated_at": "2026-06-03T17:08:47+09:00",
+      "score_total": 74.5,
       "grade": "A",
-      "sample_note": "2026-05-21T14:00 KST STEP B-Light rolling refresh — yt-dlp 실측 (구독자 og 실측, 최근 22개 영상 ER 실측, 키워드 144건). avg_views=80,644 avg_likes=904. 전 구성요소 실측(추정 없음).",
-      "avg_views": 69090,
-      "avg_likes": 374.6,
-      "avg_comments": 0.8
+      "sample_note": "2026-06-03T17:08 KST STEP B-Light 자동 재분석 — yt-dlp 실측. avg_views=34,819 avg_likes=488. 키워드 beauty=75, daiso=19, oy=7.",
+      "avg_likes": 488,
+      "avg_comments": 2
     },
     {
       "platform": "youtube",
@@ -2138,24 +2132,18 @@
       "fullname": "쏘민_뷰티에대한모든것",
       "profile_url": "https://www.youtube.com/channel/UCVRAHN1wuI9pUDyeSAc_I1A",
       "followers": 12700,
-      "engagement_rate": 0.8255,
+      "engagement_rate": 1.5334,
       "posts_last_30d": 0,
-      "sample_size": 7,
+      "sample_size": 6,
       "brand_fit_score": 90,
       "retailer_focus": "olive_young",
-      "retailer_signal": {
-        "daiso_count": 0,
-        "olive_young_count": 10,
-        "beauty_keyword_count": 12,
-        "our_brand_present": false
-      },
-      "evaluated_at": "2026-05-21T17:17:00+09:00",
-      "score_total": 56.5,
-      "grade": "C",
-      "sample_note": "STEP B-Light 라이브 재측정(Chrome). ER=avg_likes/avg_views(SKILL식). avg_comments는 이번 미수집→이전값 유지(carry-forward). brand_fit/retailer_focus 는 영상 설명 라이브 추출 불가로 이전값 유지.",
-      "avg_views": 3703.6,
-      "avg_likes": 30.57,
-      "avg_comments": 6.8
+      "retailer_signal": "올영x11",
+      "evaluated_at": "2026-06-03T17:08:47+09:00",
+      "score_total": 66.5,
+      "grade": "B",
+      "sample_note": "2026-06-03T17:08 KST STEP B-Light 자동 재분석 — yt-dlp 실측. avg_views=1,956 avg_likes=30. 키워드 beauty=20, daiso=0, oy=11.",
+      "avg_likes": 30,
+      "avg_comments": 6
     },
     {
       "platform": "youtube",
