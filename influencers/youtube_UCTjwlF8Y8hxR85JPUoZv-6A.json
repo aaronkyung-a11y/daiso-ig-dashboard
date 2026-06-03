@@ -3,25 +3,25 @@
   "username": "UCTjwlF8Y8hxR85JPUoZv-6A",
   "fullname": "김밍 KIMMING",
   "profile_url": "https://www.youtube.com/channel/UCTjwlF8Y8hxR85JPUoZv-6A",
-  "followers": 282000,
-  "avg_views": 235251.3,
-  "avg_likes": 1043.33,
-  "avg_comments": 190.3,
-  "engagement_rate": 0.4435,
+  "followers": 283000,
+  "avg_views": 237960,
+  "avg_likes": 1060,
+  "avg_comments": 190,
+  "engagement_rate": 0.0053,
   "posts_last_30d": 0,
   "sample_size": 3,
-  "brand_fit_score": 60,
+  "brand_fit_score": 75,
   "retailer_focus": "beauty_general",
   "retailer_signal": {
-    "daiso_count": 0,
-    "olive_young_count": 0,
-    "beauty_keyword_count": 2,
-    "our_brand_present": false
+    "daiso_mentions": 0,
+    "oliveyoung_mentions": 0,
+    "beauty_keywords": 6,
+    "labrang_present": false
   },
-  "evaluated_at": "2026-05-21T17:17:00+09:00",
-  "sample_note": "STEP B-Light 라이브 재측정(Chrome). ER=avg_likes/avg_views(SKILL식). avg_comments는 이번 미수집→이전값 유지(carry-forward). brand_fit/retailer_focus 는 영상 설명 라이브 추출 불가로 이전값 유지. 영상1건 좋아요 비공개→0 처리.",
-  "score_total": 51.0,
-  "grade": "C",
+  "evaluated_at": "2026-06-03T10:11:59+09:00",
+  "sample_note": "yt-dlp 30d window; 0 in last 30d, fallback=yes",
+  "score_total": 54.75,
+  "grade": "D",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -39,6 +39,15 @@
       "followers": 282000,
       "posts_last_30d": 0,
       "brand_fit_score": 60,
+      "retailer_focus": "beauty_general"
+    },
+    {
+      "evaluated_at": "2026-06-03T10:11:59+09:00",
+      "score_total": 54.75,
+      "grade": "D",
+      "engagement_rate": 0.0053,
+      "followers": 283000,
+      "brand_fit_score": 75,
       "retailer_focus": "beauty_general"
     }
   ],

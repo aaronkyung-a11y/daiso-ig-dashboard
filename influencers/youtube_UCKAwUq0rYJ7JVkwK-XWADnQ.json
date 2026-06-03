@@ -3,22 +3,22 @@
   "username": "UCKAwUq0rYJ7JVkwK-XWADnQ",
   "fullname": "박지윤의 피부 설명서",
   "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ",
-  "followers": 50000,
-  "engagement_rate": 1.78,
+  "followers": 50900,
+  "engagement_rate": 0.0185,
   "posts_last_30d": 4,
-  "sample_size": 17,
+  "sample_size": 18,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions_count": 1,
-    "olive_young_mentions_count": 0,
-    "beauty_keyword_count": 26,
-    "labrang_mentioned": false
+    "daiso_mentions": 7,
+    "oliveyoung_mentions": 4,
+    "beauty_keywords": 33,
+    "labrang_present": false
   },
-  "evaluated_at": "2026-05-20T14:09:16+09:00",
+  "evaluated_at": "2026-06-03T10:11:59+09:00",
   "score_total": 69.5,
   "grade": "B",
-  "sample_note": "yt-dlp flat playlist; titles only for keyword scan; sample=17; posts_30d uses upload_date",
+  "sample_note": "yt-dlp 30d window; 4 in last 30d, fallback=yes",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -39,6 +39,18 @@
       "score_total": 69.5,
       "grade": "B",
       "followers": 49300
+    },
+    {
+      "evaluated_at": "2026-06-03T10:11:59+09:00",
+      "score_total": 69.5,
+      "grade": "B",
+      "engagement_rate": 0.0185,
+      "followers": 50900,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso"
     }
-  ]
+  ],
+  "avg_views": 45322,
+  "avg_likes": 810,
+  "avg_comments": 28
 }

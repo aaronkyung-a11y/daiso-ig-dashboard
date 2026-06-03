@@ -3,23 +3,33 @@
   "username": "UCd7icqUv7f8k2E6n4WOCIQg",
   "fullname": "Pibukyurl",
   "profile_url": "https://www.youtube.com/channel/UCd7icqUv7f8k2E6n4WOCIQg",
-  "followers": 57400,
-  "engagement_rate": 0.041,
-  "posts_last_30d": 6,
-  "sample_size": 18,
+  "followers": 60800,
+  "engagement_rate": 0.0396,
+  "posts_last_30d": 8,
+  "sample_size": 8,
   "brand_fit_score": 90,
-  "retailer_focus": "daiso",
+  "retailer_focus": "beauty_general",
   "retailer_signal": {
-    "beauty_count": 427,
-    "daiso_count": 3,
-    "olive_young_count": 1,
+    "daiso_mentions": 0,
+    "oliveyoung_mentions": 0,
+    "beauty_keywords": 34,
     "labrang_present": false
   },
-  "evaluated_at": "2026-05-20T10:12:51.609635+09:00",
+  "evaluated_at": "2026-06-03T10:11:59+09:00",
   "score_total": 82.5,
   "grade": "A",
-  "sample_note": "ok",
-  "history": [],
+  "sample_note": "yt-dlp 30d window; 8 in last 30d, fallback=no",
+  "history": [
+    {
+      "evaluated_at": "2026-06-03T10:11:59+09:00",
+      "score_total": 82.5,
+      "grade": "A",
+      "engagement_rate": 0.0396,
+      "followers": 60800,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general"
+    }
+  ],
   "score_breakdown": {
     "er_score": 80,
     "bf_score": 90,
@@ -31,5 +41,8 @@
       "posts": 0.15,
       "foll": 0.1
     }
-  }
+  },
+  "avg_views": 44420,
+  "avg_likes": 1450,
+  "avg_comments": 306
 }

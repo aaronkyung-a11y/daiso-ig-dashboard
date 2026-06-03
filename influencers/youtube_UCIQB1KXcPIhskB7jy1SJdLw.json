@@ -3,22 +3,22 @@
   "username": "UCIQB1KXcPIhskB7jy1SJdLw",
   "fullname": "Dr.란의 스킨다이어리",
   "profile_url": "https://www.youtube.com/channel/UCIQB1KXcPIhskB7jy1SJdLw",
-  "followers": 495,
-  "engagement_rate": 1.28,
+  "followers": 522,
+  "engagement_rate": 0.0144,
   "posts_last_30d": 4,
-  "sample_size": 20,
+  "sample_size": 18,
   "brand_fit_score": 90,
   "retailer_focus": "beauty_general",
   "retailer_signal": {
-    "daiso_mentions_count": 0,
-    "olive_young_mentions_count": 0,
-    "beauty_keyword_count": 22,
-    "labrang_mentioned": false
+    "daiso_mentions": 0,
+    "oliveyoung_mentions": 0,
+    "beauty_keywords": 52,
+    "labrang_present": false
   },
-  "evaluated_at": "2026-05-20T14:09:16+09:00",
+  "evaluated_at": "2026-06-03T10:11:59+09:00",
   "score_total": 65.5,
   "grade": "B",
-  "sample_note": "yt-dlp flat playlist; titles only for keyword scan; sample=20; posts_30d uses upload_date",
+  "sample_note": "yt-dlp 30d window; 4 in last 30d, fallback=yes",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -39,6 +39,18 @@
       "score_total": 65.5,
       "grade": "B",
       "followers": 479
+    },
+    {
+      "evaluated_at": "2026-06-03T10:11:59+09:00",
+      "score_total": 65.5,
+      "grade": "B",
+      "engagement_rate": 0.0144,
+      "followers": 522,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general"
     }
-  ]
+  ],
+  "avg_views": 420,
+  "avg_likes": 4,
+  "avg_comments": 1
 }
