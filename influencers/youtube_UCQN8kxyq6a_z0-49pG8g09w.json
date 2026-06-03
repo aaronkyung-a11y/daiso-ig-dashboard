@@ -4,21 +4,16 @@
   "fullname": "장수의 비밀",
   "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
   "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
-  "followers": 160000,
+  "followers": 161000,
   "avg_views": 69090,
-  "avg_likes": 374.6,
-  "avg_comments": 0.8,
-  "engagement_rate": 1.1214,
-  "posts_last_30d": 22,
-  "sample_size": 22,
+  "avg_likes": 488,
+  "avg_comments": 2,
+  "engagement_rate": 1.4015,
+  "posts_last_30d": 9,
+  "sample_size": 9,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_mentions": "74건",
-    "olive_young_mentions": "18건",
-    "beauty_topical_strength": "strong (144건)",
-    "labrang_blanc_doux_mention": false
-  },
+  "retailer_signal": "다이소x19, 올영x7",
   "total_score": 70.75,
   "score_breakdown": {
     "engagement": 60,
@@ -27,7 +22,7 @@
     "follower_scale": 100
   },
   "grade": "A",
-  "evaluated_at": "2026-05-21T14:00:00+09:00",
+  "evaluated_at": "2026-06-03T17:08:47+09:00",
   "history": [
     {
       "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -48,9 +43,19 @@
       "score_total": 61.2,
       "grade": "B",
       "evaluated_at": "2026-05-12T10:15:00+09:00"
+    },
+    {
+      "evaluated_at": "2026-06-03T17:08:47+09:00",
+      "followers": 161000,
+      "engagement_rate": 1.4015,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 74.5,
+      "grade": "A"
     }
   ],
-  "score_total": 77.5,
+  "score_total": 74.5,
   "score": {
     "total": 70.75,
     "breakdown": {
@@ -75,5 +80,5 @@
   "view_to_sub_ratio": 0.2321,
   "top_video_views": 36674.2,
   "top_post_likes": 374.6,
-  "sample_note": "2026-05-21T14:00 KST STEP B-Light rolling refresh — yt-dlp 실측 (구독자 og 실측, 최근 22개 영상 ER 실측, 키워드 144건). avg_views=80,644 avg_likes=904. 전 구성요소 실측(추정 없음)."
+  "sample_note": "2026-06-03T17:08 KST STEP B-Light 자동 재분석 — yt-dlp 실측. avg_views=34,819 avg_likes=488. 키워드 beauty=75, daiso=19, oy=7."
 }
