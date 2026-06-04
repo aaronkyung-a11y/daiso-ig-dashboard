@@ -1,84 +1,84 @@
 {
-  "platform": "youtube",
-  "username": "UCQN8kxyq6a_z0-49pG8g09w",
-  "fullname": "장수의 비밀",
-  "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
-  "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
-  "followers": 161000,
-  "avg_views": 69090,
-  "avg_likes": 488,
-  "avg_comments": 2,
-  "engagement_rate": 1.4015,
-  "posts_last_30d": 9,
-  "sample_size": 9,
+ "platform": "youtube",
+ "username": "UCQN8kxyq6a_z0-49pG8g09w",
+ "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
+ "fullname": "장수의 비밀",
+ "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
+ "followers": 162000,
+ "avg_views": 35101,
+ "avg_likes": 429,
+ "engagement_rate": 0.0122,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso": 12,
+  "olive_young": 6,
+  "our_brand": false,
+  "beauty_kw": 27
+ },
+ "evaluated_at": "2026-06-04T10:23:52.659320+09:00",
+ "score_total": 68.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "daiso",
-  "retailer_signal": "다이소x19, 올영x7",
-  "total_score": 70.75,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 75,
-    "consistency": 80,
-    "follower_scale": 100
+  "consistency_score": 40,
+  "follower_scale_score": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "B",
+ "sample_note": "2026-06-04T10:23:52.659320+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 61.2,
+   "engagement_rate": 1.1149,
+   "followers": 158000,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "retailer_focus": "daiso"
   },
-  "grade": "A",
-  "evaluated_at": "2026-06-03T17:08:47+09:00",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 61.2,
-      "engagement_rate": 1.1149,
-      "followers": 158000,
-      "posts_last_30d": 12,
-      "brand_fit_score": 25,
-      "retailer_focus": "daiso"
-    },
-    {
-      "followers": 158000,
-      "engagement_rate": 1.1149,
-      "posts_last_30d": 12,
-      "sample_size": 12,
-      "brand_fit_score": 25,
-      "retailer_focus": "daiso",
-      "score_total": 61.2,
-      "grade": "B",
-      "evaluated_at": "2026-05-12T10:15:00+09:00"
-    },
-    {
-      "evaluated_at": "2026-06-03T17:08:47+09:00",
-      "followers": 161000,
-      "engagement_rate": 1.4015,
-      "posts_last_30d": 9,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso",
-      "score_total": 74.5,
-      "grade": "A"
-    }
-  ],
-  "score_total": 74.5,
-  "score": {
-    "total": 70.75,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 75,
-      "consistency": 80,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
+  {
+   "followers": 158000,
+   "engagement_rate": 1.1149,
+   "posts_last_30d": 12,
+   "sample_size": 12,
+   "brand_fit_score": 25,
+   "retailer_focus": "daiso",
+   "score_total": 61.2,
+   "grade": "B",
+   "evaluated_at": "2026-05-12T10:15:00+09:00"
   },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:6건 / oliveyoung:1건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w"
+  {
+   "evaluated_at": "2026-06-03T17:08:47+09:00",
+   "followers": 161000,
+   "engagement_rate": 1.4015,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 74.5,
+   "grade": "A"
   },
-  "post_count_total": 5,
-  "view_to_sub_ratio": 0.2321,
-  "top_video_views": 36674.2,
-  "top_post_likes": 374.6,
-  "sample_note": "2026-06-03T17:08 KST STEP B-Light 자동 재분석 — yt-dlp 실측. avg_views=34,819 avg_likes=488. 키워드 beauty=75, daiso=19, oy=7."
+  {
+   "evaluated_at": "2026-06-03T17:08:47+09:00",
+   "score_total": 74.5,
+   "grade": "A",
+   "engagement_rate": 1.4015,
+   "followers": 161000,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 69090,
+   "avg_likes": 488,
+   "sample_size": 9
+  }
+ ]
 }

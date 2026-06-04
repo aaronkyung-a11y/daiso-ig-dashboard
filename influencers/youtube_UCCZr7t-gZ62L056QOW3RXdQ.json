@@ -1,45 +1,64 @@
 {
-  "platform": "youtube",
-  "username": "UCCZr7t-gZ62L056QOW3RXdQ",
-  "profile_url": "https://www.youtube.com/channel/UCCZr7t-gZ62L056QOW3RXdQ",
-  "evaluated_at": "2026-06-01T01:12:42.559405+00:00",
-  "fullname": "니야 Niiya",
-  "followers": 51400,
-  "_channel_desc": "안녕하세요?\n니야(Niiya)라고 합니다?\n인스타그램 아이디 = gardenofniiya\n모든 문의💌 = niiya0720@gmail.com",
-  "sample_size": 0,
-  "avg_views": 0,
-  "avg_likes": 0,
-  "engagement_rate": 0.0,
-  "posts_last_30d": 0,
-  "_posts_last_30d_est": true,
-  "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
-  "retailer_signal": {
-    "daiso": 0,
-    "olive_young": 0,
-    "our_brand": false,
-    "beauty_kw": 0
+ "platform": "youtube",
+ "username": "UCCZr7t-gZ62L056QOW3RXdQ",
+ "channel_id": "UCCZr7t-gZ62L056QOW3RXdQ",
+ "fullname": "니야 Niiya",
+ "profile_url": "https://www.youtube.com/channel/UCCZr7t-gZ62L056QOW3RXdQ",
+ "followers": 53100,
+ "avg_views": 66575,
+ "avg_likes": 1195,
+ "engagement_rate": 0.0179,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 60,
+ "retailer_focus": "beauty_general",
+ "retailer_signal": {
+  "daiso": 0,
+  "olive_young": 0,
+  "our_brand": false,
+  "beauty_kw": 1
+ },
+ "evaluated_at": "2026-06-04T10:20:09.653293+09:00",
+ "score_total": 59.0,
+ "score_breakdown": {
+  "er_score": 60,
+  "brand_fit_score": 60,
+  "consistency_score": 40,
+  "follower_scale_score": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:20:09.653293+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:21, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-28T10:00:00+09:00",
+   "followers": 48900,
+   "engagement_rate": 0.0145,
+   "posts_last_30d": 8,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "score_total": 65.0,
+   "grade": "B"
   },
-  "score_breakdown": {
-    "er_score": 40,
-    "brand_fit_score": 25,
-    "consistency_score": 40,
-    "follower_scale_score": 80,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-  },
-  "score_total": 40.25,
-  "grade": "D",
-  "sample_note": "YT 분석 (videos: 6, 상세 샘플: 0) — yt-dlp 자동 추출",
-  "history": [
-    {
-      "evaluated_at": "2026-05-28T10:00:00+09:00",
-      "followers": 48900,
-      "engagement_rate": 0.0145,
-      "posts_last_30d": 8,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general",
-      "score_total": 65.0,
-      "grade": "B"
-    }
-  ]
+  {
+   "evaluated_at": "2026-06-01T01:12:42.559405+00:00",
+   "score_total": 40.25,
+   "grade": "D",
+   "engagement_rate": 0.0,
+   "followers": 51400,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "avg_views": 0,
+   "avg_likes": 0,
+   "sample_size": 0
+  }
+ ]
 }

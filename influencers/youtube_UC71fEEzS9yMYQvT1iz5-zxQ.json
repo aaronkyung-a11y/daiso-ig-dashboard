@@ -1,65 +1,82 @@
 {
-  "platform": "youtube",
-  "username": "UC71fEEzS9yMYQvT1iz5-zxQ",
-  "fullname": "뷰라tv",
-  "channel_id": "UC71fEEzS9yMYQvT1iz5-zxQ",
-  "profile_url": "https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ",
-  "followers": 87000,
-  "avg_views": 63392.4,
-  "avg_likes": 57.6,
-  "avg_comments": 69.2,
-  "engagement_rate": 0.0009,
-  "posts_last_30d": 4,
-  "sample_size": 18,
-  "brand_fit_score": 90,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_mentions": "5건",
-    "olive_young_mentions": "3건",
-    "beauty_keyword_count": 9,
-    "labrang_present": false
+ "platform": "youtube",
+ "username": "UC71fEEzS9yMYQvT1iz5-zxQ",
+ "channel_id": "UC71fEEzS9yMYQvT1iz5-zxQ",
+ "fullname": "뷰라tv",
+ "profile_url": "https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ",
+ "followers": 89800,
+ "avg_views": 52330,
+ "avg_likes": 52,
+ "engagement_rate": 0.001,
+ "posts_last_30d": 4,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso": 23,
+  "olive_young": 36,
+  "our_brand": true,
+  "beauty_kw": 96
+ },
+ "evaluated_at": "2026-06-04T10:22:41.755911+09:00",
+ "score_total": 62.0,
+ "score_breakdown": {
+  "er_score": 40,
+  "brand_fit_score": 100,
+  "consistency_score": 60,
+  "follower_scale_score": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:22:41.755911+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 62.0,
+   "engagement_rate": 0.1627,
+   "followers": 78600,
+   "posts_last_30d": 4,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand"
   },
-  "score_breakdown": {
-    "er_score": 40,
-    "brand_fit": 90,
-    "consistency": 60,
-    "follower": 80
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 62.0,
+   "engagement_rate": 0.1627,
+   "followers": 78600,
+   "posts_last_30d": 4,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand"
   },
-  "grade": "B",
-  "evaluated_at": "2026-05-29T17:08:34.991311+09:00",
-  "score_total": 59.5,
-  "score": 59.5,
-  "total_score": 59.5,
-  "notes": "STEP B-Light 자동 재분석 (rolling refresh)",
-  "sample_note": "yt-dlp 샘플 18개 (최근 영상 기반). YouTube Data API 미사용 — yt-dlp v2026.03.17 추출.",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 62.0,
-      "engagement_rate": 0.1627,
-      "followers": 78600,
-      "posts_last_30d": 4,
-      "brand_fit_score": 100,
-      "retailer_focus": "our_brand"
-    },
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 62.0,
-      "engagement_rate": 0.1627,
-      "followers": 78600,
-      "posts_last_30d": 4,
-      "brand_fit_score": 100,
-      "retailer_focus": "our_brand"
-    },
-    {
-      "evaluated_at": "2026-05-29T17:08:34.991311+09:00",
-      "score_total": 59.5,
-      "er": 0.0009,
-      "posts_30d": 4,
-      "followers": 87000,
-      "brand_fit": 90,
-      "retailer_focus": "daiso",
-      "grade": "B"
-    }
-  ]
+  {
+   "evaluated_at": "2026-05-29T17:08:34.991311+09:00",
+   "score_total": 59.5,
+   "er": 0.0009,
+   "posts_30d": 4,
+   "followers": 87000,
+   "brand_fit": 90,
+   "retailer_focus": "daiso",
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-05-29T17:08:34.991311+09:00",
+   "score_total": 59.5,
+   "grade": "B",
+   "engagement_rate": 0.0009,
+   "followers": 87000,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 63392.4,
+   "avg_likes": 57.6,
+   "sample_size": 18
+  }
+ ]
 }

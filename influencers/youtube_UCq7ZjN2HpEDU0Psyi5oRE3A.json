@@ -1,33 +1,54 @@
 {
-  "platform": "youtube",
-  "username": "UCq7ZjN2HpEDU0Psyi5oRE3A",
-  "profile_url": "https://www.youtube.com/channel/UCq7ZjN2HpEDU0Psyi5oRE3A",
-  "evaluated_at": "2026-06-01T01:10:47.668147+00:00",
-  "fullname": "연글램",
-  "followers": 3750,
-  "_channel_desc": "뷰티팁&리뷰 | 같이 예뻐지자❣️\n💌 beauty@beaus.co.kr",
-  "sample_size": 6,
-  "avg_views": 11661,
-  "avg_likes": 231,
-  "engagement_rate": 0.0198,
-  "posts_last_30d": 25,
-  "_posts_last_30d_est": true,
+ "platform": "youtube",
+ "username": "UCq7ZjN2HpEDU0Psyi5oRE3A",
+ "channel_id": "UCq7ZjN2HpEDU0Psyi5oRE3A",
+ "fullname": "연글램",
+ "profile_url": "https://www.youtube.com/channel/UCq7ZjN2HpEDU0Psyi5oRE3A",
+ "followers": 3750,
+ "avg_views": 6626,
+ "avg_likes": 108,
+ "engagement_rate": 0.0163,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
+ "retailer_signal": {
+  "daiso": 8,
+  "olive_young": 12,
+  "our_brand": false,
+  "beauty_kw": 30
+ },
+ "evaluated_at": "2026-06-04T10:25:21.437376+09:00",
+ "score_total": 64.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso": 15,
-    "olive_young": 3,
-    "our_brand": false,
-    "beauty_kw": 27
-  },
-  "score_breakdown": {
-    "er_score": 60,
-    "brand_fit_score": 90,
-    "consistency_score": 100,
-    "follower_scale_score": 60,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-  },
-  "score_total": 73.5,
-  "grade": "B",
-  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+  "consistency_score": 40,
+  "follower_scale_score": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:25:21.437376+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-06-01T01:10:47.668147+00:00",
+   "score_total": 73.5,
+   "grade": "B",
+   "engagement_rate": 0.0198,
+   "followers": 3750,
+   "posts_last_30d": 25,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 11661,
+   "avg_likes": 231,
+   "sample_size": 6
+  }
+ ]
 }

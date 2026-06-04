@@ -1,46 +1,73 @@
 {
-  "platform": "youtube",
-  "username": "UCIQfSfmR-eDukN2kRhwPl3Q",
-  "profile_url": "https://www.youtube.com/channel/UCIQfSfmR-eDukN2kRhwPl3Q",
-  "evaluated_at": "2026-06-02T14:10:46+09:00",
-  "fullname": "키키하우스 KIKIHOUSE",
-  "followers": 6260,
-  "_channel_desc": "혼자 사는 20대 집순이의 일상들 🌷\nkikihouuse@gmail.com",
-  "sample_size": 16,
-  "engagement_rate": 0.0116,
-  "avg_views": 94641.4,
-  "avg_likes": 1094.3,
-  "posts_last_30d": 11,
+ "platform": "youtube",
+ "username": "UCIQfSfmR-eDukN2kRhwPl3Q",
+ "channel_id": "UCIQfSfmR-eDukN2kRhwPl3Q",
+ "fullname": "키키하우스 KIKIHOUSE",
+ "profile_url": "https://www.youtube.com/channel/UCIQfSfmR-eDukN2kRhwPl3Q",
+ "followers": 6300,
+ "avg_views": 25171,
+ "avg_likes": 196,
+ "engagement_rate": 0.0078,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso": 4,
+  "olive_young": 0,
+  "our_brand": false,
+  "beauty_kw": 13
+ },
+ "evaluated_at": "2026-06-04T10:23:23.751338+09:00",
+ "score_total": 54.5,
+ "score_breakdown": {
+  "er_score": 40,
   "brand_fit_score": 90,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso": 11,
-    "olive_young": 0,
-    "our_brand": false,
-    "beauty_kw": 20
+  "consistency_score": 40,
+  "follower_scale_score": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:23:23.751338+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-19T05:07:18.870088+00:00",
+   "engagement_rate": 0,
+   "followers": 5720,
+   "brand_fit_score": 25,
+   "posts_last_30d": 0,
+   "score_total": 38.2,
+   "grade": "C"
   },
-  "sample_note": "STEP B-Light 14:00 — yt-dlp 메타데이터, sample=16",
-  "score_total": 73.5,
-  "grade": "B",
-  "history": [
-    {
-      "evaluated_at": "2026-05-19T05:07:18.870088+00:00",
-      "engagement_rate": 0,
-      "followers": 5720,
-      "brand_fit_score": 25,
-      "posts_last_30d": 0,
-      "score_total": 38.2,
-      "grade": "C"
-    },
-    {
-      "evaluated_at": "2026-05-19T05:07:18.870088+00:00",
-      "followers": 5720,
-      "engagement_rate": 0,
-      "posts_last_30d": 0,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
-      "score_total": 38.2,
-      "grade": "C"
-    }
-  ]
+  {
+   "evaluated_at": "2026-05-19T05:07:18.870088+00:00",
+   "followers": 5720,
+   "engagement_rate": 0,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 38.2,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-02T14:10:46+09:00",
+   "score_total": 73.5,
+   "grade": "B",
+   "engagement_rate": 0.0116,
+   "followers": 6260,
+   "posts_last_30d": 11,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 94641.4,
+   "avg_likes": 1094.3,
+   "sample_size": 16
+  }
+ ]
 }

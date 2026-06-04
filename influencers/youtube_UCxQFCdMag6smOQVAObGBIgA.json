@@ -1,77 +1,72 @@
 {
-  "platform": "youtube",
-  "username": "UCxQFCdMag6smOQVAObGBIgA",
-  "fullname": "예옹이",
-  "channel_id": "UCxQFCdMag6smOQVAObGBIgA",
-  "profile_url": "https://www.youtube.com/channel/UCxQFCdMag6smOQVAObGBIgA",
-  "followers": 6320,
-  "avg_views": 5541.8,
-  "avg_likes": 27.1,
-  "avg_comments": 18.1,
-  "engagement_rate": 0.815,
-  "posts_last_30d": 0,
-  "sample_size": 18,
+ "platform": "youtube",
+ "username": "UCxQFCdMag6smOQVAObGBIgA",
+ "channel_id": "UCxQFCdMag6smOQVAObGBIgA",
+ "fullname": "예옹이",
+ "profile_url": "https://www.youtube.com/channel/UCxQFCdMag6smOQVAObGBIgA",
+ "followers": 6340,
+ "avg_views": 993,
+ "avg_likes": 14,
+ "engagement_rate": 0.0141,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
+ "retailer_signal": {
+  "daiso": 0,
+  "olive_young": 33,
+  "our_brand": false,
+  "beauty_kw": 29
+ },
+ "evaluated_at": "2026-06-04T10:25:29.278287+09:00",
+ "score_total": 64.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "olive_young",
-  "retailer_signal": {
-    "daiso_count": 0,
-    "olive_young_count": 99,
-    "beauty_keyword_count": 69,
-    "our_brand_present": false
+  "consistency_score": 40,
+  "follower_scale_score": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:25:29.278287+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 57.5,
+   "engagement_rate": 0.5654,
+   "followers": 6310,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   },
-  "total_score": 54.5,
-  "score_breakdown": {
-    "engagement": 40,
-    "brand_fit": 90,
-    "consistency": 40,
-    "follower_scale": 60
+  {
+   "evaluated_at": "2026-05-28T17:04:00+09:00",
+   "score_total": 54.5,
+   "engagement_rate": 0.815,
+   "followers": 6320,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   },
-  "grade": "C",
-  "evaluated_at": "2026-05-28T17:04:00+09:00",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 57.5,
-      "engagement_rate": 0.5654,
-      "followers": 6310,
-      "posts_last_30d": 2,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young"
-    },
-    {
-      "evaluated_at": "2026-05-28T17:04:00+09:00",
-      "score_total": 54.5,
-      "engagement_rate": 0.815,
-      "followers": 6320,
-      "posts_last_30d": 0,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young"
-    }
-  ],
-  "score_total": 54.5,
-  "score": {
-    "total": 54.5,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 90,
-      "consistency": 40,
-      "follower_scale": 60
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:none / oliveyoung:2건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCxQFCdMag6smOQVAObGBIgA"
-  },
-  "post_count_total": 5,
-  "view_to_sub_ratio": 0.1303,
-  "top_video_views": 822.2,
-  "top_post_likes": 10.0,
-  "sample_note": "youtube sample: 18 items (recent_30d=0, fallback=True)"
+  {
+   "evaluated_at": "2026-05-28T17:04:00+09:00",
+   "score_total": 54.5,
+   "grade": "C",
+   "engagement_rate": 0.815,
+   "followers": 6320,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "avg_views": 5541.8,
+   "avg_likes": 27.1,
+   "sample_size": 18
+  }
+ ]
 }

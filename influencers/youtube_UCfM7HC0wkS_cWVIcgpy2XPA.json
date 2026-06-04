@@ -1,33 +1,54 @@
 {
-  "platform": "youtube",
-  "username": "UCfM7HC0wkS_cWVIcgpy2XPA",
-  "profile_url": "https://www.youtube.com/channel/UCfM7HC0wkS_cWVIcgpy2XPA",
-  "evaluated_at": "2026-06-01T01:10:47.625029+00:00",
-  "fullname": "몌 myerry",
-  "followers": 134000,
-  "_channel_desc": "'ㅋㅋㅋ' 칠 때 진짜 웃는 유형\n\n•·················•·················•·················•\n\n📎 Insta : @myerry_\n💌 Mail : team_mye@naver.com\n💬 카톡으로 최저가 마켓 알림 받기 : http://pf.kakao.com/_Zxgrpn\n\n•·················•·················•·················•\n\n📌 몌 시리즈 컨텐츠\n\n💄 몌뉴 (Mye + New)\n: 신상 화장품을 사용하며 메이크업하는 리뷰 영상\n\n🍽️ 맛보기 몌뉴\n: 다양한 신상 화장품을 이것저것 써보는 테스트 리뷰 영상\n\n🧾 몌월정산\n: 한 달 동안 내돈내산으로 소비한 제품들을\n솔직하고 과감하게 리뷰하는 영상\n\n⚔️ 빅몌치\n: 두 제품 이상을 비교하며\n차이점과 선택 포인트를 정리하는 비교 리뷰 영상\n\n🎬 몌이킹 필름\n: 편집을 최소화한 풀영상 형태로\n촬영 과정과 여러 솔직한 이야기들을 함께 담은 대화형 컨텐츠\n\n",
-  "sample_size": 6,
-  "avg_views": 8466,
-  "avg_likes": 186,
-  "engagement_rate": 0.022,
-  "posts_last_30d": 25,
-  "_posts_last_30d_est": true,
+ "platform": "youtube",
+ "username": "UCfM7HC0wkS_cWVIcgpy2XPA",
+ "channel_id": "UCfM7HC0wkS_cWVIcgpy2XPA",
+ "fullname": "몌 myerry",
+ "profile_url": "https://www.youtube.com/channel/UCfM7HC0wkS_cWVIcgpy2XPA",
+ "followers": 134000,
+ "avg_views": 8354,
+ "avg_likes": 172,
+ "engagement_rate": 0.0206,
+ "posts_last_30d": 9,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso": 17,
+  "olive_young": 4,
+  "our_brand": false,
+  "beauty_kw": 163
+ },
+ "evaluated_at": "2026-06-04T10:24:53.188351+09:00",
+ "score_total": 74.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso": 11,
-    "olive_young": 0,
-    "our_brand": false,
-    "beauty_kw": 103
-  },
-  "score_breakdown": {
-    "er_score": 60,
-    "brand_fit_score": 90,
-    "consistency_score": 100,
-    "follower_scale_score": 100,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-  },
-  "score_total": 77.5,
-  "grade": "A",
-  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+  "consistency_score": 80,
+  "follower_scale_score": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "B",
+ "sample_note": "2026-06-04T10:24:53.188351+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-06-01T01:10:47.625029+00:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "engagement_rate": 0.022,
+   "followers": 134000,
+   "posts_last_30d": 25,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 8466,
+   "avg_likes": 186,
+   "sample_size": 6
+  }
+ ]
 }

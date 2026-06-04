@@ -1,27 +1,41 @@
 {
  "platform": "youtube",
  "username": "UCkCQe4QPcKCvB3PTzIWHn2g",
+ "channel_id": "UCkCQe4QPcKCvB3PTzIWHn2g",
  "fullname": "하이하쥬 hihajyu",
  "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g",
  "followers": 23,
- "avg_views": 5000.2,
- "avg_likes": 49.9,
- "avg_comments": 6.0,
- "engagement_rate": 0.01,
- "posts_last_30d": 8,
- "sample_size": 8,
+ "avg_views": 6009,
+ "avg_likes": 58,
+ "engagement_rate": 0.0097,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_count": 7,
-  "olive_young_count": 1,
-  "beauty_keyword_count": 9,
-  "our_brand_present": true
+  "daiso": 11,
+  "olive_young": 2,
+  "our_brand": true,
+  "beauty_kw": 19
  },
- "evaluated_at": "2026-05-27T17:05:00+09:00",
- "sample_note": "2026-05-27T17:05:00+09:00 STEP B-Light (17시 슬롯) 재분석 — yt-dlp 채널 영상 8건 실측(조회/좋아요/댓글/업로드일). ER=avg_likes/avg_views. brand_fit·retailer_focus=title+tags+description 키워드 실측. likes 추출 8/8. grade S>=85/A>=75/B>=65/C>=50/D.",
- "score_total": 61.0,
+ "evaluated_at": "2026-06-04T10:24:55.989336+09:00",
+ "score_total": 55.0,
+ "score_breakdown": {
+  "er_score": 40,
+  "brand_fit_score": 100,
+  "consistency_score": 40,
+  "follower_scale_score": 40,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
  "grade": "C",
+ "sample_note": "2026-06-04T10:24:55.989336+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:8, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -41,36 +55,19 @@
    "retailer_focus": "daiso",
    "score_total": 51.0,
    "grade": "C"
-  }
- ],
- "score": {
-  "total": 61.0,
-  "breakdown": {
-   "engagement": 40,
-   "brand_fit": 100,
-   "consistency": 80,
-   "follower_scale": 40
   },
-  "weights": {
-   "engagement": 0.5,
-   "brand_fit": 0.25,
-   "consistency": 0.15,
-   "follower_scale": 0.1
+  {
+   "evaluated_at": "2026-05-27T17:05:00+09:00",
+   "score_total": 61.0,
+   "grade": "C",
+   "engagement_rate": 0.01,
+   "followers": 23,
+   "posts_last_30d": 8,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "avg_views": 5000.2,
+   "avg_likes": 49.9,
+   "sample_size": 8
   }
- },
- "total_score": 61.0,
- "notes": "yt-dlp: 8 videos sampled, 8 in 30d window",
- "brand_fit_notes": "daiso:7건 / oliveyoung:1건 / labrang:Y",
- "sample_data_evidence": {
-  "channel_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g"
- },
- "post_count_total": 4,
- "view_to_sub_ratio": 760.85,
- "top_video_views": 6086.8,
- "estimation_flags": {
-  "engagement_rate": "measured(avg_likes/avg_views, yt-dlp)",
-  "posts_last_30d": "measured(upload_date/timestamp)",
-  "brand_fit": "measured(title+tags+description keywords)",
-  "followers": "measured(channel_follower_count)"
- }
+ ]
 }

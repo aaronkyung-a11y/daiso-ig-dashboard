@@ -1,77 +1,72 @@
 {
-  "platform": "youtube",
-  "username": "UCYjkiHwK6yj1VgMfqNZvHEA",
-  "fullname": "아름닥터tv_자연스러운게 예쁜거다_15년차",
-  "channel_id": "UCYjkiHwK6yj1VgMfqNZvHEA",
-  "profile_url": "https://www.youtube.com/channel/UCYjkiHwK6yj1VgMfqNZvHEA",
-  "followers": 125000,
-  "avg_views": 19785.9,
-  "avg_likes": 334.5,
-  "avg_comments": 44.4,
-  "engagement_rate": 1.6906,
-  "posts_last_30d": 4,
-  "sample_size": 18,
-  "brand_fit_score": 90,
-  "retailer_focus": "beauty_general",
-  "retailer_signal": {
-    "daiso_count": 0,
-    "olive_young_count": 0,
-    "beauty_keyword_count": 25,
-    "our_brand_present": false
+ "platform": "youtube",
+ "username": "UCYjkiHwK6yj1VgMfqNZvHEA",
+ "channel_id": "UCYjkiHwK6yj1VgMfqNZvHEA",
+ "fullname": "아름닥터tv_자연스러운게 예쁜거다_15년차",
+ "profile_url": "https://www.youtube.com/channel/UCYjkiHwK6yj1VgMfqNZvHEA",
+ "followers": 126000,
+ "avg_views": 27749,
+ "avg_likes": 435,
+ "engagement_rate": 0.0157,
+ "posts_last_30d": 4,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 60,
+ "retailer_focus": "beauty_general",
+ "retailer_signal": {
+  "daiso": 0,
+  "olive_young": 0,
+  "our_brand": false,
+  "beauty_kw": 2
+ },
+ "evaluated_at": "2026-06-04T10:24:11.164335+09:00",
+ "score_total": 64.0,
+ "score_breakdown": {
+  "er_score": 60,
+  "brand_fit_score": 60,
+  "consistency_score": 60,
+  "follower_scale_score": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:24:11.164335+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 64.0,
+   "engagement_rate": 1.9549,
+   "followers": 125000,
+   "posts_last_30d": 4,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general"
   },
-  "total_score": 71.5,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 90,
-    "consistency": 60,
-    "follower_scale": 100
+  {
+   "evaluated_at": "2026-05-25T17:04:00+09:00",
+   "score_total": 71.5,
+   "engagement_rate": 1.6906,
+   "followers": 125000,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general"
   },
-  "grade": "B",
-  "evaluated_at": "2026-05-25T17:04:00+09:00",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 64.0,
-      "engagement_rate": 1.9549,
-      "followers": 125000,
-      "posts_last_30d": 4,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general"
-    },
-    {
-      "evaluated_at": "2026-05-25T17:04:00+09:00",
-      "score_total": 71.5,
-      "engagement_rate": 1.6906,
-      "followers": 125000,
-      "posts_last_30d": 4,
-      "brand_fit_score": 90,
-      "retailer_focus": "beauty_general"
-    }
-  ],
-  "score_total": 71.5,
-  "score": {
-    "total": 71.5,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 90,
-      "consistency": 60,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
-  "notes": "yt-dlp B-Light: 18 videos sampled (videos tab), 4 in 30d window",
-  "brand_fit_notes": "daiso:0건 / oliveyoung:0건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCYjkiHwK6yj1VgMfqNZvHEA"
-  },
-  "post_count_total": 18,
-  "view_to_sub_ratio": 0.2406,
-  "top_video_views": 30077.6,
-  "top_post_likes": 541.4,
-  "sample_note": "STEP B-Light 재분석 (17시 슬롯). likes 추출 18/18. ER=avg_likes/avg_views*100."
+  {
+   "evaluated_at": "2026-05-25T17:04:00+09:00",
+   "score_total": 71.5,
+   "grade": "B",
+   "engagement_rate": 1.6906,
+   "followers": 125000,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "avg_views": 19785.9,
+   "avg_likes": 334.5,
+   "sample_size": 18
+  }
+ ]
 }

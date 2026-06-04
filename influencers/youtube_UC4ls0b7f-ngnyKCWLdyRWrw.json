@@ -1,33 +1,54 @@
 {
-  "platform": "youtube",
-  "username": "UC4ls0b7f-ngnyKCWLdyRWrw",
-  "profile_url": "https://www.youtube.com/channel/UC4ls0b7f-ngnyKCWLdyRWrw",
-  "evaluated_at": "2026-06-01T01:09:22.450594+00:00",
-  "fullname": "하요이",
-  "followers": 14800,
-  "_channel_desc": "안농하요입니당 🩵\n📨광고문의:business@ag-ent.net\n",
-  "sample_size": 4,
-  "avg_views": 21470,
-  "avg_likes": 211,
-  "engagement_rate": 0.0098,
-  "posts_last_30d": 0,
-  "_posts_last_30d_est": true,
+ "platform": "youtube",
+ "username": "UC4ls0b7f-ngnyKCWLdyRWrw",
+ "channel_id": "UC4ls0b7f-ngnyKCWLdyRWrw",
+ "fullname": "하요이",
+ "profile_url": "https://www.youtube.com/channel/UC4ls0b7f-ngnyKCWLdyRWrw",
+ "followers": 14800,
+ "avg_views": 16064,
+ "avg_likes": 184,
+ "engagement_rate": 0.0115,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "beauty_general",
+ "retailer_signal": {
+  "daiso": 0,
+  "olive_young": 0,
+  "our_brand": false,
+  "beauty_kw": 11
+ },
+ "evaluated_at": "2026-06-04T10:22:38.874296+09:00",
+ "score_total": 66.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "beauty_general",
-  "retailer_signal": {
-    "daiso": 0,
-    "olive_young": 0,
-    "our_brand": false,
-    "beauty_kw": 10
-  },
-  "score_breakdown": {
-    "er_score": 40,
-    "brand_fit_score": 90,
-    "consistency_score": 40,
-    "follower_scale_score": 80,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-  },
-  "score_total": 56.5,
-  "grade": "C",
-  "sample_note": "YT 분석 (videos: 4, 상세 샘플: 4) — yt-dlp 자동 추출"
+  "consistency_score": 40,
+  "follower_scale_score": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "B",
+ "sample_note": "2026-06-04T10:22:38.874296+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:19, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-06-01T01:09:22.450594+00:00",
+   "score_total": 56.5,
+   "grade": "C",
+   "engagement_rate": 0.0098,
+   "followers": 14800,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "avg_views": 21470,
+   "avg_likes": 211,
+   "sample_size": 4
+  }
+ ]
 }

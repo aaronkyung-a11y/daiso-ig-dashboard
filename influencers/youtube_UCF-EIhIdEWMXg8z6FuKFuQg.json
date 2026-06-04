@@ -1,65 +1,81 @@
 {
-  "platform": "youtube",
-  "username": "UCF-EIhIdEWMXg8z6FuKFuQg",
-  "channel_id": "UCF-EIhIdEWMXg8z6FuKFuQg",
-  "fullname": "아민 ahmin",
-  "profile_url": "https://www.youtube.com/channel/UCF-EIhIdEWMXg8z6FuKFuQg",
-  "followers": 13600,
-  "avg_views": 6741.6,
-  "avg_likes": 204.9,
-  "avg_comments": 16.7,
-  "engagement_rate": 3.0394,
-  "posts_last_30d": 4,
-  "sample_size": 20,
+ "platform": "youtube",
+ "username": "UCF-EIhIdEWMXg8z6FuKFuQg",
+ "channel_id": "UCF-EIhIdEWMXg8z6FuKFuQg",
+ "fullname": "아민 ahmin",
+ "profile_url": "https://www.youtube.com/channel/UCF-EIhIdEWMXg8z6FuKFuQg",
+ "followers": 13600,
+ "avg_views": 8180,
+ "avg_likes": 251,
+ "engagement_rate": 0.0307,
+ "posts_last_30d": 4,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso": 15,
+  "olive_young": 1,
+  "our_brand": true,
+  "beauty_kw": 11
+ },
+ "evaluated_at": "2026-06-04T10:23:07.480326+09:00",
+ "score_total": 82.0,
+ "score_breakdown": {
+  "er_score": 80,
   "brand_fit_score": 100,
-  "retailer_focus": "our_brand",
-  "retailer_signal": "daiso=15, olive_young=6, beauty_kw=24, labrang=True",
-  "score_total": 82.0,
-  "grade": "A",
-  "score": {
-    "total": 82.0,
-    "breakdown": {
-      "engagement": 80,
-      "brand_fit": 100,
-      "consistency": 60,
-      "follower_scale": 80
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
+  "consistency_score": 60,
+  "follower_scale_score": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "A",
+ "sample_note": "2026-06-04T10:23:07.480326+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 72.0,
+   "engagement_rate": 3.4911,
+   "followers": 13200,
+   "posts_last_30d": 3,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso"
   },
-  "evaluated_at": "2026-06-01T14:09:11.928147+09:00",
-  "sample_note": "STEP B-Light 14:00 재분석 (Mon). yt-dlp flat+detail, sample=20, posts_30d=4.",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 72.0,
-      "engagement_rate": 3.4911,
-      "followers": 13200,
-      "posts_last_30d": 3,
-      "brand_fit_score": 60,
-      "retailer_focus": "daiso"
-    },
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 72.0,
-      "engagement_rate": 3.4911,
-      "followers": 13200,
-      "posts_last_30d": 3,
-      "brand_fit_score": 60,
-      "retailer_focus": "daiso"
-    },
-    {
-      "evaluated_at": "2026-05-18T14:11:16+09:00",
-      "score_total": 75.8,
-      "engagement_rate": 0.03031,
-      "followers": 13400,
-      "posts_last_30d": 3,
-      "brand_fit_score": 75,
-      "retailer_focus": "mixed"
-    }
-  ]
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 72.0,
+   "engagement_rate": 3.4911,
+   "followers": 13200,
+   "posts_last_30d": 3,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-05-18T14:11:16+09:00",
+   "score_total": 75.8,
+   "engagement_rate": 0.03031,
+   "followers": 13400,
+   "posts_last_30d": 3,
+   "brand_fit_score": 75,
+   "retailer_focus": "mixed"
+  },
+  {
+   "evaluated_at": "2026-06-01T14:09:11.928147+09:00",
+   "score_total": 82.0,
+   "grade": "A",
+   "engagement_rate": 3.0394,
+   "followers": 13600,
+   "posts_last_30d": 4,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "avg_views": 6741.6,
+   "avg_likes": 204.9,
+   "sample_size": 20
+  }
+ ]
 }

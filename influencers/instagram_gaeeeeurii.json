@@ -1,102 +1,85 @@
 {
-  "platform": "instagram",
-  "username": "gaeeeeurii",
-  "profile_url": "https://www.instagram.com/gaeeeeurii/",
-  "fullname": "개울이 • 기초&베이스 덕후♡",
-  "followers": 5555,
-  "following": 22,
-  "post_count_total": 44,
-  "bio": "기초&베이스 덕후",
-  "sample_size": 0,
-  "sample_note": "2026-05-29T14:00 KST STEP B-Light 재분석 — ⚠️ IG 로그아웃 상태로 reel 샘플 불가. 페이지 헤더로 followers(5,555)/post_count(44) 실측 갱신. ER·brand_fit·posts_30d는 캐리포워드. 점수=50.0 (D).",
-  "avg_likes": null,
-  "avg_comments": null,
-  "avg_engagement": null,
-  "engagement_rate": null,
-  "top_post_likes": null,
-  "posts_last_30d": null,
-  "posts_last_30d_note": "추정 불가 (로그아웃, taken_at 데이터 없음)",
-  "brand_fit_score": 60,
-  "retailer_focus": "beauty_general",
-  "retailer_signal": {
-    "daiso_mentions": "none",
-    "olive_young_mentions": "none",
-    "beauty_topical_strength": "약함 (2건, 가시 bio 기준)",
-    "labrang_blanc_doux_mention": false
+ "platform": "instagram",
+ "username": "gaeeeeurii",
+ "fullname": "가 을",
+ "profile_url": "https://www.instagram.com/gaeeeeurii/",
+ "followers": 5711,
+ "avg_likes": 156,
+ "avg_comments": 20,
+ "avg_views": 51342,
+ "engagement_rate": 0.0308,
+ "posts_last_30d": 12,
+ "sample_size": 12,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso_mentions": "weak (1건)",
+  "olive_young_mentions": "strong (26건)",
+  "beauty_topical_strength": "strong (12건)",
+  "labrang_blanc_doux_mention": true
+ },
+ "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
+ "score_total": 86.0,
+ "score_breakdown": {
+  "er_score": 80,
+  "brand_fit_score": 100,
+  "consistency_score": 100,
+  "follower_scale_score": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "S",
+ "sample_note": "2026-06-04T10:18:35.067467+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+ "history": [
+  {
+   "evaluated_at": "2026-05-08T14:09:14+09:00",
+   "engagement_rate": null,
+   "avg_likes": null,
+   "score": 50.0,
+   "grade": "D",
+   "note": "initial (logged-out fast pass)"
   },
-  "brand_fit_notes": "beauty 2/daiso none/oy none/labrang N — 가시 bio \"기초&베이스 덕후\" 기반 추정",
-  "sample_data_evidence": {
-    "likes_sample": [],
-    "comments_sample": [],
-    "reel_codes": [],
-    "top_reel": null
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 50.0,
+   "engagement_rate": null,
+   "followers": 4572,
+   "posts_last_30d": null,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "note": "snapshot_only (no live refetch)"
   },
-  "evaluated_at": "2026-05-29T14:08:00+09:00",
-  "notes": "B-Light rolling refresh 2026-05-29 14:00 KST (로그아웃 모드, 헤더 데이터만 갱신)",
-  "score": {
-    "total": 50.0,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 60,
-      "consistency": 60,
-      "follower_scale": 60
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    },
-    "estimated": true
+  {
+   "evaluated_at": "2026-05-08T14:09:14+09:00",
+   "followers": 4572,
+   "engagement_rate": null,
+   "posts_last_30d": null,
+   "brand_fit_score": 60,
+   "score_total": 50.0,
+   "grade": "D",
+   "note": "pre-B-Light snapshot"
   },
-  "grade": "D",
-  "history": [
-    {
-      "evaluated_at": "2026-05-08T14:09:14+09:00",
-      "engagement_rate": null,
-      "avg_likes": null,
-      "score": 50.0,
-      "grade": "D",
-      "note": "initial (logged-out fast pass)"
-    },
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 50.0,
-      "engagement_rate": null,
-      "followers": 4572,
-      "posts_last_30d": null,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general",
-      "note": "snapshot_only (no live refetch)"
-    },
-    {
-      "evaluated_at": "2026-05-08T14:09:14+09:00",
-      "followers": 4572,
-      "engagement_rate": null,
-      "posts_last_30d": null,
-      "brand_fit_score": 60,
-      "score_total": 50.0,
-      "grade": "D",
-      "note": "pre-B-Light snapshot"
-    },
-    {
-      "evaluated_at": "2026-05-14T14:08:00+09:00",
-      "followers": 4939,
-      "engagement_rate": null,
-      "posts_last_30d": null,
-      "brand_fit_score": 60,
-      "score_total": 50.0,
-      "grade": "D",
-      "note": "pre B-Light 2026-05-29T14:00"
-    }
-  ],
-  "score_total": 50.0,
-  "total_score": 50.0,
-  "score_breakdown": {
-    "engagement": 40,
-    "brand_fit": 60,
-    "consistency": 60,
-    "follower_scale": 60
+  {
+   "evaluated_at": "2026-05-14T14:08:00+09:00",
+   "followers": 4939,
+   "engagement_rate": null,
+   "posts_last_30d": null,
+   "brand_fit_score": 60,
+   "score_total": 50.0,
+   "grade": "D",
+   "note": "pre B-Light 2026-05-29T14:00"
   },
-  "snapshot_refresh_at": "2026-05-29T14:08:00+09:00"
+  {
+   "evaluated_at": "2026-05-29T14:08:00+09:00",
+   "score_total": 50.0,
+   "grade": "D",
+   "engagement_rate": null,
+   "followers": 5555,
+   "posts_last_30d": null,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "avg_likes": null,
+   "avg_comments": null,
+   "sample_size": 0
+  }
+ ]
 }

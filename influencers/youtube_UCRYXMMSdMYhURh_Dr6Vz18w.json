@@ -1,38 +1,54 @@
 {
-  "platform": "youtube",
-  "username": "sayu.beauty",
-  "fullname": "사유뷰티 sayubeauty",
-  "channel_id": "UCRYXMMSdMYhURh_Dr6Vz18w",
-  "profile_url": "https://www.youtube.com/channel/UCRYXMMSdMYhURh_Dr6Vz18w",
-  "followers": 575,
-  "avg_views": 332.4,
-  "avg_likes": 6.6,
-  "avg_comments": 2.8,
-  "engagement_rate": 0.0199,
-  "posts_last_30d": 0,
-  "sample_size": 8,
+ "platform": "youtube",
+ "username": "sayu.beauty",
+ "channel_id": "UCRYXMMSdMYhURh_Dr6Vz18w",
+ "fullname": "사유뷰티 sayubeauty",
+ "profile_url": "https://www.youtube.com/channel/UCRYXMMSdMYhURh_Dr6Vz18w",
+ "followers": 630,
+ "avg_views": 350,
+ "avg_likes": 7,
+ "engagement_rate": 0.02,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
+ "retailer_signal": {
+  "daiso": 1,
+  "olive_young": 7,
+  "our_brand": false,
+  "beauty_kw": 190
+ },
+ "evaluated_at": "2026-06-04T10:23:52.755450+09:00",
+ "score_total": 62.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "olive_young",
-  "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "8건",
-    "beauty_topical_strength": "strong (281건)",
-    "labrang_blanc_doux_mention": false
-  },
-  "evaluated_at": "2026-05-29T10:09:06+09:00",
-  "score_total": 62.5,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 90,
-    "consistency": 40,
-    "follower_scale": 40
-  },
-  "grade": "C",
-  "sample_note": "2026-05-29T10:09:06+09:00 STEP A 신규 분석 — yt-dlp 실측 (구독자 575, 샘플 8개). ER=avg_likes/avg_views. brand_fit·retailer_focus=제목+태그+설명 키워드 기반(실측 텍스트, 분류는 키워드 추정).",
-  "estimation_flags": {
-    "engagement_rate": "measured (likes/views, sample 8)",
-    "posts_last_30d": "measured (video timestamps)",
-    "brand_fit": "estimated (keyword counts in title+desc+tags)",
-    "followers": "measured (channel_follower_count from yt-dlp)"
+  "consistency_score": 40,
+  "follower_scale_score": 40,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:23:52.755450+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:28, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-29T10:09:06+09:00",
+   "score_total": 62.5,
+   "grade": "C",
+   "engagement_rate": 0.0199,
+   "followers": 575,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "avg_views": 332.4,
+   "avg_likes": 6.6,
+   "sample_size": 8
   }
+ ]
 }

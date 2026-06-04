@@ -1,72 +1,72 @@
 {
-  "platform": "youtube",
-  "username": "UCcjxXC-20HT-sK316Dz2IFQ",
-  "fullname": "왁! 템즈",
-  "channel_id": "UCcjxXC-20HT-sK316Dz2IFQ",
-  "profile_url": "https://www.youtube.com/channel/UCcjxXC-20HT-sK316Dz2IFQ",
-  "followers": 443,
-  "avg_views": 40333.0,
-  "avg_likes": 319.4,
-  "avg_comments": 6.5,
-  "engagement_rate": 0.0079,
-  "posts_last_30d": 0,
-  "sample_size": 20,
+ "platform": "youtube",
+ "username": "UCcjxXC-20HT-sK316Dz2IFQ",
+ "channel_id": "UCcjxXC-20HT-sK316Dz2IFQ",
+ "fullname": "왁! 템즈",
+ "profile_url": "https://www.youtube.com/channel/UCcjxXC-20HT-sK316Dz2IFQ",
+ "followers": 443,
+ "avg_views": 14261,
+ "avg_likes": 89,
+ "engagement_rate": 0.0062,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso": 80,
+  "olive_young": 2,
+  "our_brand": true,
+  "beauty_kw": 29
+ },
+ "evaluated_at": "2026-06-04T10:24:37.647384+09:00",
+ "score_total": 55.0,
+ "score_breakdown": {
+  "er_score": 40,
   "brand_fit_score": 100,
-  "retailer_focus": "our_brand",
-  "retailer_signal": {
-    "daiso_count": 153,
-    "olive_young_count": 14,
-    "beauty_keyword_count": 39,
-    "our_brand_present": true
+  "consistency_score": 40,
+  "follower_scale_score": 40,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:24:37.647384+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 55.0,
+   "engagement_rate": 0.9368,
+   "followers": 441,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand"
   },
-  "score_breakdown": {
-    "engagement": 40,
-    "brand_fit": 100,
-    "consistency": 40,
-    "follower_scale": 40
+  {
+   "evaluated_at": "2026-05-26T14:09:42+09:00",
+   "score_total": 55.0,
+   "engagement_rate": 0.0079,
+   "followers": 443,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand"
   },
-  "score_total": 55.0,
-  "total_score": 55.0,
-  "grade": "C",
-  "evaluated_at": "2026-05-26T14:09:42+09:00",
-  "score": {
-    "total": 55.0,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 100,
-      "consistency": 40,
-      "follower_scale": 40
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
-  "brand_fit_notes": "daiso:153 / oliveyoung:14건 / beauty_kw:39 / labrang:Y",
-  "sample_note": "STEP B-Light 재분석(14시). 영상 20개 풀추출(실측 likes/views). 30일내 0건.",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 55.0,
-      "engagement_rate": 0.9368,
-      "followers": 441,
-      "posts_last_30d": 0,
-      "brand_fit_score": 100,
-      "retailer_focus": "our_brand"
-    },
-    {
-      "evaluated_at": "2026-05-26T14:09:42+09:00",
-      "score_total": 55.0,
-      "engagement_rate": 0.0079,
-      "followers": 443,
-      "posts_last_30d": 0,
-      "brand_fit_score": 100,
-      "retailer_focus": "our_brand"
-    }
-  ],
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCcjxXC-20HT-sK316Dz2IFQ"
+  {
+   "evaluated_at": "2026-05-26T14:09:42+09:00",
+   "score_total": 55.0,
+   "grade": "C",
+   "engagement_rate": 0.0079,
+   "followers": 443,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "avg_views": 40333.0,
+   "avg_likes": 319.4,
+   "sample_size": 20
   }
+ ]
 }

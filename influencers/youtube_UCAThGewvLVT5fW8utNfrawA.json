@@ -1,66 +1,80 @@
 {
-  "platform": "youtube",
-  "username": "aradhya_fact_55",
-  "fullname": "ARADHYA FACT",
-  "channel_id": "UCAThGewvLVT5fW8utNfrawA",
-  "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
-  "followers": 607000,
-  "avg_views": 0,
-  "avg_likes": 0,
-  "avg_comments": 0,
-  "engagement_rate": 0,
-  "posts_last_30d": 0,
-  "sample_size": 0,
+ "platform": "youtube",
+ "username": "aradhya_fact_55",
+ "channel_id": "UCAThGewvLVT5fW8utNfrawA",
+ "fullname": "ARADHYA FACT",
+ "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
+ "followers": 655000,
+ "avg_views": 1828300,
+ "avg_likes": 15144,
+ "engagement_rate": 0.0083,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 25,
+ "retailer_focus": "off_topic",
+ "retailer_signal": {
+  "daiso": 0,
+  "olive_young": 0,
+  "our_brand": false,
+  "beauty_kw": 0
+ },
+ "evaluated_at": "2026-06-04T10:23:07.432350+09:00",
+ "score_total": 42.25,
+ "score_breakdown": {
+  "er_score": 40,
   "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
-  "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_topical_strength": "none (0건)",
-    "labrang_blanc_doux_mention": false
+  "consistency_score": 40,
+  "follower_scale_score": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "D",
+ "sample_note": "2026-06-04T10:23:07.432350+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:05:00+09:00",
+   "score_total": 51.2,
+   "engagement_rate": 0.1165,
+   "followers": 572000,
+   "posts_last_30d": 20,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic"
   },
-  "evaluated_at": "2026-05-29T10:12:25+09:00",
-  "score_total": 42.2,
-  "score_breakdown": {
-    "engagement": 40,
-    "brand_fit": 25,
-    "consistency": 40,
-    "follower_scale": 100
+  {
+   "evaluated_at": "2026-05-14T17:10:31+09:00",
+   "score_total": 51.25,
+   "engagement_rate": 0.0,
+   "followers": 579000,
+   "posts_last_30d": 18
   },
-  "grade": "D",
-  "sample_note": "2026-05-29T10:12:25+09:00 STEP B 풀 재분석(부분) — yt-dlp 실측. 샘플 0개.",
-  "estimation_flags": {
-    "engagement_rate": "measured (likes/views, sample 0)",
-    "posts_last_30d": "measured (video timestamps)",
-    "brand_fit": "estimated (keyword counts in title+desc+tags)",
-    "followers": "measured (channel_follower_count from yt-dlp)"
+  {
+   "evaluated_at": "2026-05-14T17:10:31+09:00",
+   "score_total": 51.25,
+   "engagement_rate": 0.0,
+   "followers": 579000,
+   "posts_last_30d": 18,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "grade": "C"
   },
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:05:00+09:00",
-      "score_total": 51.2,
-      "engagement_rate": 0.1165,
-      "followers": 572000,
-      "posts_last_30d": 20,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic"
-    },
-    {
-      "evaluated_at": "2026-05-14T17:10:31+09:00",
-      "score_total": 51.25,
-      "engagement_rate": 0.0,
-      "followers": 579000,
-      "posts_last_30d": 18
-    },
-    {
-      "evaluated_at": "2026-05-14T17:10:31+09:00",
-      "score_total": 51.25,
-      "engagement_rate": 0.0,
-      "followers": 579000,
-      "posts_last_30d": 18,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
-      "grade": "C"
-    }
-  ]
+  {
+   "evaluated_at": "2026-05-29T10:12:25+09:00",
+   "score_total": 42.2,
+   "grade": "D",
+   "engagement_rate": 0,
+   "followers": 607000,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "avg_views": 0,
+   "avg_likes": 0,
+   "sample_size": 0
+  }
+ ]
 }

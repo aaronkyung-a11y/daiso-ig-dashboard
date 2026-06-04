@@ -1,56 +1,83 @@
 {
-  "platform": "youtube",
-  "username": "UCKAwUq0rYJ7JVkwK-XWADnQ",
-  "fullname": "박지윤의 피부 설명서",
-  "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ",
-  "followers": 50900,
-  "engagement_rate": 0.0185,
-  "posts_last_30d": 4,
-  "sample_size": 18,
+ "platform": "youtube",
+ "username": "UCKAwUq0rYJ7JVkwK-XWADnQ",
+ "channel_id": "UCKAwUq0rYJ7JVkwK-XWADnQ",
+ "fullname": "박지윤의 피부 설명서",
+ "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ",
+ "followers": 50900,
+ "avg_views": 14473,
+ "avg_likes": 232,
+ "engagement_rate": 0.016,
+ "posts_last_30d": 4,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso": 6,
+  "olive_young": 0,
+  "our_brand": false,
+  "beauty_kw": 9
+ },
+ "evaluated_at": "2026-06-04T10:23:24.711365+09:00",
+ "score_total": 69.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_mentions": 7,
-    "oliveyoung_mentions": 4,
-    "beauty_keywords": 33,
-    "labrang_present": false
+  "consistency_score": 60,
+  "follower_scale_score": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "B",
+ "sample_note": "2026-06-04T10:23:24.711365+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 69.5,
+   "engagement_rate": 1.8955,
+   "followers": 49300,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   },
-  "evaluated_at": "2026-06-03T10:11:59+09:00",
-  "score_total": 69.5,
-  "grade": "B",
-  "sample_note": "yt-dlp 30d window; 4 in last 30d, fallback=yes",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 69.5,
-      "engagement_rate": 1.8955,
-      "followers": 49300,
-      "posts_last_30d": 4,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso"
-    },
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "engagement_rate": 1.8955,
-      "posts_last_30d": 4,
-      "sample_size": 12,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso",
-      "score_total": 69.5,
-      "grade": "B",
-      "followers": 49300
-    },
-    {
-      "evaluated_at": "2026-06-03T10:11:59+09:00",
-      "score_total": 69.5,
-      "grade": "B",
-      "engagement_rate": 0.0185,
-      "followers": 50900,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso"
-    }
-  ],
-  "avg_views": 45322,
-  "avg_likes": 810,
-  "avg_comments": 28
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "engagement_rate": 1.8955,
+   "posts_last_30d": 4,
+   "sample_size": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 69.5,
+   "grade": "B",
+   "followers": 49300
+  },
+  {
+   "evaluated_at": "2026-06-03T10:11:59+09:00",
+   "score_total": 69.5,
+   "grade": "B",
+   "engagement_rate": 0.0185,
+   "followers": 50900,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-06-03T10:11:59+09:00",
+   "score_total": 69.5,
+   "grade": "B",
+   "engagement_rate": 0.0185,
+   "followers": 50900,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 45322,
+   "avg_likes": 810,
+   "sample_size": 18
+  }
+ ]
 }

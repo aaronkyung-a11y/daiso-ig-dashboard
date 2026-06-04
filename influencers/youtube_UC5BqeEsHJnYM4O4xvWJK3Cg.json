@@ -1,94 +1,97 @@
 {
-  "platform": "youtube",
-  "username": "UC5BqeEsHJnYM4O4xvWJK3Cg",
-  "fullname": "쎄이 SSAY",
-  "channel_id": "UC5BqeEsHJnYM4O4xvWJK3Cg",
-  "profile_url": "https://www.youtube.com/channel/UC5BqeEsHJnYM4O4xvWJK3Cg",
-  "followers": 6600,
-  "avg_views": 4273.5,
-  "avg_likes": 56.3,
-  "avg_comments": 14.1,
-  "engagement_rate": 0.0132,
-  "posts_last_30d": 1,
-  "sample_size": 18,
+ "platform": "youtube",
+ "username": "UC5BqeEsHJnYM4O4xvWJK3Cg",
+ "channel_id": "UC5BqeEsHJnYM4O4xvWJK3Cg",
+ "fullname": "쎄이 SSAY",
+ "profile_url": "https://www.youtube.com/channel/UC5BqeEsHJnYM4O4xvWJK3Cg",
+ "followers": 6610,
+ "avg_views": 3029,
+ "avg_likes": 46,
+ "engagement_rate": 0.0152,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "mixed",
+ "retailer_signal": {
+  "daiso": 47,
+  "olive_young": 52,
+  "our_brand": false,
+  "beauty_kw": 55
+ },
+ "evaluated_at": "2026-06-04T10:22:39.557018+09:00",
+ "score_total": 64.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "olive_young",
-  "retailer_signal": {
-    "daiso_mentions": "88건",
-    "olive_young_mentions": "128건",
-    "beauty_topical_strength": "strong (181건)",
-    "labrang_blanc_doux_mention": false
+  "consistency_score": 40,
+  "follower_scale_score": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:22:39.557018+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-08T09:09:20+09:00",
+   "followers": 6550,
+   "engagement_rate": 0.0133,
+   "avg_likes": 50.1,
+   "avg_views": 3782.9,
+   "sample_size": 20,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "grade": "B",
+   "score_total": 67.5,
+   "posts_last_30d": 2
   },
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 90,
-    "consistency": 40,
-    "follower_scale": 60
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 67.5,
+   "engagement_rate": 1.8641,
+   "followers": 6550,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   },
-  "grade": "C",
-  "evaluated_at": "2026-05-29T14:08:00+09:00",
-  "score_total": 64.5,
-  "sample_note": "youtube sample: 18 items",
-  "score": {
-    "total": 64.5,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 90,
-      "consistency": 40,
-      "follower_scale": 60
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "followers": 6550,
+   "engagement_rate": 1.8641,
+   "posts_last_30d": 2,
+   "sample_size": 12,
+   "score_total": 67.5,
+   "grade": "B",
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   },
-  "total_score": 64.5,
-  "history": [
-    {
-      "evaluated_at": "2026-05-08T09:09:20+09:00",
-      "followers": 6550,
-      "engagement_rate": 0.0133,
-      "avg_likes": 50.1,
-      "avg_views": 3782.9,
-      "sample_size": 20,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young",
-      "grade": "B",
-      "score_total": 67.5,
-      "posts_last_30d": 2
-    },
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 67.5,
-      "engagement_rate": 1.8641,
-      "followers": 6550,
-      "posts_last_30d": 2,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso"
-    },
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "followers": 6550,
-      "engagement_rate": 1.8641,
-      "posts_last_30d": 2,
-      "sample_size": 12,
-      "score_total": 67.5,
-      "grade": "B",
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso"
-    },
-    {
-      "evaluated_at": "2026-05-15T14:09:51+09:00",
-      "followers": 6560,
-      "engagement_rate": 1.3588,
-      "posts_last_30d": 2,
-      "brand_fit_score": 90,
-      "score_total": 67.5,
-      "grade": "B",
-      "note": "pre B-Light 2026-05-29T14:00"
-    }
-  ],
-  "notes": "B-Light rolling refresh 2026-05-29 14:00 KST (yt-dlp, 18 videos)"
+  {
+   "evaluated_at": "2026-05-15T14:09:51+09:00",
+   "followers": 6560,
+   "engagement_rate": 1.3588,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "score_total": 67.5,
+   "grade": "B",
+   "note": "pre B-Light 2026-05-29T14:00"
+  },
+  {
+   "evaluated_at": "2026-05-29T14:08:00+09:00",
+   "score_total": 64.5,
+   "grade": "C",
+   "engagement_rate": 0.0132,
+   "followers": 6600,
+   "posts_last_30d": 1,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "avg_views": 4273.5,
+   "avg_likes": 56.3,
+   "sample_size": 18
+  }
+ ]
 }

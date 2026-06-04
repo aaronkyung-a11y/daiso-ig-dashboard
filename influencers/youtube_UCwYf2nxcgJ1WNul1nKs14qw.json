@@ -1,58 +1,72 @@
 {
-  "platform": "youtube",
-  "username": "청춘백과-d9w",
-  "fullname": "청춘백과",
-  "channel_id": "UCwYf2nxcgJ1WNul1nKs14qw",
-  "profile_url": "https://www.youtube.com/channel/UCwYf2nxcgJ1WNul1nKs14qw",
-  "followers": 89,
-  "avg_views": 0,
-  "avg_likes": 0,
-  "avg_comments": 0,
-  "engagement_rate": 0,
-  "posts_last_30d": 0,
-  "sample_size": 0,
-  "brand_fit_score": 60,
-  "retailer_focus": "beauty_general",
-  "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_topical_strength": "weak (1건)",
-    "labrang_blanc_doux_mention": false
+ "platform": "youtube",
+ "username": "청춘백과-d9w",
+ "channel_id": "UCwYf2nxcgJ1WNul1nKs14qw",
+ "fullname": "청춘백과",
+ "profile_url": "https://www.youtube.com/channel/UCwYf2nxcgJ1WNul1nKs14qw",
+ "followers": 89,
+ "avg_views": 17647,
+ "avg_likes": 181,
+ "engagement_rate": 0.0103,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 2,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso": 15,
+  "olive_young": 0,
+  "our_brand": false,
+  "beauty_kw": 14
+ },
+ "evaluated_at": "2026-06-04T10:25:21.388389+09:00",
+ "score_total": 62.5,
+ "score_breakdown": {
+  "er_score": 60,
+  "brand_fit_score": 90,
+  "consistency_score": 40,
+  "follower_scale_score": 40,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:25:21.388389+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:2, 상세샘플:2). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 2)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-13T01:07:44Z",
+   "engagement_rate": 1.03,
+   "posts_last_30d": 2,
+   "followers": 71,
+   "score_total": 65.5,
+   "brand_fit_score": 90
   },
-  "evaluated_at": "2026-05-29T10:11:31+09:00",
-  "score_total": 45.0,
-  "score_breakdown": {
-    "engagement": 40,
-    "brand_fit": 60,
-    "consistency": 40,
-    "follower_scale": 40
+  {
+   "evaluated_at": "2026-05-13T01:07:44Z",
+   "score_total": 65.5,
+   "engagement_rate": 1.03,
+   "followers": 71,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "grade": "B"
   },
-  "grade": "D",
-  "sample_note": "2026-05-29T10:11:31+09:00 STEP B 풀 재분석(부분) — yt-dlp 실측. 샘플 0개.",
-  "estimation_flags": {
-    "engagement_rate": "measured (likes/views, sample 0)",
-    "posts_last_30d": "measured (video timestamps)",
-    "brand_fit": "estimated (keyword counts in title+desc+tags)",
-    "followers": "measured (channel_follower_count from yt-dlp)"
-  },
-  "history": [
-    {
-      "evaluated_at": "2026-05-13T01:07:44Z",
-      "engagement_rate": 1.03,
-      "posts_last_30d": 2,
-      "followers": 71,
-      "score_total": 65.5,
-      "brand_fit_score": 90
-    },
-    {
-      "evaluated_at": "2026-05-13T01:07:44Z",
-      "score_total": 65.5,
-      "engagement_rate": 1.03,
-      "followers": 71,
-      "posts_last_30d": 2,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso",
-      "grade": "B"
-    }
-  ]
+  {
+   "evaluated_at": "2026-05-29T10:11:31+09:00",
+   "score_total": 45.0,
+   "grade": "D",
+   "engagement_rate": 0,
+   "followers": 89,
+   "posts_last_30d": 0,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "avg_views": 0,
+   "avg_likes": 0,
+   "sample_size": 0
+  }
+ ]
 }

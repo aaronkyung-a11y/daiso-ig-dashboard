@@ -1,56 +1,83 @@
 {
-  "platform": "youtube",
-  "username": "UCIQB1KXcPIhskB7jy1SJdLw",
-  "fullname": "Dr.란의 스킨다이어리",
-  "profile_url": "https://www.youtube.com/channel/UCIQB1KXcPIhskB7jy1SJdLw",
-  "followers": 522,
-  "engagement_rate": 0.0144,
-  "posts_last_30d": 4,
-  "sample_size": 18,
+ "platform": "youtube",
+ "username": "UCIQB1KXcPIhskB7jy1SJdLw",
+ "channel_id": "UCIQB1KXcPIhskB7jy1SJdLw",
+ "fullname": "Dr.란의 스킨다이어리",
+ "profile_url": "https://www.youtube.com/channel/UCIQB1KXcPIhskB7jy1SJdLw",
+ "followers": 526,
+ "avg_views": 168,
+ "avg_likes": 2,
+ "engagement_rate": 0.0119,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "beauty_general",
+ "retailer_signal": {
+  "daiso": 0,
+  "olive_young": 0,
+  "our_brand": false,
+  "beauty_kw": 10
+ },
+ "evaluated_at": "2026-06-04T10:23:23.304347+09:00",
+ "score_total": 62.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "beauty_general",
-  "retailer_signal": {
-    "daiso_mentions": 0,
-    "oliveyoung_mentions": 0,
-    "beauty_keywords": 52,
-    "labrang_present": false
+  "consistency_score": 40,
+  "follower_scale_score": 40,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:23:23.304347+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 65.5,
+   "engagement_rate": 1.3151,
+   "followers": 479,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general"
   },
-  "evaluated_at": "2026-06-03T10:11:59+09:00",
-  "score_total": 65.5,
-  "grade": "B",
-  "sample_note": "yt-dlp 30d window; 4 in last 30d, fallback=yes",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 65.5,
-      "engagement_rate": 1.3151,
-      "followers": 479,
-      "posts_last_30d": 4,
-      "brand_fit_score": 90,
-      "retailer_focus": "beauty_general"
-    },
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "engagement_rate": 1.3151,
-      "posts_last_30d": 4,
-      "sample_size": 12,
-      "brand_fit_score": 90,
-      "retailer_focus": "beauty_general",
-      "score_total": 65.5,
-      "grade": "B",
-      "followers": 479
-    },
-    {
-      "evaluated_at": "2026-06-03T10:11:59+09:00",
-      "score_total": 65.5,
-      "grade": "B",
-      "engagement_rate": 0.0144,
-      "followers": 522,
-      "brand_fit_score": 90,
-      "retailer_focus": "beauty_general"
-    }
-  ],
-  "avg_views": 420,
-  "avg_likes": 4,
-  "avg_comments": 1
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "engagement_rate": 1.3151,
+   "posts_last_30d": 4,
+   "sample_size": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 65.5,
+   "grade": "B",
+   "followers": 479
+  },
+  {
+   "evaluated_at": "2026-06-03T10:11:59+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "engagement_rate": 0.0144,
+   "followers": 522,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general"
+  },
+  {
+   "evaluated_at": "2026-06-03T10:11:59+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "engagement_rate": 0.0144,
+   "followers": 522,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "avg_views": 420,
+   "avg_likes": 4,
+   "sample_size": 18
+  }
+ ]
 }

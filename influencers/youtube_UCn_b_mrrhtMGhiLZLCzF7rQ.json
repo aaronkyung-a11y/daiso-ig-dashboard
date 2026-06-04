@@ -1,79 +1,74 @@
 {
-  "platform": "youtube",
-  "username": "UCn_b_mrrhtMGhiLZLCzF7rQ",
-  "fullname": "겸다미",
-  "channel_id": "UCn_b_mrrhtMGhiLZLCzF7rQ",
-  "profile_url": "https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ",
-  "followers": 113000,
-  "avg_views": 13712,
-  "avg_likes": 176.0,
-  "avg_comments": 58.6,
-  "engagement_rate": 1.1332,
-  "posts_last_30d": 2,
-  "sample_size": 20,
+ "platform": "youtube",
+ "username": "UCn_b_mrrhtMGhiLZLCzF7rQ",
+ "channel_id": "UCn_b_mrrhtMGhiLZLCzF7rQ",
+ "fullname": "겸다미",
+ "profile_url": "https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ",
+ "followers": 113000,
+ "avg_views": 10554,
+ "avg_likes": 171,
+ "engagement_rate": 0.0162,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
+ "retailer_signal": {
+  "daiso": 5,
+  "olive_young": 29,
+  "our_brand": false,
+  "beauty_kw": 113
+ },
+ "evaluated_at": "2026-06-04T10:25:21.424319+09:00",
+ "score_total": 68.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "olive_young",
-  "retailer_signal": {
-    "daiso": 6,
-    "olive_young": 53,
-    "beauty_keywords": 276,
-    "labrang_present": false
+  "consistency_score": 40,
+  "follower_scale_score": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "B",
+ "sample_note": "2026-06-04T10:25:21.424319+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "followers": 113000,
+   "engagement_rate": 1.715,
+   "posts_last_30d": 1,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 68.5,
+   "grade": "B",
+   "sample_size": 12
   },
-  "total_score": 64.75,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 75,
-    "consistency": 40,
-    "follower_scale": 100
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 68.5,
+   "engagement_rate": 1.715,
+   "followers": 113000,
+   "posts_last_30d": 1,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   },
-  "grade": "B",
-  "evaluated_at": "2026-05-28T14:15:00+09:00",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "followers": 113000,
-      "engagement_rate": 1.715,
-      "posts_last_30d": 1,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young",
-      "score_total": 68.5,
-      "grade": "B",
-      "sample_size": 12
-    },
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 68.5,
-      "engagement_rate": 1.715,
-      "followers": 113000,
-      "posts_last_30d": 1,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young"
-    }
-  ],
-  "score_total": 71.5,
-  "score": {
-    "total": 64.75,
-    "breakdown": {
-      "engagement": 60,
-      "brand_fit": 75,
-      "consistency": 40,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:none / oliveyoung:4건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ"
-  },
-  "post_count_total": 5,
-  "view_to_sub_ratio": 0.1015,
-  "top_video_views": 11466.2,
-  "top_post_likes": 176.0,
-  "sample_note": "yt-dlp 최근 20개 영상 기반"
+  {
+   "evaluated_at": "2026-05-28T14:15:00+09:00",
+   "score_total": 71.5,
+   "grade": "B",
+   "engagement_rate": 1.1332,
+   "followers": 113000,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "avg_views": 13712,
+   "avg_likes": 176.0,
+   "sample_size": 20
+  }
+ ]
 }

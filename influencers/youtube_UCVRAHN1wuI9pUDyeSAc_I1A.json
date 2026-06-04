@@ -1,82 +1,82 @@
 {
-  "platform": "youtube",
-  "username": "UCVRAHN1wuI9pUDyeSAc_I1A",
-  "fullname": "쏘민_뷰티에대한모든것",
-  "channel_id": "UCVRAHN1wuI9pUDyeSAc_I1A",
-  "profile_url": "https://www.youtube.com/channel/UCVRAHN1wuI9pUDyeSAc_I1A",
-  "followers": 12700,
-  "avg_views": 3703.6,
-  "avg_likes": 30,
-  "avg_comments": 6,
-  "engagement_rate": 1.5334,
-  "posts_last_30d": 0,
-  "sample_size": 6,
+ "platform": "youtube",
+ "username": "UCVRAHN1wuI9pUDyeSAc_I1A",
+ "channel_id": "UCVRAHN1wuI9pUDyeSAc_I1A",
+ "fullname": "쏘민_뷰티에대한모든것",
+ "profile_url": "https://www.youtube.com/channel/UCVRAHN1wuI9pUDyeSAc_I1A",
+ "followers": 12700,
+ "avg_views": 1956,
+ "avg_likes": 30,
+ "engagement_rate": 0.0153,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
+ "retailer_signal": {
+  "daiso": 2,
+  "olive_young": 22,
+  "our_brand": false,
+  "beauty_kw": 33
+ },
+ "evaluated_at": "2026-06-04T10:23:52.745321+09:00",
+ "score_total": 66.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "olive_young",
-  "retailer_signal": "올영x11",
-  "total_score": 66.5,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 90,
-    "consistency": 40,
-    "follower_scale": 80
+  "consistency_score": 40,
+  "follower_scale_score": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "B",
+ "sample_note": "2026-06-04T10:23:52.745321+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:22, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 56.5,
+   "engagement_rate": 0.9616,
+   "followers": 12600,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   },
-  "grade": "B",
-  "evaluated_at": "2026-06-03T17:08:47+09:00",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 56.5,
-      "engagement_rate": 0.9616,
-      "followers": 12600,
-      "posts_last_30d": 0,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young"
-    },
-    {
-      "evaluated_at": "2026-05-21T17:17:00+09:00",
-      "score_total": 56.5,
-      "engagement_rate": 0.8255,
-      "followers": 12700,
-      "posts_last_30d": 0,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young"
-    },
-    {
-      "evaluated_at": "2026-06-03T17:08:47+09:00",
-      "followers": 12700,
-      "engagement_rate": 1.5334,
-      "posts_last_30d": 0,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young",
-      "score_total": 66.5,
-      "grade": "B"
-    }
-  ],
-  "score_total": 66.5,
-  "score": {
-    "total": 56.5,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 90,
-      "consistency": 40,
-      "follower_scale": 80
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
+  {
+   "evaluated_at": "2026-05-21T17:17:00+09:00",
+   "score_total": 56.5,
+   "engagement_rate": 0.8255,
+   "followers": 12700,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:none / oliveyoung:5건 / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCVRAHN1wuI9pUDyeSAc_I1A"
+  {
+   "evaluated_at": "2026-06-03T17:08:47+09:00",
+   "followers": 12700,
+   "engagement_rate": 1.5334,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 66.5,
+   "grade": "B"
   },
-  "post_count_total": 7,
-  "view_to_sub_ratio": 0.2916,
-  "top_video_views": 14196,
-  "top_post_likes": 24.6,
-  "sample_note": "2026-06-03T17:08 KST STEP B-Light 자동 재분석 — yt-dlp 실측. avg_views=1,956 avg_likes=30. 키워드 beauty=20, daiso=0, oy=11."
+  {
+   "evaluated_at": "2026-06-03T17:08:47+09:00",
+   "score_total": 66.5,
+   "grade": "B",
+   "engagement_rate": 1.5334,
+   "followers": 12700,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "avg_views": 3703.6,
+   "avg_likes": 30,
+   "sample_size": 6
+  }
+ ]
 }

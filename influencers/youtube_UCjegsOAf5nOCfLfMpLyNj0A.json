@@ -1,77 +1,72 @@
 {
-  "platform": "youtube",
-  "username": "UCjegsOAf5nOCfLfMpLyNj0A",
-  "fullname": "나는의사다",
-  "channel_id": "UCjegsOAf5nOCfLfMpLyNj0A",
-  "profile_url": "https://www.youtube.com/channel/UCjegsOAf5nOCfLfMpLyNj0A",
-  "followers": 218000,
-  "avg_views": 14500.2,
-  "avg_likes": 21.71,
-  "avg_comments": 9.0,
-  "engagement_rate": 0.15,
-  "posts_last_30d": 17,
-  "sample_size": 17,
+ "platform": "youtube",
+ "username": "UCjegsOAf5nOCfLfMpLyNj0A",
+ "channel_id": "UCjegsOAf5nOCfLfMpLyNj0A",
+ "fullname": "나는의사다",
+ "profile_url": "https://www.youtube.com/channel/UCjegsOAf5nOCfLfMpLyNj0A",
+ "followers": 218000,
+ "avg_views": 2246,
+ "avg_likes": 16,
+ "engagement_rate": 0.0071,
+ "posts_last_30d": 15,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso": 19,
+  "olive_young": 0,
+  "our_brand": false,
+  "beauty_kw": 14
+ },
+ "evaluated_at": "2026-06-04T10:24:54.037311+09:00",
+ "score_total": 67.5,
+ "score_breakdown": {
+  "er_score": 40,
   "brand_fit_score": 90,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_count": 24,
-    "olive_young_count": 0,
-    "beauty_keyword_count": 42,
-    "our_brand_present": false
+  "consistency_score": 100,
+  "follower_scale_score": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "B",
+ "sample_note": "2026-06-04T10:24:54.037311+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 64.5,
+   "engagement_rate": 0.2596,
+   "followers": 218000,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   },
-  "total_score": 67.5,
-  "score_breakdown": {
-    "engagement": 40,
-    "brand_fit": 90,
-    "consistency": 100,
-    "follower_scale": 100
+  {
+   "evaluated_at": "2026-05-27T14:10:00+09:00",
+   "score_total": 67.5,
+   "engagement_rate": 0.15,
+   "followers": 218000,
+   "posts_last_30d": 17,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   },
-  "grade": "B",
-  "evaluated_at": "2026-05-27T14:10:00+09:00",
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 64.5,
-      "engagement_rate": 0.2596,
-      "followers": 218000,
-      "posts_last_30d": 9,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso"
-    },
-    {
-      "evaluated_at": "2026-05-27T14:10:00+09:00",
-      "score_total": 67.5,
-      "engagement_rate": 0.15,
-      "followers": 218000,
-      "posts_last_30d": 17,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso"
-    }
-  ],
-  "score_total": 67.5,
-  "score": {
-    "total": 67.5,
-    "breakdown": {
-      "engagement": 40,
-      "brand_fit": 90,
-      "consistency": 100,
-      "follower_scale": 100
-    },
-    "weights": {
-      "engagement": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower_scale": 0.1
-    }
-  },
-  "notes": "youtube sample: 5 items",
-  "brand_fit_notes": "daiso:none / oliveyoung:none / labrang:N",
-  "sample_data_evidence": {
-    "channel_url": "https://www.youtube.com/channel/UCjegsOAf5nOCfLfMpLyNj0A"
-  },
-  "post_count_total": 5,
-  "view_to_sub_ratio": 0.0122,
-  "top_video_views": 2667.4,
-  "top_post_likes": 13.8,
-  "sample_note": "STEP B-Light(14시) 재분석. yt-dlp likes 추출 sample 17건 (JS런타임 없음 → 일부 0 가능, 추정 포함)"
+  {
+   "evaluated_at": "2026-05-27T14:10:00+09:00",
+   "score_total": 67.5,
+   "grade": "B",
+   "engagement_rate": 0.15,
+   "followers": 218000,
+   "posts_last_30d": 17,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 14500.2,
+   "avg_likes": 21.71,
+   "sample_size": 17
+  }
+ ]
 }

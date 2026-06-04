@@ -1,33 +1,54 @@
 {
-  "platform": "youtube",
-  "username": "UC-C-faUj5SNcrIkqEM6FcjA",
-  "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
-  "evaluated_at": "2026-06-01T01:09:22.517017+00:00",
-  "fullname": "HellfireDrama",
-  "followers": 312000,
-  "_channel_desc": " 若世间无路，我自一剑开天门If there is no way out in this world, I will open the gates of heaven with my sword.",
-  "sample_size": 6,
-  "avg_views": 6903,
-  "avg_likes": 92,
-  "engagement_rate": 0.0134,
-  "posts_last_30d": 25,
-  "_posts_last_30d_est": true,
+ "platform": "youtube",
+ "username": "UC-C-faUj5SNcrIkqEM6FcjA",
+ "channel_id": "UC-C-faUj5SNcrIkqEM6FcjA",
+ "fullname": "HellfireDrama",
+ "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
+ "followers": 314000,
+ "avg_views": 2534,
+ "avg_likes": 36,
+ "engagement_rate": 0.0142,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 25,
+ "retailer_focus": "off_topic",
+ "retailer_signal": {
+  "daiso": 0,
+  "olive_young": 0,
+  "our_brand": false,
+  "beauty_kw": 0
+ },
+ "evaluated_at": "2026-06-04T10:22:22.600341+09:00",
+ "score_total": 52.25,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
-  "retailer_signal": {
-    "daiso": 0,
-    "olive_young": 0,
-    "our_brand": false,
-    "beauty_kw": 0
-  },
-  "score_breakdown": {
-    "er_score": 60,
-    "brand_fit_score": 25,
-    "consistency_score": 100,
-    "follower_scale_score": 100,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-  },
-  "score_total": 61.25,
-  "grade": "C",
-  "sample_note": "YT 분석 (videos: 25, 상세 샘플: 6) — yt-dlp 자동 추출"
+  "consistency_score": 40,
+  "follower_scale_score": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:22:22.600341+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-06-01T01:09:22.517017+00:00",
+   "score_total": 61.25,
+   "grade": "C",
+   "engagement_rate": 0.0134,
+   "followers": 312000,
+   "posts_last_30d": 25,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "avg_views": 6903,
+   "avg_likes": 92,
+   "sample_size": 6
+  }
+ ]
 }

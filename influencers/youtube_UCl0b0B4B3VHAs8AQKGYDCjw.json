@@ -1,33 +1,41 @@
 {
  "platform": "youtube",
  "username": "UCl0b0B4B3VHAs8AQKGYDCjw",
- "fullname": "일돈나",
  "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
+ "fullname": "일돈나",
  "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
- "followers": 1280,
- "avg_views": 31373.0,
- "avg_likes": 407.1,
- "avg_comments": 8.3,
- "engagement_rate": 0.013,
- "posts_last_30d": 7,
- "sample_size": 7,
+ "followers": 1290,
+ "avg_views": 32289,
+ "avg_likes": 386,
+ "engagement_rate": 0.012,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_count": 93,
-  "olive_young_count": 38,
-  "beauty_keyword_count": 17,
-  "our_brand_present": false
+  "daiso": 64,
+  "olive_young": 49,
+  "our_brand": false,
+  "beauty_kw": 22
  },
- "total_score": 70.5,
+ "evaluated_at": "2026-06-04T10:25:21.385332+09:00",
+ "score_total": 64.5,
  "score_breakdown": {
-  "engagement": 60,
-  "brand_fit": 60,
-  "consistency": 80,
-  "follower_scale": 60
+  "er_score": 60,
+  "brand_fit_score": 90,
+  "consistency_score": 40,
+  "follower_scale_score": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "B",
- "evaluated_at": "2026-05-27T17:05:00+09:00",
+ "grade": "C",
+ "sample_note": "2026-06-04T10:25:21.385332+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -47,38 +55,19 @@
    "retailer_focus": "daiso",
    "score_total": 70.5,
    "grade": "B"
-  }
- ],
- "score_total": 70.5,
- "score": {
-  "total": 70.5,
-  "breakdown": {
-   "engagement": 60,
-   "brand_fit": 90,
-   "consistency": 80,
-   "follower_scale": 60
   },
-  "weights": {
-   "engagement": 0.5,
-   "brand_fit": 0.25,
-   "consistency": 0.15,
-   "follower_scale": 0.1
+  {
+   "evaluated_at": "2026-05-27T17:05:00+09:00",
+   "score_total": 70.5,
+   "grade": "B",
+   "engagement_rate": 0.013,
+   "followers": 1280,
+   "posts_last_30d": 7,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 31373.0,
+   "avg_likes": 407.1,
+   "sample_size": 7
   }
- },
- "notes": "yt-dlp: 7 videos sampled, 7 in 30d window",
- "brand_fit_notes": "daiso:93건 / oliveyoung:38건 / labrang:N",
- "sample_data_evidence": {
-  "channel_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw"
- },
- "post_count_total": 5,
- "view_to_sub_ratio": 100.8373,
- "top_video_views": 111929.4,
- "top_post_likes": 1947.0,
- "sample_note": "2026-05-27T17:05:00+09:00 STEP B-Light (17시 슬롯) 재분석 — yt-dlp 채널 영상 7건 실측(조회/좋아요/댓글/업로드일). ER=avg_likes/avg_views. brand_fit·retailer_focus=title+tags+description 키워드 실측. likes 추출 7/7. grade S>=85/A>=75/B>=65/C>=50/D.",
- "estimation_flags": {
-  "engagement_rate": "measured(avg_likes/avg_views, yt-dlp)",
-  "posts_last_30d": "measured(upload_date/timestamp)",
-  "brand_fit": "measured(title+tags+description keywords)",
-  "followers": "measured(channel_follower_count)"
- }
+ ]
 }

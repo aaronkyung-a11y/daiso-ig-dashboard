@@ -1,38 +1,54 @@
 {
-  "platform": "youtube",
-  "username": "레이지홈",
-  "fullname": "레이지홈",
-  "channel_id": "UCIErIGNaCbne1_Eu1VzHFcw",
-  "profile_url": "https://www.youtube.com/channel/UCIErIGNaCbne1_Eu1VzHFcw",
-  "followers": 1450,
-  "avg_views": 0,
-  "avg_likes": 0,
-  "avg_comments": 0,
-  "engagement_rate": 0,
-  "posts_last_30d": 0,
-  "sample_size": 0,
-  "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
-  "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_topical_strength": "none (0건)",
-    "labrang_blanc_doux_mention": false
-  },
-  "evaluated_at": "2026-05-29T10:09:27+09:00",
-  "score_total": 38.2,
-  "score_breakdown": {
-    "engagement": 40,
-    "brand_fit": 25,
-    "consistency": 40,
-    "follower_scale": 60
-  },
-  "grade": "D",
-  "sample_note": "2026-05-29T10:09:27+09:00 STEP A 신규 분석 — yt-dlp 실측 (구독자 1450, 샘플 0개). ER=avg_likes/avg_views. brand_fit·retailer_focus=제목+태그+설명 키워드 기반(실측 텍스트, 분류는 키워드 추정).",
-  "estimation_flags": {
-    "engagement_rate": "measured (likes/views, sample 0)",
-    "posts_last_30d": "measured (video timestamps)",
-    "brand_fit": "estimated (keyword counts in title+desc+tags)",
-    "followers": "measured (channel_follower_count from yt-dlp)"
+ "platform": "youtube",
+ "username": "레이지홈",
+ "channel_id": "UCIErIGNaCbne1_Eu1VzHFcw",
+ "fullname": "레이지홈",
+ "profile_url": "https://www.youtube.com/channel/UCIErIGNaCbne1_Eu1VzHFcw",
+ "followers": 1570,
+ "avg_views": 133717,
+ "avg_likes": 1088,
+ "engagement_rate": 0.0081,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 75,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso": 9,
+  "olive_young": 0,
+  "our_brand": false,
+  "beauty_kw": 3
+ },
+ "evaluated_at": "2026-06-04T10:23:22.964319+09:00",
+ "score_total": 50.75,
+ "score_breakdown": {
+  "er_score": 40,
+  "brand_fit_score": 75,
+  "consistency_score": 40,
+  "follower_scale_score": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:23:22.964319+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-29T10:09:27+09:00",
+   "score_total": 38.2,
+   "grade": "D",
+   "engagement_rate": 0,
+   "followers": 1450,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "avg_views": 0,
+   "avg_likes": 0,
+   "sample_size": 0
   }
+ ]
 }

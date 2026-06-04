@@ -1,70 +1,84 @@
 {
-  "platform": "youtube",
-  "username": "wantchu123",
-  "fullname": "원츄",
-  "channel_id": "UC43-ROy5F2-1dVZ726gckuA",
-  "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA",
-  "followers": 568,
-  "avg_views": 0,
-  "avg_likes": 0,
-  "avg_comments": 0,
-  "engagement_rate": 0,
-  "posts_last_30d": 0,
-  "sample_size": 0,
-  "brand_fit_score": 60,
-  "retailer_focus": "olive_young",
-  "retailer_signal": {
-    "daiso_mentions": "1건",
-    "olive_young_mentions": "2건",
-    "beauty_topical_strength": "weak (1건)",
-    "labrang_blanc_doux_mention": false
+ "platform": "youtube",
+ "username": "wantchu123",
+ "channel_id": "UC43-ROy5F2-1dVZ726gckuA",
+ "fullname": "원츄",
+ "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA",
+ "followers": 588,
+ "avg_views": 17039,
+ "avg_likes": 225,
+ "engagement_rate": 0.0132,
+ "posts_last_30d": 0,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso": 26,
+  "olive_young": 8,
+  "our_brand": false,
+  "beauty_kw": 29
+ },
+ "evaluated_at": "2026-06-04T10:22:37.355294+09:00",
+ "score_total": 62.5,
+ "score_breakdown": {
+  "er_score": 60,
+  "brand_fit_score": 90,
+  "consistency_score": 40,
+  "follower_scale_score": 40,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "C",
+ "sample_note": "2026-06-04T10:22:37.355294+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 68.5,
+   "engagement_rate": 0.0107,
+   "followers": 528,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "note": "snapshot_only (no live refetch)"
   },
-  "evaluated_at": "2026-05-29T10:11:33+09:00",
-  "score_total": 45.0,
-  "score_breakdown": {
-    "engagement": 40,
-    "brand_fit": 60,
-    "consistency": 40,
-    "follower_scale": 40
+  {
+   "evaluated_at": "2026-05-11T10:12:44+09:00",
+   "followers": 528,
+   "engagement_rate": 0.0107,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "score_total": 68.5,
+   "grade": "C",
+   "note": "pre-B-Light snapshot (2026-05-11)"
   },
-  "grade": "D",
-  "sample_note": "2026-05-29T10:11:33+09:00 STEP B 풀 재분석(부분) — yt-dlp 실측. 샘플 0개.",
-  "estimation_flags": {
-    "engagement_rate": "measured (likes/views, sample 0)",
-    "posts_last_30d": "measured (video timestamps)",
-    "brand_fit": "estimated (keyword counts in title+desc+tags)",
-    "followers": "measured (channel_follower_count from yt-dlp)"
+  {
+   "evaluated_at": "2026-05-14T14:10:00+09:00",
+   "score_total": 68.5,
+   "engagement_rate": 0.0128,
+   "followers": 534,
+   "posts_last_30d": 8,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "grade": "B"
   },
-  "history": [
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 68.5,
-      "engagement_rate": 0.0107,
-      "followers": 528,
-      "posts_last_30d": 9,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso",
-      "note": "snapshot_only (no live refetch)"
-    },
-    {
-      "evaluated_at": "2026-05-11T10:12:44+09:00",
-      "followers": 528,
-      "engagement_rate": 0.0107,
-      "posts_last_30d": 9,
-      "brand_fit_score": 90,
-      "score_total": 68.5,
-      "grade": "C",
-      "note": "pre-B-Light snapshot (2026-05-11)"
-    },
-    {
-      "evaluated_at": "2026-05-14T14:10:00+09:00",
-      "score_total": 68.5,
-      "engagement_rate": 0.0128,
-      "followers": 534,
-      "posts_last_30d": 8,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso",
-      "grade": "B"
-    }
-  ]
+  {
+   "evaluated_at": "2026-05-29T10:11:33+09:00",
+   "score_total": 45.0,
+   "grade": "D",
+   "engagement_rate": 0,
+   "followers": 568,
+   "posts_last_30d": 0,
+   "brand_fit_score": 60,
+   "retailer_focus": "olive_young",
+   "avg_views": 0,
+   "avg_likes": 0,
+   "sample_size": 0
+  }
+ ]
 }

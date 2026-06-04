@@ -1,57 +1,71 @@
 {
-  "platform": "youtube",
-  "username": "HEBLE_HEHE",
-  "fullname": "헤블 HEBLE",
-  "channel_id": "UCb8_UiUdnM9S7r1aYPAsSMw",
-  "profile_url": "https://www.youtube.com/channel/UCb8_UiUdnM9S7r1aYPAsSMw",
-  "followers": 157000,
-  "avg_views": 33916.3,
-  "avg_likes": 683.5,
-  "avg_comments": 43.7,
-  "engagement_rate": 0.0202,
-  "posts_last_30d": 4,
-  "sample_size": 6,
+ "platform": "youtube",
+ "username": "HEBLE_HEHE",
+ "channel_id": "UCb8_UiUdnM9S7r1aYPAsSMw",
+ "fullname": "헤블 HEBLE",
+ "profile_url": "https://www.youtube.com/channel/UCb8_UiUdnM9S7r1aYPAsSMw",
+ "followers": 158000,
+ "avg_views": 32417,
+ "avg_likes": 789,
+ "engagement_rate": 0.0243,
+ "posts_last_30d": 5,
+ "_posts_last_30d_est": true,
+ "sample_size": 6,
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
+ "retailer_signal": {
+  "daiso": 10,
+  "olive_young": 16,
+  "our_brand": false,
+  "beauty_kw": 30
+ },
+ "evaluated_at": "2026-06-04T10:24:37.588327+09:00",
+ "score_total": 74.5,
+ "score_breakdown": {
+  "er_score": 60,
   "brand_fit_score": 90,
-  "retailer_focus": "mixed",
-  "retailer_signal": {
-    "daiso_mentions": "5건",
-    "olive_young_mentions": "6건",
-    "beauty_topical_strength": "strong (36건)",
-    "labrang_blanc_doux_mention": false
+  "consistency_score": 80,
+  "follower_scale_score": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "grade": "B",
+ "sample_note": "2026-06-04T10:24:37.588327+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "followers": "measured (channel_follower_count)"
+ },
+ "history": [
+  {
+   "evaluated_at": "2026-05-14T17:08:19+09:00",
+   "score_total": 64.5,
+   "engagement_rate": 0.0,
+   "followers": 156000,
+   "posts_last_30d": 9
   },
-  "evaluated_at": "2026-05-29T10:12:07+09:00",
-  "score_total": 71.5,
-  "score_breakdown": {
-    "engagement": 60,
-    "brand_fit": 90,
-    "consistency": 60,
-    "follower_scale": 100
+  {
+   "evaluated_at": "2026-05-14T17:08:19+09:00",
+   "score_total": 64.5,
+   "engagement_rate": 0.0,
+   "followers": 156000,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "grade": "B"
   },
-  "grade": "B",
-  "sample_note": "2026-05-29T10:12:07+09:00 STEP B 풀 재분석(부분) — yt-dlp 실측. 샘플 6개.",
-  "estimation_flags": {
-    "engagement_rate": "measured (likes/views, sample 6)",
-    "posts_last_30d": "measured (video timestamps)",
-    "brand_fit": "estimated (keyword counts in title+desc+tags)",
-    "followers": "measured (channel_follower_count from yt-dlp)"
-  },
-  "history": [
-    {
-      "evaluated_at": "2026-05-14T17:08:19+09:00",
-      "score_total": 64.5,
-      "engagement_rate": 0.0,
-      "followers": 156000,
-      "posts_last_30d": 9
-    },
-    {
-      "evaluated_at": "2026-05-14T17:08:19+09:00",
-      "score_total": 64.5,
-      "engagement_rate": 0.0,
-      "followers": 156000,
-      "posts_last_30d": 9,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young",
-      "grade": "B"
-    }
-  ]
+  {
+   "evaluated_at": "2026-05-29T10:12:07+09:00",
+   "score_total": 71.5,
+   "grade": "B",
+   "engagement_rate": 0.0202,
+   "followers": 157000,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
+   "avg_views": 33916.3,
+   "avg_likes": 683.5,
+   "sample_size": 6
+  }
+ ]
 }
