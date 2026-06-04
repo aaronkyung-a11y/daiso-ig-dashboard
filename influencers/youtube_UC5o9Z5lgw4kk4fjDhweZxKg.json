@@ -5,21 +5,21 @@
  "fullname": "피부왕정윤",
  "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg",
  "followers": 175000,
- "avg_views": 7142,
- "avg_likes": 153,
- "engagement_rate": 0.0214,
+ "avg_views": 8197,
+ "avg_likes": 175,
+ "engagement_rate": 0.0213,
  "posts_last_30d": 5,
- "_posts_last_30d_est": true,
- "sample_size": 6,
+ "_posts_last_30d_est": false,
+ "sample_size": 5,
  "brand_fit_score": 90,
  "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso": 13,
-  "olive_young": 12,
+  "daiso": 1,
+  "olive_young": 1,
   "our_brand": false,
-  "beauty_kw": 21
+  "beauty_kw": 15
  },
- "evaluated_at": "2026-06-04T10:08:51.460406+09:00",
+ "evaluated_at": "2026-06-04T17:10:57.874546+09:00",
  "score_total": 74.5,
  "score_breakdown": {
   "er_score": 60,
@@ -29,11 +29,11 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "grade": "B",
- "sample_note": "2026-06-04T10:08:51.460406+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "sample_note": "2026-06-04T17:10:57.874546+09:00 STEP B-Light(17시) — yt-dlp 실측: 30일 내 영상 5건 전수(업로드일·조회·좋아요 실측). ER=avg_likes/avg_views. brand_fit=title+tags+desc 키워드 실측.",
  "estimation_flags": {
-  "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
-  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "engagement_rate": "measured (likes/views, sample 5)",
+  "posts_last_30d": "measured (upload_date, 30d window)",
+  "brand_fit": "measured (keyword counts in title+tags+desc)",
   "followers": "measured (channel_follower_count)"
  },
  "history": [
@@ -160,6 +160,19 @@
    "avg_views": 1105,
    "avg_likes": 41,
    "sample_size": 1
+  },
+  {
+   "evaluated_at": "2026-06-04T10:08:51.460406+09:00",
+   "score_total": 74.5,
+   "grade": "B",
+   "engagement_rate": 0.0214,
+   "followers": 175000,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
+   "avg_views": 7142,
+   "avg_likes": 153,
+   "sample_size": 6
   }
  ]
 }

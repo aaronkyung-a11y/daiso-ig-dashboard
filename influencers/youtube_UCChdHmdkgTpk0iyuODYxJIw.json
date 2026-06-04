@@ -5,21 +5,21 @@
  "fullname": "해니 haeni beauty",
  "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
  "followers": 479000,
- "avg_views": 25047,
- "avg_likes": 976,
- "engagement_rate": 0.039,
+ "avg_views": 19421,
+ "avg_likes": 852,
+ "engagement_rate": 0.0439,
  "posts_last_30d": 3,
- "_posts_last_30d_est": true,
- "sample_size": 6,
+ "_posts_last_30d_est": false,
+ "sample_size": 3,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso": 3,
+  "daiso": 2,
   "olive_young": 0,
   "our_brand": false,
-  "beauty_kw": 188
+  "beauty_kw": 90
  },
- "evaluated_at": "2026-06-04T10:08:51.460406+09:00",
+ "evaluated_at": "2026-06-04T17:10:57.874546+09:00",
  "score_total": 81.5,
  "score_breakdown": {
   "er_score": 80,
@@ -29,11 +29,11 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "grade": "A",
- "sample_note": "2026-06-04T10:08:51.460406+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "sample_note": "2026-06-04T17:10:57.874546+09:00 STEP B-Light(17시, mingjikim_107 404 대체 선정) — yt-dlp 실측: 30일 내 영상 3건 전수. ER=avg_likes/avg_views. brand_fit=title+tags+desc 키워드 실측.",
  "estimation_flags": {
-  "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
-  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "engagement_rate": "measured (likes/views, sample 3)",
+  "posts_last_30d": "measured (upload_date, 30d window)",
+  "brand_fit": "measured (keyword counts in title+tags+desc)",
   "followers": "measured (channel_follower_count)"
  },
  "history": [
@@ -147,6 +147,19 @@
    "avg_views": 16340,
    "avg_likes": 755,
    "sample_size": 3
+  },
+  {
+   "evaluated_at": "2026-06-04T10:08:51.460406+09:00",
+   "score_total": 81.5,
+   "grade": "A",
+   "engagement_rate": 0.039,
+   "followers": 479000,
+   "posts_last_30d": 3,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 25047,
+   "avg_likes": 976,
+   "sample_size": 6
   }
  ]
 }
