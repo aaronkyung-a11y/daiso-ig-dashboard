@@ -1,6 +1,6 @@
 {
- "last_updated": "2026-06-04T10:26:17.496441+09:00",
- "last_run_mode": "full-reanalysis (10:00 slot — STEP A 큐 0 신규 / STEP B 풀 재분석 IG 22+YT 전체)",
+ "last_updated": "2026-06-04T14:09:00+09:00",
+ "last_run_mode": "queue+B-Light (14:00 slot — STEP A 큐 0 신규 / B-Light: youtube_Jinyaa 재분석, instagram_mingjikim_107 404)",
  "total": 134,
  "platforms": {
   "instagram": 23,
@@ -219,8 +219,7 @@
    "grade": "S",
    "sample_note": "2026-06-04T10:22:22.527401+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 42510,
-   "avg_likes": 1310,
-   "avg_comments": null
+   "avg_likes": 1310
   },
   {
    "platform": "instagram",
@@ -317,10 +316,10 @@
    "evaluated_at": "2026-05-27T10:33:00+09:00",
    "score_total": 83.0,
    "grade": "A",
-   "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
-   "avg_views": null,
+   "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭). | 2026-06-04T14:09:00+09:00 STEP B-Light: 프로필 페이지 404(삭제/이름변경 추정) — 재분석 불가, 이전 실측치 유지(2026-05-27 기준).",
    "avg_likes": 1563,
-   "avg_comments": 37
+   "avg_comments": 37,
+   "profile_status": "unavailable_404"
   },
   {
    "platform": "instagram",
@@ -369,8 +368,7 @@
    "grade": "A",
    "sample_note": "2026-06-04T10:24:37.626374+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:24, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 43197,
-   "avg_likes": 1423,
-   "avg_comments": null
+   "avg_likes": 1423
   },
   {
    "platform": "youtube",
@@ -394,8 +392,7 @@
    "grade": "A",
    "sample_note": "2026-06-04T10:23:07.480326+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 8180,
-   "avg_likes": 251,
-   "avg_comments": null
+   "avg_likes": 251
   },
   {
    "platform": "youtube",
@@ -419,8 +416,7 @@
    "grade": "A",
    "sample_note": "2026-06-04T10:22:22.492949+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 22150,
-   "avg_likes": 684,
-   "avg_comments": null
+   "avg_likes": 684
   },
   {
    "platform": "youtube",
@@ -444,8 +440,7 @@
    "grade": "A",
    "sample_note": "2026-06-04T10:22:38.628359+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 253,
-   "avg_likes": 8,
-   "avg_comments": null
+   "avg_likes": 8
   },
   {
    "platform": "youtube",
@@ -469,8 +464,7 @@
    "grade": "A",
    "sample_note": "2026-06-04T10:08:51.460406+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 25047,
-   "avg_likes": 976,
-   "avg_comments": null
+   "avg_likes": 976
   },
   {
    "platform": "instagram",
@@ -544,8 +538,7 @@
    "grade": "A",
    "sample_note": "2026-06-04T10:19:57.440607+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 33776,
-   "avg_likes": 1002,
-   "avg_comments": null
+   "avg_likes": 1002
   },
   {
    "platform": "instagram",
@@ -644,8 +637,7 @@
    "grade": "A",
    "sample_note": "2026-06-04T10:23:20.861322+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 6303,
-   "avg_likes": 138,
-   "avg_comments": null
+   "avg_likes": 138
   },
   {
    "platform": "youtube",
@@ -669,8 +661,7 @@
    "grade": "A",
    "sample_note": "2026-06-04T10:23:22.856381+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 42318,
-   "avg_likes": 925,
-   "avg_comments": null
+   "avg_likes": 925
   },
   {
    "platform": "youtube",
@@ -694,8 +685,7 @@
    "grade": "A",
    "sample_note": "2026-06-04T10:20:06.566305+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 116444,
-   "avg_likes": 1480,
-   "avg_comments": null
+   "avg_likes": 1480
   },
   {
    "platform": "youtube",
@@ -719,8 +709,7 @@
    "grade": "A",
    "sample_note": "2026-06-04T10:24:53.986224+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:5). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 31892,
-   "avg_likes": 833,
-   "avg_comments": null
+   "avg_likes": 833
   },
   {
    "platform": "youtube",
@@ -729,23 +718,22 @@
    "profile_url": "https://www.youtube.com/@Jinyaa",
    "followers": 360000,
    "engagement_rate": 0.0238,
-   "posts_last_30d": 6,
+   "posts_last_30d": 5,
    "sample_size": 6,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "retailer_signal": {
-    "daiso": 5,
-    "olive_young": 45,
+    "daiso": 0,
+    "olive_young": 8,
     "our_brand": false,
-    "beauty_kw": 272
+    "beauty_kw": 87
    },
-   "evaluated_at": "2026-06-04T10:08:51.460406+09:00",
+   "evaluated_at": "2026-06-04T14:09:00+09:00",
    "score_total": 74.5,
    "grade": "B",
-   "sample_note": "2026-06-04T10:08:51.460406+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
-   "avg_views": 90904,
-   "avg_likes": 2162,
-   "avg_comments": null
+   "sample_note": "2026-06-04T14:09:00+09:00 STEP B-Light 재분석 — yt-dlp 실측 (flat 30, 상세샘플 6: 2026-05-04~05-30). ER=avg_likes/avg_views 실측. posts_last_30d=5 실측(upload_date, 상세샘플 6개 기준). brand_fit=title+desc+tags 키워드 실측.",
+   "avg_views": 91076,
+   "avg_likes": 2163
   },
   {
    "platform": "youtube",
@@ -769,8 +757,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:08:51.460406+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 7142,
-   "avg_likes": 153,
-   "avg_comments": null
+   "avg_likes": 153
   },
   {
    "platform": "youtube",
@@ -794,8 +781,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:52.729352+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 35453,
-   "avg_likes": 727,
-   "avg_comments": null
+   "avg_likes": 727
   },
   {
    "platform": "youtube",
@@ -819,8 +805,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:08:51.460406+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 90904,
-   "avg_likes": 2162,
-   "avg_comments": null
+   "avg_likes": 2162
   },
   {
    "platform": "youtube",
@@ -844,8 +829,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:37.588327+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 32417,
-   "avg_likes": 789,
-   "avg_comments": null
+   "avg_likes": 789
   },
   {
    "platform": "youtube",
@@ -869,8 +853,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:53.188351+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 8354,
-   "avg_likes": 172,
-   "avg_comments": null
+   "avg_likes": 172
   },
   {
    "platform": "youtube",
@@ -894,8 +877,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:25:21.340584+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 9830,
-   "avg_likes": 178,
-   "avg_comments": null
+   "avg_likes": 178
   },
   {
    "platform": "youtube",
@@ -919,8 +901,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:20:07.062303+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 79076,
-   "avg_likes": 1412,
-   "avg_comments": null
+   "avg_likes": 1412
   },
   {
    "platform": "instagram",
@@ -969,8 +950,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:25:21.421690+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 16322,
-   "avg_likes": 212,
-   "avg_comments": null
+   "avg_likes": 212
   },
   {
    "platform": "youtube",
@@ -994,8 +974,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:22:22.541390+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 43400,
-   "avg_likes": 841,
-   "avg_comments": null
+   "avg_likes": 841
   },
   {
    "platform": "youtube",
@@ -1019,8 +998,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:20:07.885307+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 14517,
-   "avg_likes": 398,
-   "avg_comments": null
+   "avg_likes": 398
   },
   {
    "platform": "youtube",
@@ -1044,8 +1022,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:37.578131+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 17,
-   "avg_likes": 1,
-   "avg_comments": null
+   "avg_likes": 1
   },
   {
    "platform": "youtube",
@@ -1069,8 +1046,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:22:36.525354+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 39946,
-   "avg_likes": 808,
-   "avg_comments": null
+   "avg_likes": 808
   },
   {
    "platform": "youtube",
@@ -1094,8 +1070,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:22.859381+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 10230,
-   "avg_likes": 228,
-   "avg_comments": null
+   "avg_likes": 228
   },
   {
    "platform": "youtube",
@@ -1119,8 +1094,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:52.773392+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 26516,
-   "avg_likes": 606,
-   "avg_comments": null
+   "avg_likes": 606
   },
   {
    "platform": "youtube",
@@ -1144,8 +1118,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:07.712332+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 25396,
-   "avg_likes": 370,
-   "avg_comments": null
+   "avg_likes": 370
   },
   {
    "platform": "youtube",
@@ -1169,8 +1142,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:09.327329+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 78662,
-   "avg_likes": 1868,
-   "avg_comments": null
+   "avg_likes": 1868
   },
   {
    "platform": "youtube",
@@ -1194,8 +1166,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:54.635340+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 12689,
-   "avg_likes": 139,
-   "avg_comments": null
+   "avg_likes": 139
   },
   {
    "platform": "youtube",
@@ -1219,8 +1190,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:19:57.446858+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 39100,
-   "avg_likes": 591,
-   "avg_comments": null
+   "avg_likes": 591
   },
   {
    "platform": "youtube",
@@ -1244,8 +1214,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:24.711365+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 14473,
-   "avg_likes": 232,
-   "avg_comments": null
+   "avg_likes": 232
   },
   {
    "platform": "youtube",
@@ -1269,8 +1238,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:09.966516+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 50644,
-   "avg_likes": 1215,
-   "avg_comments": null
+   "avg_likes": 1215
   },
   {
    "platform": "youtube",
@@ -1294,8 +1262,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:49.875310+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 546,
-   "avg_likes": 16,
-   "avg_comments": null
+   "avg_likes": 16
   },
   {
    "platform": "youtube",
@@ -1319,8 +1286,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:07.455377+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 6747,
-   "avg_likes": 128,
-   "avg_comments": null
+   "avg_likes": 128
   },
   {
    "platform": "youtube",
@@ -1344,8 +1310,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:24.775423+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 102010,
-   "avg_likes": 1747,
-   "avg_comments": null
+   "avg_likes": 1747
   },
   {
    "platform": "youtube",
@@ -1369,8 +1334,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:52.659320+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 35101,
-   "avg_likes": 429,
-   "avg_comments": null
+   "avg_likes": 429
   },
   {
    "platform": "youtube",
@@ -1394,8 +1358,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:25:21.424319+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 10554,
-   "avg_likes": 171,
-   "avg_comments": null
+   "avg_likes": 171
   },
   {
    "platform": "youtube",
@@ -1419,8 +1382,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:52.751404+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 59926,
-   "avg_likes": 678,
-   "avg_comments": null
+   "avg_likes": 678
   },
   {
    "platform": "youtube",
@@ -1444,8 +1406,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:19:57.360089+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 412,
-   "avg_likes": 12,
-   "avg_comments": null
+   "avg_likes": 12
   },
   {
    "platform": "youtube",
@@ -1469,8 +1430,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:54.037311+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 2246,
-   "avg_likes": 16,
-   "avg_comments": null
+   "avg_likes": 16
   },
   {
    "platform": "youtube",
@@ -1494,8 +1454,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:20:09.210337+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:20, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 57474,
-   "avg_likes": 708,
-   "avg_comments": null
+   "avg_likes": 708
   },
   {
    "platform": "youtube",
@@ -1519,8 +1478,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:22:38.264322+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 19635,
-   "avg_likes": 400,
-   "avg_comments": null
+   "avg_likes": 400
   },
   {
    "platform": "youtube",
@@ -1544,8 +1502,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:22:38.874296+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:19, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 16064,
-   "avg_likes": 184,
-   "avg_comments": null
+   "avg_likes": 184
   },
   {
    "platform": "youtube",
@@ -1569,8 +1526,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:07.464426+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:25, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 31277,
-   "avg_likes": 446,
-   "avg_comments": null
+   "avg_likes": 446
   },
   {
    "platform": "youtube",
@@ -1594,8 +1550,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:20:09.675295+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:21, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 41660,
-   "avg_likes": 608,
-   "avg_comments": null
+   "avg_likes": 608
   },
   {
    "platform": "youtube",
@@ -1619,8 +1574,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:07.395470+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 21573,
-   "avg_likes": 239,
-   "avg_comments": null
+   "avg_likes": 239
   },
   {
    "platform": "youtube",
@@ -1644,8 +1598,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:52.690732+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 17580,
-   "avg_likes": 222,
-   "avg_comments": null
+   "avg_likes": 222
   },
   {
    "platform": "youtube",
@@ -1669,8 +1622,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:22:22.519428+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 65206,
-   "avg_likes": 1192,
-   "avg_comments": null
+   "avg_likes": 1192
   },
   {
    "platform": "youtube",
@@ -1694,8 +1646,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:23:52.745321+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:22, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 1956,
-   "avg_likes": 30,
-   "avg_comments": null
+   "avg_likes": 30
   },
   {
    "platform": "youtube",
@@ -1719,8 +1670,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:09.715353+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 14150,
-   "avg_likes": 420,
-   "avg_comments": null
+   "avg_likes": 420
   },
   {
    "platform": "youtube",
@@ -1744,8 +1694,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:37.619400+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:17, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 30802,
-   "avg_likes": 400,
-   "avg_comments": null
+   "avg_likes": 400
   },
   {
    "platform": "youtube",
@@ -1769,8 +1718,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:24:37.596021+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:27, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 7819,
-   "avg_likes": 214,
-   "avg_comments": null
+   "avg_likes": 214
   },
   {
    "platform": "youtube",
@@ -1794,8 +1742,7 @@
    "grade": "B",
    "sample_note": "2026-06-04T10:22:22.512367+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:19, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 11283,
-   "avg_likes": 131,
-   "avg_comments": null
+   "avg_likes": 131
   },
   {
    "platform": "instagram",
@@ -1844,8 +1791,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:52.744352+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:18, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 175887,
-   "avg_likes": 2121,
-   "avg_comments": null
+   "avg_likes": 2121
   },
   {
    "platform": "youtube",
@@ -1869,8 +1815,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:09.210377+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 83970,
-   "avg_likes": 961,
-   "avg_comments": null
+   "avg_likes": 961
   },
   {
    "platform": "youtube",
@@ -1894,8 +1839,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:25:35.146346+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 40326,
-   "avg_likes": 583,
-   "avg_comments": null
+   "avg_likes": 583
   },
   {
    "platform": "youtube",
@@ -1919,8 +1863,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:22:39.557018+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 3029,
-   "avg_likes": 46,
-   "avg_comments": null
+   "avg_likes": 46
   },
   {
    "platform": "youtube",
@@ -1944,8 +1887,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:22:41.384425+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:24, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 898,
-   "avg_likes": 9,
-   "avg_comments": null
+   "avg_likes": 9
   },
   {
    "platform": "youtube",
@@ -1969,8 +1911,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:07.419182+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 25432,
-   "avg_likes": 554,
-   "avg_comments": null
+   "avg_likes": 554
   },
   {
    "platform": "youtube",
@@ -1994,8 +1935,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:23.617019+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 3058,
-   "avg_likes": 32,
-   "avg_comments": null
+   "avg_likes": 32
   },
   {
    "platform": "youtube",
@@ -2019,8 +1959,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:19:57.349429+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 72124,
-   "avg_likes": 629,
-   "avg_comments": null
+   "avg_likes": 629
   },
   {
    "platform": "youtube",
@@ -2044,8 +1983,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:52.760422+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 38308,
-   "avg_likes": 540,
-   "avg_comments": null
+   "avg_likes": 540
   },
   {
    "platform": "youtube",
@@ -2069,8 +2007,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:08:51.460406+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 6510,
-   "avg_likes": 144,
-   "avg_comments": null
+   "avg_likes": 144
   },
   {
    "platform": "youtube",
@@ -2094,8 +2031,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:11.622421+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 66159,
-   "avg_likes": 1174,
-   "avg_comments": null
+   "avg_likes": 1174
   },
   {
    "platform": "youtube",
@@ -2119,8 +2055,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:25:21.385332+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 32289,
-   "avg_likes": 386,
-   "avg_comments": null
+   "avg_likes": 386
   },
   {
    "platform": "youtube",
@@ -2144,8 +2079,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:25:21.437376+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 6626,
-   "avg_likes": 108,
-   "avg_comments": null
+   "avg_likes": 108
   },
   {
    "platform": "youtube",
@@ -2169,8 +2103,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:25:21.432375+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 55582,
-   "avg_likes": 0,
-   "avg_comments": null
+   "avg_likes": 0
   },
   {
    "platform": "youtube",
@@ -2194,8 +2127,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:25:29.278287+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 993,
-   "avg_likes": 14,
-   "avg_comments": null
+   "avg_likes": 14
   },
   {
    "platform": "youtube",
@@ -2219,8 +2151,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:11.164335+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 27749,
-   "avg_likes": 435,
-   "avg_comments": null
+   "avg_likes": 435
   },
   {
    "platform": "instagram",
@@ -2294,8 +2225,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:22:37.355294+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 17039,
-   "avg_likes": 225,
-   "avg_comments": null
+   "avg_likes": 225
   },
   {
    "platform": "youtube",
@@ -2319,8 +2249,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:23.304347+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 168,
-   "avg_likes": 2,
-   "avg_comments": null
+   "avg_likes": 2
   },
   {
    "platform": "youtube",
@@ -2344,8 +2273,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:52.755450+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:28, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 350,
-   "avg_likes": 7,
-   "avg_comments": null
+   "avg_likes": 7
   },
   {
    "platform": "youtube",
@@ -2369,8 +2297,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:22:22.549364+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 108953,
-   "avg_likes": 1731,
-   "avg_comments": null
+   "avg_likes": 1731
   },
   {
    "platform": "youtube",
@@ -2394,8 +2321,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:25:21.388389+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:2, 상세샘플:2). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 17647,
-   "avg_likes": 181,
-   "avg_comments": null
+   "avg_likes": 181
   },
   {
    "platform": "youtube",
@@ -2419,8 +2345,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:22:41.755911+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 52330,
-   "avg_likes": 52,
-   "avg_comments": null
+   "avg_likes": 52
   },
   {
    "platform": "youtube",
@@ -2444,8 +2369,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:37.636355+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:18, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 14401,
-   "avg_likes": 182,
-   "avg_comments": null
+   "avg_likes": 182
   },
   {
    "platform": "youtube",
@@ -2469,8 +2393,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:25:21.300578+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 4709,
-   "avg_likes": 60,
-   "avg_comments": null
+   "avg_likes": 60
   },
   {
    "platform": "youtube",
@@ -2494,8 +2417,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:51.312832+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 129536,
-   "avg_likes": 1874,
-   "avg_comments": null
+   "avg_likes": 1874
   },
   {
    "platform": "youtube",
@@ -2519,8 +2441,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:25:21.338335+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 205006,
-   "avg_likes": 4867,
-   "avg_comments": null
+   "avg_likes": 4867
   },
   {
    "platform": "youtube",
@@ -2544,8 +2465,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:52.781471+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 876,
-   "avg_likes": 0,
-   "avg_comments": null
+   "avg_likes": 0
   },
   {
    "platform": "youtube",
@@ -2569,8 +2489,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:20:09.653293+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:21, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 66575,
-   "avg_likes": 1195,
-   "avg_comments": null
+   "avg_likes": 1195
   },
   {
    "platform": "youtube",
@@ -2594,8 +2513,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:22:22.550293+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 42481,
-   "avg_likes": 366,
-   "avg_comments": null
+   "avg_likes": 366
   },
   {
    "platform": "youtube",
@@ -2619,8 +2537,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:22:22.423109+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 122424,
-   "avg_likes": 928,
-   "avg_comments": null
+   "avg_likes": 928
   },
   {
    "platform": "youtube",
@@ -2644,8 +2561,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:37.571591+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:16, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 10577,
-   "avg_likes": 356,
-   "avg_comments": null
+   "avg_likes": 356
   },
   {
    "platform": "youtube",
@@ -2669,8 +2585,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:37.608078+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 1927,
-   "avg_likes": 34,
-   "avg_comments": null
+   "avg_likes": 34
   },
   {
    "platform": "youtube",
@@ -2694,8 +2609,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:22:41.539786+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 16193,
-   "avg_likes": 46,
-   "avg_comments": null
+   "avg_likes": 46
   },
   {
    "platform": "youtube",
@@ -2719,8 +2633,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:37.647384+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 14261,
-   "avg_likes": 89,
-   "avg_comments": null
+   "avg_likes": 89
   },
   {
    "platform": "youtube",
@@ -2744,8 +2657,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:55.989336+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:8, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 6009,
-   "avg_likes": 58,
-   "avg_comments": null
+   "avg_likes": 58
   },
   {
    "platform": "youtube",
@@ -2769,8 +2681,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:22:35.952289+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 5097,
-   "avg_likes": 48,
-   "avg_comments": null
+   "avg_likes": 48
   },
   {
    "platform": "youtube",
@@ -2794,8 +2705,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:07.537343+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 11928,
-   "avg_likes": 0,
-   "avg_comments": null
+   "avg_likes": 0
   },
   {
    "platform": "youtube",
@@ -2819,8 +2729,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:23.751338+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 25171,
-   "avg_likes": 196,
-   "avg_comments": null
+   "avg_likes": 196
   },
   {
    "platform": "youtube",
@@ -2844,8 +2753,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:53.827821+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:7, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 56512,
-   "avg_likes": 402,
-   "avg_comments": null
+   "avg_likes": 402
   },
   {
    "platform": "youtube",
@@ -2869,8 +2777,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:07.377543+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 3602,
-   "avg_likes": 19,
-   "avg_comments": null
+   "avg_likes": 19
   },
   {
    "platform": "youtube",
@@ -2894,8 +2801,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:07.353750+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 9672,
-   "avg_likes": 65,
-   "avg_comments": null
+   "avg_likes": 65
   },
   {
    "platform": "youtube",
@@ -2919,8 +2825,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:07.539319+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 1703,
-   "avg_likes": 3,
-   "avg_comments": null
+   "avg_likes": 3
   },
   {
    "platform": "youtube",
@@ -2944,8 +2849,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:09.525315+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 13802,
-   "avg_likes": 0,
-   "avg_comments": null
+   "avg_likes": 0
   },
   {
    "platform": "youtube",
@@ -2969,8 +2873,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:55.919380+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 14966,
-   "avg_likes": 130,
-   "avg_comments": null
+   "avg_likes": 130
   },
   {
    "platform": "youtube",
@@ -2994,8 +2897,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:19:57.399373+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:16, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 6250,
-   "avg_likes": 58,
-   "avg_comments": null
+   "avg_likes": 58
   },
   {
    "platform": "youtube",
@@ -3019,8 +2921,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:22:22.600341+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 2534,
-   "avg_likes": 36,
-   "avg_comments": null
+   "avg_likes": 36
   },
   {
    "platform": "youtube",
@@ -3044,8 +2945,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:19:57.359726+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:4). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 75100,
-   "avg_likes": 1594,
-   "avg_comments": null
+   "avg_likes": 1594
   },
   {
    "platform": "instagram",
@@ -3094,8 +2994,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:22:22.436401+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 69235,
-   "avg_likes": 620,
-   "avg_comments": null
+   "avg_likes": 620
   },
   {
    "platform": "youtube",
@@ -3119,8 +3018,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:22.964319+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 133717,
-   "avg_likes": 1088,
-   "avg_comments": null
+   "avg_likes": 1088
   },
   {
    "platform": "youtube",
@@ -3144,8 +3042,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:08.338333+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:16, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 612,
-   "avg_likes": 4,
-   "avg_comments": null
+   "avg_likes": 4
   },
   {
    "platform": "youtube",
@@ -3169,8 +3066,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:23:07.505588+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:20, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 13735,
-   "avg_likes": 221,
-   "avg_comments": null
+   "avg_likes": 221
   },
   {
    "platform": "youtube",
@@ -3194,8 +3090,7 @@
    "grade": "C",
    "sample_note": "2026-06-04T10:24:37.605336+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 18283,
-   "avg_likes": 251,
-   "avg_comments": null
+   "avg_likes": 251
   },
   {
    "platform": "youtube",
@@ -3219,8 +3114,7 @@
    "grade": "D",
    "sample_note": "2026-06-04T10:24:54.058267+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 34319,
-   "avg_likes": 156,
-   "avg_comments": null
+   "avg_likes": 156
   },
   {
    "platform": "youtube",
@@ -3244,8 +3138,7 @@
    "grade": "D",
    "sample_note": "2026-06-04T10:25:21.443416+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:21, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 276,
-   "avg_likes": 0,
-   "avg_comments": null
+   "avg_likes": 0
   },
   {
    "platform": "youtube",
@@ -3269,8 +3162,7 @@
    "grade": "D",
    "sample_note": "2026-06-04T10:25:34.041345+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 8869,
-   "avg_likes": 21,
-   "avg_comments": null
+   "avg_likes": 21
   },
   {
    "platform": "instagram",
@@ -3319,8 +3211,7 @@
    "grade": "D",
    "sample_note": "2026-06-04T10:23:25.131345+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 18675,
-   "avg_likes": 222,
-   "avg_comments": null
+   "avg_likes": 222
   },
   {
    "platform": "youtube",
@@ -3344,8 +3235,7 @@
    "grade": "D",
    "sample_note": "2026-06-04T10:08:51.460406+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 41660,
-   "avg_likes": 413,
-   "avg_comments": null
+   "avg_likes": 413
   },
   {
    "platform": "youtube",
@@ -3369,8 +3259,7 @@
    "grade": "D",
    "sample_note": "2026-06-04T10:23:07.432350+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
    "avg_views": 1828300,
-   "avg_likes": 15144,
-   "avg_comments": null
+   "avg_likes": 15144
   }
  ]
 }

@@ -5,21 +5,21 @@
  "fullname": "지냐 Jinyaa",
  "profile_url": "https://www.youtube.com/@Jinyaa",
  "followers": 360000,
- "avg_views": 90904,
- "avg_likes": 2162,
+ "avg_views": 91076,
+ "avg_likes": 2163,
  "engagement_rate": 0.0238,
- "posts_last_30d": 6,
- "_posts_last_30d_est": true,
+ "posts_last_30d": 5,
+ "_posts_last_30d_est": false,
  "sample_size": 6,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso": 5,
-  "olive_young": 45,
+  "daiso": 0,
+  "olive_young": 8,
   "our_brand": false,
-  "beauty_kw": 272
+  "beauty_kw": 87
  },
- "evaluated_at": "2026-06-04T10:08:51.460406+09:00",
+ "evaluated_at": "2026-06-04T14:09:00+09:00",
  "score_total": 74.5,
  "score_breakdown": {
   "er_score": 60,
@@ -29,14 +29,24 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "grade": "B",
- "sample_note": "2026-06-04T10:08:51.460406+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
+ "sample_note": "2026-06-04T14:09:00+09:00 STEP B-Light 재분석 — yt-dlp 실측 (flat 30, 상세샘플 6: 2026-05-04~05-30). ER=avg_likes/avg_views 실측. posts_last_30d=5 실측(upload_date, 상세샘플 6개 기준). brand_fit=title+desc+tags 키워드 실측.",
  "estimation_flags": {
   "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
+  "posts_last_30d": "measured (upload_date, top-6 sample)",
   "brand_fit": "measured (keyword counts in title+desc+tags)",
   "followers": "measured (channel_follower_count)"
  },
  "history": [
+  {
+   "evaluated_at": "2026-06-04T10:08:51.460406+09:00",
+   "followers": 360000,
+   "engagement_rate": 0.0238,
+   "posts_last_30d": 6,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 74.5,
+   "grade": "B"
+  },
   {
    "evaluated_at": "2026-05-14T10:15:57.468735+09:00",
    "followers": 358000,

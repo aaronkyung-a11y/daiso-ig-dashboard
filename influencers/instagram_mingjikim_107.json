@@ -1,125 +1,127 @@
 {
-  "platform": "instagram",
-  "username": "mingjikim_107",
-  "fullname": "밍직임",
-  "profile_url": "https://www.instagram.com/mingjikim_107/",
-  "followers": 2570,
-  "engagement_rate": 0.6225,
-  "posts_last_30d": 7,
-  "sample_size": 12,
+ "platform": "instagram",
+ "username": "mingjikim_107",
+ "fullname": "밍직임",
+ "profile_url": "https://www.instagram.com/mingjikim_107/",
+ "followers": 2570,
+ "engagement_rate": 0.6225,
+ "posts_last_30d": 7,
+ "sample_size": 12,
+ "brand_fit_score": 60,
+ "retailer_focus": "beauty_general",
+ "retailer_signal": {
+  "daiso_mentions": "none",
+  "olive_young_mentions": "none",
+  "beauty_topical_strength": "weak (1건)",
+  "labrang_blanc_doux_mention": false
+ },
+ "avg_likes": 1563,
+ "avg_comments": 37,
+ "evaluated_at": "2026-05-27T10:33:00+09:00",
+ "score_total": 83.0,
+ "grade": "A",
+ "score_breakdown": {
+  "er_score": 100,
   "brand_fit_score": 60,
-  "retailer_focus": "beauty_general",
-  "retailer_signal": {
-    "daiso_mentions": "none",
-    "olive_young_mentions": "none",
-    "beauty_topical_strength": "weak (1건)",
-    "labrang_blanc_doux_mention": false
+  "consistency_score": 80,
+  "follower_scale_score": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "engagement_rate": "measured((avg_likes+avg_comments)/followers, 12-reel sample)",
+  "posts_last_30d": "measured(taken_at)",
+  "brand_fit": "measured(caption+bio keywords)",
+  "followers": "measured"
+ },
+ "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭). | 2026-06-04T14:09:00+09:00 STEP B-Light: 프로필 페이지 404(삭제/이름변경 추정) — 재분석 불가, 이전 실측치 유지(2026-05-27 기준).",
+ "history": [
+  {
+   "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+   "followers": 2615,
+   "engagement_rate": 0.1532,
+   "posts_last_30d": 4,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 71.25,
+   "grade": "B"
   },
-  "avg_likes": 1563,
-  "avg_comments": 37,
-  "evaluated_at": "2026-05-27T10:33:00+09:00",
-  "score_total": 83.0,
-  "grade": "A",
-  "score_breakdown": {
-    "er_score": 100,
-    "brand_fit_score": 60,
-    "consistency_score": 80,
-    "follower_scale_score": 60,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  {
+   "evaluated_at": "2026-05-12T10:15:00+09:00",
+   "score_total": 71.25,
+   "engagement_rate": 0.1532,
+   "followers": 2624,
+   "posts_last_30d": 4,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "note": "snapshot_only (no live refetch)"
   },
-  "estimation_flags": {
-    "engagement_rate": "measured((avg_likes+avg_comments)/followers, 12-reel sample)",
-    "posts_last_30d": "measured(taken_at)",
-    "brand_fit": "measured(caption+bio keywords)",
-    "followers": "measured"
+  {
+   "evaluated_at": "2026-05-07T14:41:05+09:00",
+   "followers": 2624,
+   "engagement_rate": 0.1532,
+   "posts_last_30d": 4,
+   "brand_fit_score": 25,
+   "score_total": 71.25,
+   "grade": "B",
+   "note": "pre-snapshot"
   },
-  "sample_note": "2026-05-27T10:33:00+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
-  "history": [
-    {
-      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
-      "followers": 2615,
-      "engagement_rate": 0.1532,
-      "posts_last_30d": 4,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
-      "score_total": 71.25,
-      "grade": "B"
-    },
-    {
-      "evaluated_at": "2026-05-12T10:15:00+09:00",
-      "score_total": 71.25,
-      "engagement_rate": 0.1532,
-      "followers": 2624,
-      "posts_last_30d": 4,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
-      "note": "snapshot_only (no live refetch)"
-    },
-    {
-      "evaluated_at": "2026-05-07T14:41:05+09:00",
-      "followers": 2624,
-      "engagement_rate": 0.1532,
-      "posts_last_30d": 4,
-      "brand_fit_score": 25,
-      "score_total": 71.25,
-      "grade": "B",
-      "note": "pre-snapshot"
-    },
-    {
-      "evaluated_at": "2026-05-13T17:10:00+09:00",
-      "followers": 2618,
-      "engagement_rate": 0.1532,
-      "posts_last_30d": 4,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
-      "score_total": 71.25,
-      "grade": "B"
-    },
-    {
-      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-      "followers": 2610,
-      "engagement_rate": 0.1532,
-      "posts_last_30d": 4,
-      "brand_fit_score": 25,
-      "score_total": 71.25
-    },
-    {
-      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
-      "followers": 2602,
-      "engagement_rate": 0.1532,
-      "posts_last_30d": 4,
-      "brand_fit_score": 25,
-      "score_total": 71.25
-    },
-    {
-      "evaluated_at": "2026-05-19T10:18:09+09:00",
-      "followers": 2599,
-      "engagement_rate": 0.1532,
-      "posts_last_30d": 4,
-      "brand_fit_score": 25,
-      "score_total": 71.2,
-      "grade": "B",
-      "note": "STEP B light refresh"
-    },
-    {
-      "evaluated_at": "2026-05-21T10:00:00+09:00",
-      "followers": 2589,
-      "engagement_rate": 0.6376,
-      "posts_last_30d": 6,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
-      "score_total": 74.25,
-      "grade": "B"
-    },
-    {
-      "evaluated_at": "2026-05-21T10:00:00+09:00",
-      "score_total": 74.25,
-      "engagement_rate": 0.6376,
-      "followers": 2589,
-      "posts_last_30d": 6,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
-      "grade": "B"
-    }
-  ]
+  {
+   "evaluated_at": "2026-05-13T17:10:00+09:00",
+   "followers": 2618,
+   "engagement_rate": 0.1532,
+   "posts_last_30d": 4,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 71.25,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+   "followers": 2610,
+   "engagement_rate": 0.1532,
+   "posts_last_30d": 4,
+   "brand_fit_score": 25,
+   "score_total": 71.25
+  },
+  {
+   "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+   "followers": 2602,
+   "engagement_rate": 0.1532,
+   "posts_last_30d": 4,
+   "brand_fit_score": 25,
+   "score_total": 71.25
+  },
+  {
+   "evaluated_at": "2026-05-19T10:18:09+09:00",
+   "followers": 2599,
+   "engagement_rate": 0.1532,
+   "posts_last_30d": 4,
+   "brand_fit_score": 25,
+   "score_total": 71.2,
+   "grade": "B",
+   "note": "STEP B light refresh"
+  },
+  {
+   "evaluated_at": "2026-05-21T10:00:00+09:00",
+   "followers": 2589,
+   "engagement_rate": 0.6376,
+   "posts_last_30d": 6,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 74.25,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-05-21T10:00:00+09:00",
+   "score_total": 74.25,
+   "engagement_rate": 0.6376,
+   "followers": 2589,
+   "posts_last_30d": 6,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "grade": "B"
+  }
+ ],
+ "profile_status": "unavailable_404",
+ "profile_status_checked_at": "2026-06-04T14:09:00+09:00"
 }
