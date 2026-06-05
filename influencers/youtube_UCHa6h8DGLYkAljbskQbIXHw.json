@@ -1,41 +1,41 @@
 {
  "platform": "youtube",
  "username": "UCHa6h8DGLYkAljbskQbIXHw",
- "channel_id": "UCHa6h8DGLYkAljbskQbIXHw",
  "fullname": "톡신TOXIN",
  "profile_url": "https://www.youtube.com/channel/UCHa6h8DGLYkAljbskQbIXHw",
+ "channel_id": "UCHa6h8DGLYkAljbskQbIXHw",
  "followers": 206000,
- "avg_views": 10230,
- "avg_likes": 228,
- "engagement_rate": 0.0223,
- "posts_last_30d": 2,
- "_posts_last_30d_est": true,
+ "engagement_rate": 0.0175,
+ "avg_views": 9833,
+ "avg_likes": 172,
+ "posts_last_30d": 14,
+ "_posts_last_30d_est": false,
  "sample_size": 6,
- "brand_fit_score": 90,
+ "brand_fit_score": 60,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso": 1,
-  "olive_young": 16,
+  "daiso": 0,
+  "olive_young": 9,
   "our_brand": false,
-  "beauty_kw": 101
+  "beauty_kw": 2
  },
- "evaluated_at": "2026-06-04T10:23:22.859381+09:00",
- "score_total": 71.5,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 70.0,
+ "grade": "B",
  "score_breakdown": {
   "er_score": 60,
-  "brand_fit_score": 90,
-  "consistency_score": 60,
+  "brand_fit_score": 60,
+  "consistency_score": 100,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "B",
- "sample_note": "2026-06-04T10:23:22.859381+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
  "estimation_flags": {
-  "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
-  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "engagement_rate": "measured (likes: browser innertube, views: flat playlist, sample 6)",
+  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
+  "brand_fit": "measured (flat titles+channel desc+video desc; tags 미포함)",
   "followers": "measured (channel_follower_count)"
  },
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + 브라우저 innertube 좋아요 실측(샘플:6). ER=avg_likes/avg_views. brand_fit=제목+채널설명+영상설명 키워드 실측(tags 미포함). posts_last_30d=RSS 피드 실측(15개 윈도우 하한). (sandbox 워치페이지 429 → 브라우저 우회 수집)",
  "history": [
   {
    "evaluated_at": "2026-06-01T01:09:49.743734+00:00",
@@ -48,6 +48,19 @@
    "retailer_focus": "olive_young",
    "avg_views": 9633,
    "avg_likes": 214,
+   "sample_size": 6
+  },
+  {
+   "evaluated_at": "2026-06-04T10:23:22.859381+09:00",
+   "score_total": 71.5,
+   "grade": "B",
+   "engagement_rate": 0.0223,
+   "followers": 206000,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "avg_views": 10230,
+   "avg_likes": 228,
    "sample_size": 6
   }
  ]

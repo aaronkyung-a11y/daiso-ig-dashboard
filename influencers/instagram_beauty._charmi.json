@@ -3,32 +3,32 @@
  "username": "beauty._charmi",
  "fullname": "챠미뷰티 l 홈케어•색조템•뷰티꿀팁",
  "profile_url": "https://www.instagram.com/beauty._charmi/",
- "followers": 57792,
- "avg_likes": 586,
- "avg_comments": 13,
- "avg_views": 77713,
- "engagement_rate": 0.0104,
- "posts_last_30d": 9,
- "sample_size": 12,
+ "followers": 58048,
+ "engagement_rate": 0.0095,
+ "avg_likes": 536,
+ "avg_comments": 14,
+ "avg_views": 138266,
+ "posts_last_30d": 15,
+ "sample_size": 18,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "none (0건)",
-  "olive_young_mentions": "strong (21건)",
-  "beauty_topical_strength": "strong (65건)",
+  "daiso_mentions": "weak (1건)",
+  "olive_young_mentions": "strong (24건)",
+  "beauty_topical_strength": "strong (70건)",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
- "score_total": 72.5,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 65.5,
+ "grade": "B",
  "score_breakdown": {
-  "er_score": 60,
+  "er_score": 40,
   "brand_fit_score": 90,
-  "consistency_score": 80,
+  "consistency_score": 100,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "B",
- "sample_note": "2026-06-04T10:18:35.067467+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 18개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(18개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -97,6 +97,19 @@
    "retailer_focus": "olive_young",
    "avg_likes": 719,
    "avg_comments": 19,
+   "sample_size": 12
+  },
+  {
+   "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
+   "score_total": 72.5,
+   "grade": "B",
+   "engagement_rate": 0.0104,
+   "followers": 57792,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "avg_comments": 13,
+   "avg_likes": 586,
    "sample_size": 12
   }
  ]

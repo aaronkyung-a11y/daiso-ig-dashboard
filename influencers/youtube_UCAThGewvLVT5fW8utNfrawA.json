@@ -1,41 +1,41 @@
 {
  "platform": "youtube",
- "username": "aradhya_fact_55",
- "channel_id": "UCAThGewvLVT5fW8utNfrawA",
+ "username": "UCAThGewvLVT5fW8utNfrawA",
  "fullname": "ARADHYA FACT",
  "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
- "followers": 655000,
- "avg_views": 1828300,
- "avg_likes": 15144,
- "engagement_rate": 0.0083,
- "posts_last_30d": 0,
- "_posts_last_30d_est": true,
- "sample_size": 6,
- "brand_fit_score": 25,
- "retailer_focus": "off_topic",
+ "channel_id": "UCAThGewvLVT5fW8utNfrawA",
+ "followers": 657000,
+ "engagement_rate": 0.0,
+ "avg_views": 548000,
+ "avg_likes": 0,
+ "posts_last_30d": 15,
+ "_posts_last_30d_est": false,
+ "sample_size": 0,
+ "brand_fit_score": 90,
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso": 0,
   "olive_young": 0,
   "our_brand": false,
-  "beauty_kw": 0
+  "beauty_kw": 10
  },
- "evaluated_at": "2026-06-04T10:23:07.432350+09:00",
- "score_total": 42.25,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 67.5,
+ "grade": "B",
  "score_breakdown": {
   "er_score": 40,
-  "brand_fit_score": 25,
-  "consistency_score": 40,
+  "brand_fit_score": 90,
+  "consistency_score": 100,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "D",
- "sample_note": "2026-06-04T10:23:07.432350+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
  "estimation_flags": {
-  "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
-  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "engagement_rate": "unmeasurable → 0 처리",
+  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
+  "brand_fit": "measured (flat titles+channel desc+video desc; tags 미포함)",
   "followers": "measured (channel_follower_count)"
  },
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + 브라우저 innertube 좋아요 실측(샘플:0). ER=avg_likes/avg_views. brand_fit=제목+채널설명+영상설명 키워드 실측(tags 미포함). posts_last_30d=RSS 피드 실측(15개 윈도우 하한). (sandbox 워치페이지 429 → 브라우저 우회 수집)",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:05:00+09:00",
@@ -75,6 +75,19 @@
    "avg_views": 0,
    "avg_likes": 0,
    "sample_size": 0
+  },
+  {
+   "evaluated_at": "2026-06-04T10:23:07.432350+09:00",
+   "score_total": 42.25,
+   "grade": "D",
+   "engagement_rate": 0.0083,
+   "followers": 655000,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "avg_views": 1828300,
+   "avg_likes": 15144,
+   "sample_size": 6
   }
  ]
 }

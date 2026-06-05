@@ -4,12 +4,12 @@
  "fullname": "또쭈니맘",
  "profile_url": "https://www.instagram.com/k_eunmi___/",
  "followers": 1643,
- "avg_likes": 37,
+ "engagement_rate": 0.0217,
+ "avg_likes": 34,
  "avg_comments": 1,
  "avg_views": 0,
- "engagement_rate": 0.0231,
  "posts_last_30d": 2,
- "sample_size": 12,
+ "sample_size": 18,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -18,8 +18,9 @@
   "beauty_topical_strength": "none (0건)",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
- "score_total": 51.25,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 51.2,
+ "grade": "C",
  "score_breakdown": {
   "er_score": 60,
   "brand_fit_score": 25,
@@ -27,8 +28,7 @@
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "C",
- "sample_note": "2026-06-04T10:18:35.067467+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 18개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(18개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -188,6 +188,19 @@
    "retailer_focus": "off_topic",
    "avg_likes": 37,
    "avg_comments": 1,
+   "sample_size": 12
+  },
+  {
+   "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
+   "score_total": 51.25,
+   "grade": "C",
+   "engagement_rate": 0.0231,
+   "followers": 1643,
+   "posts_last_30d": 2,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "avg_comments": 1,
+   "avg_likes": 37,
    "sample_size": 12
   }
  ]

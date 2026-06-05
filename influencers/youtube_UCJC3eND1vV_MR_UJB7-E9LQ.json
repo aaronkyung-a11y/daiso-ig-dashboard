@@ -1,41 +1,41 @@
 {
  "platform": "youtube",
  "username": "UCJC3eND1vV_MR_UJB7-E9LQ",
- "channel_id": "UCJC3eND1vV_MR_UJB7-E9LQ",
  "fullname": "민카롱",
  "profile_url": "https://www.youtube.com/channel/UCJC3eND1vV_MR_UJB7-E9LQ",
+ "channel_id": "UCJC3eND1vV_MR_UJB7-E9LQ",
  "followers": 435000,
- "avg_views": 72124,
- "avg_likes": 629,
- "engagement_rate": 0.0087,
+ "engagement_rate": 0.0121,
+ "avg_views": 47091,
+ "avg_likes": 568,
  "posts_last_30d": 5,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 6,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso": 1,
-  "olive_young": 5,
+  "daiso": 0,
+  "olive_young": 4,
   "our_brand": false,
-  "beauty_kw": 40
+  "beauty_kw": 9
  },
- "evaluated_at": "2026-06-04T10:19:57.349429+09:00",
- "score_total": 64.5,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 74.5,
+ "grade": "B",
  "score_breakdown": {
-  "er_score": 40,
+  "er_score": 60,
   "brand_fit_score": 90,
   "consistency_score": 80,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "C",
- "sample_note": "2026-06-04T10:19:57.349429+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
  "estimation_flags": {
   "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
-  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
+  "brand_fit": "measured (keyword counts in title+desc+tags+channel desc)",
   "followers": "measured (channel_follower_count)"
  },
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:13:01.480932+09:00",
@@ -138,6 +138,19 @@
    "avg_views": 0,
    "avg_likes": 0,
    "sample_size": 0
+  },
+  {
+   "evaluated_at": "2026-06-04T10:19:57.349429+09:00",
+   "score_total": 64.5,
+   "grade": "C",
+   "engagement_rate": 0.0087,
+   "followers": 435000,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "avg_views": 72124,
+   "avg_likes": 629,
+   "sample_size": 6
   }
  ]
 }

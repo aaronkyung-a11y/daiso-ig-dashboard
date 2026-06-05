@@ -3,23 +3,24 @@
  "username": "gaeeeeurii",
  "fullname": "가 을",
  "profile_url": "https://www.instagram.com/gaeeeeurii/",
- "followers": 5711,
- "avg_likes": 156,
- "avg_comments": 20,
- "avg_views": 51342,
- "engagement_rate": 0.0308,
- "posts_last_30d": 12,
- "sample_size": 12,
+ "followers": 5794,
+ "engagement_rate": 0.0453,
+ "avg_likes": 213,
+ "avg_comments": 49,
+ "avg_views": 62296,
+ "posts_last_30d": 18,
+ "sample_size": 18,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "weak (1건)",
-  "olive_young_mentions": "strong (26건)",
-  "beauty_topical_strength": "strong (12건)",
+  "olive_young_mentions": "strong (37건)",
+  "beauty_topical_strength": "strong (15건)",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
  "score_total": 86.0,
+ "grade": "S",
  "score_breakdown": {
   "er_score": 80,
   "brand_fit_score": 100,
@@ -27,8 +28,7 @@
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "S",
- "sample_note": "2026-06-04T10:18:35.067467+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 18개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(18개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
  "history": [
   {
    "evaluated_at": "2026-05-08T14:09:14+09:00",
@@ -80,6 +80,19 @@
    "avg_likes": null,
    "avg_comments": null,
    "sample_size": 0
+  },
+  {
+   "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
+   "score_total": 86.0,
+   "grade": "S",
+   "engagement_rate": 0.0308,
+   "followers": 5711,
+   "posts_last_30d": 12,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "avg_comments": 20,
+   "avg_likes": 156,
+   "sample_size": 12
   }
  ]
 }

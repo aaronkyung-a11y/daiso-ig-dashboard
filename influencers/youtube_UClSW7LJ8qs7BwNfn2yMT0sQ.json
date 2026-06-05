@@ -1,15 +1,15 @@
 {
  "platform": "youtube",
  "username": "UClSW7LJ8qs7BwNfn2yMT0sQ",
- "channel_id": "UClSW7LJ8qs7BwNfn2yMT0sQ",
  "fullname": "桃夭剧场TopLove",
  "profile_url": "https://www.youtube.com/channel/UClSW7LJ8qs7BwNfn2yMT0sQ",
+ "channel_id": "UClSW7LJ8qs7BwNfn2yMT0sQ",
  "followers": 585000,
- "avg_views": 4709,
- "avg_likes": 60,
- "engagement_rate": 0.0127,
+ "engagement_rate": 0.0,
+ "avg_views": 0,
+ "avg_likes": 62,
  "posts_last_30d": 15,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 6,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -19,23 +19,23 @@
   "our_brand": false,
   "beauty_kw": 0
  },
- "evaluated_at": "2026-06-04T10:25:21.300578+09:00",
- "score_total": 61.25,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 51.2,
+ "grade": "C",
  "score_breakdown": {
-  "er_score": 60,
+  "er_score": 40,
   "brand_fit_score": 25,
   "consistency_score": 100,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "C",
- "sample_note": "2026-06-04T10:25:21.300578+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
  "estimation_flags": {
-  "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
-  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "engagement_rate": "unmeasurable → 0 처리",
+  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
+  "brand_fit": "measured (flat titles+channel desc+video desc; tags 미포함)",
   "followers": "measured (channel_follower_count)"
  },
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + 브라우저 innertube 좋아요 실측(샘플:6). ER=avg_likes/avg_views. brand_fit=제목+채널설명+영상설명 키워드 실측(tags 미포함). posts_last_30d=RSS 피드 실측(15개 윈도우 하한). (sandbox 워치페이지 429 → 브라우저 우회 수집)",
  "history": [
   {
    "evaluated_at": "2026-06-01T01:10:47.678638+00:00",
@@ -48,6 +48,19 @@
    "retailer_focus": "off_topic",
    "avg_views": 5815,
    "avg_likes": 86,
+   "sample_size": 6
+  },
+  {
+   "evaluated_at": "2026-06-04T10:25:21.300578+09:00",
+   "score_total": 61.25,
+   "grade": "C",
+   "engagement_rate": 0.0127,
+   "followers": 585000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "avg_views": 4709,
+   "avg_likes": 60,
    "sample_size": 6
   }
  ]

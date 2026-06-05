@@ -1,41 +1,41 @@
 {
  "platform": "youtube",
  "username": "UCo9OPeVJL5hgPtwxUTEBgSA",
- "channel_id": "UCo9OPeVJL5hgPtwxUTEBgSA",
  "fullname": "룡지니",
  "profile_url": "https://www.youtube.com/channel/UCo9OPeVJL5hgPtwxUTEBgSA",
+ "channel_id": "UCo9OPeVJL5hgPtwxUTEBgSA",
  "followers": 73500,
- "avg_views": 11283,
- "avg_likes": 131,
- "engagement_rate": 0.0116,
- "posts_last_30d": 0,
- "_posts_last_30d_est": true,
+ "engagement_rate": 0.0087,
+ "avg_views": 43230,
+ "avg_likes": 378,
+ "posts_last_30d": 13,
+ "_posts_last_30d_est": false,
  "sample_size": 6,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso": 6,
-  "olive_young": 4,
+  "daiso": 18,
+  "olive_young": 13,
   "our_brand": false,
-  "beauty_kw": 57
+  "beauty_kw": 37
  },
- "evaluated_at": "2026-06-04T10:22:22.512367+09:00",
- "score_total": 66.5,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 65.5,
+ "grade": "B",
  "score_breakdown": {
-  "er_score": 60,
+  "er_score": 40,
   "brand_fit_score": 90,
-  "consistency_score": 40,
+  "consistency_score": 100,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "B",
- "sample_note": "2026-06-04T10:22:22.512367+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:19, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
  "estimation_flags": {
   "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
-  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
+  "brand_fit": "measured (keyword counts in title+desc+tags+channel desc)",
   "followers": "measured (channel_follower_count)"
  },
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
  "history": [
   {
    "evaluated_at": "2026-05-28T10:00:00+09:00",
@@ -59,6 +59,19 @@
    "avg_views": 0,
    "avg_likes": 0,
    "sample_size": 0
+  },
+  {
+   "evaluated_at": "2026-06-04T10:22:22.512367+09:00",
+   "score_total": 66.5,
+   "grade": "B",
+   "engagement_rate": 0.0116,
+   "followers": 73500,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 11283,
+   "avg_likes": 131,
+   "sample_size": 6
   }
  ]
 }

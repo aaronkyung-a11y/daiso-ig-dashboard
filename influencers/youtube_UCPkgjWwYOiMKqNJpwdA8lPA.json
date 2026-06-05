@@ -1,41 +1,41 @@
 {
  "platform": "youtube",
  "username": "UCPkgjWwYOiMKqNJpwdA8lPA",
- "channel_id": "UCPkgjWwYOiMKqNJpwdA8lPA",
  "fullname": "소살 Sora Salon",
  "profile_url": "https://www.youtube.com/channel/UCPkgjWwYOiMKqNJpwdA8lPA",
+ "channel_id": "UCPkgjWwYOiMKqNJpwdA8lPA",
  "followers": 131000,
- "avg_views": 35453,
- "avg_likes": 727,
- "engagement_rate": 0.0205,
- "posts_last_30d": 7,
- "_posts_last_30d_est": true,
+ "engagement_rate": 0.0072,
+ "avg_views": 35500,
+ "avg_likes": 254,
+ "posts_last_30d": 13,
+ "_posts_last_30d_est": false,
  "sample_size": 6,
  "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "retailer_focus": "mixed",
  "retailer_signal": {
   "daiso": 2,
-  "olive_young": 16,
+  "olive_young": 2,
   "our_brand": false,
-  "beauty_kw": 47
+  "beauty_kw": 11
  },
- "evaluated_at": "2026-06-04T10:23:52.729352+09:00",
- "score_total": 74.5,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 67.5,
+ "grade": "B",
  "score_breakdown": {
-  "er_score": 60,
+  "er_score": 40,
   "brand_fit_score": 90,
-  "consistency_score": 80,
+  "consistency_score": 100,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "B",
- "sample_note": "2026-06-04T10:23:52.729352+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
  "estimation_flags": {
-  "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
-  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "engagement_rate": "measured (likes: browser innertube, views: flat playlist, sample 6)",
+  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
+  "brand_fit": "measured (flat titles+channel desc+video desc; tags 미포함)",
   "followers": "measured (channel_follower_count)"
  },
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + 브라우저 innertube 좋아요 실측(샘플:6). ER=avg_likes/avg_views. brand_fit=제목+채널설명+영상설명 키워드 실측(tags 미포함). posts_last_30d=RSS 피드 실측(15개 윈도우 하한). (sandbox 워치페이지 429 → 브라우저 우회 수집)",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -76,6 +76,19 @@
    "avg_views": 63835.3,
    "avg_likes": 1076.1,
    "sample_size": 18
+  },
+  {
+   "evaluated_at": "2026-06-04T10:23:52.729352+09:00",
+   "score_total": 74.5,
+   "grade": "B",
+   "engagement_rate": 0.0205,
+   "followers": 131000,
+   "posts_last_30d": 7,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "avg_views": 35453,
+   "avg_likes": 727,
+   "sample_size": 6
   }
  ]
 }

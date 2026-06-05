@@ -1,41 +1,41 @@
 {
  "platform": "youtube",
  "username": "UCrlUlicedicJ5mlibqC62Eg",
- "channel_id": "UCrlUlicedicJ5mlibqC62Eg",
  "fullname": "뷰드름 유튜버 인씨",
  "profile_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
+ "channel_id": "UCrlUlicedicJ5mlibqC62Eg",
  "followers": 568000,
- "avg_views": 39100,
- "avg_likes": 591,
- "engagement_rate": 0.0151,
- "posts_last_30d": 0,
- "_posts_last_30d_est": true,
+ "engagement_rate": 0.0102,
+ "avg_views": 71753,
+ "avg_likes": 734,
+ "posts_last_30d": 15,
+ "_posts_last_30d_est": false,
  "sample_size": 6,
- "brand_fit_score": 100,
- "retailer_focus": "our_brand",
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso": 7,
-  "olive_young": 25,
-  "our_brand": true,
-  "beauty_kw": 52
+  "daiso": 9,
+  "olive_young": 6,
+  "our_brand": false,
+  "beauty_kw": 21
  },
- "evaluated_at": "2026-06-04T10:19:57.446858+09:00",
- "score_total": 71.0,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 77.5,
+ "grade": "A",
  "score_breakdown": {
   "er_score": 60,
-  "brand_fit_score": 100,
-  "consistency_score": 40,
+  "brand_fit_score": 90,
+  "consistency_score": 100,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "B",
- "sample_note": "2026-06-04T10:19:57.446858+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
  "estimation_flags": {
   "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
-  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
+  "brand_fit": "measured (keyword counts in title+desc+tags+channel desc)",
   "followers": "measured (channel_follower_count)"
  },
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -138,6 +138,19 @@
    "avg_views": 0,
    "avg_likes": 0,
    "sample_size": 0
+  },
+  {
+   "evaluated_at": "2026-06-04T10:19:57.446858+09:00",
+   "score_total": 71.0,
+   "grade": "B",
+   "engagement_rate": 0.0151,
+   "followers": 568000,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "avg_views": 39100,
+   "avg_likes": 591,
+   "sample_size": 6
   }
  ]
 }

@@ -1,41 +1,41 @@
 {
  "platform": "youtube",
  "username": "UCChdHmdkgTpk0iyuODYxJIw",
- "channel_id": "UCChdHmdkgTpk0iyuODYxJIw",
  "fullname": "해니 haeni beauty",
  "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
+ "channel_id": "UCChdHmdkgTpk0iyuODYxJIw",
  "followers": 479000,
- "avg_views": 19421,
- "avg_likes": 852,
- "engagement_rate": 0.0439,
- "posts_last_30d": 3,
+ "engagement_rate": 0.0181,
+ "avg_views": 99101,
+ "avg_likes": 1790,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 3,
+ "sample_size": 6,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso": 2,
-  "olive_young": 0,
+  "daiso": 0,
+  "olive_young": 10,
   "our_brand": false,
-  "beauty_kw": 90
+  "beauty_kw": 105
  },
- "evaluated_at": "2026-06-04T17:10:57.874546+09:00",
- "score_total": 81.5,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 74.5,
+ "grade": "B",
  "score_breakdown": {
-  "er_score": 80,
+  "er_score": 60,
   "brand_fit_score": 90,
-  "consistency_score": 60,
+  "consistency_score": 80,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "A",
- "sample_note": "2026-06-04T17:10:57.874546+09:00 STEP B-Light(17시, mingjikim_107 404 대체 선정) — yt-dlp 실측: 30일 내 영상 3건 전수. ER=avg_likes/avg_views. brand_fit=title+tags+desc 키워드 실측.",
  "estimation_flags": {
-  "engagement_rate": "measured (likes/views, sample 3)",
-  "posts_last_30d": "measured (upload_date, 30d window)",
-  "brand_fit": "measured (keyword counts in title+tags+desc)",
+  "engagement_rate": "measured (likes/views, sample 6)",
+  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
+  "brand_fit": "measured (keyword counts in title+desc+tags+channel desc)",
   "followers": "measured (channel_follower_count)"
  },
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:16:44.698250+09:00",
@@ -160,6 +160,19 @@
    "avg_views": 25047,
    "avg_likes": 976,
    "sample_size": 6
+  },
+  {
+   "evaluated_at": "2026-06-04T17:10:57.874546+09:00",
+   "score_total": 81.5,
+   "grade": "A",
+   "engagement_rate": 0.0439,
+   "followers": 479000,
+   "posts_last_30d": 3,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 19421,
+   "avg_likes": 852,
+   "sample_size": 3
   }
  ]
 }

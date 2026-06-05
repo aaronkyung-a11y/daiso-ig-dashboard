@@ -1,41 +1,41 @@
 {
  "platform": "youtube",
  "username": "UCNOA-IwgMAatMFGwdB5n-2Q",
- "channel_id": "UCNOA-IwgMAatMFGwdB5n-2Q",
  "fullname": "서윤초이 seoyoonchoi",
  "profile_url": "https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q",
+ "channel_id": "UCNOA-IwgMAatMFGwdB5n-2Q",
  "followers": 11800,
- "avg_views": 22150,
- "avg_likes": 684,
- "engagement_rate": 0.0309,
- "posts_last_30d": 2,
- "_posts_last_30d_est": true,
+ "engagement_rate": 0.0172,
+ "avg_views": 7644,
+ "avg_likes": 132,
+ "posts_last_30d": 5,
+ "_posts_last_30d_est": false,
  "sample_size": 6,
- "brand_fit_score": 100,
- "retailer_focus": "our_brand",
+ "brand_fit_score": 75,
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso": 52,
-  "olive_young": 0,
-  "our_brand": true,
-  "beauty_kw": 12
+  "daiso": 4,
+  "olive_young": 2,
+  "our_brand": false,
+  "beauty_kw": 7
  },
- "evaluated_at": "2026-06-04T10:22:22.492949+09:00",
- "score_total": 82.0,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 68.8,
+ "grade": "B",
  "score_breakdown": {
-  "er_score": 80,
-  "brand_fit_score": 100,
-  "consistency_score": 60,
+  "er_score": 60,
+  "brand_fit_score": 75,
+  "consistency_score": 80,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "A",
- "sample_note": "2026-06-04T10:22:22.492949+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
  "estimation_flags": {
   "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
-  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
+  "brand_fit": "measured (keyword counts in title+desc+tags+channel desc)",
   "followers": "measured (channel_follower_count)"
  },
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:15, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -77,6 +77,19 @@
    "avg_views": 22166,
    "avg_likes": 677,
    "sample_size": 4
+  },
+  {
+   "evaluated_at": "2026-06-04T10:22:22.492949+09:00",
+   "score_total": 82.0,
+   "grade": "A",
+   "engagement_rate": 0.0309,
+   "followers": 11800,
+   "posts_last_30d": 2,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "avg_views": 22150,
+   "avg_likes": 684,
+   "sample_size": 6
   }
  ]
 }

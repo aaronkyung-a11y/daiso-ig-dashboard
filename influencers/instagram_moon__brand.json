@@ -3,13 +3,13 @@
  "username": "moon__brand",
  "fullname": "문브의 데일리야구🇰🇷 K-야구문화•크보•팝업",
  "profile_url": "https://www.instagram.com/moon__brand/",
- "followers": 45107,
- "avg_likes": 3073,
- "avg_comments": 63,
- "avg_views": 216947,
- "engagement_rate": 0.0695,
- "posts_last_30d": 9,
- "sample_size": 12,
+ "followers": 45100,
+ "engagement_rate": 0.062,
+ "avg_likes": 2739,
+ "avg_comments": 56,
+ "avg_views": 235891,
+ "posts_last_30d": 15,
+ "sample_size": 18,
  "brand_fit_score": 60,
  "retailer_focus": "mixed",
  "retailer_signal": {
@@ -18,17 +18,17 @@
   "beauty_topical_strength": "weak (2건)",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
- "score_total": 80.0,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 83.0,
+ "grade": "A",
  "score_breakdown": {
   "er_score": 90,
   "brand_fit_score": 60,
-  "consistency_score": 80,
+  "consistency_score": 100,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "A",
- "sample_note": "2026-06-04T10:18:35.067467+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 18개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(18개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -117,6 +117,19 @@
    "retailer_focus": "daiso",
    "avg_likes": 3210,
    "avg_comments": 67,
+   "sample_size": 12
+  },
+  {
+   "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
+   "score_total": 80.0,
+   "grade": "A",
+   "engagement_rate": 0.0695,
+   "followers": 45107,
+   "posts_last_30d": 9,
+   "brand_fit_score": 60,
+   "retailer_focus": "mixed",
+   "avg_comments": 63,
+   "avg_likes": 3073,
    "sample_size": 12
   }
  ]

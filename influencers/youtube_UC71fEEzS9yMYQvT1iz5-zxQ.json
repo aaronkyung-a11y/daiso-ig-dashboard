@@ -1,41 +1,41 @@
 {
  "platform": "youtube",
  "username": "UC71fEEzS9yMYQvT1iz5-zxQ",
- "channel_id": "UC71fEEzS9yMYQvT1iz5-zxQ",
  "fullname": "뷰라tv",
  "profile_url": "https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ",
- "followers": 89800,
- "avg_views": 52330,
- "avg_likes": 52,
- "engagement_rate": 0.001,
- "posts_last_30d": 4,
- "_posts_last_30d_est": true,
+ "channel_id": "UC71fEEzS9yMYQvT1iz5-zxQ",
+ "followers": 90100,
+ "engagement_rate": 0.0063,
+ "avg_views": 10836,
+ "avg_likes": 69,
+ "posts_last_30d": 15,
+ "_posts_last_30d_est": false,
  "sample_size": 6,
- "brand_fit_score": 100,
- "retailer_focus": "our_brand",
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso": 23,
-  "olive_young": 36,
-  "our_brand": true,
-  "beauty_kw": 96
+  "daiso": 0,
+  "olive_young": 2,
+  "our_brand": false,
+  "beauty_kw": 16
  },
- "evaluated_at": "2026-06-04T10:22:41.755911+09:00",
- "score_total": 62.0,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 65.5,
+ "grade": "B",
  "score_breakdown": {
   "er_score": 40,
-  "brand_fit_score": 100,
-  "consistency_score": 60,
+  "brand_fit_score": 90,
+  "consistency_score": 100,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "C",
- "sample_note": "2026-06-04T10:22:41.755911+09:00 STEP B 풀 재분석 — yt-dlp 실측 (videos:30, 상세샘플:6). brand_fit=title+desc+tags 키워드 실측(추정 요소: posts_last_30d는 approximate_date 추정).",
  "estimation_flags": {
-  "engagement_rate": "measured (likes/views, sample 6)",
-  "posts_last_30d": "estimated (yt-dlp approximate_date)",
-  "brand_fit": "measured (keyword counts in title+desc+tags)",
+  "engagement_rate": "measured (likes: browser innertube, views: flat playlist, sample 6)",
+  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
+  "brand_fit": "measured (flat titles+channel desc+video desc; tags 미포함)",
   "followers": "measured (channel_follower_count)"
  },
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + 브라우저 innertube 좋아요 실측(샘플:6). ER=avg_likes/avg_views. brand_fit=제목+채널설명+영상설명 키워드 실측(tags 미포함). posts_last_30d=RSS 피드 실측(15개 윈도우 하한). (sandbox 워치페이지 429 → 브라우저 우회 수집)",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -77,6 +77,19 @@
    "avg_views": 63392.4,
    "avg_likes": 57.6,
    "sample_size": 18
+  },
+  {
+   "evaluated_at": "2026-06-04T10:22:41.755911+09:00",
+   "score_total": 62.0,
+   "grade": "C",
+   "engagement_rate": 0.001,
+   "followers": 89800,
+   "posts_last_30d": 4,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "avg_views": 52330,
+   "avg_likes": 52,
+   "sample_size": 6
   }
  ]
 }

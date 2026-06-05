@@ -4,31 +4,31 @@
  "fullname": "보스",
  "profile_url": "https://www.instagram.com/boss.lim_/",
  "followers": 694,
- "avg_likes": 43,
+ "engagement_rate": 0.0699,
+ "avg_likes": 45,
  "avg_comments": 3,
- "avg_views": 10742,
- "engagement_rate": 0.0663,
+ "avg_views": 10238,
  "posts_last_30d": 6,
- "sample_size": 12,
- "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "sample_size": 18,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "medium (7건)",
-  "olive_young_mentions": "medium (5건)",
-  "beauty_topical_strength": "strong (17건)",
-  "labrang_blanc_doux_mention": false
+  "daiso_mentions": "strong (14건)",
+  "olive_young_mentions": "strong (10건)",
+  "beauty_topical_strength": "strong (26건)",
+  "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
- "score_total": 83.5,
+ "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "score_total": 86.0,
+ "grade": "S",
  "score_breakdown": {
   "er_score": 90,
-  "brand_fit_score": 90,
+  "brand_fit_score": 100,
   "consistency_score": 80,
   "follower_scale_score": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "grade": "A",
- "sample_note": "2026-06-04T10:18:35.067467+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+ "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 18개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(18개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -97,6 +97,19 @@
    "retailer_focus": "our_brand",
    "avg_likes": 43,
    "avg_comments": 3,
+   "sample_size": 12
+  },
+  {
+   "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
+   "score_total": 83.5,
+   "grade": "A",
+   "engagement_rate": 0.0663,
+   "followers": 694,
+   "posts_last_30d": 6,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_comments": 3,
+   "avg_likes": 43,
    "sample_size": 12
   }
  ]
