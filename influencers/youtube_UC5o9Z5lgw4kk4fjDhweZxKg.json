@@ -6,7 +6,7 @@
  "channel_id": "UC5o9Z5lgw4kk4fjDhweZxKg",
  "followers": 175000,
  "engagement_rate": 0.021,
- "avg_views": 10116,
+ "avg_views": 10117,
  "avg_likes": 212,
  "posts_last_30d": 4,
  "_posts_last_30d_est": false,
@@ -14,12 +14,12 @@
  "brand_fit_score": 90,
  "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso": 1,
-  "olive_young": 1,
+  "daiso": 13,
+  "olive_young": 12,
   "our_brand": false,
-  "beauty_kw": 12
+  "beauty_kw": 19
  },
- "evaluated_at": "2026-06-08T10:18:34.208965+09:00",
+ "evaluated_at": "2026-06-08T14:15:21.504660+09:00",
  "score_total": 71.5,
  "grade": "B",
  "score_breakdown": {
@@ -30,12 +30,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (likes: watch extraction sample 4, views: flat playlist 0)",
-  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-  "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
+  "engagement_rate": "measured",
+  "posts_last_30d": "measured (RSS 피드 실측, 30일 윈도우 완전 포함)",
+  "brand_fit": "measured (제목+태그+설명 키워드)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-08T10:18:34.208965+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + watch 추출 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
+ "sample_note": "2026-06-08T14:15:21.504660+09:00 STEP B-Light(14:00 slot) 롤링 재분석 — yt-dlp -J 최근영상 실측(조회/좋아요/업로드일/제목/태그/설명). ER=avg_likes/avg_views(30일 內 영상 4건). posts_last_30d=4 RSS 실측(30일 윈도우 완전 포함).",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:16:44.508399+09:00",
@@ -196,6 +196,19 @@
    "retailer_focus": "olive_young",
    "score_total": 71.5,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-06-08T10:18:34.208965+09:00",
+   "score_total": 71.5,
+   "grade": "B",
+   "engagement_rate": 0.021,
+   "followers": 175000,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
+   "avg_views": 10116,
+   "avg_likes": 212,
+   "sample_size": 4
   }
  ]
 }

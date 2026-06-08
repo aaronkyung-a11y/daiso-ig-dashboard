@@ -165,17 +165,17 @@ tr.row:hover { background: #0f172a; }
 <script>
 // INFLUENCER_DATA_BEGIN
 const INFLUENCER_DATA = {
- "last_updated": "2026-06-08T10:38:30.879670+09:00",
- "lastUpdated": "2026-06-08T10:38:30.879670+09:00",
- "last_run_mode": "풀 재분석 (10:00 slot — STEP A 큐 3소스 신규 0건 / STEP B 풀 재분석 134건 완료: IG 23(로그인·샘플18) + YT 111(yt-dlp flat+RSS, 좋아요 실측 샘플≤4 · 말미 9채널 sandbox 봇체크로 브라우저 우회) / mingjikim_107 프로필 404 → 측정불가 기본값(D) / S 신규 1 · S 강등 1)",
+ "last_updated": "2026-06-08T14:16:18.867076+09:00",
+ "lastUpdated": "2026-06-08T14:16:18.867076+09:00",
+ "last_run_mode": "14:00 slot (큐+B-Light) — STEP A 큐 3소스 신규 0건(Form 134건 전원 기분석·dedup, Issues 0, _queue.txt 0) / STEP B SKIPPED (not 10:00 slot) / STEP B-Light 2건 재분석: Jinyaa 87.5→77.5(S→A, ER 0.0346→0.0246 표본·조회수누적 민감), UC5o9Z5lgw4kk4fjDhweZxKg(피부왕정윤) 71.5→71.5(B 유지). score_total null 0건.",
  "total": 134,
  "platforms": {
   "instagram": 23,
   "youtube": 111
  },
  "grades": {
-  "S": 13,
-  "A": 25,
+  "S": 12,
+  "A": 26,
   "B": 37,
   "C": 54,
   "D": 5
@@ -184,8 +184,8 @@ const INFLUENCER_DATA = {
   "our_brand": 7,
   "olive_young": 53,
   "daiso": 37,
-  "beauty_general": 17,
   "mixed": 10,
+  "beauty_general": 17,
   "off_topic": 10
  },
  "records": [
@@ -424,37 +424,37 @@ const INFLUENCER_DATA = {
    "profile_url": "https://www.youtube.com/@Jinyaa",
    "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
    "followers": 360000,
-   "engagement_rate": 0.0346,
-   "avg_views": 84696,
-   "avg_likes": 2930,
+   "engagement_rate": 0.0246,
+   "avg_views": 120405,
+   "avg_likes": 2958,
    "posts_last_30d": 15,
    "_posts_last_30d_est": true,
-   "sample_size": 4,
+   "sample_size": 5,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "retailer_signal": {
-    "daiso": 3,
-    "olive_young": 24,
+    "daiso": 2,
+    "olive_young": 46,
     "our_brand": false,
-    "beauty_kw": 320
+    "beauty_kw": 339
    },
-   "evaluated_at": "2026-06-08T10:18:34.208965+09:00",
-   "score_total": 87.5,
-   "grade": "S",
+   "evaluated_at": "2026-06-08T14:15:21.504660+09:00",
+   "score_total": 77.5,
+   "grade": "A",
    "score_breakdown": {
-    "er_score": 80,
+    "er_score": 60,
     "brand_fit_score": 90,
     "consistency_score": 100,
     "follower_scale_score": 100,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
-    "engagement_rate": "measured (likes: watch extraction sample 4, views: flat playlist 0)",
-    "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-    "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
+    "engagement_rate": "measured (sampling-sensitive: 조회수 일중 누적으로 변동)",
+    "posts_last_30d": "measured (RSS 피드, 최근 15개 윈도우 內 하한)",
+    "brand_fit": "measured (제목+태그+설명 키워드)",
     "followers": "measured (channel_follower_count)"
    },
-   "sample_note": "2026-06-08T10:18:34.208965+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + watch 추출 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한)."
+   "sample_note": "2026-06-08T14:15:21.504660+09:00 STEP B-Light(14:00 slot) 롤링 재분석 — yt-dlp -J 최근영상 실측(조회/좋아요/업로드일/제목/태그/설명). ER=avg_likes/avg_views(30일 內 영상 5건). posts_last_30d=RSS 15개 윈도우 하한(추정 하한). ★ER 주의: 유튜브 조회수 일중 누적·표본구성에 민감 — 조회수 84.7k→120.4k 상승으로 ER 하락(좋아요는 2930→2958로 거의 동일)."
   },
   {
    "platform": "youtube",
@@ -2013,7 +2013,7 @@ const INFLUENCER_DATA = {
    "channel_id": "UC5o9Z5lgw4kk4fjDhweZxKg",
    "followers": 175000,
    "engagement_rate": 0.021,
-   "avg_views": 10116,
+   "avg_views": 10117,
    "avg_likes": 212,
    "posts_last_30d": 4,
    "_posts_last_30d_est": false,
@@ -2021,12 +2021,12 @@ const INFLUENCER_DATA = {
    "brand_fit_score": 90,
    "retailer_focus": "mixed",
    "retailer_signal": {
-    "daiso": 1,
-    "olive_young": 1,
+    "daiso": 13,
+    "olive_young": 12,
     "our_brand": false,
-    "beauty_kw": 12
+    "beauty_kw": 19
    },
-   "evaluated_at": "2026-06-08T10:18:34.208965+09:00",
+   "evaluated_at": "2026-06-08T14:15:21.504660+09:00",
    "score_total": 71.5,
    "grade": "B",
    "score_breakdown": {
@@ -2037,12 +2037,12 @@ const INFLUENCER_DATA = {
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
-    "engagement_rate": "measured (likes: watch extraction sample 4, views: flat playlist 0)",
-    "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-    "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
+    "engagement_rate": "measured",
+    "posts_last_30d": "measured (RSS 피드 실측, 30일 윈도우 완전 포함)",
+    "brand_fit": "measured (제목+태그+설명 키워드)",
     "followers": "measured (channel_follower_count)"
    },
-   "sample_note": "2026-06-08T10:18:34.208965+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + watch 추출 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한)."
+   "sample_note": "2026-06-08T14:15:21.504660+09:00 STEP B-Light(14:00 slot) 롤링 재분석 — yt-dlp -J 최근영상 실측(조회/좋아요/업로드일/제목/태그/설명). ER=avg_likes/avg_views(30일 內 영상 4건). posts_last_30d=4 RSS 실측(30일 윈도우 완전 포함)."
   },
   {
    "platform": "youtube",
