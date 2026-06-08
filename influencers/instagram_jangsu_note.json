@@ -3,22 +3,22 @@
  "username": "jangsu_note",
  "fullname": "장수노트",
  "profile_url": "https://www.instagram.com/jangsu_note/",
- "followers": 14260,
- "engagement_rate": 0.1214,
- "avg_likes": 1702,
- "avg_comments": 29,
- "avg_views": 175365,
- "posts_last_30d": 12,
- "sample_size": 12,
+ "followers": 14735,
+ "engagement_rate": 0.1081,
+ "avg_likes": 1568,
+ "avg_comments": 25,
+ "avg_views": 152958,
+ "posts_last_30d": 18,
+ "sample_size": 18,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "strong (21건)",
-  "olive_young_mentions": "none (0건)",
-  "beauty_topical_strength": "strong (8건)",
+  "daiso_mentions": "30건",
+  "olive_young_mentions": "0건",
+  "beauty_topical_strength": "13건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-05T14:09:00+09:00",
+ "evaluated_at": "2026-06-08T10:28:30.393916+09:00",
  "score_total": 98.0,
  "grade": "S",
  "score_breakdown": {
@@ -28,7 +28,13 @@
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "sample_note": "2026-06-05T14:09:00+09:00 STEP B-Light(14시): IG 로그인, web feed API(feed/user)로 최근 12개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(12개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+ "estimation_flags": {
+  "engagement_rate": "measured",
+  "posts_last_30d": "measured (taken_at 실측, 샘플 윈도우 內 하한)",
+  "brand_fit": "measured (캡션+bio)",
+  "followers": "measured"
+ },
+ "sample_note": "2026-06-08T10:28:30.393916+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 18개 게시물 실측(좋아요/댓글/조회/캡션, 2페이지 페이지네이션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(18개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -200,6 +206,16 @@
    "avg_comments": 46,
    "avg_likes": 1456,
    "sample_size": 18
+  },
+  {
+   "evaluated_at": "2026-06-05T14:09:00+09:00",
+   "followers": 14260,
+   "engagement_rate": 0.1214,
+   "posts_last_30d": 12,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 98.0,
+   "grade": "S"
   }
  ]
 }

@@ -3,8 +3,8 @@
  "username": "k_eunmi___",
  "fullname": "또쭈니맘",
  "profile_url": "https://www.instagram.com/k_eunmi___/",
- "followers": 1643,
- "engagement_rate": 0.0217,
+ "followers": 1637,
+ "engagement_rate": 0.0214,
  "avg_likes": 34,
  "avg_comments": 1,
  "avg_views": 0,
@@ -13,12 +13,12 @@
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
-  "daiso_mentions": "none (0건)",
-  "olive_young_mentions": "none (0건)",
-  "beauty_topical_strength": "none (0건)",
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "0건",
+  "beauty_topical_strength": "0건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "evaluated_at": "2026-06-08T10:28:30.393916+09:00",
  "score_total": 51.2,
  "grade": "C",
  "score_breakdown": {
@@ -28,7 +28,13 @@
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 18개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(18개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+ "estimation_flags": {
+  "engagement_rate": "measured",
+  "posts_last_30d": "measured (taken_at 실측, 샘플 윈도우 內 하한)",
+  "brand_fit": "measured (캡션+bio)",
+  "followers": "measured"
+ },
+ "sample_note": "2026-06-08T10:28:30.393916+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 18개 게시물 실측(좋아요/댓글/조회/캡션, 2페이지 페이지네이션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(18개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -202,6 +208,16 @@
    "avg_comments": 1,
    "avg_likes": 37,
    "sample_size": 12
+  },
+  {
+   "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+   "followers": 1643,
+   "engagement_rate": 0.0217,
+   "posts_last_30d": 2,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 51.2,
+   "grade": "C"
   }
  ]
 }

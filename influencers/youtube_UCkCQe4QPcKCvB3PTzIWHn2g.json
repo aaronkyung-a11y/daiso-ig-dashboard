@@ -5,37 +5,37 @@
  "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g",
  "channel_id": "UCkCQe4QPcKCvB3PTzIWHn2g",
  "followers": 23,
- "engagement_rate": 0.0097,
- "avg_views": 5967,
- "avg_likes": 58,
- "posts_last_30d": 6,
+ "engagement_rate": 0.0054,
+ "avg_views": 4962,
+ "avg_likes": 27,
+ "posts_last_30d": 5,
  "_posts_last_30d_est": false,
- "sample_size": 6,
- "brand_fit_score": 100,
- "retailer_focus": "our_brand",
+ "sample_size": 4,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso": 7,
-  "olive_young": 1,
-  "our_brand": true,
-  "beauty_kw": 15
+  "daiso": 5,
+  "olive_young": 2,
+  "our_brand": false,
+  "beauty_kw": 16
  },
- "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
- "score_total": 61.0,
+ "evaluated_at": "2026-06-08T10:30:24.095474+09:00",
+ "score_total": 58.5,
  "grade": "C",
  "score_breakdown": {
   "er_score": 40,
-  "brand_fit_score": 100,
+  "brand_fit_score": 90,
   "consistency_score": 80,
   "follower_scale_score": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (likes: browser innertube, views: flat playlist, sample 6)",
+  "engagement_rate": "measured (likes: watch extraction sample 4, views: flat playlist 8)",
   "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-  "brand_fit": "measured (flat titles+channel desc+video desc; tags 미포함)",
+  "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:8) + 브라우저 innertube 좋아요 실측(샘플:6). ER=avg_likes/avg_views. brand_fit=제목+채널설명+영상설명 키워드 실측(tags 미포함). posts_last_30d=RSS 피드 실측(15개 윈도우 하한). (sandbox 워치페이지 429 → 브라우저 우회 수집)",
+ "sample_note": "2026-06-08T10:30:24.095474+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:8) + watch 추출 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -81,6 +81,16 @@
    "avg_views": 6009,
    "avg_likes": 58,
    "sample_size": 6
+  },
+  {
+   "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+   "followers": 23,
+   "engagement_rate": 0.0097,
+   "posts_last_30d": 6,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 61.0,
+   "grade": "C"
   }
  ]
 }

@@ -4,22 +4,22 @@
  "fullname": "Pibukyurl",
  "profile_url": "https://www.youtube.com/channel/UCd7icqUv7f8k2E6n4WOCIQg",
  "channel_id": "UCd7icqUv7f8k2E6n4WOCIQg",
- "followers": 61100,
- "engagement_rate": 0.0246,
- "avg_views": 30167,
- "avg_likes": 744,
- "posts_last_30d": 11,
+ "followers": 61400,
+ "engagement_rate": 0.0276,
+ "avg_views": 35606,
+ "avg_likes": 983,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": false,
- "sample_size": 6,
+ "sample_size": 4,
  "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso": 0,
-  "olive_young": 3,
+  "olive_young": 0,
   "our_brand": false,
-  "beauty_kw": 19
+  "beauty_kw": 36
  },
- "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "evaluated_at": "2026-06-08T10:29:30.417963+09:00",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -30,12 +30,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (likes: browser innertube, views: flat playlist, sample 6)",
+  "engagement_rate": "measured (likes: watch extraction sample 4, views: flat playlist 0)",
   "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-  "brand_fit": "measured (flat titles+channel desc+video desc; tags 미포함)",
+  "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:9) + 브라우저 innertube 좋아요 실측(샘플:6). ER=avg_likes/avg_views. brand_fit=제목+채널설명+영상설명 키워드 실측(tags 미포함). posts_last_30d=RSS 피드 실측(15개 윈도우 하한). (sandbox 워치페이지 429 → 브라우저 우회 수집)",
+ "sample_note": "2026-06-08T10:29:30.417963+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + watch 추출 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
  "history": [
   {
    "evaluated_at": "2026-06-03T10:11:59+09:00",
@@ -71,6 +71,16 @@
    "avg_views": 43197,
    "avg_likes": 1423,
    "sample_size": 6
+  },
+  {
+   "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+   "followers": 61100,
+   "engagement_rate": 0.0246,
+   "posts_last_30d": 11,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 75.5,
+   "grade": "A"
   }
  ]
 }

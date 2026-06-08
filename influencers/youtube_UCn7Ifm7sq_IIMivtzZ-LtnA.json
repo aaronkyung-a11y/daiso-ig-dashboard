@@ -4,38 +4,38 @@
  "fullname": "호박스Hobox",
  "profile_url": "https://www.youtube.com/channel/UCn7Ifm7sq_IIMivtzZ-LtnA",
  "channel_id": "UCn7Ifm7sq_IIMivtzZ-LtnA",
- "followers": 79100,
- "engagement_rate": 0.0144,
- "avg_views": 39000,
- "avg_likes": 563,
- "posts_last_30d": 12,
+ "followers": 79300,
+ "engagement_rate": 0.0095,
+ "avg_views": 40281,
+ "avg_likes": 383,
+ "posts_last_30d": 13,
  "_posts_last_30d_est": false,
- "sample_size": 6,
- "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "sample_size": 4,
+ "brand_fit_score": 60,
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
-  "daiso": 1,
-  "olive_young": 2,
+  "daiso": 0,
+  "olive_young": 0,
   "our_brand": false,
-  "beauty_kw": 14
+  "beauty_kw": 1
  },
- "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
- "score_total": 75.5,
- "grade": "A",
+ "evaluated_at": "2026-06-08T10:36:05.756105+09:00",
+ "score_total": 58.0,
+ "grade": "C",
  "score_breakdown": {
-  "er_score": 60,
-  "brand_fit_score": 90,
+  "er_score": 40,
+  "brand_fit_score": 60,
   "consistency_score": 100,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (likes: browser innertube, views: flat playlist, sample 6)",
+  "engagement_rate": "measured (likes+views: 브라우저 watch HTML 실측, 샘플 4)",
   "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-  "brand_fit": "measured (flat titles+channel desc+video desc; tags 미포함)",
+  "brand_fit": "measured (flat titles+channel desc; 샘플영상 설명·태그 미포함 — 봇체크로 제한)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + 브라우저 innertube 좋아요 실측(샘플:6). ER=avg_likes/avg_views. brand_fit=제목+채널설명+영상설명 키워드 실측(tags 미포함). posts_last_30d=RSS 피드 실측(15개 윈도우 하한). (sandbox 워치페이지 429 → 브라우저 우회 수집)",
+ "sample_note": "2026-06-08T10:36:05.756105+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + 브라우저 watch HTML 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한). (sandbox watch 봇체크 → 브라우저 우회 수집) [flat 조회수 부재 → 샘플 영상 실측 조회수로 ER 산출]",
  "history": [
   {
    "evaluated_at": "2026-06-01T01:10:47.680609+00:00",
@@ -62,6 +62,16 @@
    "avg_views": 16322,
    "avg_likes": 212,
    "sample_size": 6
+  },
+  {
+   "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+   "followers": 79100,
+   "engagement_rate": 0.0144,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 75.5,
+   "grade": "A"
   }
  ]
 }

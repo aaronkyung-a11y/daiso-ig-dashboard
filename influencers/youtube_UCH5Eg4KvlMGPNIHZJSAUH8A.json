@@ -6,36 +6,36 @@
  "channel_id": "UCH5Eg4KvlMGPNIHZJSAUH8A",
  "followers": 4450,
  "engagement_rate": 0.0,
- "avg_views": 12000,
+ "avg_views": 17120,
  "avg_likes": 0,
- "posts_last_30d": 10,
+ "posts_last_30d": 8,
  "_posts_last_30d_est": false,
  "sample_size": 0,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso": 11,
-  "olive_young": 35,
+  "daiso": 13,
+  "olive_young": 43,
   "our_brand": false,
-  "beauty_kw": 24
+  "beauty_kw": 28
  },
- "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
- "score_total": 63.5,
+ "evaluated_at": "2026-06-08T10:25:18.214801+09:00",
+ "score_total": 60.5,
  "grade": "C",
  "score_breakdown": {
   "er_score": 40,
   "brand_fit_score": 90,
-  "consistency_score": 100,
+  "consistency_score": 80,
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "unmeasurable → 0 처리",
+  "engagement_rate": "추정 (likes 추출 실패 → ER=0 처리)",
   "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-  "brand_fit": "measured (flat titles+channel desc+video desc; tags 미포함)",
+  "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + 브라우저 innertube 좋아요 실측(샘플:0). ER=avg_likes/avg_views. brand_fit=제목+채널설명+영상설명 키워드 실측(tags 미포함). posts_last_30d=RSS 피드 실측(15개 윈도우 하한). (sandbox 워치페이지 429 → 브라우저 우회 수집)",
+ "sample_note": "2026-06-08T10:25:18.214801+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + watch 추출 좋아요 실측(샘플:0). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -90,6 +90,16 @@
    "avg_views": 11928,
    "avg_likes": 0,
    "sample_size": 6
+  },
+  {
+   "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+   "followers": 4450,
+   "engagement_rate": 0.0,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 63.5,
+   "grade": "C"
   }
  ]
 }

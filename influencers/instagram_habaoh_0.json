@@ -3,22 +3,22 @@
  "username": "habaoh_0",
  "fullname": "하바오",
  "profile_url": "https://www.instagram.com/habaoh_0/",
- "followers": 8813,
- "engagement_rate": 0.0364,
- "avg_likes": 307,
+ "followers": 8837,
+ "engagement_rate": 0.0401,
+ "avg_likes": 340,
  "avg_comments": 14,
- "avg_views": 45939,
+ "avg_views": 51744,
  "posts_last_30d": 10,
  "sample_size": 18,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "strong (23건)",
-  "olive_young_mentions": "strong (16건)",
-  "beauty_topical_strength": "strong (29건)",
+  "daiso_mentions": "23건",
+  "olive_young_mentions": "16건",
+  "beauty_topical_strength": "29건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+ "evaluated_at": "2026-06-08T10:28:30.393916+09:00",
  "score_total": 83.5,
  "grade": "A",
  "score_breakdown": {
@@ -28,7 +28,13 @@
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "sample_note": "2026-06-05T10:34:12.581882+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 18개 게시물 실측(좋아요/댓글/조회/캡션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(18개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+ "estimation_flags": {
+  "engagement_rate": "measured",
+  "posts_last_30d": "measured (taken_at 실측, 샘플 윈도우 內 하한)",
+  "brand_fit": "measured (캡션+bio)",
+  "followers": "measured"
+ },
+ "sample_note": "2026-06-08T10:28:30.393916+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 18개 게시물 실측(좋아요/댓글/조회/캡션, 2페이지 페이지네이션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(18개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -131,6 +137,16 @@
    "avg_comments": 12,
    "avg_likes": 308,
    "sample_size": 12
+  },
+  {
+   "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+   "followers": 8813,
+   "engagement_rate": 0.0364,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 83.5,
+   "grade": "A"
   }
  ]
 }
