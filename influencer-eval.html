@@ -165,9 +165,9 @@ tr.row:hover { background: #0f172a; }
 <script>
 // INFLUENCER_DATA_BEGIN
 const INFLUENCER_DATA = {
- "last_updated": "2026-06-10T10:20:20.736290+09:00",
- "lastUpdated": "2026-06-10T10:20:20.736290+09:00",
- "last_run_mode": "부분 재분석 (평일 10:00 slot · 자동 스케줄 실행) — STEP A: 큐 3소스 신규 0건 (Form 전건 기분석 SKIP · GitHub Issues/_queue.txt 빈 큐). STEP B: 자동실행 환경 제약(대화형 브라우저 선택 불가 → IG 로그인 스크레이프 불가 · sandbox 45s/call)으로 전체 풀재분석 대신 의사결정 핵심 YouTube(S·A등급 + 더랩바이블랑두 언급 collab후보) 21채널 yt-dlp 실측 재분석(22파일 갱신). IG 23건 + 그 외 YT 89건은 2026-06-08 실측치 유지(미갱신). UCcjxXC-20HT-sK316Dz2IFQ(videos 탭 없음)은 미갱신. 전 레코드 score_total=number(null 0).",
+ "last_updated": "2026-06-10T10:27:48.088904+09:00",
+ "lastUpdated": "2026-06-10T10:27:48.088904+09:00",
+ "last_run_mode": "부분 재분석 (평일 10:00 slot · 자동 스케줄 실행) — STEP A: 큐 3소스 신규 0건(Form 전건 기분석 SKIP · Issues/_queue 빈 큐). STEP B: 자동실행 환경 제약(대화형 브라우저 선택 불가→IG 로그인 스크레이프 불가 · sandbox 45s/call)으로 전체 풀재분석 대신 의사결정 핵심 YouTube(S·A등급 + 더랩바이블랑두 collab후보) 21채널 yt-dlp 실측 재분석(22파일). IG 23 + 그 외 YT 89는 기존 실측치 유지. UCcjxXC(videos탭 없음) 미갱신. 인덱스/HTML은 HEAD per-account 실데이터로 재생성(stale clone 정합성 보정 2건 포함). 전 레코드 score_total=number(null 0).",
  "total": 134,
  "platforms": {
   "instagram": 23,
@@ -1096,6 +1096,42 @@ const INFLUENCER_DATA = {
   },
   {
    "platform": "youtube",
+   "username": "UC5o9Z5lgw4kk4fjDhweZxKg",
+   "fullname": "피부왕정윤",
+   "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg",
+   "followers": 175000,
+   "engagement_rate": 0.0211,
+   "avg_likes": 172,
+   "avg_views": 8134,
+   "posts_last_30d": 5,
+   "sample_size": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
+   "retailer_signal": {
+    "daiso": 1,
+    "olive_young": 1,
+    "our_brand": false,
+    "beauty_kw": 12
+   },
+   "evaluated_at": "2026-06-09T17:18:49.881926+09:00",
+   "score_total": 74.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 90,
+    "consistency_score": 80,
+    "follower_scale_score": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "engagement_rate": "measured (yt-dlp watch sample 5)",
+    "posts_last_30d": "measured (RSS feed)",
+    "brand_fit": "estimated (keyword-based: title+tags+desc+channel)"
+   },
+   "sample_note": "2026-06-09T17:18:49.881926+09:00 STEP B-Light 재분석 — yt-dlp flat 실측 + watch 추출 좋아요/조회수 실측(샘플:5). ER=avg_likes/avg_views. brand_fit=키워드 추정."
+  },
+  {
+   "platform": "youtube",
    "username": "UCLyq1gz11P-IYFmP093JaAw",
    "fullname": "뷰티숨BEAUTYSOOM",
    "profile_url": "https://www.youtube.com/channel/UCLyq1gz11P-IYFmP093JaAw",
@@ -1685,43 +1721,6 @@ const INFLUENCER_DATA = {
     "followers": "measured (channel_follower_count)"
    },
    "sample_note": "2026-06-10T10:16:34.270748+09:00 STEP B 부분 재분석(우선순위 YT) — yt-dlp -J --skip-download 실측(videos:12, likes/views 샘플:12). ER=avg_likes/avg_views. brand_fit·retailer_focus=제목+태그+설명 키워드 실측. posts_last_30d=upload_date 실측(12개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D."
-  },
-  {
-   "platform": "youtube",
-   "username": "UC5o9Z5lgw4kk4fjDhweZxKg",
-   "fullname": "피부왕정윤",
-   "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg",
-   "followers": 175000,
-   "engagement_rate": 0.021,
-   "avg_likes": 212,
-   "avg_views": 10116,
-   "posts_last_30d": 4,
-   "sample_size": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "retailer_signal": {
-    "daiso": 1,
-    "olive_young": 1,
-    "our_brand": false,
-    "beauty_kw": 12
-   },
-   "evaluated_at": "2026-06-08T10:18:34.208965+09:00",
-   "score_total": 71.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er_score": 60,
-    "brand_fit_score": 90,
-    "consistency_score": 60,
-    "follower_scale_score": 100,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "engagement_rate": "measured (likes: watch extraction sample 4, views: flat playlist 0)",
-    "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-    "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
-    "followers": "measured (channel_follower_count)"
-   },
-   "sample_note": "2026-06-08T10:18:34.208965+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + watch 추출 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한)."
   },
   {
    "platform": "youtube",
@@ -3619,9 +3618,9 @@ const INFLUENCER_DATA = {
    "fullname": "리뷰하는 회사원",
    "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
    "followers": 586000,
-   "engagement_rate": 0.0173,
-   "avg_likes": 6358,
-   "avg_views": 367506,
+   "engagement_rate": 0.0211,
+   "avg_likes": 1629,
+   "avg_views": 77239,
    "posts_last_30d": 15,
    "sample_size": 4,
    "brand_fit_score": 25,
@@ -3632,7 +3631,7 @@ const INFLUENCER_DATA = {
     "our_brand": false,
     "beauty_kw": 0
    },
-   "evaluated_at": "2026-06-08T10:18:34.208965+09:00",
+   "evaluated_at": "2026-06-08T17:15:46.488570+09:00",
    "score_total": 61.2,
    "grade": "C",
    "score_breakdown": {
@@ -3643,12 +3642,12 @@ const INFLUENCER_DATA = {
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
-    "engagement_rate": "measured (likes: watch extraction sample 4, views: flat playlist 0)",
-    "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-    "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
+    "engagement_rate": "measured (yt-dlp watch sample:4)",
+    "posts_last_30d": "estimated floor (RSS-capped 15)",
+    "brand_fit": "measured (channel desc + sample video title/tags/desc)",
     "followers": "measured (channel_follower_count)"
    },
-   "sample_note": "2026-06-08T10:18:34.208965+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + watch 추출 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한)."
+   "sample_note": "2026-06-08T17:15:46.488570+09:00 STEP B-Light (17:00 slot) rolling refresh — yt-dlp flat(videos:25) + watch sample:4. ER=avg_likes/avg_views. RSS posts_30d=15."
   },
   {
    "platform": "youtube",
