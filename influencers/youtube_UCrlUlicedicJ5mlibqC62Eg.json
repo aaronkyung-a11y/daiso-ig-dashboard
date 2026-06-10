@@ -4,22 +4,22 @@
  "fullname": "뷰드름 유튜버 인씨",
  "profile_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
  "channel_id": "UCrlUlicedicJ5mlibqC62Eg",
- "followers": 568000,
- "engagement_rate": 0.0148,
- "avg_views": 54894,
- "avg_likes": 812,
- "posts_last_30d": 15,
+ "followers": 569000,
+ "engagement_rate": 0.0147,
+ "avg_views": 50129,
+ "avg_likes": 738,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": true,
- "sample_size": 4,
+ "sample_size": 12,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso": 3,
-  "olive_young": 6,
+  "daiso": 30,
+  "olive_young": 34,
   "our_brand": true,
-  "beauty_kw": 26
+  "beauty_kw": 92
  },
- "evaluated_at": "2026-06-08T10:20:19.791143+09:00",
+ "evaluated_at": "2026-06-10T10:16:34.270748+09:00",
  "score_total": 80.0,
  "grade": "A",
  "score_breakdown": {
@@ -30,12 +30,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (likes: watch extraction sample 4, views: flat playlist 0)",
-  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-  "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
+  "engagement_rate": "measured (yt-dlp skip-download, sample 12 videos likes+views)",
+  "posts_last_30d": "measured (lower bound, 12-video window)",
+  "brand_fit": "measured (titles+tags+descriptions)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-08T10:20:19.791143+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + watch 추출 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
+ "sample_note": "2026-06-10T10:16:34.270748+09:00 STEP B 부분 재분석(우선순위 YT) — yt-dlp -J --skip-download 실측(videos:12, likes/views 샘플:12). ER=avg_likes/avg_views. brand_fit·retailer_focus=제목+태그+설명 키워드 실측. posts_last_30d=upload_date 실측(12개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -161,6 +161,19 @@
    "retailer_focus": "daiso",
    "score_total": 77.5,
    "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-06-08T10:20:19.791143+09:00",
+   "score_total": 80.0,
+   "grade": "A",
+   "engagement_rate": 0.0148,
+   "followers": 568000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "avg_views": 54894,
+   "avg_likes": 812,
+   "sample_size": 4
   }
  ]
 }

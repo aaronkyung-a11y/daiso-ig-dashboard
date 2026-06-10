@@ -5,37 +5,37 @@
  "profile_url": "https://www.youtube.com/channel/UCRXL4vnST2AE6UtjrYMv4tw",
  "channel_id": "UCRXL4vnST2AE6UtjrYMv4tw",
  "followers": 436000,
- "engagement_rate": 0.017,
- "avg_views": 28964,
- "avg_likes": 492,
- "posts_last_30d": 15,
- "_posts_last_30d_est": true,
- "sample_size": 4,
+ "engagement_rate": 0.0234,
+ "avg_views": 35051,
+ "avg_likes": 820,
+ "posts_last_30d": 5,
+ "_posts_last_30d_est": false,
+ "sample_size": 12,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso": 16,
-  "olive_young": 5,
+  "daiso": 12,
+  "olive_young": 15,
   "our_brand": false,
-  "beauty_kw": 27
+  "beauty_kw": 104
  },
- "evaluated_at": "2026-06-08T10:27:02.466218+09:00",
- "score_total": 77.5,
- "grade": "A",
+ "evaluated_at": "2026-06-10T10:16:34.270748+09:00",
+ "score_total": 74.5,
+ "grade": "B",
  "score_breakdown": {
   "er_score": 60,
   "brand_fit_score": 90,
-  "consistency_score": 100,
+  "consistency_score": 80,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (likes: watch extraction sample 4, views: flat playlist 0)",
-  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-  "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
+  "engagement_rate": "measured (yt-dlp skip-download, sample 12 videos likes+views)",
+  "posts_last_30d": "measured (upload_date, 12-video window)",
+  "brand_fit": "measured (titles+tags+descriptions)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-08T10:27:02.466218+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + watch 추출 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
+ "sample_note": "2026-06-10T10:16:34.270748+09:00 STEP B 부분 재분석(우선순위 YT) — yt-dlp -J --skip-download 실측(videos:12, likes/views 샘플:12). ER=avg_likes/avg_views. brand_fit·retailer_focus=제목+태그+설명 키워드 실측. posts_last_30d=upload_date 실측(12개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-29T10:08:18+09:00",
@@ -72,6 +72,19 @@
    "retailer_focus": "daiso",
    "score_total": 77.5,
    "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-06-08T10:27:02.466218+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "engagement_rate": 0.017,
+   "followers": 436000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "avg_views": 28964,
+   "avg_likes": 492,
+   "sample_size": 4
   }
  ]
 }
