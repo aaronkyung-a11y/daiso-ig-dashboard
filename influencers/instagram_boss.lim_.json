@@ -3,11 +3,11 @@
  "username": "boss.lim_",
  "fullname": "보스",
  "profile_url": "https://www.instagram.com/boss.lim_/",
- "followers": 706,
- "engagement_rate": 0.0524,
+ "followers": 708,
+ "engagement_rate": 0.0523,
  "avg_likes": 34,
  "avg_comments": 3,
- "avg_views": 7968,
+ "avg_views": 7995,
  "posts_last_30d": 8,
  "sample_size": 18,
  "brand_fit_score": 100,
@@ -18,7 +18,7 @@
   "beauty_topical_strength": "27건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+ "evaluated_at": "2026-06-11T17:12:38.096255+09:00",
  "score_total": 86.0,
  "grade": "S",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "brand_fit": "measured (캡션 18개+bio 키워드 실측)",
   "followers": "measured"
  },
- "sample_note": "2026-06-11T10:32:23.708784+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 18개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-11T17:12:38.096255+09:00 STEP B-Light 재분석(17:00 슬롯) — IG 로그인, web feed API(feed/user) 최근 18개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -133,6 +133,16 @@
    "followers": 692,
    "engagement_rate": 0.0607,
    "posts_last_30d": 7,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 86.0,
+   "grade": "S"
+  },
+  {
+   "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+   "followers": 706,
+   "engagement_rate": 0.0524,
+   "posts_last_30d": 8,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "score_total": 86.0,
