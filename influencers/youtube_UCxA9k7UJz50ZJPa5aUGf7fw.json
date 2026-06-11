@@ -5,37 +5,37 @@
  "profile_url": "https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw",
  "channel_id": "UCxA9k7UJz50ZJPa5aUGf7fw",
  "followers": 325000,
- "engagement_rate": 0.0181,
- "avg_views": 13480,
- "avg_likes": 244,
- "posts_last_30d": 7,
+ "engagement_rate": 0.0165,
+ "avg_views": 11707,
+ "avg_likes": 197,
+ "posts_last_30d": 8,
  "_posts_last_30d_est": false,
- "sample_size": 4,
- "brand_fit_score": 60,
+ "sample_size": 3,
+ "brand_fit_score": 75,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso": 0,
   "olive_young": 0,
   "our_brand": false,
-  "beauty_kw": 1
+  "beauty_kw": 7
  },
- "evaluated_at": "2026-06-08T10:36:05.756105+09:00",
- "score_total": 67.0,
+ "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+ "score_total": 70.8,
  "grade": "B",
  "score_breakdown": {
   "er_score": 60,
-  "brand_fit_score": 60,
+  "brand_fit_score": 75,
   "consistency_score": 80,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (likes+views: 브라우저 watch HTML 실측, 샘플 4)",
-  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-  "brand_fit": "measured (flat titles+channel desc; 샘플영상 설명·태그 미포함 — 봇체크로 제한)",
+  "engagement_rate": "measured (좋아요·조회 동일샘플 3개, 브라우저 watch 실측)",
+  "posts_last_30d": "measured (RSS 피드 실측, 15개 윈도우 內 하한)",
+  "brand_fit": "measured (제목+채널설명+샘플영상 설명·태그 키워드 실측)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-08T10:36:05.756105+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + 브라우저 watch HTML 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한). (sandbox watch 봇체크 → 브라우저 우회 수집) [flat 조회수 부재 → 샘플 영상 실측 조회수로 ER 산출]",
+ "sample_note": "2026-06-11T10:32:23.708784+09:00 STEP B 풀 재분석 — yt-dlp flat 실측 + RSS 피드(15) + 브라우저 watch HTML 좋아요·조회 실측(샘플:3). ER=avg_likes/avg_views(동일샘플). brand_fit=제목+채널설명+샘플영상 설명·태그 키워드 실측. posts_last_30d=RSS 실측(15개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -90,6 +90,16 @@
    "retailer_focus": "beauty_general",
    "score_total": 57.0,
    "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-08T10:36:05.756105+09:00",
+   "followers": 325000,
+   "engagement_rate": 0.0181,
+   "posts_last_30d": 7,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "score_total": 67.0,
+   "grade": "B"
   }
  ]
 }

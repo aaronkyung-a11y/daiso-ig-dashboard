@@ -3,22 +3,22 @@
  "username": "view_bbang_",
  "fullname": "뷰빵",
  "profile_url": "https://www.instagram.com/view_bbang_/",
- "followers": 513,
- "engagement_rate": 0.1033,
+ "followers": 520,
+ "engagement_rate": 0.1019,
  "avg_likes": 43,
  "avg_comments": 10,
- "avg_views": 1100,
- "posts_last_30d": 6,
+ "avg_views": 1105,
+ "posts_last_30d": 5,
  "sample_size": 16,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "16건",
-  "olive_young_mentions": "17건",
-  "beauty_topical_strength": "59건",
+  "daiso_mentions": "12건",
+  "olive_young_mentions": "15건",
+  "beauty_topical_strength": "36건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-08T10:28:30.393916+09:00",
+ "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
  "score_total": 91.0,
  "grade": "S",
  "score_breakdown": {
@@ -29,12 +29,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured",
-  "posts_last_30d": "measured (taken_at 실측, 샘플 윈도우 內 하한)",
-  "brand_fit": "measured (캡션+bio)",
+  "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 18개 실측)",
+  "posts_last_30d": "measured (taken_at 실측, 18개 샘플 윈도우 內 하한)",
+  "brand_fit": "measured (캡션 18개+bio 키워드 실측)",
   "followers": "measured"
  },
- "sample_note": "2026-06-08T10:28:30.393916+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user)로 최근 16개 게시물 실측(좋아요/댓글/조회/캡션, 2페이지 페이지네이션). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(16개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D(통합 루브릭).",
+ "sample_note": "2026-06-11T10:32:23.708784+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 18개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -143,6 +143,16 @@
    "followers": 504,
    "engagement_rate": 0.1079,
    "posts_last_30d": 5,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 91.0,
+   "grade": "S"
+  },
+  {
+   "evaluated_at": "2026-06-08T10:28:30.393916+09:00",
+   "followers": 513,
+   "engagement_rate": 0.1033,
+   "posts_last_30d": 6,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "score_total": 91.0,

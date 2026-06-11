@@ -5,12 +5,12 @@
  "profile_url": "https://www.youtube.com/channel/UCVbW7vOtOnmjyDORZB4Sz0w",
  "channel_id": "UCVbW7vOtOnmjyDORZB4Sz0w",
  "followers": 358000,
- "engagement_rate": 0.0131,
- "avg_views": 31290,
- "avg_likes": 409,
- "posts_last_30d": 4,
+ "engagement_rate": 0.0126,
+ "avg_views": 38634,
+ "avg_likes": 488,
+ "posts_last_30d": 3,
  "_posts_last_30d_est": false,
- "sample_size": 4,
+ "sample_size": 3,
  "brand_fit_score": 75,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
@@ -19,7 +19,7 @@
   "our_brand": false,
   "beauty_kw": 3
  },
- "evaluated_at": "2026-06-08T10:28:37.818285+09:00",
+ "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
  "score_total": 67.8,
  "grade": "B",
  "score_breakdown": {
@@ -30,12 +30,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (likes: watch extraction sample 4, views: flat playlist 0)",
-  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-  "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
+  "engagement_rate": "measured (좋아요·조회 동일샘플 3개, 브라우저 watch 실측)",
+  "posts_last_30d": "measured (RSS 피드 실측, 15개 윈도우 內 하한)",
+  "brand_fit": "measured (제목+채널설명+샘플영상 설명·태그 키워드 실측)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-08T10:28:37.818285+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + watch 추출 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
+ "sample_note": "2026-06-11T10:32:23.708784+09:00 STEP B 풀 재분석 — yt-dlp flat 실측 + RSS 피드(15) + 브라우저 watch HTML 좋아요·조회 실측(샘플:3). ER=avg_likes/avg_views(동일샘플). brand_fit=제목+채널설명+샘플영상 설명·태그 키워드 실측. posts_last_30d=RSS 실측(15개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -90,6 +90,16 @@
    "brand_fit_score": 60,
    "retailer_focus": "beauty_general",
    "score_total": 67.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-06-08T10:28:37.818285+09:00",
+   "followers": 358000,
+   "engagement_rate": 0.0131,
+   "posts_last_30d": 4,
+   "brand_fit_score": 75,
+   "retailer_focus": "beauty_general",
+   "score_total": 67.8,
    "grade": "B"
   }
  ]

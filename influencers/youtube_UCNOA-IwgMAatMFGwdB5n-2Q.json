@@ -5,37 +5,37 @@
  "profile_url": "https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q",
  "channel_id": "UCNOA-IwgMAatMFGwdB5n-2Q",
  "followers": 12100,
- "engagement_rate": 0.0265,
- "avg_views": 26014,
- "avg_likes": 689,
- "posts_last_30d": 3,
+ "engagement_rate": 0.0335,
+ "avg_views": 19137,
+ "avg_likes": 782,
+ "posts_last_30d": 5,
  "_posts_last_30d_est": false,
- "sample_size": 12,
- "brand_fit_score": 100,
- "retailer_focus": "our_brand",
+ "sample_size": 3,
+ "brand_fit_score": 60,
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso": 47,
+  "daiso": 1,
   "olive_young": 0,
-  "our_brand": true,
-  "beauty_kw": 20
+  "our_brand": false,
+  "beauty_kw": 2
  },
- "evaluated_at": "2026-06-10T10:18:38.447933+09:00",
- "score_total": 72.0,
- "grade": "B",
+ "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+ "score_total": 75.0,
+ "grade": "A",
  "score_breakdown": {
-  "er_score": 60,
-  "brand_fit_score": 100,
-  "consistency_score": 60,
+  "er_score": 80,
+  "brand_fit_score": 60,
+  "consistency_score": 80,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (yt-dlp skip-download, sample 12 videos likes+views)",
-  "posts_last_30d": "measured (upload_date, 12-video window)",
-  "brand_fit": "measured (titles+tags+descriptions)",
+  "engagement_rate": "measured (좋아요·조회 동일샘플 3개, 브라우저 watch 실측)",
+  "posts_last_30d": "measured (RSS 피드 실측, 15개 윈도우 內 하한)",
+  "brand_fit": "measured (제목+채널설명+샘플영상 설명·태그 키워드 실측)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-10T10:18:38.447933+09:00 STEP B 부분 재분석(우선순위 YT) — yt-dlp -J --skip-download 실측(videos:12, likes/views 샘플:12). ER=avg_likes/avg_views. brand_fit·retailer_focus=제목+태그+설명 키워드 실측. posts_last_30d=upload_date 실측(12개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-11T10:32:23.708784+09:00 STEP B 풀 재분석 — yt-dlp flat 실측 + RSS 피드(15) + 브라우저 watch HTML 좋아요·조회 실측(샘플:3). ER=avg_likes/avg_views(동일샘플). brand_fit=제목+채널설명+샘플영상 설명·태그 키워드 실측. posts_last_30d=RSS 실측(15개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
@@ -113,6 +113,16 @@
    "avg_views": 21160,
    "avg_likes": 642,
    "sample_size": 4
+  },
+  {
+   "evaluated_at": "2026-06-10T10:18:38.447933+09:00",
+   "followers": 12100,
+   "engagement_rate": 0.0265,
+   "posts_last_30d": 3,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 72.0,
+   "grade": "B"
   }
  ]
 }

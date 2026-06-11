@@ -4,38 +4,38 @@
  "fullname": "뷰요미",
  "profile_url": "https://www.youtube.com/channel/UCPBXXHL9lapYss3PwwLe0fQ",
  "channel_id": "UCPBXXHL9lapYss3PwwLe0fQ",
- "followers": 7260,
- "engagement_rate": 0.018,
- "avg_views": 52400,
- "avg_likes": 942,
+ "followers": 7310,
+ "engagement_rate": 0.0172,
+ "avg_views": 52504,
+ "avg_likes": 453,
  "posts_last_30d": 15,
- "_posts_last_30d_est": true,
- "sample_size": 4,
- "brand_fit_score": 25,
- "retailer_focus": "daiso",
+ "_posts_last_30d_est": false,
+ "sample_size": 3,
+ "brand_fit_score": 60,
+ "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso": 11,
-  "olive_young": 8,
+  "daiso": 8,
+  "olive_young": 7,
   "our_brand": false,
-  "beauty_kw": 0
+  "beauty_kw": 1
  },
- "evaluated_at": "2026-06-08T10:27:02.466218+09:00",
- "score_total": 57.2,
- "grade": "C",
+ "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+ "score_total": 66.0,
+ "grade": "B",
  "score_breakdown": {
   "er_score": 60,
-  "brand_fit_score": 25,
+  "brand_fit_score": 60,
   "consistency_score": 100,
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (likes: watch extraction sample 4, views: flat playlist 15)",
-  "posts_last_30d": "measured (RSS feed, 최근 15개 윈도우 內 하한)",
-  "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
+  "engagement_rate": "measured (좋아요·조회 동일샘플 3개, 브라우저 watch 실측)",
+  "posts_last_30d": "measured (RSS 피드 실측, 15개 윈도우 內 하한)",
+  "brand_fit": "measured (제목+채널설명+샘플영상 설명·태그 키워드 실측)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-08T10:27:02.466218+09:00 STEP B 풀 재분석 — yt-dlp flat 실측(videos:15) + watch 추출 좋아요 실측(샘플:4). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 피드 실측(15개 윈도우 하한).",
+ "sample_note": "2026-06-11T10:32:23.708784+09:00 STEP B 풀 재분석 — yt-dlp flat 실측 + RSS 피드(15) + 브라우저 watch HTML 좋아요·조회 실측(샘플:3). ER=avg_likes/avg_views(동일샘플). brand_fit=제목+채널설명+샘플영상 설명·태그 키워드 실측. posts_last_30d=RSS 실측(15개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-19T05:06:58.696650+00:00",
@@ -106,6 +106,16 @@
    "retailer_focus": "mixed",
    "score_total": 73.5,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-06-08T10:27:02.466218+09:00",
+   "followers": 7260,
+   "engagement_rate": 0.018,
+   "posts_last_30d": 15,
+   "brand_fit_score": 25,
+   "retailer_focus": "daiso",
+   "score_total": 57.2,
+   "grade": "C"
   }
  ]
 }

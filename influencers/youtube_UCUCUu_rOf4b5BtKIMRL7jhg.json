@@ -4,38 +4,38 @@
  "fullname": "뮤니",
  "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
  "channel_id": "UCUCUu_rOf4b5BtKIMRL7jhg",
- "followers": 1330,
- "engagement_rate": 0.0245,
- "avg_views": 6527,
- "avg_likes": 160,
+ "followers": 1340,
+ "engagement_rate": 0.0282,
+ "avg_views": 6503,
+ "avg_likes": 206,
  "posts_last_30d": 10,
  "_posts_last_30d_est": false,
- "sample_size": 8,
- "brand_fit_score": 90,
+ "sample_size": 3,
+ "brand_fit_score": 75,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso": 20,
-  "olive_young": 14,
+  "daiso": 12,
+  "olive_young": 7,
   "our_brand": false,
-  "beauty_kw": 9
+  "beauty_kw": 5
  },
- "evaluated_at": "2026-06-10T17:12:32.195933+09:00",
- "score_total": 73.5,
+ "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+ "score_total": 69.8,
  "grade": "B",
  "score_breakdown": {
   "er_score": 60,
-  "brand_fit_score": 90,
+  "brand_fit_score": 75,
   "consistency_score": 100,
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (likes·views: watch extraction sample 8)",
-  "posts_last_30d": "measured (RSS 피드 실측 (30일 윈도우 전체 포함))",
-  "brand_fit": "measured (flat titles+channel desc+sample video title/tags/desc)",
+  "engagement_rate": "measured (좋아요·조회 동일샘플 3개, 브라우저 watch 실측)",
+  "posts_last_30d": "measured (RSS 피드 실측, 15개 윈도우 內 하한)",
+  "brand_fit": "measured (제목+채널설명+샘플영상 설명·태그 키워드 실측)",
   "followers": "measured (channel_follower_count)"
  },
- "sample_note": "2026-06-10T17:12:32.195933+09:00 STEP B-Light 재분석(17:00 slot) — yt-dlp shorts 탭 30일 내 영상 watch 실측(샘플:8, 좋아요·조회수 동일 샘플). ER=avg_likes/avg_views. brand_fit=제목+채널설명+샘플영상(제목/태그/설명) 키워드 실측. posts_last_30d=RSS 실측.",
+ "sample_note": "2026-06-11T10:32:23.708784+09:00 STEP B 풀 재분석 — yt-dlp flat 실측 + RSS 피드(15) + 브라우저 watch HTML 좋아요·조회 실측(샘플:3). ER=avg_likes/avg_views(동일샘플). brand_fit=제목+채널설명+샘플영상 설명·태그 키워드 실측. posts_last_30d=RSS 실측(15개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:17:28.728191+09:00",
@@ -180,6 +180,16 @@
    "retailer_focus": "daiso",
    "score_total": 63.5,
    "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-10T17:12:32.195933+09:00",
+   "followers": 1330,
+   "engagement_rate": 0.0245,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 73.5,
+   "grade": "B"
   }
  ]
 }
