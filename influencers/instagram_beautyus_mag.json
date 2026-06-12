@@ -3,11 +3,11 @@
  "username": "beautyus_mag",
  "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
  "profile_url": "https://www.instagram.com/beautyus_mag/",
- "followers": 89759,
- "engagement_rate": 0.0093,
- "avg_likes": 801,
- "avg_comments": 35,
- "avg_views": 8429,
+ "followers": 89806,
+ "engagement_rate": 0.0106,
+ "avg_likes": 915,
+ "avg_comments": 36,
+ "avg_views": 9116,
  "posts_last_30d": 22,
  "sample_size": 24,
  "brand_fit_score": 90,
@@ -18,11 +18,11 @@
   "beauty_topical_strength": "60건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
- "score_total": 65.5,
- "grade": "B",
+ "evaluated_at": "2026-06-12T17:12:38.495268+09:00",
+ "score_total": 75.5,
+ "grade": "A",
  "score_breakdown": {
-  "er_score": 40,
+  "er_score": 60,
   "brand_fit_score": 90,
   "consistency_score": 100,
   "follower_scale_score": 80,
@@ -34,7 +34,7 @@
   "brand_fit": "measured (캡션 24개+bio 키워드 실측)",
   "followers": "measured"
  },
- "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-12T17:12:38.495268+09:00 STEP B-Light 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -376,6 +376,16 @@
    "followers": 89655,
    "engagement_rate": 0.0094,
    "posts_last_30d": 16,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 65.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
+   "followers": 89759,
+   "engagement_rate": 0.0093,
+   "posts_last_30d": 22,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "score_total": 65.5,

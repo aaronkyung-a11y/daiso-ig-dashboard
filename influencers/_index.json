@@ -1,17 +1,17 @@
 {
- "last_updated": "2026-06-12T14:12:12.281528+09:00",
- "lastUpdated": "2026-06-12T14:12:12.281528+09:00",
- "last_run_mode": "평일 14:00 큐+B-Light (자동 스케줄 실행) — STEP A: 큐 3소스 신규 0건(Issues 0 · _queue 빈 큐 · Form 322행/134계정 전건 기분석). STEP B-Light: 최장 미갱신 2건 재분석 — instagram_beauty._charmi 실측(75.5 A 유지, ER 1.64%→1.69%), instagram_mingjikim_107 HTTP 404 지속(기본값 36.2 D 유지). 전 레코드 score_total=number.",
+ "last_updated": "2026-06-12T17:12:38.495268+09:00",
+ "lastUpdated": "2026-06-12T17:12:38.495268+09:00",
+ "last_run_mode": "평일 17:00 큐+B-Light (자동 스케줄 실행) — STEP A: 큐 3소스 신규 0건(Issues 0 · _queue 빈 큐 · Form 322행/134계정 전건 기분석). STEP B-Light: 최장 미갱신 2건 재분석 — instagram_beauty_piona 실측(93.5 S 유지, ER 18.96%→18.97%), instagram_beautyus_mag 실측(65.5 B → 75.5 A 상승, ER 0.93%→1.06%). 전 레코드 score_total=number.",
  "total": 134,
  "platforms": {
   "instagram": 23,
   "youtube": 111
  },
  "grades": {
-  "A": 25,
+  "A": 26,
   "S": 17,
-  "B": 43,
   "C": 46,
+  "B": 42,
   "D": 3
  },
  "retailer_focus": {
@@ -66,11 +66,11 @@
    "username": "beauty_piona",
    "fullname": "문혜경",
    "profile_url": "https://www.instagram.com/beauty_piona/",
-   "followers": 6156,
-   "engagement_rate": 0.1896,
+   "followers": 6153,
+   "engagement_rate": 0.1897,
    "avg_likes": 1077,
    "avg_comments": 90,
-   "avg_views": 417485,
+   "avg_views": 417506,
    "posts_last_30d": 21,
    "sample_size": 24,
    "brand_fit_score": 90,
@@ -78,10 +78,10 @@
    "retailer_signal": {
     "daiso_mentions": "6건",
     "olive_young_mentions": "0건",
-    "beauty_topical_strength": "63건",
+    "beauty_topical_strength": "61건",
     "labrang_blanc_doux_mention": false
    },
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
+   "evaluated_at": "2026-06-12T17:12:38.495268+09:00",
    "score_total": 93.5,
    "grade": "S",
    "score_breakdown": {
@@ -97,18 +97,18 @@
     "brand_fit": "measured (캡션 24개+bio 키워드 실측)",
     "followers": "measured"
    },
-   "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D."
+   "sample_note": "2026-06-12T17:12:38.495268+09:00 STEP B-Light 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D."
   },
   {
    "platform": "instagram",
    "username": "beautyus_mag",
    "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
    "profile_url": "https://www.instagram.com/beautyus_mag/",
-   "followers": 89759,
-   "engagement_rate": 0.0093,
-   "avg_likes": 801,
-   "avg_comments": 35,
-   "avg_views": 8429,
+   "followers": 89806,
+   "engagement_rate": 0.0106,
+   "avg_likes": 915,
+   "avg_comments": 36,
+   "avg_views": 9116,
    "posts_last_30d": 22,
    "sample_size": 24,
    "brand_fit_score": 90,
@@ -119,11 +119,11 @@
     "beauty_topical_strength": "60건",
     "labrang_blanc_doux_mention": false
    },
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
-   "score_total": 65.5,
-   "grade": "B",
+   "evaluated_at": "2026-06-12T17:12:38.495268+09:00",
+   "score_total": 75.5,
+   "grade": "A",
    "score_breakdown": {
-    "er_score": 40,
+    "er_score": 60,
     "brand_fit_score": 90,
     "consistency_score": 100,
     "follower_scale_score": 80,
@@ -135,7 +135,7 @@
     "brand_fit": "measured (캡션 24개+bio 키워드 실측)",
     "followers": "measured"
    },
-   "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D."
+   "sample_note": "2026-06-12T17:12:38.495268+09:00 STEP B-Light 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D."
   },
   {
    "platform": "instagram",
