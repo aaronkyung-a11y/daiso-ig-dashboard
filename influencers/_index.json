@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-06-12T10:46:07.885903+09:00",
- "lastUpdated": "2026-06-12T10:46:07.885903+09:00",
- "last_run_mode": "평일 10:00 풀 재분석 (자동 스케줄 실행) — STEP A: 큐 3소스 신규 0건(Issues 0 · _queue 빈 큐 · Form 322행/134계정 전건 기분석). STEP B: 워치리스트 134계정 중 133건 재분석(IG 22 · YT 111 실측), instagram_mingjikim_107은 HTTP 404(계정 삭제/변경 추정)로 전회값 유지. 전 레코드 score_total=number.",
+ "last_updated": "2026-06-12T14:12:12.281528+09:00",
+ "lastUpdated": "2026-06-12T14:12:12.281528+09:00",
+ "last_run_mode": "평일 14:00 큐+B-Light (자동 스케줄 실행) — STEP A: 큐 3소스 신규 0건(Issues 0 · _queue 빈 큐 · Form 322행/134계정 전건 기분석). STEP B-Light: 최장 미갱신 2건 재분석 — instagram_beauty._charmi 실측(75.5 A 유지, ER 1.64%→1.69%), instagram_mingjikim_107 HTTP 404 지속(기본값 36.2 D 유지). 전 레코드 score_total=number.",
  "total": 134,
  "platforms": {
   "instagram": 23,
@@ -28,11 +28,11 @@
    "username": "beauty._charmi",
    "fullname": "챠미뷰티 l 홈케어•색조템•뷰티꿀팁",
    "profile_url": "https://www.instagram.com/beauty._charmi/",
-   "followers": 58743,
-   "engagement_rate": 0.0164,
-   "avg_likes": 949,
-   "avg_comments": 15,
-   "avg_views": 132717,
+   "followers": 58765,
+   "engagement_rate": 0.0169,
+   "avg_likes": 976,
+   "avg_comments": 17,
+   "avg_views": 140009,
    "posts_last_30d": 21,
    "sample_size": 24,
    "brand_fit_score": 90,
@@ -40,10 +40,10 @@
    "retailer_signal": {
     "daiso_mentions": "1건",
     "olive_young_mentions": "32건",
-    "beauty_topical_strength": "97건",
+    "beauty_topical_strength": "100건",
     "labrang_blanc_doux_mention": false
    },
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
+   "evaluated_at": "2026-06-12T14:12:12.265461+09:00",
    "score_total": 75.5,
    "grade": "A",
    "score_breakdown": {
@@ -59,7 +59,7 @@
     "brand_fit": "measured (캡션 24개+bio 키워드 실측)",
     "followers": "measured"
    },
-   "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D."
+   "sample_note": "2026-06-12T14:12:12.265461+09:00 STEP B-Light 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D."
   },
   {
    "platform": "instagram",
@@ -765,7 +765,7 @@
     "beauty_topical_strength": "0건",
     "labrang_blanc_doux_mention": false
    },
-   "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+   "evaluated_at": "2026-06-12T14:12:12.265461+09:00",
    "score_total": 36.2,
    "grade": "D",
    "score_breakdown": {
@@ -781,7 +781,7 @@
     "brand_fit": "측정불가 → 25 처리",
     "followers": "측정불가(404) → 0 처리"
    },
-   "sample_note": "2026-06-11T10:32:23.708784+09:00 STEP B 풀 재분석 — IG 프로필 404 (계정 삭제/개명 추정) — 전 컴포넌트 기본값(ER0/bf25/posts0/followers0) 적용, score_total 산식 유지. 워치리스트 정리 검토 필요."
+   "sample_note": "2026-06-12T14:12:12.265461+09:00 STEP B-Light 재분석 — IG 프로필 HTTP 404 지속(계정 삭제/개명 추정, 2일 연속). 전 컴포넌트 기본값(ER0/bf25/posts0/followers0) 적용, score_total 산식 유지(36.2 D). 워치리스트 정리 검토 필요."
   },
   {
    "platform": "instagram",
