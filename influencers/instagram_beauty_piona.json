@@ -3,22 +3,22 @@
  "username": "beauty_piona",
  "fullname": "문혜경",
  "profile_url": "https://www.instagram.com/beauty_piona/",
- "followers": 6154,
- "engagement_rate": 0.1903,
- "avg_likes": 1080,
- "avg_comments": 91,
- "avg_views": null,
+ "followers": 6156,
+ "engagement_rate": 0.1896,
+ "avg_likes": 1077,
+ "avg_comments": 90,
+ "avg_views": 417485,
  "posts_last_30d": 21,
  "sample_size": 24,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "7건",
+  "daiso_mentions": "6건",
   "olive_young_mentions": "0건",
-  "beauty_topical_strength": "72건",
+  "beauty_topical_strength": "63건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-11T14:13:24.237036+09:00",
+ "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
  "score_total": 93.5,
  "grade": "S",
  "score_breakdown": {
@@ -32,10 +32,9 @@
   "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 24개 실측)",
   "posts_last_30d": "measured (taken_at 실측, 24개 샘플 윈도우 內 하한)",
   "brand_fit": "measured (캡션 24개+bio 키워드 실측)",
-  "followers": "measured",
-  "avg_views": "unavailable (feed API play_count 미제공 — null 저장, 점수 영향 없음)"
+  "followers": "measured"
  },
- "sample_note": "2026-06-11T14:13:24.237036+09:00 STEP B-Light 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -248,6 +247,16 @@
    "followers": 6155,
    "engagement_rate": 0.2481,
    "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 93.5,
+   "grade": "S"
+  },
+  {
+   "evaluated_at": "2026-06-11T14:13:24.237036+09:00",
+   "followers": 6154,
+   "engagement_rate": 0.1903,
+   "posts_last_30d": 21,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "score_total": 93.5,

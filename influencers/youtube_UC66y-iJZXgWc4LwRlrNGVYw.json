@@ -4,38 +4,38 @@
  "fullname": "예쁜데 문제있나예",
  "profile_url": "https://www.youtube.com/channel/UC66y-iJZXgWc4LwRlrNGVYw",
  "channel_id": "UC66y-iJZXgWc4LwRlrNGVYw",
- "followers": 3620,
- "engagement_rate": 0.0056,
- "avg_views": 519788,
- "avg_likes": 125,
- "posts_last_30d": 4,
+ "followers": 3630,
+ "engagement_rate": 0.007,
+ "avg_views": 13131,
+ "avg_likes": 91,
+ "posts_last_30d": 3,
  "_posts_last_30d_est": false,
- "sample_size": 3,
- "brand_fit_score": 60,
+ "sample_size": 2,
+ "brand_fit_score": 75,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso": 0,
   "olive_young": 0,
   "our_brand": false,
-  "beauty_kw": 1
+  "beauty_kw": 3
  },
- "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
- "score_total": 50.0,
+ "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
+ "score_total": 53.8,
  "grade": "C",
  "score_breakdown": {
   "er_score": 40,
-  "brand_fit_score": 60,
+  "brand_fit_score": 75,
   "consistency_score": 60,
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (좋아요·조회 동일샘플 3개, 브라우저 watch 실측)",
+  "engagement_rate": "measured (watch HTML 좋아요·조회 실측, 동일샘플 2개)",
   "posts_last_30d": "measured (RSS 피드 실측, 15개 윈도우 內 하한)",
-  "brand_fit": "measured (제목+채널설명+샘플영상 설명·태그 키워드 실측)",
-  "followers": "measured (channel_follower_count)"
+  "brand_fit": "measured (RSS 제목+채널설명+샘플 영상 설명·태그 키워드 실측)",
+  "followers": "measured (채널 페이지 구독자 표기 실측, 반올림 단위)"
  },
- "sample_note": "2026-06-11T10:32:23.708784+09:00 STEP B 풀 재분석 — yt-dlp flat 실측 + RSS 피드(15) + 브라우저 watch HTML 좋아요·조회 실측(샘플:3). ER=avg_likes/avg_views(동일샘플). brand_fit=제목+채널설명+샘플영상 설명·태그 키워드 실측. posts_last_30d=RSS 실측(15개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — RSS 피드(15) 실측 + 채널 페이지 구독자 실측 + watch HTML 좋아요·조회 실측(샘플:2). ER=avg_likes/avg_views(동일샘플). brand_fit=RSS제목+채널설명+샘플 설명·태그 키워드 실측. posts_last_30d=RSS 실측(15개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-01T01:09:22.511409+00:00",
@@ -81,6 +81,16 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "score_total": 51.2,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+   "followers": 3620,
+   "engagement_rate": 0.0056,
+   "posts_last_30d": 4,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "score_total": 50.0,
    "grade": "C"
   }
  ]

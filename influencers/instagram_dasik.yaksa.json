@@ -3,22 +3,22 @@
  "username": "dasik.yaksa",
  "fullname": "다식 약사 | 박약다식, 박소윤",
  "profile_url": "https://www.instagram.com/dasik.yaksa/",
- "followers": 106242,
+ "followers": 106401,
  "engagement_rate": 0.0026,
- "avg_likes": 199,
- "avg_comments": 76,
- "avg_views": 43184,
- "posts_last_30d": 16,
- "sample_size": 18,
+ "avg_likes": 210,
+ "avg_comments": 63,
+ "avg_views": 53931,
+ "posts_last_30d": 22,
+ "sample_size": 24,
  "brand_fit_score": 75,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "2건",
+  "daiso_mentions": "4건",
   "olive_young_mentions": "0건",
-  "beauty_topical_strength": "4건",
+  "beauty_topical_strength": "7건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+ "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
  "score_total": 63.8,
  "grade": "C",
  "score_breakdown": {
@@ -29,12 +29,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 18개 실측)",
-  "posts_last_30d": "measured (taken_at 실측, 18개 샘플 윈도우 內 하한)",
-  "brand_fit": "measured (캡션 18개+bio 키워드 실측)",
+  "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 24개 실측)",
+  "posts_last_30d": "measured (taken_at 실측, 24개 샘플 윈도우 內 하한)",
+  "brand_fit": "measured (캡션 24개+bio 키워드 실측)",
   "followers": "measured"
  },
- "sample_note": "2026-06-11T10:32:23.708784+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 18개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -137,6 +137,16 @@
    "retailer_focus": "daiso",
    "score_total": 67.5,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+   "followers": 106242,
+   "engagement_rate": 0.0026,
+   "posts_last_30d": 16,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "score_total": 63.8,
+   "grade": "C"
   }
  ]
 }

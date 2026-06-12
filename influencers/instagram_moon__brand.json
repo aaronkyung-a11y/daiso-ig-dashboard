@@ -1,15 +1,15 @@
 {
  "platform": "instagram",
  "username": "moon__brand",
- "fullname": "문브의 데일리야구🇰🇷 K-야구문화•크보•",
+ "fullname": "문브의 데일리야구🇰🇷 K-야구문화•크보•팝업",
  "profile_url": "https://www.instagram.com/moon__brand/",
- "followers": 45106,
- "engagement_rate": 0.0558,
- "avg_likes": 2462,
- "avg_comments": 53,
- "avg_views": 224931,
- "posts_last_30d": 15,
- "sample_size": 18,
+ "followers": 45110,
+ "engagement_rate": 0.0525,
+ "avg_likes": 2318,
+ "avg_comments": 49,
+ "avg_views": 201395,
+ "posts_last_30d": 17,
+ "sample_size": 24,
  "brand_fit_score": 60,
  "retailer_focus": "mixed",
  "retailer_signal": {
@@ -18,7 +18,7 @@
   "beauty_topical_strength": "2건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+ "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
  "score_total": 83.0,
  "grade": "A",
  "score_breakdown": {
@@ -29,12 +29,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 18개 실측)",
-  "posts_last_30d": "measured (taken_at 실측, 18개 샘플 윈도우 內 하한)",
-  "brand_fit": "measured (캡션 18개+bio 키워드 실측)",
+  "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 24개 실측)",
+  "posts_last_30d": "measured (taken_at 실측, 24개 샘플 윈도우 內 하한)",
+  "brand_fit": "measured (캡션 24개+bio 키워드 실측)",
   "followers": "measured"
  },
- "sample_note": "2026-06-11T10:32:23.708784+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 18개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit·retailer_focus=캡션+bio 키워드 실측. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
@@ -152,6 +152,16 @@
    "evaluated_at": "2026-06-08T10:28:30.393916+09:00",
    "followers": 45114,
    "engagement_rate": 0.0549,
+   "posts_last_30d": 15,
+   "brand_fit_score": 60,
+   "retailer_focus": "mixed",
+   "score_total": 83.0,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+   "followers": 45106,
+   "engagement_rate": 0.0558,
    "posts_last_30d": 15,
    "brand_fit_score": 60,
    "retailer_focus": "mixed",
