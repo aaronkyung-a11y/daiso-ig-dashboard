@@ -1,17 +1,17 @@
 {
- "last_updated": "2026-06-15T13:27:39.019006+09:00",
- "lastUpdated": "2026-06-15T13:27:39.019006+09:00",
- "last_run_mode": "평일 13:15 큐+B-Light (자동 스케줄 실행). STEP A: 큐 3소스 신규 0건(Issues 0 · _queue 빈 큐 · Form 322행/134계정 전건 기분석). STEP B 풀 재분석 SKIPPED(10시 슬롯 아님). STEP B-Light HELD: 이번 실행 IG 세션 로그아웃 상태 — 로그아웃 reel-grid 좋아요(4~20)는 기존 로그인 feed API 베이스라인(boss.lim_ 평균좋아요 60 등)과 비교 불가하여 최장 미갱신 2건(boss.lim_·cherry.park___) 재분석 보류, 기존 레코드 무변경(허위 하락 알림·데이터 손상 방지). 신규/점수변동 0건. 전 레코드 score_total=number(null 0건). ⚠️ 정상 갱신 위해 IG 재로그인 필요.",
+ "last_updated": "2026-06-15T14:17:29.086679+09:00",
+ "lastUpdated": "2026-06-15T14:17:29.086679+09:00",
+ "last_run_mode": "평일 14:00 큐+B-Light (자동 스케줄 실행). STEP A: 큐 3소스 신규 0건(Issues 0 · _queue 빈 큐 · Form 322행/134계정 전건 기분석). STEP B 풀 재분석 SKIPPED(10시 슬롯 아님). STEP B-Light: 최장 미갱신·최소 history 2건 재분석(RSS 30일 윈도우 실측, 직전 sample=2 스로틀 대비 풀샘플) — youtube/HellfireDrama(UC-C…) 71.2 B→61.2 C, youtube/내면의 여유(UC4O…) 86.8 S→81.8 A. IG 세션 로그아웃 지속 → IG 23계정군 보류(허위 하락 방지), YT 2건으로 롤링 리프레시 진행. 전 레코드 score_total=number(null 0건). ⚠️ IG 재로그인 시 IG 풀 갱신 재개.",
  "total": 134,
  "platforms": {
   "instagram": 23,
   "youtube": 111
  },
  "grades": {
-  "A": 26,
-  "S": 17,
-  "C": 46,
-  "B": 42,
+  "A": 27,
+  "S": 16,
+  "C": 47,
+  "B": 41,
   "D": 3
  },
  "retailer_focus": {
@@ -939,16 +939,16 @@
   {
    "platform": "youtube",
    "username": "UC-C-faUj5SNcrIkqEM6FcjA",
-   "fullname": "燎原剧场HellfireDrama",
+   "fullname": "HellfireDrama",
    "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
    "channel_id": "UC-C-faUj5SNcrIkqEM6FcjA",
-   "followers": 319000,
-   "engagement_rate": 0.03,
-   "avg_views": 1066,
-   "avg_likes": 32,
+   "followers": 320000,
+   "engagement_rate": 0.0109,
+   "avg_views": 10425,
+   "avg_likes": 114,
    "posts_last_30d": 15,
    "_posts_last_30d_est": false,
-   "sample_size": 2,
+   "sample_size": 15,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "retailer_signal": {
@@ -957,23 +957,23 @@
     "our_brand": false,
     "beauty_kw": 0
    },
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
-   "score_total": 71.2,
-   "grade": "B",
+   "evaluated_at": "2026-06-15T14:16:09.954889+09:00",
+   "score_total": 61.2,
+   "grade": "C",
    "score_breakdown": {
-    "er_score": 80,
+    "er_score": 60,
     "brand_fit_score": 25,
     "consistency_score": 100,
     "follower_scale_score": 100,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
-    "engagement_rate": "measured (watch HTML 좋아요·조회 실측, 동일샘플 2개)",
-    "posts_last_30d": "measured (RSS 피드 실측, 15개 윈도우 內 하한)",
-    "brand_fit": "measured (RSS 제목+채널설명+샘플 영상 설명·태그 키워드 실측)",
-    "followers": "measured (채널 페이지 구독자 표기 실측, 반올림 단위)"
+    "engagement_rate": "measured (RSS media:statistics 조회·좋아요 실측, 30일 윈도우 샘플 15개)",
+    "posts_last_30d": "measured (RSS 15-entry 윈도우 內 30일 게시물 카운트, 하한)",
+    "brand_fit": "measured (RSS 제목+영상설명+채널설명 키워드 실측)",
+    "followers": "measured (yt-dlp channel_follower_count 실측)"
    },
-   "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — RSS 피드(15) 실측 + 채널 페이지 구독자 실측 + watch HTML 좋아요·조회 실측(샘플:2). ER=avg_likes/avg_views(동일샘플). brand_fit=RSS제목+채널설명+샘플 설명·태그 키워드 실측. posts_last_30d=RSS 실측(15개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D."
+   "sample_note": "2026-06-15T14:16:09.954889+09:00 STEP B-Light(14시 롤링 리프레시) 재분석 — RSS 피드 30일 윈도우 실측(샘플 15개) + yt-dlp 구독자 실측. ER=avg_likes/avg_views. 직전 sample_size=2(watch-HTML 스로틀) 대비 30일 윈도우 풀샘플 사용. grade S>=85/A>=75/B>=65/C>=50/D."
   },
   {
    "platform": "youtube",
@@ -1176,38 +1176,38 @@
    "fullname": "내면의 여유",
    "profile_url": "https://www.youtube.com/channel/UC4OMwa7uM-RC-36JObkN3LQ",
    "channel_id": "UC4OMwa7uM-RC-36JObkN3LQ",
-   "followers": 39400,
-   "engagement_rate": 0.05,
-   "avg_views": 110,
-   "avg_likes": 5,
+   "followers": 40300,
+   "engagement_rate": 0.032,
+   "avg_views": 219,
+   "avg_likes": 7,
    "posts_last_30d": 15,
    "_posts_last_30d_est": false,
-   "sample_size": 2,
+   "sample_size": 15,
    "brand_fit_score": 75,
    "retailer_focus": "beauty_general",
    "retailer_signal": {
     "daiso": 0,
     "olive_young": 0,
     "our_brand": false,
-    "beauty_kw": 4
+    "beauty_kw": 5
    },
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
-   "score_total": 86.8,
-   "grade": "S",
+   "evaluated_at": "2026-06-15T14:16:09.954889+09:00",
+   "score_total": 81.8,
+   "grade": "A",
    "score_breakdown": {
-    "er_score": 90,
+    "er_score": 80,
     "brand_fit_score": 75,
     "consistency_score": 100,
     "follower_scale_score": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
-    "engagement_rate": "measured (watch HTML 좋아요·조회 실측, 동일샘플 2개)",
-    "posts_last_30d": "measured (RSS 피드 실측, 15개 윈도우 內 하한)",
-    "brand_fit": "measured (RSS 제목+채널설명+샘플 영상 설명·태그 키워드 실측)",
-    "followers": "measured (채널 페이지 구독자 표기 실측, 반올림 단위)"
+    "engagement_rate": "measured (RSS media:statistics 조회·좋아요 실측, 30일 윈도우 샘플 15개)",
+    "posts_last_30d": "measured (RSS 15-entry 윈도우 內 30일 게시물 카운트, 하한)",
+    "brand_fit": "measured (RSS 제목+영상설명+채널설명 키워드 실측)",
+    "followers": "measured (yt-dlp channel_follower_count 실측)"
    },
-   "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — RSS 피드(15) 실측 + 채널 페이지 구독자 실측 + watch HTML 좋아요·조회 실측(샘플:2). ER=avg_likes/avg_views(동일샘플). brand_fit=RSS제목+채널설명+샘플 설명·태그 키워드 실측. posts_last_30d=RSS 실측(15개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D."
+   "sample_note": "2026-06-15T14:16:09.954889+09:00 STEP B-Light(14시 롤링 리프레시) 재분석 — RSS 피드 30일 윈도우 실측(샘플 15개) + yt-dlp 구독자 실측. ER=avg_likes/avg_views. 직전 sample_size=2(watch-HTML 스로틀) 대비 30일 윈도우 풀샘플 사용. grade S>=85/A>=75/B>=65/C>=50/D."
   },
   {
    "platform": "youtube",

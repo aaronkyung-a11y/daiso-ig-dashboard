@@ -4,38 +4,38 @@
  "fullname": "내면의 여유",
  "profile_url": "https://www.youtube.com/channel/UC4OMwa7uM-RC-36JObkN3LQ",
  "channel_id": "UC4OMwa7uM-RC-36JObkN3LQ",
- "followers": 39400,
- "engagement_rate": 0.05,
- "avg_views": 110,
- "avg_likes": 5,
+ "followers": 40300,
+ "engagement_rate": 0.032,
+ "avg_views": 219,
+ "avg_likes": 7,
  "posts_last_30d": 15,
  "_posts_last_30d_est": false,
- "sample_size": 2,
+ "sample_size": 15,
  "brand_fit_score": 75,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso": 0,
   "olive_young": 0,
   "our_brand": false,
-  "beauty_kw": 4
+  "beauty_kw": 5
  },
- "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
- "score_total": 86.8,
- "grade": "S",
+ "evaluated_at": "2026-06-15T14:16:09.954889+09:00",
+ "score_total": 81.8,
+ "grade": "A",
  "score_breakdown": {
-  "er_score": 90,
+  "er_score": 80,
   "brand_fit_score": 75,
   "consistency_score": 100,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (watch HTML 좋아요·조회 실측, 동일샘플 2개)",
-  "posts_last_30d": "measured (RSS 피드 실측, 15개 윈도우 內 하한)",
-  "brand_fit": "measured (RSS 제목+채널설명+샘플 영상 설명·태그 키워드 실측)",
-  "followers": "measured (채널 페이지 구독자 표기 실측, 반올림 단위)"
+  "engagement_rate": "measured (RSS media:statistics 조회·좋아요 실측, 30일 윈도우 샘플 15개)",
+  "posts_last_30d": "measured (RSS 15-entry 윈도우 內 30일 게시물 카운트, 하한)",
+  "brand_fit": "measured (RSS 제목+영상설명+채널설명 키워드 실측)",
+  "followers": "measured (yt-dlp channel_follower_count 실측)"
  },
- "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — RSS 피드(15) 실측 + 채널 페이지 구독자 실측 + watch HTML 좋아요·조회 실측(샘플:2). ER=avg_likes/avg_views(동일샘플). brand_fit=RSS제목+채널설명+샘플 설명·태그 키워드 실측. posts_last_30d=RSS 실측(15개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-15T14:16:09.954889+09:00 STEP B-Light(14시 롤링 리프레시) 재분석 — RSS 피드 30일 윈도우 실측(샘플 15개) + yt-dlp 구독자 실측. ER=avg_likes/avg_views. 직전 sample_size=2(watch-HTML 스로틀) 대비 30일 윈도우 풀샘플 사용. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-05-29T10:09:25+09:00",
@@ -92,6 +92,16 @@
    "retailer_focus": "beauty_general",
    "score_total": 81.8,
    "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
+   "followers": 39400,
+   "engagement_rate": 0.05,
+   "posts_last_30d": 15,
+   "brand_fit_score": 75,
+   "retailer_focus": "beauty_general",
+   "score_total": 86.8,
+   "grade": "S"
   }
  ]
 }
