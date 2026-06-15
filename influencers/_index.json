@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-06-12T17:12:38.495268+09:00",
- "lastUpdated": "2026-06-12T17:12:38.495268+09:00",
- "last_run_mode": "평일 17:00 큐+B-Light (자동 스케줄 실행) — STEP A: 큐 3소스 신규 0건(Issues 0 · _queue 빈 큐 · Form 322행/134계정 전건 기분석). STEP B-Light: 최장 미갱신 2건 재분석 — instagram_beauty_piona 실측(93.5 S 유지, ER 18.96%→18.97%), instagram_beautyus_mag 실측(65.5 B → 75.5 A 상승, ER 0.93%→1.06%). 전 레코드 score_total=number.",
+ "last_updated": "2026-06-15T13:27:39.019006+09:00",
+ "lastUpdated": "2026-06-15T13:27:39.019006+09:00",
+ "last_run_mode": "평일 13:15 큐+B-Light (자동 스케줄 실행). STEP A: 큐 3소스 신규 0건(Issues 0 · _queue 빈 큐 · Form 322행/134계정 전건 기분석). STEP B 풀 재분석 SKIPPED(10시 슬롯 아님). STEP B-Light HELD: 이번 실행 IG 세션 로그아웃 상태 — 로그아웃 reel-grid 좋아요(4~20)는 기존 로그인 feed API 베이스라인(boss.lim_ 평균좋아요 60 등)과 비교 불가하여 최장 미갱신 2건(boss.lim_·cherry.park___) 재분석 보류, 기존 레코드 무변경(허위 하락 알림·데이터 손상 방지). 신규/점수변동 0건. 전 레코드 score_total=number(null 0건). ⚠️ 정상 갱신 위해 IG 재로그인 필요.",
  "total": 134,
  "platforms": {
   "instagram": 23,
