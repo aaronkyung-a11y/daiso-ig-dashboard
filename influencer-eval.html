@@ -165,17 +165,17 @@ tr.row:hover { background: #0f172a; }
 <script>
 // INFLUENCER_DATA_BEGIN
 const INFLUENCER_DATA = {
- "last_updated": "2026-06-16T10:38:36.089145+09:00",
- "lastUpdated": "2026-06-16T10:38:36.089145+09:00",
- "last_run_mode": "평일 10:00 풀 재분석 (자동 스케줄 실행). STEP A: 큐 3소스 신규 0건(GitHub Issues 0 · _queue.txt 빈 큐 · Google Form 322행/134계정 전건 기분석). STEP B: 워치리스트 134 중 YouTube 106건 yt-dlp 실측 재분석(구독자·조회·좋아요·업로드일·설명/태그 실측), 5건 carry-forward(좋아요 비공개 2 · 영상탭 없음 1 · 부분데이터 2 — 전회값 유지), Instagram 23건 carry-forward(2개 브라우저 연결로 Chrome 선택 게이트 발생, 무인 실행이라 IG 웹 크롤 불가 — 전회값 유지). 전 레코드 score_total=number(null 0건).",
+ "last_updated": "2026-06-16T14:13:58.485991+09:00",
+ "lastUpdated": "2026-06-16T14:13:58.485991+09:00",
+ "last_run_mode": "평일 14:00 큐+B-Light 실행 (자동 스케줄). STEP A: 큐 3소스 신규 0건(GitHub Issues 0 · _queue.txt 빈 큐 · Google Form 134계정 전건 기분석·이미 JSON 존재 SKIP). STEP B SKIPPED (not 10:00 slot). STEP B-Light: 가장 오래된 2건(IG boss.lim_, cherry.park___) IG 로그인(ds_user_id=8065473) web feed API 24개 실측 재분석 — boss.lim_ 86.0→86.0(S 유지), cherry.park___ 87.5→82.5(S→A 강등, ER 5.72%→4.47%). 전 레코드 score_total=number(null 0건).",
  "total": 134,
  "platforms": {
   "instagram": 23,
   "youtube": 111
  },
  "grades": {
-  "A": 21,
-  "S": 13,
+  "A": 22,
+  "S": 12,
   "C": 45,
   "B": 51,
   "D": 4
@@ -308,12 +308,12 @@ const INFLUENCER_DATA = {
    "username": "boss.lim_",
    "fullname": "보스",
    "profile_url": "https://www.instagram.com/boss.lim_/",
-   "followers": 713,
-   "engagement_rate": 0.0884,
-   "avg_likes": 60,
+   "followers": 718,
+   "engagement_rate": 0.0891,
+   "avg_likes": 61,
    "avg_comments": 3,
-   "avg_views": 12147,
-   "posts_last_30d": 8,
+   "avg_views": 12211,
+   "posts_last_30d": 7,
    "sample_size": 24,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
@@ -323,7 +323,7 @@ const INFLUENCER_DATA = {
     "beauty_topical_strength": "29건",
     "labrang_blanc_doux_mention": true
    },
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
+   "evaluated_at": "2026-06-16T14:12:29.996613+09:00",
    "score_total": 86.0,
    "grade": "S",
    "score_breakdown": {
@@ -335,37 +335,37 @@ const INFLUENCER_DATA = {
    },
    "estimation_flags": {
     "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 24개 실측)",
-    "posts_last_30d": "measured (taken_at 실측, 24개 샘플 윈도우 內 하한)",
+    "posts_last_30d": "measured (taken_at 실측)",
     "brand_fit": "measured (캡션 24개+bio 키워드 실측)",
     "followers": "measured"
    },
-   "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D."
+   "sample_note": "2026-06-16T14:12:29.996613+09:00 STEP B-Light 재분석 — IG 로그인(ds_user_id=8065473), web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측. grade S>=85/A>=75/B>=65/C>=50/D."
   },
   {
    "platform": "instagram",
    "username": "cherry.park___",
    "fullname": "박체리 cherry🍒",
    "profile_url": "https://www.instagram.com/cherry.park___/",
-   "followers": 22276,
-   "engagement_rate": 0.0572,
-   "avg_likes": 1270,
+   "followers": 22277,
+   "engagement_rate": 0.0447,
+   "avg_likes": 990,
    "avg_comments": 5,
-   "avg_views": 77198,
-   "posts_last_30d": 7,
+   "avg_views": 67726,
+   "posts_last_30d": 9,
    "sample_size": 24,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "retailer_signal": {
-    "daiso_mentions": "14건",
+    "daiso_mentions": "18건",
     "olive_young_mentions": "32건",
-    "beauty_topical_strength": "57건",
+    "beauty_topical_strength": "52건",
     "labrang_blanc_doux_mention": false
    },
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
-   "score_total": 87.5,
-   "grade": "S",
+   "evaluated_at": "2026-06-16T14:12:29.996613+09:00",
+   "score_total": 82.5,
+   "grade": "A",
    "score_breakdown": {
-    "er_score": 90,
+    "er_score": 80,
     "brand_fit_score": 90,
     "consistency_score": 80,
     "follower_scale_score": 80,
@@ -373,11 +373,11 @@ const INFLUENCER_DATA = {
    },
    "estimation_flags": {
     "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 24개 실측)",
-    "posts_last_30d": "measured (taken_at 실측, 24개 샘플 윈도우 內 하한)",
+    "posts_last_30d": "measured (taken_at 실측)",
     "brand_fit": "measured (캡션 24개+bio 키워드 실측)",
     "followers": "measured"
    },
-   "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D."
+   "sample_note": "2026-06-16T14:12:29.996613+09:00 STEP B-Light 재분석 — IG 로그인(ds_user_id=8065473), web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측. grade S>=85/A>=75/B>=65/C>=50/D."
   },
   {
    "platform": "instagram",

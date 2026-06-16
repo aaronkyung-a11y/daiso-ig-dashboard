@@ -1,162 +1,173 @@
 {
- "platform": "instagram",
- "username": "boss.lim_",
- "fullname": "보스",
- "profile_url": "https://www.instagram.com/boss.lim_/",
- "followers": 713,
- "engagement_rate": 0.0884,
- "avg_likes": 60,
- "avg_comments": 3,
- "avg_views": 12147,
- "posts_last_30d": 8,
- "sample_size": 24,
- "brand_fit_score": 100,
- "retailer_focus": "our_brand",
- "retailer_signal": {
-  "daiso_mentions": "17건",
-  "olive_young_mentions": "12건",
-  "beauty_topical_strength": "29건",
-  "labrang_blanc_doux_mention": true
- },
- "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
- "score_total": 86.0,
- "grade": "S",
- "score_breakdown": {
-  "er_score": 90,
+  "platform": "instagram",
+  "username": "boss.lim_",
+  "fullname": "보스",
+  "profile_url": "https://www.instagram.com/boss.lim_/",
+  "followers": 718,
+  "engagement_rate": 0.0891,
+  "avg_likes": 61,
+  "avg_comments": 3,
+  "avg_views": 12211,
+  "posts_last_30d": 7,
+  "sample_size": 24,
   "brand_fit_score": 100,
-  "consistency_score": 80,
-  "follower_scale_score": 40,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "estimation_flags": {
-  "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 24개 실측)",
-  "posts_last_30d": "measured (taken_at 실측, 24개 샘플 윈도우 內 하한)",
-  "brand_fit": "measured (캡션 24개+bio 키워드 실측)",
-  "followers": "measured"
- },
- "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측(24개 윈도우 內 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
- "history": [
-  {
-   "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
-   "followers": 620,
-   "engagement_rate": 0.0355,
-   "posts_last_30d": 1,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "score_total": 68.75,
-   "grade": "B"
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso_mentions": "17건",
+    "olive_young_mentions": "12건",
+    "beauty_topical_strength": "29건",
+    "labrang_blanc_doux_mention": true
   },
-  {
-   "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-   "followers": 623,
-   "engagement_rate": 0.0355,
-   "posts_last_30d": 1,
-   "brand_fit_score": 75,
-   "score_total": 68.75
+  "evaluated_at": "2026-06-16T14:12:29.996613+09:00",
+  "score_total": 86.0,
+  "grade": "S",
+  "score_breakdown": {
+    "er_score": 90,
+    "brand_fit_score": 100,
+    "consistency_score": 80,
+    "follower_scale_score": 40,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  {
-   "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
-   "followers": 637,
-   "engagement_rate": 0.0355,
-   "posts_last_30d": 1,
-   "brand_fit_score": 75,
-   "score_total": 68.75
+  "estimation_flags": {
+    "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 24개 실측)",
+    "posts_last_30d": "measured (taken_at 실측)",
+    "brand_fit": "measured (캡션 24개+bio 키워드 실측)",
+    "followers": "measured"
   },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 642,
-   "engagement_rate": 0.0355,
-   "posts_last_30d": 1,
-   "brand_fit_score": 75,
-   "score_total": 68.8,
-   "grade": "B",
-   "note": "STEP B light refresh"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 654,
-   "engagement_rate": 0.0812,
-   "posts_last_30d": 11,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 89.0,
-   "grade": "S"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "score_total": 89.0,
-   "engagement_rate": 0.0812,
-   "followers": 654,
-   "posts_last_30d": 11,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "grade": "S"
-  },
-  {
-   "evaluated_at": "2026-05-27T10:33:00+09:00",
-   "score_total": 86.0,
-   "grade": "S",
-   "engagement_rate": 0.0694,
-   "followers": 674,
-   "posts_last_30d": 9,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "avg_likes": 43,
-   "avg_comments": 3,
-   "sample_size": 12
-  },
-  {
-   "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
-   "score_total": 83.5,
-   "grade": "A",
-   "engagement_rate": 0.0663,
-   "followers": 694,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "avg_comments": 3,
-   "avg_likes": 43,
-   "sample_size": 12
-  },
-  {
-   "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
-   "followers": 694,
-   "engagement_rate": 0.0699,
-   "posts_last_30d": 6,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 86.0,
-   "grade": "S"
-  },
-  {
-   "evaluated_at": "2026-06-08T10:28:30.393916+09:00",
-   "followers": 692,
-   "engagement_rate": 0.0607,
-   "posts_last_30d": 7,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 86.0,
-   "grade": "S"
-  },
-  {
-   "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
-   "followers": 706,
-   "engagement_rate": 0.0524,
-   "posts_last_30d": 8,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 86.0,
-   "grade": "S"
-  },
-  {
-   "evaluated_at": "2026-06-11T17:12:38.096255+09:00",
-   "followers": 708,
-   "engagement_rate": 0.0523,
-   "posts_last_30d": 8,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 86.0,
-   "grade": "S"
-  }
- ]
+  "sample_note": "2026-06-16T14:12:29.996613+09:00 STEP B-Light 재분석 — IG 로그인(ds_user_id=8065473), web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at, 2페이지). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드 실측. posts_last_30d=taken_at 실측. grade S>=85/A>=75/B>=65/C>=50/D.",
+  "history": [
+    {
+      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+      "followers": 620,
+      "engagement_rate": 0.0355,
+      "posts_last_30d": 1,
+      "brand_fit_score": 75,
+      "retailer_focus": "daiso",
+      "score_total": 68.75,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 623,
+      "engagement_rate": 0.0355,
+      "posts_last_30d": 1,
+      "brand_fit_score": 75,
+      "score_total": 68.75
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 637,
+      "engagement_rate": 0.0355,
+      "posts_last_30d": 1,
+      "brand_fit_score": 75,
+      "score_total": 68.75
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 642,
+      "engagement_rate": 0.0355,
+      "posts_last_30d": 1,
+      "brand_fit_score": 75,
+      "score_total": 68.8,
+      "grade": "B",
+      "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 654,
+      "engagement_rate": 0.0812,
+      "posts_last_30d": 11,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 89.0,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "score_total": 89.0,
+      "engagement_rate": 0.0812,
+      "followers": 654,
+      "posts_last_30d": 11,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-27T10:33:00+09:00",
+      "score_total": 86.0,
+      "grade": "S",
+      "engagement_rate": 0.0694,
+      "followers": 674,
+      "posts_last_30d": 9,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "avg_likes": 43,
+      "avg_comments": 3,
+      "sample_size": 12
+    },
+    {
+      "evaluated_at": "2026-06-04T10:18:35.067467+09:00",
+      "score_total": 83.5,
+      "grade": "A",
+      "engagement_rate": 0.0663,
+      "followers": 694,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "avg_comments": 3,
+      "avg_likes": 43,
+      "sample_size": 12
+    },
+    {
+      "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+      "followers": 694,
+      "engagement_rate": 0.0699,
+      "posts_last_30d": 6,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 86.0,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-06-08T10:28:30.393916+09:00",
+      "followers": 692,
+      "engagement_rate": 0.0607,
+      "posts_last_30d": 7,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 86.0,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+      "followers": 706,
+      "engagement_rate": 0.0524,
+      "posts_last_30d": 8,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 86.0,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-06-11T17:12:38.096255+09:00",
+      "followers": 708,
+      "engagement_rate": 0.0523,
+      "posts_last_30d": 8,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 86.0,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
+      "followers": 713,
+      "engagement_rate": 0.0884,
+      "posts_last_30d": 8,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 86.0,
+      "grade": "S"
+    }
+  ],
+  "user_id": "43368189475"
 }
