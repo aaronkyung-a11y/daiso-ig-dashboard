@@ -1,107 +1,117 @@
 {
- "platform": "youtube",
- "username": "UCED7YKsAzQ2qi2e-cJ7yTEg",
- "fullname": "merryview메리뷰",
- "profile_url": "https://www.youtube.com/channel/UCED7YKsAzQ2qi2e-cJ7yTEg",
- "channel_id": "UCED7YKsAzQ2qi2e-cJ7yTEg",
- "followers": 32500,
- "engagement_rate": 0.0088,
- "avg_views": 6815,
- "avg_likes": 60,
- "posts_last_30d": 10,
- "_posts_last_30d_est": false,
- "sample_size": 2,
- "brand_fit_score": 60,
- "retailer_focus": "olive_young",
- "retailer_signal": {
-  "daiso": 3,
-  "olive_young": 9,
-  "our_brand": false,
-  "beauty_kw": 2
- },
- "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
- "score_total": 58.0,
- "grade": "C",
- "score_breakdown": {
-  "er_score": 40,
-  "brand_fit_score": 60,
-  "consistency_score": 100,
-  "follower_scale_score": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "estimation_flags": {
-  "engagement_rate": "measured (watch HTML 좋아요·조회 실측, 동일샘플 2개)",
-  "posts_last_30d": "measured (RSS 피드 실측, 15개 윈도우 內 하한)",
-  "brand_fit": "measured (RSS 제목+채널설명+샘플 영상 설명·태그 키워드 실측)",
-  "followers": "measured (채널 페이지 구독자 표기 실측, 반올림 단위)"
- },
- "sample_note": "2026-06-12T10:45:10.204691+09:00 STEP B 풀 재분석 — RSS 피드(15) 실측 + 채널 페이지 구독자 실측 + watch HTML 좋아요·조회 실측(샘플:2). ER=avg_likes/avg_views(동일샘플). brand_fit=RSS제목+채널설명+샘플 설명·태그 키워드 실측. posts_last_30d=RSS 실측(15개 윈도우 하한). grade S>=85/A>=75/B>=65/C>=50/D.",
- "history": [
-  {
-   "evaluated_at": "2026-05-28T10:00:00+09:00",
-   "followers": 32900,
-   "engagement_rate": 0.017,
-   "posts_last_30d": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 72.5,
-   "grade": "A"
+  "platform": "youtube",
+  "username": "UCED7YKsAzQ2qi2e-cJ7yTEg",
+  "fullname": "merryview메리뷰",
+  "profile_url": "https://www.youtube.com/channel/UCED7YKsAzQ2qi2e-cJ7yTEg",
+  "channel_id": "UCED7YKsAzQ2qi2e-cJ7yTEg",
+  "followers": 32500,
+  "engagement_rate": 0.0146,
+  "avg_views": 41854,
+  "avg_likes": 610,
+  "posts_last_30d": 0,
+  "_posts_last_30d_est": false,
+  "sample_size": 6,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "6건",
+    "olive_young_mentions": "0건",
+    "beauty_topical_strength": "29건",
+    "labrang_blanc_doux_mention": false
   },
-  {
-   "evaluated_at": "2026-06-01T01:12:42.488856+00:00",
-   "score_total": 40.25,
-   "grade": "D",
-   "engagement_rate": 0.0,
-   "followers": 32900,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "avg_views": 0,
-   "avg_likes": 0,
-   "sample_size": 0
+  "evaluated_at": "2026-06-16T10:18:56.001816+09:00",
+  "score_total": 66.5,
+  "grade": "B",
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 90,
+    "consistency_score": 40,
+    "follower_scale_score": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  {
-   "evaluated_at": "2026-06-04T10:20:09.675295+09:00",
-   "score_total": 66.5,
-   "grade": "B",
-   "engagement_rate": 0.0146,
-   "followers": 33000,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "avg_views": 41660,
-   "avg_likes": 608,
-   "sample_size": 6
+  "estimation_flags": {
+    "engagement_rate": "measured (yt-dlp 최근6개 view·like 실측)",
+    "posts_last_30d": "measured (yt-dlp upload_date 실측)",
+    "brand_fit": "measured (제목+태그+설명 키워드 실측)",
+    "followers": "measured (yt-dlp channel_follower_count 실측)"
   },
-  {
-   "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
-   "followers": 33000,
-   "engagement_rate": 0.0033,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 65.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-06-08T10:22:04.368524+09:00",
-   "followers": 33000,
-   "engagement_rate": 0.0075,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 62.5,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
-   "followers": 32400,
-   "engagement_rate": 0.0115,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 75.5,
-   "grade": "A"
-  }
- ]
+  "sample_note": "2026-06-16T10:18:56.001816+09:00 STEP B 풀 재분석 (자동, yt-dlp) — 최근 6개 영상 메타 실측, 30일내 0개. ER=avg_likes/avg_views(샘플 6). grade S>=85/A>=75/B>=65/C>=50/D.",
+  "history": [
+    {
+      "evaluated_at": "2026-05-28T10:00:00+09:00",
+      "followers": 32900,
+      "engagement_rate": 0.017,
+      "posts_last_30d": 8,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 72.5,
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-06-01T01:12:42.488856+00:00",
+      "score_total": 40.25,
+      "grade": "D",
+      "engagement_rate": 0.0,
+      "followers": 32900,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "avg_views": 0,
+      "avg_likes": 0,
+      "sample_size": 0
+    },
+    {
+      "evaluated_at": "2026-06-04T10:20:09.675295+09:00",
+      "score_total": 66.5,
+      "grade": "B",
+      "engagement_rate": 0.0146,
+      "followers": 33000,
+      "posts_last_30d": 0,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "avg_views": 41660,
+      "avg_likes": 608,
+      "sample_size": 6
+    },
+    {
+      "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+      "followers": 33000,
+      "engagement_rate": 0.0033,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 65.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-06-08T10:22:04.368524+09:00",
+      "followers": 33000,
+      "engagement_rate": 0.0075,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 62.5,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+      "followers": 32400,
+      "engagement_rate": 0.0115,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 75.5,
+      "grade": "A"
+    },
+    {
+      "brand_fit_score": 60,
+      "engagement_rate": 0.0088,
+      "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
+      "followers": 32500,
+      "grade": "C",
+      "posts_last_30d": 10,
+      "retailer_focus": "olive_young",
+      "score_total": 58.0
+    }
+  ]
 }
