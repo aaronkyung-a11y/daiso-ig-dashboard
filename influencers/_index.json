@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-06-17T10:39:48.878493+09:00",
- "lastUpdated": "2026-06-17T10:39:48.878493+09:00",
- "last_run_mode": "평일 10:00 풀 재분석 실행 (자동 스케줄). STEP A: 큐 3소스 신규 0건 (GitHub Issues eval-queue 0 · _queue.txt 빈 큐 · Google Form 134계정 전건 기분석·JSON 존재 SKIP). STEP B: Watchlist 134건(IG 23 · YT 111) 전건 재분석 — YT yt-dlp 실측 111건(/videos 76 + /shorts·streams 재시도 35), IG 로그인 web feed API 최근 24개 실측 22건 + mingjikim_107 web_profile_info 404로 이전값 유지. STEP B-Light SKIP (10:00 슬롯). score_total null 0건.",
+ "last_updated": "2026-06-17T14:15:21.787646+09:00",
+ "lastUpdated": "2026-06-17T14:15:21.787646+09:00",
+ "last_run_mode": "평일 14:00 큐+B-Light 실행 (자동 스케줄). STEP A: 큐 3소스 신규 0건 (GitHub Issues eval-queue 0 · _queue.txt 빈 큐 · Google Form 134계정 전건 기분석·JSON 존재 SKIP). STEP B SKIPPED (not 10:00 slot). STEP B-Light: 최古 2건 재분석 (yt-dlp android client 실측) — youtube_Jinyaa 77.0→77.0(A) · youtube_UC5o9Z5lgw4kk4fjDhweZxKg(피부왕정윤) 74.5→74.5(B). score_total null 0건.",
  "total": 134,
  "platforms": {
   "instagram": 23,
@@ -1005,21 +1005,21 @@
    "profile_url": "https://www.youtube.com/@Jinyaa",
    "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
    "followers": 361000,
-   "engagement_rate": 0.0234,
-   "avg_views": 91933,
-   "avg_likes": 2153,
-   "posts_last_30d": 6,
+   "engagement_rate": 0.0238,
+   "avg_views": 92712,
+   "avg_likes": 2202,
+   "posts_last_30d": 5,
    "_posts_last_30d_est": false,
-   "sample_size": 15,
+   "sample_size": 14,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "retailer_signal": {
     "daiso_mentions": "57건",
     "olive_young_mentions": "64건",
-    "beauty_topical_strength": "775건",
+    "beauty_topical_strength": "760건",
     "labrang_blanc_doux_mention": true
    },
-   "evaluated_at": "2026-06-17T10:24:03.460005+09:00",
+   "evaluated_at": "2026-06-17T14:14:13.791272+09:00",
    "score_total": 77.0,
    "grade": "A",
    "score_breakdown": {
@@ -1030,12 +1030,12 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp 최근15개 메타 실측)",
-    "posts_last_30d": "measured (upload_date 실측)",
+    "engagement_rate": "measured (yt-dlp 최근14개 메타 실측, android client)",
+    "posts_last_30d": "measured (upload_date 실측, 30일窗 완전포함)",
     "brand_fit": "measured (제목+태그+설명 키워드 실측)",
     "followers": "measured (channel_follower_count 실측)"
    },
-   "sample_note": "2026-06-17T10:24:03.460005+09:00 STEP B 풀 재분석 (자동, yt-dlp) — measured (yt-dlp 최근15개 메타 실측). ER=avg_likes/avg_views(샘플 15). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D."
+   "sample_note": "2026-06-17T14:14:13.791272+09:00 STEP B-Light 롤링 재분석 (14시 슬롯, 자동, yt-dlp android client) — measured. ER=avg_likes/avg_views(샘플 14). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D."
   },
   {
    "platform": "youtube",
@@ -1473,12 +1473,12 @@
    "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg",
    "channel_id": "UC5o9Z5lgw4kk4fjDhweZxKg",
    "followers": 175000,
-   "engagement_rate": 0.0225,
-   "avg_views": 4143,
-   "avg_likes": 93,
+   "engagement_rate": 0.0232,
+   "avg_views": 3877,
+   "avg_likes": 90,
    "posts_last_30d": 5,
    "_posts_last_30d_est": false,
-   "sample_size": 15,
+   "sample_size": 14,
    "brand_fit_score": 90,
    "retailer_focus": "mixed",
    "retailer_signal": {
@@ -1487,7 +1487,7 @@
     "beauty_topical_strength": "22건",
     "labrang_blanc_doux_mention": false
    },
-   "evaluated_at": "2026-06-17T10:24:03.460005+09:00",
+   "evaluated_at": "2026-06-17T14:14:13.791272+09:00",
    "score_total": 74.5,
    "grade": "B",
    "score_breakdown": {
@@ -1498,12 +1498,12 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp 최근15개 메타 실측)",
-    "posts_last_30d": "measured (upload_date 실측)",
+    "engagement_rate": "measured (yt-dlp 최근14개 메타 실측, android client)",
+    "posts_last_30d": "measured (upload_date 실측, 30일窗 완전포함)",
     "brand_fit": "measured (제목+태그+설명 키워드 실측)",
     "followers": "measured (channel_follower_count 실측)"
    },
-   "sample_note": "2026-06-17T10:24:03.460005+09:00 STEP B 풀 재분석 (자동, yt-dlp) — measured (yt-dlp 최근15개 메타 실측). ER=avg_likes/avg_views(샘플 15). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D."
+   "sample_note": "2026-06-17T14:14:13.791272+09:00 STEP B-Light 롤링 재분석 (14시 슬롯, 자동, yt-dlp android client) — measured. ER=avg_likes/avg_views(샘플 14). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D."
   },
   {
    "platform": "youtube",
