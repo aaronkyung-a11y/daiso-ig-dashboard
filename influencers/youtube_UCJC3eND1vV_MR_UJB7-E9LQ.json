@@ -6,8 +6,8 @@
  "channel_id": "UCJC3eND1vV_MR_UJB7-E9LQ",
  "followers": 435000,
  "engagement_rate": 0.0158,
- "avg_views": 69111,
- "avg_likes": 1094,
+ "avg_views": 69290,
+ "avg_likes": 1095,
  "posts_last_30d": 5,
  "_posts_last_30d_est": false,
  "sample_size": 15,
@@ -19,7 +19,7 @@
   "beauty_topical_strength": "178건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-17T10:24:03.460005+09:00",
+ "evaluated_at": "2026-06-17T17:11:26.173766+09:00",
  "score_total": 77.0,
  "grade": "A",
  "score_breakdown": {
@@ -35,7 +35,7 @@
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (channel_follower_count 실측)"
  },
- "sample_note": "2026-06-17T10:24:03.460005+09:00 STEP B 풀 재분석 (자동, yt-dlp) — measured (yt-dlp 최근15개 메타 실측). ER=avg_likes/avg_views(샘플 15). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-17T17:11:26.173766+09:00 STEP B-Light 롤링 재분석 (17:00 슬롯, 자동, yt-dlp) — measured (yt-dlp 최근15개 메타 실측). ER=avg_likes/avg_views(샘플 15). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-16T10:20:33.092020+09:00",
@@ -211,6 +211,16 @@
    "posts_last_30d": 4,
    "retailer_focus": "mixed",
    "score_total": 61.5
+  },
+  {
+   "evaluated_at": "2026-06-17T10:24:03.460005+09:00",
+   "followers": 435000,
+   "engagement_rate": 0.0158,
+   "posts_last_30d": 5,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 77.0,
+   "grade": "A"
   }
  ]
 }
