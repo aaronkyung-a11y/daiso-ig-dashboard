@@ -5,21 +5,21 @@
   "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg",
   "channel_id": "UC5o9Z5lgw4kk4fjDhweZxKg",
   "followers": 175000,
-  "engagement_rate": 0.0232,
-  "avg_views": 3877,
-  "avg_likes": 90,
+  "engagement_rate": 0.0225,
+  "avg_views": 4158.0,
+  "avg_likes": 93.67,
   "posts_last_30d": 5,
   "_posts_last_30d_est": false,
-  "sample_size": 14,
+  "sample_size": 15,
   "brand_fit_score": 90,
   "retailer_focus": "mixed",
   "retailer_signal": {
     "daiso_mentions": "13건",
     "olive_young_mentions": "12건",
-    "beauty_topical_strength": "22건",
+    "beauty_topical_strength": "23건",
     "labrang_blanc_doux_mention": false
   },
-  "evaluated_at": "2026-06-17T14:14:13.791272+09:00",
+  "evaluated_at": "2026-06-18T10:15:21.723127+09:00",
   "score_total": 74.5,
   "grade": "B",
   "score_breakdown": {
@@ -30,13 +30,23 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp 최근14개 메타 실측, android client)",
-    "posts_last_30d": "measured (upload_date 실측, 30일窗 완전포함)",
+    "engagement_rate": "measured (yt-dlp 최근18개 메타 실측)",
+    "posts_last_30d": "measured (upload_date 실측)",
     "brand_fit": "measured (제목+태그+설명 키워드 실측)",
     "followers": "measured (channel_follower_count 실측)"
   },
-  "sample_note": "2026-06-17T14:14:13.791272+09:00 STEP B-Light 롤링 재분석 (14시 슬롯, 자동, yt-dlp android client) — measured. ER=avg_likes/avg_views(샘플 14). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+  "sample_note": "2026-06-18T10:15:21.723127+09:00 STEP B 풀 재분석 (자동, yt-dlp 서버사이드) — 최근18개 메타 실측. ER=avg_likes/avg_views(샘플 15). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
   "history": [
+    {
+      "evaluated_at": "2026-06-17T14:14:13.791272+09:00",
+      "followers": 175000,
+      "engagement_rate": 0.0232,
+      "posts_last_30d": 5,
+      "brand_fit_score": 90,
+      "retailer_focus": "mixed",
+      "score_total": 74.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-06-16T10:18:01.731757+09:00",
       "followers": 175000,
