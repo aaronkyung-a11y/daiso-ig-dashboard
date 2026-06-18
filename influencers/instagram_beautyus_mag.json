@@ -3,10 +3,10 @@
  "username": "beautyus_mag",
  "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
  "profile_url": "https://www.instagram.com/beautyus_mag/",
- "followers": 90116,
- "engagement_rate": 0.0057,
- "avg_likes": 510,
- "avg_comments": 5,
+ "followers": 90185,
+ "engagement_rate": 0.010718245828020181,
+ "avg_likes": 958,
+ "avg_comments": 8,
  "avg_views": 0,
  "posts_last_30d": 22,
  "_posts_last_30d_est": false,
@@ -16,14 +16,14 @@
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_topical_strength": "35건",
+  "beauty_topical_strength": "50건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-17T10:38:29.004612+09:00",
- "score_total": 65.5,
- "grade": "B",
+ "evaluated_at": "2026-06-18T17:15:09.483897+09:00",
+ "score_total": 75.5,
+ "grade": "A",
  "score_breakdown": {
-  "er_score": 40,
+  "er_score": 60,
   "brand_fit_score": 90,
   "consistency_score": 100,
   "follower_scale_score": 80,
@@ -31,22 +31,12 @@
  },
  "estimation_flags": {
   "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 실측)",
-  "posts_last_30d": "measured (taken_at 실측)",
+  "posts_last_30d": "measured (taken_at 실측, 24샘플 내 30일경계 포착)",
   "brand_fit": "measured (캡션+bio 키워드 실측)",
   "followers": "measured"
  },
- "sample_note": "2026-06-17T10:38:29.004612+09:00 STEP B 풀 재분석 — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-18T17:15:09.483897+09:00 STEP B-Light rolling refresh(17:00 슬롯) — IG 세션, web feed API(feed/user) 24개 실측(2페이지 페이지네이션, 5s throttle). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드. avg_views 미수집(ER 무관). grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
-  {
-   "evaluated_at": "2026-06-12T17:12:38.495268+09:00",
-   "followers": 89806,
-   "engagement_rate": 0.0106,
-   "posts_last_30d": 22,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 75.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
    "followers": 88000,
@@ -389,6 +379,16 @@
    "posts_last_30d": 16,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 65.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-06-17T10:38:29.004612+09:00",
+   "followers": 90116,
+   "engagement_rate": 0.0057,
+   "posts_last_30d": 22,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
    "score_total": 65.5,
    "grade": "B"
   }
