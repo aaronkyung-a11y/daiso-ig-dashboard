@@ -18,7 +18,7 @@
   "beauty_topical_strength": "0건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-17T10:38:29.004612+09:00",
+ "evaluated_at": "2026-06-19T14:10:47.708231+09:00",
  "score_total": 36.2,
  "grade": "D",
  "score_breakdown": {
@@ -29,12 +29,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "kept (web_profile_info 404 — 계정 비공개/삭제/변경 추정, 이전값 유지)",
+  "engagement_rate": "kept (web_profile_info 404 — 계정 비공개/삭제/핸들변경 추정, 이전값 유지)",
   "posts_last_30d": "측정불가 → 0 처리",
   "brand_fit": "측정불가 → 25 처리",
   "followers": "측정불가(404) → 0 처리"
  },
- "sample_note": "2026-06-17T10:38:29.004612+09:00 STEP B 풀 재분석 — web_profile_info HTTP 404 (계정 접근 불가, 비공개/삭제/핸들변경 추정). 이전 측정값 유지. score_total 숫자 유지.",
+ "sample_note": "2026-06-19T14:10:47.708231+09:00 STEP B-Light rolling refresh — web_profile_info HTTP 404 재확인 (로그인 세션 정상, 타계정 200 확인됨; 본 계정 접근 불가/삭제/핸들변경 추정). 이전 측정값·score_total(number) 유지.",
  "history": [
   {
    "evaluated_at": "2026-06-12T14:12:12.265461+09:00",
@@ -154,6 +154,16 @@
   },
   {
    "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+   "followers": 0,
+   "engagement_rate": 0.0,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 36.2,
+   "grade": "D"
+  },
+  {
+   "evaluated_at": "2026-06-17T10:38:29.004612+09:00",
    "followers": 0,
    "engagement_rate": 0.0,
    "posts_last_30d": 0,
