@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-06-19T14:11:55.339011+09:00",
- "lastUpdated": "2026-06-19T14:11:55.339011+09:00",
- "last_run_mode": "평일 14:00 슬롯 (자동 스케줄). STEP A: 큐 3소스 신규 0건 (GitHub Issues eval-queue 0 · _queue.txt 빈 큐 · Google Form 134계정 전건 기분석·JSON 존재 SKIP). STEP B 풀 재분석 SKIP (10시 슬롯 아님). STEP B-Light 실행: 최오래 2건 재분석 (YT minniep RSS 실측 · IG mingjikim_107 web_profile_info 404 재확인·이전값 유지). score_total null 0. grades S11/A32/B53/C36/D2.",
+ "last_updated": "2026-06-19T17:11:37.876304+09:00",
+ "lastUpdated": "2026-06-19T17:11:37.876304+09:00",
+ "last_run_mode": "평일 17:00 슬롯 (자동 스케줄). STEP A: 큐 3소스 신규 0건 (GitHub Issues eval-queue 0 · _queue.txt 빈 큐 · Google Form 134계정 전건 기분석·JSON 존재 SKIP). STEP B 풀 재분석 SKIP (10시 슬롯 아님). STEP B-Light: 최오래 2건 재분석 (YT Pibukyurl · YT 내면의여유, yt-dlp 최근10개 실측). score_total null 0. grades S11/A32/B53/C36/D2.",
  "total": 134,
  "platforms": {
   "instagram": 23,
@@ -18,8 +18,8 @@
   "our_brand": 19,
   "olive_young": 49,
   "mixed": 9,
-  "beauty_general": 16,
-  "daiso": 32,
+  "beauty_general": 15,
+  "daiso": 33,
   "off_topic": 9
  },
  "records": [
@@ -577,20 +577,20 @@
    "channel_id": "UCd7icqUv7f8k2E6n4WOCIQg",
    "followers": 63200,
    "engagement_rate": 0.0319,
-   "avg_views": 47386.6,
-   "avg_likes": 1510.6,
+   "avg_views": 47819.2,
+   "avg_likes": 1526.6,
    "posts_last_30d": 7,
    "_posts_last_30d_est": false,
    "sample_size": 10,
    "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
+   "retailer_focus": "daiso",
    "retailer_signal": {
-    "daiso_mentions": "0건",
+    "daiso_mentions": "2건",
     "olive_young_mentions": "0건",
-    "beauty_topical_strength": "53건",
+    "beauty_topical_strength": "141건",
     "labrang_blanc_doux_mention": "없음"
    },
-   "evaluated_at": "2026-06-19T10:16:07.656887+09:00",
+   "evaluated_at": "2026-06-19T17:09:53.780554+09:00",
    "score_total": 82.5,
    "grade": "A",
    "score_breakdown": {
@@ -606,7 +606,7 @@
     "brand_fit": "measured (제목+태그+설명 키워드 실측)",
     "followers": "measured (channel_follower_count 실측)"
    },
-   "sample_note": "2026-06-19T10:16:07.656887+09:00 STEP B 풀 재분석 (자동, yt-dlp 서버사이드) — 최근10개 메타 실측. ER=avg_likes/avg_views(샘플 10). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D."
+   "sample_note": "2026-06-19T17:09:53.780554+09:00 STEP B-Light 롤링 재분석 (자동, 17:00 슬롯, yt-dlp 서버사이드) — 최근10개 메타 실측. ER=avg_likes/avg_views(샘플 10). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D."
   },
   {
    "platform": "youtube",
@@ -615,9 +615,9 @@
    "profile_url": "https://www.youtube.com/channel/UC4OMwa7uM-RC-36JObkN3LQ",
    "channel_id": "UC4OMwa7uM-RC-36JObkN3LQ",
    "followers": 41200,
-   "engagement_rate": 0.0389,
-   "avg_views": 169.5,
-   "avg_likes": 6.6,
+   "engagement_rate": 0.039,
+   "avg_views": 172.0,
+   "avg_likes": 6.7,
    "posts_last_30d": 10,
    "_posts_last_30d_est": true,
    "sample_size": 10,
@@ -629,7 +629,7 @@
     "beauty_topical_strength": "4건",
     "labrang_blanc_doux_mention": "없음"
    },
-   "evaluated_at": "2026-06-19T10:16:07.656887+09:00",
+   "evaluated_at": "2026-06-19T17:09:53.780554+09:00",
    "score_total": 81.8,
    "grade": "A",
    "score_breakdown": {
@@ -645,7 +645,7 @@
     "brand_fit": "measured (제목+태그+설명 키워드 실측)",
     "followers": "measured (channel_follower_count 실측)"
    },
-   "sample_note": "2026-06-19T10:16:07.656887+09:00 STEP B 풀 재분석 (자동, yt-dlp 서버사이드) — 최근10개 메타 실측. ER=avg_likes/avg_views(샘플 10). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D."
+   "sample_note": "2026-06-19T17:09:53.780554+09:00 STEP B-Light 롤링 재분석 (자동, 17:00 슬롯, yt-dlp 서버사이드) — 최근10개 메타 실측. ER=avg_likes/avg_views(샘플 10). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D."
   },
   {
    "platform": "youtube",
