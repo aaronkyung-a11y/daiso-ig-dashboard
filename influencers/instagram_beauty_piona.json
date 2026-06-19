@@ -3,23 +3,23 @@
  "username": "beauty_piona",
  "fullname": "문혜경",
  "profile_url": "https://www.instagram.com/beauty_piona/",
- "followers": 6145,
- "engagement_rate": 0.1937,
- "avg_likes": 1097,
+ "followers": 6144,
+ "engagement_rate": 0.194,
+ "avg_likes": 1099,
  "avg_comments": 93,
- "avg_views": 419329,
+ "avg_views": 419500,
  "posts_last_30d": 21,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "10건",
+  "daiso_mentions": "11건",
   "olive_young_mentions": "0건",
-  "beauty_topical_strength": "45건",
+  "beauty_topical_strength": "59건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-18T14:13:14.028862+09:00",
+ "evaluated_at": "2026-06-19T10:32:29.467856+09:00",
  "score_total": 96.0,
  "grade": "S",
  "score_breakdown": {
@@ -30,12 +30,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 실측)",
+  "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API(feed/user) 로그인 실측)",
   "posts_last_30d": "measured (taken_at 실측)",
   "brand_fit": "measured (캡션+bio 키워드 실측)",
   "followers": "measured"
  },
- "sample_note": "2026-06-18T14:13:14.028862+09:00 STEP B-Light(14시 슬롯) rolling refresh — IG 로그인, web feed API(feed/user) 최근 24개 실측(좋아요/댓글/조회/캡션/taken_at). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-19T10:32:29.467856+09:00 STEP B 풀 재분석 (자동, Chrome 로그인 세션) — web feed API(feed/user) 최근24개 실측(좋아요/댓글/조회/캡션/taken_at). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-12T17:12:38.495268+09:00",
@@ -287,6 +287,16 @@
    "evaluated_at": "2026-06-17T10:38:29.004612+09:00",
    "followers": 6138,
    "engagement_rate": 0.1925,
+   "posts_last_30d": 21,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 96.0,
+   "grade": "S"
+  },
+  {
+   "evaluated_at": "2026-06-18T14:13:14.028862+09:00",
+   "followers": 6145,
+   "engagement_rate": 0.1937,
    "posts_last_30d": 21,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",

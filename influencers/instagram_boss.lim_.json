@@ -4,10 +4,10 @@
  "fullname": "보스",
  "profile_url": "https://www.instagram.com/boss.lim_/",
  "followers": 721,
- "engagement_rate": 0.0891701340730467,
+ "engagement_rate": 0.0888,
  "avg_likes": 61,
  "avg_comments": 3,
- "avg_views": 0,
+ "avg_views": 12236,
  "posts_last_30d": 7,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -19,8 +19,8 @@
   "beauty_topical_strength": "29건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-18T17:15:09.483897+09:00",
- "score_total": 86,
+ "evaluated_at": "2026-06-19T10:32:29.467856+09:00",
+ "score_total": 86.0,
  "grade": "S",
  "score_breakdown": {
   "er_score": 90,
@@ -30,12 +30,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API 실측)",
-  "posts_last_30d": "measured (taken_at 실측, 24샘플 내 30일경계 포착)",
+  "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API(feed/user) 로그인 실측)",
+  "posts_last_30d": "measured (taken_at 실측)",
   "brand_fit": "measured (캡션+bio 키워드 실측)",
   "followers": "measured"
  },
- "sample_note": "2026-06-18T17:15:09.483897+09:00 STEP B-Light rolling refresh(17:00 슬롯) — IG 세션, web feed API(feed/user) 24개 실측(2페이지 페이지네이션, 5s throttle). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio 키워드. avg_views 미수집(ER 무관). grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-19T10:32:29.467856+09:00 STEP B 풀 재분석 (자동, Chrome 로그인 세션) — web feed API(feed/user) 최근24개 실측(좋아요/댓글/조회/캡션/taken_at). ER=(평균좋아요+평균댓글)/팔로워. brand_fit=캡션+bio. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-16T14:12:29.996613+09:00",
@@ -187,6 +187,16 @@
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "score_total": 86.0,
+   "grade": "S"
+  },
+  {
+   "evaluated_at": "2026-06-18T17:15:09.483897+09:00",
+   "followers": 721,
+   "engagement_rate": 0.0891701340730467,
+   "posts_last_30d": 7,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 86,
    "grade": "S"
   }
  ]
