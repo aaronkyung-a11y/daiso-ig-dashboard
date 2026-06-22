@@ -6,37 +6,47 @@
  "channel_id": "UCdgKFoa_nAO0DVm8stiA0Ig",
  "followers": 52500,
  "engagement_rate": 0.0124,
- "avg_views": 20843.4,
- "avg_likes": 258.1,
- "posts_last_30d": 10,
+ "avg_views": 20941.3,
+ "avg_likes": 259.1,
+ "posts_last_30d": 8,
  "_posts_last_30d_est": false,
  "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "4건",
-  "beauty_topical_strength": "13건",
+  "olive_young_mentions": "5건",
+  "beauty_topical_strength": "14건",
   "labrang_blanc_doux_mention": "없음"
  },
- "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
- "score_total": 75.5,
- "grade": "A",
+ "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+ "score_total": 72.5,
+ "grade": "B",
  "score_breakdown": {
   "er_score": 60,
   "brand_fit_score": 90,
-  "consistency_score": 100,
+  "consistency_score": 80,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "engagement_rate": "measured (YouTube RSS 최근15개 조회수/좋아요 실측)",
-  "posts_last_30d": "measured (published 실측)",
+  "posts_last_30d": "measured (30일 경계까지 실측)",
   "brand_fit": "measured (제목+설명 키워드 실측)",
   "followers": "carried (RSS 미제공 — 전일 실측값 유지, 일변동 미미)"
  },
- "sample_note": "2026-06-19T10:21:33.475649+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-22T10:19:15.183340+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
+  {
+   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
+   "followers": 52500,
+   "engagement_rate": 0.0124,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 75.5,
+   "grade": "A"
+  },
   {
    "evaluated_at": "2026-06-17T10:28:47.830172+09:00",
    "followers": 52500,

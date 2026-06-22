@@ -5,38 +5,48 @@
  "profile_url": "https://www.youtube.com/channel/UCn7Ifm7sq_IIMivtzZ-LtnA",
  "channel_id": "UCn7Ifm7sq_IIMivtzZ-LtnA",
  "followers": 79500,
- "engagement_rate": 0.0145,
- "avg_views": 14555.0,
- "avg_likes": 211.0,
- "posts_last_30d": 5,
+ "engagement_rate": 0.0118,
+ "avg_views": 31621.9,
+ "avg_likes": 372.2,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 10,
+ "sample_size": 15,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "6건",
-  "beauty_topical_strength": "35건",
+  "olive_young_mentions": "11건",
+  "beauty_topical_strength": "46건",
   "labrang_blanc_doux_mention": "있음"
  },
- "evaluated_at": "2026-06-19T10:18:26.948709+09:00",
- "score_total": 75.0,
+ "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+ "score_total": 78.0,
  "grade": "A",
  "score_breakdown": {
   "er_score": 60,
   "brand_fit_score": 100,
-  "consistency_score": 80,
+  "consistency_score": 100,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (yt-dlp 최근10개 메타 실측)",
-  "posts_last_30d": "measured (timestamp 실측)",
-  "brand_fit": "measured (제목+태그+설명 키워드 실측)",
-  "followers": "measured (channel_follower_count 실측)"
+  "engagement_rate": "measured (YouTube RSS 최근15개 조회수/좋아요 실측)",
+  "posts_last_30d": "measured (30일 경계까지 실측)",
+  "brand_fit": "measured (제목+설명 키워드 실측)",
+  "followers": "carried (RSS 미제공 — 전일 실측값 유지, 일변동 미미)"
  },
- "sample_note": "2026-06-19T10:18:26.948709+09:00 STEP B 풀 재분석 (자동, yt-dlp 서버사이드) — 최근10개 메타 실측. ER=avg_likes/avg_views(샘플 10). brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-22T10:19:15.183340+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
+  {
+   "evaluated_at": "2026-06-19T10:18:26.948709+09:00",
+   "followers": 79500,
+   "engagement_rate": 0.0145,
+   "posts_last_30d": 5,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 75.0,
+   "grade": "A"
+  },
   {
    "evaluated_at": "2026-06-17T10:29:30.701414+09:00",
    "followers": 79500,

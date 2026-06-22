@@ -6,37 +6,47 @@
  "channel_id": "UCwYf2nxcgJ1WNul1nKs14qw",
  "followers": 88,
  "engagement_rate": 0.0102,
- "avg_views": 17660.0,
+ "avg_views": 17663.0,
  "avg_likes": 180.0,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 2,
- "brand_fit_score": 75,
+ "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "8건",
+  "daiso_mentions": "13건",
   "olive_young_mentions": "0건",
-  "beauty_topical_strength": "4건",
+  "beauty_topical_strength": "11건",
   "labrang_blanc_doux_mention": "없음"
  },
- "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
- "score_total": 58.8,
+ "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+ "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
   "er_score": 60,
-  "brand_fit_score": 75,
+  "brand_fit_score": 90,
   "consistency_score": 40,
   "follower_scale_score": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "engagement_rate": "measured (YouTube RSS 최근2개 조회수/좋아요 실측)",
-  "posts_last_30d": "measured (published 실측)",
+  "posts_last_30d": "measured (30일 경계까지 실측)",
   "brand_fit": "measured (제목+설명 키워드 실측)",
   "followers": "carried (RSS 미제공 — 전일 실측값 유지, 일변동 미미)"
  },
- "sample_note": "2026-06-19T10:21:33.475649+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근2개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-22T10:19:15.183340+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근2개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
+  {
+   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
+   "followers": 88,
+   "engagement_rate": 0.0102,
+   "posts_last_30d": 0,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "score_total": 58.8,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-06-17T10:37:09.720708+09:00",
    "followers": 88,

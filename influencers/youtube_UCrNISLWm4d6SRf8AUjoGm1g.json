@@ -5,21 +5,21 @@
  "profile_url": "https://www.youtube.com/channel/UCrNISLWm4d6SRf8AUjoGm1g",
  "channel_id": "UCrNISLWm4d6SRf8AUjoGm1g",
  "followers": 124000,
- "engagement_rate": 0.0314,
- "avg_views": 54100.9,
- "avg_likes": 1698.1,
+ "engagement_rate": 0.0301,
+ "avg_views": 52563.5,
+ "avg_likes": 1580.3,
  "posts_last_30d": 13,
  "_posts_last_30d_est": false,
- "sample_size": 13,
+ "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "3건",
-  "beauty_topical_strength": "25건",
-  "labrang_blanc_doux_mention": false
+  "beauty_topical_strength": "26건",
+  "labrang_blanc_doux_mention": "없음"
  },
- "evaluated_at": "2026-06-19T14:09:34.544918+09:00",
+ "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
  "score_total": 87.5,
  "grade": "S",
  "score_breakdown": {
@@ -30,13 +30,23 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (RSS 최근영상 조회/좋아요 실측, avg_likes/avg_views)",
-  "posts_last_30d": "measured (RSS published 30일 실측)",
+  "engagement_rate": "measured (YouTube RSS 최근15개 조회수/좋아요 실측)",
+  "posts_last_30d": "measured (30일 경계까지 실측)",
   "brand_fit": "measured (제목+설명 키워드 실측)",
-  "followers": "measured (yt-dlp channel_follower_count)"
+  "followers": "carried (RSS 미제공 — 전일 실측값 유지, 일변동 미미)"
  },
- "sample_note": "2026-06-19T14:09:34.544918+09:00 STEP B-Light rolling refresh (자동, YT RSS+yt-dlp follower) — 최근13개 메타 실측. ER=avg_likes/avg_views. brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-22T10:19:15.183340+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
+  {
+   "evaluated_at": "2026-06-19T14:09:34.544918+09:00",
+   "followers": 124000,
+   "engagement_rate": 0.0314,
+   "posts_last_30d": 13,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 87.5,
+   "grade": "S"
+  },
   {
    "evaluated_at": "2026-06-17T10:25:40.298468+09:00",
    "followers": 123000,

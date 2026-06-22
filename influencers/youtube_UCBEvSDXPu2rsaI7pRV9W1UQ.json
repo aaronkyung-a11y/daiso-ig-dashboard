@@ -5,9 +5,9 @@
  "profile_url": "https://www.youtube.com/channel/UCBEvSDXPu2rsaI7pRV9W1UQ",
  "channel_id": "UCBEvSDXPu2rsaI7pRV9W1UQ",
  "followers": 37400,
- "engagement_rate": 0.0134,
- "avg_views": 68996.9,
- "avg_likes": 925.5,
+ "engagement_rate": 0.0139,
+ "avg_views": 91880.6,
+ "avg_likes": 1274.6,
  "posts_last_30d": 15,
  "_posts_last_30d_est": true,
  "sample_size": 15,
@@ -19,7 +19,7 @@
   "beauty_topical_strength": "43건",
   "labrang_blanc_doux_mention": "없음"
  },
- "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
+ "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -35,8 +35,18 @@
   "brand_fit": "measured (제목+설명 키워드 실측)",
   "followers": "carried (RSS 미제공 — 전일 실측값 유지, 일변동 미미)"
  },
- "sample_note": "2026-06-19T10:21:33.475649+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-22T10:19:15.183340+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
+  {
+   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
+   "followers": 37400,
+   "engagement_rate": 0.0134,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 75.5,
+   "grade": "A"
+  },
   {
    "evaluated_at": "2026-06-17T10:26:21.263322+09:00",
    "followers": 37400,

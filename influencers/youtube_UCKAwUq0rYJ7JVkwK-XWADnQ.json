@@ -6,9 +6,9 @@
  "channel_id": "UCKAwUq0rYJ7JVkwK-XWADnQ",
  "followers": 51400,
  "engagement_rate": 0.0071,
- "avg_views": 58044.9,
- "avg_likes": 410.3,
- "posts_last_30d": 9,
+ "avg_views": 58865.0,
+ "avg_likes": 415.0,
+ "posts_last_30d": 8,
  "_posts_last_30d_est": false,
  "sample_size": 15,
  "brand_fit_score": 90,
@@ -19,7 +19,7 @@
   "beauty_topical_strength": "8건",
   "labrang_blanc_doux_mention": "없음"
  },
- "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
+ "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
  "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
@@ -31,12 +31,22 @@
  },
  "estimation_flags": {
   "engagement_rate": "measured (YouTube RSS 최근15개 조회수/좋아요 실측)",
-  "posts_last_30d": "measured (published 실측)",
+  "posts_last_30d": "measured (30일 경계까지 실측)",
   "brand_fit": "measured (제목+설명 키워드 실측)",
   "followers": "carried (RSS 미제공 — 전일 실측값 유지, 일변동 미미)"
  },
- "sample_note": "2026-06-19T10:21:33.475649+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-22T10:19:15.183340+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
+  {
+   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
+   "followers": 51400,
+   "engagement_rate": 0.0071,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
+   "score_total": 62.5,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-06-17T10:27:23.435380+09:00",
    "followers": 51300,
