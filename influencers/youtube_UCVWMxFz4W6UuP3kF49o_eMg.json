@@ -4,9 +4,9 @@
  "fullname": "코아 imk0a",
  "profile_url": "https://www.youtube.com/channel/UCVWMxFz4W6UuP3kF49o_eMg",
  "channel_id": "UCVWMxFz4W6UuP3kF49o_eMg",
- "followers": 176,
+ "followers": 175,
  "engagement_rate": 0.003,
- "avg_views": 1819.1,
+ "avg_views": 1824.2,
  "avg_likes": 5.4,
  "posts_last_30d": 4,
  "_posts_last_30d_est": false,
@@ -19,7 +19,7 @@
   "beauty_topical_strength": "39건",
   "labrang_blanc_doux_mention": "없음"
  },
- "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+ "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
  "score_total": 55.5,
  "grade": "C",
  "score_breakdown": {
@@ -30,12 +30,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (YouTube RSS 최근15개 조회수/좋아요 실측)",
-  "posts_last_30d": "measured (30일 경계까지 실측)",
+  "engagement_rate": "measured (yt-dlp 최근영상 조회수/좋아요 실측)",
+  "posts_last_30d": "measured (timestamp 30일 경계 실측)",
   "brand_fit": "measured (제목+설명 키워드 실측)",
-  "followers": "carried (RSS 미제공 — 전일 실측값 유지, 일변동 미미)"
+  "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-22T10:19:15.183340+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-23T10:17:31.550244+09:00 STEP B 풀 재분석 (자동, yt-dlp) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
@@ -159,6 +159,16 @@
    "posts_last_30d": 4,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 55.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+   "followers": 176,
+   "engagement_rate": 0.003,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
    "score_total": 55.5,
    "grade": "C"
   }

@@ -4,38 +4,38 @@
  "fullname": "뮤제 MUSEE",
  "profile_url": "https://www.youtube.com/channel/UC4BFwp5_Xf16cV1HecJYMJA",
  "channel_id": "UC4BFwp5_Xf16cV1HecJYMJA",
- "followers": 12500,
- "engagement_rate": 0.0163,
- "avg_views": 43864.0,
- "avg_likes": 712.9,
- "posts_last_30d": 4,
+ "followers": 12600,
+ "engagement_rate": 0.0225,
+ "avg_views": 31413.5,
+ "avg_likes": 707.9,
+ "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 15,
- "brand_fit_score": 100,
- "retailer_focus": "our_brand",
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "13건",
-  "olive_young_mentions": "27건",
-  "beauty_topical_strength": "70건",
-  "labrang_blanc_doux_mention": "있음"
+  "daiso_mentions": "2건",
+  "olive_young_mentions": "47건",
+  "beauty_topical_strength": "148건",
+  "labrang_blanc_doux_mention": "없음"
  },
- "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
- "score_total": 72.0,
+ "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
+ "score_total": 66.5,
  "grade": "B",
  "score_breakdown": {
   "er_score": 60,
-  "brand_fit_score": 100,
-  "consistency_score": 60,
+  "brand_fit_score": 90,
+  "consistency_score": 40,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (YouTube RSS 최근15개 조회수/좋아요 실측)",
-  "posts_last_30d": "measured (30일 경계까지 실측)",
+  "engagement_rate": "measured (yt-dlp 최근영상 조회수/좋아요 실측)",
+  "posts_last_30d": "measured (timestamp 30일 경계 실측)",
   "brand_fit": "measured (제목+설명 키워드 실측)",
-  "followers": "carried (RSS 미제공 — 전일 실측값 유지, 일변동 미미)"
+  "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-22T10:19:15.183340+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-23T10:17:31.550244+09:00 STEP B 풀 재분석 (자동, yt-dlp) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
@@ -171,6 +171,16 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "score_total": 66.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+   "followers": 12500,
+   "engagement_rate": 0.0163,
+   "posts_last_30d": 4,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 72.0,
    "grade": "B"
   }
  ]

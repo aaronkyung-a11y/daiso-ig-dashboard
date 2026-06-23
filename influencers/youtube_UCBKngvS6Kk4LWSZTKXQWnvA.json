@@ -4,22 +4,22 @@
  "fullname": "오드의원 민경률 원장",
  "profile_url": "https://www.youtube.com/channel/UCBKngvS6Kk4LWSZTKXQWnvA",
  "channel_id": "UCBKngvS6Kk4LWSZTKXQWnvA",
- "followers": 1720,
+ "followers": 2300,
  "engagement_rate": 0.008,
- "avg_views": 81457.9,
- "avg_likes": 651.3,
- "posts_last_30d": 12,
+ "avg_views": 86509.8,
+ "avg_likes": 689.5,
+ "posts_last_30d": 13,
  "_posts_last_30d_est": false,
  "sample_size": 15,
  "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "5건",
-  "olive_young_mentions": "7건",
-  "beauty_topical_strength": "29건",
+  "olive_young_mentions": "4건",
+  "beauty_topical_strength": "28건",
   "labrang_blanc_doux_mention": "없음"
  },
- "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+ "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
  "score_total": 63.5,
  "grade": "C",
  "score_breakdown": {
@@ -30,12 +30,12 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (YouTube RSS 최근15개 조회수/좋아요 실측)",
-  "posts_last_30d": "measured (30일 경계까지 실측)",
+  "engagement_rate": "measured (yt-dlp 최근영상 조회수/좋아요 실측)",
+  "posts_last_30d": "measured (timestamp 30일 경계 실측)",
   "brand_fit": "measured (제목+설명 키워드 실측)",
-  "followers": "carried (RSS 미제공 — 전일 실측값 유지, 일변동 미미)"
+  "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-22T10:19:15.183340+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-23T10:17:31.550244+09:00 STEP B 풀 재분석 (자동, yt-dlp) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
@@ -140,6 +140,16 @@
    "posts_last_30d": 10,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
+   "score_total": 63.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+   "followers": 1720,
+   "engagement_rate": 0.008,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
    "score_total": 63.5,
    "grade": "C"
   }

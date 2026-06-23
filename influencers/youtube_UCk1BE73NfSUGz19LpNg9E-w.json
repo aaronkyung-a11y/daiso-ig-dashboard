@@ -1,41 +1,41 @@
 {
  "platform": "youtube",
  "username": "UCk1BE73NfSUGz19LpNg9E-w",
- "fullname": "데일리 미라클",
+ "fullname": "daily miracle~",
  "profile_url": "https://www.youtube.com/channel/UCk1BE73NfSUGz19LpNg9E-w",
  "channel_id": "UCk1BE73NfSUGz19LpNg9E-w",
  "followers": 383000,
- "engagement_rate": 0.0061,
- "avg_views": 35231.6,
- "avg_likes": 215.5,
- "posts_last_30d": 15,
- "_posts_last_30d_est": true,
+ "engagement_rate": 0.0108,
+ "avg_views": 10187.7,
+ "avg_likes": 109.6,
+ "posts_last_30d": 4,
+ "_posts_last_30d_est": false,
  "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "1건",
-  "beauty_topical_strength": "26건",
+  "olive_young_mentions": "2건",
+  "beauty_topical_strength": "56건",
   "labrang_blanc_doux_mention": "없음"
  },
- "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
- "score_total": 67.5,
+ "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
+ "score_total": 71.5,
  "grade": "B",
  "score_breakdown": {
-  "er_score": 40,
+  "er_score": 60,
   "brand_fit_score": 90,
-  "consistency_score": 100,
+  "consistency_score": 60,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (YouTube RSS 최근15개 조회수/좋아요 실측)",
-  "posts_last_30d": "estimated (RSS 최근15개 전건 30일내 — 실제 더 많을 수 있음)",
+  "engagement_rate": "measured (yt-dlp 최근영상 조회수/좋아요 실측)",
+  "posts_last_30d": "measured (timestamp 30일 경계 실측)",
   "brand_fit": "measured (제목+설명 키워드 실측)",
-  "followers": "carried (RSS 미제공 — 전일 실측값 유지, 일변동 미미)"
+  "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-22T10:19:15.183340+09:00 STEP B 풀 재분석 (자동, YouTube RSS 서버사이드) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. followers=전일값 유지(RSS 미제공). brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-23T10:17:31.550244+09:00 STEP B 풀 재분석 (자동, yt-dlp) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
@@ -160,6 +160,16 @@
    "retailer_focus": "olive_young",
    "score_total": 61.5,
    "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+   "followers": 383000,
+   "engagement_rate": 0.0061,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 67.5,
+   "grade": "B"
   }
  ]
 }
