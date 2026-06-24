@@ -1,266 +1,277 @@
 {
- "platform": "youtube",
- "username": "UCRiIf6rt91BVfZVtURRXlOw",
- "fullname": "지냐 Jinyaa",
- "profile_url": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
- "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
- "followers": 361000,
- "engagement_rate": 0.0231,
- "avg_views": 94911.9,
- "avg_likes": 2189.8,
- "posts_last_30d": 4,
- "_posts_last_30d_est": false,
- "sample_size": 15,
- "brand_fit_score": 100,
- "retailer_focus": "our_brand",
- "retailer_signal": {
-  "daiso_mentions": "15건",
-  "olive_young_mentions": "18건",
-  "beauty_topical_strength": "199건",
-  "labrang_blanc_doux_mention": true
- },
- "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
- "score_total": 74.0,
- "grade": "B",
- "score_breakdown": {
-  "er_score": 60,
+  "platform": "youtube",
+  "username": "UCRiIf6rt91BVfZVtURRXlOw",
+  "fullname": "지냐 Jinyaa",
+  "profile_url": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
+  "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
+  "followers": 361000,
+  "engagement_rate": 0.023,
+  "avg_likes": 2193.7,
+  "avg_comments": null,
+  "avg_views": 95261.8,
+  "posts_last_30d": 4,
+  "_posts_last_30d_est": false,
+  "sample_size": 15,
   "brand_fit_score": 100,
-  "consistency_score": 60,
-  "follower_scale_score": 100,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "estimation_flags": {
-  "engagement_rate": "measured (yt-dlp 최근영상 조회수/좋아요 실측)",
-  "posts_last_30d": "measured (timestamp 30일 경계 실측)",
-  "brand_fit": "measured (제목+설명 키워드 실측)",
-  "followers": "measured (yt-dlp channel_follower_count)"
- },
- "sample_note": "2026-06-23T10:17:31.550244+09:00 STEP B 풀 재분석 (자동, yt-dlp) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. brand_fit=제목+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
- "history": [
-  {
-   "evaluated_at": "2026-06-19T10:35:22.263612+09:00",
-   "followers": 361000,
-   "engagement_rate": 0.0244,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 74.5,
-   "grade": "B"
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso_mentions": "57건",
+    "olive_young_mentions": "64건",
+    "beauty_topical_strength": "775건",
+    "labrang_blanc_doux_mention": true
   },
-  {
-   "evaluated_at": "2026-06-17T10:24:03.460005+09:00",
-   "followers": 361000,
-   "engagement_rate": 0.0234,
-   "posts_last_30d": 6,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
+  "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
+  "score_total": 74.0,
+  "grade": "B",
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit_score": 100,
+    "consistency_score": 60,
+    "follower_scale_score": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  {
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
-   "followers": 361000,
-   "engagement_rate": 0.0446,
-   "posts_last_30d": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 87.5,
-   "grade": "S"
+  "estimation_flags": {
+    "engagement_rate": "measured (yt-dlp 최근영상 조회수/좋아요 실측)",
+    "posts_last_30d": "measured (timestamp 30일 경계 실측); 샘플 15개 상한",
+    "brand_fit": "measured (제목+태그+설명 키워드 실측)",
+    "followers": "measured (yt-dlp channel_follower_count)"
   },
-  {
-   "evaluated_at": "2026-05-14T10:17:29.332318+09:00",
-   "followers": 358000,
-   "engagement_rate": 2.649,
-   "posts_last_30d": 5,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
-  {
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 84.5,
-   "engagement_rate": 3.3055,
-   "followers": 358000,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso"
-  },
-  {
-   "evaluated_at": "2026-05-13T01:11:43Z",
-   "engagement_rate": 2.67,
-   "posts_last_30d": 5,
-   "followers": 358000,
-   "score_total": 77.0,
-   "brand_fit_score": 100
-  },
-  {
-   "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-   "followers": 358000,
-   "engagement_rate": 2.649,
-   "posts_last_30d": 5,
-   "brand_fit_score": 100,
-   "score_total": 77.0
-  },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 359000,
-   "engagement_rate": 2.649,
-   "posts_last_30d": 5,
-   "brand_fit_score": 100,
-   "score_total": 77.0,
-   "grade": "A",
-   "note": "STEP B light refresh"
-  },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 359000,
-   "engagement_rate": 2.649,
-   "posts_last_30d": 5,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 359000,
-   "engagement_rate": 0.026,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 74.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-26T10:17:00+09:00",
-   "followers": 359000,
-   "engagement_rate": 0.0256,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 74.5,
-   "grade": "A",
-   "note": "STEP B full re-analysis (10:00 KST)"
-  },
-  {
-   "evaluated_at": "2026-05-26T10:17:00+09:00",
-   "score_total": 74.5,
-   "engagement_rate": 0.0256,
-   "followers": 359000,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "grade": "A"
-  },
-  {
-   "evaluated_at": "2026-05-27T10:33:00+09:00",
-   "score_total": 77.0,
-   "engagement_rate": 0.0257,
-   "followers": 359000,
-   "posts_last_30d": 5,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "grade": "A"
-  },
-  {
-   "evaluated_at": "2026-05-28T10:00:00+09:00",
-   "followers": 359000,
-   "engagement_rate": 0.0284,
-   "posts_last_30d": 5,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
-  {
-   "evaluated_at": "2026-06-01T01:11:51.441313+00:00",
-   "score_total": 51.0,
-   "grade": "C",
-   "engagement_rate": 0.0,
-   "followers": 360000,
-   "posts_last_30d": 0,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "avg_views": 0,
-   "avg_likes": 0,
-   "sample_size": 0
-  },
-  {
-   "evaluated_at": "2026-06-04T10:08:51.460406+09:00",
-   "score_total": 74.5,
-   "grade": "B",
-   "engagement_rate": 0.0238,
-   "followers": 360000,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "avg_views": 90904,
-   "avg_likes": 2162,
-   "sample_size": 6
-  },
-  {
-   "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
-   "followers": 360000,
-   "engagement_rate": 0.0324,
-   "posts_last_30d": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 87.5,
-   "grade": "S"
-  },
-  {
-   "evaluated_at": "2026-06-08T10:18:34.208965+09:00",
-   "score_total": 87.5,
-   "grade": "S",
-   "engagement_rate": 0.0346,
-   "followers": 360000,
-   "posts_last_30d": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "avg_views": 84696,
-   "avg_likes": 2930,
-   "sample_size": 4
-  },
-  {
-   "evaluated_at": "2026-06-10T10:14:38.256786+09:00",
-   "followers": 360000,
-   "engagement_rate": 0.0237,
-   "posts_last_30d": 4,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 74.0,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
-   "followers": 361000,
-   "engagement_rate": 0.0394,
-   "posts_last_30d": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 87.5,
-   "grade": "S"
-  },
-  {
-   "evaluated_at": "2026-06-18T10:15:21.723127+09:00",
-   "followers": 361000,
-   "engagement_rate": 0.0234,
-   "posts_last_30d": 5,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
-  {
-   "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
-   "followers": 361000,
-   "engagement_rate": 0.0316,
-   "posts_last_30d": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 87.5,
-   "grade": "S"
-  }
- ]
+  "sample_note": "2026-06-24T10:24:55.583567+09:00 STEP B 풀 재분석 (자동, yt-dlp) — 최근15개 조회수/좋아요/게시일/제목/설명 실측. ER=avg_likes/avg_views. brand_fit=제목+태그+설명. grade S>=85/A>=75/B>=65/C>=50/D.",
+  "history": [
+    {
+      "evaluated_at": "2026-06-19T10:35:22.263612+09:00",
+      "followers": 361000,
+      "engagement_rate": 0.0244,
+      "posts_last_30d": 5,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 74.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-06-17T10:24:03.460005+09:00",
+      "followers": 361000,
+      "engagement_rate": 0.0234,
+      "posts_last_30d": 6,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 77.0,
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
+      "followers": 361000,
+      "engagement_rate": 0.0446,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 87.5,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-05-14T10:17:29.332318+09:00",
+      "followers": 358000,
+      "engagement_rate": 2.649,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 77.0,
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 84.5,
+      "engagement_rate": 3.3055,
+      "followers": 358000,
+      "posts_last_30d": 5,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso"
+    },
+    {
+      "evaluated_at": "2026-05-13T01:11:43Z",
+      "engagement_rate": 2.67,
+      "posts_last_30d": 5,
+      "followers": 358000,
+      "score_total": 77.0,
+      "brand_fit_score": 100
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 358000,
+      "engagement_rate": 2.649,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "score_total": 77.0
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 359000,
+      "engagement_rate": 2.649,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "score_total": 77.0,
+      "grade": "A",
+      "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 359000,
+      "engagement_rate": 2.649,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 77.0,
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 359000,
+      "engagement_rate": 0.026,
+      "posts_last_30d": 5,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 74.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "followers": 359000,
+      "engagement_rate": 0.0256,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 74.5,
+      "grade": "A",
+      "note": "STEP B full re-analysis (10:00 KST)"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "score_total": 74.5,
+      "engagement_rate": 0.0256,
+      "followers": 359000,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-05-27T10:33:00+09:00",
+      "score_total": 77.0,
+      "engagement_rate": 0.0257,
+      "followers": 359000,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-05-28T10:00:00+09:00",
+      "followers": 359000,
+      "engagement_rate": 0.0284,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 77.0,
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-06-01T01:11:51.441313+00:00",
+      "score_total": 51.0,
+      "grade": "C",
+      "engagement_rate": 0.0,
+      "followers": 360000,
+      "posts_last_30d": 0,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "avg_views": 0,
+      "avg_likes": 0,
+      "sample_size": 0
+    },
+    {
+      "evaluated_at": "2026-06-04T10:08:51.460406+09:00",
+      "score_total": 74.5,
+      "grade": "B",
+      "engagement_rate": 0.0238,
+      "followers": 360000,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "avg_views": 90904,
+      "avg_likes": 2162,
+      "sample_size": 6
+    },
+    {
+      "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+      "followers": 360000,
+      "engagement_rate": 0.0324,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 87.5,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-06-08T10:18:34.208965+09:00",
+      "score_total": 87.5,
+      "grade": "S",
+      "engagement_rate": 0.0346,
+      "followers": 360000,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "avg_views": 84696,
+      "avg_likes": 2930,
+      "sample_size": 4
+    },
+    {
+      "evaluated_at": "2026-06-10T10:14:38.256786+09:00",
+      "followers": 360000,
+      "engagement_rate": 0.0237,
+      "posts_last_30d": 4,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 74.0,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+      "followers": 361000,
+      "engagement_rate": 0.0394,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 87.5,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-06-18T10:15:21.723127+09:00",
+      "followers": 361000,
+      "engagement_rate": 0.0234,
+      "posts_last_30d": 5,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 77.0,
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+      "followers": 361000,
+      "engagement_rate": 0.0316,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 87.5,
+      "grade": "S"
+    },
+    {
+      "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
+      "followers": 361000,
+      "engagement_rate": 0.0231,
+      "posts_last_30d": 4,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 74.0,
+      "grade": "B"
+    }
+  ]
 }
