@@ -4,39 +4,39 @@
  "fullname": "쎄이 SSAY",
  "profile_url": "https://www.youtube.com/channel/UC5BqeEsHJnYM4O4xvWJK3Cg",
  "channel_id": "UC5BqeEsHJnYM4O4xvWJK3Cg",
- "followers": 6810,
- "engagement_rate": 0.0129,
- "avg_likes": 52.7,
- "avg_comments": 16.0,
- "avg_views": 4090.7,
- "posts_last_30d": 1,
+ "followers": 6830,
+ "engagement_rate": 0.0143,
+ "avg_likes": 44.1,
+ "avg_comments": 3.7,
+ "avg_views": 3080.5,
+ "posts_last_30d": 16,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 16,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "88건",
-  "olive_young_mentions": "185건",
-  "beauty_topical_strength": "199건",
+  "daiso_mentions": "39건",
+  "olive_young_mentions": "52건",
+  "beauty_topical_strength": "63건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-25T13:16:23.242055+09:00",
- "score_total": 64.5,
- "grade": "C",
+ "evaluated_at": "2026-06-26T10:21:50.641466+09:00",
+ "score_total": 73.5,
+ "grade": "B",
  "score_breakdown": {
   "er_score": 60,
   "brand_fit_score": 90,
-  "consistency_score": 40,
+  "consistency_score": 100,
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (yt-dlp videos 최근영상 조회수/좋아요 실측)",
+  "engagement_rate": "measured (yt-dlp shorts 최근영상 조회수/좋아요 실측)",
   "posts_last_30d": "measured (timestamp 30일 경계 실측); 샘플 20개 상한",
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:16:23.242055+09:00 STEP B 풀 재분석 (자동, yt-dlp videos) — 최근20개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:21:50.641466+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -216,6 +216,16 @@
    "retailer_focus": "olive_young",
    "score_total": 64.5,
    "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:21:50.641466+09:00",
+   "followers": 6830,
+   "engagement_rate": 0.0143,
+   "posts_last_30d": 16,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 73.5,
+   "grade": "B"
   }
  ]
 }

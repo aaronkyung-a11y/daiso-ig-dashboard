@@ -4,14 +4,14 @@
  "fullname": "ARADHYA FACT",
  "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
  "channel_id": "UCAThGewvLVT5fW8utNfrawA",
- "followers": 736000,
- "engagement_rate": 0.0052,
- "avg_likes": 4524.8,
- "avg_comments": 5.1,
- "avg_views": 864276.4,
- "posts_last_30d": 20,
+ "followers": 739000,
+ "engagement_rate": 0.097,
+ "avg_likes": 95386.0,
+ "avg_comments": 3.9,
+ "avg_views": 983024.6,
+ "posts_last_30d": 16,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 16,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,11 +20,11 @@
   "beauty_topical_strength": "0건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-25T13:27:53.069254+09:00",
- "score_total": 51.2,
- "grade": "C",
+ "evaluated_at": "2026-06-26T10:22:30.152861+09:00",
+ "score_total": 76.2,
+ "grade": "A",
  "score_breakdown": {
-  "er_score": 40,
+  "er_score": 90,
   "brand_fit_score": 25,
   "consistency_score": 100,
   "follower_scale_score": 100,
@@ -36,7 +36,7 @@
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:27:53.069254+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근20개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:22:30.152861+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -198,6 +198,16 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "score_total": 81.2,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:22:30.152861+09:00",
+   "followers": 739000,
+   "engagement_rate": 0.097,
+   "posts_last_30d": 16,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 76.2,
    "grade": "A"
   }
  ]

@@ -4,29 +4,29 @@
  "fullname": "로빗 lobit🐰🫧",
  "profile_url": "https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA",
  "channel_id": "UCYxuoueMuR3f80RU_ua4TXA",
- "followers": 2680,
- "engagement_rate": 0.0153,
- "avg_likes": 2099.8,
- "avg_comments": 9.7,
- "avg_views": 137431.0,
- "posts_last_30d": 9,
+ "followers": 2690,
+ "engagement_rate": 0.0142,
+ "avg_likes": 2044.3,
+ "avg_comments": 8.2,
+ "avg_views": 143770.0,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 16,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "138건",
-  "olive_young_mentions": "93건",
-  "beauty_topical_strength": "97건",
+  "daiso_mentions": "111건",
+  "olive_young_mentions": "76건",
+  "beauty_topical_strength": "48건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-25T13:28:56.401588+09:00",
- "score_total": 73.0,
- "grade": "B",
+ "evaluated_at": "2026-06-26T10:24:23.033381+09:00",
+ "score_total": 76.0,
+ "grade": "A",
  "score_breakdown": {
   "er_score": 60,
   "brand_fit_score": 100,
-  "consistency_score": 80,
+  "consistency_score": 100,
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -36,7 +36,7 @@
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:28:56.401588+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근20개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:24:23.033381+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -191,6 +191,16 @@
    "retailer_focus": "our_brand",
    "score_total": 73.0,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:24:23.033381+09:00",
+   "followers": 2690,
+   "engagement_rate": 0.0142,
+   "posts_last_30d": 10,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 76.0,
+   "grade": "A"
   }
  ]
 }

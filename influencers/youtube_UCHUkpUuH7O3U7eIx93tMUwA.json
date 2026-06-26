@@ -5,38 +5,38 @@
  "profile_url": "https://www.youtube.com/channel/UCHUkpUuH7O3U7eIx93tMUwA",
  "channel_id": "UCHUkpUuH7O3U7eIx93tMUwA",
  "followers": 101000,
- "engagement_rate": 0.0192,
- "avg_likes": 172.1,
- "avg_comments": 46.8,
- "avg_views": 8968.4,
- "posts_last_30d": 5,
+ "engagement_rate": 0.0109,
+ "avg_likes": 90.2,
+ "avg_comments": 12.5,
+ "avg_views": 8266.1,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 20,
- "brand_fit_score": 100,
- "retailer_focus": "our_brand",
+ "sample_size": 16,
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "11건",
-  "olive_young_mentions": "8건",
-  "beauty_topical_strength": "268건",
-  "labrang_blanc_doux_mention": true
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "9건",
+  "beauty_topical_strength": "83건",
+  "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-25T13:17:27.909969+09:00",
- "score_total": 77.0,
- "grade": "A",
+ "evaluated_at": "2026-06-26T10:23:06.395421+09:00",
+ "score_total": 74.5,
+ "grade": "B",
  "score_breakdown": {
   "er_score": 60,
-  "brand_fit_score": 100,
+  "brand_fit_score": 90,
   "consistency_score": 80,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (yt-dlp videos 최근영상 조회수/좋아요 실측)",
+  "engagement_rate": "measured (yt-dlp shorts 최근영상 조회수/좋아요 실측)",
   "posts_last_30d": "measured (timestamp 30일 경계 실측); 샘플 20개 상한",
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:17:27.909969+09:00 STEP B 풀 재분석 (자동, yt-dlp videos) — 최근20개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:23:06.395421+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -186,6 +186,16 @@
    "retailer_focus": "our_brand",
    "score_total": 77.0,
    "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:23:06.395421+09:00",
+   "followers": 101000,
+   "engagement_rate": 0.0109,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 74.5,
+   "grade": "B"
   }
  ]
 }

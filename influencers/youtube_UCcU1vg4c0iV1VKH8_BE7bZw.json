@@ -4,23 +4,23 @@
  "fullname": "찐예쁨연구소",
  "profile_url": "https://www.youtube.com/channel/UCcU1vg4c0iV1VKH8_BE7bZw",
  "channel_id": "UCcU1vg4c0iV1VKH8_BE7bZw",
- "followers": 1180,
- "engagement_rate": 0.0134,
- "avg_likes": 34.2,
+ "followers": 1170,
+ "engagement_rate": 0.0145,
+ "avg_likes": 35.2,
  "avg_comments": 1.0,
- "avg_views": 2547.7,
+ "avg_views": 2428.0,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 16,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "8건",
-  "beauty_topical_strength": "13건",
+  "beauty_topical_strength": "9건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-25T13:28:56.401588+09:00",
+ "evaluated_at": "2026-06-26T10:25:00.487176+09:00",
  "score_total": 70.5,
  "grade": "B",
  "score_breakdown": {
@@ -36,7 +36,7 @@
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:28:56.401588+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근20개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:25:00.487176+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -169,6 +169,16 @@
    "followers": 1170,
    "engagement_rate": 0.0155,
    "posts_last_30d": 7,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 70.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:25:00.487176+09:00",
+   "followers": 1170,
+   "engagement_rate": 0.0145,
+   "posts_last_30d": 6,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "score_total": 70.5,

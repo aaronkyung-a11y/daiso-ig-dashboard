@@ -4,23 +4,23 @@
  "fullname": "유리나 𝒀𝒖𝒓𝒊𝒏𝒂",
  "profile_url": "https://www.youtube.com/channel/UCRPEXjbWYRtFdCKxMwWvrxQ",
  "channel_id": "UCRPEXjbWYRtFdCKxMwWvrxQ",
- "followers": 3020,
- "engagement_rate": 0.0129,
- "avg_likes": 675.5,
- "avg_comments": 8.7,
- "avg_views": 52523.3,
- "posts_last_30d": 13,
+ "followers": 3030,
+ "engagement_rate": 0.0123,
+ "avg_likes": 737.0,
+ "avg_comments": 8.1,
+ "avg_views": 60070.9,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 16,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "17건",
-  "olive_young_mentions": "30건",
-  "beauty_topical_strength": "45건",
+  "daiso_mentions": "10건",
+  "olive_young_mentions": "21건",
+  "beauty_topical_strength": "24건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-25T13:26:49.370098+09:00",
+ "evaluated_at": "2026-06-26T10:19:54.729384+09:00",
  "score_total": 76.0,
  "grade": "A",
  "score_breakdown": {
@@ -36,7 +36,7 @@
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:26:49.370098+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근20개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:19:54.729384+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-25T13:09:43.915692+09:00",
@@ -282,6 +282,16 @@
    "retailer_focus": "our_brand",
    "score_total": 74.8,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:19:54.729384+09:00",
+   "followers": 3030,
+   "engagement_rate": 0.0123,
+   "posts_last_30d": 12,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 76.0,
+   "grade": "A"
   }
  ]
 }

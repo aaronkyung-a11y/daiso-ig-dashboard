@@ -5,22 +5,22 @@
  "profile_url": "https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA",
  "channel_id": "UCmf_Xgbqr0WnQsUOJXWXLLA",
  "followers": 117000,
- "engagement_rate": 0.0212,
- "avg_likes": 4984.4,
- "avg_comments": 27.9,
- "avg_views": 234763.9,
- "posts_last_30d": 19,
+ "engagement_rate": 0.022,
+ "avg_likes": 4493.7,
+ "avg_comments": 26.5,
+ "avg_views": 204127.2,
+ "posts_last_30d": 16,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 16,
  "brand_fit_score": 95,
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "3건",
-  "olive_young_mentions": "9건",
+  "olive_young_mentions": "6건",
   "beauty_topical_strength": "4건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-25T13:30:00.929567+09:00",
+ "evaluated_at": "2026-06-26T10:26:11.933737+09:00",
  "score_total": 78.8,
  "grade": "A",
  "score_breakdown": {
@@ -36,7 +36,7 @@
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:30:00.929567+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근20개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:26:11.933737+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -189,6 +189,16 @@
    "followers": 117000,
    "engagement_rate": 0.0219,
    "posts_last_30d": 15,
+   "brand_fit_score": 95,
+   "retailer_focus": "our_brand",
+   "score_total": 78.8,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:26:11.933737+09:00",
+   "followers": 117000,
+   "engagement_rate": 0.022,
+   "posts_last_30d": 16,
    "brand_fit_score": 95,
    "retailer_focus": "our_brand",
    "score_total": 78.8,

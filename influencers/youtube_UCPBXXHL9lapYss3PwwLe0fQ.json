@@ -4,27 +4,27 @@
  "fullname": "뷰요미",
  "profile_url": "https://www.youtube.com/channel/UCPBXXHL9lapYss3PwwLe0fQ",
  "channel_id": "UCPBXXHL9lapYss3PwwLe0fQ",
- "followers": 7720,
- "engagement_rate": 0.0099,
- "avg_likes": 609.5,
- "avg_comments": 16.1,
- "avg_views": 61331.7,
- "posts_last_30d": 20,
+ "followers": 7730,
+ "engagement_rate": 0.0112,
+ "avg_likes": 467.6,
+ "avg_comments": 10.8,
+ "avg_views": 41918.7,
+ "posts_last_30d": 16,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 16,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "3건",
+  "daiso_mentions": "2건",
   "olive_young_mentions": "1건",
   "beauty_topical_strength": "13건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-25T13:28:25.297592+09:00",
- "score_total": 63.5,
- "grade": "C",
+ "evaluated_at": "2026-06-26T10:23:42.597906+09:00",
+ "score_total": 73.5,
+ "grade": "B",
  "score_breakdown": {
-  "er_score": 40,
+  "er_score": 60,
   "brand_fit_score": 90,
   "consistency_score": 100,
   "follower_scale_score": 60,
@@ -36,7 +36,7 @@
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:28:25.297592+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근20개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:23:42.597906+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -207,6 +207,16 @@
    "retailer_focus": "daiso",
    "score_total": 63.5,
    "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:23:42.597906+09:00",
+   "followers": 7730,
+   "engagement_rate": 0.0112,
+   "posts_last_30d": 16,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 73.5,
+   "grade": "B"
   }
  ]
 }

@@ -6,21 +6,21 @@
  "channel_id": "UCcjxXC-20HT-sK316Dz2IFQ",
  "followers": 443,
  "engagement_rate": 0.0079,
- "avg_likes": 322.4,
- "avg_comments": 6.8,
- "avg_views": 40870.8,
+ "avg_likes": 397.8,
+ "avg_comments": 7.8,
+ "avg_views": 50108.8,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 16,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "153건",
-  "olive_young_mentions": "14건",
-  "beauty_topical_strength": "39건",
+  "daiso_mentions": "145건",
+  "olive_young_mentions": "1건",
+  "beauty_topical_strength": "36건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-25T13:29:28.446746+09:00",
+ "evaluated_at": "2026-06-26T10:25:00.487176+09:00",
  "score_total": 55.0,
  "grade": "C",
  "score_breakdown": {
@@ -36,7 +36,7 @@
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:29:28.446746+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근20개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:25:00.487176+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -186,6 +186,16 @@
    "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
    "followers": 444,
    "engagement_rate": 0.008,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 55.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:25:00.487176+09:00",
+   "followers": 443,
+   "engagement_rate": 0.0079,
    "posts_last_30d": 0,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",

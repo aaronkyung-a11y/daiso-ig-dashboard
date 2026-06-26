@@ -4,23 +4,23 @@
  "fullname": "Stories Woven by Time",
  "profile_url": "https://www.youtube.com/channel/UCSif05kQuclHVo-L6ajrS7A",
  "channel_id": "UCSif05kQuclHVo-L6ajrS7A",
- "followers": 25600,
- "engagement_rate": 0.0162,
- "avg_likes": 1305.4,
- "avg_comments": 18.7,
- "avg_views": 80722.9,
+ "followers": 26000,
+ "engagement_rate": 0.0166,
+ "avg_likes": 1597.0,
+ "avg_comments": 20.7,
+ "avg_views": 96249.0,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 16,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "33건",
+  "daiso_mentions": "22건",
   "olive_young_mentions": "0건",
-  "beauty_topical_strength": "16건",
+  "beauty_topical_strength": "8건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-25T13:28:56.401588+09:00",
+ "evaluated_at": "2026-06-26T10:23:42.597906+09:00",
  "score_total": 75.0,
  "grade": "A",
  "score_breakdown": {
@@ -36,7 +36,7 @@
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:28:56.401588+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근20개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:23:42.597906+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -158,6 +158,16 @@
    "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
    "followers": 24900,
    "engagement_rate": 0.0165,
+   "posts_last_30d": 6,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 75.0,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:23:42.597906+09:00",
+   "followers": 26000,
+   "engagement_rate": 0.0166,
    "posts_last_30d": 6,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",

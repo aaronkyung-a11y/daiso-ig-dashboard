@@ -4,39 +4,39 @@
  "fullname": "수미차올라",
  "profile_url": "https://www.youtube.com/channel/UCNaJNdeeEWaeHanx1Jl21gQ",
  "channel_id": "UCNaJNdeeEWaeHanx1Jl21gQ",
- "followers": 41100,
- "engagement_rate": 0.0123,
- "avg_likes": 239.3,
- "avg_comments": 27.1,
- "avg_views": 19417.3,
- "posts_last_30d": 4,
+ "followers": 41200,
+ "engagement_rate": 0.0047,
+ "avg_likes": 56.4,
+ "avg_comments": 3.5,
+ "avg_views": 12082.4,
+ "posts_last_30d": 5,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 16,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
-  "daiso_mentions": "3건",
+  "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_topical_strength": "49건",
+  "beauty_topical_strength": "12건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-25T13:18:33.766593+09:00",
- "score_total": 69.5,
- "grade": "B",
+ "evaluated_at": "2026-06-26T10:23:42.597906+09:00",
+ "score_total": 62.5,
+ "grade": "C",
  "score_breakdown": {
-  "er_score": 60,
+  "er_score": 40,
   "brand_fit_score": 90,
-  "consistency_score": 60,
+  "consistency_score": 80,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (yt-dlp videos 최근영상 조회수/좋아요 실측)",
+  "engagement_rate": "measured (yt-dlp shorts 최근영상 조회수/좋아요 실측)",
   "posts_last_30d": "measured (timestamp 30일 경계 실측); 샘플 20개 상한",
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:18:33.766593+09:00 STEP B 풀 재분석 (자동, yt-dlp videos) — 최근20개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:23:42.597906+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -192,6 +192,16 @@
    "retailer_focus": "daiso",
    "score_total": 69.5,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:23:42.597906+09:00",
+   "followers": 41200,
+   "engagement_rate": 0.0047,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 62.5,
+   "grade": "C"
   }
  ]
 }

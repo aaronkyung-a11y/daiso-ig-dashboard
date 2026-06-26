@@ -5,38 +5,38 @@
  "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
  "channel_id": "UCs-DJ22ij2ykpyczPSFZNYQ",
  "followers": 50,
- "engagement_rate": 0.0426,
- "avg_likes": 2.0,
- "avg_comments": 3.0,
- "avg_views": 47.0,
+ "engagement_rate": 0.0116,
+ "avg_likes": 70.7,
+ "avg_comments": 2.2,
+ "avg_views": 6077.2,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
- "sample_size": 1,
- "brand_fit_score": 25,
- "retailer_focus": "off_topic",
+ "sample_size": 16,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "0건",
-  "beauty_topical_strength": "0건",
+  "daiso_mentions": "13건",
+  "olive_young_mentions": "10건",
+  "beauty_topical_strength": "30건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-25T13:13:36.554437+09:00",
- "score_total": 56.2,
+ "evaluated_at": "2026-06-26T10:19:54.729384+09:00",
+ "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
-  "er_score": 80,
-  "brand_fit_score": 25,
+  "er_score": 60,
+  "brand_fit_score": 90,
   "consistency_score": 40,
   "follower_scale_score": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (yt-dlp videos 최근영상 조회수/좋아요 실측)",
+  "engagement_rate": "measured (yt-dlp shorts 최근영상 조회수/좋아요 실측)",
   "posts_last_30d": "measured (timestamp 30일 경계 실측); 샘플 20개 상한",
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:13:36.554437+09:00 STEP B 풀 재분석 (자동, yt-dlp videos) — 최근1개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:19:54.729384+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근16개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-25T13:11:04.413374+09:00",
@@ -281,6 +281,16 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "score_total": 56.2,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:19:54.729384+09:00",
+   "followers": 50,
+   "engagement_rate": 0.0116,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 62.5,
    "grade": "C"
   }
  ]

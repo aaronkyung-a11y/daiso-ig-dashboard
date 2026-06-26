@@ -8,7 +8,7 @@
  "engagement_rate": 0.0099,
  "avg_likes": 49.6,
  "avg_comments": 6.0,
- "avg_views": 5007.0,
+ "avg_views": 5007.6,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 8,
@@ -20,7 +20,7 @@
   "beauty_topical_strength": "9건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-25T13:29:28.446746+09:00",
+ "evaluated_at": "2026-06-26T10:25:38.058014+09:00",
  "score_total": 55.0,
  "grade": "C",
  "score_breakdown": {
@@ -36,7 +36,7 @@
   "brand_fit": "measured (제목+태그+설명 키워드 실측)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-06-25T13:29:28.446746+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근8개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-06-26T10:25:38.058014+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근8개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -185,6 +185,16 @@
   },
   {
    "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
+   "followers": 23,
+   "engagement_rate": 0.0099,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 55.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:25:38.058014+09:00",
    "followers": 23,
    "engagement_rate": 0.0099,
    "posts_last_30d": 0,
