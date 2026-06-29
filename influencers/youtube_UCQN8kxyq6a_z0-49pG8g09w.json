@@ -4,14 +4,14 @@
  "fullname": "장수의 비밀",
  "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
  "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
- "followers": 166000,
- "engagement_rate": 0.016,
- "avg_likes": 1360.0,
+ "followers": 168000,
+ "engagement_rate": 0.0147,
+ "avg_likes": 1391,
  "avg_comments": 5.4,
- "avg_views": 85182.8,
- "posts_last_30d": 15,
- "_posts_last_30d_est": false,
- "sample_size": 15,
+ "avg_views": 94889,
+ "posts_last_30d": 20,
+ "_posts_last_30d_est": true,
+ "sample_size": 20,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
@@ -20,7 +20,7 @@
   "beauty_topical_strength": "27건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-26T10:23:42.597906+09:00",
+ "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -30,13 +30,10 @@
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "engagement_rate": "measured (yt-dlp shorts 최근영상 조회수/좋아요 실측)",
-  "posts_last_30d": "measured (timestamp 30일 경계 실측); 샘플 20개 상한",
-  "brand_fit": "measured (제목+태그+설명 키워드 실측)",
-  "followers": "measured (yt-dlp channel_follower_count)"
- },
- "sample_note": "2026-06-26T10:23:42.597906+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근15개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "estimation_flags": [
+  "posts_last_30d 표본20개 상한으로 과소집계 가능"
+ ],
+ "sample_note": "YT yt-dlp 실측 20표본(최근≤20). brand_fit/retailer_focus는 직전 측정값 유지(경량크롤=제목 미수집).",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -213,6 +210,14 @@
    "retailer_focus": "daiso",
    "score_total": 77.5,
    "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:23:42.597906+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "engagement_rate": 0.016,
+   "followers": 166000,
+   "posts_last_30d": 15
   }
  ]
 }

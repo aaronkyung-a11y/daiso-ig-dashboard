@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g",
  "channel_id": "UCkCQe4QPcKCvB3PTzIWHn2g",
  "followers": 23,
- "engagement_rate": 0.0099,
- "avg_likes": 49.6,
+ "engagement_rate": 0.01,
+ "avg_likes": 50,
  "avg_comments": 6.0,
- "avg_views": 5007.6,
+ "avg_views": 5008,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 8,
@@ -20,23 +20,18 @@
   "beauty_topical_strength": "9건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-06-26T10:25:38.058014+09:00",
- "score_total": 55.0,
- "grade": "C",
+ "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
+ "score_total": 65.0,
+ "grade": "B",
  "score_breakdown": {
-  "er_score": 40,
+  "er_score": 60,
   "brand_fit_score": 100,
   "consistency_score": 40,
   "follower_scale_score": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "engagement_rate": "measured (yt-dlp shorts 최근영상 조회수/좋아요 실측)",
-  "posts_last_30d": "measured (timestamp 30일 경계 실측); 샘플 20개 상한",
-  "brand_fit": "measured (제목+태그+설명 키워드 실측)",
-  "followers": "measured (yt-dlp channel_follower_count)"
- },
- "sample_note": "2026-06-26T10:25:38.058014+09:00 STEP B 풀 재분석 (자동, yt-dlp shorts) — 최근8개 실측. ER=avg_likes/avg_views. grade S>=85/A>=75/B>=65/C>=50/D.",
+ "estimation_flags": [],
+ "sample_note": "YT yt-dlp 실측 8표본(최근≤20). brand_fit/retailer_focus는 직전 측정값 유지(경량크롤=제목 미수집).",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -202,6 +197,14 @@
    "retailer_focus": "our_brand",
    "score_total": 55.0,
    "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-06-26T10:25:38.058014+09:00",
+   "score_total": 55.0,
+   "grade": "C",
+   "engagement_rate": 0.0099,
+   "followers": 23,
+   "posts_last_30d": 0
   }
  ]
 }
