@@ -1,300 +1,300 @@
 {
- "platform": "youtube",
- "username": "UCs-DJ22ij2ykpyczPSFZNYQ",
- "fullname": "Nyam",
- "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
- "channel_id": "UCs-DJ22ij2ykpyczPSFZNYQ",
- "followers": 50,
- "engagement_rate": 0.0111,
- "avg_likes": 56,
- "avg_comments": 2.2,
- "avg_views": 5034,
- "posts_last_30d": 0,
- "_posts_last_30d_est": false,
- "sample_size": 21,
- "brand_fit_score": 90,
- "retailer_focus": "daiso",
- "retailer_signal": {
-  "daiso_mentions": "13건",
-  "olive_young_mentions": "10건",
-  "beauty_topical_strength": "30건",
-  "labrang_blanc_doux_mention": false
- },
- "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
- "score_total": 62.5,
- "grade": "C",
- "score_breakdown": {
-  "er_score": 60,
-  "brand_fit_score": 90,
-  "consistency_score": 40,
-  "follower_scale_score": 40,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "estimation_flags": [],
- "sample_note": "YT yt-dlp 실측 21표본(최근≤20). brand_fit/retailer_focus는 직전 측정값 유지(경량크롤=제목 미수집).",
- "history": [
-  {
-   "evaluated_at": "2026-06-25T13:11:04.413374+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0426,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.2,
-   "grade": "C"
+  "platform": "youtube",
+  "username": "UCs-DJ22ij2ykpyczPSFZNYQ",
+  "fullname": "Nyam",
+  "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
+  "channel_id": "UCs-DJ22ij2ykpyczPSFZNYQ",
+  "followers": 50,
+  "engagement_rate": 0.0426,
+  "avg_likes": 2,
+  "avg_comments": 3,
+  "avg_views": 47,
+  "posts_last_30d": 0,
+  "_posts_last_30d_est": true,
+  "sample_size": 1,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 0,
+    "beauty_kw": 0,
+    "labrang": false
   },
-  {
-   "evaluated_at": "2026-06-25T13:09:43.915692+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0426,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.2,
-   "grade": "C"
+  "evaluated_at": "2026-06-30T10:23:58.611520+09:00",
+  "score_total": 56.2,
+  "grade": "C",
+  "score_breakdown": {
+    "er_score": 80,
+    "brand_fit": 25,
+    "consistency": 40,
+    "follower": 40,
+    "formula": "er*0.5+bf*0.25+consist*0.15+foll*0.1"
   },
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0426,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.2,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0119,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 65.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-06-17T10:24:03.460005+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0435,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.2,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-06-16T10:30:09.107884+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0114,
-   "posts_last_30d": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 65.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-14T10:13:42.874909+09:00",
-   "followers": 41,
-   "engagement_rate": 1.715,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 68.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-   "followers": 42,
-   "engagement_rate": 1.715,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "score_total": 68.5
-  },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 46,
-   "engagement_rate": 1.715,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "score_total": 68.5,
-   "grade": "B",
-   "note": "STEP B light refresh"
-  },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 46,
-   "engagement_rate": 1.715,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 68.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 48,
-   "engagement_rate": 0.0444,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.25,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-05-26T10:17:00+09:00",
-   "followers": 49,
-   "engagement_rate": 0.0435,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.2,
-   "grade": "B",
-   "note": "STEP B full re-analysis (10:00 KST)"
-  },
-  {
-   "evaluated_at": "2026-05-26T10:17:00+09:00",
-   "score_total": 56.2,
-   "engagement_rate": 0.0435,
-   "followers": 49,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-27T10:33:00+09:00",
-   "score_total": 68.5,
-   "engagement_rate": 0.0137,
-   "followers": 49,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-28T10:00:00+09:00",
-   "followers": 49,
-   "engagement_rate": 0.0149,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 68.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-06-01T01:11:51.324407+00:00",
-   "score_total": 36.25,
-   "grade": "D",
-   "engagement_rate": 0.0,
-   "followers": 50,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "avg_views": 0,
-   "avg_likes": 0,
-   "sample_size": 0
-  },
-  {
-   "evaluated_at": "2026-06-04T10:19:57.399373+09:00",
-   "score_total": 52.5,
-   "grade": "C",
-   "engagement_rate": 0.0093,
-   "followers": 50,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "avg_views": 6250,
-   "avg_likes": 58,
-   "sample_size": 6
-  },
-  {
-   "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0093,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 58.5,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-06-08T10:18:34.208965+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0149,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 68.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0116,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 65.5,
-   "grade": "B"
-  },
-  {
-   "brand_fit_score": 90,
-   "engagement_rate": 0.0035,
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
-   "followers": 50,
-   "grade": "C",
-   "posts_last_30d": 4,
-   "retailer_focus": "daiso",
-   "score_total": 55.5
-  },
-  {
-   "evaluated_at": "2026-06-18T10:15:21.723127+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0119,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "score_total": 65.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0118,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 65.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0426,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.2,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-06-26T10:19:54.729384+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0116,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 62.5,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-06-26T10:19:54.729384+09:00",
-   "score_total": 62.5,
-   "grade": "C",
-   "engagement_rate": 0.0116,
-   "followers": 50,
-   "posts_last_30d": 0
-  }
- ]
+  "estimation_flags": [
+    "posts_30d_est_fallback"
+  ],
+  "sample_note": "YT yt-dlp 실측 sample=1 (30d=0·추정fallback)",
+  "history": [
+    {
+      "evaluated_at": "2026-06-25T13:09:43.915692+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0426,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 56.2,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0426,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 56.2,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0119,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 65.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-06-17T10:24:03.460005+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0435,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 56.2,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-06-16T10:30:09.107884+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0114,
+      "posts_last_30d": 3,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 65.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-14T10:13:42.874909+09:00",
+      "followers": 41,
+      "engagement_rate": 1.715,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 68.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 42,
+      "engagement_rate": 1.715,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "score_total": 68.5
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 46,
+      "engagement_rate": 1.715,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "score_total": 68.5,
+      "grade": "B",
+      "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 46,
+      "engagement_rate": 1.715,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 68.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 48,
+      "engagement_rate": 0.0444,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 56.25,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "followers": 49,
+      "engagement_rate": 0.0435,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 56.2,
+      "grade": "B",
+      "note": "STEP B full re-analysis (10:00 KST)"
+    },
+    {
+      "evaluated_at": "2026-05-26T10:17:00+09:00",
+      "score_total": 56.2,
+      "engagement_rate": 0.0435,
+      "followers": 49,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-27T10:33:00+09:00",
+      "score_total": 68.5,
+      "engagement_rate": 0.0137,
+      "followers": 49,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-28T10:00:00+09:00",
+      "followers": 49,
+      "engagement_rate": 0.0149,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 68.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-06-01T01:11:51.324407+00:00",
+      "score_total": 36.25,
+      "grade": "D",
+      "engagement_rate": 0.0,
+      "followers": 50,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "avg_views": 0,
+      "avg_likes": 0,
+      "sample_size": 0
+    },
+    {
+      "evaluated_at": "2026-06-04T10:19:57.399373+09:00",
+      "score_total": 52.5,
+      "grade": "C",
+      "engagement_rate": 0.0093,
+      "followers": 50,
+      "posts_last_30d": 0,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "avg_views": 6250,
+      "avg_likes": 58,
+      "sample_size": 6
+    },
+    {
+      "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0093,
+      "posts_last_30d": 5,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 58.5,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-06-08T10:18:34.208965+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0149,
+      "posts_last_30d": 5,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 68.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0116,
+      "posts_last_30d": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 65.5,
+      "grade": "B"
+    },
+    {
+      "brand_fit_score": 90,
+      "engagement_rate": 0.0035,
+      "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
+      "followers": 50,
+      "grade": "C",
+      "posts_last_30d": 4,
+      "retailer_focus": "daiso",
+      "score_total": 55.5
+    },
+    {
+      "evaluated_at": "2026-06-18T10:15:21.723127+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0119,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "retailer_focus": "mixed",
+      "score_total": 65.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0118,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 65.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0426,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 56.2,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-06-26T10:19:54.729384+09:00",
+      "followers": 50,
+      "engagement_rate": 0.0116,
+      "posts_last_30d": 0,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 62.5,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-06-26T10:19:54.729384+09:00",
+      "score_total": 62.5,
+      "grade": "C",
+      "engagement_rate": 0.0116,
+      "followers": 50,
+      "posts_last_30d": 0
+    },
+    {
+      "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
+      "score_total": 62.5,
+      "engagement_rate": 0.0111,
+      "followers": 50,
+      "grade": "C",
+      "posts_last_30d": 0
+    }
+  ]
 }

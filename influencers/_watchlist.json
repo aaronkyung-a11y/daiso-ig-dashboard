@@ -1,678 +1,678 @@
 {
- "lastUpdated": "2026-06-24T10:27:06.408026+09:00",
- "auto_refresh": true,
- "refresh_cron": "weekly",
- "accounts": [
-  {
-   "platform": "instagram",
-   "username": "jangsu_note",
-   "profile_url": "https://www.instagram.com/jangsu_note/"
-  },
-  {
-   "platform": "instagram",
-   "username": "beauty_piona",
-   "profile_url": "https://www.instagram.com/beauty_piona/"
-  },
-  {
-   "platform": "instagram",
-   "username": "ellie._.cos",
-   "profile_url": "https://www.instagram.com/ellie._.cos/"
-  },
-  {
-   "platform": "youtube",
-   "username": "Jinyaa",
-   "profile_url": "https://www.youtube.com/@Jinyaa"
-  },
-  {
-   "platform": "instagram",
-   "username": "rorobeauty48791",
-   "profile_url": "https://www.instagram.com/rorobeauty48791/"
-  },
-  {
-   "platform": "instagram",
-   "username": "k_eunmi___",
-   "profile_url": "https://www.instagram.com/k_eunmi___/"
-  },
-  {
-   "platform": "instagram",
-   "username": "beautyus_mag",
-   "profile_url": "https://www.instagram.com/beautyus_mag/"
-  },
-  {
-   "platform": "instagram",
-   "username": "lobit_beauty",
-   "profile_url": "https://www.instagram.com/lobit_beauty/"
-  },
-  {
-   "platform": "instagram",
-   "username": "cherry.park___",
-   "profile_url": "https://www.instagram.com/cherry.park___/"
-  },
-  {
-   "platform": "instagram",
-   "username": "dasik.yaksa",
-   "profile_url": "https://www.instagram.com/dasik.yaksa/"
-  },
-  {
-   "platform": "instagram",
-   "username": "euniunni",
-   "profile_url": "https://www.instagram.com/euniunni/"
-  },
-  {
-   "platform": "instagram",
-   "username": "haeriporter",
-   "profile_url": "https://www.instagram.com/haeriporter/"
-  },
-  {
-   "platform": "instagram",
-   "username": "incworld",
-   "profile_url": "https://www.instagram.com/incworld/"
-  },
-  {
-   "platform": "instagram",
-   "username": "moon__brand",
-   "profile_url": "https://www.instagram.com/moon__brand/"
-  },
-  {
-   "platform": "instagram",
-   "username": "cupoftea_mag",
-   "profile_url": "https://www.instagram.com/cupoftea_mag/"
-  },
-  {
-   "platform": "instagram",
-   "username": "cos_muni",
-   "profile_url": "https://www.instagram.com/cos_muni/"
-  },
-  {
-   "platform": "instagram",
-   "username": "mingjikim_107",
-   "profile_url": "https://www.instagram.com/mingjikim_107/"
-  },
-  {
-   "platform": "instagram",
-   "username": "doing_now_insta",
-   "profile_url": "https://www.instagram.com/doing_now_insta/"
-  },
-  {
-   "platform": "instagram",
-   "username": "habaoh_0",
-   "profile_url": "https://www.instagram.com/habaoh_0/"
-  },
-  {
-   "platform": "instagram",
-   "username": "view_bbang_",
-   "profile_url": "https://www.instagram.com/view_bbang_/"
-  },
-  {
-   "platform": "instagram",
-   "username": "beauty._charmi",
-   "profile_url": "https://www.instagram.com/beauty._charmi/"
-  },
-  {
-   "platform": "instagram",
-   "username": "boss.lim_",
-   "profile_url": "https://www.instagram.com/boss.lim_/"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC5o9Z5lgw4kk4fjDhweZxKg",
-   "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCChdHmdkgTpk0iyuODYxJIw",
-   "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
-   "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg"
-  },
-  {
-   "platform": "instagram",
-   "username": "imttaengttaeng",
-   "profile_url": "https://www.instagram.com/imttaengttaeng/"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCRiIf6rt91BVfZVtURRXlOw",
-   "profile_url": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCRPEXjbWYRtFdCKxMwWvrxQ",
-   "profile_url": "https://www.youtube.com/channel/UCRPEXjbWYRtFdCKxMwWvrxQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCJC3eND1vV_MR_UJB7-E9LQ",
-   "profile_url": "https://www.youtube.com/channel/UCJC3eND1vV_MR_UJB7-E9LQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCs-DJ22ij2ykpyczPSFZNYQ",
-   "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
-   "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCodG0bJ3OICRA1bg4TBdU9A",
-   "profile_url": "https://www.youtube.com/channel/UCodG0bJ3OICRA1bg4TBdU9A"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCSx-2fuyotB8WA8KytyhACg",
-   "profile_url": "https://www.youtube.com/channel/UCSx-2fuyotB8WA8KytyhACg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCrlUlicedicJ5mlibqC62Eg",
-   "profile_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UChaTUCM7bPBTJaIZQ83PNwQ",
-   "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCqrNqg3UgVoD3Sa-F_TxuSA",
-   "profile_url": "https://www.youtube.com/channel/UCqrNqg3UgVoD3Sa-F_TxuSA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCLyRxUcEIUvrG5wAS2TaE9w",
-   "profile_url": "https://www.youtube.com/channel/UCLyRxUcEIUvrG5wAS2TaE9w"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC2bN1vE7esxNXhBSYIHzQwg",
-   "profile_url": "https://www.youtube.com/channel/UC2bN1vE7esxNXhBSYIHzQwg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCCZr7t-gZ62L056QOW3RXdQ",
-   "profile_url": "https://www.youtube.com/channel/UCCZr7t-gZ62L056QOW3RXdQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCED7YKsAzQ2qi2e-cJ7yTEg",
-   "profile_url": "https://www.youtube.com/channel/UCED7YKsAzQ2qi2e-cJ7yTEg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCKn4BDg7hnEDhnr_ukz9-aw",
-   "profile_url": "https://www.youtube.com/channel/UCKn4BDg7hnEDhnr_ukz9-aw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCkEWsTetbUuGDg_O1S5UVBg",
-   "profile_url": "https://www.youtube.com/channel/UCkEWsTetbUuGDg_O1S5UVBg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UClgkEMblgt1EUDYejTMiYug",
-   "profile_url": "https://www.youtube.com/channel/UClgkEMblgt1EUDYejTMiYug"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCo9OPeVJL5hgPtwxUTEBgSA",
-   "profile_url": "https://www.youtube.com/channel/UCo9OPeVJL5hgPtwxUTEBgSA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCoCxuPrH7NwbBprRjSD2IKw",
-   "profile_url": "https://www.youtube.com/channel/UCoCxuPrH7NwbBprRjSD2IKw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCrNISLWm4d6SRf8AUjoGm1g",
-   "profile_url": "https://www.youtube.com/channel/UCrNISLWm4d6SRf8AUjoGm1g"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCwFNiYnTtrYuwO7YRWomatw",
-   "profile_url": "https://www.youtube.com/channel/UCwFNiYnTtrYuwO7YRWomatw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCT0hOMxD29g2B6BrK6QTIag",
-   "profile_url": "https://www.youtube.com/channel/UCT0hOMxD29g2B6BrK6QTIag"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCNOA-IwgMAatMFGwdB5n-2Q",
-   "profile_url": "https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q"
-  },
-  {
-   "platform": "instagram",
-   "username": "gaeeeeurii",
-   "profile_url": "https://www.instagram.com/gaeeeeurii/"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC-C-faUj5SNcrIkqEM6FcjA",
-   "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC-hvam4FHeXJDQZ5sCW132A",
-   "profile_url": "https://www.youtube.com/channel/UC-hvam4FHeXJDQZ5sCW132A"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC0-yyrDjTJ1YFzmV12vEp0Q",
-   "profile_url": "https://www.youtube.com/channel/UC0-yyrDjTJ1YFzmV12vEp0Q"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC43-ROy5F2-1dVZ726gckuA",
-   "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC4BFwp5_Xf16cV1HecJYMJA",
-   "profile_url": "https://www.youtube.com/channel/UC4BFwp5_Xf16cV1HecJYMJA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC4OMwa7uM-RC-36JObkN3LQ",
-   "profile_url": "https://www.youtube.com/channel/UC4OMwa7uM-RC-36JObkN3LQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC4ls0b7f-ngnyKCWLdyRWrw",
-   "profile_url": "https://www.youtube.com/channel/UC4ls0b7f-ngnyKCWLdyRWrw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC5BqeEsHJnYM4O4xvWJK3Cg",
-   "profile_url": "https://www.youtube.com/channel/UC5BqeEsHJnYM4O4xvWJK3Cg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC66y-iJZXgWc4LwRlrNGVYw",
-   "profile_url": "https://www.youtube.com/channel/UC66y-iJZXgWc4LwRlrNGVYw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC6zDQHALEBtuEhGYlT1ZTfA",
-   "profile_url": "https://www.youtube.com/channel/UC6zDQHALEBtuEhGYlT1ZTfA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC71fEEzS9yMYQvT1iz5-zxQ",
-   "profile_url": "https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC86AuKBawrgBuEZIgiOo7hA",
-   "profile_url": "https://www.youtube.com/channel/UC86AuKBawrgBuEZIgiOo7hA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
-   "profile_url": "https://www.youtube.com/channel/UC8HAR9C0Wuy7Hp1RPi1BZiw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCAThGewvLVT5fW8utNfrawA",
-   "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCBEvSDXPu2rsaI7pRV9W1UQ",
-   "profile_url": "https://www.youtube.com/channel/UCBEvSDXPu2rsaI7pRV9W1UQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCBKngvS6Kk4LWSZTKXQWnvA",
-   "profile_url": "https://www.youtube.com/channel/UCBKngvS6Kk4LWSZTKXQWnvA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCCutD4GABbPGfmRy72hQ1mA",
-   "profile_url": "https://www.youtube.com/channel/UCCutD4GABbPGfmRy72hQ1mA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCF-EIhIdEWMXg8z6FuKFuQg",
-   "profile_url": "https://www.youtube.com/channel/UCF-EIhIdEWMXg8z6FuKFuQg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCFuMPPmNvRAVIqYlAO5v_vg",
-   "profile_url": "https://www.youtube.com/channel/UCFuMPPmNvRAVIqYlAO5v_vg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCH5Eg4KvlMGPNIHZJSAUH8A",
-   "profile_url": "https://www.youtube.com/channel/UCH5Eg4KvlMGPNIHZJSAUH8A"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCHCL-VtQlNJTmPA7oy6HQXg",
-   "profile_url": "https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCHUkpUuH7O3U7eIx93tMUwA",
-   "profile_url": "https://www.youtube.com/channel/UCHUkpUuH7O3U7eIx93tMUwA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCHa6h8DGLYkAljbskQbIXHw",
-   "profile_url": "https://www.youtube.com/channel/UCHa6h8DGLYkAljbskQbIXHw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCHjEdCXNYyvgWWcCZVTxWHA",
-   "profile_url": "https://www.youtube.com/channel/UCHjEdCXNYyvgWWcCZVTxWHA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCIErIGNaCbne1_Eu1VzHFcw",
-   "profile_url": "https://www.youtube.com/channel/UCIErIGNaCbne1_Eu1VzHFcw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCIQB1KXcPIhskB7jy1SJdLw",
-   "profile_url": "https://www.youtube.com/channel/UCIQB1KXcPIhskB7jy1SJdLw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCIQfSfmR-eDukN2kRhwPl3Q",
-   "profile_url": "https://www.youtube.com/channel/UCIQfSfmR-eDukN2kRhwPl3Q"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCIgltl46C_j2wVay4tgIFJg",
-   "profile_url": "https://www.youtube.com/channel/UCIgltl46C_j2wVay4tgIFJg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCKAwUq0rYJ7JVkwK-XWADnQ",
-   "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCLyq1gz11P-IYFmP093JaAw",
-   "profile_url": "https://www.youtube.com/channel/UCLyq1gz11P-IYFmP093JaAw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCMF0yXO7AUMutaktzpiMgSg",
-   "profile_url": "https://www.youtube.com/channel/UCMF0yXO7AUMutaktzpiMgSg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCNaJNdeeEWaeHanx1Jl21gQ",
-   "profile_url": "https://www.youtube.com/channel/UCNaJNdeeEWaeHanx1Jl21gQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCPBXXHL9lapYss3PwwLe0fQ",
-   "profile_url": "https://www.youtube.com/channel/UCPBXXHL9lapYss3PwwLe0fQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCPkgjWwYOiMKqNJpwdA8lPA",
-   "profile_url": "https://www.youtube.com/channel/UCPkgjWwYOiMKqNJpwdA8lPA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCQN8kxyq6a_z0-49pG8g09w",
-   "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCRXL4vnST2AE6UtjrYMv4tw",
-   "profile_url": "https://www.youtube.com/channel/UCRXL4vnST2AE6UtjrYMv4tw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCRYXMMSdMYhURh_Dr6Vz18w",
-   "profile_url": "https://www.youtube.com/channel/UCRYXMMSdMYhURh_Dr6Vz18w"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCSif05kQuclHVo-L6ajrS7A",
-   "profile_url": "https://www.youtube.com/channel/UCSif05kQuclHVo-L6ajrS7A"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCSzTXeUBWhwgOSOuhfeC3xg",
-   "profile_url": "https://www.youtube.com/channel/UCSzTXeUBWhwgOSOuhfeC3xg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCTjwlF8Y8hxR85JPUoZv-6A",
-   "profile_url": "https://www.youtube.com/channel/UCTjwlF8Y8hxR85JPUoZv-6A"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCVRAHN1wuI9pUDyeSAc_I1A",
-   "profile_url": "https://www.youtube.com/channel/UCVRAHN1wuI9pUDyeSAc_I1A"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCVWMxFz4W6UuP3kF49o_eMg",
-   "profile_url": "https://www.youtube.com/channel/UCVWMxFz4W6UuP3kF49o_eMg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCVbW7vOtOnmjyDORZB4Sz0w",
-   "profile_url": "https://www.youtube.com/channel/UCVbW7vOtOnmjyDORZB4Sz0w"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCWYY6sFq1PyyKYKrM0HGcvQ",
-   "profile_url": "https://www.youtube.com/channel/UCWYY6sFq1PyyKYKrM0HGcvQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCX0Qk4QtPOlEwBmsbIG4vOg",
-   "profile_url": "https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCXFd79l1HUumoM6spU4D1Cw",
-   "profile_url": "https://www.youtube.com/channel/UCXFd79l1HUumoM6spU4D1Cw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCXnovozlwbGRaHhR6fvG1XA",
-   "profile_url": "https://www.youtube.com/channel/UCXnovozlwbGRaHhR6fvG1XA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCYUUPZ6nD_OHpVfViJwRFDA",
-   "profile_url": "https://www.youtube.com/channel/UCYUUPZ6nD_OHpVfViJwRFDA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCYdYEVp2t0zD5xJu0hKWAgw",
-   "profile_url": "https://www.youtube.com/channel/UCYdYEVp2t0zD5xJu0hKWAgw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCYjkiHwK6yj1VgMfqNZvHEA",
-   "profile_url": "https://www.youtube.com/channel/UCYjkiHwK6yj1VgMfqNZvHEA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCYxuoueMuR3f80RU_ua4TXA",
-   "profile_url": "https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCZ-oeQmEiTLw4d5PSDyd1Cw",
-   "profile_url": "https://www.youtube.com/channel/UCZ-oeQmEiTLw4d5PSDyd1Cw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCZdDMMKj3wgBfo9KU79mdMw",
-   "profile_url": "https://www.youtube.com/channel/UCZdDMMKj3wgBfo9KU79mdMw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCaMFZoulRulGg-xG5s9qguw",
-   "profile_url": "https://www.youtube.com/channel/UCaMFZoulRulGg-xG5s9qguw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCb8_UiUdnM9S7r1aYPAsSMw",
-   "profile_url": "https://www.youtube.com/channel/UCb8_UiUdnM9S7r1aYPAsSMw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCbDEpKYIxpFJwrqOatkv9tA",
-   "profile_url": "https://www.youtube.com/channel/UCbDEpKYIxpFJwrqOatkv9tA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCbNMdCWBwjljPxDu8dfeHmg",
-   "profile_url": "https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCcU1vg4c0iV1VKH8_BE7bZw",
-   "profile_url": "https://www.youtube.com/channel/UCcU1vg4c0iV1VKH8_BE7bZw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCcjxXC-20HT-sK316Dz2IFQ",
-   "profile_url": "https://www.youtube.com/channel/UCcjxXC-20HT-sK316Dz2IFQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCd7icqUv7f8k2E6n4WOCIQg",
-   "profile_url": "https://www.youtube.com/channel/UCd7icqUv7f8k2E6n4WOCIQg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCd7mIFLSi18eIvaBZuv6c2A",
-   "profile_url": "https://www.youtube.com/channel/UCd7mIFLSi18eIvaBZuv6c2A"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCdgKFoa_nAO0DVm8stiA0Ig",
-   "profile_url": "https://www.youtube.com/channel/UCdgKFoa_nAO0DVm8stiA0Ig"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCdw0gUzVPhyZFRVeuzy_AEg",
-   "profile_url": "https://www.youtube.com/channel/UCdw0gUzVPhyZFRVeuzy_AEg"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCfM7HC0wkS_cWVIcgpy2XPA",
-   "profile_url": "https://www.youtube.com/channel/UCfM7HC0wkS_cWVIcgpy2XPA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCfcM9RkfntkTH0pCwd4vSPA",
-   "profile_url": "https://www.youtube.com/channel/UCfcM9RkfntkTH0pCwd4vSPA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UChz7dY8O1jTD8bXGJ8JgXEA",
-   "profile_url": "https://www.youtube.com/channel/UChz7dY8O1jTD8bXGJ8JgXEA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCixdFezucL8az0Zm4MgidIw",
-   "profile_url": "https://www.youtube.com/channel/UCixdFezucL8az0Zm4MgidIw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCjegsOAf5nOCfLfMpLyNj0A",
-   "profile_url": "https://www.youtube.com/channel/UCjegsOAf5nOCfLfMpLyNj0A"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCk1BE73NfSUGz19LpNg9E-w",
-   "profile_url": "https://www.youtube.com/channel/UCk1BE73NfSUGz19LpNg9E-w"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCkCQe4QPcKCvB3PTzIWHn2g",
-   "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCklkYxRVIAsczwi9w6Y3l5g",
-   "profile_url": "https://www.youtube.com/channel/UCklkYxRVIAsczwi9w6Y3l5g"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCl0b0B4B3VHAs8AQKGYDCjw",
-   "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UClSW7LJ8qs7BwNfn2yMT0sQ",
-   "profile_url": "https://www.youtube.com/channel/UClSW7LJ8qs7BwNfn2yMT0sQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCmf_Xgbqr0WnQsUOJXWXLLA",
-   "profile_url": "https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCn7Ifm7sq_IIMivtzZ-LtnA",
-   "profile_url": "https://www.youtube.com/channel/UCn7Ifm7sq_IIMivtzZ-LtnA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCn_b_mrrhtMGhiLZLCzF7rQ",
-   "profile_url": "https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCq7ZjN2HpEDU0Psyi5oRE3A",
-   "profile_url": "https://www.youtube.com/channel/UCq7ZjN2HpEDU0Psyi5oRE3A"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCrhm4vlaOhwDND5uIBQPbiw",
-   "profile_url": "https://www.youtube.com/channel/UCrhm4vlaOhwDND5uIBQPbiw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCwYf2nxcgJ1WNul1nKs14qw",
-   "profile_url": "https://www.youtube.com/channel/UCwYf2nxcgJ1WNul1nKs14qw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCxA9k7UJz50ZJPa5aUGf7fw",
-   "profile_url": "https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCxAdlKnB5u0a7A-iqRa5jYw",
-   "profile_url": "https://www.youtube.com/channel/UCxAdlKnB5u0a7A-iqRa5jYw"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCxQFCdMag6smOQVAObGBIgA",
-   "profile_url": "https://www.youtube.com/channel/UCxQFCdMag6smOQVAObGBIgA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCy4L-mlTgH-v8vBbtzCGhIA",
-   "profile_url": "https://www.youtube.com/channel/UCy4L-mlTgH-v8vBbtzCGhIA"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCzBbE7x7mPrs56PvCc0errA",
-   "profile_url": "https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA"
-  }
- ],
- "updated_at": "2026-06-22T10:20:33.188418+09:00"
+  "lastUpdated": "2026-06-30T10:32:58.295955+09:00",
+  "auto_refresh": true,
+  "refresh_cron": "weekly",
+  "accounts": [
+    {
+      "platform": "instagram",
+      "username": "jangsu_note",
+      "profile_url": "https://www.instagram.com/jangsu_note/"
+    },
+    {
+      "platform": "instagram",
+      "username": "beauty_piona",
+      "profile_url": "https://www.instagram.com/beauty_piona/"
+    },
+    {
+      "platform": "instagram",
+      "username": "ellie._.cos",
+      "profile_url": "https://www.instagram.com/ellie._.cos/"
+    },
+    {
+      "platform": "youtube",
+      "username": "Jinyaa",
+      "profile_url": "https://www.youtube.com/@Jinyaa"
+    },
+    {
+      "platform": "instagram",
+      "username": "rorobeauty48791",
+      "profile_url": "https://www.instagram.com/rorobeauty48791/"
+    },
+    {
+      "platform": "instagram",
+      "username": "k_eunmi___",
+      "profile_url": "https://www.instagram.com/k_eunmi___/"
+    },
+    {
+      "platform": "instagram",
+      "username": "beautyus_mag",
+      "profile_url": "https://www.instagram.com/beautyus_mag/"
+    },
+    {
+      "platform": "instagram",
+      "username": "lobit_beauty",
+      "profile_url": "https://www.instagram.com/lobit_beauty/"
+    },
+    {
+      "platform": "instagram",
+      "username": "cherry.park___",
+      "profile_url": "https://www.instagram.com/cherry.park___/"
+    },
+    {
+      "platform": "instagram",
+      "username": "dasik.yaksa",
+      "profile_url": "https://www.instagram.com/dasik.yaksa/"
+    },
+    {
+      "platform": "instagram",
+      "username": "euniunni",
+      "profile_url": "https://www.instagram.com/euniunni/"
+    },
+    {
+      "platform": "instagram",
+      "username": "haeriporter",
+      "profile_url": "https://www.instagram.com/haeriporter/"
+    },
+    {
+      "platform": "instagram",
+      "username": "incworld",
+      "profile_url": "https://www.instagram.com/incworld/"
+    },
+    {
+      "platform": "instagram",
+      "username": "moon__brand",
+      "profile_url": "https://www.instagram.com/moon__brand/"
+    },
+    {
+      "platform": "instagram",
+      "username": "cupoftea_mag",
+      "profile_url": "https://www.instagram.com/cupoftea_mag/"
+    },
+    {
+      "platform": "instagram",
+      "username": "cos_muni",
+      "profile_url": "https://www.instagram.com/cos_muni/"
+    },
+    {
+      "platform": "instagram",
+      "username": "mingjikim_107",
+      "profile_url": "https://www.instagram.com/mingjikim_107/"
+    },
+    {
+      "platform": "instagram",
+      "username": "doing_now_insta",
+      "profile_url": "https://www.instagram.com/doing_now_insta/"
+    },
+    {
+      "platform": "instagram",
+      "username": "habaoh_0",
+      "profile_url": "https://www.instagram.com/habaoh_0/"
+    },
+    {
+      "platform": "instagram",
+      "username": "view_bbang_",
+      "profile_url": "https://www.instagram.com/view_bbang_/"
+    },
+    {
+      "platform": "instagram",
+      "username": "beauty._charmi",
+      "profile_url": "https://www.instagram.com/beauty._charmi/"
+    },
+    {
+      "platform": "instagram",
+      "username": "boss.lim_",
+      "profile_url": "https://www.instagram.com/boss.lim_/"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC5o9Z5lgw4kk4fjDhweZxKg",
+      "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCChdHmdkgTpk0iyuODYxJIw",
+      "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
+      "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg"
+    },
+    {
+      "platform": "instagram",
+      "username": "imttaengttaeng",
+      "profile_url": "https://www.instagram.com/imttaengttaeng/"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCRiIf6rt91BVfZVtURRXlOw",
+      "profile_url": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCRPEXjbWYRtFdCKxMwWvrxQ",
+      "profile_url": "https://www.youtube.com/channel/UCRPEXjbWYRtFdCKxMwWvrxQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCJC3eND1vV_MR_UJB7-E9LQ",
+      "profile_url": "https://www.youtube.com/channel/UCJC3eND1vV_MR_UJB7-E9LQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCs-DJ22ij2ykpyczPSFZNYQ",
+      "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
+      "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCodG0bJ3OICRA1bg4TBdU9A",
+      "profile_url": "https://www.youtube.com/channel/UCodG0bJ3OICRA1bg4TBdU9A"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCSx-2fuyotB8WA8KytyhACg",
+      "profile_url": "https://www.youtube.com/channel/UCSx-2fuyotB8WA8KytyhACg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCrlUlicedicJ5mlibqC62Eg",
+      "profile_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UChaTUCM7bPBTJaIZQ83PNwQ",
+      "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCqrNqg3UgVoD3Sa-F_TxuSA",
+      "profile_url": "https://www.youtube.com/channel/UCqrNqg3UgVoD3Sa-F_TxuSA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCLyRxUcEIUvrG5wAS2TaE9w",
+      "profile_url": "https://www.youtube.com/channel/UCLyRxUcEIUvrG5wAS2TaE9w"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC2bN1vE7esxNXhBSYIHzQwg",
+      "profile_url": "https://www.youtube.com/channel/UC2bN1vE7esxNXhBSYIHzQwg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCCZr7t-gZ62L056QOW3RXdQ",
+      "profile_url": "https://www.youtube.com/channel/UCCZr7t-gZ62L056QOW3RXdQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCED7YKsAzQ2qi2e-cJ7yTEg",
+      "profile_url": "https://www.youtube.com/channel/UCED7YKsAzQ2qi2e-cJ7yTEg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCKn4BDg7hnEDhnr_ukz9-aw",
+      "profile_url": "https://www.youtube.com/channel/UCKn4BDg7hnEDhnr_ukz9-aw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCkEWsTetbUuGDg_O1S5UVBg",
+      "profile_url": "https://www.youtube.com/channel/UCkEWsTetbUuGDg_O1S5UVBg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UClgkEMblgt1EUDYejTMiYug",
+      "profile_url": "https://www.youtube.com/channel/UClgkEMblgt1EUDYejTMiYug"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCo9OPeVJL5hgPtwxUTEBgSA",
+      "profile_url": "https://www.youtube.com/channel/UCo9OPeVJL5hgPtwxUTEBgSA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCoCxuPrH7NwbBprRjSD2IKw",
+      "profile_url": "https://www.youtube.com/channel/UCoCxuPrH7NwbBprRjSD2IKw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCrNISLWm4d6SRf8AUjoGm1g",
+      "profile_url": "https://www.youtube.com/channel/UCrNISLWm4d6SRf8AUjoGm1g"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCwFNiYnTtrYuwO7YRWomatw",
+      "profile_url": "https://www.youtube.com/channel/UCwFNiYnTtrYuwO7YRWomatw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCT0hOMxD29g2B6BrK6QTIag",
+      "profile_url": "https://www.youtube.com/channel/UCT0hOMxD29g2B6BrK6QTIag"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCNOA-IwgMAatMFGwdB5n-2Q",
+      "profile_url": "https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q"
+    },
+    {
+      "platform": "instagram",
+      "username": "gaeeeeurii",
+      "profile_url": "https://www.instagram.com/gaeeeeurii/"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC-C-faUj5SNcrIkqEM6FcjA",
+      "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC-hvam4FHeXJDQZ5sCW132A",
+      "profile_url": "https://www.youtube.com/channel/UC-hvam4FHeXJDQZ5sCW132A"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC0-yyrDjTJ1YFzmV12vEp0Q",
+      "profile_url": "https://www.youtube.com/channel/UC0-yyrDjTJ1YFzmV12vEp0Q"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC43-ROy5F2-1dVZ726gckuA",
+      "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC4BFwp5_Xf16cV1HecJYMJA",
+      "profile_url": "https://www.youtube.com/channel/UC4BFwp5_Xf16cV1HecJYMJA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC4OMwa7uM-RC-36JObkN3LQ",
+      "profile_url": "https://www.youtube.com/channel/UC4OMwa7uM-RC-36JObkN3LQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC4ls0b7f-ngnyKCWLdyRWrw",
+      "profile_url": "https://www.youtube.com/channel/UC4ls0b7f-ngnyKCWLdyRWrw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC5BqeEsHJnYM4O4xvWJK3Cg",
+      "profile_url": "https://www.youtube.com/channel/UC5BqeEsHJnYM4O4xvWJK3Cg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC66y-iJZXgWc4LwRlrNGVYw",
+      "profile_url": "https://www.youtube.com/channel/UC66y-iJZXgWc4LwRlrNGVYw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC6zDQHALEBtuEhGYlT1ZTfA",
+      "profile_url": "https://www.youtube.com/channel/UC6zDQHALEBtuEhGYlT1ZTfA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC71fEEzS9yMYQvT1iz5-zxQ",
+      "profile_url": "https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC86AuKBawrgBuEZIgiOo7hA",
+      "profile_url": "https://www.youtube.com/channel/UC86AuKBawrgBuEZIgiOo7hA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
+      "profile_url": "https://www.youtube.com/channel/UC8HAR9C0Wuy7Hp1RPi1BZiw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCAThGewvLVT5fW8utNfrawA",
+      "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCBEvSDXPu2rsaI7pRV9W1UQ",
+      "profile_url": "https://www.youtube.com/channel/UCBEvSDXPu2rsaI7pRV9W1UQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCBKngvS6Kk4LWSZTKXQWnvA",
+      "profile_url": "https://www.youtube.com/channel/UCBKngvS6Kk4LWSZTKXQWnvA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCCutD4GABbPGfmRy72hQ1mA",
+      "profile_url": "https://www.youtube.com/channel/UCCutD4GABbPGfmRy72hQ1mA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCF-EIhIdEWMXg8z6FuKFuQg",
+      "profile_url": "https://www.youtube.com/channel/UCF-EIhIdEWMXg8z6FuKFuQg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCFuMPPmNvRAVIqYlAO5v_vg",
+      "profile_url": "https://www.youtube.com/channel/UCFuMPPmNvRAVIqYlAO5v_vg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCH5Eg4KvlMGPNIHZJSAUH8A",
+      "profile_url": "https://www.youtube.com/channel/UCH5Eg4KvlMGPNIHZJSAUH8A"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCHCL-VtQlNJTmPA7oy6HQXg",
+      "profile_url": "https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCHUkpUuH7O3U7eIx93tMUwA",
+      "profile_url": "https://www.youtube.com/channel/UCHUkpUuH7O3U7eIx93tMUwA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCHa6h8DGLYkAljbskQbIXHw",
+      "profile_url": "https://www.youtube.com/channel/UCHa6h8DGLYkAljbskQbIXHw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCHjEdCXNYyvgWWcCZVTxWHA",
+      "profile_url": "https://www.youtube.com/channel/UCHjEdCXNYyvgWWcCZVTxWHA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCIErIGNaCbne1_Eu1VzHFcw",
+      "profile_url": "https://www.youtube.com/channel/UCIErIGNaCbne1_Eu1VzHFcw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCIQB1KXcPIhskB7jy1SJdLw",
+      "profile_url": "https://www.youtube.com/channel/UCIQB1KXcPIhskB7jy1SJdLw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCIQfSfmR-eDukN2kRhwPl3Q",
+      "profile_url": "https://www.youtube.com/channel/UCIQfSfmR-eDukN2kRhwPl3Q"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCIgltl46C_j2wVay4tgIFJg",
+      "profile_url": "https://www.youtube.com/channel/UCIgltl46C_j2wVay4tgIFJg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCKAwUq0rYJ7JVkwK-XWADnQ",
+      "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCLyq1gz11P-IYFmP093JaAw",
+      "profile_url": "https://www.youtube.com/channel/UCLyq1gz11P-IYFmP093JaAw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCMF0yXO7AUMutaktzpiMgSg",
+      "profile_url": "https://www.youtube.com/channel/UCMF0yXO7AUMutaktzpiMgSg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCNaJNdeeEWaeHanx1Jl21gQ",
+      "profile_url": "https://www.youtube.com/channel/UCNaJNdeeEWaeHanx1Jl21gQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCPBXXHL9lapYss3PwwLe0fQ",
+      "profile_url": "https://www.youtube.com/channel/UCPBXXHL9lapYss3PwwLe0fQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCPkgjWwYOiMKqNJpwdA8lPA",
+      "profile_url": "https://www.youtube.com/channel/UCPkgjWwYOiMKqNJpwdA8lPA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCQN8kxyq6a_z0-49pG8g09w",
+      "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCRXL4vnST2AE6UtjrYMv4tw",
+      "profile_url": "https://www.youtube.com/channel/UCRXL4vnST2AE6UtjrYMv4tw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCRYXMMSdMYhURh_Dr6Vz18w",
+      "profile_url": "https://www.youtube.com/channel/UCRYXMMSdMYhURh_Dr6Vz18w"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCSif05kQuclHVo-L6ajrS7A",
+      "profile_url": "https://www.youtube.com/channel/UCSif05kQuclHVo-L6ajrS7A"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCSzTXeUBWhwgOSOuhfeC3xg",
+      "profile_url": "https://www.youtube.com/channel/UCSzTXeUBWhwgOSOuhfeC3xg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCTjwlF8Y8hxR85JPUoZv-6A",
+      "profile_url": "https://www.youtube.com/channel/UCTjwlF8Y8hxR85JPUoZv-6A"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCVRAHN1wuI9pUDyeSAc_I1A",
+      "profile_url": "https://www.youtube.com/channel/UCVRAHN1wuI9pUDyeSAc_I1A"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCVWMxFz4W6UuP3kF49o_eMg",
+      "profile_url": "https://www.youtube.com/channel/UCVWMxFz4W6UuP3kF49o_eMg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCVbW7vOtOnmjyDORZB4Sz0w",
+      "profile_url": "https://www.youtube.com/channel/UCVbW7vOtOnmjyDORZB4Sz0w"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCWYY6sFq1PyyKYKrM0HGcvQ",
+      "profile_url": "https://www.youtube.com/channel/UCWYY6sFq1PyyKYKrM0HGcvQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCX0Qk4QtPOlEwBmsbIG4vOg",
+      "profile_url": "https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCXFd79l1HUumoM6spU4D1Cw",
+      "profile_url": "https://www.youtube.com/channel/UCXFd79l1HUumoM6spU4D1Cw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCXnovozlwbGRaHhR6fvG1XA",
+      "profile_url": "https://www.youtube.com/channel/UCXnovozlwbGRaHhR6fvG1XA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCYUUPZ6nD_OHpVfViJwRFDA",
+      "profile_url": "https://www.youtube.com/channel/UCYUUPZ6nD_OHpVfViJwRFDA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCYdYEVp2t0zD5xJu0hKWAgw",
+      "profile_url": "https://www.youtube.com/channel/UCYdYEVp2t0zD5xJu0hKWAgw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCYjkiHwK6yj1VgMfqNZvHEA",
+      "profile_url": "https://www.youtube.com/channel/UCYjkiHwK6yj1VgMfqNZvHEA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCYxuoueMuR3f80RU_ua4TXA",
+      "profile_url": "https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCZ-oeQmEiTLw4d5PSDyd1Cw",
+      "profile_url": "https://www.youtube.com/channel/UCZ-oeQmEiTLw4d5PSDyd1Cw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCZdDMMKj3wgBfo9KU79mdMw",
+      "profile_url": "https://www.youtube.com/channel/UCZdDMMKj3wgBfo9KU79mdMw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCaMFZoulRulGg-xG5s9qguw",
+      "profile_url": "https://www.youtube.com/channel/UCaMFZoulRulGg-xG5s9qguw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCb8_UiUdnM9S7r1aYPAsSMw",
+      "profile_url": "https://www.youtube.com/channel/UCb8_UiUdnM9S7r1aYPAsSMw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCbDEpKYIxpFJwrqOatkv9tA",
+      "profile_url": "https://www.youtube.com/channel/UCbDEpKYIxpFJwrqOatkv9tA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCbNMdCWBwjljPxDu8dfeHmg",
+      "profile_url": "https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCcU1vg4c0iV1VKH8_BE7bZw",
+      "profile_url": "https://www.youtube.com/channel/UCcU1vg4c0iV1VKH8_BE7bZw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCcjxXC-20HT-sK316Dz2IFQ",
+      "profile_url": "https://www.youtube.com/channel/UCcjxXC-20HT-sK316Dz2IFQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCd7icqUv7f8k2E6n4WOCIQg",
+      "profile_url": "https://www.youtube.com/channel/UCd7icqUv7f8k2E6n4WOCIQg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCd7mIFLSi18eIvaBZuv6c2A",
+      "profile_url": "https://www.youtube.com/channel/UCd7mIFLSi18eIvaBZuv6c2A"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCdgKFoa_nAO0DVm8stiA0Ig",
+      "profile_url": "https://www.youtube.com/channel/UCdgKFoa_nAO0DVm8stiA0Ig"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCdw0gUzVPhyZFRVeuzy_AEg",
+      "profile_url": "https://www.youtube.com/channel/UCdw0gUzVPhyZFRVeuzy_AEg"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCfM7HC0wkS_cWVIcgpy2XPA",
+      "profile_url": "https://www.youtube.com/channel/UCfM7HC0wkS_cWVIcgpy2XPA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCfcM9RkfntkTH0pCwd4vSPA",
+      "profile_url": "https://www.youtube.com/channel/UCfcM9RkfntkTH0pCwd4vSPA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UChz7dY8O1jTD8bXGJ8JgXEA",
+      "profile_url": "https://www.youtube.com/channel/UChz7dY8O1jTD8bXGJ8JgXEA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCixdFezucL8az0Zm4MgidIw",
+      "profile_url": "https://www.youtube.com/channel/UCixdFezucL8az0Zm4MgidIw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCjegsOAf5nOCfLfMpLyNj0A",
+      "profile_url": "https://www.youtube.com/channel/UCjegsOAf5nOCfLfMpLyNj0A"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCk1BE73NfSUGz19LpNg9E-w",
+      "profile_url": "https://www.youtube.com/channel/UCk1BE73NfSUGz19LpNg9E-w"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCkCQe4QPcKCvB3PTzIWHn2g",
+      "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCklkYxRVIAsczwi9w6Y3l5g",
+      "profile_url": "https://www.youtube.com/channel/UCklkYxRVIAsczwi9w6Y3l5g"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCl0b0B4B3VHAs8AQKGYDCjw",
+      "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UClSW7LJ8qs7BwNfn2yMT0sQ",
+      "profile_url": "https://www.youtube.com/channel/UClSW7LJ8qs7BwNfn2yMT0sQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCmf_Xgbqr0WnQsUOJXWXLLA",
+      "profile_url": "https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCn7Ifm7sq_IIMivtzZ-LtnA",
+      "profile_url": "https://www.youtube.com/channel/UCn7Ifm7sq_IIMivtzZ-LtnA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCn_b_mrrhtMGhiLZLCzF7rQ",
+      "profile_url": "https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCq7ZjN2HpEDU0Psyi5oRE3A",
+      "profile_url": "https://www.youtube.com/channel/UCq7ZjN2HpEDU0Psyi5oRE3A"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCrhm4vlaOhwDND5uIBQPbiw",
+      "profile_url": "https://www.youtube.com/channel/UCrhm4vlaOhwDND5uIBQPbiw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCwYf2nxcgJ1WNul1nKs14qw",
+      "profile_url": "https://www.youtube.com/channel/UCwYf2nxcgJ1WNul1nKs14qw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCxA9k7UJz50ZJPa5aUGf7fw",
+      "profile_url": "https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCxAdlKnB5u0a7A-iqRa5jYw",
+      "profile_url": "https://www.youtube.com/channel/UCxAdlKnB5u0a7A-iqRa5jYw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCxQFCdMag6smOQVAObGBIgA",
+      "profile_url": "https://www.youtube.com/channel/UCxQFCdMag6smOQVAObGBIgA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCy4L-mlTgH-v8vBbtzCGhIA",
+      "profile_url": "https://www.youtube.com/channel/UCy4L-mlTgH-v8vBbtzCGhIA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCzBbE7x7mPrs56PvCc0errA",
+      "profile_url": "https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA"
+    }
+  ],
+  "updated_at": "2026-06-30T10:32:58.295955+09:00"
 }

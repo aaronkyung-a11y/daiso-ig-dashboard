@@ -1,191 +1,201 @@
 {
- "platform": "youtube",
- "username": "UCbDEpKYIxpFJwrqOatkv9tA",
- "fullname": "서로디 lody",
- "profile_url": "https://www.youtube.com/channel/UCbDEpKYIxpFJwrqOatkv9tA",
- "channel_id": "UCbDEpKYIxpFJwrqOatkv9tA",
- "followers": 1610,
- "engagement_rate": 0.0121,
- "avg_likes": 853,
- "avg_comments": 9.6,
- "avg_views": 70672,
- "posts_last_30d": 10,
- "_posts_last_30d_est": false,
- "sample_size": 13,
- "brand_fit_score": 90,
- "retailer_focus": "olive_young",
- "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "8건",
-  "beauty_topical_strength": "25건",
-  "labrang_blanc_doux_mention": false
- },
- "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
- "score_total": 73.5,
- "grade": "B",
- "score_breakdown": {
-  "er_score": 60,
-  "brand_fit_score": 90,
-  "consistency_score": 100,
-  "follower_scale_score": 60,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "estimation_flags": [],
- "sample_note": "YT yt-dlp 실측 13표본(최근≤20). brand_fit/retailer_focus는 직전 측정값 유지(경량크롤=제목 미수집).",
- "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 1390,
-   "engagement_rate": 0.0269,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.2,
-   "grade": "D"
+  "platform": "youtube",
+  "username": "UCbDEpKYIxpFJwrqOatkv9tA",
+  "fullname": "서로디 lody",
+  "profile_url": "https://www.youtube.com/channel/UCbDEpKYIxpFJwrqOatkv9tA",
+  "channel_id": "UCbDEpKYIxpFJwrqOatkv9tA",
+  "followers": 1620,
+  "engagement_rate": 0.0276,
+  "avg_likes": 69,
+  "avg_comments": 11,
+  "avg_views": 2501,
+  "posts_last_30d": 0,
+  "_posts_last_30d_est": true,
+  "sample_size": 3,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 0,
+    "beauty_kw": 0,
+    "labrang": false
   },
-  {
-   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
-   "followers": 1060,
-   "engagement_rate": 0.0096,
-   "posts_last_30d": 13,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 63.5,
-   "grade": "C"
+  "evaluated_at": "2026-06-30T10:22:29.784752+09:00",
+  "score_total": 48.2,
+  "grade": "D",
+  "score_breakdown": {
+    "er_score": 60,
+    "brand_fit": 25,
+    "consistency": 40,
+    "follower": 60,
+    "formula": "er*0.5+bf*0.25+consist*0.15+foll*0.1"
   },
-  {
-   "evaluated_at": "2026-06-17T10:28:23.576898+09:00",
-   "followers": 1060,
-   "engagement_rate": 0.0273,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.2,
-   "grade": "D"
-  },
-  {
-   "evaluated_at": "2026-06-16T10:26:49.399610+09:00",
-   "followers": 1060,
-   "engagement_rate": 0.0272,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.2,
-   "grade": "D"
-  },
-  {
-   "evaluated_at": "2026-06-01T01:10:21.048444+00:00",
-   "score_total": 49.25,
-   "grade": "D",
-   "engagement_rate": 0.0293,
-   "followers": 718,
-   "posts_last_30d": 2,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "avg_views": 1501,
-   "avg_likes": 44,
-   "sample_size": 3
-  },
-  {
-   "evaluated_at": "2026-06-04T10:24:37.636355+09:00",
-   "score_total": 61.75,
-   "grade": "C",
-   "engagement_rate": 0.0126,
-   "followers": 759,
-   "posts_last_30d": 2,
-   "brand_fit_score": 75,
-   "retailer_focus": "olive_young",
-   "avg_views": 14401,
-   "avg_likes": 182,
-   "sample_size": 6
-  },
-  {
-   "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
-   "followers": 792,
-   "engagement_rate": 0.0103,
-   "posts_last_30d": 14,
-   "brand_fit_score": 75,
-   "retailer_focus": "olive_young",
-   "score_total": 67.8,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-06-08T10:29:30.417963+09:00",
-   "followers": 981,
-   "engagement_rate": 0.0063,
-   "posts_last_30d": 14,
-   "brand_fit_score": 60,
-   "retailer_focus": "olive_young",
-   "score_total": 54.0,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
-   "followers": 1020,
-   "engagement_rate": 0.0112,
-   "posts_last_30d": 15,
-   "brand_fit_score": 60,
-   "retailer_focus": "olive_young",
-   "score_total": 66.0,
-   "grade": "B"
-  },
-  {
-   "brand_fit_score": 60,
-   "engagement_rate": 0.0192,
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
-   "followers": 1030,
-   "grade": "B",
-   "posts_last_30d": 15,
-   "retailer_focus": "daiso",
-   "score_total": 66.0
-  },
-  {
-   "evaluated_at": "2026-06-18T10:26:11.374139+09:00",
-   "followers": 1060,
-   "engagement_rate": 0.0273,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.25,
-   "grade": "D"
-  },
-  {
-   "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
-   "followers": 1060,
-   "engagement_rate": 0.0099,
-   "posts_last_30d": 13,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 63.5,
-   "grade": "C"
-  },
-  {
-   "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
-   "followers": 1320,
-   "engagement_rate": 0.027,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.2,
-   "grade": "D"
-  },
-  {
-   "evaluated_at": "2026-06-26T10:25:00.487176+09:00",
-   "followers": 1500,
-   "engagement_rate": 0.0113,
-   "posts_last_30d": 13,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 73.5,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-06-26T10:25:00.487176+09:00",
-   "score_total": 73.5,
-   "grade": "B",
-   "engagement_rate": 0.0113,
-   "followers": 1500,
-   "posts_last_30d": 13
-  }
- ]
+  "estimation_flags": [
+    "posts_30d_est_fallback"
+  ],
+  "sample_note": "YT yt-dlp 실측 sample=3 (30d=0·추정fallback)",
+  "history": [
+    {
+      "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
+      "followers": 1390,
+      "engagement_rate": 0.0269,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 48.2,
+      "grade": "D"
+    },
+    {
+      "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
+      "followers": 1060,
+      "engagement_rate": 0.0096,
+      "posts_last_30d": 13,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 63.5,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-06-17T10:28:23.576898+09:00",
+      "followers": 1060,
+      "engagement_rate": 0.0273,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 48.2,
+      "grade": "D"
+    },
+    {
+      "evaluated_at": "2026-06-16T10:26:49.399610+09:00",
+      "followers": 1060,
+      "engagement_rate": 0.0272,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 48.2,
+      "grade": "D"
+    },
+    {
+      "evaluated_at": "2026-06-01T01:10:21.048444+00:00",
+      "score_total": 49.25,
+      "grade": "D",
+      "engagement_rate": 0.0293,
+      "followers": 718,
+      "posts_last_30d": 2,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "avg_views": 1501,
+      "avg_likes": 44,
+      "sample_size": 3
+    },
+    {
+      "evaluated_at": "2026-06-04T10:24:37.636355+09:00",
+      "score_total": 61.75,
+      "grade": "C",
+      "engagement_rate": 0.0126,
+      "followers": 759,
+      "posts_last_30d": 2,
+      "brand_fit_score": 75,
+      "retailer_focus": "olive_young",
+      "avg_views": 14401,
+      "avg_likes": 182,
+      "sample_size": 6
+    },
+    {
+      "evaluated_at": "2026-06-05T10:34:12.581882+09:00",
+      "followers": 792,
+      "engagement_rate": 0.0103,
+      "posts_last_30d": 14,
+      "brand_fit_score": 75,
+      "retailer_focus": "olive_young",
+      "score_total": 67.8,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-06-08T10:29:30.417963+09:00",
+      "followers": 981,
+      "engagement_rate": 0.0063,
+      "posts_last_30d": 14,
+      "brand_fit_score": 60,
+      "retailer_focus": "olive_young",
+      "score_total": 54.0,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+      "followers": 1020,
+      "engagement_rate": 0.0112,
+      "posts_last_30d": 15,
+      "brand_fit_score": 60,
+      "retailer_focus": "olive_young",
+      "score_total": 66.0,
+      "grade": "B"
+    },
+    {
+      "brand_fit_score": 60,
+      "engagement_rate": 0.0192,
+      "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
+      "followers": 1030,
+      "grade": "B",
+      "posts_last_30d": 15,
+      "retailer_focus": "daiso",
+      "score_total": 66.0
+    },
+    {
+      "evaluated_at": "2026-06-18T10:26:11.374139+09:00",
+      "followers": 1060,
+      "engagement_rate": 0.0273,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 48.25,
+      "grade": "D"
+    },
+    {
+      "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
+      "followers": 1060,
+      "engagement_rate": 0.0099,
+      "posts_last_30d": 13,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 63.5,
+      "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
+      "followers": 1320,
+      "engagement_rate": 0.027,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 48.2,
+      "grade": "D"
+    },
+    {
+      "evaluated_at": "2026-06-26T10:25:00.487176+09:00",
+      "followers": 1500,
+      "engagement_rate": 0.0113,
+      "posts_last_30d": 13,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 73.5,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-06-26T10:25:00.487176+09:00",
+      "score_total": 73.5,
+      "grade": "B",
+      "engagement_rate": 0.0113,
+      "followers": 1500,
+      "posts_last_30d": 13
+    },
+    {
+      "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
+      "score_total": 73.5,
+      "engagement_rate": 0.0121,
+      "followers": 1610,
+      "grade": "B",
+      "posts_last_30d": 10
+    }
+  ]
 }
