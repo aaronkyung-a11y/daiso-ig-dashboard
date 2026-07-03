@@ -4,7 +4,7 @@
  "fullname": "Pibukyurl",
  "profile_url": "https://www.youtube.com/channel/UCd7icqUv7f8k2E6n4WOCIQg",
  "channel_id": "UCd7icqUv7f8k2E6n4WOCIQg",
- "followers": 65700,
+ "followers": 66200,
  "engagement_rate": 0.0357,
  "avg_likes": 2331,
  "avg_comments": 27.7,
@@ -20,7 +20,7 @@
   "beauty_topical_strength": "62건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
+ "evaluated_at": "2026-07-03T10:14:09.465620+09:00",
  "score_total": 79.5,
  "grade": "A",
  "score_breakdown": {
@@ -30,8 +30,13 @@
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": [],
- "sample_note": "YT yt-dlp 실측 22표본(최근≤20). brand_fit/retailer_focus는 직전 측정값 유지(경량크롤=제목 미수집).",
+ "estimation_flags": {
+  "engagement_rate": "kept (전회 실측; YouTube per-video stats IP bot-blocked this run)",
+  "posts_last_30d": "kept (전회 실측)",
+  "brand_fit": "kept (전회 실측)",
+  "followers": "measured (flat-playlist live)"
+ },
+ "sample_note": "2026-07-03T10:14:09.465620+09:00 STEP B 부분 재분석: followers 실측 갱신(flat-playlist). ER/posts/brand_fit 전회 실측 유지 — YouTube 영상 메타 IP 봇차단. score_total 재계산.",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -216,6 +221,13 @@
    "engagement_rate": 0.0216,
    "followers": 65000,
    "posts_last_30d": 0
+  },
+  {
+   "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
+   "followers": 65700,
+   "engagement_rate": 0.0357,
+   "score_total": 79.5,
+   "grade": "A"
   }
  ]
 }
