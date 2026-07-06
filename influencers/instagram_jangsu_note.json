@@ -3,12 +3,12 @@
   "username": "jangsu_note",
   "fullname": "장수노트",
   "profile_url": "https://www.instagram.com/jangsu_note/",
-  "followers": 15676,
-  "engagement_rate": 0.1164,
-  "avg_likes": 1778,
-  "avg_comments": 47,
+  "followers": 17019,
+  "engagement_rate": 0.1161,
+  "avg_likes": 1927,
+  "avg_comments": 50,
   "avg_views": 174556,
-  "posts_last_30d": 9,
+  "posts_last_30d": 2,
   "_posts_last_30d_est": false,
   "sample_size": 24,
   "brand_fit_score": 100,
@@ -19,24 +19,35 @@
     "beauty_topical_strength": "28건",
     "labrang_blanc_doux_mention": true
   },
-  "evaluated_at": "2026-07-03T17:11:37.579178+09:00",
-  "score_total": 95.0,
+  "evaluated_at": "2026-07-06T10:19:37.636436+09:00",
+  "score_total": 92.0,
   "grade": "S",
   "score_breakdown": {
     "er_score": 100,
     "brand_fit_score": 100,
-    "consistency_score": 80,
+    "consistency_score": 60,
     "follower_scale_score": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API(feed/user) 로그인 실측)",
+    "engagement_rate": "measured ((평균좋아요+평균댓글)/팔로워, web feed API(feed/user) count=24 로그인 실측)",
     "posts_last_30d": "measured (taken_at 실측)",
     "brand_fit": "measured (캡션+bio 키워드 실측)",
-    "followers": "measured"
+    "followers": "measured",
+    "avg_views": "carried_over (이번 실행 미재측정)"
   },
-  "sample_note": "2026-07-03T17:11:37.579178+09:00 STEP B-Light(17시 롤링) — IG 로그아웃(sessionid 부재)으로 reel 좋아요/댓글/taken_at 재측정 불가. 프로필 팔로워 로그아웃 표기 \"1.6만\"(반올림) — 직전 정밀값 15676 유지. ER·posts_last_30d·brand_fit은 직전 실측(2026-06-19) 유지(추정 아님, carry-over). score_total 재계산=95.0.",
+  "sample_note": "2026-07-06T10:19:37.636436+09:00 STEP B 풀 재분석(평일 10시, Chrome 로그인 세션) — web feed API(feed/user) 최근24개 실측(좋아요/댓글/taken_at/캡션). ER=(평균좋아요+평균댓글)/팔로워. avg_views만 직전값 carry-over. grade S>=85/A>=75/B>=65/C>=50/D.",
   "history": [
+    {
+      "evaluated_at": "2026-07-03T17:11:37.579178+09:00",
+      "followers": 15676,
+      "engagement_rate": 0.1164,
+      "posts_last_30d": 9,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 95.0,
+      "grade": "S"
+    },
     {
       "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
       "followers": 15172,
