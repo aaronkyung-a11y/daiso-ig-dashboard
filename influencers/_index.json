@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-07-06T10:19:37.636436+09:00",
- "lastUpdated": "2026-07-06T10:19:37.636436+09:00",
- "last_run_mode": "평일 10:00 슬롯 — STEP B 풀 재분석 실행. STEP A 큐3소스 신규 0건(Issues 0·_queue.txt 빈큐·Form 고유134 전건 기분석 SKIP). STEP B: IG 23계정 중 22계정 Chrome 로그인 세션 feed API 실측 재측정(sample 24), mingjikim_107은 web_profile_info API rate-limit(HTML)으로 재측정 실패→직전값 carry-over. YouTube 111계정은 이번 실행 미재측정(yt-dlp per-video 추출이 JS런타임 부재로 111계정 규모에 시간상 비현실적)→직전 실측값 carry-over. avg_views는 IG도 carry-over. score_total null 0건.",
+ "last_updated": "2026-07-06T14:00:00+09:00",
+ "lastUpdated": "2026-07-06T14:00:00+09:00",
+ "last_run_mode": "평일 14:00 슬롯 — STEP A 큐 + STEP B-Light 실행. STEP A 신규 0건(Issues 0·_queue.txt 빈큐·Form 고유134 전건 기분석 SKIP). STEP B SKIPPED (not 10:00 slot). STEP B-Light: youtube_UCmf_Xgbqr0WnQsUOJXWXLLA(코덕요정) yt-dlp 실측 20표본 재측정 완료(score 78.8→78.8, ER 0.0209→0.0255, brand_fit 제목20 실측 95/our_brand); instagram_mingjikim_107 재측정 실패(Chrome IG 로그아웃, web_profile_info 404)→직전값 carry-over, evaluated_at 유지. score_total null 0건.",
  "total": 134,
  "platforms": {
   "instagram": 23,
@@ -447,21 +447,21 @@
    "fullname": "코덕요정🧚‍♀️",
    "profile_url": "https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA",
    "followers": 117000,
-   "engagement_rate": 0.0209,
+   "engagement_rate": 0.0255,
    "posts_last_30d": 14,
-   "sample_size": 20,
+   "sample_size": 14,
    "brand_fit_score": 95,
    "retailer_focus": "our_brand",
    "retailer_signal": {
-    "daiso_mentions": "3건",
-    "olive_young_mentions": "6건",
-    "beauty_topical_strength": "4건",
+    "daiso_mentions": "4건",
+    "olive_young_mentions": "5건",
+    "beauty_topical_strength": "5건",
     "labrang_blanc_doux_mention": true
    },
-   "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
+   "evaluated_at": "2026-07-06T14:00:00+09:00",
    "score_total": 78.8,
    "grade": "A",
-   "sample_note": "YT yt-dlp 실측 20표본(최근≤20). brand_fit/retailer_focus는 직전 측정값 유지(경량크롤=제목 미수집)."
+   "sample_note": "2026-07-06T14:00:00+09:00 STEP B-Light rolling refresh (14:00 slot). yt-dlp 실측 14표본(30일내 영상). brand_fit/retailer_focus는 제목20개 키워드 실측 산출."
   },
   {
    "platform": "youtube",
