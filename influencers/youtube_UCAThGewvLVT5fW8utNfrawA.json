@@ -4,14 +4,14 @@
  "fullname": "ARADHYA FACT",
  "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
  "channel_id": "UCAThGewvLVT5fW8utNfrawA",
- "followers": 749000,
+ "followers": 760000,
  "engagement_rate": 0.0,
  "avg_likes": 0,
  "avg_comments": 3.9,
  "avg_views": 839055,
- "posts_last_30d": 20,
+ "posts_last_30d": 15,
  "_posts_last_30d_est": true,
- "sample_size": 20,
+ "sample_size": 15,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,7 +20,7 @@
   "beauty_topical_strength": "0건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
+ "evaluated_at": "2026-07-07T17:10:00+09:00",
  "score_total": 51.2,
  "grade": "C",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "like_count 측정불가(전부 비공개/NA)→ER=0 처리",
   "posts_last_30d 표본20개 상한으로 과소집계 가능"
  ],
- "sample_note": "YT yt-dlp 실측 20표본(최근≤20). brand_fit/retailer_focus는 직전 측정값 유지(경량크롤=제목 미수집). ⚠️likes 비공개",
+ "sample_note": "YT yt-dlp 실측 15표본(uploads playlist). brand_fit/retailer_focus=제목+해시태그 기반(설명/태그 미수집→부분추정). ⚠️likes 비공개→ER=0",
  "history": [
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
@@ -215,6 +215,15 @@
    "engagement_rate": 0.097,
    "followers": 739000,
    "posts_last_30d": 16
+  },
+  {
+   "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
+   "score_total": 51.2,
+   "grade": "C",
+   "engagement_rate": 0.0,
+   "followers": 749000,
+   "posts_last_30d": 20,
+   "brand_fit_score": 25
   }
  ]
 }
