@@ -165,9 +165,9 @@ tr.row:hover { background: #0f172a; }
 <script>
 // INFLUENCER_DATA_BEGIN
 const INFLUENCER_DATA = {
-  "last_updated": "2026-07-08T10:40:44.216210+09:00",
-  "lastUpdated": "2026-07-08T10:40:44.216210+09:00",
-  "last_run_mode": "2026-07-08T10:40:44.216210+09:00 평일 10:00 슬롯 — STEP B 풀 재분석 실행(134계정 전건). STEP A 신규 0건(GitHub Issues 0·_queue.txt 빈큐·Google Form 고유134건 전건 기분석 SKIP). STEP B 풀 재분석: YouTube 111계정 yt-dlp 실측(최근5영상 조회수/좋아요/댓글/업로드일/제목·태그·설명, ER=avg_likes/avg_views); Instagram 22계정 브라우저 로그인세션 feed/user API 실측(최근12 좋아요/댓글/taken_at/캡션, 12표본 cap), mingjikim_107 1계정은 IG 로그인월(HTML 응답)로 직전값 유지(kept). PAT는 분리파일 github-pat.txt에서 추출(지정 SKILL_2026-04-27_v2_30day.md 파일 부재로 대체). score_total null 0건. posts_last_30d는 표본 내 실측이며 표본 전체가 30일내인 경우 과소집계 가능(_posts_last_30d_est=true).",
+  "last_updated": "2026-07-08T14:11:46.205294+09:00",
+  "lastUpdated": "2026-07-08T14:11:46.205294+09:00",
+  "last_run_mode": "2026-07-08T14:11:46.205294+09:00 14:00 슬롯 — STEP A 신규 0건(Issues 0·_queue.txt 빈큐·Form 고유134건 전건 기분석 SKIP). STEP B SKIPPED (not 10:00 slot). STEP B-Light: youtube_Jinyaa 재분석(ER 2.69%→2.66%, score 71.5→71.5 무변동), instagram_mingjikim_107 404 재확인(값 KEPT, score 36.2). score_total null 0건.",
   "total": 134,
   "platforms": {
     "instagram": 23,
@@ -181,12 +181,12 @@ const INFLUENCER_DATA = {
     "D": 16
   },
   "retailer_focus": {
-    "our_brand": 2,
-    "daiso": 32,
     "olive_young": 44,
-    "mixed": 5,
+    "daiso": 32,
+    "our_brand": 2,
     "beauty_general": 29,
-    "off_topic": 22
+    "off_topic": 22,
+    "mixed": 5
   },
   "records": [
     {
@@ -833,21 +833,21 @@ const INFLUENCER_DATA = {
       "fullname": "지냐 Jinyaa",
       "profile_url": "https://www.youtube.com/@Jinyaa",
       "followers": 361000,
-      "engagement_rate": 0.0269,
+      "engagement_rate": 0.0266,
       "posts_last_30d": 4,
-      "sample_size": 5,
+      "sample_size": 4,
       "brand_fit_score": 90,
       "retailer_focus": "olive_young",
       "retailer_signal": {
         "daiso": 0,
-        "olive_young": 12,
-        "beauty_kw": 288,
+        "olive_young": 6,
+        "beauty_kw": 190,
         "labrang": false
       },
-      "evaluated_at": "2026-07-08T10:16:44.293141+09:00",
+      "evaluated_at": "2026-07-08T14:11:23.677808+09:00",
       "score_total": 71.5,
       "grade": "B",
-      "sample_note": "2026-07-08T10:16:44.293141+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 5 videos measured(views/likes/comments/date/title-tags-desc). ER=avg_likes/avg_views."
+      "sample_note": "2026-07-08T14:11:23.677808+09:00 STEP B-Light(14:00 slot) - yt-dlp recent 4 videos in 30d measured(views/likes/comments/date/title-tags). ER=avg_likes/avg_views=2.66%. avg_views=55044 avg_likes=1466."
     },
     {
       "platform": "youtube",
@@ -3129,10 +3129,10 @@ const INFLUENCER_DATA = {
       "retailer_signal": {
         "note": "account_404"
       },
-      "evaluated_at": "2026-07-07T14:31:00.000000+09:00",
+      "evaluated_at": "2026-07-08T14:11:23.677808+09:00",
       "score_total": 36.2,
       "grade": "D",
-      "sample_note": "2026-07-08T10:39:13.046210+09:00 STEP B: IG login wall (web_profile_info returned HTML) - values KEPT from prior run. IG 404 — 계정 없음(삭제/username 변경) 확인 2026-07-07. 크롤 불가로 0 처리."
+      "sample_note": "2026-07-08T14:11:23.677808+09:00 STEP B-Light(14:00 slot): IG 404 re-confirmed via logged-in browser session ('페이지를 사용할 수 없습니다' - account deleted/renamed). Values KEPT (0). score_total kept=36.2."
     }
   ]
 };
