@@ -4,14 +4,14 @@
  "fullname": "HellfireDrama",
  "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
  "channel_id": "UC-C-faUj5SNcrIkqEM6FcjA",
- "followers": 334000,
- "engagement_rate": 0.0094,
- "avg_likes": 456,
- "avg_comments": 15,
- "avg_views": 48531,
- "posts_last_30d": 20,
- "_posts_last_30d_est": false,
- "sample_size": 20,
+ "followers": 339000,
+ "engagement_rate": 0.0145,
+ "avg_likes": 115,
+ "avg_comments": 2,
+ "avg_views": 7926,
+ "posts_last_30d": 5,
+ "_posts_last_30d_est": true,
+ "sample_size": 5,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,24 +20,34 @@
   "beauty_kw": 0,
   "labrang": false
  },
- "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
- "score_total": 51.25,
+ "evaluated_at": "2026-07-08T10:16:44.293141+09:00",
+ "score_total": 58.2,
  "grade": "C",
  "score_breakdown": {
-  "er_score": 40,
+  "er_score": 60,
   "brand_fit_score": 25,
-  "consistency_score": 100,
+  "consistency_score": 80,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "kept (전회 실측; YouTube per-video stats IP bot-blocked this run)",
-  "posts_last_30d": "kept (전회 실측)",
-  "brand_fit": "kept (전회 실측)",
-  "followers": "measured (flat-playlist live)"
+  "engagement_rate": "measured (yt-dlp per-video likes/views)",
+  "posts_last_30d": "measured (upload_date); may undercount - all sampled within 30d",
+  "brand_fit": "measured (title+tags+description keywords)",
+  "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-03T10:12:20.934442+09:00 STEP B 부분 재분석: followers 실측 갱신(flat-playlist). ER/posts/brand_fit 전회 실측 유지 — YouTube 영상 메타 IP 봇차단. score_total 재계산.",
+ "sample_note": "2026-07-08T10:16:44.293141+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 5 videos measured(views/likes/comments/date/title-tags-desc). ER=avg_likes/avg_views.",
  "history": [
+  {
+   "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
+   "followers": 334000,
+   "engagement_rate": 0.0094,
+   "posts_last_30d": 20,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 51.25,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 327000,

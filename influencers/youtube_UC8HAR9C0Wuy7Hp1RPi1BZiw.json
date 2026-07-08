@@ -5,24 +5,24 @@
  "profile_url": "https://www.youtube.com/channel/UC8HAR9C0Wuy7Hp1RPi1BZiw",
  "channel_id": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
  "followers": 938,
- "engagement_rate": 0.01,
- "avg_likes": 73,
- "avg_comments": 2.2,
- "avg_views": 7886,
- "posts_last_30d": 7,
- "_posts_last_30d_est": false,
- "sample_size": 20,
+ "engagement_rate": 0.0053,
+ "avg_likes": 8,
+ "avg_comments": 2,
+ "avg_views": 1514,
+ "posts_last_30d": 5,
+ "_posts_last_30d_est": true,
+ "sample_size": 5,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
-  "daiso_mentions": "3건",
-  "olive_young_mentions": "2건",
-  "beauty_topical_strength": "44건",
-  "labrang_blanc_doux_mention": false
+  "daiso": 0,
+  "olive_young": 0,
+  "beauty_kw": 18,
+  "labrang": false
  },
- "evaluated_at": "2026-07-07T17:10:00+09:00",
+ "evaluated_at": "2026-07-08T10:19:06.821438+09:00",
  "score_total": 58.5,
- "grade": "B",
+ "grade": "C",
  "score_breakdown": {
   "er_score": 40,
   "brand_fit_score": 90,
@@ -30,9 +30,24 @@
   "follower_scale_score": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": [],
- "sample_note": "YT yt-dlp 실측 20표본(uploads playlist). brand_fit/retailer_focus=제목+해시태그 기반(설명/태그 미수집→부분추정).",
+ "estimation_flags": {
+  "engagement_rate": "measured (yt-dlp per-video likes/views)",
+  "posts_last_30d": "measured (upload_date); may undercount - all sampled within 30d",
+  "brand_fit": "measured (title+tags+description keywords)",
+  "followers": "measured (yt-dlp channel_follower_count)"
+ },
+ "sample_note": "2026-07-08T10:19:06.821438+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 5 videos measured(views/likes/comments/date/title-tags-desc). ER=avg_likes/avg_views.",
  "history": [
+  {
+   "evaluated_at": "2026-07-07T17:10:00+09:00",
+   "followers": 938,
+   "engagement_rate": 0.01,
+   "posts_last_30d": 7,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 58.5,
+   "grade": "B"
+  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 938,

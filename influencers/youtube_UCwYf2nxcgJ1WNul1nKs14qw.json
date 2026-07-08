@@ -8,33 +8,46 @@
  "engagement_rate": 0.0102,
  "avg_likes": 180,
  "avg_comments": 2,
- "avg_views": 17666,
+ "avg_views": 17670,
  "posts_last_30d": 0,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 2,
- "brand_fit_score": 75,
+ "brand_fit_score": 60,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso": 7,
+  "daiso": 2,
   "olive_young": 0,
-  "beauty_kw": 3,
+  "beauty_kw": 2,
   "labrang": false
  },
- "evaluated_at": "2026-06-30T10:24:07.812975+09:00",
- "score_total": 58.8,
+ "evaluated_at": "2026-07-08T10:30:19.042349+09:00",
+ "score_total": 55.0,
  "grade": "C",
  "score_breakdown": {
   "er_score": 60,
-  "brand_fit": 75,
-  "consistency": 40,
-  "follower": 40,
-  "formula": "er*0.5+bf*0.25+consist*0.15+foll*0.1"
+  "brand_fit_score": 60,
+  "consistency_score": 40,
+  "follower_scale_score": 40,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": [
-  "posts_30d_est_fallback"
- ],
- "sample_note": "YT yt-dlp 실측 sample=2 (30d=0·추정fallback)",
+ "estimation_flags": {
+  "engagement_rate": "measured (yt-dlp per-video likes/views)",
+  "posts_last_30d": "measured (upload_date)",
+  "brand_fit": "measured (title+tags+description keywords)",
+  "followers": "measured (yt-dlp channel_follower_count)"
+ },
+ "sample_note": "2026-07-08T10:30:19.042349+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 2 videos measured(views/likes/comments/date/title-tags-desc). ER=avg_likes/avg_views.",
  "history": [
+  {
+   "evaluated_at": "2026-06-30T10:24:07.812975+09:00",
+   "followers": 88,
+   "engagement_rate": 0.0102,
+   "posts_last_30d": 0,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "score_total": 58.8,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 88,

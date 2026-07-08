@@ -5,13 +5,13 @@
  "profile_url": "https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA",
  "channel_id": "UCzBbE7x7mPrs56PvCc0errA",
  "followers": 159000,
- "engagement_rate": 0.0111,
- "avg_likes": 248,
- "avg_comments": 10,
- "avg_views": 22367,
- "posts_last_30d": 3,
+ "engagement_rate": 0.0095,
+ "avg_likes": 230,
+ "avg_comments": 9,
+ "avg_views": 24210,
+ "posts_last_30d": 4,
  "_posts_last_30d_est": false,
- "sample_size": 3,
+ "sample_size": 5,
  "brand_fit_score": 75,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
@@ -20,19 +20,34 @@
   "beauty_kw": 7,
   "labrang": false
  },
- "evaluated_at": "2026-06-30T10:25:05.403459+09:00",
- "score_total": 67.8,
- "grade": "B",
+ "evaluated_at": "2026-07-08T10:30:53.382948+09:00",
+ "score_total": 57.8,
+ "grade": "C",
  "score_breakdown": {
-  "er_score": 60,
-  "brand_fit": 75,
-  "consistency": 60,
-  "follower": 100,
-  "formula": "er*0.5+bf*0.25+consist*0.15+foll*0.1"
+  "er_score": 40,
+  "brand_fit_score": 75,
+  "consistency_score": 60,
+  "follower_scale_score": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": [],
- "sample_note": "YT yt-dlp 실측 sample=3 (30d=3)",
+ "estimation_flags": {
+  "engagement_rate": "measured (yt-dlp per-video likes/views)",
+  "posts_last_30d": "measured (upload_date)",
+  "brand_fit": "measured (title+tags+description keywords)",
+  "followers": "measured (yt-dlp channel_follower_count)"
+ },
+ "sample_note": "2026-07-08T10:30:53.382948+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 5 videos measured(views/likes/comments/date/title-tags-desc). ER=avg_likes/avg_views.",
  "history": [
+  {
+   "evaluated_at": "2026-06-30T10:25:05.403459+09:00",
+   "followers": 159000,
+   "engagement_rate": 0.0111,
+   "posts_last_30d": 3,
+   "brand_fit_score": 75,
+   "retailer_focus": "beauty_general",
+   "score_total": 67.8,
+   "grade": "B"
+  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 159000,

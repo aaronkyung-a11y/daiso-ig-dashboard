@@ -5,22 +5,22 @@
  "profile_url": "https://www.youtube.com/channel/UCSx-2fuyotB8WA8KytyhACg",
  "channel_id": "UCSx-2fuyotB8WA8KytyhACg",
  "followers": 291000,
- "engagement_rate": 0.0252,
- "avg_likes": 941,
- "avg_comments": 22.0,
- "avg_views": 37293,
- "posts_last_30d": 6,
- "_posts_last_30d_est": false,
- "sample_size": 19,
+ "engagement_rate": 0.0234,
+ "avg_likes": 439,
+ "avg_comments": 281,
+ "avg_views": 18752,
+ "posts_last_30d": 5,
+ "_posts_last_30d_est": true,
+ "sample_size": 5,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "1건",
-  "beauty_topical_strength": "27건",
-  "labrang_blanc_doux_mention": false
+  "daiso": 0,
+  "olive_young": 2,
+  "beauty_kw": 86,
+  "labrang": false
  },
- "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
+ "evaluated_at": "2026-07-08T10:23:45.268550+09:00",
  "score_total": 74.5,
  "grade": "B",
  "score_breakdown": {
@@ -31,13 +31,23 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "kept (전회 실측; YouTube per-video stats IP bot-blocked this run)",
-  "posts_last_30d": "kept (전회 실측)",
-  "brand_fit": "kept (전회 실측)",
-  "followers": "measured (flat-playlist live)"
+  "engagement_rate": "measured (yt-dlp per-video likes/views)",
+  "posts_last_30d": "measured (upload_date); may undercount - all sampled within 30d",
+  "brand_fit": "measured (title+tags+description keywords)",
+  "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-03T10:13:06.763804+09:00 STEP B 부분 재분석: followers 실측 갱신(flat-playlist). ER/posts/brand_fit 전회 실측 유지 — YouTube 영상 메타 IP 봇차단. score_total 재계산.",
+ "sample_note": "2026-07-08T10:23:45.268550+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 5 videos measured(views/likes/comments/date/title-tags-desc). ER=avg_likes/avg_views.",
  "history": [
+  {
+   "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
+   "followers": 291000,
+   "engagement_rate": 0.0252,
+   "posts_last_30d": 6,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 74.5,
+   "grade": "B"
+  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 290000,
@@ -293,13 +303,6 @@
    "engagement_rate": 0.0124,
    "followers": 290000,
    "posts_last_30d": 14
-  },
-  {
-   "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
-   "followers": 291000,
-   "engagement_rate": 0.0252,
-   "score_total": 74.5,
-   "grade": "B"
   }
  ]
 }

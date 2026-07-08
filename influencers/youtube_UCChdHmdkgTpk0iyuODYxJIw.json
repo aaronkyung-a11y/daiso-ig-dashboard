@@ -5,22 +5,22 @@
  "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
  "channel_id": "UCChdHmdkgTpk0iyuODYxJIw",
  "followers": 480000,
- "engagement_rate": 0.0356,
- "avg_likes": 1485,
- "avg_comments": 118,
- "avg_views": 41720,
- "posts_last_30d": 4,
+ "engagement_rate": 0.0349,
+ "avg_likes": 1367,
+ "avg_comments": 107,
+ "avg_views": 39130,
+ "posts_last_30d": 3,
  "_posts_last_30d_est": false,
- "sample_size": 4,
+ "sample_size": 5,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso": 0,
   "olive_young": 0,
-  "beauty_kw": 183,
+  "beauty_kw": 195,
   "labrang": false
  },
- "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
+ "evaluated_at": "2026-07-08T10:19:51.604892+09:00",
  "score_total": 81.5,
  "grade": "A",
  "score_breakdown": {
@@ -31,13 +31,23 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "kept (전회 실측; YouTube per-video stats IP bot-blocked this run)",
-  "posts_last_30d": "kept (전회 실측)",
-  "brand_fit": "kept (전회 실측)",
-  "followers": "measured (flat-playlist live)"
+  "engagement_rate": "measured (yt-dlp per-video likes/views)",
+  "posts_last_30d": "measured (upload_date)",
+  "brand_fit": "measured (title+tags+description keywords)",
+  "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-03T10:12:20.934442+09:00 STEP B 부분 재분석: followers 실측 갱신(flat-playlist). ER/posts/brand_fit 전회 실측 유지 — YouTube 영상 메타 IP 봇차단. score_total 재계산.",
+ "sample_note": "2026-07-08T10:19:51.604892+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 5 videos measured(views/likes/comments/date/title-tags-desc). ER=avg_likes/avg_views.",
  "history": [
+  {
+   "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
+   "followers": 480000,
+   "engagement_rate": 0.0356,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 81.5,
+   "grade": "A"
+  },
   {
    "evaluated_at": "2026-05-14T10:16:44.698250+09:00",
    "followers": 478000,
@@ -293,13 +303,6 @@
    "followers": 480000,
    "grade": "A",
    "posts_last_30d": 4
-  },
-  {
-   "evaluated_at": "2026-06-30T10:14:52.623010+09:00",
-   "followers": 480000,
-   "engagement_rate": 0.0356,
-   "score_total": 81.5,
-   "grade": "A"
   }
  ]
 }

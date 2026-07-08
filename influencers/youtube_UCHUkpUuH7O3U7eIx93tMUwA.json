@@ -4,12 +4,12 @@
  "fullname": "먼지나방 스토그래피",
  "profile_url": "https://www.youtube.com/channel/UCHUkpUuH7O3U7eIx93tMUwA",
  "channel_id": "UCHUkpUuH7O3U7eIx93tMUwA",
- "followers": 101000,
- "engagement_rate": 0.0236,
- "avg_likes": 103,
- "avg_comments": 22,
- "avg_views": 4360,
- "posts_last_30d": 5,
+ "followers": 102000,
+ "engagement_rate": 0.0226,
+ "avg_likes": 115,
+ "avg_comments": 25,
+ "avg_views": 5083,
+ "posts_last_30d": 4,
  "_posts_last_30d_est": false,
  "sample_size": 5,
  "brand_fit_score": 90,
@@ -17,27 +17,37 @@
  "retailer_signal": {
   "daiso": 0,
   "olive_young": 0,
-  "beauty_kw": 66,
+  "beauty_kw": 46,
   "labrang": false
  },
- "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
- "score_total": 74.5,
+ "evaluated_at": "2026-07-08T10:20:31.516095+09:00",
+ "score_total": 71.5,
  "grade": "B",
  "score_breakdown": {
   "er_score": 60,
   "brand_fit_score": 90,
-  "consistency_score": 80,
+  "consistency_score": 60,
   "follower_scale_score": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "kept (전회 실측; YouTube per-video stats IP bot-blocked this run)",
-  "posts_last_30d": "kept (전회 실측)",
-  "brand_fit": "kept (전회 실측)",
-  "followers": "measured (flat-playlist live)"
+  "engagement_rate": "measured (yt-dlp per-video likes/views)",
+  "posts_last_30d": "measured (upload_date)",
+  "brand_fit": "measured (title+tags+description keywords)",
+  "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-03T10:12:20.934442+09:00 STEP B 부분 재분석: followers 실측 갱신(flat-playlist). ER/posts/brand_fit 전회 실측 유지 — YouTube 영상 메타 IP 봇차단. score_total 재계산.",
+ "sample_note": "2026-07-08T10:20:31.516095+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 5 videos measured(views/likes/comments/date/title-tags-desc). ER=avg_likes/avg_views.",
  "history": [
+  {
+   "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
+   "followers": 101000,
+   "engagement_rate": 0.0236,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 74.5,
+   "grade": "B"
+  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 101000,

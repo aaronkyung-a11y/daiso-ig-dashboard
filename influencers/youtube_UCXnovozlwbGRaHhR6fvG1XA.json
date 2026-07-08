@@ -4,23 +4,23 @@
  "fullname": "유정하다",
  "profile_url": "https://www.youtube.com/channel/UCXnovozlwbGRaHhR6fvG1XA",
  "channel_id": "UCXnovozlwbGRaHhR6fvG1XA",
- "followers": 768,
+ "followers": 775,
  "engagement_rate": 0.0,
  "avg_likes": 0,
- "avg_comments": 8.5,
- "avg_views": 21187,
+ "avg_comments": 4,
+ "avg_views": 16046,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 5,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "93건",
-  "olive_young_mentions": "3건",
-  "beauty_topical_strength": "47건",
-  "labrang_blanc_doux_mention": false
+  "daiso": 25,
+  "olive_young": 0,
+  "beauty_kw": 17,
+  "labrang": false
  },
- "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
+ "evaluated_at": "2026-07-08T10:25:00.615548+09:00",
  "score_total": 52.5,
  "grade": "C",
  "score_breakdown": {
@@ -30,11 +30,24 @@
   "follower_scale_score": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": [
-  "like_count 측정불가(전부 비공개/NA)→ER=0 처리"
- ],
- "sample_note": "YT yt-dlp 실측 20표본(최근≤20). brand_fit/retailer_focus는 직전 측정값 유지(경량크롤=제목 미수집). ⚠️likes 비공개",
+ "estimation_flags": {
+  "engagement_rate": "measured (yt-dlp per-video likes/views)",
+  "posts_last_30d": "measured (upload_date)",
+  "brand_fit": "measured (title+tags+description keywords)",
+  "followers": "measured (yt-dlp channel_follower_count)"
+ },
+ "sample_note": "2026-07-08T10:25:00.615548+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 5 videos measured(views/likes/comments/date/title-tags-desc). ER=avg_likes/avg_views.",
  "history": [
+  {
+   "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
+   "followers": 768,
+   "engagement_rate": 0.0,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 52.5,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 766,

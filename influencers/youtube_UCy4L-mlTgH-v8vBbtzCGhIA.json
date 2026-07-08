@@ -5,13 +5,13 @@
  "profile_url": "https://www.youtube.com/channel/UCy4L-mlTgH-v8vBbtzCGhIA",
  "channel_id": "UCy4L-mlTgH-v8vBbtzCGhIA",
  "followers": 89800,
- "engagement_rate": 0.0278,
- "avg_likes": 5,
- "avg_comments": 0,
- "avg_views": 180,
+ "engagement_rate": 0.0019,
+ "avg_likes": 19,
+ "avg_comments": 1,
+ "avg_views": 10080,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
- "sample_size": 1,
+ "sample_size": 5,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,24 +20,34 @@
   "beauty_kw": 0,
   "labrang": false
  },
- "evaluated_at": "2026-07-03T10:14:33.516676+09:00",
- "score_total": 50.25,
- "grade": "C",
+ "evaluated_at": "2026-07-08T10:30:53.382948+09:00",
+ "score_total": 40.2,
+ "grade": "D",
  "score_breakdown": {
-  "er_score": 60,
+  "er_score": 40,
   "brand_fit_score": 25,
   "consistency_score": 40,
   "follower_scale_score": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "kept (전회 실측; YouTube per-video stats IP bot-blocked this run)",
-  "posts_last_30d": "kept (전회 실측)",
-  "brand_fit": "kept (전회 실측)",
-  "followers": "measured (flat-playlist live)"
+  "engagement_rate": "measured (yt-dlp per-video likes/views)",
+  "posts_last_30d": "measured (upload_date)",
+  "brand_fit": "measured (title+tags+description keywords)",
+  "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-03T10:14:33.516676+09:00 STEP B 부분 재분석: followers 실측 갱신(flat-playlist). ER/posts/brand_fit 전회 실측 유지 — YouTube 영상 메타 IP 봇차단. score_total 재계산.",
+ "sample_note": "2026-07-08T10:30:53.382948+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 5 videos measured(views/likes/comments/date/title-tags-desc). ER=avg_likes/avg_views.",
  "history": [
+  {
+   "evaluated_at": "2026-07-03T10:14:33.516676+09:00",
+   "followers": 89800,
+   "engagement_rate": 0.0278,
+   "posts_last_30d": 1,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 50.25,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 89900,
