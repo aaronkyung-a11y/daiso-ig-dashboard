@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UC-hvam4FHeXJDQZ5sCW132A",
  "channel_id": "UC-hvam4FHeXJDQZ5sCW132A",
  "followers": 6270,
- "engagement_rate": 0.0151,
- "avg_likes": 37,
+ "engagement_rate": 0.0135,
+ "avg_likes": 38,
  "avg_comments": 6,
- "avg_views": 2443,
+ "avg_views": 2822,
  "posts_last_30d": 4,
  "_posts_last_30d_est": false,
  "sample_size": 5,
@@ -17,10 +17,10 @@
  "retailer_signal": {
   "daiso": 0,
   "olive_young": 2,
-  "beauty_kw": 53,
+  "beauty_kw": 80,
   "labrang": false
  },
- "evaluated_at": "2026-07-08T10:16:44.293141+09:00",
+ "evaluated_at": "2026-07-09T14:12:08.522309+09:00",
  "score_total": 67.5,
  "grade": "B",
  "score_breakdown": {
@@ -36,7 +36,7 @@
   "brand_fit": "measured (title+tags+description keywords)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-08T10:16:44.293141+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 5 videos measured(views/likes/comments/date/title-tags-desc). ER=avg_likes/avg_views.",
+ "sample_note": "2026-07-09T14:12:08.522309+09:00 STEP B-Light rolling refresh(14:00) - yt-dlp recent 5 videos measured. ER=avg_likes/avg_views.",
  "history": [
   {
    "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
@@ -233,6 +233,13 @@
    "evaluated_at": "2026-06-30T10:12:55.091749+09:00",
    "followers": 6240,
    "engagement_rate": 0.0159,
+   "score_total": 67.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-07-08T10:16:44.293141+09:00",
+   "followers": 6270,
+   "engagement_rate": 0.0151,
    "score_total": 67.5,
    "grade": "B"
   }
