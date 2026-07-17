@@ -20,7 +20,7 @@
     "beauty_kw": 0,
     "labrang": false
   },
-  "evaluated_at": "2026-07-17T10:16:41.793881+09:00",
+  "evaluated_at": "2026-07-17T14:10:31.844930+09:00",
   "score_total": 56.25,
   "grade": "C",
   "score_breakdown": {
@@ -36,8 +36,21 @@
     "brand_fit": "measured (title+tags+description keywords)",
     "followers": "measured (yt-dlp channel_follower_count)"
   },
-  "sample_note": "2026-07-17T10:16:41.793881+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 1 videos (none in 30d,latest fallback) measured. ER=avg_likes/avg_views=4.26%. avg_views=47 avg_likes=2.",
+  "sample_note": "2026-07-17T14:10:31.844930+09:00 STEP B-Light rolling refresh(14:00 slot) - yt-dlp 1 videos (latest fallback(none in 30d)) measured. ER=avg_likes/avg_views=4.26%. avg_views=47 avg_likes=2.",
   "history": [
+    {
+      "evaluated_at": "2026-07-17T10:16:41.793881+09:00",
+      "followers": 48,
+      "engagement_rate": 0.0426,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 56.25,
+      "grade": "C",
+      "avg_views": 47.0,
+      "avg_likes": 2.0,
+      "sample_size": 1
+    },
     {
       "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
       "followers": 50,
@@ -287,19 +300,6 @@
       "engagement_rate": 0.0111,
       "followers": 50,
       "grade": "C",
-      "posts_last_30d": 0
-    },
-    {
-      "evaluated_at": "2026-07-08T10:29:46.788113+09:00",
-      "followers": 48,
-      "engagement_rate": 0.0426,
-      "avg_likes": 2,
-      "avg_views": 47,
-      "sample_size": 1,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
-      "grade": "C",
-      "score_total": 56.2,
       "posts_last_30d": 0
     }
   ]
