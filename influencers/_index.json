@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-17T11:38:14.309974+09:00",
-  "lastUpdated": "2026-07-17T11:38:14.309974+09:00",
-  "last_run_mode": "2026-07-17T11:38:14.309974+09:00 10:00 슬롯 — STEP B 풀 재분석: YouTube 111 + Instagram 23 전건 재분석(총 134). STEP A 신규 0건(GitHub Issues eval-queue 0 · _queue.txt 빈큐 · Google Form 고유 134건 전건 기분석 SKIP). YT: yt-dlp 최근≤18영상(shorts전용 채널 base-tab fallback). IG(로그아웃): same-origin 팝업 스크레이프 계정당 최근≤6릴 + web_profile_info followers. IG n=0 4건(cupoftea_mag·doing_now_insta·beautyus_mag·k_eunmi___)=followers만 갱신·ER/brand/posts prior유지(추정), mingjikim_107=404 kept. PAT는 Google Drive credentials/github-pat.txt에서 추출(G: 마운트 부재).",
+  "last_updated": "2026-07-17T14:11:24.483028+09:00",
+  "lastUpdated": "2026-07-17T14:11:24.483028+09:00",
+  "last_run_mode": "2026-07-17T14:11:24.483028+09:00 14:00 슬롯 — STEP A 큐 신규 0건(Issues eval-queue 0 · _queue.txt 빈큐 · Google Form 고유 134건 전건 기분석 SKIP). STEP B SKIPPED(not 10:00 slot). STEP B-Light: 가장 오래된 2건(youtube_Nyam · youtube_Jinyaa) yt-dlp 재분석 — 점수 변동 없음(56.25→56.25, 71.5→71.5). PAT는 Google Drive github-pat.txt에서 추출(지정파일 SKILL_2026-04-27_v2_30day.md 부재, G: 마운트 부재).",
   "total": 134,
   "platforms": {
     "instagram": 23,
@@ -983,13 +983,13 @@
       "retailer_signal": {
         "daiso": 2,
         "olive_young": 9,
-        "beauty_kw": 146,
+        "beauty_kw": 136,
         "labrang": false
       },
-      "evaluated_at": "2026-07-17T10:22:20.335257+09:00",
+      "evaluated_at": "2026-07-17T14:10:31.844930+09:00",
       "score_total": 71.5,
       "grade": "B",
-      "sample_note": "2026-07-17T10:22:20.335257+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 3 videos in 30d measured. ER=avg_likes/avg_views=2.42%. avg_views=57717 avg_likes=1399."
+      "sample_note": "2026-07-17T14:10:31.844930+09:00 STEP B-Light rolling refresh(14:00 slot) - yt-dlp 3 videos (recent 30d) measured. ER=avg_likes/avg_views=2.42%. avg_views=57904 avg_likes=1403."
     },
     {
       "platform": "youtube",
@@ -2460,10 +2460,10 @@
         "beauty_kw": 0,
         "labrang": false
       },
-      "evaluated_at": "2026-07-17T10:16:41.793881+09:00",
+      "evaluated_at": "2026-07-17T14:10:31.844930+09:00",
       "score_total": 56.25,
       "grade": "C",
-      "sample_note": "2026-07-17T10:16:41.793881+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 1 videos (none in 30d,latest fallback) measured. ER=avg_likes/avg_views=4.26%. avg_views=47 avg_likes=2."
+      "sample_note": "2026-07-17T14:10:31.844930+09:00 STEP B-Light rolling refresh(14:00 slot) - yt-dlp 1 videos (latest fallback(none in 30d)) measured. ER=avg_likes/avg_views=4.26%. avg_views=47 avg_likes=2."
     },
     {
       "platform": "instagram",
