@@ -3,22 +3,40 @@
   "username": "UC-C-faUj5SNcrIkqEM6FcjA",
   "fullname": "HellfireDrama",
   "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
-  "followers": 342000,
-  "engagement_rate": 0.0108,
-  "posts_last_30d": 20,
-  "sample_size": 20,
+  "channel_id": "UC-C-faUj5SNcrIkqEM6FcjA",
+  "followers": 343000,
+  "engagement_rate": 0.0085,
+  "avg_likes": 82.9,
+  "avg_comments": 4.0,
+  "avg_views": 9724.0,
+  "posts_last_30d": 12,
+  "_posts_last_30d_est": false,
+  "sample_size": 12,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
     "daiso": 0,
     "olive_young": 0,
-    "beauty": 0,
-    "our_brand": false
+    "beauty_kw": 0,
+    "labrang": false
   },
-  "evaluated_at": "2026-07-14T14:25:30.891280+09:00",
-  "score_total": 61.2,
-  "grade": "B",
-  "sample_note": "30일 내 20건 기준",
+  "evaluated_at": "2026-07-17T10:23:30.923982+09:00",
+  "score_total": 51.25,
+  "grade": "C",
+  "score_breakdown": {
+    "er_score": 40,
+    "brand_fit_score": 25,
+    "consistency_score": 100,
+    "follower_scale_score": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "engagement_rate": "measured (yt-dlp per-video likes/views)",
+    "posts_last_30d": "measured (upload_date)",
+    "brand_fit": "measured (title+tags+description keywords)",
+    "followers": "measured (yt-dlp channel_follower_count)"
+  },
+  "sample_note": "2026-07-17T10:23:30.923982+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 12 videos in 30d measured. ER=avg_likes/avg_views=0.85%. avg_views=9724 avg_likes=83.",
   "history": [
     {
       "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
@@ -228,6 +246,19 @@
       "posts_last_30d": 20,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic"
+    },
+    {
+      "evaluated_at": "2026-07-14T14:25:30.891280+09:00",
+      "followers": 342000,
+      "engagement_rate": 0.0108,
+      "avg_likes": null,
+      "avg_views": null,
+      "sample_size": 20,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "B",
+      "score_total": 61.2,
+      "posts_last_30d": 20
     }
   ]
 }

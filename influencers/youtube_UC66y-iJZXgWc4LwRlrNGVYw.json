@@ -5,35 +5,30 @@
   "profile_url": "https://www.youtube.com/channel/UC66y-iJZXgWc4LwRlrNGVYw",
   "channel_id": "UC66y-iJZXgWc4LwRlrNGVYw",
   "followers": 3650,
-  "engagement_rate": 0.0091,
-  "avg_likes": 6,
-  "avg_comments": 4,
-  "avg_views": 736,
+  "engagement_rate": 0.0102,
+  "avg_likes": 7.5,
+  "avg_comments": 4.0,
+  "avg_views": 737.0,
   "posts_last_30d": 0,
-  "_posts_last_30d_est": true,
+  "_posts_last_30d_est": false,
   "sample_size": 9,
   "brand_fit_score": 90,
   "retailer_focus": "beauty_general",
   "retailer_signal": {
     "daiso": 0,
     "olive_young": 0,
-    "beauty_kw": 2,
+    "beauty_kw": 8,
     "labrang": false
   },
-  "evaluated_at": "2026-07-16T14:11:39.394375+09:00",
-  "score_total": 54.5,
+  "evaluated_at": "2026-07-17T10:24:13.911279+09:00",
+  "score_total": 64.5,
   "grade": "C",
   "score_breakdown": {
-    "er_score": 40,
-    "brand_fit": 90,
-    "consistency": 40,
-    "follower_scale": 60,
-    "weights": {
-      "er": 0.5,
-      "brand_fit": 0.25,
-      "consistency": 0.15,
-      "follower": 0.1
-    }
+    "er_score": 60,
+    "brand_fit_score": 90,
+    "consistency_score": 40,
+    "follower_scale_score": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
     "engagement_rate": "measured (yt-dlp per-video likes/views)",
@@ -41,7 +36,7 @@
     "brand_fit": "measured (title+tags+description keywords)",
     "followers": "measured (yt-dlp channel_follower_count)"
   },
-  "sample_note": "2026-07-16T14:11:39.394375+09:00 STEP B-Light rolling refresh(14:00 slot) - yt-dlp android client, recent 9 videos measured(views/likes). ER=avg_likes/avg_views. brand_fit from title+tags+desc keywords(8 hits).",
+  "sample_note": "2026-07-17T10:24:13.911279+09:00 STEP B full re-analysis(weekday 10:00) - yt-dlp recent 9 videos (none in 30d,latest fallback) measured. ER=avg_likes/avg_views=1.02%. avg_views=737 avg_likes=8.",
   "history": [
     {
       "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
@@ -231,6 +226,19 @@
       "retailer_focus": "beauty_general",
       "score_total": 47.0,
       "grade": "D"
+    },
+    {
+      "evaluated_at": "2026-07-16T14:11:39.394375+09:00",
+      "followers": 3650,
+      "engagement_rate": 0.0091,
+      "avg_likes": 6,
+      "avg_views": 736,
+      "sample_size": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "grade": "C",
+      "score_total": 54.5,
+      "posts_last_30d": 0
     }
   ]
 }

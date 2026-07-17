@@ -15,7 +15,7 @@
   "retailer_signal": {
     "note": "account_404"
   },
-  "evaluated_at": "2026-07-08T14:11:23.677808+09:00",
+  "evaluated_at": "2026-07-17T11:29:14.545999+09:00",
   "score_total": 36.2,
   "grade": "D",
   "score_breakdown": {
@@ -32,7 +32,7 @@
     "followers": "측정불가(404) → 0 처리",
     "_note": "kept - IG login wall (HTML) this run, values carried over from 2026-07-07T14:31:00.000000+09:00"
   },
-  "sample_note": "2026-07-08T14:11:23.677808+09:00 STEP B-Light(14:00 slot): IG 404 re-confirmed via logged-in browser session ('페이지를 사용할 수 없습니다' - account deleted/renamed). Values KEPT (0). score_total kept=36.2.",
+  "sample_note": "2026-07-17T11:29:14.545999+09:00 STEP B full re-analysis(weekday 10:00) - web_profile_info status=404; kept prior values(account private/deleted/handle-change 추정).",
   "history": [
     {
       "evaluated_at": "2026-07-07T14:31:00.000000+09:00",
