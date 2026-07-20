@@ -3,14 +3,14 @@
   "username": "k_eunmi___",
   "fullname": "은미✨",
   "profile_url": "https://www.instagram.com/k_eunmi___/",
-  "followers": 1608,
-  "engagement_rate": 0.0439,
-  "avg_likes": 69,
-  "avg_comments": 2,
+  "followers": 1610,
+  "engagement_rate": 0.0341,
+  "avg_likes": 53.0,
+  "avg_comments": 1.9,
   "avg_views": 0.0,
-  "posts_last_30d": 9,
-  "_posts_last_30d_est": true,
-  "sample_size": 0,
+  "posts_last_30d": 4,
+  "_posts_last_30d_est": false,
+  "sample_size": 24,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
@@ -19,23 +19,23 @@
     "beauty_topical_strength": "0건",
     "labrang_blanc_doux_mention": false
   },
-  "evaluated_at": "2026-07-17T11:08:36.512833+09:00",
-  "score_total": 64.25,
+  "evaluated_at": "2026-07-20T14:05:00+09:00",
+  "score_total": 61.25,
   "grade": "C",
   "score_breakdown": {
     "er_score": 80,
     "brand_fit_score": 25,
-    "consistency_score": 80,
+    "consistency_score": 60,
     "follower_scale_score": 60,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "RETAINED prior (reel scrape 0건 this run) — 추정",
-    "posts_last_30d": "retained prior — 추정",
-    "brand_fit": "retained prior — 추정",
+    "engagement_rate": "measured (feed/user API, 24 posts likes+comments)",
+    "posts_last_30d": "measured (taken_at, 4 in 30d)",
+    "brand_fit": "measured (caption keywords, 0 beauty)",
     "followers": "measured (web_profile_info)"
   },
-  "sample_note": "2026-07-17T11:08:36.512833+09:00 STEP B full re-analysis(weekday 10:00) - reel scrape 0건 → ER/brand_fit/posts prior 유지(추정), followers만 갱신. grade S>=85/A>=75/B>=65/C>=50/D.",
+  "sample_note": "2026-07-20T14:05:00+09:00 STEP B-Light(14:00 rolling refresh) - logged-in feed crawl 24 posts MEASURED. ER=(avgL53.0+avgC1.9)/1610=3.41%. posts_30d=4. grade S>=85/A>=75/B>=65/C>=50/D.",
   "history": [
     {
       "evaluated_at": "2026-07-06T10:19:37.636436+09:00",
@@ -292,6 +292,16 @@
       "grade": "C",
       "score_total": 64.3,
       "posts_last_30d": 9
+    },
+    {
+      "evaluated_at": "2026-07-17T11:08:36.512833+09:00",
+      "followers": 1608,
+      "engagement_rate": 0.0439,
+      "posts_last_30d": 9,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 64.25,
+      "grade": "C"
     }
   ]
 }
