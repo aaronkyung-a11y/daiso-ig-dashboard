@@ -4,14 +4,14 @@
   "fullname": "ARADHYA FACT",
   "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
   "channel_id": "UCAThGewvLVT5fW8utNfrawA",
-  "followers": 774000,
-  "engagement_rate": 0.1276,
-  "avg_likes": 38088.0,
-  "avg_comments": 5.4,
-  "avg_views": 287970.2,
-  "posts_last_30d": 30,
+  "followers": 775000,
+  "engagement_rate": 0.0082,
+  "avg_likes": 3584.3,
+  "avg_comments": 3.8,
+  "avg_views": 438615.9,
+  "posts_last_30d": 15,
   "_posts_last_30d_est": false,
-  "sample_size": 30,
+  "sample_size": 15,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
@@ -20,25 +20,33 @@
     "beauty_kw": 0,
     "labrang": false
   },
-  "evaluated_at": "2026-07-20T14:05:00+09:00",
-  "score_total": 81.25,
-  "grade": "A",
+  "evaluated_at": "2026-07-22T10:33:54+09:00",
+  "score_total": 51.25,
+  "grade": "C",
   "score_breakdown": {
-    "er_score": 100,
-    "brand_fit_score": 25,
-    "consistency_score": 100,
-    "follower_scale_score": 100,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+    "er": 40,
+    "brand_fit": 25,
+    "consistency": 100,
+    "followers": 100
   },
   "estimation_flags": {
-    "engagement_rate": "RETAINED prior (YouTube hid Shorts like_count this run — deno 1/30만 추출) — 추정",
-    "posts_last_30d": "measured (upload_date, 30 in 30d)",
-    "brand_fit": "measured (title keywords, 0 beauty)",
-    "followers": "measured (yt-dlp channel_follower_count)",
-    "avg_views": "measured (30 videos)"
+    "engagement_rate": "measured (yt-dlp per-video likes/views)",
+    "posts_last_30d": "measured (upload_date/timestamp)",
+    "brand_fit": "measured (title+tags+description keywords)",
+    "followers": "measured (yt-dlp channel_follower_count)"
   },
-  "sample_note": "2026-07-20T14:05:00+09:00 STEP B-Light(14:00 rolling refresh) - avg_views/followers/posts measured; ER retained prior(likes hidden). ER=12.76%. avg_views=287970.",
+  "sample_note": "YT STEP B full re-analysis 2026-07-22 10:33; sample=15 (30d=15)",
   "history": [
+    {
+      "evaluated_at": "2026-07-20T14:05:00+09:00",
+      "followers": 774000,
+      "engagement_rate": 0.1276,
+      "posts_last_30d": 30,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 81.25,
+      "grade": "A"
+    },
     {
       "evaluated_at": "2026-07-07T17:10:00+09:00",
       "followers": 760000,

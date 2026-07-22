@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T10:32:58.295955+09:00",
+  "lastUpdated": "2026-07-22T10:36:38+09:00",
   "auto_refresh": true,
   "refresh_cron": "weekly",
   "accounts": [
@@ -672,6 +672,51 @@
       "platform": "youtube",
       "username": "UCzBbE7x7mPrs56PvCc0errA",
       "profile_url": "https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCK3L6x0ZGU-2cfTDMLnmUyw",
+      "profile_url": "https://www.youtube.com/channel/UCK3L6x0ZGU-2cfTDMLnmUyw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCtCpkkzNnYixE9GEJVaCI8g",
+      "profile_url": "https://www.youtube.com/channel/UCtCpkkzNnYixE9GEJVaCI8g"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCWOEKc5N7nYmeyqV8DfuDdw",
+      "profile_url": "https://www.youtube.com/channel/UCWOEKc5N7nYmeyqV8DfuDdw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCNKrDQQ9OLARlFVpHIi7nrQ",
+      "profile_url": "https://www.youtube.com/channel/UCNKrDQQ9OLARlFVpHIi7nrQ"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCY-sTVmXRY2JXnVjm9QjYBw",
+      "profile_url": "https://www.youtube.com/channel/UCY-sTVmXRY2JXnVjm9QjYBw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCCuXPHou1JQfRKM40q5tG8w",
+      "profile_url": "https://www.youtube.com/channel/UCCuXPHou1JQfRKM40q5tG8w"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCUm54M-_1W1kjEAPjFtmwNw",
+      "profile_url": "https://www.youtube.com/channel/UCUm54M-_1W1kjEAPjFtmwNw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCovDuChTvDiWWnSpcKGUFZw",
+      "profile_url": "https://www.youtube.com/channel/UCovDuChTvDiWWnSpcKGUFZw"
+    },
+    {
+      "platform": "youtube",
+      "username": "UCTxEJoeukRCeE3j74tZjrAA",
+      "profile_url": "https://www.youtube.com/channel/UCTxEJoeukRCeE3j74tZjrAA"
     }
   ],
   "updated_at": "2026-06-30T10:32:58.295955+09:00"

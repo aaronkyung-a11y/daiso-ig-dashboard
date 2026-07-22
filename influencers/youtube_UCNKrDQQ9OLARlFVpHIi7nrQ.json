@@ -1,0 +1,40 @@
+{
+  "platform": "youtube",
+  "username": "UCNKrDQQ9OLARlFVpHIi7nrQ",
+  "fullname": "리사 Lisalog",
+  "profile_url": "https://www.youtube.com/channel/UCNKrDQQ9OLARlFVpHIi7nrQ",
+  "channel_id": "UCNKrDQQ9OLARlFVpHIi7nrQ",
+  "followers": 18600,
+  "engagement_rate": 0.0283,
+  "avg_likes": 37.7,
+  "avg_comments": 8.0,
+  "avg_views": 1329.0,
+  "posts_last_30d": 3,
+  "_posts_last_30d_est": false,
+  "sample_size": 3,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso": 4,
+    "olive_young": 1,
+    "beauty_kw": 24,
+    "labrang": false
+  },
+  "evaluated_at": "2026-07-22T10:33:54+09:00",
+  "score_total": 69.5,
+  "grade": "B",
+  "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 60,
+    "followers": 80
+  },
+  "estimation_flags": {
+    "engagement_rate": "measured (yt-dlp per-video likes/views)",
+    "posts_last_30d": "measured (upload_date/timestamp)",
+    "brand_fit": "measured (title+tags+description keywords)",
+    "followers": "measured (yt-dlp channel_follower_count)"
+  },
+  "sample_note": "YT STEP B full re-analysis 2026-07-22 10:33; sample=3 (30d=3)",
+  "history": []
+}
