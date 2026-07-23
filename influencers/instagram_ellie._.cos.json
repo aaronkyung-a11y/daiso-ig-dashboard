@@ -3,23 +3,23 @@
  "username": "ellie._.cos",
  "fullname": "ellie エリ",
  "profile_url": "https://www.instagram.com/ellie._.cos/",
- "followers": 2341,
- "engagement_rate": 0.7539,
- "avg_likes": 1753.3,
- "avg_comments": 11.7,
- "avg_views": 53046.0,
+ "followers": 2339,
+ "engagement_rate": 0.7547,
+ "avg_likes": 1754.5,
+ "avg_comments": 10.8,
+ "avg_views": 53078.7,
  "posts_last_30d": 8,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "3건",
-  "olive_young_mentions": "5건",
-  "beauty_topical_strength": "39건",
+  "olive_young_mentions": "2건",
+  "beauty_topical_strength": "26건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-07-22T14:11:14+09:00",
+ "evaluated_at": "2026-07-23T10:35:31+09:00",
  "score_total": 90.5,
  "grade": "S",
  "score_breakdown": {
@@ -30,13 +30,24 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (logged-out user-feed API, (avg_likes+avg_comments)/followers, 12-sample cap)",
+  "engagement_rate": "measured (logged-out user-feed API, 12 cap)",
+  "followers": "measured",
   "posts_last_30d": "measured (taken_at)",
-  "brand_fit": "measured (caption+bio keywords, 12-sample)",
-  "followers": "measured (web_profile_info)"
+  "brand_fit": "measured (caption keywords)"
  },
- "sample_note": "2026-07-22T14:11:14+09:00 STEP B-Light rolling refresh(14:00 slot) - IG logged-out user-feed API scrape recent 12 items measured. ER=(avg_likes+avg_comments)/followers=75.3916%. avg_likes=1753.3 avg_cm=11.7. prev 80.75(A)->90.5(S). grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시). IG logged-out user-feed API, sample=12 (12 cap). ER=(aL+aC)/fol=75.47%.",
  "history": [
+  {
+   "evaluated_at": "2026-07-22T14:11:14+09:00",
+   "followers": 2341,
+   "engagement_rate": 0.7539,
+   "avg_likes": 1753.3,
+   "posts_last_30d": 8,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 90.5,
+   "grade": "S"
+  },
   {
    "evaluated_at": "2026-07-17T11:08:36.512833+09:00",
    "followers": 2327,
@@ -220,5 +231,6 @@
    "score_total": 90.5,
    "posts_last_30d": 7
   }
- ]
+ ],
+ "user_id": "49751827073"
 }

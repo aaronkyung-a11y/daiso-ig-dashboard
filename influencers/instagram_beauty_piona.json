@@ -4,38 +4,50 @@
  "fullname": "문혜경",
  "profile_url": "https://www.instagram.com/beauty_piona/",
  "followers": 8707,
- "engagement_rate": 0.2808,
- "avg_likes": 2259,
- "avg_comments": 186,
- "avg_views": null,
+ "engagement_rate": 0.2708,
+ "avg_likes": 2183.1,
+ "avg_comments": 175,
+ "avg_views": 891261.1,
  "posts_last_30d": 9,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "4건",
+  "daiso_mentions": "13건",
   "olive_young_mentions": "0건",
-  "beauty_topical_strength": "28건",
+  "beauty_topical_strength": "52건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-07-20T17:23:58.539189+09:00",
+ "evaluated_at": "2026-07-23T10:35:31+09:00",
  "score_total": 90.5,
  "grade": "S",
  "score_breakdown": {
   "er_score": 100,
-  "brand_fit": 90,
-  "consistency": 80,
-  "follower": 60,
-  "weights": "ER*0.50+BF*0.25+cons*0.15+foll*0.10"
+  "brand_fit_score": 90,
+  "consistency_score": 80,
+  "follower_scale_score": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": [
-  "avg_views: 이번 런 미측정(로그인 릴 og에 조회수 미노출) → null",
-  "일부 릴 likes 반올림 표기('15K')→추정, ER 버킷(>=10%)은 불변",
-  "brand_fit/retailer: og caption(약 130자 절단) 기반 → 부분추정"
- ],
- "sample_note": "2026-07-20T17:23:58.539189+09:00 STEP B-Light rolling refresh(17:00 slot) - IG 로그인 12릴 실측. ER=(avg_likes+avg_comments)/followers=28.08%. avg_likes=2259 avg_cm=186. posts_last_30d=9(실측). grade S>=85/A>=75/B>=65/C>=50/D.",
+ "estimation_flags": {
+  "engagement_rate": "measured (logged-out user-feed API, 12 cap)",
+  "followers": "carried-forward prior (new fetch=0, 추정)",
+  "posts_last_30d": "measured (taken_at)",
+  "brand_fit": "measured (caption keywords)"
+ },
+ "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시). IG logged-out user-feed API, sample=12 (12 cap). ER=(aL+aC)/fol=27.08%.",
  "history": [
+  {
+   "evaluated_at": "2026-07-20T17:23:58.539189+09:00",
+   "followers": 8707,
+   "engagement_rate": 0.2808,
+   "avg_likes": 2259,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 90.5,
+   "grade": "S"
+  },
   {
    "evaluated_at": "2026-06-12T17:12:38.495268+09:00",
    "followers": 6153,
@@ -304,19 +316,7 @@
    "grade": "S",
    "score_total": 90.5,
    "posts_last_30d": 9
-  },
-  {
-   "evaluated_at": "2026-07-17T11:08:36.512833+09:00",
-   "followers": 6365,
-   "engagement_rate": 0.7004,
-   "avg_likes": 4118.7,
-   "avg_views": 0.0,
-   "sample_size": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "grade": "S",
-   "score_total": 87.5,
-   "posts_last_30d": 3
   }
- ]
+ ],
+ "user_id": "63215631961"
 }

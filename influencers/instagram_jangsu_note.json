@@ -3,39 +3,51 @@
  "username": "jangsu_note",
  "fullname": "장수노트",
  "profile_url": "https://www.instagram.com/jangsu_note/",
- "followers": 17404,
- "engagement_rate": 0.1209,
- "avg_likes": 2065,
- "avg_comments": 39,
- "avg_views": null,
+ "followers": 17548,
+ "engagement_rate": 0.1346,
+ "avg_likes": 2315.8,
+ "avg_comments": 46.5,
+ "avg_views": 229903.2,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 12,
- "brand_fit_score": 95,
+ "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "17건",
+  "daiso_mentions": "22건",
   "olive_young_mentions": "0건",
-  "beauty_topical_strength": "4건",
+  "beauty_topical_strength": "8건",
   "labrang_blanc_doux_mention": true
  },
- "evaluated_at": "2026-07-20T17:23:58.539189+09:00",
- "score_total": 87.75,
+ "evaluated_at": "2026-07-23T10:35:31+09:00",
+ "score_total": 89.0,
  "grade": "S",
  "score_breakdown": {
   "er_score": 100,
-  "brand_fit": 95,
-  "consistency": 40,
-  "follower": 80,
-  "weights": "ER*0.50+BF*0.25+cons*0.15+foll*0.10"
+  "brand_fit_score": 100,
+  "consistency_score": 40,
+  "follower_scale_score": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": [
-  "followers: og '17K' 반올림 표기(버킷 동일)",
-  "avg_views: 이번 런 미측정(로그인 릴 og에 조회수 미노출) → null",
-  "brand_fit/retailer: og caption(약 130자 절단) 기반 → 부분추정"
- ],
- "sample_note": "2026-07-20T17:23:58.539189+09:00 STEP B-Light rolling refresh(17:00 slot) - IG 로그인 12릴 실측. ER=(avg_likes+avg_comments)/followers=12.09%. avg_likes=2065 avg_cm=39. posts_last_30d=0(실측). grade S>=85/A>=75/B>=65/C>=50/D.",
+ "estimation_flags": {
+  "engagement_rate": "measured (logged-out user-feed API, 12 cap)",
+  "followers": "measured",
+  "posts_last_30d": "measured (taken_at)",
+  "brand_fit": "measured (caption keywords)"
+ },
+ "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시). IG logged-out user-feed API, sample=12 (12 cap). ER=(aL+aC)/fol=13.46%.",
  "history": [
+  {
+   "evaluated_at": "2026-07-20T17:23:58.539189+09:00",
+   "followers": 17404,
+   "engagement_rate": 0.1209,
+   "avg_likes": 2065,
+   "posts_last_30d": 0,
+   "brand_fit_score": 95,
+   "retailer_focus": "our_brand",
+   "score_total": 87.75,
+   "grade": "S"
+  },
   {
    "evaluated_at": "2026-07-06T10:19:37.636436+09:00",
    "followers": 17019,
@@ -299,19 +311,7 @@
    "grade": "S",
    "score_total": 89.0,
    "posts_last_30d": 0
-  },
-  {
-   "evaluated_at": "2026-07-17T11:08:36.512833+09:00",
-   "followers": 17404,
-   "engagement_rate": 0.069,
-   "avg_likes": 1177.2,
-   "avg_views": 0.0,
-   "sample_size": 6,
-   "brand_fit_score": 95,
-   "retailer_focus": "our_brand",
-   "grade": "A",
-   "score_total": 82.75,
-   "posts_last_30d": 0
   }
- ]
+ ],
+ "user_id": "78454366288"
 }

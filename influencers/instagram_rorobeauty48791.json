@@ -3,12 +3,12 @@
  "username": "rorobeauty48791",
  "fullname": "로로",
  "profile_url": "https://www.instagram.com/rorobeauty48791/",
- "followers": 173817,
- "engagement_rate": 0.0487,
- "avg_likes": 8193.3,
- "avg_comments": 276.4,
- "avg_views": 270988.0,
- "posts_last_30d": 5,
+ "followers": 173771,
+ "engagement_rate": 0.0495,
+ "avg_likes": 8258.1,
+ "avg_comments": 345,
+ "avg_views": 257195.6,
+ "posts_last_30d": 6,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
@@ -19,7 +19,7 @@
   "beauty_topical_strength": "11건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-07-22T14:11:14+09:00",
+ "evaluated_at": "2026-07-23T10:35:31+09:00",
  "score_total": 84.5,
  "grade": "A",
  "score_breakdown": {
@@ -30,13 +30,24 @@
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (logged-out user-feed API, (avg_likes+avg_comments)/followers, 12-sample cap)",
+  "engagement_rate": "measured (logged-out user-feed API, 12 cap)",
+  "followers": "measured",
   "posts_last_30d": "measured (taken_at)",
-  "brand_fit": "measured (caption+bio keywords, 12-sample)",
-  "followers": "measured (web_profile_info)"
+  "brand_fit": "measured (caption keywords)"
  },
- "sample_note": "2026-07-22T14:11:14+09:00 STEP B-Light rolling refresh(14:00 slot) - IG logged-out user-feed API scrape recent 12 items measured. ER=(avg_likes+avg_comments)/followers=4.8727%. avg_likes=8193.3 avg_cm=276.4. prev 79.0(A)->84.5(A). grade S>=85/A>=75/B>=65/C>=50/D.",
+ "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시). IG logged-out user-feed API, sample=12 (12 cap). ER=(aL+aC)/fol=4.95%.",
  "history": [
+  {
+   "evaluated_at": "2026-07-22T14:11:14+09:00",
+   "followers": 173817,
+   "engagement_rate": 0.0487,
+   "avg_likes": 8193.3,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 84.5,
+   "grade": "A"
+  },
   {
    "evaluated_at": "2026-07-17T11:08:36.512833+09:00",
    "followers": 173615,
@@ -377,5 +388,6 @@
    "score_total": 84.5,
    "posts_last_30d": 9
   }
- ]
+ ],
+ "user_id": "72482934239"
 }
