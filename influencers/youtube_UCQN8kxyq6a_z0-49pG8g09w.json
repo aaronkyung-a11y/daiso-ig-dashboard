@@ -4,14 +4,14 @@
   "fullname": "장수의 비밀",
   "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
   "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
-  "followers": 175000,
-  "engagement_rate": 0.0167,
-  "avg_likes": 1035.2,
-  "avg_comments": 2.0,
-  "avg_views": 62023.8,
-  "posts_last_30d": 17,
+  "followers": 176000,
+  "engagement_rate": 0.0169,
+  "avg_likes": 1027.5,
+  "avg_comments": 2.5,
+  "avg_views": 60877.6,
+  "posts_last_30d": 24,
   "_posts_last_30d_est": false,
-  "sample_size": 17,
+  "sample_size": 24,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
@@ -20,22 +20,17 @@
     "beauty_kw": 24,
     "labrang": false
   },
-  "evaluated_at": "2026-07-22T10:33:54+09:00",
+  "evaluated_at": "2026-07-23T17:12:32+09:00",
   "score_total": 77.5,
   "grade": "A",
   "score_breakdown": {
-    "er": 60,
+    "er_score": 60,
     "brand_fit": 90,
     "consistency": 100,
-    "followers": 100
+    "follower": 100
   },
-  "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp per-video likes/views)",
-    "posts_last_30d": "measured (upload_date/timestamp)",
-    "brand_fit": "measured (title+tags+description keywords)",
-    "followers": "measured (yt-dlp channel_follower_count)"
-  },
-  "sample_note": "YT STEP B full re-analysis 2026-07-22 10:33; sample=17 (30d=17)",
+  "estimation_flags": [],
+  "sample_note": "2026-07-23T17:12:32+09:00 STEP B-Light(17:00 rolling refresh) — channel converted to Shorts-only(videos tab 없음), /shorts 탭에서 24건 실측. ER=likes/views. followers 175k→176k.",
   "history": [
     {
       "evaluated_at": "2026-07-20T10:26:57+09:00",
@@ -263,6 +258,19 @@
       "grade": "B",
       "score_total": 67.0,
       "posts_last_30d": 5
+    },
+    {
+      "evaluated_at": "2026-07-22T10:33:54+09:00",
+      "followers": 175000,
+      "engagement_rate": 0.0167,
+      "avg_likes": 1035.2,
+      "avg_views": 62023.8,
+      "sample_size": 17,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "grade": "A",
+      "score_total": 77.5,
+      "posts_last_30d": 17
     }
   ]
 }

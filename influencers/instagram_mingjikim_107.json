@@ -15,7 +15,7 @@
   "retailer_signal": {
     "note": "account_404"
   },
-  "evaluated_at": "2026-07-17T11:29:14.545999+09:00",
+  "evaluated_at": "2026-07-23T17:12:32+09:00",
   "score_total": 36.2,
   "grade": "D",
   "score_breakdown": {
@@ -25,14 +25,11 @@
     "follower_scale_score": 40,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  "estimation_flags": {
-    "engagement_rate": "kept (web_profile_info 404 — 계정 비공개/삭제/핸들변경 추정, 이전값 유지)",
-    "posts_last_30d": "측정불가 → 0 처리",
-    "brand_fit": "측정불가 → 25 처리",
-    "followers": "측정불가(404) → 0 처리",
-    "_note": "kept - IG login wall (HTML) this run, values carried over from 2026-07-07T14:31:00.000000+09:00"
-  },
-  "sample_note": "2026-07-17T11:29:14.545999+09:00 STEP B full re-analysis(weekday 10:00) - web_profile_info status=404; kept prior values(account private/deleted/handle-change 추정).",
+  "estimation_flags": [
+    "carry-forward: web_profile_info 404 (logged-out login-wall); profile page HTTP200 so account exists",
+    "all metrics carried from prior (followers/ER/posts/brand_fit) = 추정/미실측"
+  ],
+  "sample_note": "2026-07-23T17:12:32+09:00 STEP B-Light(17:00) 재분석 시도 — web_profile_info status=404(로그아웃 login-wall, sessionid 없음). 프로필 페이지는 HTTP200(계정 존재). 데이터 login-wall로 미취득 → 이전 값 carry-forward(추정).",
   "history": [
     {
       "evaluated_at": "2026-07-07T14:31:00.000000+09:00",
@@ -201,6 +198,17 @@
       "score_total": 36.2,
       "grade": "D",
       "evaluated_at": "2026-07-07T14:31:00.000000+09:00"
+    },
+    {
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 0,
+      "sample_size": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 36.2,
+      "grade": "D",
+      "evaluated_at": "2026-07-17T11:29:14.545999+09:00"
     }
   ]
 }
