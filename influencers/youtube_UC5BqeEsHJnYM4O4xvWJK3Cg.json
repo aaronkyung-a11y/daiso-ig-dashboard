@@ -4,23 +4,23 @@
  "fullname": "쎄이 SSAY",
  "profile_url": "https://www.youtube.com/channel/UC5BqeEsHJnYM4O4xvWJK3Cg",
  "channel_id": "UC5BqeEsHJnYM4O4xvWJK3Cg",
- "followers": 6920,
- "engagement_rate": 0.024,
+ "followers": 6930,
+ "engagement_rate": 0.0232,
  "avg_likes": 89.0,
  "avg_comments": 12.0,
- "avg_views": 3709.0,
+ "avg_views": 3838.0,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 1,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso": 54,
-  "olive_young": 36,
-  "beauty_kw": 56,
+  "daiso": 17,
+  "olive_young": 0,
+  "beauty_kw": 13,
   "labrang": false
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
+ "evaluated_at": "2026-07-27T10:25:16+09:00",
  "score_total": 64.5,
  "grade": "C",
  "score_breakdown": {
@@ -32,12 +32,23 @@
  },
  "estimation_flags": {
   "engagement_rate": "measured (yt-dlp per-video likes/views)",
-  "posts_last_30d": "measured (timestamp)",
+  "posts_last_30d": "measured (upload_date)",
   "brand_fit": "measured (title+tags+description)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시); sample=1 (30d=1, tab=videos).",
+ "sample_note": "2026-07-27T10:25:16+09:00 STEP B full re-analysis (평일10시); sample=1 (30d=1), yt-dlp.",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 6920,
+   "engagement_rate": 0.024,
+   "avg_likes": 89.0,
+   "posts_last_30d": 1,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 64.5,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 6920,
@@ -293,13 +304,6 @@
    "followers": 6850,
    "grade": "B",
    "posts_last_30d": 2
-  },
-  {
-   "evaluated_at": "2026-06-30T10:13:55.937921+09:00",
-   "followers": 6850,
-   "engagement_rate": 0.0457,
-   "score_total": 70.8,
-   "grade": "B"
   }
  ]
 }

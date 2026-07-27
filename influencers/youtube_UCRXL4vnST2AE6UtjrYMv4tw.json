@@ -4,23 +4,23 @@
  "fullname": "뽀용뇽 l 남다른 뷰티꿀팁",
  "profile_url": "https://www.youtube.com/channel/UCRXL4vnST2AE6UtjrYMv4tw",
  "channel_id": "UCRXL4vnST2AE6UtjrYMv4tw",
- "followers": 437000,
- "engagement_rate": 0.025,
- "avg_likes": 559.2,
- "avg_comments": 49.8,
- "avg_views": 22409.5,
+ "followers": 438000,
+ "engagement_rate": 0.0258,
+ "avg_likes": 677.2,
+ "avg_comments": 42.2,
+ "avg_views": 26277.2,
  "posts_last_30d": 4,
  "_posts_last_30d_est": false,
  "sample_size": 4,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso": 7,
-  "olive_young": 2,
-  "beauty_kw": 73,
+  "daiso": 3,
+  "olive_young": 1,
+  "beauty_kw": 44,
   "labrang": false
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
+ "evaluated_at": "2026-07-27T10:25:16+09:00",
  "score_total": 71.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,12 +32,23 @@
  },
  "estimation_flags": {
   "engagement_rate": "measured (yt-dlp per-video likes/views)",
-  "posts_last_30d": "measured (timestamp)",
+  "posts_last_30d": "measured (upload_date)",
   "brand_fit": "measured (title+tags+description)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시); sample=4 (30d=4, tab=videos).",
+ "sample_note": "2026-07-27T10:25:16+09:00 STEP B full re-analysis (평일10시); sample=4 (30d=4), yt-dlp.",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 437000,
+   "engagement_rate": 0.025,
+   "avg_likes": 559.2,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 71.5,
+   "grade": "B"
+  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 437000,

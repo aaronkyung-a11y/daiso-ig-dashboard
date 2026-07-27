@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UCUm54M-_1W1kjEAPjFtmwNw",
  "channel_id": "UCUm54M-_1W1kjEAPjFtmwNw",
  "followers": 116000,
- "engagement_rate": 0.0233,
- "avg_likes": 184.5,
- "avg_comments": 46.0,
- "avg_views": 7934.0,
+ "engagement_rate": 0.0229,
+ "avg_likes": 185.5,
+ "avg_comments": 44.0,
+ "avg_views": 8084.5,
  "posts_last_30d": 2,
  "_posts_last_30d_est": false,
  "sample_size": 2,
@@ -17,10 +17,10 @@
  "retailer_signal": {
   "daiso": 0,
   "olive_young": 0,
-  "beauty_kw": 61,
+  "beauty_kw": 35,
   "labrang": false
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
+ "evaluated_at": "2026-07-27T10:25:16+09:00",
  "score_total": 71.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,12 +32,23 @@
  },
  "estimation_flags": {
   "engagement_rate": "measured (yt-dlp per-video likes/views)",
-  "posts_last_30d": "measured (timestamp)",
+  "posts_last_30d": "measured (upload_date)",
   "brand_fit": "measured (title+tags+description)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시); sample=2 (30d=2, tab=videos).",
+ "sample_note": "2026-07-27T10:25:16+09:00 STEP B full re-analysis (평일10시); sample=2 (30d=2), yt-dlp.",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 116000,
+   "engagement_rate": 0.0233,
+   "avg_likes": 184.5,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 71.5,
+   "grade": "B"
+  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 116000,

@@ -5,13 +5,13 @@
  "profile_url": "https://www.youtube.com/channel/UCZ-oeQmEiTLw4d5PSDyd1Cw",
  "channel_id": "UCZ-oeQmEiTLw4d5PSDyd1Cw",
  "followers": 17000,
- "engagement_rate": 0.0073,
- "avg_likes": 18.6,
- "avg_comments": 0.8,
- "avg_views": 2540.6,
- "posts_last_30d": 5,
+ "engagement_rate": 0.0083,
+ "avg_likes": 24.0,
+ "avg_comments": 4.0,
+ "avg_views": 2880.2,
+ "posts_last_30d": 4,
  "_posts_last_30d_est": false,
- "sample_size": 5,
+ "sample_size": 4,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,24 +20,35 @@
   "beauty_kw": 0,
   "labrang": false
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
- "score_total": 46.25,
+ "evaluated_at": "2026-07-27T10:25:16+09:00",
+ "score_total": 43.25,
  "grade": "D",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 25,
-  "consistency": 80,
+  "consistency": 60,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "engagement_rate": "measured (yt-dlp per-video likes/views)",
-  "posts_last_30d": "measured (timestamp)",
+  "posts_last_30d": "measured (upload_date)",
   "brand_fit": "measured (title+tags+description)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시); sample=5 (30d=5, tab=shorts).",
+ "sample_note": "2026-07-27T10:25:16+09:00 STEP B full re-analysis (평일10시); sample=4 (30d=4), yt-dlp.",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 17000,
+   "engagement_rate": 0.0073,
+   "avg_likes": 18.6,
+   "posts_last_30d": 5,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 46.25,
+   "grade": "D"
+  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 17000,

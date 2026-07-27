@@ -4,14 +4,14 @@
  "fullname": "HellfireDrama",
  "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
  "channel_id": "UC-C-faUj5SNcrIkqEM6FcjA",
- "followers": 347000,
- "engagement_rate": 0.0104,
- "avg_likes": 187.8,
+ "followers": 351000,
+ "engagement_rate": 0.0085,
+ "avg_likes": 101.9,
  "avg_comments": 2.3,
- "avg_views": 18006.5,
- "posts_last_30d": 6,
+ "avg_views": 12017.1,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": true,
- "sample_size": 6,
+ "sample_size": 8,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,24 +20,35 @@
   "beauty_kw": 0,
   "labrang": false
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
- "score_total": 58.25,
+ "evaluated_at": "2026-07-27T10:25:16+09:00",
+ "score_total": 51.25,
  "grade": "C",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 25,
-  "consistency": 80,
+  "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "engagement_rate": "measured (yt-dlp per-video likes/views)",
-  "posts_last_30d": "est: sample capped at 6, may undercount",
+  "posts_last_30d": "estimated (>=10 capped at 10-video fetch)",
   "brand_fit": "measured (title+tags+description)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시); sample=6 (30d=6, tab=videos).",
+ "sample_note": "2026-07-27T10:25:16+09:00 STEP B full re-analysis (평일10시); sample=8 (30d=10), yt-dlp.",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 347000,
+   "engagement_rate": 0.0104,
+   "avg_likes": 187.8,
+   "posts_last_30d": 6,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 58.25,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 346000,

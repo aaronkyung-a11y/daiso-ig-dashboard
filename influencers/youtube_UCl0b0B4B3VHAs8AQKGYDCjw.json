@@ -4,23 +4,23 @@
  "fullname": "일돈나",
  "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
  "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
- "followers": 1270,
+ "followers": 1280,
  "engagement_rate": 0.0112,
- "avg_likes": 22.8,
- "avg_comments": 1.8,
- "avg_views": 2024.2,
+ "avg_likes": 62.5,
+ "avg_comments": 1.7,
+ "avg_views": 5578.8,
  "posts_last_30d": 4,
  "_posts_last_30d_est": false,
  "sample_size": 4,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso": 55,
-  "olive_young": 15,
-  "beauty_kw": 45,
+  "daiso": 45,
+  "olive_young": 1,
+  "beauty_kw": 29,
   "labrang": true
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
+ "evaluated_at": "2026-07-27T10:25:16+09:00",
  "score_total": 70.0,
  "grade": "B",
  "score_breakdown": {
@@ -32,12 +32,23 @@
  },
  "estimation_flags": {
   "engagement_rate": "measured (yt-dlp per-video likes/views)",
-  "posts_last_30d": "measured (timestamp)",
+  "posts_last_30d": "measured (upload_date)",
   "brand_fit": "measured (title+tags+description)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시); sample=4 (30d=4, tab=shorts).",
+ "sample_note": "2026-07-27T10:25:16+09:00 STEP B full re-analysis (평일10시); sample=4 (30d=4), yt-dlp.",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 1270,
+   "engagement_rate": 0.0112,
+   "avg_likes": 22.8,
+   "posts_last_30d": 4,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 70.0,
+   "grade": "B"
+  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 1270,

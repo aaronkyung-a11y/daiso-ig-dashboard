@@ -5,22 +5,22 @@
  "profile_url": "https://www.youtube.com/channel/UCfcM9RkfntkTH0pCwd4vSPA",
  "channel_id": "UCfcM9RkfntkTH0pCwd4vSPA",
  "followers": 17800,
- "engagement_rate": 0.0072,
- "avg_likes": 1774.0,
- "avg_comments": 14.2,
- "avg_views": 247050.8,
- "posts_last_30d": 6,
- "_posts_last_30d_est": true,
- "sample_size": 6,
+ "engagement_rate": 0.0069,
+ "avg_likes": 1696.4,
+ "avg_comments": 14.8,
+ "avg_views": 246540.6,
+ "posts_last_30d": 5,
+ "_posts_last_30d_est": false,
+ "sample_size": 5,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso": 36,
+  "daiso": 33,
   "olive_young": 0,
   "beauty_kw": 12,
   "labrang": false
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
+ "evaluated_at": "2026-07-27T10:25:16+09:00",
  "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
@@ -32,12 +32,23 @@
  },
  "estimation_flags": {
   "engagement_rate": "measured (yt-dlp per-video likes/views)",
-  "posts_last_30d": "est: sample capped at 6, may undercount",
+  "posts_last_30d": "measured (upload_date)",
   "brand_fit": "measured (title+tags+description)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시); sample=6 (30d=6, tab=shorts).",
+ "sample_note": "2026-07-27T10:25:16+09:00 STEP B full re-analysis (평일10시); sample=5 (30d=5), yt-dlp.",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 17800,
+   "engagement_rate": 0.0072,
+   "avg_likes": 1774.0,
+   "posts_last_30d": 6,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 62.5,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 17800,

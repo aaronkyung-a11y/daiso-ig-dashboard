@@ -4,40 +4,51 @@
  "fullname": "원츄",
  "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA",
  "channel_id": "UC43-ROy5F2-1dVZ726gckuA",
- "followers": 659,
- "engagement_rate": 0.0107,
- "avg_likes": 117.0,
- "avg_comments": 3.0,
- "avg_views": 10982.0,
- "posts_last_30d": 2,
+ "followers": 658,
+ "engagement_rate": 0.0118,
+ "avg_likes": 60.0,
+ "avg_comments": 0.0,
+ "avg_views": 5074.0,
+ "posts_last_30d": 1,
  "_posts_last_30d_est": false,
- "sample_size": 2,
- "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "sample_size": 1,
+ "brand_fit_score": 60,
+ "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso": 9,
-  "olive_young": 3,
-  "beauty_kw": 10,
+  "daiso": 0,
+  "olive_young": 2,
+  "beauty_kw": 2,
   "labrang": false
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
- "score_total": 65.5,
- "grade": "B",
+ "evaluated_at": "2026-07-27T10:25:16+09:00",
+ "score_total": 55.0,
+ "grade": "C",
  "score_breakdown": {
   "er": 60,
-  "brand_fit": 90,
-  "consistency": 60,
+  "brand_fit": 60,
+  "consistency": 40,
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "engagement_rate": "measured (yt-dlp per-video likes/views)",
-  "posts_last_30d": "measured (timestamp)",
+  "posts_last_30d": "measured (upload_date)",
   "brand_fit": "measured (title+tags+description)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시); sample=2 (30d=2, tab=shorts).",
+ "sample_note": "2026-07-27T10:25:16+09:00 STEP B full re-analysis (평일10시); sample=1 (30d=1), yt-dlp.",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 659,
+   "engagement_rate": 0.0107,
+   "avg_likes": 117.0,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 65.5,
+   "grade": "B"
+  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 657,
@@ -285,19 +296,6 @@
    "engagement_rate": 0.0132,
    "followers": 650,
    "posts_last_30d": 4
-  },
-  {
-   "evaluated_at": "2026-07-17T10:39:08.678010+09:00",
-   "followers": 651,
-   "engagement_rate": 0.0119,
-   "avg_likes": 194,
-   "avg_views": 14704,
-   "sample_size": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "grade": "B",
-   "score_total": 65.5,
-   "posts_last_30d": 3
   }
  ]
 }

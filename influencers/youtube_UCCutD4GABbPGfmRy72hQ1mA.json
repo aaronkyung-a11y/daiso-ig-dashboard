@@ -8,7 +8,7 @@
  "engagement_rate": 0.0167,
  "avg_likes": 251.2,
  "avg_comments": 35.0,
- "avg_views": 15071.2,
+ "avg_views": 15075.4,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 5,
@@ -20,7 +20,7 @@
   "beauty_kw": 0,
   "labrang": false
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
+ "evaluated_at": "2026-07-27T10:25:16+09:00",
  "score_total": 50.25,
  "grade": "C",
  "score_breakdown": {
@@ -32,12 +32,23 @@
  },
  "estimation_flags": {
   "engagement_rate": "measured (yt-dlp per-video likes/views)",
-  "posts_last_30d": "measured (timestamp)",
+  "posts_last_30d": "measured (upload_date)",
   "brand_fit": "measured (title+tags+description)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시); sample=5 (30d=0, tab=videos).",
+ "sample_note": "2026-07-27T10:25:16+09:00 STEP B full re-analysis (평일10시); sample=5 (30d=0), yt-dlp.",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 36200,
+   "engagement_rate": 0.0167,
+   "avg_likes": 251.2,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 50.25,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 36200,

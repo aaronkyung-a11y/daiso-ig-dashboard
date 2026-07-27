@@ -4,14 +4,14 @@
  "fullname": "예쁜데 문제있나예",
  "profile_url": "https://www.youtube.com/channel/UC66y-iJZXgWc4LwRlrNGVYw",
  "channel_id": "UC66y-iJZXgWc4LwRlrNGVYw",
- "followers": 3650,
- "engagement_rate": 0.0087,
- "avg_likes": 8.3,
- "avg_comments": 3.7,
- "avg_views": 957.0,
+ "followers": 3640,
+ "engagement_rate": 0.0101,
+ "avg_likes": 8.0,
+ "avg_comments": 4.5,
+ "avg_views": 795.6,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
- "sample_size": 6,
+ "sample_size": 8,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
@@ -20,11 +20,11 @@
   "beauty_kw": 8,
   "labrang": false
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
- "score_total": 54.5,
+ "evaluated_at": "2026-07-27T10:25:16+09:00",
+ "score_total": 64.5,
  "grade": "C",
  "score_breakdown": {
-  "er": 40,
+  "er": 60,
   "brand_fit": 90,
   "consistency": 40,
   "followers": 60,
@@ -32,12 +32,23 @@
  },
  "estimation_flags": {
   "engagement_rate": "measured (yt-dlp per-video likes/views)",
-  "posts_last_30d": "measured (timestamp)",
+  "posts_last_30d": "measured (upload_date)",
   "brand_fit": "measured (title+tags+description)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시); sample=6 (30d=0, tab=videos).",
+ "sample_note": "2026-07-27T10:25:16+09:00 STEP B full re-analysis (평일10시); sample=8 (30d=0), yt-dlp.",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 3650,
+   "engagement_rate": 0.0087,
+   "avg_likes": 8.3,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 54.5,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 3650,

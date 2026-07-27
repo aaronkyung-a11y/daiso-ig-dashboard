@@ -7,11 +7,11 @@
  "followers": 235000,
  "engagement_rate": 0.0,
  "avg_likes": 0.0,
- "avg_comments": 78.5,
- "avg_views": 24487.7,
- "posts_last_30d": 6,
- "_posts_last_30d_est": true,
- "sample_size": 6,
+ "avg_comments": 81.1,
+ "avg_views": 27062.1,
+ "posts_last_30d": 7,
+ "_posts_last_30d_est": false,
+ "sample_size": 7,
  "brand_fit_score": 90,
  "retailer_focus": "mixed",
  "retailer_signal": {
@@ -20,7 +20,7 @@
   "beauty_kw": 14,
   "labrang": false
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
+ "evaluated_at": "2026-07-27T10:25:16+09:00",
  "score_total": 64.5,
  "grade": "C",
  "score_breakdown": {
@@ -32,12 +32,23 @@
  },
  "estimation_flags": {
   "engagement_rate": "measured (yt-dlp per-video likes/views)",
-  "posts_last_30d": "est: sample capped at 6, may undercount",
+  "posts_last_30d": "measured (upload_date)",
   "brand_fit": "measured (title+tags+description)",
   "followers": "measured (yt-dlp channel_follower_count)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시); sample=6 (30d=6, tab=videos).",
+ "sample_note": "2026-07-27T10:25:16+09:00 STEP B full re-analysis (평일10시); sample=7 (30d=7), yt-dlp.",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 235000,
+   "engagement_rate": 0.0,
+   "avg_likes": 0.0,
+   "posts_last_30d": 6,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
+   "score_total": 64.5,
+   "grade": "C"
+  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 235000,
