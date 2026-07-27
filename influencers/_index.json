@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-07-27T10:26:52+09:00",
- "lastUpdated": "2026-07-27T10:26:52+09:00",
- "last_run_mode": "2026-07-27T10:26:52+09:00 평일 10:00 슬롯 — STEP B 풀 재분석. YouTube 0/120 실측 재분석(yt-dlp per-video likes/views; videos→shorts 폴백). Instagram 23건은 이번 실행에서 로그아웃 API가 429/400 차단되어 재측정 불가 → 직전 실측값(2026-07-23) carry-forward(추정 아님, 이전 실측 유지). STEP A 큐 3소스(Issues 0 + _queue.txt 0 + Form 331응답/143유니크 전부 기분석) → 신규 0건. score_total null=0 (IG/YT 모두 number). PAT는 github-pat.txt에서 추출.",
+ "last_updated": "2026-07-27T14:11:47+09:00",
+ "lastUpdated": "2026-07-27T14:11:47+09:00",
+ "last_run_mode": "2026-07-27T14:11:47+09:00 평일 14:00 슬롯 — 큐+B-Light 모드. STEP B 풀 재분석 SKIPPED (10:00 슬롯 아님). STEP A 큐 3소스(Issues 0 + _queue.txt 0 + Form 330응답/143유니크 전부 기분석) → 신규 0건. STEP B-Light: 최고령 2건(instagram beauty._charmi, beauty_piona) 재분석 시도했으나 IG 로그아웃 상태(sessionid 쿠키 없음)+web_profile_info API 400 차단으로 라이브 재측정 불가 → 직전 실측값(2026-07-23) 유지, 추정 아님. YouTube 120건은 금일 10:00 실측값 유지. score_total null=0 (IG/YT 모두 number). PAT는 github-pat.txt에서 추출(지정 분리파일 SKILL_2026-04-27_v2_30day.md 부재로 동일 폴더 대체파일 사용).",
  "total": 143,
  "platforms": {
   "instagram": 23,
