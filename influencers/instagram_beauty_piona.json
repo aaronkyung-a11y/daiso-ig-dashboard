@@ -4,39 +4,52 @@
  "fullname": "문혜경",
  "profile_url": "https://www.instagram.com/beauty_piona/",
  "followers": 8707,
- "engagement_rate": 0.2708,
- "avg_likes": 2183.1,
- "avg_comments": 175,
- "avg_views": 891261.1,
- "posts_last_30d": 9,
- "_posts_last_30d_est": false,
- "sample_size": 12,
- "brand_fit_score": 90,
+ "engagement_rate": 0.0177,
+ "avg_likes": 132.2,
+ "avg_comments": 22.0,
+ "avg_views": null,
+ "posts_last_30d": 12,
+ "_posts_last_30d_est": true,
+ "sample_size": 8,
+ "brand_fit_score": 75,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "13건",
+  "daiso_mentions": "5건",
   "olive_young_mentions": "0건",
-  "beauty_topical_strength": "52건",
+  "beauty_topical_strength": "5건",
   "labrang_blanc_doux_mention": false
  },
- "evaluated_at": "2026-07-23T10:35:31+09:00",
- "score_total": 90.5,
- "grade": "S",
+ "evaluated_at": "2026-07-28T17:17:49+09:00",
+ "score_total": 69.75,
+ "grade": "B",
  "score_breakdown": {
-  "er_score": 100,
-  "brand_fit_score": 90,
-  "consistency_score": 80,
+  "er_score": 60,
+  "brand_fit_score": 75,
+  "consistency_score": 100,
   "follower_scale_score": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
-  "engagement_rate": "measured (logged-out user-feed API, 12 cap)",
-  "followers": "carried-forward prior (new fetch=0, 추정)",
-  "posts_last_30d": "measured (taken_at)",
-  "brand_fit": "measured (caption keywords)"
+  "engagement_rate": "measured (per-post og:description, 8 samples Jul23-27)",
+  "followers": "8707 carried-forward; live meta shows ~10K (rounded) — 성장 추정, exact unavailable logged-out",
+  "posts_last_30d": "추정 ≥10 (8 posts sampled over 5 days, high cadence)",
+  "brand_fit": "measured (caption keywords, beauty=5)"
  },
- "sample_note": "2026-07-23T10:35:31+09:00 STEP B full re-analysis (평일10시). IG logged-out user-feed API, sample=12 (12 cap). ER=(aL+aC)/fol=27.08%.",
+ "sample_note": "2026-07-28T17:17:49+09:00 STEP B-Light rolling refresh (17시 슬롯). IG logged-out, per-post og:description 8 samples (Jul23-27). ER=(aL+aC)/fol=1.77% — 이전 27.08%(로그아웃 user-feed API 과대측정) 정정. S(90.5)→B(69.75).",
  "history": [
+  {
+   "evaluated_at": "2026-07-23T10:35:31+09:00",
+   "followers": 8707,
+   "engagement_rate": 0.2708,
+   "avg_likes": 2183.1,
+   "avg_comments": 175,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 90.5,
+   "grade": "S",
+   "sample_size": 12
+  },
   {
    "evaluated_at": "2026-07-20T17:23:58.539189+09:00",
    "followers": 8707,
@@ -303,19 +316,6 @@
    "retailer_focus": "our_brand",
    "score_total": 96.0,
    "grade": "S"
-  },
-  {
-   "evaluated_at": "2026-07-08T10:39:13.046210+09:00",
-   "followers": 6152,
-   "engagement_rate": 0.3716,
-   "avg_likes": 2108,
-   "avg_views": 831779,
-   "sample_size": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "grade": "S",
-   "score_total": 90.5,
-   "posts_last_30d": 9
   }
  ],
  "user_id": "63215631961"
