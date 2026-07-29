@@ -13,10 +13,10 @@
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
-    "note": "account_404"
+    "note": "account_unresolved_loggedout (og null, topsearch 0건, web_profile_info 400)"
   },
-  "evaluated_at": "2026-07-23T17:12:32+09:00",
-  "score_total": 36.2,
+  "evaluated_at": "2026-07-29T14:10:00+09:00",
+  "score_total": 36.25,
   "grade": "D",
   "score_breakdown": {
     "er_score": 40,
@@ -25,12 +25,27 @@
     "follower_scale_score": 40,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  "estimation_flags": [
-    "carry-forward: web_profile_info 404 (logged-out login-wall); profile page HTTP200 so account exists",
-    "all metrics carried from prior (followers/ER/posts/brand_fit) = 추정/미실측"
-  ],
-  "sample_note": "2026-07-23T17:12:32+09:00 STEP B-Light(17:00) 재분석 시도 — web_profile_info status=404(로그아웃 login-wall, sessionid 없음). 프로필 페이지는 HTTP200(계정 존재). 데이터 login-wall로 미취득 → 이전 값 carry-forward(추정).",
+  "estimation_flags": {
+    "engagement_rate": "측정불가→0 (unmeasurable default, NOT live)",
+    "followers": "측정불가→0 (unmeasurable default)",
+    "posts_last_30d": "측정불가→0 (unmeasurable default)",
+    "brand_fit": "측정불가→25 (unmeasurable default)"
+  },
+  "sample_note": "2026-07-29T14:10:00+09:00 STEP B-Light(14:00) 재시도 — 로그아웃 상태 여전히 미해결(og:desc null, topsearch 0건, web_profile_info 400). 미측정 기본값(ER0/bf25/posts0/fol0) 적용, live 측정 아님. score_total=number 유지.",
   "history": [
+    {
+      "evaluated_at": "2026-07-23T17:12:32+09:00",
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "avg_likes": 0,
+      "avg_views": 0,
+      "sample_size": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "posts_last_30d": 0,
+      "score_total": 36.2,
+      "grade": "D"
+    },
     {
       "evaluated_at": "2026-07-07T14:31:00.000000+09:00",
       "followers": 0,
@@ -210,5 +225,6 @@
       "grade": "D",
       "evaluated_at": "2026-07-17T11:29:14.545999+09:00"
     }
-  ]
+  ],
+  "_posts_last_30d_est": true
 }
