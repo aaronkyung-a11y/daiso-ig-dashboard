@@ -1,0 +1,41 @@
+{
+  "platform": "youtube",
+  "username": "UCa6F7kUQnN8fmLBnSRSpY_g",
+  "fullname": "코덕순",
+  "profile_url": "https://www.youtube.com/channel/UCa6F7kUQnN8fmLBnSRSpY_g",
+  "channel_id": "UCa6F7kUQnN8fmLBnSRSpY_g",
+  "followers": 3810,
+  "engagement_rate": 0.0251,
+  "avg_likes": 1941.1,
+  "avg_comments": 10.2,
+  "avg_views": 77476.7,
+  "posts_last_30d": 11,
+  "_posts_last_30d_est": false,
+  "sample_size": 16,
+  "brand_fit_score": 75,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso": 1,
+    "olive_young": 0,
+    "beauty_kw": 4,
+    "labrang": false
+  },
+  "evaluated_at": "2026-07-30T17:13:07+09:00",
+  "score_total": 69.75,
+  "grade": "B",
+  "score_breakdown": {
+    "er": 60,
+    "brand_fit": 75,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "engagement_rate": "measured (yt-dlp per-video likes/views)",
+    "posts_last_30d": "measured (upload_date)",
+    "brand_fit": "measured (title+tags)",
+    "followers": "measured (yt-dlp channel_follower_count)"
+  },
+  "sample_note": "2026-07-30T17:13:07+09:00 STEP A Queue 신규분석(평일17시 슬롯); sample=16 (30d=11), yt-dlp.",
+  "history": []
+}
