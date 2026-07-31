@@ -1,0 +1,41 @@
+{
+  "platform": "youtube",
+  "username": "UCEVbgB8g02Sc9r-2_R3sn9g",
+  "fullname": "테테코덕계 tete",
+  "profile_url": "https://www.youtube.com/channel/UCEVbgB8g02Sc9r-2_R3sn9g",
+  "channel_id": "UCEVbgB8g02Sc9r-2_R3sn9g",
+  "followers": 11300,
+  "engagement_rate": 0.0266,
+  "avg_likes": 498.3,
+  "avg_comments": 177.2,
+  "avg_views": 18712.4,
+  "posts_last_30d": 9,
+  "_posts_last_30d_est": false,
+  "sample_size": 9,
+  "brand_fit_score": 90,
+  "retailer_focus": "olive_young",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 29,
+    "beauty_kw": 57,
+    "labrang": false
+  },
+  "evaluated_at": "2026-07-31T14:26:01.846304+09:00",
+  "score_total": 72.5,
+  "grade": "B",
+  "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 80,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "engagement_rate": "measured (yt-dlp per-video likes/views)",
+    "posts_last_30d": "measured (upload_date)",
+    "brand_fit": "measured (title+tags+description)",
+    "followers": "measured (yt-dlp channel_follower_count)"
+  },
+  "sample_note": "30d videos",
+  "history": []
+}

@@ -1,0 +1,41 @@
+{
+  "platform": "youtube",
+  "username": "UCLXYyuMtfzbXPlimfOWQGHA",
+  "fullname": "여니룸",
+  "profile_url": "https://www.youtube.com/channel/UCLXYyuMtfzbXPlimfOWQGHA",
+  "channel_id": "UCLXYyuMtfzbXPlimfOWQGHA",
+  "followers": 3200,
+  "engagement_rate": 0.0033,
+  "avg_likes": 259.6,
+  "avg_comments": 2.7,
+  "avg_views": 77791.9,
+  "posts_last_30d": 10,
+  "_posts_last_30d_est": false,
+  "sample_size": 10,
+  "brand_fit_score": 60,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso": 2,
+    "olive_young": 0,
+    "beauty_kw": 2,
+    "labrang": false
+  },
+  "evaluated_at": "2026-07-31T14:24:32.593707+09:00",
+  "score_total": 56.0,
+  "grade": "C",
+  "score_breakdown": {
+    "er": 40,
+    "brand_fit": 60,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "engagement_rate": "measured (yt-dlp per-video likes/views)",
+    "posts_last_30d": "measured (upload_date)",
+    "brand_fit": "measured (title+tags+description)",
+    "followers": "measured (yt-dlp channel_follower_count)"
+  },
+  "sample_note": "30d videos",
+  "history": []
+}

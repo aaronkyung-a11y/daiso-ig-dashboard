@@ -1,0 +1,41 @@
+{
+  "platform": "youtube",
+  "username": "UCePjZRTgGmQs7C3TFxX1Ffg",
+  "fullname": "BeautywithFranz",
+  "profile_url": "https://www.youtube.com/channel/UCePjZRTgGmQs7C3TFxX1Ffg",
+  "channel_id": "UCePjZRTgGmQs7C3TFxX1Ffg",
+  "followers": 27800,
+  "engagement_rate": 0.0031,
+  "avg_likes": 12.8,
+  "avg_comments": 0.1,
+  "avg_views": 4088.5,
+  "posts_last_30d": 10,
+  "_posts_last_30d_est": false,
+  "sample_size": 10,
+  "brand_fit_score": 90,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 0,
+    "beauty_kw": 30,
+    "labrang": false
+  },
+  "evaluated_at": "2026-07-31T14:26:41.798270+09:00",
+  "score_total": 65.5,
+  "grade": "B",
+  "score_breakdown": {
+    "er": 40,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "engagement_rate": "measured (yt-dlp per-video likes/views)",
+    "posts_last_30d": "measured (upload_date)",
+    "brand_fit": "measured (title+tags+description)",
+    "followers": "measured (yt-dlp channel_follower_count)"
+  },
+  "sample_note": "30d videos",
+  "history": []
+}
