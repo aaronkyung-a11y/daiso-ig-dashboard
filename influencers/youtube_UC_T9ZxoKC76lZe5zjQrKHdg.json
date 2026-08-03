@@ -1,0 +1,41 @@
+{
+  "platform": "youtube",
+  "username": "UC_T9ZxoKC76lZe5zjQrKHdg",
+  "fullname": "YeEul's JPOP",
+  "profile_url": "https://www.youtube.com/channel/UC_T9ZxoKC76lZe5zjQrKHdg",
+  "channel_id": "UC_T9ZxoKC76lZe5zjQrKHdg",
+  "followers": 40300,
+  "engagement_rate": 0.02,
+  "avg_likes": 150,
+  "avg_comments": 13,
+  "avg_views": 7521,
+  "posts_last_30d": 2,
+  "_posts_last_30d_est": false,
+  "sample_size": 20,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso": 0,
+    "olive_young": 0,
+    "beauty_kw": 2,
+    "labrang": false
+  },
+  "evaluated_at": "2026-08-03T13:46:41+09:00",
+  "score_total": 62.0,
+  "grade": "B",
+  "score_breakdown": {
+    "er": 60,
+    "brand_fit": 60,
+    "consistency": 60,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "engagement_rate": "measured (yt-dlp android_vr per-video likes/views)",
+    "posts_last_30d": "measured (upload_date)",
+    "brand_fit": "measured (title+description; tags empty via android_vr)",
+    "followers": "measured (yt-dlp channel_follower_count)"
+  },
+  "sample_note": "2026-08-03T13:46:41+09:00 STEP A new (Form queue, 금17시 슬롯); sample=20 (30d=2), yt-dlp android_vr client.",
+  "history": []
+}
