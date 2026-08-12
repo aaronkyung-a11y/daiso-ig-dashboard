@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-12T10:58:23+09:00",
-  "lastUpdated": "2026-08-12T10:58:23+09:00",
-  "last_run_mode": "2026-08-12T10:58:23+09:00 Wed 10:00 슬롯 — 평일 10시 풀 재분석 모드. 신규분석 0건(Issues 0/_queue.txt 0/Form 168 unique 전부 기분석). STEP B Watchlist 풀 재분석 168건(YT 145 신규 재수집 via yt-dlp android, IG 22 신규 재수집 via web_profile_info+feed/user; IG mingjikim_107 재수집 실패→이월, IG beauty_piona/dasik.yaksa/doing_now_insta followers 이월). score_total null 0건. total 168. ※ 지정 PAT파일(SKILL_2026-04-27_v2_30day.md) 부재(G:\\ 미마운트) → Google Drive github-pat.txt 폴백 사용(직전 실행과 동일).",
+  "last_updated": "2026-08-12T14:12:59+09:00",
+  "lastUpdated": "2026-08-12T14:12:59+09:00",
+  "last_run_mode": "2026-08-12T14:12:59+09:00 Wed 14:00 슬롯 — 큐+B-Light 모드. 신규분석 0건(Issues 0/_queue.txt 0/Form 168 unique 전부 기분석). STEP B SKIPPED (not 10:00 slot). STEP B-Light 2건 재분석: YT Nyam(56.25→56.25, ER 4.26% 실측·비활성), IG mingjikim_107(36.25→36.25, 라이브확인 결과 '페이지 삭제됨'→계정 삭제/미존재 확정). score_total null 0건. total 168. ※지정 PAT파일(SKILL_2026-04-27_v2_30day.md) 부재(G:\\ 미마운트)→Google Drive github-pat.txt 폴백 사용(직전 실행과 동일).",
   "total": 168,
   "platforms": {
     "instagram": 23,
@@ -5048,20 +5048,15 @@
       "followers": 49,
       "engagement_rate": 0.0426,
       "avg_likes": 2.0,
-      "avg_comments": 3.0,
+      "avg_comments": 0.0,
       "avg_views": 47.0,
       "posts_last_30d": 0,
       "_posts_last_30d_est": false,
       "sample_size": 1,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic",
-      "retailer_signal": {
-        "daiso_mentions": "0건",
-        "olive_young_mentions": "0건",
-        "beauty_keywords": "0건",
-        "labrang_present": false
-      },
-      "evaluated_at": "2026-08-12T10:11:34+09:00",
+      "retailer_signal": "beauty0/daiso0/oy0 (vlog, no beauty kw)",
+      "evaluated_at": "2026-08-12T14:12:04+09:00",
       "score_total": 56.25,
       "grade": "C",
       "score_breakdown": {
@@ -5069,13 +5064,13 @@
         "brand_fit": 25,
         "consistency": 40,
         "followers": 40,
-        "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+        "formula": "80*0.50+25*0.25+40*0.15+40*0.10"
       },
       "estimation_flags": {
-        "brand_fit_estimated": false,
-        "followers_estimated": false
+        "brand_fit_score": false,
+        "posts_last_30d": false
       },
-      "sample_note": "YT 30일내 0개 → 최근 1개 fallback"
+      "sample_note": "2026-08-12T14:12:04+09:00 STEP B-Light(14:00) 재분석 — yt-dlp android. 채널 비활성(구독49, 공개영상 1개, 최신 2025-06-09 429일전, 47뷰/2좋아요). ER=4.26% 실측, 30일 신규 0. 지표 이전과 동일."
     },
     {
       "platform": "youtube",
@@ -6376,34 +6371,31 @@
       "profile_url": "https://www.instagram.com/mingjikim_107/",
       "followers": 0,
       "engagement_rate": 0.0,
-      "avg_likes": 0,
-      "avg_comments": 0,
-      "avg_views": 0,
+      "avg_likes": 0.0,
+      "avg_comments": 0.0,
+      "avg_views": 0.0,
       "posts_last_30d": 0,
       "sample_size": 0,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic",
-      "retailer_signal": {
-        "note": "account_unresolved_loggedout (og null, topsearch 0건, web_profile_info 400)"
-      },
-      "evaluated_at": "2026-07-29T14:10:00+09:00",
+      "retailer_signal": "n/a (account unavailable)",
+      "evaluated_at": "2026-08-12T14:12:04+09:00",
       "score_total": 36.25,
       "grade": "D",
       "score_breakdown": {
-        "er_score": 40,
-        "brand_fit_score": 25,
-        "consistency_score": 40,
-        "follower_scale_score": 40,
-        "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+        "er": 40,
+        "brand_fit": 25,
+        "consistency": 40,
+        "followers": 40,
+        "formula": "40*0.50+25*0.25+40*0.15+40*0.10"
       },
       "estimation_flags": {
-        "engagement_rate": "측정불가→0 (unmeasurable default, NOT live)",
-        "followers": "측정불가→0 (unmeasurable default)",
-        "posts_last_30d": "측정불가→0 (unmeasurable default)",
-        "brand_fit": "측정불가→25 (unmeasurable default)"
+        "brand_fit_score": true,
+        "posts_last_30d": true,
+        "note": "account_unavailable"
       },
-      "sample_note": "2026-07-29T14:10:00+09:00 STEP B-Light(14:00) 재시도 — 로그아웃 상태 여전히 미해결(og:desc null, topsearch 0건, web_profile_info 400). 미측정 기본값(ER0/bf25/posts0/fol0) 적용, live 측정 아님. score_total=number 유지. | ※재수집실패(web_profile_info 400+topsearch miss) 이월",
-      "_posts_last_30d_est": true
+      "sample_note": "2026-08-12T14:12:04+09:00 STEP B-Light(14:00) 라이브 재확인 — IG 프로필 페이지 \"페이지가 삭제되었습니다\"(page removed/unavailable) 반환. 계정 삭제/미존재로 확정(기존 로그아웃 추정과 상이). 미측정 기본값(ER0/bf25/posts0/fol0) 적용, score_total=36.25(number).",
+      "_posts_last_30d_est": false
     }
   ]
 }
