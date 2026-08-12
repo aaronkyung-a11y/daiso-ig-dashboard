@@ -4,38 +4,47 @@
   "fullname": "Good Tip",
   "profile_url": "https://www.youtube.com/channel/UCBIH59jFPAuSB783uspXcTQ",
   "channel_id": "UCBIH59jFPAuSB783uspXcTQ",
-  "followers": 2360,
-  "engagement_rate": 0.0064,
-  "avg_likes": 20.7,
-  "avg_comments": 5.4,
-  "avg_views": 3245.1,
-  "posts_last_30d": 7,
+  "followers": 2400,
+  "engagement_rate": 0.0068,
+  "avg_likes": 36.1,
+  "avg_comments": 5.3,
+  "avg_views": 5339.8,
+  "posts_last_30d": 10,
   "_posts_last_30d_est": false,
-  "sample_size": 7,
+  "sample_size": 10,
   "brand_fit_score": 60,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso": 69,
-    "olive_young": 14,
-    "beauty_kw": 1,
-    "labrang": false
+    "daiso_mentions": "108건",
+    "olive_young_mentions": "20건",
+    "beauty_keywords": "2건",
+    "labrang_present": false
   },
-  "evaluated_at": "2026-07-31T14:24:01.313605+09:00",
-  "score_total": 53.0,
+  "evaluated_at": "2026-08-12T10:28:46+09:00",
+  "score_total": 56.0,
   "grade": "C",
   "score_breakdown": {
     "er": 40,
     "brand_fit": 60,
-    "consistency": 80,
+    "consistency": 100,
     "followers": 60,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp per-video likes/views)",
-    "posts_last_30d": "measured (upload_date)",
-    "brand_fit": "measured (title+tags+description)",
-    "followers": "measured (yt-dlp channel_follower_count)"
+    "brand_fit_estimated": false,
+    "followers_estimated": false
   },
-  "sample_note": "30d videos",
-  "history": []
+  "sample_note": "YT 30일내 10개",
+  "history": [
+    {
+      "evaluated_at": "2026-07-31T14:24:01.313605+09:00",
+      "score_total": 53.0,
+      "grade": "C",
+      "engagement_rate": 0.0064,
+      "followers": 2360,
+      "posts_last_30d": 7,
+      "brand_fit_score": 60,
+      "retailer_focus": "daiso"
+    }
+  ]
 }

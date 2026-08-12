@@ -4,51 +4,38 @@
   "fullname": "해니 haeni beauty",
   "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
   "channel_id": "UCChdHmdkgTpk0iyuODYxJIw",
-  "followers": 480000,
-  "engagement_rate": 0.0293,
-  "avg_likes": 1299.4,
-  "avg_comments": 74.3,
-  "avg_views": 44367.6,
-  "posts_last_30d": 7,
+  "followers": 479000,
+  "engagement_rate": 0.0367,
+  "avg_likes": 987.2,
+  "avg_comments": 90.8,
+  "avg_views": 26903.5,
+  "posts_last_30d": 4,
   "_posts_last_30d_est": false,
-  "sample_size": 7,
+  "sample_size": 4,
   "brand_fit_score": 100,
   "retailer_focus": "our_brand",
   "retailer_signal": {
-    "daiso": 2,
-    "olive_young": 3,
-    "beauty_kw": 279,
-    "labrang": true
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "8건",
+    "beauty_keywords": "94건",
+    "labrang_present": true
   },
-  "evaluated_at": "2026-07-31T14:27:11.496783+09:00",
-  "score_total": 77.0,
+  "evaluated_at": "2026-08-12T10:12:08+09:00",
+  "score_total": 84.0,
   "grade": "A",
   "score_breakdown": {
-    "er": 60,
+    "er": 80,
     "brand_fit": 100,
-    "consistency": 80,
+    "consistency": 60,
     "followers": 100,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp per-video likes/views)",
-    "posts_last_30d": "measured (upload_date)",
-    "brand_fit": "measured (title+tags+description)",
-    "followers": "measured (yt-dlp channel_follower_count)"
+    "brand_fit_estimated": false,
+    "followers_estimated": false
   },
-  "sample_note": "30d videos",
+  "sample_note": "YT 30일내 4개",
   "history": [
-    {
-      "evaluated_at": "2026-07-23T10:35:31+09:00",
-      "followers": 480000,
-      "engagement_rate": 0.0387,
-      "avg_likes": 738.3,
-      "posts_last_30d": 3,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young",
-      "score_total": 81.5,
-      "grade": "A"
-    },
     {
       "evaluated_at": "2026-07-22T10:33:54+09:00",
       "followers": 480000,
@@ -309,6 +296,16 @@
       "retailer_focus": "our_brand",
       "score_total": 84.0,
       "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-07-31T14:27:11.496783+09:00",
+      "score_total": 77.0,
+      "grade": "A",
+      "engagement_rate": 0.0293,
+      "followers": 480000,
+      "posts_last_30d": 7,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand"
     }
   ]
 }

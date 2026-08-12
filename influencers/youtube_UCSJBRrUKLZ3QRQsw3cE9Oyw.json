@@ -1,1 +1,50 @@
-{"platform": "youtube", "username": "UCSJBRrUKLZ3QRQsw3cE9Oyw", "fullname": "centralgrocery 중앙식품점", "profile_url": "https://www.youtube.com/channel/UCSJBRrUKLZ3QRQsw3cE9Oyw", "channel_id": "UCSJBRrUKLZ3QRQsw3cE9Oyw", "followers": 16000, "engagement_rate": 0.0162, "avg_likes": 266.9, "avg_comments": 30.0, "avg_views": 16507.4, "posts_last_30d": 22, "_posts_last_30d_est": false, "sample_size": 22, "brand_fit_score": 25, "retailer_focus": "off_topic", "retailer_signal": {"daiso": 0, "olive_young": 0, "beauty_kw": 0, "labrang": false}, "evaluated_at": "2026-08-10T17:09:23+09:00", "score_total": 59.25, "grade": "C", "score_breakdown": {"er": 60, "brand_fit": 25, "consistency": 100, "followers": 80, "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"}, "estimation_flags": {"engagement_rate": "measured (yt-dlp per-video likes/views)", "posts_last_30d": "measured (upload_date)", "brand_fit": "measured (title+tags+description)", "followers": "measured (yt-dlp channel_follower_count)"}, "sample_note": "2026-08-10T17:09:23+09:00 STEP A queue(신규); sample=22 (30d=22), yt-dlp.", "history": []}
+{
+  "platform": "youtube",
+  "username": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
+  "fullname": "centralgrocery 중앙식품점",
+  "profile_url": "https://www.youtube.com/channel/UCSJBRrUKLZ3QRQsw3cE9Oyw",
+  "channel_id": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
+  "followers": 16500,
+  "engagement_rate": 0.0161,
+  "avg_likes": 309.6,
+  "avg_comments": 34.7,
+  "avg_views": 19275.2,
+  "posts_last_30d": 18,
+  "_posts_last_30d_est": false,
+  "sample_size": 18,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "1건",
+    "labrang_present": false
+  },
+  "evaluated_at": "2026-08-12T10:23:07+09:00",
+  "score_total": 68.0,
+  "grade": "B",
+  "score_breakdown": {
+    "er": 60,
+    "brand_fit": 60,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+  },
+  "sample_note": "YT 30일내 18개",
+  "history": [
+    {
+      "evaluated_at": "2026-08-10T17:09:23+09:00",
+      "score_total": 59.25,
+      "grade": "C",
+      "engagement_rate": 0.0162,
+      "followers": 16000,
+      "posts_last_30d": 22,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic"
+    }
+  ]
+}

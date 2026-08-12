@@ -31,7 +31,7 @@
     "posts_last_30d": "측정불가→0 (unmeasurable default)",
     "brand_fit": "측정불가→25 (unmeasurable default)"
   },
-  "sample_note": "2026-07-29T14:10:00+09:00 STEP B-Light(14:00) 재시도 — 로그아웃 상태 여전히 미해결(og:desc null, topsearch 0건, web_profile_info 400). 미측정 기본값(ER0/bf25/posts0/fol0) 적용, live 측정 아님. score_total=number 유지.",
+  "sample_note": "2026-07-29T14:10:00+09:00 STEP B-Light(14:00) 재시도 — 로그아웃 상태 여전히 미해결(og:desc null, topsearch 0건, web_profile_info 400). 미측정 기본값(ER0/bf25/posts0/fol0) 적용, live 측정 아님. score_total=number 유지. | ※재수집실패(web_profile_info 400+topsearch miss) 이월",
   "history": [
     {
       "evaluated_at": "2026-07-23T17:12:32+09:00",

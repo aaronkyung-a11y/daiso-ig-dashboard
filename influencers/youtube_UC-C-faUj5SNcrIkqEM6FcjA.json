@@ -5,22 +5,22 @@
   "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
   "channel_id": "UC-C-faUj5SNcrIkqEM6FcjA",
   "followers": 363000,
-  "engagement_rate": 0.0092,
-  "avg_likes": 209.8,
-  "avg_comments": 4.6,
-  "avg_views": 22918.6,
-  "posts_last_30d": 25,
+  "engagement_rate": 0.0098,
+  "avg_likes": 189.7,
+  "avg_comments": 2.6,
+  "avg_views": 19428.6,
+  "posts_last_30d": 18,
   "_posts_last_30d_est": false,
-  "sample_size": 25,
+  "sample_size": 18,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso": 0,
-    "olive_young": 0,
-    "beauty_kw": 0,
-    "labrang": false
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "0건",
+    "labrang_present": false
   },
-  "evaluated_at": "2026-08-11T17:04:00+09:00",
+  "evaluated_at": "2026-08-12T10:14:28+09:00",
   "score_total": 51.25,
   "grade": "C",
   "score_breakdown": {
@@ -31,24 +31,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp android per-video likes/views)",
-    "posts_last_30d": "measured (upload_date)",
-    "brand_fit": "measured (title+tags+description)",
-    "followers": "measured (yt-dlp channel_follower_count)"
+    "brand_fit_estimated": false,
+    "followers_estimated": false
   },
-  "sample_note": "2026-08-11T17:04:00+09:00 STEP B-Light rolling refresh (17:00 슬롯); sample=25 (30d=25), yt-dlp android client.",
+  "sample_note": "YT 30일내 18개",
   "history": [
-    {
-      "evaluated_at": "2026-07-28T10:25:16+09:00",
-      "followers": 353000,
-      "engagement_rate": 0.0075,
-      "avg_likes": 177.5,
-      "posts_last_30d": 8,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic",
-      "score_total": 48.25,
-      "grade": "D"
-    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 351000,
@@ -298,6 +285,16 @@
       "engagement_rate": 0.0145,
       "followers": 339000,
       "posts_last_30d": 5,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic"
+    },
+    {
+      "evaluated_at": "2026-08-11T17:04:00+09:00",
+      "score_total": 51.25,
+      "grade": "C",
+      "engagement_rate": 0.0092,
+      "followers": 363000,
+      "posts_last_30d": 25,
       "brand_fit_score": 25,
       "retailer_focus": "off_topic"
     }

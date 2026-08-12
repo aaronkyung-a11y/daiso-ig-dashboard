@@ -1,41 +1,50 @@
 {
   "platform": "youtube",
   "username": "UCmgaEzWAbBVrSS1jLnOyiuA",
-  "fullname": "🌈ASMR vlogs 🎀",
+  "fullname": "ASMR vlogs ",
   "profile_url": "https://www.youtube.com/channel/UCmgaEzWAbBVrSS1jLnOyiuA",
   "channel_id": "UCmgaEzWAbBVrSS1jLnOyiuA",
-  "followers": 806000,
-  "engagement_rate": 0.0084,
-  "avg_likes": 90.8,
-  "avg_comments": 5.9,
-  "avg_views": 10760.6,
-  "posts_last_30d": 2,
+  "followers": 813000,
+  "engagement_rate": 0.0164,
+  "avg_likes": 37.7,
+  "avg_comments": 1.0,
+  "avg_views": 2294.3,
+  "posts_last_30d": 3,
   "_posts_last_30d_est": false,
-  "sample_size": 19,
-  "brand_fit_score": 90,
-  "retailer_focus": "beauty_general",
+  "sample_size": 3,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso": 0,
-    "olive_young": 0,
-    "beauty_kw": 51,
-    "labrang": false
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "0건",
+    "labrang_present": false
   },
-  "evaluated_at": "2026-07-30T17:13:07+09:00",
-  "score_total": 61.5,
+  "evaluated_at": "2026-08-12T10:22:23+09:00",
+  "score_total": 55.25,
   "grade": "C",
   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 90,
+    "er": 60,
+    "brand_fit": 25,
     "consistency": 60,
     "followers": 100,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp per-video likes/views)",
-    "posts_last_30d": "measured (upload_date)",
-    "brand_fit": "measured (title+tags)",
-    "followers": "measured (yt-dlp channel_follower_count)"
+    "brand_fit_estimated": false,
+    "followers_estimated": false
   },
-  "sample_note": "2026-07-30T17:13:07+09:00 STEP A Queue 신규분석(평일17시 슬롯); sample=19 (30d=2), yt-dlp.",
-  "history": []
+  "sample_note": "YT 30일내 3개",
+  "history": [
+    {
+      "evaluated_at": "2026-07-30T17:13:07+09:00",
+      "score_total": 61.5,
+      "grade": "C",
+      "engagement_rate": 0.0084,
+      "followers": 806000,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general"
+    }
+  ]
 }

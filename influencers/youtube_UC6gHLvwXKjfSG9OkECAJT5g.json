@@ -4,38 +4,47 @@
   "fullname": "황송픽 hs_pick",
   "profile_url": "https://www.youtube.com/channel/UC6gHLvwXKjfSG9OkECAJT5g",
   "channel_id": "UC6gHLvwXKjfSG9OkECAJT5g",
-  "followers": 22700,
-  "engagement_rate": 0.0061,
-  "avg_likes": 50.7,
-  "avg_comments": 2.6,
-  "avg_views": 8367.1,
-  "posts_last_30d": 10,
+  "followers": 22600,
+  "engagement_rate": 0.0059,
+  "avg_likes": 56.0,
+  "avg_comments": 2.7,
+  "avg_views": 9482.9,
+  "posts_last_30d": 9,
   "_posts_last_30d_est": false,
-  "sample_size": 10,
+  "sample_size": 9,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso": 60,
-    "olive_young": 11,
-    "beauty_kw": 34,
-    "labrang": false
+    "daiso_mentions": "60건",
+    "olive_young_mentions": "10건",
+    "beauty_keywords": "26건",
+    "labrang_present": false
   },
-  "evaluated_at": "2026-07-31T14:24:01.313605+09:00",
-  "score_total": 65.5,
+  "evaluated_at": "2026-08-12T10:29:09+09:00",
+  "score_total": 62.5,
   "grade": "B",
   "score_breakdown": {
     "er": 40,
     "brand_fit": 90,
-    "consistency": 100,
+    "consistency": 80,
     "followers": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp per-video likes/views)",
-    "posts_last_30d": "measured (upload_date)",
-    "brand_fit": "measured (title+tags+description)",
-    "followers": "measured (yt-dlp channel_follower_count)"
+    "brand_fit_estimated": false,
+    "followers_estimated": false
   },
-  "sample_note": "30d videos",
-  "history": []
+  "sample_note": "YT 30일내 9개",
+  "history": [
+    {
+      "evaluated_at": "2026-07-31T14:24:01.313605+09:00",
+      "score_total": 65.5,
+      "grade": "B",
+      "engagement_rate": 0.0061,
+      "followers": 22700,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso"
+    }
+  ]
 }

@@ -4,38 +4,47 @@
   "fullname": "집남편",
   "profile_url": "https://www.youtube.com/channel/UCU0ujFi0aIM6G5iDIPUY40w",
   "channel_id": "UCU0ujFi0aIM6G5iDIPUY40w",
-  "followers": 9050,
-  "engagement_rate": 0.0082,
-  "avg_likes": 581.6,
-  "avg_comments": 3.3,
-  "avg_views": 70964.8,
-  "posts_last_30d": 16,
+  "followers": 9840,
+  "engagement_rate": 0.0068,
+  "avg_likes": 318.4,
+  "avg_comments": 2.4,
+  "avg_views": 46912.2,
+  "posts_last_30d": 18,
   "_posts_last_30d_est": false,
-  "sample_size": 16,
-  "brand_fit_score": 25,
+  "sample_size": 18,
+  "brand_fit_score": 60,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso": 15,
-    "olive_young": 0,
-    "beauty_kw": 0,
-    "labrang": false
+    "daiso_mentions": "80건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "1건",
+    "labrang_present": false
   },
-  "evaluated_at": "2026-07-30T17:13:07+09:00",
-  "score_total": 47.25,
-  "grade": "D",
+  "evaluated_at": "2026-08-12T10:28:44+09:00",
+  "score_total": 56.0,
+  "grade": "C",
   "score_breakdown": {
     "er": 40,
-    "brand_fit": 25,
+    "brand_fit": 60,
     "consistency": 100,
     "followers": 60,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp per-video likes/views)",
-    "posts_last_30d": "measured (upload_date)",
-    "brand_fit": "measured (title+tags)",
-    "followers": "measured (yt-dlp channel_follower_count)"
+    "brand_fit_estimated": false,
+    "followers_estimated": false
   },
-  "sample_note": "2026-07-30T17:13:07+09:00 STEP A Queue 신규분석(평일17시 슬롯); sample=16 (30d=16), yt-dlp.",
-  "history": []
+  "sample_note": "YT 30일내 18개",
+  "history": [
+    {
+      "evaluated_at": "2026-07-30T17:13:07+09:00",
+      "score_total": 47.25,
+      "grade": "D",
+      "engagement_rate": 0.0082,
+      "followers": 9050,
+      "posts_last_30d": 16,
+      "brand_fit_score": 25,
+      "retailer_focus": "daiso"
+    }
+  ]
 }

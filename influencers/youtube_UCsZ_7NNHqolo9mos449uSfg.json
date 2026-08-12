@@ -4,38 +4,47 @@
   "fullname": "POLINA ZAITSEVA",
   "profile_url": "https://www.youtube.com/channel/UCsZ_7NNHqolo9mos449uSfg",
   "channel_id": "UCsZ_7NNHqolo9mos449uSfg",
-  "followers": 2720,
-  "engagement_rate": 0.0052,
-  "avg_likes": 141.7,
-  "avg_comments": 0.7,
-  "avg_views": 27281.9,
-  "posts_last_30d": 10,
+  "followers": 4520,
+  "engagement_rate": 0.0056,
+  "avg_likes": 398.3,
+  "avg_comments": 1.1,
+  "avg_views": 70886.8,
+  "posts_last_30d": 12,
   "_posts_last_30d_est": false,
-  "sample_size": 10,
-  "brand_fit_score": 75,
-  "retailer_focus": "beauty_general",
+  "sample_size": 12,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso": 0,
-    "olive_young": 0,
-    "beauty_kw": 7,
-    "labrang": false
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "0건",
+    "labrang_present": false
   },
-  "evaluated_at": "2026-07-31T14:26:26.469743+09:00",
-  "score_total": 59.75,
-  "grade": "C",
+  "evaluated_at": "2026-08-12T10:29:08+09:00",
+  "score_total": 47.25,
+  "grade": "D",
   "score_breakdown": {
     "er": 40,
-    "brand_fit": 75,
+    "brand_fit": 25,
     "consistency": 100,
     "followers": 60,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp per-video likes/views)",
-    "posts_last_30d": "measured (upload_date)",
-    "brand_fit": "measured (title+tags+description)",
-    "followers": "measured (yt-dlp channel_follower_count)"
+    "brand_fit_estimated": false,
+    "followers_estimated": false
   },
-  "sample_note": "30d videos",
-  "history": []
+  "sample_note": "YT 30일내 12개",
+  "history": [
+    {
+      "evaluated_at": "2026-07-31T14:26:26.469743+09:00",
+      "score_total": 59.75,
+      "grade": "C",
+      "engagement_rate": 0.0052,
+      "followers": 2720,
+      "posts_last_30d": 10,
+      "brand_fit_score": 75,
+      "retailer_focus": "beauty_general"
+    }
+  ]
 }

@@ -4,23 +4,23 @@
   "fullname": "서히",
   "profile_url": "https://www.youtube.com/channel/UCCutD4GABbPGfmRy72hQ1mA",
   "channel_id": "UCCutD4GABbPGfmRy72hQ1mA",
-  "followers": 36200,
+  "followers": 36100,
   "engagement_rate": 0.0166,
   "avg_likes": 251.2,
   "avg_comments": 35.0,
-  "avg_views": 15078.2,
+  "avg_views": 15103.6,
   "posts_last_30d": 0,
   "_posts_last_30d_est": false,
   "sample_size": 5,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
-    "daiso": 0,
-    "olive_young": 0,
-    "beauty_kw": 0,
-    "labrang": false
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "0건",
+    "labrang_present": false
   },
-  "evaluated_at": "2026-08-11T14:08:29+09:00",
+  "evaluated_at": "2026-08-12T10:14:57+09:00",
   "score_total": 50.25,
   "grade": "C",
   "score_breakdown": {
@@ -31,12 +31,10 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp per-video likes/views)",
-    "posts_last_30d": "measured (upload_date)",
-    "brand_fit": "measured (title+tags+description)",
-    "followers": "measured (yt-dlp channel_follower_count)"
+    "brand_fit_estimated": false,
+    "followers_estimated": false
   },
-  "sample_note": "2026-08-11T14:08:29+09:00 STEP B-Light rolling refresh (14:00 slot); sample=5 (30d=0), yt-dlp.",
+  "sample_note": "YT 30일내 0개 → 최근 5개 fallback",
   "history": [
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
@@ -288,6 +286,16 @@
       "score_total": 50.25,
       "grade": "C",
       "engagement_rate": 0.0167,
+      "followers": 36200,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic"
+    },
+    {
+      "evaluated_at": "2026-08-11T14:08:29+09:00",
+      "score_total": 50.25,
+      "grade": "C",
+      "engagement_rate": 0.0166,
       "followers": 36200,
       "posts_last_30d": 0,
       "brand_fit_score": 25,

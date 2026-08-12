@@ -4,38 +4,47 @@
   "fullname": "거지코덕",
   "profile_url": "https://www.youtube.com/channel/UCAJKsKmumOybMKA0jZ1i7nw",
   "channel_id": "UCAJKsKmumOybMKA0jZ1i7nw",
-  "followers": 19400,
-  "engagement_rate": 0.0354,
-  "avg_likes": 4843.9,
-  "avg_comments": 57.9,
-  "avg_views": 136848.9,
-  "posts_last_30d": 12,
+  "followers": 20300,
+  "engagement_rate": 0.0327,
+  "avg_likes": 2375.6,
+  "avg_comments": 44.4,
+  "avg_views": 72634.0,
+  "posts_last_30d": 13,
   "_posts_last_30d_est": false,
-  "sample_size": 16,
-  "brand_fit_score": 75,
-  "retailer_focus": "daiso",
+  "sample_size": 13,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
   "retailer_signal": {
-    "daiso": 2,
-    "olive_young": 1,
-    "beauty_kw": 6,
-    "labrang": false
+    "daiso_mentions": "7건",
+    "olive_young_mentions": "8건",
+    "beauty_keywords": "21건",
+    "labrang_present": true
   },
-  "evaluated_at": "2026-07-30T17:13:07+09:00",
-  "score_total": 81.75,
-  "grade": "A",
+  "evaluated_at": "2026-08-12T10:28:45+09:00",
+  "score_total": 88.0,
+  "grade": "S",
   "score_breakdown": {
     "er": 80,
-    "brand_fit": 75,
+    "brand_fit": 100,
     "consistency": 100,
     "followers": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
-    "engagement_rate": "measured (yt-dlp per-video likes/views)",
-    "posts_last_30d": "measured (upload_date)",
-    "brand_fit": "measured (title+tags)",
-    "followers": "measured (yt-dlp channel_follower_count)"
+    "brand_fit_estimated": false,
+    "followers_estimated": false
   },
-  "sample_note": "2026-07-30T17:13:07+09:00 STEP A Queue 신규분석(평일17시 슬롯); sample=16 (30d=12), yt-dlp.",
-  "history": []
+  "sample_note": "YT 30일내 13개",
+  "history": [
+    {
+      "evaluated_at": "2026-07-30T17:13:07+09:00",
+      "score_total": 81.75,
+      "grade": "A",
+      "engagement_rate": 0.0354,
+      "followers": 19400,
+      "posts_last_30d": 12,
+      "brand_fit_score": 75,
+      "retailer_focus": "daiso"
+    }
+  ]
 }
