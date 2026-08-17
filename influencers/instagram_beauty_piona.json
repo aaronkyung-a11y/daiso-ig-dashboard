@@ -3,8 +3,8 @@
   "username": "beauty_piona",
   "fullname": "문혜경",
   "profile_url": "https://www.instagram.com/beauty_piona/",
-  "followers": 8707,
-  "engagement_rate": 0.2706,
+  "followers": 11000,
+  "engagement_rate": 0.2142,
   "avg_likes": 2190.3,
   "avg_comments": 165.8,
   "avg_views": 875852.3,
@@ -20,13 +20,13 @@
     "labrang_present": false
   },
   "evaluated_at": "2026-08-17T10:32:16+09:00",
-  "score_total": 90.5,
+  "score_total": 92.5,
   "grade": "S",
   "score_breakdown": {
     "er": 100,
     "brand_fit": 90,
     "consistency": 80,
-    "followers": 60,
+    "followers": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
   "estimation_flags": {
@@ -34,7 +34,7 @@
     "followers_estimated": true,
     "posts30_estimated": false
   },
-  "sample_note": "IG 로그인 샘플 12개, 30일내 9 (프로필 API 400 → 피드 폴백, 팔로워 직전값 승계)",
+  "sample_note": "IG 로그인 샘플 12개, 30일내 9 (프로필 API 400 → 피드 폴백; 팔로워는 og:description '11K' 반올림값 = 추정)",
   "history": [
     {
       "evaluated_at": "2026-08-12T10:57:07+09:00",
