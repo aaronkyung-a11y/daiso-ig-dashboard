@@ -4,28 +4,28 @@
   "fullname": "Dr.란의 스킨다이어리",
   "profile_url": "https://www.youtube.com/channel/UCIQB1KXcPIhskB7jy1SJdLw",
   "channel_id": "UCIQB1KXcPIhskB7jy1SJdLw",
-  "followers": 626,
-  "engagement_rate": 0.0388,
-  "avg_likes": 1.0,
-  "avg_comments": 0.2,
-  "avg_views": 25.8,
-  "posts_last_30d": 4,
+  "followers": 631,
+  "engagement_rate": 0.0118,
+  "avg_likes": 3.2,
+  "avg_comments": 0.9,
+  "avg_views": 273.7,
+  "posts_last_30d": 3,
   "_posts_last_30d_est": false,
-  "sample_size": 4,
-  "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
+  "sample_size": 18,
+  "brand_fit_score": 90,
+  "retailer_focus": "beauty_general",
   "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "0건",
+    "beauty_keywords": "42건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:16:24+09:00",
-  "score_total": 59.25,
-  "grade": "C",
+  "evaluated_at": "2026-08-17T10:12:28+09:00",
+  "score_total": 65.5,
+  "grade": "B",
   "score_breakdown": {
-    "er": 80,
-    "brand_fit": 25,
+    "er": 60,
+    "brand_fit": 90,
     "consistency": 60,
     "followers": 40,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 4개",
+  "sample_note": "YT 최근 18개(30일내 3개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:16:24+09:00",
+      "followers": 626,
+      "engagement_rate": 0.0388,
+      "avg_likes": 1.0,
+      "posts_last_30d": 4,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 59.25,
+      "grade": "C"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 599,
@@ -285,16 +296,6 @@
       "engagement_rate": 0.25,
       "score_total": 66.2,
       "grade": "B"
-    },
-    {
-      "evaluated_at": "2026-07-28T10:26:02+09:00",
-      "score_total": 64.25,
-      "grade": "C",
-      "engagement_rate": 0.0514,
-      "followers": 607,
-      "posts_last_30d": 4,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic"
     }
   ]
 }

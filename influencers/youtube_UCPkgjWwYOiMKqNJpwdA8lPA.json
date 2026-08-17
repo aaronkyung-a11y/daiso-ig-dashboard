@@ -4,11 +4,11 @@
   "fullname": "소살 Sora Salon",
   "profile_url": "https://www.youtube.com/channel/UCPkgjWwYOiMKqNJpwdA8lPA",
   "channel_id": "UCPkgjWwYOiMKqNJpwdA8lPA",
-  "followers": 137000,
-  "engagement_rate": 0.0184,
-  "avg_likes": 611.8,
-  "avg_comments": 191.7,
-  "avg_views": 33191.5,
+  "followers": 138000,
+  "engagement_rate": 0.0186,
+  "avg_likes": 634.7,
+  "avg_comments": 183.0,
+  "avg_views": 34032.2,
   "posts_last_30d": 6,
   "_posts_last_30d_est": false,
   "sample_size": 6,
@@ -17,10 +17,10 @@
   "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "30건",
+    "beauty_keywords": "26건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:17:11+09:00",
+  "evaluated_at": "2026-08-17T10:14:27+09:00",
   "score_total": 74.5,
   "grade": "B",
   "score_breakdown": {
@@ -36,6 +36,17 @@
   },
   "sample_note": "YT 30일내 6개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:17:11+09:00",
+      "followers": 137000,
+      "engagement_rate": 0.0184,
+      "avg_likes": 611.8,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 74.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 135000,
@@ -288,16 +299,6 @@
       "engagement_rate": 0.0165,
       "score_total": 74.5,
       "grade": "B"
-    },
-    {
-      "evaluated_at": "2026-07-28T10:26:50+09:00",
-      "score_total": 74.5,
-      "grade": "B",
-      "engagement_rate": 0.0201,
-      "followers": 135000,
-      "posts_last_30d": 7,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young"
     }
   ]
 }

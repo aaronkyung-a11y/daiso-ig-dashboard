@@ -5,26 +5,26 @@
   "profile_url": "https://www.youtube.com/channel/UCJC3eND1vV_MR_UJB7-E9LQ",
   "channel_id": "UCJC3eND1vV_MR_UJB7-E9LQ",
   "followers": 433000,
-  "engagement_rate": 0.0085,
-  "avg_likes": 493.7,
-  "avg_comments": 74.3,
-  "avg_views": 58190.7,
+  "engagement_rate": 0.0135,
+  "avg_likes": 980.3,
+  "avg_comments": 132.2,
+  "avg_views": 72478.4,
   "posts_last_30d": 3,
   "_posts_last_30d_est": false,
-  "sample_size": 3,
+  "sample_size": 18,
   "brand_fit_score": 100,
   "retailer_focus": "our_brand",
   "retailer_signal": {
-    "daiso_mentions": "3건",
-    "olive_young_mentions": "1건",
-    "beauty_keywords": "13건",
+    "daiso_mentions": "8건",
+    "olive_young_mentions": "12건",
+    "beauty_keywords": "212건",
     "labrang_present": true
   },
-  "evaluated_at": "2026-08-13T17:05:00+09:00",
-  "score_total": 64.0,
+  "evaluated_at": "2026-08-17T10:12:36+09:00",
+  "score_total": 74.0,
   "grade": "B",
   "score_breakdown": {
-    "er": 40,
+    "er": 60,
     "brand_fit": 100,
     "consistency": 60,
     "followers": 100,
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 3개",
+  "sample_note": "YT 최근 18개(30일내 3개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-13T17:05:00+09:00",
+      "followers": 433000,
+      "engagement_rate": 0.0085,
+      "avg_likes": 493.7,
+      "posts_last_30d": 3,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 64.0,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-08-12T10:12:10+09:00",
       "followers": 433000,
@@ -292,19 +303,6 @@
       "retailer_focus": "mixed",
       "score_total": 74.5,
       "grade": "B"
-    },
-    {
-      "evaluated_at": "2026-07-28T10:24:30+09:00",
-      "followers": 433000,
-      "engagement_rate": 0.012,
-      "avg_likes": 487.7,
-      "avg_views": 40602.3,
-      "sample_size": 3,
-      "brand_fit_score": 100,
-      "retailer_focus": "our_brand",
-      "grade": "B",
-      "score_total": 74,
-      "posts_last_30d": 3
     }
   ]
 }

@@ -3,13 +3,13 @@
   "username": "moon__brand",
   "fullname": "문브의 데일리야구 K-야구문화·덕질라이프",
   "profile_url": "https://www.instagram.com/moon__brand/",
-  "followers": 45254,
-  "engagement_rate": 0.031,
-  "avg_likes": 1363.3,
-  "avg_comments": 38.7,
-  "avg_views": 129232.9,
+  "followers": 45225,
+  "engagement_rate": 0.0299,
+  "avg_likes": 1317.6,
+  "avg_comments": 36.4,
+  "avg_views": 98921.4,
   "posts_last_30d": 9,
-  "_posts_last_30d_est": true,
+  "_posts_last_30d_est": false,
   "sample_size": 12,
   "brand_fit_score": 60,
   "retailer_focus": "beauty_general",
@@ -19,11 +19,11 @@
     "beauty_keywords": "1건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:57:07+09:00",
-  "score_total": 75.0,
-  "grade": "A",
+  "evaluated_at": "2026-08-17T10:32:16+09:00",
+  "score_total": 65.0,
+  "grade": "B",
   "score_breakdown": {
-    "er": 80,
+    "er": 60,
     "brand_fit": 60,
     "consistency": 80,
     "followers": 80,
@@ -32,10 +32,21 @@
   "estimation_flags": {
     "brand_fit_estimated": false,
     "followers_estimated": false,
-    "posts30_estimated": true
+    "posts30_estimated": false
   },
-  "sample_note": "IG 로그인 샘플 12개, 30일내 9+(창포화·하한)",
+  "sample_note": "IG 로그인 샘플 12개, 30일내 9",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:57:07+09:00",
+      "followers": 45254,
+      "engagement_rate": 0.031,
+      "avg_likes": 1363.3,
+      "posts_last_30d": 9,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "score_total": 75.0,
+      "grade": "A"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 45000,

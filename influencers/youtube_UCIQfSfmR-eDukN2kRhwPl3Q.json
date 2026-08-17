@@ -4,23 +4,23 @@
   "fullname": "키키하우스 KIKIHOUSE",
   "profile_url": "https://www.youtube.com/channel/UCIQfSfmR-eDukN2kRhwPl3Q",
   "channel_id": "UCIQfSfmR-eDukN2kRhwPl3Q",
-  "followers": 9480,
-  "engagement_rate": 0.0123,
-  "avg_likes": 161.0,
-  "avg_comments": 10.1,
-  "avg_views": 13075.8,
-  "posts_last_30d": 18,
+  "followers": 9600,
+  "engagement_rate": 0.0125,
+  "avg_likes": 159.7,
+  "avg_comments": 9.8,
+  "avg_views": 12815.9,
+  "posts_last_30d": 20,
   "_posts_last_30d_est": false,
-  "sample_size": 18,
+  "sample_size": 20,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
     "daiso_mentions": "2건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "12건",
+    "beauty_keywords": "14건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:25:58+09:00",
+  "evaluated_at": "2026-08-17T10:21:43+09:00",
   "score_total": 73.5,
   "grade": "B",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 18개",
+  "sample_note": "YT[/shorts] 30일내 20개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:25:58+09:00",
+      "followers": 9480,
+      "engagement_rate": 0.0123,
+      "avg_likes": 161.0,
+      "posts_last_30d": 18,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 73.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 8880,

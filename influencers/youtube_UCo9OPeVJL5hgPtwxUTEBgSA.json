@@ -4,11 +4,11 @@
   "fullname": "룡지니",
   "profile_url": "https://www.youtube.com/channel/UCo9OPeVJL5hgPtwxUTEBgSA",
   "channel_id": "UCo9OPeVJL5hgPtwxUTEBgSA",
-  "followers": 70900,
+  "followers": 71000,
   "engagement_rate": 0.0142,
-  "avg_likes": 140.5,
+  "avg_likes": 140.2,
   "avg_comments": 28.2,
-  "avg_views": 9863.0,
+  "avg_views": 9866.5,
   "posts_last_30d": 0,
   "_posts_last_30d_est": false,
   "sample_size": 4,
@@ -20,7 +20,7 @@
     "beauty_keywords": "32건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:12:34+09:00",
+  "evaluated_at": "2026-08-17T10:17:38+09:00",
   "score_total": 66.5,
   "grade": "B",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 0개 → 최근 4개 fallback",
+  "sample_note": "YT 최근 4개(30일내 0개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:12:34+09:00",
+      "followers": 70900,
+      "engagement_rate": 0.0142,
+      "avg_likes": 140.5,
+      "posts_last_30d": 0,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 66.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 70500,
@@ -292,16 +303,6 @@
       "grade": "B",
       "score_total": 66.5,
       "posts_last_30d": 0
-    },
-    {
-      "evaluated_at": "2026-08-06T14:09:29+09:00",
-      "score_total": 66.5,
-      "grade": "B",
-      "engagement_rate": 0.0143,
-      "followers": 70900,
-      "posts_last_30d": 0,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso"
     }
   ]
 }

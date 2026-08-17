@@ -4,25 +4,25 @@
   "fullname": "단이 DANI",
   "profile_url": "https://www.youtube.com/channel/UCxAdlKnB5u0a7A-iqRa5jYw",
   "channel_id": "UCxAdlKnB5u0a7A-iqRa5jYw",
-  "followers": 235000,
+  "followers": 236000,
   "engagement_rate": 0.0,
   "avg_likes": 0.0,
-  "avg_comments": 90.1,
-  "avg_views": 29637.1,
+  "avg_comments": 79.6,
+  "avg_views": 40396.1,
   "posts_last_30d": 7,
   "_posts_last_30d_est": false,
   "sample_size": 7,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "13건",
-    "olive_young_mentions": "2건",
-    "beauty_keywords": "27건",
+    "daiso_mentions": "11건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "30건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:20:35+09:00",
+  "evaluated_at": "2026-08-17T10:19:04+09:00",
   "score_total": 64.5,
-  "grade": "B",
+  "grade": "C",
   "score_breakdown": {
     "er": 40,
     "brand_fit": 90,
@@ -36,6 +36,17 @@
   },
   "sample_note": "YT 30일내 7개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:20:35+09:00",
+      "followers": 235000,
+      "engagement_rate": 0.0,
+      "avg_likes": 0.0,
+      "posts_last_30d": 7,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 64.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 235000,
@@ -289,16 +300,6 @@
       "grade": "C",
       "score_total": 64.5,
       "posts_last_30d": 5
-    },
-    {
-      "evaluated_at": "2026-07-28T10:28:21+09:00",
-      "score_total": 64.5,
-      "grade": "C",
-      "engagement_rate": 0.0,
-      "followers": 235000,
-      "posts_last_30d": 7,
-      "brand_fit_score": 90,
-      "retailer_focus": "mixed"
     }
   ]
 }

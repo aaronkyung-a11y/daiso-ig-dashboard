@@ -4,11 +4,11 @@
   "fullname": "하우머치코리아 (HOWMUCH KOREA)",
   "profile_url": "https://www.youtube.com/channel/UCdw0gUzVPhyZFRVeuzy_AEg",
   "channel_id": "UCdw0gUzVPhyZFRVeuzy_AEg",
-  "followers": 130000,
+  "followers": 132000,
   "engagement_rate": 0.0135,
-  "avg_likes": 868.5,
+  "avg_likes": 869.2,
   "avg_comments": 108.4,
-  "avg_views": 64104.0,
+  "avg_views": 64180.9,
   "posts_last_30d": 0,
   "_posts_last_30d_est": false,
   "sample_size": 18,
@@ -17,10 +17,10 @@
   "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "26건",
+    "beauty_keywords": "28건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:19:01+09:00",
+  "evaluated_at": "2026-08-17T10:17:21+09:00",
   "score_total": 68.5,
   "grade": "B",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 0개 → 최근 18개 fallback",
+  "sample_note": "YT 최근 18개(30일내 0개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:19:01+09:00",
+      "followers": 130000,
+      "engagement_rate": 0.0135,
+      "avg_likes": 868.5,
+      "posts_last_30d": 0,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 68.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 125000,
@@ -290,16 +301,6 @@
       "grade": "C",
       "score_total": 52.2,
       "posts_last_30d": 0
-    },
-    {
-      "evaluated_at": "2026-07-28T10:27:36+09:00",
-      "score_total": 64.75,
-      "grade": "C",
-      "engagement_rate": 0.0139,
-      "followers": 125000,
-      "posts_last_30d": 0,
-      "brand_fit_score": 75,
-      "retailer_focus": "beauty_general"
     }
   ]
 }

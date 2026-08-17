@@ -4,28 +4,28 @@
   "fullname": "시네 si-ne",
   "profile_url": "https://www.youtube.com/channel/UC0-yyrDjTJ1YFzmV12vEp0Q",
   "channel_id": "UC0-yyrDjTJ1YFzmV12vEp0Q",
-  "followers": 523000,
-  "engagement_rate": 0.0161,
-  "avg_likes": 396.0,
-  "avg_comments": 30.0,
-  "avg_views": 24648.5,
+  "followers": 526000,
+  "engagement_rate": 0.02,
+  "avg_likes": 962.4,
+  "avg_comments": 102.2,
+  "avg_views": 48025.6,
   "posts_last_30d": 2,
   "_posts_last_30d_est": false,
-  "sample_size": 2,
-  "brand_fit_score": 60,
-  "retailer_focus": "beauty_general",
+  "sample_size": 18,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "2건",
+    "daiso_mentions": "10건",
+    "olive_young_mentions": "3건",
+    "beauty_keywords": "72건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:14:41+09:00",
-  "score_total": 64.0,
+  "evaluated_at": "2026-08-17T10:11:06+09:00",
+  "score_total": 71.5,
   "grade": "B",
   "score_breakdown": {
     "er": 60,
-    "brand_fit": 60,
+    "brand_fit": 90,
     "consistency": 60,
     "followers": 100,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 2개",
+  "sample_note": "YT 최근 18개(30일내 2개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:14:41+09:00",
+      "followers": 523000,
+      "engagement_rate": 0.0161,
+      "avg_likes": 396.0,
+      "posts_last_30d": 2,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "score_total": 64.0,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 514000,
@@ -304,16 +315,6 @@
       "engagement_rate": 0.022,
       "score_total": 64.0,
       "grade": "C"
-    },
-    {
-      "evaluated_at": "2026-07-28T10:25:16+09:00",
-      "score_total": 79.0,
-      "grade": "A",
-      "engagement_rate": 0.0563,
-      "followers": 515000,
-      "posts_last_30d": 2,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general"
     }
   ]
 }

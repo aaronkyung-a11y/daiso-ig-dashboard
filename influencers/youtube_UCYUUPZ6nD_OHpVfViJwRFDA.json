@@ -4,11 +4,11 @@
   "fullname": "김퍼프PUFF",
   "profile_url": "https://www.youtube.com/channel/UCYUUPZ6nD_OHpVfViJwRFDA",
   "channel_id": "UCYUUPZ6nD_OHpVfViJwRFDA",
-  "followers": 52900,
+  "followers": 53300,
   "engagement_rate": 0.0137,
-  "avg_likes": 322.2,
+  "avg_likes": 324.1,
   "avg_comments": 48.5,
-  "avg_views": 23461.1,
+  "avg_views": 23613.7,
   "posts_last_30d": 0,
   "_posts_last_30d_est": false,
   "sample_size": 18,
@@ -17,10 +17,10 @@
   "retailer_signal": {
     "daiso_mentions": "15건",
     "olive_young_mentions": "20건",
-    "beauty_keywords": "211건",
+    "beauty_keywords": "214건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:18:28+09:00",
+  "evaluated_at": "2026-08-17T10:14:46+09:00",
   "score_total": 66.5,
   "grade": "B",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 0개 → 최근 18개 fallback",
+  "sample_note": "YT 최근 18개(30일내 0개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:18:28+09:00",
+      "followers": 52900,
+      "engagement_rate": 0.0137,
+      "avg_likes": 322.2,
+      "posts_last_30d": 0,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 66.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 52700,
@@ -293,16 +304,6 @@
       "grade": "B",
       "score_total": 69.5,
       "posts_last_30d": 3
-    },
-    {
-      "evaluated_at": "2026-07-28T10:26:50+09:00",
-      "score_total": 66.5,
-      "grade": "B",
-      "engagement_rate": 0.0206,
-      "followers": 52700,
-      "posts_last_30d": 0,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso"
     }
   ]
 }

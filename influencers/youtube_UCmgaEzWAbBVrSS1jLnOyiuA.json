@@ -4,14 +4,14 @@
   "fullname": "ASMR vlogs ",
   "profile_url": "https://www.youtube.com/channel/UCmgaEzWAbBVrSS1jLnOyiuA",
   "channel_id": "UCmgaEzWAbBVrSS1jLnOyiuA",
-  "followers": 813000,
-  "engagement_rate": 0.0164,
-  "avg_likes": 37.7,
-  "avg_comments": 1.0,
-  "avg_views": 2294.3,
+  "followers": 811000,
+  "engagement_rate": 0.0084,
+  "avg_likes": 96.2,
+  "avg_comments": 5.9,
+  "avg_views": 11482.5,
   "posts_last_30d": 3,
   "_posts_last_30d_est": false,
-  "sample_size": 3,
+  "sample_size": 18,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
@@ -20,11 +20,11 @@
     "beauty_keywords": "0건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:22:23+09:00",
-  "score_total": 55.25,
-  "grade": "C",
+  "evaluated_at": "2026-08-17T10:17:37+09:00",
+  "score_total": 45.25,
+  "grade": "D",
   "score_breakdown": {
-    "er": 60,
+    "er": 40,
     "brand_fit": 25,
     "consistency": 60,
     "followers": 100,
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 3개",
+  "sample_note": "YT 최근 18개(30일내 3개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:22:23+09:00",
+      "followers": 813000,
+      "engagement_rate": 0.0164,
+      "avg_likes": 37.7,
+      "posts_last_30d": 3,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 55.25,
+      "grade": "C"
+    },
     {
       "evaluated_at": "2026-07-30T17:13:07+09:00",
       "score_total": 61.5,

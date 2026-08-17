@@ -4,23 +4,23 @@
   "fullname": "코덕순",
   "profile_url": "https://www.youtube.com/channel/UCa6F7kUQnN8fmLBnSRSpY_g",
   "channel_id": "UCa6F7kUQnN8fmLBnSRSpY_g",
-  "followers": 4620,
-  "engagement_rate": 0.0221,
-  "avg_likes": 1026.6,
-  "avg_comments": 10.8,
-  "avg_views": 46484.9,
+  "followers": 4800,
+  "engagement_rate": 0.0218,
+  "avg_likes": 1275.5,
+  "avg_comments": 13.4,
+  "avg_views": 58553.3,
   "posts_last_30d": 10,
   "_posts_last_30d_est": false,
   "sample_size": 10,
   "brand_fit_score": 90,
   "retailer_focus": "mixed",
   "retailer_signal": {
-    "daiso_mentions": "52건",
-    "olive_young_mentions": "49건",
-    "beauty_keywords": "29건",
+    "daiso_mentions": "57건",
+    "olive_young_mentions": "65건",
+    "beauty_keywords": "48건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:28:42+09:00",
+  "evaluated_at": "2026-08-17T10:23:03+09:00",
   "score_total": 73.5,
   "grade": "B",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 10개",
+  "sample_note": "YT[/shorts] 30일내 10개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:28:42+09:00",
+      "followers": 4620,
+      "engagement_rate": 0.0221,
+      "avg_likes": 1026.6,
+      "posts_last_30d": 10,
+      "brand_fit_score": 90,
+      "retailer_focus": "mixed",
+      "score_total": 73.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-30T17:13:07+09:00",
       "score_total": 69.75,

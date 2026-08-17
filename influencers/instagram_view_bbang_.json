@@ -3,23 +3,23 @@
   "username": "view_bbang_",
   "fullname": "뷰빵",
   "profile_url": "https://www.instagram.com/view_bbang_/",
-  "followers": 615,
-  "engagement_rate": 0.0447,
-  "avg_likes": 19.2,
-  "avg_comments": 8.3,
-  "avg_views": 664.8,
-  "posts_last_30d": 6,
+  "followers": 622,
+  "engagement_rate": 0.0432,
+  "avg_likes": 18.8,
+  "avg_comments": 8.1,
+  "avg_views": 554.3,
+  "posts_last_30d": 7,
   "_posts_last_30d_est": false,
   "sample_size": 12,
   "brand_fit_score": 90,
   "retailer_focus": "olive_young",
   "retailer_signal": {
     "daiso_mentions": "8건",
-    "olive_young_mentions": "17건",
-    "beauty_keywords": "27건",
+    "olive_young_mentions": "16건",
+    "beauty_keywords": "28건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:57:07+09:00",
+  "evaluated_at": "2026-08-17T10:32:16+09:00",
   "score_total": 78.5,
   "grade": "A",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "followers_estimated": false,
     "posts30_estimated": false
   },
-  "sample_note": "IG 로그인 샘플 12개, 30일내 6",
+  "sample_note": "IG 로그인 샘플 12개, 30일내 7",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:57:07+09:00",
+      "followers": 615,
+      "engagement_rate": 0.0447,
+      "avg_likes": 19.2,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 78.5,
+      "grade": "A"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 605,

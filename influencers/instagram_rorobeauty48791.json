@@ -3,27 +3,27 @@
   "username": "rorobeauty48791",
   "fullname": "로로",
   "profile_url": "https://www.instagram.com/rorobeauty48791/",
-  "followers": 173750,
-  "engagement_rate": 0.0501,
-  "avg_likes": 8375.4,
-  "avg_comments": 337.2,
-  "avg_views": 330708.1,
-  "posts_last_30d": 7,
+  "followers": 173485,
+  "engagement_rate": 0.0428,
+  "avg_likes": 7056.2,
+  "avg_comments": 371.5,
+  "avg_views": 242849.5,
+  "posts_last_30d": 9,
   "_posts_last_30d_est": false,
   "sample_size": 12,
   "brand_fit_score": 100,
   "retailer_focus": "our_brand",
   "retailer_signal": {
     "daiso_mentions": "2건",
-    "olive_young_mentions": "1건",
-    "beauty_keywords": "24건",
+    "olive_young_mentions": "2건",
+    "beauty_keywords": "30건",
     "labrang_present": true
   },
-  "evaluated_at": "2026-08-12T10:57:07+09:00",
-  "score_total": 92.0,
+  "evaluated_at": "2026-08-17T10:32:16+09:00",
+  "score_total": 87.0,
   "grade": "S",
   "score_breakdown": {
-    "er": 90,
+    "er": 80,
     "brand_fit": 100,
     "consistency": 80,
     "followers": 100,
@@ -34,8 +34,19 @@
     "followers_estimated": false,
     "posts30_estimated": false
   },
-  "sample_note": "IG 로그인 샘플 12개, 30일내 7",
+  "sample_note": "IG 로그인 샘플 12개, 30일내 9",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:57:07+09:00",
+      "followers": 173750,
+      "engagement_rate": 0.0501,
+      "avg_likes": 8375.4,
+      "posts_last_30d": 7,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 92.0,
+      "grade": "S"
+    },
     {
       "evaluated_at": "2026-07-22T14:11:14+09:00",
       "followers": 173817,
@@ -386,16 +397,6 @@
       "grade": "A",
       "score_total": 84.5,
       "posts_last_30d": 9
-    },
-    {
-      "evaluated_at": "2026-07-28T10:36:09+09:00",
-      "score_total": 76.0,
-      "grade": "A",
-      "engagement_rate": 0.058,
-      "followers": 173987,
-      "posts_last_30d": 1,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general"
     }
   ]
 }

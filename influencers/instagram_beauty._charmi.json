@@ -3,25 +3,25 @@
   "username": "beauty._charmi",
   "fullname": "챠미뷰티 l 홈케어·색조템·뷰티꿀팁",
   "profile_url": "https://www.instagram.com/beauty._charmi/",
-  "followers": 63076,
-  "engagement_rate": 0.0096,
-  "avg_likes": 587.1,
-  "avg_comments": 15.5,
-  "avg_views": 97843.3,
+  "followers": 63134,
+  "engagement_rate": 0.01,
+  "avg_likes": 612.7,
+  "avg_comments": 16.3,
+  "avg_views": 87066.0,
   "posts_last_30d": 9,
-  "_posts_last_30d_est": true,
+  "_posts_last_30d_est": false,
   "sample_size": 12,
   "brand_fit_score": 90,
   "retailer_focus": "olive_young",
   "retailer_signal": {
     "daiso_mentions": "6건",
     "olive_young_mentions": "12건",
-    "beauty_keywords": "90건",
+    "beauty_keywords": "87건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:57:07+09:00",
+  "evaluated_at": "2026-08-17T10:32:16+09:00",
   "score_total": 62.5,
-  "grade": "B",
+  "grade": "C",
   "score_breakdown": {
     "er": 40,
     "brand_fit": 90,
@@ -32,10 +32,21 @@
   "estimation_flags": {
     "brand_fit_estimated": false,
     "followers_estimated": false,
-    "posts30_estimated": true
+    "posts30_estimated": false
   },
-  "sample_note": "IG 로그인 샘플 12개, 30일내 9+(창포화·하한)",
+  "sample_note": "IG 로그인 샘플 12개, 30일내 9",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:57:07+09:00",
+      "followers": 63076,
+      "engagement_rate": 0.0096,
+      "avg_likes": 587.1,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 62.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 61348,

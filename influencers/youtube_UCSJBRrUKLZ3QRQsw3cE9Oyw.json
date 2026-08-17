@@ -1,17 +1,17 @@
 {
   "platform": "youtube",
   "username": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
-  "fullname": "centralgrocery 중앙식품점",
+  "fullname": "centralgrocery",
   "profile_url": "https://www.youtube.com/channel/UCSJBRrUKLZ3QRQsw3cE9Oyw",
   "channel_id": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
-  "followers": 16500,
-  "engagement_rate": 0.0161,
-  "avg_likes": 309.6,
-  "avg_comments": 34.7,
-  "avg_views": 19275.2,
-  "posts_last_30d": 18,
+  "followers": 17900,
+  "engagement_rate": 0.0151,
+  "avg_likes": 319.6,
+  "avg_comments": 35.4,
+  "avg_views": 21196.2,
+  "posts_last_30d": 20,
   "_posts_last_30d_est": false,
-  "sample_size": 18,
+  "sample_size": 20,
   "brand_fit_score": 60,
   "retailer_focus": "beauty_general",
   "retailer_signal": {
@@ -20,7 +20,7 @@
     "beauty_keywords": "1건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:23:07+09:00",
+  "evaluated_at": "2026-08-17T10:14:29+09:00",
   "score_total": 68.0,
   "grade": "B",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 18개",
+  "sample_note": "YT 30일내 20개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:23:07+09:00",
+      "followers": 16500,
+      "engagement_rate": 0.0161,
+      "avg_likes": 309.6,
+      "posts_last_30d": 18,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "score_total": 68.0,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-08-10T17:09:23+09:00",
       "score_total": 59.25,

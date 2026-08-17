@@ -1,32 +1,32 @@
 {
   "platform": "youtube",
-  "username": "Jinyaa",
+  "username": "UCRiIf6rt91BVfZVtURRXlOw",
   "fullname": "지냐 Jinyaa",
-  "profile_url": "https://www.youtube.com/@Jinyaa",
-  "channel_id": "Jinyaa",
+  "profile_url": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
+  "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
   "followers": 362000,
-  "engagement_rate": 0.0314,
-  "avg_likes": 1583.8,
-  "avg_comments": 343.5,
-  "avg_views": 50505.5,
-  "posts_last_30d": 4,
+  "engagement_rate": 0.0294,
+  "avg_likes": 1637.6,
+  "avg_comments": 409.6,
+  "avg_views": 55645.6,
+  "posts_last_30d": 5,
   "_posts_last_30d_est": false,
-  "sample_size": 4,
+  "sample_size": 5,
   "brand_fit_score": 90,
   "retailer_focus": "olive_young",
   "retailer_signal": {
     "daiso_mentions": "0건",
-    "olive_young_mentions": "6건",
-    "beauty_keywords": "193건",
+    "olive_young_mentions": "9건",
+    "beauty_keywords": "287건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:24:53+09:00",
-  "score_total": 81.5,
-  "grade": "A",
+  "evaluated_at": "2026-08-17T10:11:06+09:00",
+  "score_total": 74.5,
+  "grade": "B",
   "score_breakdown": {
-    "er": 80,
+    "er": 60,
     "brand_fit": 90,
-    "consistency": 60,
+    "consistency": 80,
     "followers": 100,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 4개",
+  "sample_note": "YT 30일내 5개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:24:53+09:00",
+      "followers": 362000,
+      "engagement_rate": 0.0314,
+      "avg_likes": 1583.8,
+      "posts_last_30d": 4,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 81.5,
+      "grade": "A"
+    },
     {
       "evaluated_at": "2026-07-22T10:33:54+09:00",
       "followers": 362000,
@@ -469,16 +480,6 @@
       "posts_last_30d": 5,
       "retailer_focus": "olive_young",
       "score_total": 74.5
-    },
-    {
-      "evaluated_at": "2026-08-03T13:51:15+09:00",
-      "score_total": 77.0,
-      "grade": "A",
-      "engagement_rate": 0.023,
-      "followers": 362000,
-      "posts_last_30d": 5,
-      "brand_fit_score": 100,
-      "retailer_focus": "our_brand"
     }
   ]
 }

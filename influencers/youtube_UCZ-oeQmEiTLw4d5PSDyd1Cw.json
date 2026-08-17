@@ -5,27 +5,27 @@
   "profile_url": "https://www.youtube.com/channel/UCZ-oeQmEiTLw4d5PSDyd1Cw",
   "channel_id": "UCZ-oeQmEiTLw4d5PSDyd1Cw",
   "followers": 16900,
-  "engagement_rate": 0.0072,
-  "avg_likes": 57.2,
-  "avg_comments": 1.2,
-  "avg_views": 7972.0,
+  "engagement_rate": 0.0067,
+  "avg_likes": 67.2,
+  "avg_comments": 3.0,
+  "avg_views": 10085.2,
   "posts_last_30d": 4,
   "_posts_last_30d_est": false,
   "sample_size": 4,
-  "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
   "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "0건",
+    "beauty_keywords": "1건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:27:20+09:00",
-  "score_total": 43.25,
+  "evaluated_at": "2026-08-17T10:25:27+09:00",
+  "score_total": 52.0,
   "grade": "D",
   "score_breakdown": {
     "er": 40,
-    "brand_fit": 25,
+    "brand_fit": 60,
     "consistency": 60,
     "followers": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 4개",
+  "sample_note": "YT[/shorts] 30일내 4개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:27:20+09:00",
+      "followers": 16900,
+      "engagement_rate": 0.0072,
+      "avg_likes": 57.2,
+      "posts_last_30d": 4,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 43.25,
+      "grade": "D"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 17000,

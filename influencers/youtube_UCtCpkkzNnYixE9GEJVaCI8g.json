@@ -4,23 +4,23 @@
   "fullname": "JUNGSAEMMOOL",
   "profile_url": "https://www.youtube.com/channel/UCtCpkkzNnYixE9GEJVaCI8g",
   "channel_id": "UCtCpkkzNnYixE9GEJVaCI8g",
-  "followers": 686000,
-  "engagement_rate": 0.025,
-  "avg_likes": 980.8,
-  "avg_comments": 70.5,
-  "avg_views": 39171.0,
-  "posts_last_30d": 6,
+  "followers": 687000,
+  "engagement_rate": 0.0238,
+  "avg_likes": 1241.4,
+  "avg_comments": 72.0,
+  "avg_views": 52162.2,
+  "posts_last_30d": 5,
   "_posts_last_30d_est": false,
-  "sample_size": 6,
+  "sample_size": 5,
   "brand_fit_score": 90,
   "retailer_focus": "beauty_general",
   "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "151건",
+    "beauty_keywords": "125건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:20:30+09:00",
+  "evaluated_at": "2026-08-17T10:18:57+09:00",
   "score_total": 74.5,
   "grade": "B",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 6개",
+  "sample_note": "YT 30일내 5개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:20:30+09:00",
+      "followers": 686000,
+      "engagement_rate": 0.025,
+      "avg_likes": 980.8,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 74.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 685000,

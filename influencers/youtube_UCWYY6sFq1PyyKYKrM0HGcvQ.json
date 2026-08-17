@@ -5,10 +5,10 @@
   "profile_url": "https://www.youtube.com/channel/UCWYY6sFq1PyyKYKrM0HGcvQ",
   "channel_id": "UCWYY6sFq1PyyKYKrM0HGcvQ",
   "followers": 2100,
-  "engagement_rate": 0.012,
+  "engagement_rate": 0.0119,
   "avg_likes": 1.0,
   "avg_comments": 8.0,
-  "avg_views": 83.0,
+  "avg_views": 84.0,
   "posts_last_30d": 0,
   "_posts_last_30d_est": false,
   "sample_size": 1,
@@ -20,7 +20,7 @@
     "beauty_keywords": "0건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:16:42+09:00",
+  "evaluated_at": "2026-08-17T10:14:38+09:00",
   "score_total": 48.25,
   "grade": "D",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 0개 → 최근 1개 fallback",
+  "sample_note": "YT 최근 1개(30일내 0개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:16:42+09:00",
+      "followers": 2100,
+      "engagement_rate": 0.012,
+      "avg_likes": 1.0,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 48.25,
+      "grade": "D"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 2100,
@@ -287,16 +298,6 @@
       "grade": "D",
       "score_total": 48.2,
       "posts_last_30d": 0
-    },
-    {
-      "evaluated_at": "2026-07-28T10:26:02+09:00",
-      "score_total": 48.25,
-      "grade": "D",
-      "engagement_rate": 0.0128,
-      "followers": 2100,
-      "posts_last_30d": 0,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic"
     }
   ]
 }

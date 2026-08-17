@@ -4,28 +4,28 @@
   "fullname": "별블리아 byulvelya",
   "profile_url": "https://www.youtube.com/channel/UCSzTXeUBWhwgOSOuhfeC3xg",
   "channel_id": "UCSzTXeUBWhwgOSOuhfeC3xg",
-  "followers": 1960,
+  "followers": 1980,
   "engagement_rate": 0.0,
   "avg_likes": 0.0,
-  "avg_comments": 5.5,
-  "avg_views": 1033.5,
-  "posts_last_30d": 2,
+  "avg_comments": 5.9,
+  "avg_views": 2551.4,
+  "posts_last_30d": 3,
   "_posts_last_30d_est": false,
-  "sample_size": 2,
-  "brand_fit_score": 90,
-  "retailer_focus": "olive_young",
+  "sample_size": 18,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "8건",
-    "beauty_keywords": "31건",
-    "labrang_present": false
+    "daiso_mentions": "25건",
+    "olive_young_mentions": "80건",
+    "beauty_keywords": "243건",
+    "labrang_present": true
   },
-  "evaluated_at": "2026-08-12T10:17:17+09:00",
-  "score_total": 57.5,
+  "evaluated_at": "2026-08-17T10:14:29+09:00",
+  "score_total": 60.0,
   "grade": "C",
   "score_breakdown": {
     "er": 40,
-    "brand_fit": 90,
+    "brand_fit": 100,
     "consistency": 60,
     "followers": 60,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 2개",
+  "sample_note": "YT 최근 18개(30일내 3개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:17:17+09:00",
+      "followers": 1960,
+      "engagement_rate": 0.0,
+      "avg_likes": 0.0,
+      "posts_last_30d": 2,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 57.5,
+      "grade": "C"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 1940,

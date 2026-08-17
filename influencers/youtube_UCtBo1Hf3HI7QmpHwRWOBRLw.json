@@ -5,13 +5,13 @@
   "profile_url": "https://www.youtube.com/channel/UCtBo1Hf3HI7QmpHwRWOBRLw",
   "channel_id": "UCtBo1Hf3HI7QmpHwRWOBRLw",
   "followers": 1360,
-  "engagement_rate": 0.0345,
-  "avg_likes": 14.9,
-  "avg_comments": 1.3,
-  "avg_views": 430.5,
-  "posts_last_30d": 15,
+  "engagement_rate": 0.034,
+  "avg_likes": 4.8,
+  "avg_comments": 0.8,
+  "avg_views": 139.8,
+  "posts_last_30d": 12,
   "_posts_last_30d_est": false,
-  "sample_size": 15,
+  "sample_size": 12,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
@@ -20,7 +20,7 @@
     "beauty_keywords": "0건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:23:01+09:00",
+  "evaluated_at": "2026-08-17T10:18:57+09:00",
   "score_total": 67.25,
   "grade": "B",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 15개",
+  "sample_note": "YT 30일내 12개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:23:01+09:00",
+      "followers": 1360,
+      "engagement_rate": 0.0345,
+      "avg_likes": 14.9,
+      "posts_last_30d": 15,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 67.25,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-31T14:26:56.544651+09:00",
       "score_total": 54.25,

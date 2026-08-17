@@ -4,11 +4,11 @@
   "fullname": "최종시안",
   "profile_url": "https://www.youtube.com/channel/UC_1ETgrcrLjHOP0YJmkWLVQ",
   "channel_id": "UC_1ETgrcrLjHOP0YJmkWLVQ",
-  "followers": 365000,
-  "engagement_rate": 0.0123,
-  "avg_likes": 1618.8,
-  "avg_comments": 192.0,
-  "avg_views": 131105.7,
+  "followers": 366000,
+  "engagement_rate": 0.0121,
+  "avg_likes": 1515.3,
+  "avg_comments": 192.7,
+  "avg_views": 124876.8,
   "posts_last_30d": 6,
   "_posts_last_30d_est": false,
   "sample_size": 6,
@@ -17,10 +17,10 @@
   "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "5건",
-    "beauty_keywords": "41건",
+    "beauty_keywords": "39건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:22:42+09:00",
+  "evaluated_at": "2026-08-17T10:15:24+09:00",
   "score_total": 74.5,
   "grade": "B",
   "score_breakdown": {
@@ -36,6 +36,17 @@
   },
   "sample_note": "YT 30일내 6개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:22:42+09:00",
+      "followers": 365000,
+      "engagement_rate": 0.0123,
+      "avg_likes": 1618.8,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 74.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-31T14:25:07.711170+09:00",
       "score_total": 77.5,

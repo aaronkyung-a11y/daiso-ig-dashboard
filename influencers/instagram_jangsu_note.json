@@ -3,11 +3,11 @@
   "username": "jangsu_note",
   "fullname": "장수노트",
   "profile_url": "https://www.instagram.com/jangsu_note/",
-  "followers": 18119,
-  "engagement_rate": 0.1403,
-  "avg_likes": 2490.3,
-  "avg_comments": 51.6,
-  "avg_views": 245714.1,
+  "followers": 18163,
+  "engagement_rate": 0.1426,
+  "avg_likes": 2536.0,
+  "avg_comments": 53.7,
+  "avg_views": 253261.6,
   "posts_last_30d": 1,
   "_posts_last_30d_est": false,
   "sample_size": 12,
@@ -19,7 +19,7 @@
     "beauty_keywords": "11건",
     "labrang_present": true
   },
-  "evaluated_at": "2026-08-12T10:57:07+09:00",
+  "evaluated_at": "2026-08-17T10:32:16+09:00",
   "score_total": 89.0,
   "grade": "S",
   "score_breakdown": {
@@ -36,6 +36,17 @@
   },
   "sample_note": "IG 로그인 샘플 12개, 30일내 1",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:57:07+09:00",
+      "followers": 18119,
+      "engagement_rate": 0.1403,
+      "avg_likes": 2490.3,
+      "posts_last_30d": 1,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 89.0,
+      "grade": "S"
+    },
     {
       "evaluated_at": "2026-07-20T17:23:58.539189+09:00",
       "followers": 17404,
@@ -297,16 +308,6 @@
       "score_total": 95.0,
       "grade": "S",
       "note": "B-Light logout partial: followers refresh only"
-    },
-    {
-      "evaluated_at": "2026-07-28T10:36:09+09:00",
-      "score_total": 89.0,
-      "grade": "S",
-      "engagement_rate": 0.1414,
-      "followers": 17973,
-      "posts_last_30d": 0,
-      "brand_fit_score": 100,
-      "retailer_focus": "our_brand"
     }
   ]
 }

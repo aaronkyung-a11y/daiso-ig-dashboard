@@ -3,11 +3,11 @@
   "username": "ellie._.cos",
   "fullname": "ellie エリ",
   "profile_url": "https://www.instagram.com/ellie._.cos/",
-  "followers": 2374,
-  "engagement_rate": 0.7574,
-  "avg_likes": 1783.8,
-  "avg_comments": 14.3,
-  "avg_views": 216068.3,
+  "followers": 2384,
+  "engagement_rate": 0.7526,
+  "avg_likes": 1784.0,
+  "avg_comments": 10.1,
+  "avg_views": 54151.7,
   "posts_last_30d": 5,
   "_posts_last_30d_est": false,
   "sample_size": 12,
@@ -16,10 +16,10 @@
   "retailer_signal": {
     "daiso_mentions": "3건",
     "olive_young_mentions": "2건",
-    "beauty_keywords": "32건",
+    "beauty_keywords": "31건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:57:07+09:00",
+  "evaluated_at": "2026-08-17T10:32:16+09:00",
   "score_total": 90.5,
   "grade": "S",
   "score_breakdown": {
@@ -36,6 +36,17 @@
   },
   "sample_note": "IG 로그인 샘플 12개, 30일내 5",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:57:07+09:00",
+      "followers": 2374,
+      "engagement_rate": 0.7574,
+      "avg_likes": 1783.8,
+      "posts_last_30d": 5,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 90.5,
+      "grade": "S"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 2339,

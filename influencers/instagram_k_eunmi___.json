@@ -3,11 +3,11 @@
   "username": "k_eunmi___",
   "fullname": "은미✨",
   "profile_url": "https://www.instagram.com/k_eunmi___/",
-  "followers": 1597,
-  "engagement_rate": 0.0476,
-  "avg_likes": 73.2,
+  "followers": 1596,
+  "engagement_rate": 0.0477,
+  "avg_likes": 73.3,
   "avg_comments": 2.8,
-  "avg_views": 0,
+  "avg_views": 0.0,
   "posts_last_30d": 2,
   "_posts_last_30d_est": false,
   "sample_size": 12,
@@ -19,7 +19,7 @@
     "beauty_keywords": "0건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:57:07+09:00",
+  "evaluated_at": "2026-08-17T10:32:16+09:00",
   "score_total": 61.25,
   "grade": "C",
   "score_breakdown": {
@@ -36,6 +36,17 @@
   },
   "sample_note": "IG 로그인 샘플 12개, 30일내 2",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:57:07+09:00",
+      "followers": 1597,
+      "engagement_rate": 0.0476,
+      "avg_likes": 73.2,
+      "posts_last_30d": 2,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 61.25,
+      "grade": "C"
+    },
     {
       "evaluated_at": "2026-07-20T14:05:00+09:00",
       "followers": 1610,
@@ -302,16 +313,6 @@
       "grade": "C",
       "score_total": 64.3,
       "posts_last_30d": 9
-    },
-    {
-      "evaluated_at": "2026-07-28T10:36:09+09:00",
-      "score_total": 61.25,
-      "grade": "C",
-      "engagement_rate": 0.0473,
-      "followers": 1599,
-      "posts_last_30d": 4,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic"
     }
   ]
 }

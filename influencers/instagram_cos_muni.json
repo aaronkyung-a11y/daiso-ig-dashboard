@@ -3,12 +3,12 @@
   "username": "cos_muni",
   "fullname": "무니",
   "profile_url": "https://www.instagram.com/cos_muni/",
-  "followers": 1736,
-  "engagement_rate": 0.2821,
-  "avg_likes": 481.5,
+  "followers": 1732,
+  "engagement_rate": 0.2852,
+  "avg_likes": 485.7,
   "avg_comments": 8.3,
-  "avg_views": 29893.6,
-  "posts_last_30d": 8,
+  "avg_views": 28898.5,
+  "posts_last_30d": 7,
   "_posts_last_30d_est": false,
   "sample_size": 12,
   "brand_fit_score": 90,
@@ -19,7 +19,7 @@
     "beauty_keywords": "14건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:57:07+09:00",
+  "evaluated_at": "2026-08-17T10:32:16+09:00",
   "score_total": 90.5,
   "grade": "S",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "followers_estimated": false,
     "posts30_estimated": false
   },
-  "sample_note": "IG 로그인 샘플 12개, 30일내 8",
+  "sample_note": "IG 로그인 샘플 12개, 30일내 7",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:57:07+09:00",
+      "followers": 1736,
+      "engagement_rate": 0.2821,
+      "avg_likes": 481.5,
+      "posts_last_30d": 8,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 90.5,
+      "grade": "S"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 1715,

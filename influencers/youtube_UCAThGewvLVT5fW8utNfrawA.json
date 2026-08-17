@@ -4,14 +4,14 @@
   "fullname": "ARADHYA FACT",
   "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
   "channel_id": "UCAThGewvLVT5fW8utNfrawA",
-  "followers": 787000,
-  "engagement_rate": 0.0037,
-  "avg_likes": 858.8,
-  "avg_comments": 1.7,
-  "avg_views": 229243.3,
-  "posts_last_30d": 18,
+  "followers": 790000,
+  "engagement_rate": 0.0,
+  "avg_likes": 0.0,
+  "avg_comments": 0.4,
+  "avg_views": 302419.2,
+  "posts_last_30d": 20,
   "_posts_last_30d_est": false,
-  "sample_size": 18,
+  "sample_size": 20,
   "brand_fit_score": 25,
   "retailer_focus": "off_topic",
   "retailer_signal": {
@@ -20,9 +20,9 @@
     "beauty_keywords": "0건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:25:29+09:00",
+  "evaluated_at": "2026-08-17T10:21:43+09:00",
   "score_total": 51.25,
-  "grade": "C",
+  "grade": "D",
   "score_breakdown": {
     "er": 40,
     "brand_fit": 25,
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 18개",
+  "sample_note": "YT[/shorts] 30일내 20개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:25:29+09:00",
+      "followers": 787000,
+      "engagement_rate": 0.0037,
+      "avg_likes": 858.8,
+      "posts_last_30d": 18,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 51.25,
+      "grade": "C"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 775000,
@@ -289,16 +300,6 @@
       "retailer_focus": "off_topic",
       "score_total": 81.25,
       "grade": "A"
-    },
-    {
-      "evaluated_at": "2026-07-28T10:33:17+09:00",
-      "score_total": 48.25,
-      "grade": "D",
-      "engagement_rate": 0.005,
-      "followers": 783000,
-      "posts_last_30d": 8,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic"
     }
   ]
 }

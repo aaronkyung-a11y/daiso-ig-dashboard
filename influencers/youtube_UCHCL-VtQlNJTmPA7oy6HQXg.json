@@ -4,23 +4,23 @@
   "fullname": "선스캣 sun's cat",
   "profile_url": "https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg",
   "channel_id": "UCHCL-VtQlNJTmPA7oy6HQXg",
-  "followers": 2480,
-  "engagement_rate": 0.0267,
-  "avg_likes": 254.2,
-  "avg_comments": 4.5,
-  "avg_views": 9538.3,
-  "posts_last_30d": 13,
+  "followers": 2510,
+  "engagement_rate": 0.0266,
+  "avg_likes": 238.5,
+  "avg_comments": 4.2,
+  "avg_views": 8970.8,
+  "posts_last_30d": 16,
   "_posts_last_30d_est": false,
-  "sample_size": 13,
+  "sample_size": 16,
   "brand_fit_score": 90,
-  "retailer_focus": "daiso",
+  "retailer_focus": "mixed",
   "retailer_signal": {
     "daiso_mentions": "14건",
-    "olive_young_mentions": "10건",
-    "beauty_keywords": "87건",
+    "olive_young_mentions": "15건",
+    "beauty_keywords": "103건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:25:59+09:00",
+  "evaluated_at": "2026-08-17T10:21:43+09:00",
   "score_total": 73.5,
   "grade": "B",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 13개",
+  "sample_note": "YT[/shorts] 30일내 16개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:25:59+09:00",
+      "followers": 2480,
+      "engagement_rate": 0.0267,
+      "avg_likes": 254.2,
+      "posts_last_30d": 13,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 73.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 2370,
@@ -293,16 +304,6 @@
       "grade": "B",
       "score_total": 73.0,
       "posts_last_30d": 5
-    },
-    {
-      "evaluated_at": "2026-07-28T10:33:17+09:00",
-      "score_total": 70.5,
-      "grade": "B",
-      "engagement_rate": 0.0264,
-      "followers": 2370,
-      "posts_last_30d": 8,
-      "brand_fit_score": 90,
-      "retailer_focus": "mixed"
     }
   ]
 }

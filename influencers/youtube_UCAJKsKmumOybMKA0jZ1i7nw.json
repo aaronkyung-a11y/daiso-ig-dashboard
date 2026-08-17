@@ -4,23 +4,23 @@
   "fullname": "거지코덕",
   "profile_url": "https://www.youtube.com/channel/UCAJKsKmumOybMKA0jZ1i7nw",
   "channel_id": "UCAJKsKmumOybMKA0jZ1i7nw",
-  "followers": 20300,
-  "engagement_rate": 0.0327,
-  "avg_likes": 2375.6,
-  "avg_comments": 44.4,
-  "avg_views": 72634.0,
+  "followers": 20800,
+  "engagement_rate": 0.0337,
+  "avg_likes": 2215.7,
+  "avg_comments": 37.3,
+  "avg_views": 65785.2,
   "posts_last_30d": 13,
   "_posts_last_30d_est": false,
   "sample_size": 13,
   "brand_fit_score": 100,
   "retailer_focus": "our_brand",
   "retailer_signal": {
-    "daiso_mentions": "7건",
+    "daiso_mentions": "8건",
     "olive_young_mentions": "8건",
-    "beauty_keywords": "21건",
+    "beauty_keywords": "20건",
     "labrang_present": true
   },
-  "evaluated_at": "2026-08-12T10:28:45+09:00",
+  "evaluated_at": "2026-08-17T10:21:43+09:00",
   "score_total": 88.0,
   "grade": "S",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 13개",
+  "sample_note": "YT[/shorts] 30일내 13개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:28:45+09:00",
+      "followers": 20300,
+      "engagement_rate": 0.0327,
+      "avg_likes": 2375.6,
+      "posts_last_30d": 13,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 88.0,
+      "grade": "S"
+    },
     {
       "evaluated_at": "2026-07-30T17:13:07+09:00",
       "score_total": 81.75,

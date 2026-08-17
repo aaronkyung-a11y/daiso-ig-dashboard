@@ -5,22 +5,22 @@
   "profile_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
   "channel_id": "UCrlUlicedicJ5mlibqC62Eg",
   "followers": 568000,
-  "engagement_rate": 0.0179,
-  "avg_likes": 533.6,
-  "avg_comments": 78.8,
-  "avg_views": 29798.2,
-  "posts_last_30d": 12,
+  "engagement_rate": 0.0175,
+  "avg_likes": 507.6,
+  "avg_comments": 76.2,
+  "avg_views": 29069.5,
+  "posts_last_30d": 10,
   "_posts_last_30d_est": false,
-  "sample_size": 12,
+  "sample_size": 10,
   "brand_fit_score": 90,
-  "retailer_focus": "olive_young",
+  "retailer_focus": "mixed",
   "retailer_signal": {
-    "daiso_mentions": "27건",
-    "olive_young_mentions": "33건",
-    "beauty_keywords": "27건",
+    "daiso_mentions": "25건",
+    "olive_young_mentions": "27건",
+    "beauty_keywords": "43건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:12:18+09:00",
+  "evaluated_at": "2026-08-17T10:18:47+09:00",
   "score_total": 77.5,
   "grade": "A",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 12개",
+  "sample_note": "YT 30일내 10개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:12:18+09:00",
+      "followers": 568000,
+      "engagement_rate": 0.0179,
+      "avg_likes": 533.6,
+      "posts_last_30d": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 77.5,
+      "grade": "A"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 569000,
@@ -296,16 +307,6 @@
       "posts_last_30d": 15,
       "retailer_focus": "daiso",
       "score_total": 67.5
-    },
-    {
-      "evaluated_at": "2026-08-10T17:13:32+09:00",
-      "score_total": 77.5,
-      "grade": "A",
-      "engagement_rate": 0.018,
-      "followers": 568000,
-      "posts_last_30d": 12,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso"
     }
   ]
 }

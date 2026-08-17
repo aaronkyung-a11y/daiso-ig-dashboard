@@ -5,27 +5,27 @@
   "profile_url": "https://www.youtube.com/channel/UCy4L-mlTgH-v8vBbtzCGhIA",
   "channel_id": "UCy4L-mlTgH-v8vBbtzCGhIA",
   "followers": 89600,
-  "engagement_rate": 0.0162,
-  "avg_likes": 5.0,
-  "avg_comments": 0.0,
-  "avg_views": 309.0,
+  "engagement_rate": 0.0035,
+  "avg_likes": 12.9,
+  "avg_comments": 0.4,
+  "avg_views": 3723.8,
   "posts_last_30d": 1,
   "_posts_last_30d_est": false,
-  "sample_size": 1,
-  "brand_fit_score": 25,
-  "retailer_focus": "off_topic",
+  "sample_size": 18,
+  "brand_fit_score": 60,
+  "retailer_focus": "beauty_general",
   "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "0건",
+    "beauty_keywords": "2건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:20:35+09:00",
-  "score_total": 50.25,
-  "grade": "C",
+  "evaluated_at": "2026-08-17T10:19:05+09:00",
+  "score_total": 49.0,
+  "grade": "D",
   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 25,
+    "er": 40,
+    "brand_fit": 60,
     "consistency": 40,
     "followers": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 1개",
+  "sample_note": "YT 최근 18개(30일내 1개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:20:35+09:00",
+      "followers": 89600,
+      "engagement_rate": 0.0162,
+      "avg_likes": 5.0,
+      "posts_last_30d": 1,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 50.25,
+      "grade": "C"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 89700,
@@ -288,16 +299,6 @@
       "grade": "D",
       "score_total": 40.2,
       "posts_last_30d": 1
-    },
-    {
-      "evaluated_at": "2026-07-28T10:28:21+09:00",
-      "score_total": 56.25,
-      "grade": "C",
-      "engagement_rate": 0.0246,
-      "followers": 89700,
-      "posts_last_30d": 6,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic"
     }
   ]
 }

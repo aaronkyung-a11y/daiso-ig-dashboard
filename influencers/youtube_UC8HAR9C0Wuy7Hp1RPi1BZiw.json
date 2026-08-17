@@ -4,23 +4,23 @@
   "fullname": "키키 ",
   "profile_url": "https://www.youtube.com/channel/UC8HAR9C0Wuy7Hp1RPi1BZiw",
   "channel_id": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
-  "followers": 1500,
-  "engagement_rate": 0.012,
-  "avg_likes": 1941.7,
-  "avg_comments": 21.5,
-  "avg_views": 162335.3,
-  "posts_last_30d": 6,
+  "followers": 1670,
+  "engagement_rate": 0.0108,
+  "avg_likes": 1612.9,
+  "avg_comments": 17.2,
+  "avg_views": 149934.2,
+  "posts_last_30d": 9,
   "_posts_last_30d_est": false,
-  "sample_size": 6,
+  "sample_size": 9,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
     "daiso_mentions": "4건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "15건",
+    "beauty_keywords": "21건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:25:27+09:00",
+  "evaluated_at": "2026-08-17T10:21:43+09:00",
   "score_total": 70.5,
   "grade": "B",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 6개",
+  "sample_note": "YT[/shorts] 30일내 9개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:25:27+09:00",
+      "followers": 1500,
+      "engagement_rate": 0.012,
+      "avg_likes": 1941.7,
+      "posts_last_30d": 6,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 70.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 1030,

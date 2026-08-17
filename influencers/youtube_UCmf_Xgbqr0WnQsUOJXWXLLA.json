@@ -5,27 +5,27 @@
   "profile_url": "https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA",
   "channel_id": "UCmf_Xgbqr0WnQsUOJXWXLLA",
   "followers": 118000,
-  "engagement_rate": 0.0221,
-  "avg_likes": 4831.6,
-  "avg_comments": 40.4,
-  "avg_views": 218412.7,
-  "posts_last_30d": 7,
+  "engagement_rate": 0.0199,
+  "avg_likes": 5814.2,
+  "avg_comments": 36.2,
+  "avg_views": 292744.0,
+  "posts_last_30d": 5,
   "_posts_last_30d_est": false,
-  "sample_size": 7,
-  "brand_fit_score": 75,
+  "sample_size": 5,
+  "brand_fit_score": 60,
   "retailer_focus": "daiso",
   "retailer_signal": {
     "daiso_mentions": "3건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "3건",
+    "beauty_keywords": "1건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:27:47+09:00",
-  "score_total": 70.75,
+  "evaluated_at": "2026-08-17T10:25:27+09:00",
+  "score_total": 67.0,
   "grade": "B",
   "score_breakdown": {
     "er": 60,
-    "brand_fit": 75,
+    "brand_fit": 60,
     "consistency": 80,
     "followers": 100,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 7개",
+  "sample_note": "YT[/shorts] 30일내 5개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:27:47+09:00",
+      "followers": 118000,
+      "engagement_rate": 0.0221,
+      "avg_likes": 4831.6,
+      "posts_last_30d": 7,
+      "brand_fit_score": 75,
+      "retailer_focus": "daiso",
+      "score_total": 70.75,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 118000,
@@ -293,16 +304,6 @@
       "grade": "C",
       "score_total": 58.2,
       "posts_last_30d": 5
-    },
-    {
-      "evaluated_at": "2026-07-28T10:34:53+09:00",
-      "score_total": 70.75,
-      "grade": "B",
-      "engagement_rate": 0.028,
-      "followers": 118000,
-      "posts_last_30d": 8,
-      "brand_fit_score": 75,
-      "retailer_focus": "daiso"
     }
   ]
 }

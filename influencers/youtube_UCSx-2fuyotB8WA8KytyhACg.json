@@ -4,11 +4,11 @@
   "fullname": "오션 OCEAN",
   "profile_url": "https://www.youtube.com/channel/UCSx-2fuyotB8WA8KytyhACg",
   "channel_id": "UCSx-2fuyotB8WA8KytyhACg",
-  "followers": 295000,
-  "engagement_rate": 0.0271,
-  "avg_likes": 905.7,
-  "avg_comments": 89.7,
-  "avg_views": 33387.4,
+  "followers": 296000,
+  "engagement_rate": 0.0295,
+  "avg_likes": 1007.8,
+  "avg_comments": 89.4,
+  "avg_views": 34151.2,
   "posts_last_30d": 9,
   "_posts_last_30d_est": false,
   "sample_size": 9,
@@ -17,10 +17,10 @@
   "retailer_signal": {
     "daiso_mentions": "37건",
     "olive_young_mentions": "23건",
-    "beauty_keywords": "322건",
+    "beauty_keywords": "416건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:12:18+09:00",
+  "evaluated_at": "2026-08-17T10:14:29+09:00",
   "score_total": 74.5,
   "grade": "B",
   "score_breakdown": {
@@ -36,6 +36,17 @@
   },
   "sample_note": "YT 30일내 9개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:12:18+09:00",
+      "followers": 295000,
+      "engagement_rate": 0.0271,
+      "avg_likes": 905.7,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 74.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-22T10:33:54+09:00",
       "followers": 293000,
@@ -290,16 +301,6 @@
       "score_total": 74.5,
       "grade": "B",
       "engagement_rate": 0.0213,
-      "followers": 294000,
-      "posts_last_30d": 8,
-      "brand_fit_score": 90,
-      "retailer_focus": "daiso"
-    },
-    {
-      "evaluated_at": "2026-08-05T17:10:40+09:00",
-      "score_total": 74.5,
-      "grade": "B",
-      "engagement_rate": 0.0195,
       "followers": 294000,
       "posts_last_30d": 8,
       "brand_fit_score": 90,

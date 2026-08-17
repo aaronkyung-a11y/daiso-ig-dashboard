@@ -4,12 +4,12 @@
   "fullname": "두나 | 이슈·꿀팁·뷰티",
   "profile_url": "https://www.instagram.com/doing_now_insta/",
   "followers": 18692,
-  "engagement_rate": 0.138,
-  "avg_likes": 2547.5,
-  "avg_comments": 31.3,
-  "avg_views": 0,
+  "engagement_rate": 0.1447,
+  "avg_likes": 2670.2,
+  "avg_comments": 34.0,
+  "avg_views": 0.0,
   "posts_last_30d": 9,
-  "_posts_last_30d_est": true,
+  "_posts_last_30d_est": false,
   "sample_size": 12,
   "brand_fit_score": 60,
   "retailer_focus": "daiso",
@@ -19,7 +19,7 @@
     "beauty_keywords": "2건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:57:07+09:00",
+  "evaluated_at": "2026-08-17T10:32:16+09:00",
   "score_total": 85.0,
   "grade": "S",
   "score_breakdown": {
@@ -32,10 +32,21 @@
   "estimation_flags": {
     "brand_fit_estimated": false,
     "followers_estimated": true,
-    "posts30_estimated": true
+    "posts30_estimated": false
   },
-  "sample_note": "IG 로그인 샘플 12개, 30일내 9+(창포화·하한) | followers 이월(topsearch)",
+  "sample_note": "IG 로그인 샘플 12개, 30일내 9 (프로필 API 400 → 피드 폴백, 팔로워 직전값 승계)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:57:07+09:00",
+      "followers": 18692,
+      "engagement_rate": 0.138,
+      "avg_likes": 2547.5,
+      "posts_last_30d": 9,
+      "brand_fit_score": 60,
+      "retailer_focus": "daiso",
+      "score_total": 85.0,
+      "grade": "S"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 18692,

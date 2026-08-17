@@ -4,23 +4,23 @@
   "fullname": "장수의 비밀",
   "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
   "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
-  "followers": 185000,
-  "engagement_rate": 0.0121,
-  "avg_likes": 712.1,
-  "avg_comments": 1.9,
-  "avg_views": 58844.6,
-  "posts_last_30d": 17,
+  "followers": 187000,
+  "engagement_rate": 0.013,
+  "avg_likes": 658.9,
+  "avg_comments": 1.6,
+  "avg_views": 50858.7,
+  "posts_last_30d": 20,
   "_posts_last_30d_est": false,
-  "sample_size": 17,
+  "sample_size": 20,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "73건",
-    "olive_young_mentions": "1건",
-    "beauty_keywords": "43건",
+    "daiso_mentions": "95건",
+    "olive_young_mentions": "3건",
+    "beauty_keywords": "67건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:26:49+09:00",
+  "evaluated_at": "2026-08-17T10:22:54+09:00",
   "score_total": 77.5,
   "grade": "A",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 17개",
+  "sample_note": "YT[/shorts] 30일내 20개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:26:49+09:00",
+      "followers": 185000,
+      "engagement_rate": 0.0121,
+      "avg_likes": 712.1,
+      "posts_last_30d": 17,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 77.5,
+      "grade": "A"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 178000,
@@ -297,16 +308,6 @@
       "grade": "A",
       "score_total": 77.5,
       "posts_last_30d": 17
-    },
-    {
-      "evaluated_at": "2026-07-28T10:34:05+09:00",
-      "score_total": 70.75,
-      "grade": "B",
-      "engagement_rate": 0.013,
-      "followers": 178000,
-      "posts_last_30d": 8,
-      "brand_fit_score": 75,
-      "retailer_focus": "daiso"
     }
   ]
 }

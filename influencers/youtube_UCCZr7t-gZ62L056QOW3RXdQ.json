@@ -4,11 +4,11 @@
   "fullname": "니야 Niiya",
   "profile_url": "https://www.youtube.com/channel/UCCZr7t-gZ62L056QOW3RXdQ",
   "channel_id": "UCCZr7t-gZ62L056QOW3RXdQ",
-  "followers": 141000,
-  "engagement_rate": 0.0153,
-  "avg_likes": 1522.3,
-  "avg_comments": 86.2,
-  "avg_views": 99490.8,
+  "followers": 142000,
+  "engagement_rate": 0.0152,
+  "avg_likes": 1526.0,
+  "avg_comments": 86.3,
+  "avg_views": 100089.5,
   "posts_last_30d": 0,
   "_posts_last_30d_est": false,
   "sample_size": 6,
@@ -20,7 +20,7 @@
     "beauty_keywords": "1건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:12:28+09:00",
+  "evaluated_at": "2026-08-17T10:12:05+09:00",
   "score_total": 61.0,
   "grade": "C",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 0개 → 최근 6개 fallback",
+  "sample_note": "YT 최근 6개(30일내 0개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:12:28+09:00",
+      "followers": 141000,
+      "engagement_rate": 0.0153,
+      "avg_likes": 1522.3,
+      "posts_last_30d": 0,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "score_total": 61.0,
+      "grade": "C"
+    },
     {
       "evaluated_at": "2026-07-27T10:25:16+09:00",
       "followers": 124000,
@@ -290,16 +301,6 @@
       "grade": "C",
       "score_total": 59.0,
       "posts_last_30d": 0
-    },
-    {
-      "evaluated_at": "2026-08-04T14:11:06+09:00",
-      "score_total": 61.0,
-      "grade": "C",
-      "engagement_rate": 0.0154,
-      "followers": 137000,
-      "posts_last_30d": 0,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general"
     }
   ]
 }

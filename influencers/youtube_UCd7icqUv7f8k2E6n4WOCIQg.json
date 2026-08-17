@@ -4,23 +4,23 @@
   "fullname": "Pibukyurl",
   "profile_url": "https://www.youtube.com/channel/UCd7icqUv7f8k2E6n4WOCIQg",
   "channel_id": "UCd7icqUv7f8k2E6n4WOCIQg",
-  "followers": 71800,
-  "engagement_rate": 0.0353,
-  "avg_likes": 1187.9,
-  "avg_comments": 71.6,
-  "avg_views": 33692.7,
-  "posts_last_30d": 9,
+  "followers": 72600,
+  "engagement_rate": 0.036,
+  "avg_likes": 1444.4,
+  "avg_comments": 79.4,
+  "avg_views": 40162.0,
+  "posts_last_30d": 8,
   "_posts_last_30d_est": false,
-  "sample_size": 9,
+  "sample_size": 8,
   "brand_fit_score": 90,
   "retailer_focus": "beauty_general",
   "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "76건",
+    "beauty_keywords": "72건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:18:37+09:00",
+  "evaluated_at": "2026-08-17T10:17:21+09:00",
   "score_total": 82.5,
   "grade": "A",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 9개",
+  "sample_note": "YT 30일내 8개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:18:37+09:00",
+      "followers": 71800,
+      "engagement_rate": 0.0353,
+      "avg_likes": 1187.9,
+      "posts_last_30d": 9,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 82.5,
+      "grade": "A"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 68500,
@@ -291,16 +302,6 @@
       "grade": "A",
       "score_total": 79.5,
       "posts_last_30d": 4
-    },
-    {
-      "evaluated_at": "2026-07-28T10:27:36+09:00",
-      "score_total": 82.5,
-      "grade": "A",
-      "engagement_rate": 0.0308,
-      "followers": 69500,
-      "posts_last_30d": 7,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young"
     }
   ]
 }

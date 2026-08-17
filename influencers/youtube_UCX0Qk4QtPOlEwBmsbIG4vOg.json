@@ -4,23 +4,23 @@
   "fullname": "리뷰야놀자",
   "profile_url": "https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg",
   "channel_id": "UCX0Qk4QtPOlEwBmsbIG4vOg",
-  "followers": 746000,
+  "followers": 748000,
   "engagement_rate": 0.0105,
-  "avg_likes": 925.7,
+  "avg_likes": 925.6,
   "avg_comments": 103.4,
-  "avg_views": 88405.1,
+  "avg_views": 88464.1,
   "posts_last_30d": 0,
   "_posts_last_30d_est": false,
   "sample_size": 16,
   "brand_fit_score": 60,
-  "retailer_focus": "beauty_general",
+  "retailer_focus": "daiso",
   "retailer_signal": {
-    "daiso_mentions": "0건",
+    "daiso_mentions": "1건",
     "olive_young_mentions": "0건",
     "beauty_keywords": "2건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:17:14+09:00",
+  "evaluated_at": "2026-08-17T10:14:38+09:00",
   "score_total": 61.0,
   "grade": "C",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 0개 → 최근 16개 fallback",
+  "sample_note": "YT 최근 16개(30일내 0개)",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:17:14+09:00",
+      "followers": 746000,
+      "engagement_rate": 0.0105,
+      "avg_likes": 925.7,
+      "posts_last_30d": 0,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "score_total": 61.0,
+      "grade": "C"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 736000,
@@ -287,16 +298,6 @@
       "grade": "C",
       "score_total": 61.0,
       "posts_last_30d": 0
-    },
-    {
-      "evaluated_at": "2026-07-28T10:26:50+09:00",
-      "score_total": 61.0,
-      "grade": "C",
-      "engagement_rate": 0.0118,
-      "followers": 739000,
-      "posts_last_30d": 0,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general"
     }
   ]
 }

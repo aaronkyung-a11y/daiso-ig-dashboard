@@ -4,23 +4,23 @@
   "fullname": "스완SWAN_현실남자관리",
   "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
   "channel_id": "UChaTUCM7bPBTJaIZQ83PNwQ",
-  "followers": 506000,
-  "engagement_rate": 0.0174,
-  "avg_likes": 972.9,
-  "avg_comments": 315.9,
-  "avg_views": 55840.0,
-  "posts_last_30d": 7,
+  "followers": 507000,
+  "engagement_rate": 0.0173,
+  "avg_likes": 823.0,
+  "avg_comments": 269.0,
+  "avg_views": 47654.2,
+  "posts_last_30d": 8,
   "_posts_last_30d_est": false,
-  "sample_size": 7,
+  "sample_size": 8,
   "brand_fit_score": 100,
   "retailer_focus": "our_brand",
   "retailer_signal": {
     "daiso_mentions": "2건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "22건",
+    "beauty_keywords": "31건",
     "labrang_present": true
   },
-  "evaluated_at": "2026-08-12T10:12:49+09:00",
+  "evaluated_at": "2026-08-17T10:17:28+09:00",
   "score_total": 77.0,
   "grade": "A",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 7개",
+  "sample_note": "YT 30일내 8개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:12:49+09:00",
+      "followers": 506000,
+      "engagement_rate": 0.0174,
+      "avg_likes": 972.9,
+      "posts_last_30d": 7,
+      "brand_fit_score": 100,
+      "retailer_focus": "our_brand",
+      "score_total": 77.0,
+      "grade": "A"
+    },
     {
       "evaluated_at": "2026-07-22T10:33:54+09:00",
       "followers": 505000,
@@ -292,16 +303,6 @@
       "posts_last_30d": 6,
       "brand_fit_score": 90,
       "retailer_focus": "daiso"
-    },
-    {
-      "evaluated_at": "2026-08-05T17:10:40+09:00",
-      "score_total": 77.0,
-      "grade": "A",
-      "engagement_rate": 0.0209,
-      "followers": 506000,
-      "posts_last_30d": 8,
-      "brand_fit_score": 100,
-      "retailer_focus": "our_brand"
     }
   ]
 }

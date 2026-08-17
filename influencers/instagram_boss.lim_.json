@@ -3,13 +3,13 @@
   "username": "boss.lim_",
   "fullname": "보스",
   "profile_url": "https://www.instagram.com/boss.lim_/",
-  "followers": 1152,
-  "engagement_rate": 0.1369,
-  "avg_likes": 135.8,
-  "avg_comments": 21.9,
-  "avg_views": 21727.9,
+  "followers": 1171,
+  "engagement_rate": 0.0411,
+  "avg_likes": 46.7,
+  "avg_comments": 1.4,
+  "avg_views": 7072.8,
   "posts_last_30d": 12,
-  "_posts_last_30d_est": true,
+  "_posts_last_30d_est": false,
   "sample_size": 12,
   "brand_fit_score": 90,
   "retailer_focus": "daiso",
@@ -19,11 +19,11 @@
     "beauty_keywords": "11건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:57:07+09:00",
-  "score_total": 93.5,
-  "grade": "S",
+  "evaluated_at": "2026-08-17T10:32:16+09:00",
+  "score_total": 83.5,
+  "grade": "A",
   "score_breakdown": {
-    "er": 100,
+    "er": 80,
     "brand_fit": 90,
     "consistency": 100,
     "followers": 60,
@@ -32,10 +32,21 @@
   "estimation_flags": {
     "brand_fit_estimated": false,
     "followers_estimated": false,
-    "posts30_estimated": true
+    "posts30_estimated": false
   },
-  "sample_note": "IG 로그인 샘플 12개, 30일내 12+(창포화·하한)",
+  "sample_note": "IG 로그인 샘플 12개, 30일내 12",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:57:07+09:00",
+      "followers": 1152,
+      "engagement_rate": 0.1369,
+      "avg_likes": 135.8,
+      "posts_last_30d": 12,
+      "brand_fit_score": 90,
+      "retailer_focus": "daiso",
+      "score_total": 93.5,
+      "grade": "S"
+    },
     {
       "evaluated_at": "2026-07-27T17:11:48+09:00",
       "followers": 957,

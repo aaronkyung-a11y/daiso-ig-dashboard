@@ -6,21 +6,21 @@
   "channel_id": "UC6zDQHALEBtuEhGYlT1ZTfA",
   "followers": 27900,
   "engagement_rate": 0.0007,
-  "avg_likes": 11.3,
+  "avg_likes": 11.0,
   "avg_comments": 1.8,
-  "avg_views": 15107.8,
-  "posts_last_30d": 18,
+  "avg_views": 15604.3,
+  "posts_last_30d": 20,
   "_posts_last_30d_est": false,
-  "sample_size": 18,
+  "sample_size": 20,
   "brand_fit_score": 90,
   "retailer_focus": "beauty_general",
   "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "87건",
+    "beauty_keywords": "99건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-12T10:15:16+09:00",
+  "evaluated_at": "2026-08-17T10:11:27+09:00",
   "score_total": 65.5,
   "grade": "B",
   "score_breakdown": {
@@ -34,8 +34,19 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 18개",
+  "sample_note": "YT 30일내 20개",
   "history": [
+    {
+      "evaluated_at": "2026-08-12T10:15:16+09:00",
+      "followers": 27900,
+      "engagement_rate": 0.0007,
+      "avg_likes": 11.3,
+      "posts_last_30d": 18,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "score_total": 65.5,
+      "grade": "B"
+    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 27900,
@@ -284,16 +295,6 @@
       "engagement_rate": 0.0009,
       "score_total": 65.5,
       "grade": "B"
-    },
-    {
-      "evaluated_at": "2026-07-28T10:25:16+09:00",
-      "score_total": 62.5,
-      "grade": "C",
-      "engagement_rate": 0.0011,
-      "followers": 27900,
-      "posts_last_30d": 8,
-      "brand_fit_score": 90,
-      "retailer_focus": "beauty_general"
     }
   ]
 }
