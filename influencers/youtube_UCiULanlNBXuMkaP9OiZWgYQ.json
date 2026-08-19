@@ -1,0 +1,39 @@
+{
+  "platform": "youtube",
+  "username": "UCiULanlNBXuMkaP9OiZWgYQ",
+  "fullname": "율리 YULRI",
+  "profile_url": "https://www.youtube.com/channel/UCiULanlNBXuMkaP9OiZWgYQ",
+  "channel_id": "UCiULanlNBXuMkaP9OiZWgYQ",
+  "followers": 425000,
+  "engagement_rate": 0.0142,
+  "avg_likes": 577.0,
+  "avg_comments": 123.0,
+  "avg_views": 40504.3,
+  "posts_last_30d": 3,
+  "_posts_last_30d_est": false,
+  "sample_size": 3,
+  "brand_fit_score": 100,
+  "retailer_focus": "our_brand",
+  "retailer_signal": {
+    "daiso_mentions": "38건",
+    "olive_young_mentions": "1건",
+    "beauty_keywords": "51건",
+    "labrang_present": true
+  },
+  "evaluated_at": "2026-08-19T14:13:29+09:00",
+  "score_total": 74.0,
+  "grade": "B",
+  "score_breakdown": {
+    "er": 60,
+    "brand_fit": 100,
+    "consistency": 60,
+    "followers": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+  },
+  "sample_note": "YT 30일내 3개",
+  "history": []
+}

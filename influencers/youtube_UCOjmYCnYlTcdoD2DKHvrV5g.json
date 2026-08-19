@@ -1,0 +1,39 @@
+{
+  "platform": "youtube",
+  "username": "UCOjmYCnYlTcdoD2DKHvrV5g",
+  "fullname": "HARUNA KOJIMA's cat nap",
+  "profile_url": "https://www.youtube.com/channel/UCOjmYCnYlTcdoD2DKHvrV5g",
+  "channel_id": "UCOjmYCnYlTcdoD2DKHvrV5g",
+  "followers": 695000,
+  "engagement_rate": 0.0145,
+  "avg_likes": 2642.7,
+  "avg_comments": 114.0,
+  "avg_views": 182497.3,
+  "posts_last_30d": 3,
+  "_posts_last_30d_est": false,
+  "sample_size": 3,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "0건",
+    "labrang_present": false
+  },
+  "evaluated_at": "2026-08-19T14:13:29+09:00",
+  "score_total": 55.25,
+  "grade": "C",
+  "score_breakdown": {
+    "er": 60,
+    "brand_fit": 25,
+    "consistency": 60,
+    "followers": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+  },
+  "sample_note": "YT 30일내 3개",
+  "history": []
+}

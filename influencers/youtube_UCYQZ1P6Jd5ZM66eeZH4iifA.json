@@ -1,0 +1,39 @@
+{
+  "platform": "youtube",
+  "username": "UCYQZ1P6Jd5ZM66eeZH4iifA",
+  "fullname": "꿀정보",
+  "profile_url": "https://www.youtube.com/channel/UCYQZ1P6Jd5ZM66eeZH4iifA",
+  "channel_id": "UCYQZ1P6Jd5ZM66eeZH4iifA",
+  "followers": 6750,
+  "engagement_rate": 0.0042,
+  "avg_likes": 415.6,
+  "avg_comments": 6.7,
+  "avg_views": 100104.7,
+  "posts_last_30d": 17,
+  "_posts_last_30d_est": false,
+  "sample_size": 17,
+  "brand_fit_score": 75,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "5건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "7건",
+    "labrang_present": false
+  },
+  "evaluated_at": "2026-08-19T14:13:29+09:00",
+  "score_total": 59.75,
+  "grade": "C",
+  "score_breakdown": {
+    "er": 40,
+    "brand_fit": 75,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+  },
+  "sample_note": "YT 30일내 17개",
+  "history": []
+}

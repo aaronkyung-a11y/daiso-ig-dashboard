@@ -1,0 +1,39 @@
+{
+  "platform": "youtube",
+  "username": "UCQ6zIN9oVHOiD5jlLWo-l3A",
+  "fullname": "글리터코코",
+  "profile_url": "https://www.youtube.com/channel/UCQ6zIN9oVHOiD5jlLWo-l3A",
+  "channel_id": "UCQ6zIN9oVHOiD5jlLWo-l3A",
+  "followers": 2960,
+  "engagement_rate": 0.0204,
+  "avg_likes": 46.7,
+  "avg_comments": 0.0,
+  "avg_views": 2293.8,
+  "posts_last_30d": 11,
+  "_posts_last_30d_est": false,
+  "sample_size": 11,
+  "brand_fit_score": 90,
+  "retailer_focus": "daiso",
+  "retailer_signal": {
+    "daiso_mentions": "7건",
+    "olive_young_mentions": "2건",
+    "beauty_keywords": "8건",
+    "labrang_present": false
+  },
+  "evaluated_at": "2026-08-19T14:13:29+09:00",
+  "score_total": 73.5,
+  "grade": "B",
+  "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+  },
+  "sample_note": "YT 30일내 11개",
+  "history": []
+}

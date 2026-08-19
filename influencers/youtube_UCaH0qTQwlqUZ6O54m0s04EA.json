@@ -1,0 +1,39 @@
+{
+  "platform": "youtube",
+  "username": "UCaH0qTQwlqUZ6O54m0s04EA",
+  "fullname": "LUCY PARK 루시파크",
+  "profile_url": "https://www.youtube.com/channel/UCaH0qTQwlqUZ6O54m0s04EA",
+  "channel_id": "UCaH0qTQwlqUZ6O54m0s04EA",
+  "followers": 94100,
+  "engagement_rate": 0.0006,
+  "avg_likes": 58.0,
+  "avg_comments": 26.5,
+  "avg_views": 89488.0,
+  "posts_last_30d": 2,
+  "_posts_last_30d_est": false,
+  "sample_size": 2,
+  "brand_fit_score": 90,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "10건",
+    "labrang_present": false
+  },
+  "evaluated_at": "2026-08-19T14:13:29+09:00",
+  "score_total": 59.5,
+  "grade": "C",
+  "score_breakdown": {
+    "er": 40,
+    "brand_fit": 90,
+    "consistency": 60,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  },
+  "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+  },
+  "sample_note": "YT 30일내 2개",
+  "history": []
+}

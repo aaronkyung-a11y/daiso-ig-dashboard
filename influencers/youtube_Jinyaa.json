@@ -5,28 +5,28 @@
   "profile_url": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
   "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
   "followers": 362000,
-  "engagement_rate": 0.0294,
-  "avg_likes": 1637.6,
-  "avg_comments": 409.6,
-  "avg_views": 55645.6,
-  "posts_last_30d": 5,
+  "engagement_rate": 0.0297,
+  "avg_likes": 1714.0,
+  "avg_comments": 425.2,
+  "avg_views": 57688.5,
+  "posts_last_30d": 4,
   "_posts_last_30d_est": false,
-  "sample_size": 5,
+  "sample_size": 4,
   "brand_fit_score": 90,
   "retailer_focus": "olive_young",
   "retailer_signal": {
     "daiso_mentions": "0건",
-    "olive_young_mentions": "9건",
-    "beauty_keywords": "287건",
+    "olive_young_mentions": "6건",
+    "beauty_keywords": "191건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-17T10:11:06+09:00",
-  "score_total": 74.5,
+  "evaluated_at": "2026-08-19T14:13:29+09:00",
+  "score_total": 71.5,
   "grade": "B",
   "score_breakdown": {
     "er": 60,
     "brand_fit": 90,
-    "consistency": 80,
+    "consistency": 60,
     "followers": 100,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
@@ -34,19 +34,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 5개",
+  "sample_note": "YT 30일내 4개",
   "history": [
-    {
-      "evaluated_at": "2026-08-12T10:24:53+09:00",
-      "followers": 362000,
-      "engagement_rate": 0.0314,
-      "avg_likes": 1583.8,
-      "posts_last_30d": 4,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young",
-      "score_total": 81.5,
-      "grade": "A"
-    },
     {
       "evaluated_at": "2026-07-22T10:33:54+09:00",
       "followers": 362000,
@@ -480,6 +469,16 @@
       "posts_last_30d": 5,
       "retailer_focus": "olive_young",
       "score_total": 74.5
+    },
+    {
+      "evaluated_at": "2026-08-17T10:11:06+09:00",
+      "followers": 362000,
+      "engagement_rate": 0.0294,
+      "posts_last_30d": 5,
+      "brand_fit_score": 90,
+      "retailer_focus": "olive_young",
+      "score_total": 74.5,
+      "grade": "B"
     }
   ]
 }

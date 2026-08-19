@@ -1,238 +1,248 @@
 {
- "platform": "instagram",
- "username": "mingjikim_107",
- "fullname": "mingjikim_107",
- "profile_url": "https://www.instagram.com/mingjikim_107/",
- "followers": 0,
- "engagement_rate": 0.0,
- "avg_likes": 0.0,
- "avg_comments": 0.0,
- "avg_views": 0.0,
- "posts_last_30d": 0,
- "sample_size": 0,
- "brand_fit_score": 25,
- "retailer_focus": "off_topic",
- "retailer_signal": "n/a (account unavailable)",
- "evaluated_at": "2026-08-12T14:12:04+09:00",
- "score_total": 36.25,
- "grade": "D",
- "score_breakdown": {
-  "er": 40,
-  "brand_fit": 25,
-  "consistency": 40,
-  "followers": 40,
-  "formula": "40*0.50+25*0.25+40*0.15+40*0.10"
- },
- "estimation_flags": {
-  "brand_fit_score": true,
-  "posts_last_30d": true,
-  "note": "account_unavailable"
- },
- "sample_note": "2026-08-12T14:12:04+09:00 STEP B-Light(14:00) 라이브 재확인 — IG 프로필 페이지 \"페이지가 삭제되었습니다\"(page removed/unavailable) 반환. 계정 삭제/미존재로 확정(기존 로그아웃 추정과 상이). 미측정 기본값(ER0/bf25/posts0/fol0) 적용, score_total=36.25(number).",
- "history": [
-  {
-   "evaluated_at": "2026-07-23T17:12:32+09:00",
-   "followers": 0,
-   "engagement_rate": 0.0,
-   "avg_likes": 0,
-   "avg_views": 0,
-   "sample_size": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "posts_last_30d": 0,
-   "score_total": 36.2,
-   "grade": "D"
+  "platform": "instagram",
+  "username": "mingjikim_107",
+  "fullname": "mingjikim_107",
+  "profile_url": "https://www.instagram.com/mingjikim_107/",
+  "followers": 0,
+  "engagement_rate": 0.0,
+  "avg_likes": 0.0,
+  "avg_comments": 0.0,
+  "avg_views": 0.0,
+  "posts_last_30d": 0,
+  "sample_size": 0,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
+  "retailer_signal": "n/a (account unavailable)",
+  "evaluated_at": "2026-08-19T14:14:34+09:00",
+  "score_total": 36.25,
+  "grade": "D",
+  "score_breakdown": {
+    "er": 40,
+    "brand_fit": 25,
+    "consistency": 40,
+    "followers": 40,
+    "formula": "40*0.50+25*0.25+40*0.15+40*0.10"
   },
-  {
-   "evaluated_at": "2026-07-07T14:31:00.000000+09:00",
-   "followers": 0,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 36.2,
-   "grade": "D"
+  "estimation_flags": {
+    "brand_fit_score": true,
+    "posts_last_30d": true,
+    "note": "account_unavailable"
   },
-  {
-   "evaluated_at": "2026-06-12T14:12:12.265461+09:00",
-   "followers": 0,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 36.2,
-   "grade": "D"
-  },
-  {
-   "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
-   "followers": 2615,
-   "engagement_rate": 0.1532,
-   "posts_last_30d": 4,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 71.25,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 71.25,
-   "engagement_rate": 0.1532,
-   "followers": 2624,
-   "posts_last_30d": 4,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "note": "snapshot_only (no live refetch)"
-  },
-  {
-   "evaluated_at": "2026-05-07T14:41:05+09:00",
-   "followers": 2624,
-   "engagement_rate": 0.1532,
-   "posts_last_30d": 4,
-   "brand_fit_score": 25,
-   "score_total": 71.25,
-   "grade": "B",
-   "note": "pre-snapshot"
-  },
-  {
-   "evaluated_at": "2026-05-13T17:10:00+09:00",
-   "followers": 2618,
-   "engagement_rate": 0.1532,
-   "posts_last_30d": 4,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 71.25,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-   "followers": 2610,
-   "engagement_rate": 0.1532,
-   "posts_last_30d": 4,
-   "brand_fit_score": 25,
-   "score_total": 71.25
-  },
-  {
-   "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
-   "followers": 2602,
-   "engagement_rate": 0.1532,
-   "posts_last_30d": 4,
-   "brand_fit_score": 25,
-   "score_total": 71.25
-  },
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 2599,
-   "engagement_rate": 0.1532,
-   "posts_last_30d": 4,
-   "brand_fit_score": 25,
-   "score_total": 71.2,
-   "grade": "B",
-   "note": "STEP B light refresh"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 2589,
-   "engagement_rate": 0.6376,
-   "posts_last_30d": 6,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 74.25,
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "score_total": 74.25,
-   "engagement_rate": 0.6376,
-   "followers": 2589,
-   "posts_last_30d": 6,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "grade": "B"
-  },
-  {
-   "evaluated_at": "2026-05-27T10:33:00+09:00",
-   "followers": 2570,
-   "engagement_rate": 0.6225,
-   "posts_last_30d": 7,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 83.0,
-   "grade": "A"
-  },
-  {
-   "evaluated_at": "2026-06-08T10:28:30.393916+09:00",
-   "followers": 0,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 36.2,
-   "grade": "D"
-  },
-  {
-   "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
-   "followers": 0,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 36.2,
-   "grade": "D"
-  },
-  {
-   "evaluated_at": "2026-06-17T10:38:29.004612+09:00",
-   "followers": 0,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 36.2,
-   "grade": "D"
-  },
-  {
-   "followers": 0,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "sample_size": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 36.2,
-   "grade": "D",
-   "evaluated_at": "2026-06-19T14:10:47.708231+09:00"
-  },
-  {
-   "followers": 0,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "sample_size": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 36.2,
-   "grade": "D",
-   "evaluated_at": "2026-07-07T14:31:00.000000+09:00"
-  },
-  {
-   "followers": 0,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "sample_size": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 36.2,
-   "grade": "D",
-   "evaluated_at": "2026-07-17T11:29:14.545999+09:00"
-  },
-  {
-   "followers": 0,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "sample_size": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 36.25,
-   "grade": "D",
-   "evaluated_at": "2026-07-29T14:10:00+09:00"
-  }
- ],
- "_posts_last_30d_est": false
+  "sample_note": "2026-08-19T14:14:34+09:00 STEP B-Light(14:00) 재확인 — IG 로그인 상태에서 프로필 접근 시 \"죄송합니다. 페이지를 사용할 수 없습니다.\" 반환. 계정 삭제 확정(변동 없음). 미측정 기본값(ER0/bf25/posts0/fol0) 유지, score_total=36.25.",
+  "history": [
+    {
+      "evaluated_at": "2026-07-23T17:12:32+09:00",
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "avg_likes": 0,
+      "avg_views": 0,
+      "sample_size": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "posts_last_30d": 0,
+      "score_total": 36.2,
+      "grade": "D"
+    },
+    {
+      "evaluated_at": "2026-07-07T14:31:00.000000+09:00",
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 36.2,
+      "grade": "D"
+    },
+    {
+      "evaluated_at": "2026-06-12T14:12:12.265461+09:00",
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 36.2,
+      "grade": "D"
+    },
+    {
+      "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
+      "followers": 2615,
+      "engagement_rate": 0.1532,
+      "posts_last_30d": 4,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 71.25,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-12T10:15:00+09:00",
+      "score_total": 71.25,
+      "engagement_rate": 0.1532,
+      "followers": 2624,
+      "posts_last_30d": 4,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "note": "snapshot_only (no live refetch)"
+    },
+    {
+      "evaluated_at": "2026-05-07T14:41:05+09:00",
+      "followers": 2624,
+      "engagement_rate": 0.1532,
+      "posts_last_30d": 4,
+      "brand_fit_score": 25,
+      "score_total": 71.25,
+      "grade": "B",
+      "note": "pre-snapshot"
+    },
+    {
+      "evaluated_at": "2026-05-13T17:10:00+09:00",
+      "followers": 2618,
+      "engagement_rate": 0.1532,
+      "posts_last_30d": 4,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 71.25,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
+      "followers": 2610,
+      "engagement_rate": 0.1532,
+      "posts_last_30d": 4,
+      "brand_fit_score": 25,
+      "score_total": 71.25
+    },
+    {
+      "evaluated_at": "2026-05-18T10:08:11.005483+09:00",
+      "followers": 2602,
+      "engagement_rate": 0.1532,
+      "posts_last_30d": 4,
+      "brand_fit_score": 25,
+      "score_total": 71.25
+    },
+    {
+      "evaluated_at": "2026-05-19T10:18:09+09:00",
+      "followers": 2599,
+      "engagement_rate": 0.1532,
+      "posts_last_30d": 4,
+      "brand_fit_score": 25,
+      "score_total": 71.2,
+      "grade": "B",
+      "note": "STEP B light refresh"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "followers": 2589,
+      "engagement_rate": 0.6376,
+      "posts_last_30d": 6,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 74.25,
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-21T10:00:00+09:00",
+      "score_total": 74.25,
+      "engagement_rate": 0.6376,
+      "followers": 2589,
+      "posts_last_30d": 6,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "grade": "B"
+    },
+    {
+      "evaluated_at": "2026-05-27T10:33:00+09:00",
+      "followers": 2570,
+      "engagement_rate": 0.6225,
+      "posts_last_30d": 7,
+      "brand_fit_score": 60,
+      "retailer_focus": "beauty_general",
+      "score_total": 83.0,
+      "grade": "A"
+    },
+    {
+      "evaluated_at": "2026-06-08T10:28:30.393916+09:00",
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 36.2,
+      "grade": "D"
+    },
+    {
+      "evaluated_at": "2026-06-11T10:32:23.708784+09:00",
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 36.2,
+      "grade": "D"
+    },
+    {
+      "evaluated_at": "2026-06-17T10:38:29.004612+09:00",
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 36.2,
+      "grade": "D"
+    },
+    {
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 0,
+      "sample_size": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 36.2,
+      "grade": "D",
+      "evaluated_at": "2026-06-19T14:10:47.708231+09:00"
+    },
+    {
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 0,
+      "sample_size": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 36.2,
+      "grade": "D",
+      "evaluated_at": "2026-07-07T14:31:00.000000+09:00"
+    },
+    {
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 0,
+      "sample_size": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 36.2,
+      "grade": "D",
+      "evaluated_at": "2026-07-17T11:29:14.545999+09:00"
+    },
+    {
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 0,
+      "sample_size": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 36.25,
+      "grade": "D",
+      "evaluated_at": "2026-07-29T14:10:00+09:00"
+    },
+    {
+      "evaluated_at": "2026-08-12T14:12:04+09:00",
+      "followers": 0,
+      "engagement_rate": 0.0,
+      "posts_last_30d": 0,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "score_total": 36.25,
+      "grade": "D"
+    }
+  ],
+  "_posts_last_30d_est": false
 }
