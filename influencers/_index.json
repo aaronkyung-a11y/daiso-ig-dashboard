@@ -1,27 +1,28 @@
 {
-  "last_updated": "2026-08-19T14:14:34+09:00",
-  "lastUpdated": "2026-08-19T14:14:34+09:00",
+  "last_updated": "2026-08-19T14:17:28+09:00",
+  "lastUpdated": "2026-08-19T14:17:28+09:00",
   "last_run_mode": "weekday-14:00 queue+B-Light",
-  "total": 190,
+  "total": 189,
   "platforms": {
     "instagram": 23,
-    "youtube": 167
+    "youtube": 166
   },
   "grades": {
     "S": 9,
     "A": 21,
-    "B": 87,
+    "B": 86,
     "C": 53,
     "D": 20
   },
   "retailer_focus": {
     "daiso": 60,
-    "olive_young": 58,
+    "olive_young": 57,
     "our_brand": 19,
     "beauty_general": 29,
     "mixed": 6,
     "off_topic": 18
   },
+  "dedup_note": "동일 채널 중복 파일(youtube_Jinyaa.json / youtube_UCRiIf6rt91BVfZVtURRXlOw.json)은 최신 1건만 집계",
   "records": [
     {
       "platform": "instagram",
@@ -1310,46 +1311,6 @@
       },
       "sample_note": "YT 30일내 6개",
       "history_len": 26
-    },
-    {
-      "platform": "youtube",
-      "username": "UCRiIf6rt91BVfZVtURRXlOw",
-      "fullname": "지냐 Jinyaa",
-      "profile_url": "https://www.youtube.com/channel/UCRiIf6rt91BVfZVtURRXlOw",
-      "channel_id": "UCRiIf6rt91BVfZVtURRXlOw",
-      "followers": 362000,
-      "engagement_rate": 0.0294,
-      "avg_likes": 1640.6,
-      "avg_comments": 409.6,
-      "avg_views": 55760.6,
-      "posts_last_30d": 5,
-      "_posts_last_30d_est": false,
-      "sample_size": 5,
-      "brand_fit_score": 90,
-      "retailer_focus": "olive_young",
-      "retailer_signal": {
-        "daiso_mentions": "0건",
-        "olive_young_mentions": "9건",
-        "beauty_keywords": "285건",
-        "labrang_present": false
-      },
-      "evaluated_at": "2026-08-17T14:10:49+09:00",
-      "score_total": 74.5,
-      "grade": "B",
-      "score_breakdown": {
-        "er": 60,
-        "brand_fit": 90,
-        "consistency": 80,
-        "followers": 100,
-        "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-      },
-      "estimation_flags": {
-        "brand_fit_estimated": false,
-        "followers_estimated": false,
-        "posts30_estimated": false
-      },
-      "sample_note": "YT /videos 탭 기준 최근 20개 수집, 30일내 5개, 분석샘플 5개",
-      "history_len": 25
     },
     {
       "platform": "youtube",
