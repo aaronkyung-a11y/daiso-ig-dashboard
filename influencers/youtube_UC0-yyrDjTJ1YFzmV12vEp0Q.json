@@ -4,23 +4,23 @@
   "fullname": "시네 si-ne",
   "profile_url": "https://www.youtube.com/channel/UC0-yyrDjTJ1YFzmV12vEp0Q",
   "channel_id": "UC0-yyrDjTJ1YFzmV12vEp0Q",
-  "followers": 526000,
+  "followers": 527000,
   "engagement_rate": 0.02,
-  "avg_likes": 962.4,
-  "avg_comments": 102.2,
-  "avg_views": 48025.6,
+  "avg_likes": 968.2,
+  "avg_comments": 102.3,
+  "avg_views": 48456.8,
   "posts_last_30d": 2,
   "_posts_last_30d_est": false,
   "sample_size": 18,
   "brand_fit_score": 90,
-  "retailer_focus": "daiso",
+  "retailer_focus": "olive_young",
   "retailer_signal": {
-    "daiso_mentions": "10건",
+    "daiso_mentions": "2건",
     "olive_young_mentions": "3건",
-    "beauty_keywords": "72건",
+    "beauty_keywords": "65건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-17T10:11:06+09:00",
+  "evaluated_at": "2026-08-19T17:10:55+09:00",
   "score_total": 71.5,
   "grade": "B",
   "score_breakdown": {
@@ -36,17 +36,6 @@
   },
   "sample_note": "YT 최근 18개(30일내 2개)",
   "history": [
-    {
-      "evaluated_at": "2026-08-12T10:14:41+09:00",
-      "followers": 523000,
-      "engagement_rate": 0.0161,
-      "avg_likes": 396.0,
-      "posts_last_30d": 2,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general",
-      "score_total": 64.0,
-      "grade": "B"
-    },
     {
       "evaluated_at": "2026-07-23T10:35:31+09:00",
       "followers": 514000,
@@ -315,6 +304,14 @@
       "engagement_rate": 0.022,
       "score_total": 64.0,
       "grade": "C"
+    },
+    {
+      "evaluated_at": "2026-08-17T10:11:06+09:00",
+      "score_total": 71.5,
+      "grade": "B",
+      "engagement_rate": 0.02,
+      "followers": 526000,
+      "posts_last_30d": 2
     }
   ]
 }

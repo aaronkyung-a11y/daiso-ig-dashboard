@@ -5,27 +5,27 @@
   "profile_url": "https://www.youtube.com/channel/UC-mTngidALJqbjUcTyZMZ8Q",
   "channel_id": "UC-mTngidALJqbjUcTyZMZ8Q",
   "followers": 308000,
-  "engagement_rate": 0.0189,
-  "avg_likes": 1844.5,
-  "avg_comments": 262.5,
-  "avg_views": 97724.2,
-  "posts_last_30d": 4,
+  "engagement_rate": 0.0194,
+  "avg_likes": 2272.7,
+  "avg_comments": 310.3,
+  "avg_views": 116856.7,
+  "posts_last_30d": 3,
   "_posts_last_30d_est": false,
-  "sample_size": 4,
-  "brand_fit_score": 90,
-  "retailer_focus": "beauty_general",
+  "sample_size": 3,
+  "brand_fit_score": 25,
+  "retailer_focus": "off_topic",
   "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "8건",
+    "beauty_keywords": "0건",
     "labrang_present": false
   },
-  "evaluated_at": "2026-08-17T10:11:06+09:00",
-  "score_total": 71.5,
-  "grade": "B",
+  "evaluated_at": "2026-08-19T17:10:55+09:00",
+  "score_total": 55.25,
+  "grade": "C",
   "score_breakdown": {
     "er": 60,
-    "brand_fit": 90,
+    "brand_fit": 25,
     "consistency": 60,
     "followers": 100,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -34,7 +34,7 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
   },
-  "sample_note": "YT 30일내 4개",
+  "sample_note": "YT 30일내 3개",
   "history": [
     {
       "evaluated_at": "2026-08-12T10:22:39+09:00",
@@ -56,6 +56,14 @@
       "posts_last_30d": 5,
       "brand_fit_score": 90,
       "retailer_focus": "olive_young"
+    },
+    {
+      "evaluated_at": "2026-08-17T10:11:06+09:00",
+      "score_total": 71.5,
+      "grade": "B",
+      "engagement_rate": 0.0189,
+      "followers": 308000,
+      "posts_last_30d": 4
     }
   ]
 }
