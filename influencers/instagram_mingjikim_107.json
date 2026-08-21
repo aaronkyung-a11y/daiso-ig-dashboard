@@ -13,7 +13,7 @@
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": "n/a (account unavailable)",
- "evaluated_at": "2026-08-19T14:14:34+09:00",
+ "evaluated_at": "2026-08-21T14:15:00+09:00",
  "score_total": 36.25,
  "grade": "D",
  "score_breakdown": {
@@ -28,8 +28,18 @@
   "posts_last_30d": true,
   "note": "account_unavailable"
  },
- "sample_note": "2026-08-19T14:14:34+09:00 STEP B-Light(14:00) 재확인 — IG 로그인 상태에서 프로필 접근 시 \"죄송합니다. 페이지를 사용할 수 없습니다.\" 반환. 계정 삭제 확정(변동 없음). 미측정 기본값(ER0/bf25/posts0/fol0) 유지, score_total=36.25.",
+ "sample_note": "2026-08-21T14:15:00+09:00 STEP B-Light(14:00) 재확인 — Chrome으로 프로필 접근 시 \"죄송합니다. 페이지를 사용할 수 없습니다.\" 반환. 계정 삭제 상태 지속(변동 없음). 미측정 기본값(ER0/bf25/posts0/fol0) 유지, score_total=36.25.",
  "history": [
+  {
+   "evaluated_at": "2026-08-19T14:14:34+09:00",
+   "followers": 0,
+   "engagement_rate": 0.0,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 36.25,
+   "grade": "D"
+  },
   {
    "evaluated_at": "2026-07-23T17:12:32+09:00",
    "followers": 0,
@@ -245,6 +255,6 @@
   }
  ],
  "_posts_last_30d_est": false,
- "account_status": "deleted_or_unavailable (HTTP 404, 확인일 2026-08-21)",
- "last_checked_at": "2026-08-21T11:25:41+09:00"
+ "account_status": "deleted_or_unavailable (확인일 2026-08-21 14:15, Chrome 실측)",
+ "last_checked_at": "2026-08-21T14:15:00+09:00"
 }

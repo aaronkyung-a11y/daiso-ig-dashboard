@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-21T11:25:59+09:00",
+ "lastUpdated": "2026-08-21T14:15:00+09:00",
  "auto_refresh": true,
  "refresh_cron": "weekly",
  "accounts": [
@@ -999,5 +999,5 @@
    "profile_url": "https://www.youtube.com/channel/UCceUWPM7SkvOmJ3bs9ZYJCw"
   }
  ],
- "updated_at": "2026-08-21T11:25:59+09:00"
+ "updated_at": "2026-08-21T14:15:00+09:00"
 }
