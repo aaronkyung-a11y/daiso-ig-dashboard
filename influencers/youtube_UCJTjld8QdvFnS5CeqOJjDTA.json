@@ -1,39 +1,51 @@
 {
-  "platform": "youtube",
-  "username": "UCJTjld8QdvFnS5CeqOJjDTA",
-  "fullname": "한국 사는 외국인들 ",
-  "profile_url": "https://www.youtube.com/channel/UCJTjld8QdvFnS5CeqOJjDTA",
-  "channel_id": "UCJTjld8QdvFnS5CeqOJjDTA",
-  "followers": 94700,
-  "engagement_rate": 0.0372,
-  "avg_likes": 2089.5,
-  "avg_comments": 82.5,
-  "avg_views": 56209.5,
-  "posts_last_30d": 4,
-  "_posts_last_30d_est": false,
-  "sample_size": 4,
-  "brand_fit_score": 90,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_mentions": "11건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "9건",
-    "labrang_present": false
-  },
-  "evaluated_at": "2026-08-19T14:13:29+09:00",
-  "score_total": 79.5,
-  "grade": "A",
-  "score_breakdown": {
-    "er": 80,
-    "brand_fit": 90,
-    "consistency": 60,
-    "followers": 80,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-  },
-  "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-  },
-  "sample_note": "YT 30일내 4개",
-  "history": []
+ "platform": "youtube",
+ "username": "UCJTjld8QdvFnS5CeqOJjDTA",
+ "fullname": "한국 사는 외국인들 ",
+ "profile_url": "https://www.youtube.com/channel/UCJTjld8QdvFnS5CeqOJjDTA",
+ "channel_id": "UCJTjld8QdvFnS5CeqOJjDTA",
+ "followers": 94800,
+ "engagement_rate": 0.0303,
+ "avg_likes": 734.2,
+ "avg_comments": 32.3,
+ "avg_views": 24248.3,
+ "posts_last_30d": 13,
+ "_posts_last_30d_est": false,
+ "sample_size": 13,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso_mentions": "14건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "14건",
+  "labrang_present": false
+ },
+ "evaluated_at": "2026-08-21T10:41:44+09:00",
+ "score_total": 85.5,
+ "grade": "S",
+ "score_breakdown": {
+  "er": 80,
+  "brand_fit": 90,
+  "consistency": 100,
+  "followers": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false
+ },
+ "sample_note": "YT 30일내 13개",
+ "history": [
+  {
+   "evaluated_at": "2026-08-19T14:13:29+09:00",
+   "score_total": 79.5,
+   "grade": "A",
+   "engagement_rate": 0.0372,
+   "followers": 94700,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 4
+  }
+ ]
 }

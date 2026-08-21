@@ -1,32 +1,32 @@
 {
  "platform": "youtube",
  "username": "UCZlTEEKh3ounqVfpf21WMeQ",
+ "fullname": "최모나choimona",
  "profile_url": "https://www.youtube.com/channel/UCZlTEEKh3ounqVfpf21WMeQ",
  "channel_id": "UCZlTEEKh3ounqVfpf21WMeQ",
- "fullname": "최모나choimona",
  "followers": 447000,
- "engagement_rate": 0.0196,
- "avg_likes": 432.9,
- "avg_comments": 83.9,
- "avg_views": 22068.9,
- "posts_last_30d": 7,
+ "engagement_rate": 0.0175,
+ "avg_likes": 566.3,
+ "avg_comments": 52.4,
+ "avg_views": 32328.3,
+ "posts_last_30d": 15,
  "_posts_last_30d_est": false,
- "sample_size": 7,
+ "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "51건",
+  "beauty_keywords": "53건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-20T14:09:34+09:00",
- "score_total": 74.5,
- "grade": "B",
+ "evaluated_at": "2026-08-21T10:59:00+09:00",
+ "score_total": 77.5,
+ "grade": "A",
  "score_breakdown": {
   "er": 60,
   "brand_fit": 90,
-  "consistency": 80,
+  "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -34,7 +34,7 @@
   "brand_fit_estimated": false,
   "followers_estimated": false
  },
- "sample_note": "YT 30일내 7개",
+ "sample_note": "YT 30일내 15개",
  "history": [
   {
    "evaluated_at": "2026-08-20T14:09:34+09:00",
@@ -46,6 +46,17 @@
    "retailer_focus": "beauty_general",
    "score_total": 74.5,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-08-20T14:09:34+09:00",
+   "score_total": 74.5,
+   "grade": "B",
+   "engagement_rate": 0.0196,
+   "followers": 447000,
+   "posts_last_30d": 7,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "sample_size": 7
   }
  ]
 }

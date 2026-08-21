@@ -1,39 +1,51 @@
 {
-  "platform": "youtube",
-  "username": "UCGqcc5NsekknvfzpFt4RVEA",
-  "fullname": "지니이즈백",
-  "profile_url": "https://www.youtube.com/channel/UCGqcc5NsekknvfzpFt4RVEA",
-  "channel_id": "UCGqcc5NsekknvfzpFt4RVEA",
-  "followers": 8300,
-  "engagement_rate": 0.0235,
-  "avg_likes": 291.8,
-  "avg_comments": 57.3,
-  "avg_views": 12429.7,
-  "posts_last_30d": 6,
-  "_posts_last_30d_est": false,
-  "sample_size": 6,
-  "brand_fit_score": 60,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_mentions": "11건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "1건",
-    "labrang_present": false
-  },
-  "evaluated_at": "2026-08-19T14:13:29+09:00",
-  "score_total": 63.0,
-  "grade": "C",
-  "score_breakdown": {
-    "er": 60,
-    "brand_fit": 60,
-    "consistency": 80,
-    "followers": 60,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-  },
-  "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-  },
-  "sample_note": "YT 30일내 6개",
-  "history": []
+ "platform": "youtube",
+ "username": "UCGqcc5NsekknvfzpFt4RVEA",
+ "fullname": "지니이즈백",
+ "profile_url": "https://www.youtube.com/channel/UCGqcc5NsekknvfzpFt4RVEA",
+ "channel_id": "UCGqcc5NsekknvfzpFt4RVEA",
+ "followers": 8900,
+ "engagement_rate": 0.015,
+ "avg_likes": 103.5,
+ "avg_comments": 9.5,
+ "avg_views": 6875.5,
+ "posts_last_30d": 15,
+ "_posts_last_30d_est": false,
+ "sample_size": 15,
+ "brand_fit_score": 25,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso_mentions": "15건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "0건",
+  "labrang_present": false
+ },
+ "evaluated_at": "2026-08-21T10:37:59+09:00",
+ "score_total": 57.25,
+ "grade": "C",
+ "score_breakdown": {
+  "er": 60,
+  "brand_fit": 25,
+  "consistency": 100,
+  "followers": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false
+ },
+ "sample_note": "YT 30일내 15개",
+ "history": [
+  {
+   "evaluated_at": "2026-08-19T14:13:29+09:00",
+   "score_total": 63.0,
+   "grade": "C",
+   "engagement_rate": 0.0235,
+   "followers": 8300,
+   "posts_last_30d": 6,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso",
+   "sample_size": 6
+  }
+ ]
 }

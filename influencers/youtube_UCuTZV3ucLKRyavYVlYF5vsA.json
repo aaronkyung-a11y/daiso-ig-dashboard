@@ -1,39 +1,51 @@
 {
-  "platform": "youtube",
-  "username": "UCuTZV3ucLKRyavYVlYF5vsA",
-  "fullname": "뷰티카트",
-  "profile_url": "https://www.youtube.com/channel/UCuTZV3ucLKRyavYVlYF5vsA",
-  "channel_id": "UCuTZV3ucLKRyavYVlYF5vsA",
-  "followers": 1360,
-  "engagement_rate": 0.0435,
-  "avg_likes": 1.0,
-  "avg_comments": 0.0,
-  "avg_views": 23.0,
-  "posts_last_30d": 1,
-  "_posts_last_30d_est": false,
-  "sample_size": 1,
-  "brand_fit_score": 90,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_mentions": "8건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "9건",
-    "labrang_present": false
-  },
-  "evaluated_at": "2026-08-19T14:13:29+09:00",
-  "score_total": 74.5,
-  "grade": "B",
-  "score_breakdown": {
-    "er": 80,
-    "brand_fit": 90,
-    "consistency": 40,
-    "followers": 60,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-  },
-  "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-  },
-  "sample_note": "YT 30일내 1개",
-  "history": []
+ "platform": "youtube",
+ "username": "UCuTZV3ucLKRyavYVlYF5vsA",
+ "fullname": "뷰티카트",
+ "profile_url": "https://www.youtube.com/channel/UCuTZV3ucLKRyavYVlYF5vsA",
+ "channel_id": "UCuTZV3ucLKRyavYVlYF5vsA",
+ "followers": 1380,
+ "engagement_rate": 0.0068,
+ "avg_likes": 13.0,
+ "avg_comments": 0.0,
+ "avg_views": 1903.7,
+ "posts_last_30d": 15,
+ "_posts_last_30d_est": false,
+ "sample_size": 15,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso_mentions": "49건",
+  "olive_young_mentions": "18건",
+  "beauty_keywords": "48건",
+  "labrang_present": true
+ },
+ "evaluated_at": "2026-08-21T11:22:59+09:00",
+ "score_total": 66.0,
+ "grade": "B",
+ "score_breakdown": {
+  "er": 40,
+  "brand_fit": 100,
+  "consistency": 100,
+  "followers": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false
+ },
+ "sample_note": "YT 30일내 15개",
+ "history": [
+  {
+   "evaluated_at": "2026-08-19T14:13:29+09:00",
+   "score_total": 74.5,
+   "grade": "B",
+   "engagement_rate": 0.0435,
+   "followers": 1360,
+   "posts_last_30d": 1,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 1
+  }
+ ]
 }

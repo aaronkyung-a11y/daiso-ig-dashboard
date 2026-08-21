@@ -1,39 +1,51 @@
 {
-  "platform": "youtube",
-  "username": "UCxyZ8KuHWIgpmLP2XHcc5pQ",
-  "fullname": "오시앙 SiAng",
-  "profile_url": "https://www.youtube.com/channel/UCxyZ8KuHWIgpmLP2XHcc5pQ",
-  "channel_id": "UCxyZ8KuHWIgpmLP2XHcc5pQ",
-  "followers": 13600,
-  "engagement_rate": 0.0239,
-  "avg_likes": 107.0,
-  "avg_comments": 35.0,
-  "avg_views": 4476.0,
-  "posts_last_30d": 1,
-  "_posts_last_30d_est": false,
-  "sample_size": 1,
-  "brand_fit_score": 60,
-  "retailer_focus": "beauty_general",
-  "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "2건",
-    "labrang_present": false
-  },
-  "evaluated_at": "2026-08-19T14:13:29+09:00",
-  "score_total": 59.0,
-  "grade": "C",
-  "score_breakdown": {
-    "er": 60,
-    "brand_fit": 60,
-    "consistency": 40,
-    "followers": 80,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-  },
-  "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-  },
-  "sample_note": "YT 30일내 1개",
-  "history": []
+ "platform": "youtube",
+ "username": "UCxyZ8KuHWIgpmLP2XHcc5pQ",
+ "fullname": "오시앙 SiAng",
+ "profile_url": "https://www.youtube.com/channel/UCxyZ8KuHWIgpmLP2XHcc5pQ",
+ "channel_id": "UCxyZ8KuHWIgpmLP2XHcc5pQ",
+ "followers": 13600,
+ "engagement_rate": 0.0156,
+ "avg_likes": 319.8,
+ "avg_comments": 12.0,
+ "avg_views": 20507.4,
+ "posts_last_30d": 5,
+ "_posts_last_30d_est": false,
+ "sample_size": 5,
+ "brand_fit_score": 75,
+ "retailer_focus": "daiso",
+ "retailer_signal": {
+  "daiso_mentions": "4건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "3건",
+  "labrang_present": false
+ },
+ "evaluated_at": "2026-08-21T11:23:37+09:00",
+ "score_total": 68.75,
+ "grade": "B",
+ "score_breakdown": {
+  "er": 60,
+  "brand_fit": 75,
+  "consistency": 80,
+  "followers": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false
+ },
+ "sample_note": "YT 30일내 5개",
+ "history": [
+  {
+   "evaluated_at": "2026-08-19T14:13:29+09:00",
+   "score_total": 59.0,
+   "grade": "C",
+   "engagement_rate": 0.0239,
+   "followers": 13600,
+   "posts_last_30d": 1,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "sample_size": 1
+  }
+ ]
 }

@@ -1,61 +1,72 @@
 {
-  "platform": "youtube",
-  "username": "UCLXYyuMtfzbXPlimfOWQGHA",
-  "fullname": "여니룸",
-  "profile_url": "https://www.youtube.com/channel/UCLXYyuMtfzbXPlimfOWQGHA",
-  "channel_id": "UCLXYyuMtfzbXPlimfOWQGHA",
-  "followers": 3240,
-  "engagement_rate": 0.0034,
-  "avg_likes": 154.8,
-  "avg_comments": 2.0,
-  "avg_views": 45700.7,
-  "posts_last_30d": 20,
-  "_posts_last_30d_est": false,
-  "sample_size": 20,
-  "brand_fit_score": 75,
-  "retailer_focus": "daiso",
-  "retailer_signal": {
-    "daiso_mentions": "2건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "3건",
-    "labrang_present": false
+ "platform": "youtube",
+ "username": "UCLXYyuMtfzbXPlimfOWQGHA",
+ "fullname": "여니룸",
+ "profile_url": "https://www.youtube.com/channel/UCLXYyuMtfzbXPlimfOWQGHA",
+ "channel_id": "UCLXYyuMtfzbXPlimfOWQGHA",
+ "followers": 0,
+ "engagement_rate": 0.006,
+ "avg_likes": 25.4,
+ "avg_comments": 1.1,
+ "avg_views": 4257.4,
+ "posts_last_30d": 15,
+ "_posts_last_30d_est": false,
+ "sample_size": 15,
+ "brand_fit_score": 25,
+ "retailer_focus": "off_topic",
+ "retailer_signal": {
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "0건",
+  "labrang_present": false
+ },
+ "evaluated_at": "2026-08-21T11:14:16+09:00",
+ "score_total": 45.25,
+ "grade": "D",
+ "score_breakdown": {
+  "er": 40,
+  "brand_fit": 25,
+  "consistency": 100,
+  "followers": 40,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false
+ },
+ "sample_note": "YT 30일내 15개",
+ "history": [
+  {
+   "evaluated_at": "2026-08-12T10:29:08+09:00",
+   "followers": 3230,
+   "engagement_rate": 0.0034,
+   "avg_likes": 168.8,
+   "posts_last_30d": 18,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso",
+   "score_total": 56.0,
+   "grade": "C"
   },
-  "evaluated_at": "2026-08-17T10:21:43+09:00",
-  "score_total": 59.75,
-  "grade": "C",
-  "score_breakdown": {
-    "er": 40,
-    "brand_fit": 75,
-    "consistency": 100,
-    "followers": 60,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  {
+   "evaluated_at": "2026-07-31T14:24:32.593707+09:00",
+   "score_total": 56.0,
+   "grade": "C",
+   "engagement_rate": 0.0033,
+   "followers": 3200,
+   "posts_last_30d": 10,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso"
   },
-  "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-  },
-  "sample_note": "YT[/shorts] 30일내 20개",
-  "history": [
-    {
-      "evaluated_at": "2026-08-12T10:29:08+09:00",
-      "followers": 3230,
-      "engagement_rate": 0.0034,
-      "avg_likes": 168.8,
-      "posts_last_30d": 18,
-      "brand_fit_score": 60,
-      "retailer_focus": "daiso",
-      "score_total": 56.0,
-      "grade": "C"
-    },
-    {
-      "evaluated_at": "2026-07-31T14:24:32.593707+09:00",
-      "score_total": 56.0,
-      "grade": "C",
-      "engagement_rate": 0.0033,
-      "followers": 3200,
-      "posts_last_30d": 10,
-      "brand_fit_score": 60,
-      "retailer_focus": "daiso"
-    }
-  ]
+  {
+   "evaluated_at": "2026-08-17T10:21:43+09:00",
+   "score_total": 59.75,
+   "grade": "C",
+   "engagement_rate": 0.0034,
+   "followers": 3240,
+   "posts_last_30d": 20,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "sample_size": 20
+  }
+ ]
 }

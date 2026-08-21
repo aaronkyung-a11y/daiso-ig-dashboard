@@ -1,61 +1,72 @@
 {
-  "platform": "youtube",
-  "username": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
-  "fullname": "centralgrocery",
-  "profile_url": "https://www.youtube.com/channel/UCSJBRrUKLZ3QRQsw3cE9Oyw",
-  "channel_id": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
-  "followers": 17900,
-  "engagement_rate": 0.0151,
-  "avg_likes": 319.6,
-  "avg_comments": 35.4,
-  "avg_views": 21196.2,
-  "posts_last_30d": 20,
-  "_posts_last_30d_est": false,
-  "sample_size": 20,
-  "brand_fit_score": 60,
-  "retailer_focus": "beauty_general",
-  "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "1건",
-    "labrang_present": false
+ "platform": "youtube",
+ "username": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
+ "fullname": "centralgrocery",
+ "profile_url": "https://www.youtube.com/channel/UCSJBRrUKLZ3QRQsw3cE9Oyw",
+ "channel_id": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
+ "followers": 18700,
+ "engagement_rate": 0.0151,
+ "avg_likes": 315.5,
+ "avg_comments": 39.1,
+ "avg_views": 20895.1,
+ "posts_last_30d": 15,
+ "_posts_last_30d_est": false,
+ "sample_size": 15,
+ "brand_fit_score": 60,
+ "retailer_focus": "beauty_general",
+ "retailer_signal": {
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "1건",
+  "labrang_present": false
+ },
+ "evaluated_at": "2026-08-21T10:49:47+09:00",
+ "score_total": 68.0,
+ "grade": "B",
+ "score_breakdown": {
+  "er": 60,
+  "brand_fit": 60,
+  "consistency": 100,
+  "followers": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false
+ },
+ "sample_note": "YT 30일내 15개",
+ "history": [
+  {
+   "evaluated_at": "2026-08-12T10:23:07+09:00",
+   "followers": 16500,
+   "engagement_rate": 0.0161,
+   "avg_likes": 309.6,
+   "posts_last_30d": 18,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "score_total": 68.0,
+   "grade": "B"
   },
-  "evaluated_at": "2026-08-17T10:14:29+09:00",
-  "score_total": 68.0,
-  "grade": "B",
-  "score_breakdown": {
-    "er": 60,
-    "brand_fit": 60,
-    "consistency": 100,
-    "followers": 80,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  {
+   "evaluated_at": "2026-08-10T17:09:23+09:00",
+   "score_total": 59.25,
+   "grade": "C",
+   "engagement_rate": 0.0162,
+   "followers": 16000,
+   "posts_last_30d": 22,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic"
   },
-  "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-  },
-  "sample_note": "YT 30일내 20개",
-  "history": [
-    {
-      "evaluated_at": "2026-08-12T10:23:07+09:00",
-      "followers": 16500,
-      "engagement_rate": 0.0161,
-      "avg_likes": 309.6,
-      "posts_last_30d": 18,
-      "brand_fit_score": 60,
-      "retailer_focus": "beauty_general",
-      "score_total": 68.0,
-      "grade": "B"
-    },
-    {
-      "evaluated_at": "2026-08-10T17:09:23+09:00",
-      "score_total": 59.25,
-      "grade": "C",
-      "engagement_rate": 0.0162,
-      "followers": 16000,
-      "posts_last_30d": 22,
-      "brand_fit_score": 25,
-      "retailer_focus": "off_topic"
-    }
-  ]
+  {
+   "evaluated_at": "2026-08-17T10:14:29+09:00",
+   "score_total": 68.0,
+   "grade": "B",
+   "engagement_rate": 0.0151,
+   "followers": 17900,
+   "posts_last_30d": 20,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "sample_size": 20
+  }
+ ]
 }
