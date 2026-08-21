@@ -4,7 +4,7 @@
  "fullname": "황송픽 hs_pick",
  "profile_url": "https://www.youtube.com/channel/UC6gHLvwXKjfSG9OkECAJT5g",
  "channel_id": "UC6gHLvwXKjfSG9OkECAJT5g",
- "followers": 0,
+ "followers": 22600,
  "engagement_rate": 0.0063,
  "avg_likes": 27.7,
  "avg_comments": 1.9,
@@ -21,20 +21,20 @@
   "labrang_present": false
  },
  "evaluated_at": "2026-08-21T11:13:10+09:00",
- "score_total": 58.5,
+ "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 90,
   "consistency": 80,
-  "followers": 40,
+  "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false
  },
- "sample_note": "YT 30일내 7개",
+ "sample_note": "YT 30일내 7개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:29:09+09:00",

@@ -4,7 +4,7 @@
  "fullname": "레이지홈",
  "profile_url": "https://www.youtube.com/channel/UCIErIGNaCbne1_Eu1VzHFcw",
  "channel_id": "UCIErIGNaCbne1_Eu1VzHFcw",
- "followers": 0,
+ "followers": 2180,
  "engagement_rate": 0.0078,
  "avg_likes": 92.5,
  "avg_comments": 1.5,
@@ -21,20 +21,20 @@
   "labrang_present": false
  },
  "evaluated_at": "2026-08-21T11:14:00+09:00",
- "score_total": 51.75,
+ "score_total": 53.75,
  "grade": "D",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 75,
   "consistency": 60,
-  "followers": 40,
+  "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false
  },
- "sample_note": "YT 30일내 2개",
+ "sample_note": "YT 30일내 2개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:26:00+09:00",

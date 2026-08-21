@@ -4,7 +4,7 @@
  "fullname": "핫한걸",
  "profile_url": "https://www.youtube.com/channel/UCtgE4LyeI-Y2ZADVA-ogRaw",
  "channel_id": "UCtgE4LyeI-Y2ZADVA-ogRaw",
- "followers": 0,
+ "followers": 18100,
  "engagement_rate": 0.0091,
  "avg_likes": 738.5,
  "avg_comments": 48.9,
@@ -21,20 +21,20 @@
   "labrang_present": false
  },
  "evaluated_at": "2026-08-21T11:21:12+09:00",
- "score_total": 61.5,
- "grade": "C",
+ "score_total": 65.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 90,
   "consistency": 100,
-  "followers": 40,
+  "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",

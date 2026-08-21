@@ -4,7 +4,7 @@
  "fullname": "건강씨그날",
  "profile_url": "https://www.youtube.com/channel/UCKn4BDg7hnEDhnr_ukz9-aw",
  "channel_id": "UCKn4BDg7hnEDhnr_ukz9-aw",
- "followers": 0,
+ "followers": 121000,
  "engagement_rate": 0.0086,
  "avg_likes": 123.4,
  "avg_comments": 0.5,
@@ -21,20 +21,20 @@
   "labrang_present": false
  },
  "evaluated_at": "2026-08-21T11:14:11+09:00",
- "score_total": 52.5,
- "grade": "D",
+ "score_total": 58.5,
+ "grade": "C",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 90,
   "consistency": 40,
-  "followers": 40,
+  "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false
  },
- "sample_note": "YT 30일내 0 → 최근 12개 대체",
+ "sample_note": "YT 30일내 0 → 최근 12개 대체 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:24:59+09:00",

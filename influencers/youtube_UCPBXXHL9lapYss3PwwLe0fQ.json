@@ -4,7 +4,7 @@
  "fullname": "뷰요미",
  "profile_url": "https://www.youtube.com/channel/UCPBXXHL9lapYss3PwwLe0fQ",
  "channel_id": "UCPBXXHL9lapYss3PwwLe0fQ",
- "followers": 0,
+ "followers": 8220,
  "engagement_rate": 0.0137,
  "avg_likes": 1061.3,
  "avg_comments": 10.8,
@@ -21,20 +21,20 @@
   "labrang_present": false
  },
  "evaluated_at": "2026-08-21T11:14:44+09:00",
- "score_total": 67.75,
+ "score_total": 69.75,
  "grade": "B",
  "score_breakdown": {
   "er": 60,
   "brand_fit": 75,
   "consistency": 100,
-  "followers": 40,
+  "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
  "history": [
   {
    "evaluated_at": "2026-07-27T10:25:16+09:00",

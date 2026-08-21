@@ -4,7 +4,7 @@
  "fullname": "POLINA ZAITSEVA",
  "profile_url": "https://www.youtube.com/channel/UCsZ_7NNHqolo9mos449uSfg",
  "channel_id": "UCsZ_7NNHqolo9mos449uSfg",
- "followers": 0,
+ "followers": 5450,
  "engagement_rate": 0.0056,
  "avg_likes": 755.4,
  "avg_comments": 1.7,
@@ -21,20 +21,20 @@
   "labrang_present": false
  },
  "evaluated_at": "2026-08-21T11:20:52+09:00",
- "score_total": 45.25,
+ "score_total": 47.25,
  "grade": "D",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 25,
   "consistency": 100,
-  "followers": 40,
+  "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false
  },
- "sample_note": "YT 30일내 10개",
+ "sample_note": "YT 30일내 10개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:29:08+09:00",

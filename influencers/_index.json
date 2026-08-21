@@ -1,6 +1,6 @@
 {
- "last_updated": "2026-08-21T11:25:59+09:00",
- "lastUpdated": "2026-08-21T11:25:59+09:00",
+ "last_updated": "2026-08-21T11:30:13+09:00",
+ "lastUpdated": "2026-08-21T11:30:13+09:00",
  "last_run_mode": "weekday-10:00 queue+full-watchlist-refresh",
  "total": 198,
  "platforms": {
@@ -8,11 +8,11 @@
   "youtube": 175
  },
  "grades": {
-  "S": 14,
-  "A": 43,
+  "S": 15,
+  "A": 46,
   "B": 63,
   "C": 54,
-  "D": 24
+  "D": 20
  },
  "retailer_focus": {
   "daiso": 64,
@@ -23,7 +23,7 @@
   "off_topic": 19
  },
  "dedup_note": "동일 채널 중복 파일(youtube_Jinyaa.json / youtube_UCRiIf6rt91BVfZVtURRXlOw.json)은 최신 1건만 집계",
- "method_note": "2026-08-21 10:00 실행부터 YT 샘플링을 채널 RSS(30일 내 업로드 전체, shorts 포함) 기준으로 변경. 이전 슬롯은 /videos 롱폼 기준이라 점수 비교 시 주의.",
+ "method_note": "2026-08-21 10:00 실행부터 YT 샘플링을 채널 RSS(30일 내 업로드 전체, shorts 포함) 기준으로 변경. 이전 슬롯은 /videos 롱폼 기준이라 점수 직접 비교 시 주의.",
  "records": [
   {
    "platform": "instagram",
@@ -61,7 +61,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 21 (web_profile_info 400 우회: topsearch+users/info)"
+   "sample_note": "IG 샘플 24개, 30일내 21 (web_profile_info 400 우회: topsearch+users/info)",
+   "history_len": 26
   },
   {
    "platform": "instagram",
@@ -99,7 +100,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 23"
+   "sample_note": "IG 샘플 24개, 30일내 23",
+   "history_len": 25
   },
   {
    "platform": "instagram",
@@ -137,7 +139,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 3"
+   "sample_note": "IG 샘플 24개, 30일내 3",
+   "history_len": 26
   },
   {
    "platform": "instagram",
@@ -175,7 +178,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 6"
+   "sample_note": "IG 샘플 24개, 30일내 6",
+   "history_len": 25
   },
   {
    "platform": "instagram",
@@ -213,7 +217,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 23개, 30일내 6"
+   "sample_note": "IG 샘플 23개, 30일내 6",
+   "history_len": 23
   },
   {
    "platform": "instagram",
@@ -251,7 +256,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 12"
+   "sample_note": "IG 샘플 24개, 30일내 12",
+   "history_len": 26
   },
   {
    "platform": "instagram",
@@ -289,7 +295,47 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 13"
+   "sample_note": "IG 샘플 24개, 30일내 13",
+   "history_len": 23
+  },
+  {
+   "platform": "youtube",
+   "username": "UCAJKsKmumOybMKA0jZ1i7nw",
+   "fullname": "거지코덕",
+   "profile_url": "https://www.youtube.com/channel/UCAJKsKmumOybMKA0jZ1i7nw",
+   "channel_id": "UCAJKsKmumOybMKA0jZ1i7nw",
+   "followers": 21000,
+   "engagement_rate": 0.0326,
+   "avg_likes": 2207.8,
+   "avg_comments": 35.0,
+   "avg_views": 67759.8,
+   "posts_last_30d": 13,
+   "_posts_last_30d_est": false,
+   "sample_size": 13,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "retailer_signal": {
+    "daiso_mentions": "10건",
+    "olive_young_mentions": "8건",
+    "beauty_keywords": "19건",
+    "labrang_present": true
+   },
+   "evaluated_at": "2026-08-21T11:13:10+09:00",
+   "score_total": 88.0,
+   "grade": "S",
+   "score_breakdown": {
+    "er": 80,
+    "brand_fit": 100,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 13개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 3
   },
   {
    "platform": "instagram",
@@ -327,7 +373,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 12개, 30일내 2"
+   "sample_note": "IG 샘플 12개, 30일내 2",
+   "history_len": 19
   },
   {
    "platform": "youtube",
@@ -365,7 +412,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 10개"
+   "sample_note": "YT 30일내 10개",
+   "history_len": 26
   },
   {
    "platform": "instagram",
@@ -403,7 +451,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 12 (web_profile_info 400 우회: topsearch+users/info)"
+   "sample_note": "IG 샘플 24개, 30일내 12 (web_profile_info 400 우회: topsearch+users/info)",
+   "history_len": 23
   },
   {
    "platform": "instagram",
@@ -441,7 +490,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 3"
+   "sample_note": "IG 샘플 24개, 30일내 3",
+   "history_len": 26
   },
   {
    "platform": "instagram",
@@ -479,7 +529,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 6"
+   "sample_note": "IG 샘플 24개, 30일내 6",
+   "history_len": 23
   },
   {
    "platform": "youtube",
@@ -517,7 +568,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 13개"
+   "sample_note": "YT 30일내 13개",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -555,7 +607,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 10개"
+   "sample_note": "YT 30일내 10개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -593,7 +646,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 6개"
+   "sample_note": "YT 30일내 6개",
+   "history_len": 2
   },
   {
    "platform": "youtube",
@@ -631,45 +685,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 5개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCAJKsKmumOybMKA0jZ1i7nw",
-   "fullname": "거지코덕",
-   "profile_url": "https://www.youtube.com/channel/UCAJKsKmumOybMKA0jZ1i7nw",
-   "channel_id": "UCAJKsKmumOybMKA0jZ1i7nw",
-   "followers": 0,
-   "engagement_rate": 0.0326,
-   "avg_likes": 2207.8,
-   "avg_comments": 35.0,
-   "avg_views": 67759.8,
-   "posts_last_30d": 13,
-   "_posts_last_30d_est": false,
-   "sample_size": 13,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "retailer_signal": {
-    "daiso_mentions": "10건",
-    "olive_young_mentions": "8건",
-    "beauty_keywords": "19건",
-    "labrang_present": true
-   },
-   "evaluated_at": "2026-08-21T11:13:10+09:00",
-   "score_total": 84.0,
-   "grade": "A",
-   "score_breakdown": {
-    "er": 80,
-    "brand_fit": 100,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 13개"
+   "sample_note": "YT 30일내 5개",
+   "history_len": 26
   },
   {
    "platform": "instagram",
@@ -707,7 +724,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 10"
+   "sample_note": "IG 샘플 24개, 30일내 10",
+   "history_len": 23
   },
   {
    "platform": "youtube",
@@ -745,7 +763,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 11개"
+   "sample_note": "YT 30일내 11개",
+   "history_len": 26
   },
   {
    "platform": "instagram",
@@ -783,7 +802,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 9"
+   "sample_note": "IG 샘플 24개, 30일내 9",
+   "history_len": 26
   },
   {
    "platform": "instagram",
@@ -821,7 +841,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 4"
+   "sample_note": "IG 샘플 24개, 30일내 4",
+   "history_len": 22
   },
   {
    "platform": "youtube",
@@ -859,7 +880,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -897,7 +919,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 11개"
+   "sample_note": "YT 30일내 11개",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -935,7 +958,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCT0hOMxD29g2B6BrK6QTIag",
+   "fullname": "현징이",
+   "profile_url": "https://www.youtube.com/channel/UCT0hOMxD29g2B6BrK6QTIag",
+   "channel_id": "UCT0hOMxD29g2B6BrK6QTIag",
+   "followers": 22900,
+   "engagement_rate": 0.0213,
+   "avg_likes": 920.6,
+   "avg_comments": 13.6,
+   "avg_views": 43194.9,
+   "posts_last_30d": 14,
+   "_posts_last_30d_est": false,
+   "sample_size": 14,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "retailer_signal": {
+    "daiso_mentions": "14건",
+    "olive_young_mentions": "4건",
+    "beauty_keywords": "23건",
+    "labrang_present": true
+   },
+   "evaluated_at": "2026-08-21T11:16:24+09:00",
+   "score_total": 78.0,
+   "grade": "A",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 100,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 14개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -973,7 +1036,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 2개"
+   "sample_note": "YT 30일내 2개",
+   "history_len": 3
   },
   {
    "platform": "instagram",
@@ -1011,7 +1075,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 22"
+   "sample_note": "IG 샘플 24개, 30일내 22",
+   "history_len": 25
   },
   {
    "platform": "youtube",
@@ -1049,7 +1114,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UC86AuKBawrgBuEZIgiOo7hA",
+   "fullname": "셀럽의 건강비결",
+   "profile_url": "https://www.youtube.com/channel/UC86AuKBawrgBuEZIgiOo7hA",
+   "channel_id": "UC86AuKBawrgBuEZIgiOo7hA",
+   "followers": 110000,
+   "engagement_rate": 0.0112,
+   "avg_likes": 182.0,
+   "avg_comments": 1.2,
+   "avg_views": 16233.9,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "retailer_signal": {
+    "daiso_mentions": "5건",
+    "olive_young_mentions": "13건",
+    "beauty_keywords": "41건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:13:10+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1087,7 +1192,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 11개"
+   "sample_note": "YT 30일내 11개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1125,7 +1231,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 10개"
+   "sample_note": "YT 30일내 10개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1163,7 +1270,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCQN8kxyq6a_z0-49pG8g09w",
+   "fullname": "장수의 비밀",
+   "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
+   "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
+   "followers": 188000,
+   "engagement_rate": 0.0146,
+   "avg_likes": 742.5,
+   "avg_comments": 1.5,
+   "avg_views": 50995.9,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "79건",
+    "olive_young_mentions": "3건",
+    "beauty_keywords": "52건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:14:52+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1201,7 +1348,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1239,7 +1387,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1277,7 +1426,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 10개"
+   "sample_note": "YT 30일내 10개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1315,7 +1465,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 2
   },
   {
    "platform": "youtube",
@@ -1353,7 +1504,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -1391,7 +1543,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1429,7 +1582,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 11개"
+   "sample_note": "YT 30일내 11개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1467,7 +1621,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 2
   },
   {
    "platform": "youtube",
@@ -1505,7 +1660,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 12개"
+   "sample_note": "YT 30일내 12개",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -1543,7 +1699,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1581,7 +1738,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 11개"
+   "sample_note": "YT 30일내 11개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1619,7 +1777,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1657,7 +1816,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 6
   },
   {
    "platform": "youtube",
@@ -1695,7 +1855,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1733,7 +1894,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 6개"
+   "sample_note": "YT 30일내 6개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1771,7 +1933,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 11개"
+   "sample_note": "YT 30일내 11개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1809,7 +1972,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 14개"
+   "sample_note": "YT 30일내 14개",
+   "history_len": 1
   },
   {
    "platform": "instagram",
@@ -1847,7 +2011,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 23"
+   "sample_note": "IG 샘플 24개, 30일내 23",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1885,7 +2050,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1923,7 +2089,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -1961,7 +2128,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -1999,7 +2167,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 14개"
+   "sample_note": "YT 30일내 14개",
+   "history_len": 6
+  },
+  {
+   "platform": "youtube",
+   "username": "UCWOEKc5N7nYmeyqV8DfuDdw",
+   "fullname": "왕실 피부 건강 연구소",
+   "profile_url": "https://www.youtube.com/channel/UCWOEKc5N7nYmeyqV8DfuDdw",
+   "channel_id": "UCWOEKc5N7nYmeyqV8DfuDdw",
+   "followers": 19500,
+   "engagement_rate": 0.0156,
+   "avg_likes": 153.0,
+   "avg_comments": 0.5,
+   "avg_views": 9790.1,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "74건",
+    "olive_young_mentions": "2건",
+    "beauty_keywords": "20건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:16:24+09:00",
+   "score_total": 75.5,
+   "grade": "A",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 6
   },
   {
    "platform": "youtube",
@@ -2037,7 +2245,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2075,7 +2284,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2113,7 +2323,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2151,7 +2362,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 12개"
+   "sample_note": "YT 30일내 12개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2189,7 +2401,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 10개"
+   "sample_note": "YT 30일내 10개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2227,7 +2440,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 6개"
+   "sample_note": "YT 30일내 6개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2265,7 +2479,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 6개"
+   "sample_note": "YT 30일내 6개",
+   "history_len": 6
   },
   {
    "platform": "youtube",
@@ -2303,7 +2518,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 8개"
+   "sample_note": "YT 30일내 8개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2341,7 +2557,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 9개"
+   "sample_note": "YT 30일내 9개",
+   "history_len": 2
   },
   {
    "platform": "youtube",
@@ -2379,7 +2596,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 5개"
+   "sample_note": "YT 30일내 5개",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -2417,45 +2635,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 7개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCT0hOMxD29g2B6BrK6QTIag",
-   "fullname": "현징이",
-   "profile_url": "https://www.youtube.com/channel/UCT0hOMxD29g2B6BrK6QTIag",
-   "channel_id": "UCT0hOMxD29g2B6BrK6QTIag",
-   "followers": 0,
-   "engagement_rate": 0.0213,
-   "avg_likes": 920.6,
-   "avg_comments": 13.6,
-   "avg_views": 43194.9,
-   "posts_last_30d": 14,
-   "_posts_last_30d_est": false,
-   "sample_size": 14,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "retailer_signal": {
-    "daiso_mentions": "14건",
-    "olive_young_mentions": "4건",
-    "beauty_keywords": "23건",
-    "labrang_present": true
-   },
-   "evaluated_at": "2026-08-21T11:16:24+09:00",
-   "score_total": 74.0,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 100,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 14개"
+   "sample_note": "YT 30일내 7개",
+   "history_len": 26
   },
   {
    "platform": "instagram",
@@ -2493,7 +2674,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 20"
+   "sample_note": "IG 샘플 24개, 30일내 20",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2531,7 +2713,164 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 3
+  },
+  {
+   "platform": "youtube",
+   "username": "UCH5Eg4KvlMGPNIHZJSAUH8A",
+   "fullname": "홀앙희",
+   "profile_url": "https://www.youtube.com/channel/UCH5Eg4KvlMGPNIHZJSAUH8A",
+   "channel_id": "UCH5Eg4KvlMGPNIHZJSAUH8A",
+   "followers": 5070,
+   "engagement_rate": 0.0292,
+   "avg_likes": 1005.3,
+   "avg_comments": 11.3,
+   "avg_views": 34380.6,
+   "posts_last_30d": 10,
+   "_posts_last_30d_est": false,
+   "sample_size": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "retailer_signal": {
+    "daiso_mentions": "10건",
+    "olive_young_mentions": "36건",
+    "beauty_keywords": "20건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:13:46+09:00",
+   "score_total": 73.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 10개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCHCL-VtQlNJTmPA7oy6HQXg",
+   "fullname": "선스캣 sun's cat",
+   "profile_url": "https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg",
+   "channel_id": "UCHCL-VtQlNJTmPA7oy6HQXg",
+   "followers": 2520,
+   "engagement_rate": 0.027,
+   "avg_likes": 246.9,
+   "avg_comments": 4.6,
+   "avg_views": 9153.1,
+   "posts_last_30d": 14,
+   "_posts_last_30d_est": false,
+   "sample_size": 14,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
+   "retailer_signal": {
+    "daiso_mentions": "14건",
+    "olive_young_mentions": "12건",
+    "beauty_keywords": "92건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:13:54+09:00",
+   "score_total": 73.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 14개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCIQfSfmR-eDukN2kRhwPl3Q",
+   "fullname": "키키하우스 KIKIHOUSE",
+   "profile_url": "https://www.youtube.com/channel/UCIQfSfmR-eDukN2kRhwPl3Q",
+   "channel_id": "UCIQfSfmR-eDukN2kRhwPl3Q",
+   "followers": 9660,
+   "engagement_rate": 0.013,
+   "avg_likes": 144.7,
+   "avg_comments": 7.9,
+   "avg_views": 11120.7,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "2건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "14건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:14:04+09:00",
+   "score_total": 73.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCQ6zIN9oVHOiD5jlLWo-l3A",
+   "fullname": "글리터코코",
+   "profile_url": "https://www.youtube.com/channel/UCQ6zIN9oVHOiD5jlLWo-l3A",
+   "channel_id": "UCQ6zIN9oVHOiD5jlLWo-l3A",
+   "followers": 2950,
+   "engagement_rate": 0.0195,
+   "avg_likes": 45.9,
+   "avg_comments": 0.0,
+   "avg_views": 2357.0,
+   "posts_last_30d": 12,
+   "_posts_last_30d_est": false,
+   "sample_size": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "7건",
+    "olive_young_mentions": "2건",
+    "beauty_keywords": "8건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:14:48+09:00",
+   "score_total": 73.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 12개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -2569,7 +2908,125 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCcU1vg4c0iV1VKH8_BE7bZw",
+   "fullname": "찐예쁨연구소",
+   "profile_url": "https://www.youtube.com/channel/UCcU1vg4c0iV1VKH8_BE7bZw",
+   "channel_id": "UCcU1vg4c0iV1VKH8_BE7bZw",
+   "followers": 3140,
+   "engagement_rate": 0.0159,
+   "avg_likes": 44.3,
+   "avg_comments": 0.0,
+   "avg_views": 2780.9,
+   "posts_last_30d": 14,
+   "_posts_last_30d_est": false,
+   "sample_size": 14,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
+   "retailer_signal": {
+    "daiso_mentions": "8건",
+    "olive_young_mentions": "8건",
+    "beauty_keywords": "10건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:16:49+09:00",
+   "score_total": 73.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 14개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 25
+  },
+  {
+   "platform": "youtube",
+   "username": "UCk7crozhjvi2prXCtWwWxoQ",
+   "fullname": "뷰티장바구니",
+   "profile_url": "https://www.youtube.com/channel/UCk7crozhjvi2prXCtWwWxoQ",
+   "channel_id": "UCk7crozhjvi2prXCtWwWxoQ",
+   "followers": 2050,
+   "engagement_rate": 0.0115,
+   "avg_likes": 42.1,
+   "avg_comments": 0.5,
+   "avg_views": 3661.5,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "72건",
+    "olive_young_mentions": "9건",
+    "beauty_keywords": "48건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:17:24+09:00",
+   "score_total": 73.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 1
+  },
+  {
+   "platform": "youtube",
+   "username": "UCq7ZjN2HpEDU0Psyi5oRE3A",
+   "fullname": "연글램",
+   "profile_url": "https://www.youtube.com/channel/UCq7ZjN2HpEDU0Psyi5oRE3A",
+   "channel_id": "UCq7ZjN2HpEDU0Psyi5oRE3A",
+   "followers": 3860,
+   "engagement_rate": 0.0213,
+   "avg_likes": 64.5,
+   "avg_comments": 1.2,
+   "avg_views": 3028.5,
+   "posts_last_30d": 8,
+   "_posts_last_30d_est": false,
+   "sample_size": 8,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "retailer_signal": {
+    "daiso_mentions": "16건",
+    "olive_young_mentions": "8건",
+    "beauty_keywords": "17건",
+    "labrang_present": true
+   },
+   "evaluated_at": "2026-08-21T11:19:27+09:00",
+   "score_total": 73.0,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 100,
+    "consistency": 80,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 8개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 25
   },
   {
    "platform": "instagram",
@@ -2607,7 +3064,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 9"
+   "sample_note": "IG 샘플 24개, 30일내 9",
+   "history_len": 22
   },
   {
    "platform": "youtube",
@@ -2645,7 +3103,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 7개"
+   "sample_note": "YT 30일내 7개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2683,7 +3142,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 8개"
+   "sample_note": "YT 30일내 8개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2721,7 +3181,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 6개"
+   "sample_note": "YT 30일내 6개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2759,7 +3220,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 8개"
+   "sample_note": "YT 30일내 8개",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -2797,7 +3259,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 9개"
+   "sample_note": "YT 30일내 9개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2835,45 +3298,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 9개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC86AuKBawrgBuEZIgiOo7hA",
-   "fullname": "셀럽의 건강비결",
-   "profile_url": "https://www.youtube.com/channel/UC86AuKBawrgBuEZIgiOo7hA",
-   "channel_id": "UC86AuKBawrgBuEZIgiOo7hA",
-   "followers": 0,
-   "engagement_rate": 0.0112,
-   "avg_likes": 182.0,
-   "avg_comments": 1.2,
-   "avg_views": 16233.9,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "retailer_signal": {
-    "daiso_mentions": "5건",
-    "olive_young_mentions": "13건",
-    "beauty_keywords": "41건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:13:10+09:00",
-   "score_total": 71.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 9개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -2911,349 +3337,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 4개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCH5Eg4KvlMGPNIHZJSAUH8A",
-   "fullname": "홀앙희",
-   "profile_url": "https://www.youtube.com/channel/UCH5Eg4KvlMGPNIHZJSAUH8A",
-   "channel_id": "UCH5Eg4KvlMGPNIHZJSAUH8A",
-   "followers": 0,
-   "engagement_rate": 0.0292,
-   "avg_likes": 1005.3,
-   "avg_comments": 11.3,
-   "avg_views": 34380.6,
-   "posts_last_30d": 10,
-   "_posts_last_30d_est": false,
-   "sample_size": 10,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "retailer_signal": {
-    "daiso_mentions": "10건",
-    "olive_young_mentions": "36건",
-    "beauty_keywords": "20건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:13:46+09:00",
-   "score_total": 71.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 10개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCHCL-VtQlNJTmPA7oy6HQXg",
-   "fullname": "선스캣 sun's cat",
-   "profile_url": "https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg",
-   "channel_id": "UCHCL-VtQlNJTmPA7oy6HQXg",
-   "followers": 0,
-   "engagement_rate": 0.027,
-   "avg_likes": 246.9,
-   "avg_comments": 4.6,
-   "avg_views": 9153.1,
-   "posts_last_30d": 14,
-   "_posts_last_30d_est": false,
-   "sample_size": 14,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "retailer_signal": {
-    "daiso_mentions": "14건",
-    "olive_young_mentions": "12건",
-    "beauty_keywords": "92건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:13:54+09:00",
-   "score_total": 71.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 14개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCIQfSfmR-eDukN2kRhwPl3Q",
-   "fullname": "키키하우스 KIKIHOUSE",
-   "profile_url": "https://www.youtube.com/channel/UCIQfSfmR-eDukN2kRhwPl3Q",
-   "channel_id": "UCIQfSfmR-eDukN2kRhwPl3Q",
-   "followers": 0,
-   "engagement_rate": 0.013,
-   "avg_likes": 144.7,
-   "avg_comments": 7.9,
-   "avg_views": 11120.7,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "2건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "14건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:14:04+09:00",
-   "score_total": 71.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCQ6zIN9oVHOiD5jlLWo-l3A",
-   "fullname": "글리터코코",
-   "profile_url": "https://www.youtube.com/channel/UCQ6zIN9oVHOiD5jlLWo-l3A",
-   "channel_id": "UCQ6zIN9oVHOiD5jlLWo-l3A",
-   "followers": 0,
-   "engagement_rate": 0.0195,
-   "avg_likes": 45.9,
-   "avg_comments": 0.0,
-   "avg_views": 2357.0,
-   "posts_last_30d": 12,
-   "_posts_last_30d_est": false,
-   "sample_size": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "7건",
-    "olive_young_mentions": "2건",
-    "beauty_keywords": "8건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:14:48+09:00",
-   "score_total": 71.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 12개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCQN8kxyq6a_z0-49pG8g09w",
-   "fullname": "장수의 비밀",
-   "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
-   "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
-   "followers": 0,
-   "engagement_rate": 0.0146,
-   "avg_likes": 742.5,
-   "avg_comments": 1.5,
-   "avg_views": 50995.9,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "79건",
-    "olive_young_mentions": "3건",
-    "beauty_keywords": "52건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:14:52+09:00",
-   "score_total": 71.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCWOEKc5N7nYmeyqV8DfuDdw",
-   "fullname": "왕실 피부 건강 연구소",
-   "profile_url": "https://www.youtube.com/channel/UCWOEKc5N7nYmeyqV8DfuDdw",
-   "channel_id": "UCWOEKc5N7nYmeyqV8DfuDdw",
-   "followers": 0,
-   "engagement_rate": 0.0156,
-   "avg_likes": 153.0,
-   "avg_comments": 0.5,
-   "avg_views": 9790.1,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "74건",
-    "olive_young_mentions": "2건",
-    "beauty_keywords": "20건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:16:24+09:00",
-   "score_total": 71.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCcU1vg4c0iV1VKH8_BE7bZw",
-   "fullname": "찐예쁨연구소",
-   "profile_url": "https://www.youtube.com/channel/UCcU1vg4c0iV1VKH8_BE7bZw",
-   "channel_id": "UCcU1vg4c0iV1VKH8_BE7bZw",
-   "followers": 0,
-   "engagement_rate": 0.0159,
-   "avg_likes": 44.3,
-   "avg_comments": 0.0,
-   "avg_views": 2780.9,
-   "posts_last_30d": 14,
-   "_posts_last_30d_est": false,
-   "sample_size": 14,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "retailer_signal": {
-    "daiso_mentions": "8건",
-    "olive_young_mentions": "8건",
-    "beauty_keywords": "10건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:16:49+09:00",
-   "score_total": 71.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 14개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCk7crozhjvi2prXCtWwWxoQ",
-   "fullname": "뷰티장바구니",
-   "profile_url": "https://www.youtube.com/channel/UCk7crozhjvi2prXCtWwWxoQ",
-   "channel_id": "UCk7crozhjvi2prXCtWwWxoQ",
-   "followers": 0,
-   "engagement_rate": 0.0115,
-   "avg_likes": 42.1,
-   "avg_comments": 0.5,
-   "avg_views": 3661.5,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "72건",
-    "olive_young_mentions": "9건",
-    "beauty_keywords": "48건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:17:24+09:00",
-   "score_total": 71.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCq7ZjN2HpEDU0Psyi5oRE3A",
-   "fullname": "연글램",
-   "profile_url": "https://www.youtube.com/channel/UCq7ZjN2HpEDU0Psyi5oRE3A",
-   "channel_id": "UCq7ZjN2HpEDU0Psyi5oRE3A",
-   "followers": 0,
-   "engagement_rate": 0.0213,
-   "avg_likes": 64.5,
-   "avg_comments": 1.2,
-   "avg_views": 3028.5,
-   "posts_last_30d": 8,
-   "_posts_last_30d_est": false,
-   "sample_size": 8,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "retailer_signal": {
-    "daiso_mentions": "16건",
-    "olive_young_mentions": "8건",
-    "beauty_keywords": "17건",
-    "labrang_present": true
-   },
-   "evaluated_at": "2026-08-21T11:19:27+09:00",
-   "score_total": 71.0,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 100,
-    "consistency": 80,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 8개"
+   "sample_note": "YT 30일내 4개",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -3291,7 +3376,125 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 8개"
+   "sample_note": "YT 30일내 8개",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
+   "fullname": "키키 ",
+   "profile_url": "https://www.youtube.com/channel/UC8HAR9C0Wuy7Hp1RPi1BZiw",
+   "channel_id": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
+   "followers": 1830,
+   "engagement_rate": 0.0111,
+   "avg_likes": 1382.8,
+   "avg_comments": 15.1,
+   "avg_views": 124558.9,
+   "posts_last_30d": 8,
+   "_posts_last_30d_est": false,
+   "sample_size": 8,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "4건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "18건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:13:10+09:00",
+   "score_total": 70.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 80,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 8개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCYxuoueMuR3f80RU_ua4TXA",
+   "fullname": "로빗 lobit🐰🫧",
+   "profile_url": "https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA",
+   "channel_id": "UCYxuoueMuR3f80RU_ua4TXA",
+   "followers": 3090,
+   "engagement_rate": 0.019,
+   "avg_likes": 378.0,
+   "avg_comments": 6.5,
+   "avg_views": 19919.0,
+   "posts_last_30d": 8,
+   "_posts_last_30d_est": false,
+   "sample_size": 8,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "44건",
+    "olive_young_mentions": "13건",
+    "beauty_keywords": "32건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:16:25+09:00",
+   "score_total": 70.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 80,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 8개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCa6F7kUQnN8fmLBnSRSpY_g",
+   "fullname": "코덕순",
+   "profile_url": "https://www.youtube.com/channel/UCa6F7kUQnN8fmLBnSRSpY_g",
+   "channel_id": "UCa6F7kUQnN8fmLBnSRSpY_g",
+   "followers": 5010,
+   "engagement_rate": 0.0216,
+   "avg_likes": 1648.8,
+   "avg_comments": 15.8,
+   "avg_views": 76495.8,
+   "posts_last_30d": 9,
+   "_posts_last_30d_est": false,
+   "sample_size": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "65건",
+    "olive_young_mentions": "44건",
+    "beauty_keywords": "33건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:16:49+09:00",
+   "score_total": 70.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 80,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 9개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -3329,7 +3532,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCBKngvS6Kk4LWSZTKXQWnvA",
+   "fullname": "오드의원 민경률 원장",
+   "profile_url": "https://www.youtube.com/channel/UCBKngvS6Kk4LWSZTKXQWnvA",
+   "channel_id": "UCBKngvS6Kk4LWSZTKXQWnvA",
+   "followers": 5190,
+   "engagement_rate": 0.0124,
+   "avg_likes": 73.5,
+   "avg_comments": 4.6,
+   "avg_views": 5939.5,
+   "posts_last_30d": 13,
+   "_posts_last_30d_est": false,
+   "sample_size": 13,
+   "brand_fit_score": 75,
+   "retailer_focus": "beauty_general",
+   "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "3건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:13:10+09:00",
+   "score_total": 69.75,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 75,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 13개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 25
   },
   {
    "platform": "youtube",
@@ -3367,7 +3610,86 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 10개"
+   "sample_note": "YT 30일내 10개",
+   "history_len": 2
+  },
+  {
+   "platform": "youtube",
+   "username": "UCPBXXHL9lapYss3PwwLe0fQ",
+   "fullname": "뷰요미",
+   "profile_url": "https://www.youtube.com/channel/UCPBXXHL9lapYss3PwwLe0fQ",
+   "channel_id": "UCPBXXHL9lapYss3PwwLe0fQ",
+   "followers": 8220,
+   "engagement_rate": 0.0137,
+   "avg_likes": 1061.3,
+   "avg_comments": 10.8,
+   "avg_views": 77692.7,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "14건",
+    "olive_young_mentions": "4건",
+    "beauty_keywords": "6건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:14:44+09:00",
+   "score_total": 69.75,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 75,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCRPEXjbWYRtFdCKxMwWvrxQ",
+   "fullname": "유리나 𝒀𝒖𝒓𝒊𝒏𝒂",
+   "profile_url": "https://www.youtube.com/channel/UCRPEXjbWYRtFdCKxMwWvrxQ",
+   "channel_id": "UCRPEXjbWYRtFdCKxMwWvrxQ",
+   "followers": 3280,
+   "engagement_rate": 0.0209,
+   "avg_likes": 330.4,
+   "avg_comments": 5.4,
+   "avg_views": 15833.8,
+   "posts_last_30d": 14,
+   "_posts_last_30d_est": false,
+   "sample_size": 14,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "16건",
+    "olive_young_mentions": "4건",
+    "beauty_keywords": "5건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:15:00+09:00",
+   "score_total": 69.75,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 75,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 14개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -3405,7 +3727,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 4개"
+   "sample_note": "YT 30일내 4개",
+   "history_len": 6
   },
   {
    "platform": "youtube",
@@ -3443,7 +3766,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 7개"
+   "sample_note": "YT 30일내 7개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -3481,121 +3805,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 5개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
-   "fullname": "키키 ",
-   "profile_url": "https://www.youtube.com/channel/UC8HAR9C0Wuy7Hp1RPi1BZiw",
-   "channel_id": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
-   "followers": 0,
-   "engagement_rate": 0.0111,
-   "avg_likes": 1382.8,
-   "avg_comments": 15.1,
-   "avg_views": 124558.9,
-   "posts_last_30d": 8,
-   "_posts_last_30d_est": false,
-   "sample_size": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "4건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "18건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:13:10+09:00",
-   "score_total": 68.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 80,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 8개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCYxuoueMuR3f80RU_ua4TXA",
-   "fullname": "로빗 lobit🐰🫧",
-   "profile_url": "https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA",
-   "channel_id": "UCYxuoueMuR3f80RU_ua4TXA",
-   "followers": 0,
-   "engagement_rate": 0.019,
-   "avg_likes": 378.0,
-   "avg_comments": 6.5,
-   "avg_views": 19919.0,
-   "posts_last_30d": 8,
-   "_posts_last_30d_est": false,
-   "sample_size": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "44건",
-    "olive_young_mentions": "13건",
-    "beauty_keywords": "32건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:16:25+09:00",
-   "score_total": 68.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 80,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 8개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCa6F7kUQnN8fmLBnSRSpY_g",
-   "fullname": "코덕순",
-   "profile_url": "https://www.youtube.com/channel/UCa6F7kUQnN8fmLBnSRSpY_g",
-   "channel_id": "UCa6F7kUQnN8fmLBnSRSpY_g",
-   "followers": 0,
-   "engagement_rate": 0.0216,
-   "avg_likes": 1648.8,
-   "avg_comments": 15.8,
-   "avg_views": 76495.8,
-   "posts_last_30d": 9,
-   "_posts_last_30d_est": false,
-   "sample_size": 9,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "65건",
-    "olive_young_mentions": "44건",
-    "beauty_keywords": "33건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:16:49+09:00",
-   "score_total": 68.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 80,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 9개"
+   "sample_note": "YT 30일내 5개",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -3633,7 +3844,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 7개"
+   "sample_note": "YT 30일내 7개",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -3671,121 +3883,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCBKngvS6Kk4LWSZTKXQWnvA",
-   "fullname": "오드의원 민경률 원장",
-   "profile_url": "https://www.youtube.com/channel/UCBKngvS6Kk4LWSZTKXQWnvA",
-   "channel_id": "UCBKngvS6Kk4LWSZTKXQWnvA",
-   "followers": 0,
-   "engagement_rate": 0.0124,
-   "avg_likes": 73.5,
-   "avg_comments": 4.6,
-   "avg_views": 5939.5,
-   "posts_last_30d": 13,
-   "_posts_last_30d_est": false,
-   "sample_size": 13,
-   "brand_fit_score": 75,
-   "retailer_focus": "beauty_general",
-   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "3건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:13:10+09:00",
-   "score_total": 67.75,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 75,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 13개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCPBXXHL9lapYss3PwwLe0fQ",
-   "fullname": "뷰요미",
-   "profile_url": "https://www.youtube.com/channel/UCPBXXHL9lapYss3PwwLe0fQ",
-   "channel_id": "UCPBXXHL9lapYss3PwwLe0fQ",
-   "followers": 0,
-   "engagement_rate": 0.0137,
-   "avg_likes": 1061.3,
-   "avg_comments": 10.8,
-   "avg_views": 77692.7,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "14건",
-    "olive_young_mentions": "4건",
-    "beauty_keywords": "6건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:14:44+09:00",
-   "score_total": 67.75,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 75,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCRPEXjbWYRtFdCKxMwWvrxQ",
-   "fullname": "유리나 𝒀𝒖𝒓𝒊𝒏𝒂",
-   "profile_url": "https://www.youtube.com/channel/UCRPEXjbWYRtFdCKxMwWvrxQ",
-   "channel_id": "UCRPEXjbWYRtFdCKxMwWvrxQ",
-   "followers": 0,
-   "engagement_rate": 0.0209,
-   "avg_likes": 330.4,
-   "avg_comments": 5.4,
-   "avg_views": 15833.8,
-   "posts_last_30d": 14,
-   "_posts_last_30d_est": false,
-   "sample_size": 14,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "16건",
-    "olive_young_mentions": "4건",
-    "beauty_keywords": "5건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:15:00+09:00",
-   "score_total": 67.75,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 75,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 14개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 3
   },
   {
    "platform": "instagram",
@@ -3823,7 +3922,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 23 (web_profile_info 400 우회: topsearch+users/info)"
+   "sample_note": "IG 샘플 24개, 30일내 23 (web_profile_info 400 우회: topsearch+users/info)",
+   "history_len": 21
   },
   {
    "platform": "youtube",
@@ -3861,7 +3961,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -3899,7 +4000,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 13개"
+   "sample_note": "YT 30일내 13개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -3937,7 +4039,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCl0b0B4B3VHAs8AQKGYDCjw",
+   "fullname": "일돈나",
+   "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
+   "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
+   "followers": 1290,
+   "engagement_rate": 0.0133,
+   "avg_likes": 143.0,
+   "avg_comments": 1.0,
+   "avg_views": 10751.3,
+   "posts_last_30d": 3,
+   "_posts_last_30d_est": false,
+   "sample_size": 3,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "32건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "28건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:17:43+09:00",
+   "score_total": 67.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 60,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 3개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -3975,7 +4117,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4013,7 +4156,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4051,7 +4195,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 11개"
+   "sample_note": "YT 30일내 11개",
+   "history_len": 3
+  },
+  {
+   "platform": "youtube",
+   "username": "UCmf_Xgbqr0WnQsUOJXWXLLA",
+   "fullname": "코덕요정🧚‍♀️",
+   "profile_url": "https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA",
+   "channel_id": "UCmf_Xgbqr0WnQsUOJXWXLLA",
+   "followers": 119000,
+   "engagement_rate": 0.0197,
+   "avg_likes": 5958.4,
+   "avg_comments": 38.0,
+   "avg_views": 301737.4,
+   "posts_last_30d": 5,
+   "_posts_last_30d_est": false,
+   "sample_size": 5,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "3건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "1건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:18:01+09:00",
+   "score_total": 67.0,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 60,
+    "consistency": 80,
+    "followers": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 5개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4089,7 +4273,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 0 → 최근 12개 대체"
+   "sample_note": "YT 30일내 0 → 최근 12개 대체",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4127,7 +4312,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 1
   },
   {
    "platform": "instagram",
@@ -4165,7 +4351,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 20"
+   "sample_note": "IG 샘플 24개, 30일내 20",
+   "history_len": 25
   },
   {
    "platform": "youtube",
@@ -4203,7 +4390,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 12개"
+   "sample_note": "YT 30일내 12개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4241,7 +4429,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 11개"
+   "sample_note": "YT 30일내 11개",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCFuMPPmNvRAVIqYlAO5v_vg",
+   "fullname": "리뷰밍밍",
+   "profile_url": "https://www.youtube.com/channel/UCFuMPPmNvRAVIqYlAO5v_vg",
+   "channel_id": "UCFuMPPmNvRAVIqYlAO5v_vg",
+   "followers": 14500,
+   "engagement_rate": 0.0085,
+   "avg_likes": 122.6,
+   "avg_comments": 2.1,
+   "avg_views": 14413.7,
+   "posts_last_30d": 12,
+   "_posts_last_30d_est": false,
+   "sample_size": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "95건",
+    "olive_young_mentions": "6건",
+    "beauty_keywords": "85건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:13:46+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 12개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 25
   },
   {
    "platform": "youtube",
@@ -4279,7 +4507,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 13개"
+   "sample_note": "YT 30일내 13개",
+   "history_len": 6
+  },
+  {
+   "platform": "youtube",
+   "username": "UCPsApmFia_Ej6lcxNkNMp4A",
+   "fullname": "리틀약사 Shorts",
+   "profile_url": "https://www.youtube.com/channel/UCPsApmFia_Ej6lcxNkNMp4A",
+   "channel_id": "UCPsApmFia_Ej6lcxNkNMp4A",
+   "followers": 41800,
+   "engagement_rate": 0.0078,
+   "avg_likes": 202.5,
+   "avg_comments": 1.9,
+   "avg_views": 25870.1,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "1건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "36건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:14:44+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -4317,7 +4585,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 14개"
+   "sample_note": "YT 30일내 14개",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -4355,7 +4624,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 4개"
+   "sample_note": "YT 30일내 4개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4393,7 +4663,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4431,45 +4702,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 11개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCl0b0B4B3VHAs8AQKGYDCjw",
-   "fullname": "일돈나",
-   "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
-   "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
-   "followers": 0,
-   "engagement_rate": 0.0133,
-   "avg_likes": 143.0,
-   "avg_comments": 1.0,
-   "avg_views": 10751.3,
-   "posts_last_30d": 3,
-   "_posts_last_30d_est": false,
-   "sample_size": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "32건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "28건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:17:43+09:00",
-   "score_total": 65.5,
-   "grade": "B",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 90,
-    "consistency": 60,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 3개"
+   "sample_note": "YT 30일내 11개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4507,7 +4741,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 12개"
+   "sample_note": "YT 30일내 12개",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCtgE4LyeI-Y2ZADVA-ogRaw",
+   "fullname": "핫한걸",
+   "profile_url": "https://www.youtube.com/channel/UCtgE4LyeI-Y2ZADVA-ogRaw",
+   "channel_id": "UCtgE4LyeI-Y2ZADVA-ogRaw",
+   "followers": 18100,
+   "engagement_rate": 0.0091,
+   "avg_likes": 738.5,
+   "avg_comments": 48.9,
+   "avg_views": 80734.2,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "retailer_signal": {
+    "daiso_mentions": "6건",
+    "olive_young_mentions": "8건",
+    "beauty_keywords": "72건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:21:12+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 1
   },
   {
    "platform": "instagram",
@@ -4545,7 +4819,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 5"
+   "sample_note": "IG 샘플 24개, 30일내 5",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4553,7 +4828,7 @@
    "fullname": "은혜로운은혜",
    "profile_url": "https://www.youtube.com/channel/UClgkEMblgt1EUDYejTMiYug",
    "channel_id": "UClgkEMblgt1EUDYejTMiYug",
-   "followers": 0,
+   "followers": 416,
    "engagement_rate": 0.0149,
    "avg_likes": 952.6,
    "avg_comments": 3.0,
@@ -4583,7 +4858,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 0 → 최근 12개 대체"
+   "sample_note": "YT 30일내 0 → 최근 12개 대체 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4621,7 +4897,125 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 5개"
+   "sample_note": "YT 30일내 5개",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCzBbE7x7mPrs56PvCc0errA",
+   "fullname": "나나씨 Nanasi",
+   "profile_url": "https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA",
+   "channel_id": "UCzBbE7x7mPrs56PvCc0errA",
+   "followers": 159000,
+   "engagement_rate": 0.0173,
+   "avg_likes": 249.7,
+   "avg_comments": 28.0,
+   "avg_views": 14461.7,
+   "posts_last_30d": 3,
+   "_posts_last_30d_est": false,
+   "sample_size": 3,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "2건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:23:41+09:00",
+   "score_total": 64.0,
+   "grade": "C",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 60,
+    "consistency": 60,
+    "followers": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 3개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCMF0yXO7AUMutaktzpiMgSg",
+   "fullname": "뽀얌_ angel",
+   "profile_url": "https://www.youtube.com/channel/UCMF0yXO7AUMutaktzpiMgSg",
+   "channel_id": "UCMF0yXO7AUMutaktzpiMgSg",
+   "followers": 9480,
+   "engagement_rate": 0.01,
+   "avg_likes": 28.2,
+   "avg_comments": 2.2,
+   "avg_views": 2811.2,
+   "posts_last_30d": 4,
+   "_posts_last_30d_est": false,
+   "sample_size": 4,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "2건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "4건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:14:20+09:00",
+   "score_total": 63.75,
+   "grade": "C",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 75,
+    "consistency": 60,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 4개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 25
+  },
+  {
+   "platform": "youtube",
+   "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
+   "fullname": "뮤니",
+   "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
+   "channel_id": "UCUCUu_rOf4b5BtKIMRL7jhg",
+   "followers": 1690,
+   "engagement_rate": 0.0174,
+   "avg_likes": 287.2,
+   "avg_comments": 2.0,
+   "avg_views": 16549.5,
+   "posts_last_30d": 4,
+   "_posts_last_30d_est": false,
+   "sample_size": 4,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "6건",
+    "olive_young_mentions": "1건",
+    "beauty_keywords": "5건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:15:33+09:00",
+   "score_total": 63.75,
+   "grade": "C",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 75,
+    "consistency": 60,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 4개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4659,7 +5053,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4697,7 +5092,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4735,7 +5131,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4773,7 +5170,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4811,7 +5209,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 11개"
+   "sample_note": "YT 30일내 11개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4849,7 +5248,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 2개"
+   "sample_note": "YT 30일내 2개",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -4857,7 +5257,7 @@
    "fullname": "원츄",
    "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA",
    "channel_id": "UC43-ROy5F2-1dVZ726gckuA",
-   "followers": 0,
+   "followers": 669,
    "engagement_rate": 0.0123,
    "avg_likes": 355.2,
    "avg_comments": 4.8,
@@ -4887,7 +5287,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 0 → 최근 12개 대체"
+   "sample_note": "YT 30일내 0 → 최근 12개 대체 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UC6gHLvwXKjfSG9OkECAJT5g",
+   "fullname": "황송픽 hs_pick",
+   "profile_url": "https://www.youtube.com/channel/UC6gHLvwXKjfSG9OkECAJT5g",
+   "channel_id": "UC6gHLvwXKjfSG9OkECAJT5g",
+   "followers": 22600,
+   "engagement_rate": 0.0063,
+   "avg_likes": 27.7,
+   "avg_comments": 1.9,
+   "avg_views": 4392.6,
+   "posts_last_30d": 7,
+   "_posts_last_30d_est": false,
+   "sample_size": 7,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "45건",
+    "olive_young_mentions": "7건",
+    "beauty_keywords": "8건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:13:10+09:00",
+   "score_total": 62.5,
+   "grade": "C",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 90,
+    "consistency": 80,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 7개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -4925,7 +5365,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 6개"
+   "sample_note": "YT 30일내 6개",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -4963,7 +5404,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 0 → 최근 12개 대체"
+   "sample_note": "YT 30일내 0 → 최근 12개 대체",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -4971,7 +5413,7 @@
    "fullname": "청춘백과",
    "profile_url": "https://www.youtube.com/channel/UCwYf2nxcgJ1WNul1nKs14qw",
    "channel_id": "UCwYf2nxcgJ1WNul1nKs14qw",
-   "followers": 0,
+   "followers": 88,
    "engagement_rate": 0.0101,
    "avg_likes": 178.5,
    "avg_comments": 1.5,
@@ -5001,7 +5443,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 0 → 최근 2개 대체"
+   "sample_note": "YT 30일내 0 → 최근 2개 대체 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5039,121 +5482,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 4개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCMF0yXO7AUMutaktzpiMgSg",
-   "fullname": "뽀얌_ angel",
-   "profile_url": "https://www.youtube.com/channel/UCMF0yXO7AUMutaktzpiMgSg",
-   "channel_id": "UCMF0yXO7AUMutaktzpiMgSg",
-   "followers": 0,
-   "engagement_rate": 0.01,
-   "avg_likes": 28.2,
-   "avg_comments": 2.2,
-   "avg_views": 2811.2,
-   "posts_last_30d": 4,
-   "_posts_last_30d_est": false,
-   "sample_size": 4,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "2건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "4건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:14:20+09:00",
-   "score_total": 61.75,
-   "grade": "C",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 75,
-    "consistency": 60,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 4개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
-   "fullname": "뮤니",
-   "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
-   "channel_id": "UCUCUu_rOf4b5BtKIMRL7jhg",
-   "followers": 0,
-   "engagement_rate": 0.0174,
-   "avg_likes": 287.2,
-   "avg_comments": 2.0,
-   "avg_views": 16549.5,
-   "posts_last_30d": 4,
-   "_posts_last_30d_est": false,
-   "sample_size": 4,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "6건",
-    "olive_young_mentions": "1건",
-    "beauty_keywords": "5건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:15:33+09:00",
-   "score_total": 61.75,
-   "grade": "C",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 75,
-    "consistency": 60,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 4개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCFuMPPmNvRAVIqYlAO5v_vg",
-   "fullname": "리뷰밍밍",
-   "profile_url": "https://www.youtube.com/channel/UCFuMPPmNvRAVIqYlAO5v_vg",
-   "channel_id": "UCFuMPPmNvRAVIqYlAO5v_vg",
-   "followers": 0,
-   "engagement_rate": 0.0085,
-   "avg_likes": 122.6,
-   "avg_comments": 2.1,
-   "avg_views": 14413.7,
-   "posts_last_30d": 12,
-   "_posts_last_30d_est": false,
-   "sample_size": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "95건",
-    "olive_young_mentions": "6건",
-    "beauty_keywords": "85건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:13:46+09:00",
-   "score_total": 61.5,
-   "grade": "C",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 12개"
+   "sample_note": "YT 30일내 4개",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -5191,83 +5521,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 2개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCPsApmFia_Ej6lcxNkNMp4A",
-   "fullname": "리틀약사 Shorts",
-   "profile_url": "https://www.youtube.com/channel/UCPsApmFia_Ej6lcxNkNMp4A",
-   "channel_id": "UCPsApmFia_Ej6lcxNkNMp4A",
-   "followers": 0,
-   "engagement_rate": 0.0078,
-   "avg_likes": 202.5,
-   "avg_comments": 1.9,
-   "avg_views": 25870.1,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "1건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "36건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:14:44+09:00",
-   "score_total": 61.5,
-   "grade": "C",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCtgE4LyeI-Y2ZADVA-ogRaw",
-   "fullname": "핫한걸",
-   "profile_url": "https://www.youtube.com/channel/UCtgE4LyeI-Y2ZADVA-ogRaw",
-   "channel_id": "UCtgE4LyeI-Y2ZADVA-ogRaw",
-   "followers": 0,
-   "engagement_rate": 0.0091,
-   "avg_likes": 738.5,
-   "avg_comments": 48.9,
-   "avg_views": 80734.2,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "retailer_signal": {
-    "daiso_mentions": "6건",
-    "olive_young_mentions": "8건",
-    "beauty_keywords": "72건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:21:12+09:00",
-   "score_total": 61.5,
-   "grade": "C",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 2개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5305,7 +5560,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 2개"
+   "sample_note": "YT 30일내 2개",
+   "history_len": 2
   },
   {
    "platform": "youtube",
@@ -5343,7 +5599,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 4개"
+   "sample_note": "YT 30일내 4개",
+   "history_len": 1
   },
   {
    "platform": "instagram",
@@ -5381,7 +5638,8 @@
     "followers_estimated": false,
     "posts30_estimated": false
    },
-   "sample_note": "IG 샘플 24개, 30일내 2"
+   "sample_note": "IG 샘플 24개, 30일내 2",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5419,7 +5677,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5457,7 +5716,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5495,7 +5755,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5533,45 +5794,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 1개"
+   "sample_note": "YT 30일내 1개",
+   "history_len": 3
   },
   {
    "platform": "youtube",
-   "username": "UCmf_Xgbqr0WnQsUOJXWXLLA",
-   "fullname": "코덕요정🧚‍♀️",
-   "profile_url": "https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA",
-   "channel_id": "UCmf_Xgbqr0WnQsUOJXWXLLA",
-   "followers": 0,
-   "engagement_rate": 0.0197,
-   "avg_likes": 5958.4,
-   "avg_comments": 38.0,
-   "avg_views": 301737.4,
-   "posts_last_30d": 5,
+   "username": "UCIgltl46C_j2wVay4tgIFJg",
+   "fullname": "골랐다",
+   "profile_url": "https://www.youtube.com/channel/UCIgltl46C_j2wVay4tgIFJg",
+   "channel_id": "UCIgltl46C_j2wVay4tgIFJg",
+   "followers": 2140,
+   "engagement_rate": 0.008,
+   "avg_likes": 22.6,
+   "avg_comments": 0.0,
+   "avg_views": 2818.6,
+   "posts_last_30d": 8,
    "_posts_last_30d_est": false,
-   "sample_size": 5,
-   "brand_fit_score": 60,
+   "sample_size": 8,
+   "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "retailer_signal": {
-    "daiso_mentions": "3건",
+    "daiso_mentions": "150건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "1건",
+    "beauty_keywords": "76건",
     "labrang_present": false
    },
-   "evaluated_at": "2026-08-21T11:18:01+09:00",
-   "score_total": 61.0,
+   "evaluated_at": "2026-08-21T11:14:09+09:00",
+   "score_total": 60.5,
    "grade": "C",
    "score_breakdown": {
-    "er": 60,
-    "brand_fit": 60,
+    "er": 40,
+    "brand_fit": 90,
     "consistency": 80,
-    "followers": 40,
+    "followers": 60,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 5개"
+   "sample_note": "YT 30일내 8개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 25
   },
   {
    "platform": "youtube",
@@ -5609,7 +5872,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 8개"
+   "sample_note": "YT 30일내 8개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5647,7 +5911,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5685,7 +5950,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5723,7 +5989,125 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 1
+  },
+  {
+   "platform": "youtube",
+   "username": "UCN_YKz-tKWkVpNyYths0ZQQ",
+   "fullname": "바이홈",
+   "profile_url": "https://www.youtube.com/channel/UCN_YKz-tKWkVpNyYths0ZQQ",
+   "channel_id": "UCN_YKz-tKWkVpNyYths0ZQQ",
+   "followers": 3040,
+   "engagement_rate": 0.0064,
+   "avg_likes": 29.5,
+   "avg_comments": 1.7,
+   "avg_views": 4640.9,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "13건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "5건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:14:32+09:00",
+   "score_total": 59.75,
+   "grade": "C",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 75,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 1
+  },
+  {
+   "platform": "youtube",
+   "username": "UCYQZ1P6Jd5ZM66eeZH4iifA",
+   "fullname": "꿀정보",
+   "profile_url": "https://www.youtube.com/channel/UCYQZ1P6Jd5ZM66eeZH4iifA",
+   "channel_id": "UCYQZ1P6Jd5ZM66eeZH4iifA",
+   "followers": 6850,
+   "engagement_rate": 0.0041,
+   "avg_likes": 399.3,
+   "avg_comments": 6.6,
+   "avg_views": 98374.5,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "5건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "7건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:16:25+09:00",
+   "score_total": 59.75,
+   "grade": "C",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 75,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 1
+  },
+  {
+   "platform": "youtube",
+   "username": "UCixdFezucL8az0Zm4MgidIw",
+   "fullname": "알파템",
+   "profile_url": "https://www.youtube.com/channel/UCixdFezucL8az0Zm4MgidIw",
+   "channel_id": "UCixdFezucL8az0Zm4MgidIw",
+   "followers": 11600,
+   "engagement_rate": 0.0067,
+   "avg_likes": 89.5,
+   "avg_comments": 6.8,
+   "avg_views": 13418.0,
+   "posts_last_30d": 4,
+   "_posts_last_30d_est": false,
+   "sample_size": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "75건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "11건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:17:21+09:00",
+   "score_total": 59.5,
+   "grade": "C",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 90,
+    "consistency": 60,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 4개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 25
   },
   {
    "platform": "youtube",
@@ -5761,7 +6145,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 10개"
+   "sample_note": "YT 30일내 10개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5799,83 +6184,86 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 3
   },
   {
    "platform": "youtube",
-   "username": "UC6gHLvwXKjfSG9OkECAJT5g",
-   "fullname": "황송픽 hs_pick",
-   "profile_url": "https://www.youtube.com/channel/UC6gHLvwXKjfSG9OkECAJT5g",
-   "channel_id": "UC6gHLvwXKjfSG9OkECAJT5g",
-   "followers": 0,
-   "engagement_rate": 0.0063,
-   "avg_likes": 27.7,
-   "avg_comments": 1.9,
-   "avg_views": 4392.6,
-   "posts_last_30d": 7,
-   "_posts_last_30d_est": false,
-   "sample_size": 7,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "45건",
-    "olive_young_mentions": "7건",
-    "beauty_keywords": "8건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:13:10+09:00",
-   "score_total": 58.5,
-   "grade": "C",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 90,
-    "consistency": 80,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 7개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCIgltl46C_j2wVay4tgIFJg",
-   "fullname": "골랐다",
-   "profile_url": "https://www.youtube.com/channel/UCIgltl46C_j2wVay4tgIFJg",
-   "channel_id": "UCIgltl46C_j2wVay4tgIFJg",
-   "followers": 0,
-   "engagement_rate": 0.008,
-   "avg_likes": 22.6,
+   "username": "UCSif05kQuclHVo-L6ajrS7A",
+   "fullname": "장수노트",
+   "profile_url": "https://www.youtube.com/channel/UCSif05kQuclHVo-L6ajrS7A",
+   "channel_id": "UCSif05kQuclHVo-L6ajrS7A",
+   "followers": 40700,
+   "engagement_rate": 0.0103,
+   "avg_likes": 81.0,
    "avg_comments": 0.0,
-   "avg_views": 2818.6,
-   "posts_last_30d": 8,
+   "avg_views": 7894.0,
+   "posts_last_30d": 1,
    "_posts_last_30d_est": false,
-   "sample_size": 8,
-   "brand_fit_score": 90,
+   "sample_size": 1,
+   "brand_fit_score": 60,
    "retailer_focus": "daiso",
    "retailer_signal": {
-    "daiso_mentions": "150건",
+    "daiso_mentions": "2건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "76건",
+    "beauty_keywords": "2건",
     "labrang_present": false
    },
-   "evaluated_at": "2026-08-21T11:14:09+09:00",
-   "score_total": 58.5,
+   "evaluated_at": "2026-08-21T11:15:04+09:00",
+   "score_total": 59.0,
    "grade": "C",
    "score_breakdown": {
-    "er": 40,
-    "brand_fit": 90,
-    "consistency": 80,
-    "followers": 40,
+    "er": 60,
+    "brand_fit": 60,
+    "consistency": 40,
+    "followers": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 8개"
+   "sample_note": "YT 30일내 1개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 24
+  },
+  {
+   "platform": "youtube",
+   "username": "UCKn4BDg7hnEDhnr_ukz9-aw",
+   "fullname": "건강씨그날",
+   "profile_url": "https://www.youtube.com/channel/UCKn4BDg7hnEDhnr_ukz9-aw",
+   "channel_id": "UCKn4BDg7hnEDhnr_ukz9-aw",
+   "followers": 121000,
+   "engagement_rate": 0.0086,
+   "avg_likes": 123.4,
+   "avg_comments": 0.5,
+   "avg_views": 14429.6,
+   "posts_last_30d": 0,
+   "_posts_last_30d_est": false,
+   "sample_size": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "28건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "23건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:14:11+09:00",
+   "score_total": 58.5,
+   "grade": "C",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 90,
+    "consistency": 40,
+    "followers": 100,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 0 → 최근 12개 대체 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5883,7 +6271,7 @@
    "fullname": "수",
    "profile_url": "https://www.youtube.com/channel/UCklkYxRVIAsczwi9w6Y3l5g",
    "channel_id": "UCklkYxRVIAsczwi9w6Y3l5g",
-   "followers": 0,
+   "followers": 919,
    "engagement_rate": 0.0095,
    "avg_likes": 90.3,
    "avg_comments": 1.0,
@@ -5913,7 +6301,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 6개"
+   "sample_note": "YT 30일내 6개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 25
   },
   {
    "platform": "youtube",
@@ -5951,7 +6340,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -5959,7 +6349,7 @@
    "fullname": "메이코",
    "profile_url": "https://www.youtube.com/channel/UCkEC350mu_-p4XZyHblhU0w",
    "channel_id": "UCkEC350mu_-p4XZyHblhU0w",
-   "followers": 0,
+   "followers": 861,
    "engagement_rate": 0.0212,
    "avg_likes": 281.5,
    "avg_comments": 3.5,
@@ -5989,7 +6379,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 2개"
+   "sample_note": "YT 30일내 2개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 1
+  },
+  {
+   "platform": "youtube",
+   "username": "UCvKLCgnu0BG_fiMXecwhQyA",
+   "fullname": "베러픽",
+   "profile_url": "https://www.youtube.com/channel/UCvKLCgnu0BG_fiMXecwhQyA",
+   "channel_id": "UCvKLCgnu0BG_fiMXecwhQyA",
+   "followers": 63500,
+   "engagement_rate": 0.0044,
+   "avg_likes": 70.0,
+   "avg_comments": 8.8,
+   "avg_views": 15994.9,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "6건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "2건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:22:59+09:00",
+   "score_total": 58.0,
+   "grade": "C",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 60,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -6027,45 +6457,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCzBbE7x7mPrs56PvCc0errA",
-   "fullname": "나나씨 Nanasi",
-   "profile_url": "https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA",
-   "channel_id": "UCzBbE7x7mPrs56PvCc0errA",
-   "followers": 0,
-   "engagement_rate": 0.0173,
-   "avg_likes": 249.7,
-   "avg_comments": 28.0,
-   "avg_views": 14461.7,
-   "posts_last_30d": 3,
-   "_posts_last_30d_est": false,
-   "sample_size": 3,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "2건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:23:41+09:00",
-   "score_total": 58.0,
-   "grade": "C",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 60,
-    "consistency": 60,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 3개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -6103,83 +6496,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 3개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCN_YKz-tKWkVpNyYths0ZQQ",
-   "fullname": "바이홈",
-   "profile_url": "https://www.youtube.com/channel/UCN_YKz-tKWkVpNyYths0ZQQ",
-   "channel_id": "UCN_YKz-tKWkVpNyYths0ZQQ",
-   "followers": 0,
-   "engagement_rate": 0.0064,
-   "avg_likes": 29.5,
-   "avg_comments": 1.7,
-   "avg_views": 4640.9,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "13건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "5건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:14:32+09:00",
-   "score_total": 57.75,
-   "grade": "C",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 75,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCYQZ1P6Jd5ZM66eeZH4iifA",
-   "fullname": "꿀정보",
-   "profile_url": "https://www.youtube.com/channel/UCYQZ1P6Jd5ZM66eeZH4iifA",
-   "channel_id": "UCYQZ1P6Jd5ZM66eeZH4iifA",
-   "followers": 0,
-   "engagement_rate": 0.0041,
-   "avg_likes": 399.3,
-   "avg_comments": 6.6,
-   "avg_views": 98374.5,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "5건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "7건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:16:25+09:00",
-   "score_total": 57.75,
-   "grade": "C",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 75,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 3개",
+   "history_len": 2
   },
   {
    "platform": "youtube",
@@ -6217,7 +6535,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 3개"
+   "sample_note": "YT 30일내 3개",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -6255,7 +6574,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -6293,7 +6613,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCBIH59jFPAuSB783uspXcTQ",
+   "fullname": "굿팁 Good tip ",
+   "profile_url": "https://www.youtube.com/channel/UCBIH59jFPAuSB783uspXcTQ",
+   "channel_id": "UCBIH59jFPAuSB783uspXcTQ",
+   "followers": 2410,
+   "engagement_rate": 0.007,
+   "avg_likes": 42.6,
+   "avg_comments": 5.0,
+   "avg_views": 6059.8,
+   "posts_last_30d": 9,
+   "_posts_last_30d_est": false,
+   "sample_size": 9,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "105건",
+    "olive_young_mentions": "18건",
+    "beauty_keywords": "3건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:13:10+09:00",
+   "score_total": 56.75,
+   "grade": "C",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 75,
+    "consistency": 80,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 9개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -6331,7 +6691,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 1개"
+   "sample_note": "YT 30일내 1개",
+   "history_len": 6
   },
   {
    "platform": "youtube",
@@ -6369,7 +6730,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 0 → 최근 12개 대체"
+   "sample_note": "YT 30일내 0 → 최근 12개 대체",
+   "history_len": 26
+  },
+  {
+   "platform": "youtube",
+   "username": "UCfcM9RkfntkTH0pCwd4vSPA",
+   "fullname": "텅장주의",
+   "profile_url": "https://www.youtube.com/channel/UCfcM9RkfntkTH0pCwd4vSPA",
+   "channel_id": "UCfcM9RkfntkTH0pCwd4vSPA",
+   "followers": 17900,
+   "engagement_rate": 0.0099,
+   "avg_likes": 1349.5,
+   "avg_comments": 6.5,
+   "avg_views": 136525.0,
+   "posts_last_30d": 2,
+   "_posts_last_30d_est": false,
+   "sample_size": 2,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "9건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "3건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:17:18+09:00",
+   "score_total": 55.75,
+   "grade": "C",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 75,
+    "consistency": 60,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 2개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -6377,7 +6778,7 @@
    "fullname": "코아 imk0a",
    "profile_url": "https://www.youtube.com/channel/UCVWMxFz4W6UuP3kF49o_eMg",
    "channel_id": "UCVWMxFz4W6UuP3kF49o_eMg",
-   "followers": 0,
+   "followers": 191,
    "engagement_rate": 0.0048,
    "avg_likes": 8.0,
    "avg_comments": 2.0,
@@ -6407,45 +6808,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 4개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCixdFezucL8az0Zm4MgidIw",
-   "fullname": "알파템",
-   "profile_url": "https://www.youtube.com/channel/UCixdFezucL8az0Zm4MgidIw",
-   "channel_id": "UCixdFezucL8az0Zm4MgidIw",
-   "followers": 0,
-   "engagement_rate": 0.0067,
-   "avg_likes": 89.5,
-   "avg_comments": 6.8,
-   "avg_views": 13418.0,
-   "posts_last_30d": 4,
-   "_posts_last_30d_est": false,
-   "sample_size": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "75건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "11건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:17:21+09:00",
-   "score_total": 55.5,
-   "grade": "C",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 90,
-    "consistency": 60,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 4개"
+   "sample_note": "YT 30일내 4개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -6483,7 +6847,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 3개"
+   "sample_note": "YT 30일내 3개",
+   "history_len": 4
   },
   {
    "platform": "youtube",
@@ -6521,45 +6886,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 3개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCSif05kQuclHVo-L6ajrS7A",
-   "fullname": "장수노트",
-   "profile_url": "https://www.youtube.com/channel/UCSif05kQuclHVo-L6ajrS7A",
-   "channel_id": "UCSif05kQuclHVo-L6ajrS7A",
-   "followers": 0,
-   "engagement_rate": 0.0103,
-   "avg_likes": 81.0,
-   "avg_comments": 0.0,
-   "avg_views": 7894.0,
-   "posts_last_30d": 1,
-   "_posts_last_30d_est": false,
-   "sample_size": 1,
-   "brand_fit_score": 60,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "2건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "2건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:15:04+09:00",
-   "score_total": 55.0,
-   "grade": "C",
-   "score_breakdown": {
-    "er": 60,
-    "brand_fit": 60,
-    "consistency": 40,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 1개"
+   "sample_note": "YT 30일내 3개",
+   "history_len": 1
   },
   {
    "platform": "youtube",
@@ -6567,7 +6895,7 @@
    "fullname": "왁! 템즈",
    "profile_url": "https://www.youtube.com/channel/UCcjxXC-20HT-sK316Dz2IFQ",
    "channel_id": "UCcjxXC-20HT-sK316Dz2IFQ",
-   "followers": 0,
+   "followers": 441,
    "engagement_rate": 0.0087,
    "avg_likes": 203.6,
    "avg_comments": 7.8,
@@ -6597,7 +6925,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 0 → 최근 12개 대체"
+   "sample_note": "YT 30일내 0 → 최근 12개 대체 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -6605,7 +6934,7 @@
    "fullname": "하이하쥬 hihajyu",
    "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g",
    "channel_id": "UCkCQe4QPcKCvB3PTzIWHn2g",
-   "followers": 0,
+   "followers": 22,
    "engagement_rate": 0.0098,
    "avg_likes": 49.2,
    "avg_comments": 0.8,
@@ -6635,83 +6964,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 0 → 최근 8개 대체"
+   "sample_note": "YT 30일내 0 → 최근 8개 대체 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
-   "username": "UCBIH59jFPAuSB783uspXcTQ",
-   "fullname": "굿팁 Good tip ",
-   "profile_url": "https://www.youtube.com/channel/UCBIH59jFPAuSB783uspXcTQ",
-   "channel_id": "UCBIH59jFPAuSB783uspXcTQ",
-   "followers": 0,
-   "engagement_rate": 0.007,
-   "avg_likes": 42.6,
-   "avg_comments": 5.0,
-   "avg_views": 6059.8,
-   "posts_last_30d": 9,
+   "username": "UCIErIGNaCbne1_Eu1VzHFcw",
+   "fullname": "레이지홈",
+   "profile_url": "https://www.youtube.com/channel/UCIErIGNaCbne1_Eu1VzHFcw",
+   "channel_id": "UCIErIGNaCbne1_Eu1VzHFcw",
+   "followers": 2180,
+   "engagement_rate": 0.0078,
+   "avg_likes": 92.5,
+   "avg_comments": 1.5,
+   "avg_views": 11862.5,
+   "posts_last_30d": 2,
    "_posts_last_30d_est": false,
-   "sample_size": 9,
+   "sample_size": 2,
    "brand_fit_score": 75,
-   "retailer_focus": "daiso",
+   "retailer_focus": "beauty_general",
    "retailer_signal": {
-    "daiso_mentions": "105건",
-    "olive_young_mentions": "18건",
-    "beauty_keywords": "3건",
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "7건",
     "labrang_present": false
    },
-   "evaluated_at": "2026-08-21T11:13:10+09:00",
-   "score_total": 54.75,
+   "evaluated_at": "2026-08-21T11:14:00+09:00",
+   "score_total": 53.75,
    "grade": "D",
    "score_breakdown": {
     "er": 40,
     "brand_fit": 75,
-    "consistency": 80,
-    "followers": 40,
+    "consistency": 60,
+    "followers": 60,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 9개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCvKLCgnu0BG_fiMXecwhQyA",
-   "fullname": "베러픽",
-   "profile_url": "https://www.youtube.com/channel/UCvKLCgnu0BG_fiMXecwhQyA",
-   "channel_id": "UCvKLCgnu0BG_fiMXecwhQyA",
-   "followers": 0,
-   "engagement_rate": 0.0044,
-   "avg_likes": 70.0,
-   "avg_comments": 8.8,
-   "avg_views": 15994.9,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 60,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "6건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "2건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:22:59+09:00",
-   "score_total": 54.0,
-   "grade": "D",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 60,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 2개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 25
   },
   {
    "platform": "youtube",
@@ -6749,7 +7042,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 2개"
+   "sample_note": "YT 30일내 2개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -6787,7 +7081,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 2개"
+   "sample_note": "YT 30일내 2개",
+   "history_len": 2
+  },
+  {
+   "platform": "youtube",
+   "username": "UCovDuChTvDiWWnSpcKGUFZw",
+   "fullname": "방구석 아티스트room_tist",
+   "profile_url": "https://www.youtube.com/channel/UCovDuChTvDiWWnSpcKGUFZw",
+   "channel_id": "UCovDuChTvDiWWnSpcKGUFZw",
+   "followers": 27100,
+   "engagement_rate": 0.0208,
+   "avg_likes": 813.0,
+   "avg_comments": 25.7,
+   "avg_views": 39071.0,
+   "posts_last_30d": 3,
+   "_posts_last_30d_est": false,
+   "sample_size": 3,
+   "brand_fit_score": 25,
+   "retailer_focus": "olive_young",
+   "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "1건",
+    "beauty_keywords": "0건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:19:27+09:00",
+   "score_total": 53.25,
+   "grade": "D",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 25,
+    "consistency": 60,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 3개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 6
   },
   {
    "platform": "youtube",
@@ -6825,45 +7159,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 5개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCKn4BDg7hnEDhnr_ukz9-aw",
-   "fullname": "건강씨그날",
-   "profile_url": "https://www.youtube.com/channel/UCKn4BDg7hnEDhnr_ukz9-aw",
-   "channel_id": "UCKn4BDg7hnEDhnr_ukz9-aw",
-   "followers": 0,
-   "engagement_rate": 0.0086,
-   "avg_likes": 123.4,
-   "avg_comments": 0.5,
-   "avg_views": 14429.6,
-   "posts_last_30d": 0,
-   "_posts_last_30d_est": false,
-   "sample_size": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "28건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "23건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:14:11+09:00",
-   "score_total": 52.5,
-   "grade": "D",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 90,
-    "consistency": 40,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 0 → 최근 12개 대체"
+   "sample_note": "YT 30일내 5개",
+   "history_len": 2
   },
   {
    "platform": "youtube",
@@ -6871,7 +7168,7 @@
    "fullname": "유정하다",
    "profile_url": "https://www.youtube.com/channel/UCXnovozlwbGRaHhR6fvG1XA",
    "channel_id": "UCXnovozlwbGRaHhR6fvG1XA",
-   "followers": 0,
+   "followers": 797,
    "engagement_rate": 0.0,
    "avg_likes": 0.0,
    "avg_comments": 9.2,
@@ -6901,83 +7198,47 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 0 → 최근 12개 대체"
+   "sample_note": "YT 30일내 0 → 최근 12개 대체 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
-   "username": "UCIErIGNaCbne1_Eu1VzHFcw",
-   "fullname": "레이지홈",
-   "profile_url": "https://www.youtube.com/channel/UCIErIGNaCbne1_Eu1VzHFcw",
-   "channel_id": "UCIErIGNaCbne1_Eu1VzHFcw",
-   "followers": 0,
-   "engagement_rate": 0.0078,
-   "avg_likes": 92.5,
-   "avg_comments": 1.5,
-   "avg_views": 11862.5,
-   "posts_last_30d": 2,
+   "username": "UCAThGewvLVT5fW8utNfrawA",
+   "fullname": "ARADHYA FACT",
+   "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
+   "channel_id": "UCAThGewvLVT5fW8utNfrawA",
+   "followers": 795000,
+   "engagement_rate": 0.0,
+   "avg_likes": 0.0,
+   "avg_comments": 1.3,
+   "avg_views": 362933.0,
+   "posts_last_30d": 15,
    "_posts_last_30d_est": false,
-   "sample_size": 2,
-   "brand_fit_score": 75,
-   "retailer_focus": "beauty_general",
+   "sample_size": 15,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
    "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "0건",
-    "beauty_keywords": "7건",
+    "beauty_keywords": "0건",
     "labrang_present": false
    },
-   "evaluated_at": "2026-08-21T11:14:00+09:00",
-   "score_total": 51.75,
+   "evaluated_at": "2026-08-21T11:13:10+09:00",
+   "score_total": 51.25,
    "grade": "D",
    "score_breakdown": {
     "er": 40,
-    "brand_fit": 75,
-    "consistency": 60,
-    "followers": 40,
+    "brand_fit": 25,
+    "consistency": 100,
+    "followers": 100,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 2개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCfcM9RkfntkTH0pCwd4vSPA",
-   "fullname": "텅장주의",
-   "profile_url": "https://www.youtube.com/channel/UCfcM9RkfntkTH0pCwd4vSPA",
-   "channel_id": "UCfcM9RkfntkTH0pCwd4vSPA",
-   "followers": 0,
-   "engagement_rate": 0.0099,
-   "avg_likes": 1349.5,
-   "avg_comments": 6.5,
-   "avg_views": 136525.0,
-   "posts_last_30d": 2,
-   "_posts_last_30d_est": false,
-   "sample_size": 2,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "9건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "3건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:17:18+09:00",
-   "score_total": 51.75,
-   "grade": "D",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 75,
-    "consistency": 60,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 2개"
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -7015,7 +7276,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 6
   },
   {
    "platform": "youtube",
@@ -7053,7 +7315,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 14개"
+   "sample_note": "YT 30일내 14개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -7091,7 +7354,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
+   "sample_note": "YT 30일내 15개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -7129,7 +7393,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 9개"
+   "sample_note": "YT 30일내 9개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -7167,45 +7432,164 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 2개"
+   "sample_note": "YT 30일내 2개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
-   "username": "UCovDuChTvDiWWnSpcKGUFZw",
-   "fullname": "방구석 아티스트room_tist",
-   "profile_url": "https://www.youtube.com/channel/UCovDuChTvDiWWnSpcKGUFZw",
-   "channel_id": "UCovDuChTvDiWWnSpcKGUFZw",
-   "followers": 0,
-   "engagement_rate": 0.0208,
-   "avg_likes": 813.0,
-   "avg_comments": 25.7,
-   "avg_views": 39071.0,
-   "posts_last_30d": 3,
+   "username": "UCU0ujFi0aIM6G5iDIPUY40w",
+   "fullname": "집남편",
+   "profile_url": "https://www.youtube.com/channel/UCU0ujFi0aIM6G5iDIPUY40w",
+   "channel_id": "UCU0ujFi0aIM6G5iDIPUY40w",
+   "followers": 10200,
+   "engagement_rate": 0.0082,
+   "avg_likes": 176.3,
+   "avg_comments": 1.9,
+   "avg_views": 21598.9,
+   "posts_last_30d": 15,
    "_posts_last_30d_est": false,
-   "sample_size": 3,
+   "sample_size": 15,
    "brand_fit_score": 25,
-   "retailer_focus": "olive_young",
+   "retailer_focus": "daiso",
    "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "1건",
+    "daiso_mentions": "63건",
+    "olive_young_mentions": "0건",
     "beauty_keywords": "0건",
     "labrang_present": false
    },
-   "evaluated_at": "2026-08-21T11:19:27+09:00",
+   "evaluated_at": "2026-08-21T11:16:24+09:00",
    "score_total": 49.25,
    "grade": "D",
    "score_breakdown": {
-    "er": 60,
+    "er": 40,
     "brand_fit": 25,
-    "consistency": 60,
-    "followers": 40,
+    "consistency": 100,
+    "followers": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 3개"
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 3
+  },
+  {
+   "platform": "youtube",
+   "username": "UCePjZRTgGmQs7C3TFxX1Ffg",
+   "fullname": "BeautywithFranz",
+   "profile_url": "https://www.youtube.com/channel/UCePjZRTgGmQs7C3TFxX1Ffg",
+   "channel_id": "UCePjZRTgGmQs7C3TFxX1Ffg",
+   "followers": 27800,
+   "engagement_rate": 0.0045,
+   "avg_likes": 28.4,
+   "avg_comments": 0.5,
+   "avg_views": 6256.6,
+   "posts_last_30d": 10,
+   "_posts_last_30d_est": false,
+   "sample_size": 10,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "0건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:17:13+09:00",
+   "score_total": 49.25,
+   "grade": "D",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 25,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 10개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 3
+  },
+  {
+   "platform": "youtube",
+   "username": "UCLXYyuMtfzbXPlimfOWQGHA",
+   "fullname": "여니룸",
+   "profile_url": "https://www.youtube.com/channel/UCLXYyuMtfzbXPlimfOWQGHA",
+   "channel_id": "UCLXYyuMtfzbXPlimfOWQGHA",
+   "followers": 3240,
+   "engagement_rate": 0.006,
+   "avg_likes": 25.4,
+   "avg_comments": 1.1,
+   "avg_views": 4257.4,
+   "posts_last_30d": 15,
+   "_posts_last_30d_est": false,
+   "sample_size": 15,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "0건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:14:16+09:00",
+   "score_total": 47.25,
+   "grade": "D",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 25,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 3
+  },
+  {
+   "platform": "youtube",
+   "username": "UCsZ_7NNHqolo9mos449uSfg",
+   "fullname": "POLINA ZAITSEVA",
+   "profile_url": "https://www.youtube.com/channel/UCsZ_7NNHqolo9mos449uSfg",
+   "channel_id": "UCsZ_7NNHqolo9mos449uSfg",
+   "followers": 5450,
+   "engagement_rate": 0.0056,
+   "avg_likes": 755.4,
+   "avg_comments": 1.7,
+   "avg_views": 134026.9,
+   "posts_last_30d": 10,
+   "_posts_last_30d_est": false,
+   "sample_size": 10,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "0건",
+    "labrang_present": false
+   },
+   "evaluated_at": "2026-08-21T11:20:52+09:00",
+   "score_total": 47.25,
+   "grade": "D",
+   "score_breakdown": {
+    "er": 40,
+    "brand_fit": 25,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false
+   },
+   "sample_note": "YT 30일내 10개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 3
   },
   {
    "platform": "youtube",
@@ -7243,22 +7627,23 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 5개"
+   "sample_note": "YT 30일내 5개",
+   "history_len": 26
   },
   {
    "platform": "youtube",
-   "username": "UCAThGewvLVT5fW8utNfrawA",
-   "fullname": "ARADHYA FACT",
-   "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
-   "channel_id": "UCAThGewvLVT5fW8utNfrawA",
-   "followers": 0,
-   "engagement_rate": 0.0,
-   "avg_likes": 0.0,
-   "avg_comments": 1.3,
-   "avg_views": 362933.0,
-   "posts_last_30d": 15,
+   "username": "UCZ-oeQmEiTLw4d5PSDyd1Cw",
+   "fullname": "뷰케터",
+   "profile_url": "https://www.youtube.com/channel/UCZ-oeQmEiTLw4d5PSDyd1Cw",
+   "channel_id": "UCZ-oeQmEiTLw4d5PSDyd1Cw",
+   "followers": 16900,
+   "engagement_rate": 0.0068,
+   "avg_likes": 69.8,
+   "avg_comments": 3.0,
+   "avg_views": 10257.8,
+   "posts_last_30d": 4,
    "_posts_last_30d_est": false,
-   "sample_size": 15,
+   "sample_size": 4,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "retailer_signal": {
@@ -7267,173 +7652,22 @@
     "beauty_keywords": "0건",
     "labrang_present": false
    },
-   "evaluated_at": "2026-08-21T11:13:10+09:00",
-   "score_total": 45.25,
+   "evaluated_at": "2026-08-21T11:16:25+09:00",
+   "score_total": 43.25,
    "grade": "D",
    "score_breakdown": {
     "er": 40,
     "brand_fit": 25,
-    "consistency": 100,
-    "followers": 40,
+    "consistency": 60,
+    "followers": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "estimation_flags": {
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCLXYyuMtfzbXPlimfOWQGHA",
-   "fullname": "여니룸",
-   "profile_url": "https://www.youtube.com/channel/UCLXYyuMtfzbXPlimfOWQGHA",
-   "channel_id": "UCLXYyuMtfzbXPlimfOWQGHA",
-   "followers": 0,
-   "engagement_rate": 0.006,
-   "avg_likes": 25.4,
-   "avg_comments": 1.1,
-   "avg_views": 4257.4,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "0건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:14:16+09:00",
-   "score_total": 45.25,
-   "grade": "D",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 25,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCU0ujFi0aIM6G5iDIPUY40w",
-   "fullname": "집남편",
-   "profile_url": "https://www.youtube.com/channel/UCU0ujFi0aIM6G5iDIPUY40w",
-   "channel_id": "UCU0ujFi0aIM6G5iDIPUY40w",
-   "followers": 0,
-   "engagement_rate": 0.0082,
-   "avg_likes": 176.3,
-   "avg_comments": 1.9,
-   "avg_views": 21598.9,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 15,
-   "brand_fit_score": 25,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "63건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "0건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:16:24+09:00",
-   "score_total": 45.25,
-   "grade": "D",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 25,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 15개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCePjZRTgGmQs7C3TFxX1Ffg",
-   "fullname": "BeautywithFranz",
-   "profile_url": "https://www.youtube.com/channel/UCePjZRTgGmQs7C3TFxX1Ffg",
-   "channel_id": "UCePjZRTgGmQs7C3TFxX1Ffg",
-   "followers": 0,
-   "engagement_rate": 0.0045,
-   "avg_likes": 28.4,
-   "avg_comments": 0.5,
-   "avg_views": 6256.6,
-   "posts_last_30d": 10,
-   "_posts_last_30d_est": false,
-   "sample_size": 10,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "0건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:17:13+09:00",
-   "score_total": 45.25,
-   "grade": "D",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 25,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 10개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCsZ_7NNHqolo9mos449uSfg",
-   "fullname": "POLINA ZAITSEVA",
-   "profile_url": "https://www.youtube.com/channel/UCsZ_7NNHqolo9mos449uSfg",
-   "channel_id": "UCsZ_7NNHqolo9mos449uSfg",
-   "followers": 0,
-   "engagement_rate": 0.0056,
-   "avg_likes": 755.4,
-   "avg_comments": 1.7,
-   "avg_views": 134026.9,
-   "posts_last_30d": 10,
-   "_posts_last_30d_est": false,
-   "sample_size": 10,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "0건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:20:52+09:00",
-   "score_total": 45.25,
-   "grade": "D",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 25,
-    "consistency": 100,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 10개"
+   "sample_note": "YT 30일내 4개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 26
   },
   {
    "platform": "youtube",
@@ -7441,7 +7675,7 @@
    "fullname": "이알맹",
    "profile_url": "https://www.youtube.com/channel/UCkzE35OjxyfX_x_kJO-7rdw",
    "channel_id": "UCkzE35OjxyfX_x_kJO-7rdw",
-   "followers": 0,
+   "followers": 41,
    "engagement_rate": 0.0074,
    "avg_likes": 21.7,
    "avg_comments": 0.1,
@@ -7471,45 +7705,8 @@
     "brand_fit_estimated": false,
     "followers_estimated": false
    },
-   "sample_note": "YT 30일내 7개"
-  },
-  {
-   "platform": "youtube",
-   "username": "UCZ-oeQmEiTLw4d5PSDyd1Cw",
-   "fullname": "뷰케터",
-   "profile_url": "https://www.youtube.com/channel/UCZ-oeQmEiTLw4d5PSDyd1Cw",
-   "channel_id": "UCZ-oeQmEiTLw4d5PSDyd1Cw",
-   "followers": 0,
-   "engagement_rate": 0.0068,
-   "avg_likes": 69.8,
-   "avg_comments": 3.0,
-   "avg_views": 10257.8,
-   "posts_last_30d": 4,
-   "_posts_last_30d_est": false,
-   "sample_size": 4,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "0건",
-    "labrang_present": false
-   },
-   "evaluated_at": "2026-08-21T11:16:25+09:00",
-   "score_total": 39.25,
-   "grade": "D",
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 25,
-    "consistency": 60,
-    "followers": 40,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false
-   },
-   "sample_note": "YT 30일내 4개"
+   "sample_note": "YT 30일내 7개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+   "history_len": 3
   },
   {
    "platform": "instagram",
@@ -7544,7 +7741,8 @@
    "sample_note": "2026-08-19T14:14:34+09:00 STEP B-Light(14:00) 재확인 — IG 로그인 상태에서 프로필 접근 시 \"죄송합니다. 페이지를 사용할 수 없습니다.\" 반환. 계정 삭제 확정(변동 없음). 미측정 기본값(ER0/bf25/posts0/fol0) 유지, score_total=36.25.",
    "_posts_last_30d_est": false,
    "account_status": "deleted_or_unavailable (HTTP 404, 확인일 2026-08-21)",
-   "last_checked_at": "2026-08-21T11:25:41+09:00"
+   "last_checked_at": "2026-08-21T11:25:41+09:00",
+   "history_len": 21
   }
  ]
 }

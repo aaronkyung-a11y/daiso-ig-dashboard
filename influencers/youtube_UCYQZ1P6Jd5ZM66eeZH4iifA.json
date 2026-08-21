@@ -4,7 +4,7 @@
  "fullname": "꿀정보",
  "profile_url": "https://www.youtube.com/channel/UCYQZ1P6Jd5ZM66eeZH4iifA",
  "channel_id": "UCYQZ1P6Jd5ZM66eeZH4iifA",
- "followers": 0,
+ "followers": 6850,
  "engagement_rate": 0.0041,
  "avg_likes": 399.3,
  "avg_comments": 6.6,
@@ -21,20 +21,20 @@
   "labrang_present": false
  },
  "evaluated_at": "2026-08-21T11:16:25+09:00",
- "score_total": 57.75,
+ "score_total": 59.75,
  "grade": "C",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 75,
   "consistency": 100,
-  "followers": 40,
+  "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",

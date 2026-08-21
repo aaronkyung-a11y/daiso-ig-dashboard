@@ -4,7 +4,7 @@
  "fullname": "코덕요정🧚‍♀️",
  "profile_url": "https://www.youtube.com/channel/UCmf_Xgbqr0WnQsUOJXWXLLA",
  "channel_id": "UCmf_Xgbqr0WnQsUOJXWXLLA",
- "followers": 0,
+ "followers": 119000,
  "engagement_rate": 0.0197,
  "avg_likes": 5958.4,
  "avg_comments": 38.0,
@@ -21,20 +21,20 @@
   "labrang_present": false
  },
  "evaluated_at": "2026-08-21T11:18:01+09:00",
- "score_total": 61.0,
- "grade": "C",
+ "score_total": 67.0,
+ "grade": "B",
  "score_breakdown": {
   "er": 60,
   "brand_fit": 60,
   "consistency": 80,
-  "followers": 40,
+  "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false
  },
- "sample_note": "YT 30일내 5개",
+ "sample_note": "YT 30일내 5개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
  "history": [
   {
    "evaluated_at": "2026-07-27T10:25:16+09:00",

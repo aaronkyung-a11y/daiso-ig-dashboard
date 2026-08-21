@@ -4,7 +4,7 @@
  "fullname": "여니룸",
  "profile_url": "https://www.youtube.com/channel/UCLXYyuMtfzbXPlimfOWQGHA",
  "channel_id": "UCLXYyuMtfzbXPlimfOWQGHA",
- "followers": 0,
+ "followers": 3240,
  "engagement_rate": 0.006,
  "avg_likes": 25.4,
  "avg_comments": 1.1,
@@ -21,20 +21,20 @@
   "labrang_present": false
  },
  "evaluated_at": "2026-08-21T11:14:16+09:00",
- "score_total": 45.25,
+ "score_total": 47.25,
  "grade": "D",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 25,
   "consistency": 100,
-  "followers": 40,
+  "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:29:08+09:00",
