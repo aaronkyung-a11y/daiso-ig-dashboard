@@ -4,11 +4,11 @@
  "fullname": "HellfireDrama",
  "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
  "channel_id": "UC-C-faUj5SNcrIkqEM6FcjA",
- "followers": 367000,
- "engagement_rate": 0.0118,
- "avg_likes": 421.1,
- "avg_comments": 5.4,
- "avg_views": 35705.9,
+ "followers": 368000,
+ "engagement_rate": 0.0117,
+ "avg_likes": 443.9,
+ "avg_comments": 5.9,
+ "avg_views": 37930.3,
  "posts_last_30d": 15,
  "_posts_last_30d_est": false,
  "sample_size": 15,
@@ -20,7 +20,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:31:03+09:00",
+ "evaluated_at": "2026-08-21T17:20:00+09:00",
  "score_total": 61.25,
  "grade": "C",
  "score_breakdown": {
@@ -32,21 +32,11 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_last_30d_floor": "RSS 피드 15건 상한 — 실제 30일 업로드는 15건 이상일 수 있음(하한 실측)"
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT RSS 30일내 15개 (RSS 15건 상한)",
  "history": [
-  {
-   "evaluated_at": "2026-08-12T10:14:28+09:00",
-   "followers": 363000,
-   "engagement_rate": 0.0098,
-   "avg_likes": 189.7,
-   "posts_last_30d": 18,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 51.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-27T10:25:16+09:00",
    "followers": 351000,
@@ -301,6 +291,16 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "sample_size": 25
+  },
+  {
+   "evaluated_at": "2026-08-21T10:31:03+09:00",
+   "score_total": 61.25,
+   "grade": "C",
+   "engagement_rate": 0.0118,
+   "followers": 367000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic"
   }
  ]
 }
