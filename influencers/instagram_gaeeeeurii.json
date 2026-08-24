@@ -3,11 +3,11 @@
  "username": "gaeeeeurii",
  "fullname": "가 을",
  "profile_url": "https://www.instagram.com/gaeeeeurii/",
- "followers": 8465,
- "engagement_rate": 0.1054,
- "avg_likes": 802.7,
- "avg_comments": 89.6,
- "avg_views": 12291.4,
+ "followers": 8532,
+ "engagement_rate": 0.1083,
+ "avg_likes": 824.7,
+ "avg_comments": 99.4,
+ "avg_views": 81861.5,
  "posts_last_30d": 2,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -19,7 +19,7 @@
   "beauty_keywords": "16건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:22:49+09:00",
+ "evaluated_at": "2026-08-24T10:53:58+09:00",
  "score_total": 87.5,
  "grade": "S",
  "score_breakdown": {
@@ -32,9 +32,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts30_estimated": false
+  "posts_30d_estimated": false
  },
- "sample_note": "IG 샘플 12개, 30일내 2",
+ "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 2건.",
+ "_likes_hidden": 0,
  "history": [
   {
    "evaluated_at": "2026-08-12T10:57:07+09:00",
@@ -236,6 +237,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 11
+  },
+  {
+   "evaluated_at": "2026-08-21T11:22:49+09:00",
+   "score_total": 87.5,
+   "grade": "S",
+   "engagement_rate": 0.1054,
+   "followers": 8465,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 12
   }
  ]
 }

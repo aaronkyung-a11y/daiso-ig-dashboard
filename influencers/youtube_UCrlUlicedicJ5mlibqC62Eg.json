@@ -5,22 +5,22 @@
  "profile_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
  "channel_id": "UCrlUlicedicJ5mlibqC62Eg",
  "followers": 568000,
- "engagement_rate": 0.014,
- "avg_likes": 494.1,
- "avg_comments": 47.3,
- "avg_views": 35166.7,
+ "engagement_rate": 0.0137,
+ "avg_likes": 521.1,
+ "avg_comments": 49.7,
+ "avg_views": 37916.1,
  "posts_last_30d": 15,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 15,
  "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso_mentions": "20건",
-  "olive_young_mentions": "28건",
-  "beauty_keywords": "50건",
+  "daiso_mentions": "33건",
+  "olive_young_mentions": "39건",
+  "beauty_keywords": "57건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:20:44+09:00",
+ "evaluated_at": "2026-08-24T10:17:36+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 569000,
-   "engagement_rate": 0.018,
-   "avg_likes": 549.9,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 77.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 569000,
@@ -307,6 +298,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "mixed",
    "sample_size": 10
+  },
+  {
+   "evaluated_at": "2026-08-21T11:20:44+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "engagement_rate": 0.014,
+   "followers": 568000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "sample_size": 15
   }
  ]
 }

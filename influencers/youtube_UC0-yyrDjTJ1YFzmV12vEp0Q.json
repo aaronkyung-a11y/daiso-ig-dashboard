@@ -4,23 +4,23 @@
  "fullname": "시네 si-ne",
  "profile_url": "https://www.youtube.com/channel/UC0-yyrDjTJ1YFzmV12vEp0Q",
  "channel_id": "UC0-yyrDjTJ1YFzmV12vEp0Q",
- "followers": 528000,
- "engagement_rate": 0.0184,
- "avg_likes": 5054.9,
- "avg_comments": 95.9,
- "avg_views": 274868.6,
+ "followers": 529000,
+ "engagement_rate": 0.0202,
+ "avg_likes": 4677.3,
+ "avg_comments": 94.5,
+ "avg_views": 232120.2,
  "posts_last_30d": 15,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 15,
  "brand_fit_score": 90,
- "retailer_focus": "beauty_general",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "11건",
+  "olive_young_mentions": "1건",
+  "beauty_keywords": "24건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:31:03+09:00",
+ "evaluated_at": "2026-08-24T10:54:04+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 513000,
-   "engagement_rate": 0.0231,
-   "avg_likes": 991.9,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 71.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-20T10:18:29+09:00",
    "followers": 513000,
@@ -312,6 +303,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "sample_size": 18
+  },
+  {
+   "evaluated_at": "2026-08-21T10:31:03+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "engagement_rate": 0.0184,
+   "followers": 528000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "sample_size": 15
   }
  ]
 }

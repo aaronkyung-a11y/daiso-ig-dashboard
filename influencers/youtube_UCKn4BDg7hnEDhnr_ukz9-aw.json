@@ -5,22 +5,22 @@
  "profile_url": "https://www.youtube.com/channel/UCKn4BDg7hnEDhnr_ukz9-aw",
  "channel_id": "UCKn4BDg7hnEDhnr_ukz9-aw",
  "followers": 121000,
- "engagement_rate": 0.0086,
- "avg_likes": 123.4,
- "avg_comments": 0.5,
- "avg_views": 14429.6,
+ "engagement_rate": 0.0077,
+ "avg_likes": 240.3,
+ "avg_comments": 0.9,
+ "avg_views": 31379.2,
  "posts_last_30d": 0,
- "_posts_last_30d_est": false,
- "sample_size": 12,
+ "_posts_last_30d_est": true,
+ "sample_size": 18,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "28건",
+  "daiso_mentions": "34건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "23건",
+  "beauty_keywords": "30건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:14:11+09:00",
+ "evaluated_at": "2026-08-24T10:40:33+09:00",
  "score_total": 58.5,
  "grade": "C",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 0 → 최근 12개 대체 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+ "sample_note": "YT 30일내 업로드 0건 — 최근 18개 대체 샘플(추정)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-08-12T10:24:59+09:00",
-   "followers": 121000,
-   "engagement_rate": 0.008,
-   "avg_likes": 205.9,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 58.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-27T10:25:16+09:00",
    "followers": 121000,
@@ -307,6 +298,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 18
+  },
+  {
+   "evaluated_at": "2026-08-21T11:14:11+09:00",
+   "score_total": 58.5,
+   "grade": "C",
+   "engagement_rate": 0.0086,
+   "followers": 121000,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 12
   }
  ]
 }

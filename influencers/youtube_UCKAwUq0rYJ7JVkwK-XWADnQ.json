@@ -4,23 +4,23 @@
  "fullname": "박지윤의 피부 설명서",
  "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ",
  "channel_id": "UCKAwUq0rYJ7JVkwK-XWADnQ",
- "followers": 54300,
- "engagement_rate": 0.0134,
- "avg_likes": 304.7,
- "avg_comments": 7.2,
- "avg_views": 22710.4,
- "posts_last_30d": 9,
+ "followers": 54400,
+ "engagement_rate": 0.0171,
+ "avg_likes": 306.1,
+ "avg_comments": 6.3,
+ "avg_views": 17955.1,
+ "posts_last_30d": 7,
  "_posts_last_30d_est": false,
- "sample_size": 9,
+ "sample_size": 7,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
-  "daiso_mentions": "3건",
-  "olive_young_mentions": "2건",
-  "beauty_keywords": "19건",
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "14건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:41:44+09:00",
+ "evaluated_at": "2026-08-24T11:08:30+09:00",
  "score_total": 72.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개",
+ "sample_note": "YT 30일내 7개 실측(RSS)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 52800,
-   "engagement_rate": 0.0147,
-   "avg_likes": 519.0,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 69.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 52700,
@@ -296,6 +287,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 4
+  },
+  {
+   "evaluated_at": "2026-08-21T10:41:44+09:00",
+   "score_total": 72.5,
+   "grade": "B",
+   "engagement_rate": 0.0134,
+   "followers": 54300,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 9
   }
  ]
 }

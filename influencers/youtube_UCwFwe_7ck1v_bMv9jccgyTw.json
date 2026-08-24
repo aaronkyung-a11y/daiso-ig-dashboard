@@ -1,0 +1,41 @@
+{
+ "platform": "youtube",
+ "username": "UCwFwe_7ck1v_bMv9jccgyTw",
+ "fullname": "Beauty Done",
+ "profile_url": "https://www.youtube.com/channel/UCwFwe_7ck1v_bMv9jccgyTw",
+ "channel_id": "UCwFwe_7ck1v_bMv9jccgyTw",
+ "followers": 17300,
+ "engagement_rate": 0.0045,
+ "avg_likes": 183.1,
+ "avg_comments": 2.1,
+ "avg_views": 40357.2,
+ "posts_last_30d": 10,
+ "_posts_last_30d_est": false,
+ "sample_size": 10,
+ "brand_fit_score": 25,
+ "retailer_focus": "off_topic",
+ "retailer_signal": {
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "0건",
+  "labrang_present": false
+ },
+ "evaluated_at": "2026-08-24T10:11:12+09:00",
+ "score_total": 49.2,
+ "grade": "D",
+ "score_breakdown": {
+  "er": 40,
+  "brand_fit": 25,
+  "consistency": 100,
+  "followers": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false
+ },
+ "sample_note": "YT 30일내 10개 실측 (videos+shorts+RSS 합산)",
+ "_likes_hidden": 0,
+ "_er_measurable": true,
+ "history": []
+}

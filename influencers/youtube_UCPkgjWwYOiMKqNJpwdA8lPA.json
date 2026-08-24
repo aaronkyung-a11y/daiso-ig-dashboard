@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UCPkgjWwYOiMKqNJpwdA8lPA",
  "channel_id": "UCPkgjWwYOiMKqNJpwdA8lPA",
  "followers": 138000,
- "engagement_rate": 0.0088,
- "avg_likes": 912.7,
- "avg_comments": 46.8,
- "avg_views": 103638.0,
+ "engagement_rate": 0.0087,
+ "avg_likes": 942.8,
+ "avg_comments": 49.3,
+ "avg_views": 108715.7,
  "posts_last_30d": 13,
  "_posts_last_30d_est": false,
  "sample_size": 13,
@@ -17,10 +17,10 @@
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "10건",
-  "beauty_keywords": "31건",
+  "beauty_keywords": "30건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:45:45+09:00",
+ "evaluated_at": "2026-08-24T11:08:30+09:00",
  "score_total": 67.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 13개",
+ "sample_note": "YT 30일내 13개 실측(RSS)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 135000,
-   "engagement_rate": 0.0204,
-   "avg_likes": 418.3,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 135000,
@@ -299,6 +290,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
    "sample_size": 6
+  },
+  {
+   "evaluated_at": "2026-08-21T10:45:45+09:00",
+   "score_total": 67.5,
+   "grade": "B",
+   "engagement_rate": 0.0088,
+   "followers": 138000,
+   "posts_last_30d": 13,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "sample_size": 13
   }
  ]
 }

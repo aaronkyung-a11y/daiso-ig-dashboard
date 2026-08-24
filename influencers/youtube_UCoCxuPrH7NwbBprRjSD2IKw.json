@@ -4,49 +4,40 @@
  "fullname": "호기심대장 김몽몽  𝐦𝐨𝐧𝐠𝐦𝐨𝐧𝐠",
  "profile_url": "https://www.youtube.com/channel/UCoCxuPrH7NwbBprRjSD2IKw",
  "channel_id": "UCoCxuPrH7NwbBprRjSD2IKw",
- "followers": 42100,
- "engagement_rate": 0.0165,
- "avg_likes": 2015.3,
- "avg_comments": 134.2,
- "avg_views": 121973.5,
- "posts_last_30d": 10,
+ "followers": 42400,
+ "engagement_rate": 0.0187,
+ "avg_likes": 1535.4,
+ "avg_comments": 138.9,
+ "avg_views": 81951.9,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 10,
+ "sample_size": 9,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "2건",
-  "beauty_keywords": "12건",
+  "beauty_keywords": "13건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:19:27+09:00",
- "score_total": 75.5,
- "grade": "A",
+ "evaluated_at": "2026-08-24T10:40:33+09:00",
+ "score_total": 72.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 60,
   "brand_fit": 90,
-  "consistency": 100,
+  "consistency": 80,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 10개",
+ "sample_note": "YT 30일내 9개 실측(RSS)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 38700,
-   "engagement_rate": 0.0194,
-   "avg_likes": 623.0,
-   "posts_last_30d": 4,
-   "brand_fit_score": 60,
-   "retailer_focus": "olive_young",
-   "score_total": 62.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 38300,
@@ -306,6 +297,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "sample_size": 6
+  },
+  {
+   "evaluated_at": "2026-08-21T11:19:27+09:00",
+   "score_total": 75.5,
+   "grade": "A",
+   "engagement_rate": 0.0165,
+   "followers": 42100,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "sample_size": 10
   }
  ]
 }

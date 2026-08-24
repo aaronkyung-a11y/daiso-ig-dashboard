@@ -4,23 +4,23 @@
  "fullname": "청담 닥터원",
  "profile_url": "https://www.youtube.com/channel/UC-hvam4FHeXJDQZ5sCW132A",
  "channel_id": "UC-hvam4FHeXJDQZ5sCW132A",
- "followers": 6490,
- "engagement_rate": 0.0025,
- "avg_likes": 15.8,
- "avg_comments": 1.0,
- "avg_views": 6446.5,
+ "followers": 6500,
+ "engagement_rate": 0.0024,
+ "avg_likes": 18.5,
+ "avg_comments": 1.1,
+ "avg_views": 7775.3,
  "posts_last_30d": 15,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "34건",
+  "beauty_keywords": "25건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T17:20:00+09:00",
+ "evaluated_at": "2026-08-24T10:54:04+09:00",
  "score_total": 63.5,
  "grade": "C",
  "score_breakdown": {
@@ -33,21 +33,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_last_30d_floor": "RSS 피드 15건 상한 — 실제 30일 업로드는 15건 이상일 수 있음(하한 실측)"
+  "posts_30d_estimated": true
  },
- "sample_note": "YT RSS 30일내 15개 (RSS 15건 상한)",
+ "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-08-12T10:14:35+09:00",
-   "followers": 6430,
-   "engagement_rate": 0.0132,
-   "avg_likes": 12.0,
-   "posts_last_30d": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 67.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-27T10:25:16+09:00",
    "followers": 6360,
@@ -301,6 +291,17 @@
    "posts_last_30d": 15,
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general"
+  },
+  {
+   "evaluated_at": "2026-08-21T17:20:00+09:00",
+   "score_total": 63.5,
+   "grade": "C",
+   "engagement_rate": 0.0025,
+   "followers": 6490,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "sample_size": 15
   }
  ]
 }

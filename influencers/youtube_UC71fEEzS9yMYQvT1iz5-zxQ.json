@@ -4,11 +4,11 @@
  "fullname": "BEAURA TV",
  "profile_url": "https://www.youtube.com/channel/UC71fEEzS9yMYQvT1iz5-zxQ",
  "channel_id": "UC71fEEzS9yMYQvT1iz5-zxQ",
- "followers": 112000,
- "engagement_rate": 0.0022,
- "avg_likes": 38.2,
- "avg_comments": 56.6,
- "avg_views": 17097.4,
+ "followers": 111000,
+ "engagement_rate": 0.0026,
+ "avg_likes": 35.6,
+ "avg_comments": 57.0,
+ "avg_views": 13504.4,
  "posts_last_30d": 5,
  "_posts_last_30d_est": false,
  "sample_size": 5,
@@ -17,10 +17,10 @@
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "19건",
+  "beauty_keywords": "21건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:34:31+09:00",
+ "evaluated_at": "2026-08-24T10:54:04+09:00",
  "score_total": 64.5,
  "grade": "C",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개",
+ "sample_note": "YT 30일내 5개 실측(RSS)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 107000,
-   "engagement_rate": 0.0019,
-   "avg_likes": 39.7,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 64.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 107000,
@@ -294,6 +285,17 @@
    "posts_last_30d": 5,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "sample_size": 5
+  },
+  {
+   "evaluated_at": "2026-08-21T10:34:31+09:00",
+   "score_total": 64.5,
+   "grade": "C",
+   "engagement_rate": 0.0022,
+   "followers": 112000,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
    "sample_size": 5
   }
  ]

@@ -4,23 +4,23 @@
  "fullname": "미니피 minniep",
  "profile_url": "https://www.youtube.com/channel/UCrNISLWm4d6SRf8AUjoGm1g",
  "channel_id": "UCrNISLWm4d6SRf8AUjoGm1g",
- "followers": 132000,
- "engagement_rate": 0.0253,
- "avg_likes": 686.4,
- "avg_comments": 76.5,
- "avg_views": 27153.7,
- "posts_last_30d": 11,
+ "followers": 133000,
+ "engagement_rate": 0.0277,
+ "avg_likes": 770.8,
+ "avg_comments": 63.4,
+ "avg_views": 27836.1,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": false,
- "sample_size": 11,
+ "sample_size": 10,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "2건",
-  "beauty_keywords": "20건",
+  "beauty_keywords": "28건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:20:21+09:00",
+ "evaluated_at": "2026-08-24T10:40:33+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 11개",
+ "sample_note": "YT 30일내 10개 실측(RSS)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 128000,
-   "engagement_rate": 0.0124,
-   "avg_likes": 985.7,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 128000,
@@ -305,6 +296,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "sample_size": 8
+  },
+  {
+   "evaluated_at": "2026-08-21T11:20:21+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "engagement_rate": 0.0253,
+   "followers": 132000,
+   "posts_last_30d": 11,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "sample_size": 11
   }
  ]
 }

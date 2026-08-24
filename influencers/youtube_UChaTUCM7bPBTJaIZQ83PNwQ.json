@@ -4,13 +4,13 @@
  "fullname": "스완SWAN_현실남자관리",
  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
  "channel_id": "UChaTUCM7bPBTJaIZQ83PNwQ",
- "followers": 507000,
- "engagement_rate": 0.0109,
- "avg_likes": 548.1,
- "avg_comments": 131.1,
- "avg_views": 50459.4,
+ "followers": 508000,
+ "engagement_rate": 0.0108,
+ "avg_likes": 593.7,
+ "avg_comments": 134.1,
+ "avg_views": 55101.2,
  "posts_last_30d": 15,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 15,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
@@ -20,7 +20,7 @@
   "beauty_keywords": "35건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-21T11:06:58+09:00",
+ "evaluated_at": "2026-08-24T10:17:36+09:00",
  "score_total": 80.0,
  "grade": "A",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 505000,
-   "engagement_rate": 0.0217,
-   "avg_likes": 1654.3,
-   "posts_last_30d": 6,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-07-20T10:23:02+09:00",
    "followers": 504000,
@@ -303,6 +294,17 @@
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "sample_size": 8
+  },
+  {
+   "evaluated_at": "2026-08-21T11:06:58+09:00",
+   "score_total": 80.0,
+   "grade": "A",
+   "engagement_rate": 0.0109,
+   "followers": 507000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "sample_size": 15
   }
  ]
 }

@@ -4,49 +4,40 @@
  "fullname": "유정하다",
  "profile_url": "https://www.youtube.com/channel/UCXnovozlwbGRaHhR6fvG1XA",
  "channel_id": "UCXnovozlwbGRaHhR6fvG1XA",
- "followers": 797,
+ "followers": 803,
  "engagement_rate": 0.0,
  "avg_likes": 0.0,
- "avg_comments": 9.2,
- "avg_views": 27067.6,
- "posts_last_30d": 0,
+ "avg_comments": 1.0,
+ "avg_views": 1129.0,
+ "posts_last_30d": 1,
  "_posts_last_30d_est": false,
- "sample_size": 12,
- "brand_fit_score": 90,
+ "sample_size": 1,
+ "brand_fit_score": 60,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "73건",
-  "olive_young_mentions": "3건",
-  "beauty_keywords": "34건",
+  "daiso_mentions": "4건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "2건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:16:24+09:00",
- "score_total": 52.5,
+ "evaluated_at": "2026-08-24T11:17:09+09:00",
+ "score_total": 45.0,
  "grade": "D",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 90,
+  "brand_fit": 60,
   "consistency": 40,
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0 → 최근 12개 대체 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+ "sample_note": "YT 30일내 1개 실측(RSS) / 좋아요 비공개 1/1건 → ER 과소측정",
+ "_likes_hidden": 1,
  "history": [
-  {
-   "evaluated_at": "2026-08-12T10:26:48+09:00",
-   "followers": 792,
-   "engagement_rate": 0.0,
-   "avg_likes": 0.0,
-   "posts_last_30d": 1,
-   "brand_fit_score": 60,
-   "retailer_focus": "daiso",
-   "score_total": 45.0,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-07-27T10:25:16+09:00",
    "followers": 784,
@@ -304,6 +295,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 18
+  },
+  {
+   "evaluated_at": "2026-08-21T11:16:24+09:00",
+   "score_total": 52.5,
+   "grade": "D",
+   "engagement_rate": 0.0,
+   "followers": 797,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 12
   }
  ]
 }

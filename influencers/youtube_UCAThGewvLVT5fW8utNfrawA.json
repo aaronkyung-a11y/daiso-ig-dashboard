@@ -4,13 +4,13 @@
  "fullname": "ARADHYA FACT",
  "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
  "channel_id": "UCAThGewvLVT5fW8utNfrawA",
- "followers": 795000,
+ "followers": 797000,
  "engagement_rate": 0.0,
  "avg_likes": 0.0,
- "avg_comments": 1.3,
- "avg_views": 362933.0,
+ "avg_comments": 2.9,
+ "avg_views": 460465.0,
  "posts_last_30d": 15,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 15,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -20,9 +20,9 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:13:10+09:00",
- "score_total": 51.25,
- "grade": "D",
+ "evaluated_at": "2026-08-24T11:08:30+09:00",
+ "score_total": 51.2,
+ "grade": "C",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 25,
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+ "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정) / 좋아요 비공개 15/15건 → ER 과소측정",
+ "_likes_hidden": 15,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 775000,
-   "engagement_rate": 0.0,
-   "avg_likes": 0.0,
-   "posts_last_30d": 6,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.25,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 775000,
@@ -300,6 +291,17 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "sample_size": 20
+  },
+  {
+   "evaluated_at": "2026-08-21T11:13:10+09:00",
+   "score_total": 51.25,
+   "grade": "D",
+   "engagement_rate": 0.0,
+   "followers": 795000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "sample_size": 15
   }
  ]
 }

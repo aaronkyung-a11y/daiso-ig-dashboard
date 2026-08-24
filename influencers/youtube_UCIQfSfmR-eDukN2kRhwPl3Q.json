@@ -4,23 +4,23 @@
  "fullname": "키키하우스 KIKIHOUSE",
  "profile_url": "https://www.youtube.com/channel/UCIQfSfmR-eDukN2kRhwPl3Q",
  "channel_id": "UCIQfSfmR-eDukN2kRhwPl3Q",
- "followers": 9660,
- "engagement_rate": 0.013,
- "avg_likes": 144.7,
- "avg_comments": 7.9,
- "avg_views": 11120.7,
+ "followers": 9760,
+ "engagement_rate": 0.0133,
+ "avg_likes": 142.9,
+ "avg_comments": 6.9,
+ "avg_views": 10733.8,
  "posts_last_30d": 15,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 15,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
-  "daiso_mentions": "2건",
+  "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "14건",
+  "beauty_keywords": "15건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:14:04+09:00",
+ "evaluated_at": "2026-08-24T11:08:30+09:00",
  "score_total": 73.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+ "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 8880,
-   "engagement_rate": 0.0113,
-   "avg_likes": 195.1,
-   "posts_last_30d": 10,
-   "brand_fit_score": 75,
-   "retailer_focus": "beauty_general",
-   "score_total": 69.75,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 8780,
@@ -305,6 +296,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 20
+  },
+  {
+   "evaluated_at": "2026-08-21T11:14:04+09:00",
+   "score_total": 73.5,
+   "grade": "B",
+   "engagement_rate": 0.013,
+   "followers": 9660,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 15
   }
  ]
 }

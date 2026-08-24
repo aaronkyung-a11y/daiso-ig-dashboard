@@ -8,7 +8,7 @@
  "engagement_rate": 0.0095,
  "avg_likes": 14.5,
  "avg_comments": 1.5,
- "avg_views": 1519.0,
+ "avg_views": 1523.0,
  "posts_last_30d": 2,
  "_posts_last_30d_est": false,
  "sample_size": 2,
@@ -20,9 +20,9 @@
   "beauty_keywords": "1건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:33:02+09:00",
+ "evaluated_at": "2026-08-24T10:54:04+09:00",
  "score_total": 50.0,
- "grade": "D",
+ "grade": "C",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 60,
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 2개",
+ "sample_note": "YT 30일내 2개 실측(RSS)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 3640,
-   "engagement_rate": 0.0101,
-   "avg_likes": 8.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 64.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 3650,
@@ -301,6 +292,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
    "sample_size": 9
+  },
+  {
+   "evaluated_at": "2026-08-21T10:33:02+09:00",
+   "score_total": 50.0,
+   "grade": "D",
+   "engagement_rate": 0.0095,
+   "followers": 3630,
+   "posts_last_30d": 2,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "sample_size": 2
   }
  ]
 }

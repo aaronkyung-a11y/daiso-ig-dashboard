@@ -1,0 +1,41 @@
+{
+ "platform": "youtube",
+ "username": "UCiiYM77UGrWIdOmMopc0KHA",
+ "fullname": "수리얼 SUREAL",
+ "profile_url": "https://www.youtube.com/channel/UCiiYM77UGrWIdOmMopc0KHA",
+ "channel_id": "UCiiYM77UGrWIdOmMopc0KHA",
+ "followers": 6180,
+ "engagement_rate": 0.0235,
+ "avg_likes": 729.5,
+ "avg_comments": 154.0,
+ "avg_views": 31003.0,
+ "posts_last_30d": 4,
+ "_posts_last_30d_est": false,
+ "sample_size": 4,
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
+ "retailer_signal": {
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "1건",
+  "beauty_keywords": "44건",
+  "labrang_present": false
+ },
+ "evaluated_at": "2026-08-24T10:11:12+09:00",
+ "score_total": 67.5,
+ "grade": "B",
+ "score_breakdown": {
+  "er": 60,
+  "brand_fit": 90,
+  "consistency": 60,
+  "followers": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false
+ },
+ "sample_note": "YT 30일내 4개 실측 (videos+shorts+RSS 합산)",
+ "_likes_hidden": 0,
+ "_er_measurable": true,
+ "history": []
+}

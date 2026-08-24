@@ -5,47 +5,39 @@
  "profile_url": "https://www.youtube.com/channel/UC5o9Z5lgw4kk4fjDhweZxKg",
  "channel_id": "UC5o9Z5lgw4kk4fjDhweZxKg",
  "followers": 174000,
- "engagement_rate": 0.0336,
- "avg_likes": 48.8,
- "avg_comments": 3.8,
- "avg_views": 1451.8,
- "posts_last_30d": 5,
+ "engagement_rate": 0.0285,
+ "avg_likes": 17.5,
+ "avg_comments": 4.2,
+ "avg_views": 614.8,
+ "posts_last_30d": 4,
  "_posts_last_30d_est": false,
- "sample_size": 5,
+ "sample_size": 4,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
-  "daiso_mentions": "2건",
-  "olive_young_mentions": "1건",
-  "beauty_keywords": "21건",
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "20건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:32:58+09:00",
- "score_total": 84.5,
- "grade": "A",
+ "evaluated_at": "2026-08-24T10:17:36+09:00",
+ "score_total": 71.5,
+ "grade": "B",
  "score_breakdown": {
-  "er": 80,
+  "er": 60,
   "brand_fit": 90,
-  "consistency": 80,
+  "consistency": 60,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개",
+ "sample_note": "YT 30일내 4개 실측(RSS)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-08-17T10:11:06+09:00",
-   "followers": 174000,
-   "engagement_rate": 0.0339,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 81.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-08-13T17:05:00+09:00",
    "followers": 175000,
@@ -306,6 +298,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 4
+  },
+  {
+   "evaluated_at": "2026-08-21T10:32:58+09:00",
+   "score_total": 84.5,
+   "grade": "A",
+   "engagement_rate": 0.0336,
+   "followers": 174000,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 5
   }
  ]
 }

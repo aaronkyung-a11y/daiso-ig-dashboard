@@ -4,23 +4,23 @@
  "fullname": "장수의 비밀",
  "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
  "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
- "followers": 188000,
+ "followers": 189000,
  "engagement_rate": 0.0146,
- "avg_likes": 742.5,
- "avg_comments": 1.5,
- "avg_views": 50995.9,
+ "avg_likes": 742.3,
+ "avg_comments": 1.8,
+ "avg_views": 50728.1,
  "posts_last_30d": 15,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "79건",
+  "daiso_mentions": "94건",
   "olive_young_mentions": "3건",
-  "beauty_keywords": "52건",
+  "beauty_keywords": "56건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:14:52+09:00",
+ "evaluated_at": "2026-08-24T11:17:09+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+ "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 178000,
-   "engagement_rate": 0.013,
-   "avg_likes": 479.8,
-   "posts_last_30d": 9,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "score_total": 70.75,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-23T17:12:32+09:00",
    "followers": 176000,
@@ -308,6 +299,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 20
+  },
+  {
+   "evaluated_at": "2026-08-21T11:14:52+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "engagement_rate": 0.0146,
+   "followers": 188000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 15
   }
  ]
 }

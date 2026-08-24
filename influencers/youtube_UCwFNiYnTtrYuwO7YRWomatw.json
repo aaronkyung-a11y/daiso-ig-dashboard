@@ -4,23 +4,23 @@
  "fullname": "살림토끼",
  "profile_url": "https://www.youtube.com/channel/UCwFNiYnTtrYuwO7YRWomatw",
  "channel_id": "UCwFNiYnTtrYuwO7YRWomatw",
- "followers": 125000,
- "engagement_rate": 0.0112,
- "avg_likes": 1366.1,
- "avg_comments": 32.5,
- "avg_views": 121890.9,
+ "followers": 126000,
+ "engagement_rate": 0.0116,
+ "avg_likes": 1467.2,
+ "avg_comments": 34.9,
+ "avg_views": 126440.2,
  "posts_last_30d": 15,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "83건",
   "olive_young_mentions": "17건",
-  "beauty_keywords": "26건",
+  "beauty_keywords": "24건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:22:59+09:00",
+ "evaluated_at": "2026-08-24T10:40:33+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 124000,
-   "engagement_rate": 0.0089,
-   "avg_likes": 484.1,
-   "posts_last_30d": 0,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "score_total": 54.75,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 123000,
@@ -303,6 +294,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 18
+  },
+  {
+   "evaluated_at": "2026-08-21T11:22:59+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "engagement_rate": 0.0112,
+   "followers": 125000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 15
   }
  ]
 }

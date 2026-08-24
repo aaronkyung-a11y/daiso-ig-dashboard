@@ -4,13 +4,13 @@
  "fullname": "HellfireDrama",
  "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
  "channel_id": "UC-C-faUj5SNcrIkqEM6FcjA",
- "followers": 368000,
- "engagement_rate": 0.0117,
- "avg_likes": 443.9,
- "avg_comments": 5.9,
- "avg_views": 37930.3,
+ "followers": 370000,
+ "engagement_rate": 0.0094,
+ "avg_likes": 525.9,
+ "avg_comments": 12.8,
+ "avg_views": 56124.5,
  "posts_last_30d": 15,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 15,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -20,11 +20,11 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T17:20:00+09:00",
- "score_total": 61.25,
+ "evaluated_at": "2026-08-24T10:40:33+09:00",
+ "score_total": 51.2,
  "grade": "C",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 25,
   "consistency": 100,
   "followers": 100,
@@ -33,21 +33,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_last_30d_floor": "RSS 피드 15건 상한 — 실제 30일 업로드는 15건 이상일 수 있음(하한 실측)"
+  "posts_30d_estimated": true
  },
- "sample_note": "YT RSS 30일내 15개 (RSS 15건 상한)",
+ "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 351000,
-   "engagement_rate": 0.0085,
-   "avg_likes": 101.9,
-   "posts_last_30d": 10,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 51.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 347000,
@@ -301,6 +291,17 @@
    "posts_last_30d": 15,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-21T17:20:00+09:00",
+   "score_total": 61.25,
+   "grade": "C",
+   "engagement_rate": 0.0117,
+   "followers": 368000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "sample_size": 15
   }
  ]
 }

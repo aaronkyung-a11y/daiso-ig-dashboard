@@ -5,22 +5,22 @@
  "profile_url": "https://www.youtube.com/channel/UCIgltl46C_j2wVay4tgIFJg",
  "channel_id": "UCIgltl46C_j2wVay4tgIFJg",
  "followers": 2140,
- "engagement_rate": 0.008,
- "avg_likes": 22.6,
- "avg_comments": 0.0,
- "avg_views": 2818.6,
- "posts_last_30d": 8,
+ "engagement_rate": 0.0082,
+ "avg_likes": 24.1,
+ "avg_comments": 0.1,
+ "avg_views": 2948.1,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 8,
+ "sample_size": 9,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "150건",
+  "daiso_mentions": "168건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "76건",
+  "beauty_keywords": "86건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:14:09+09:00",
+ "evaluated_at": "2026-08-24T11:08:30+09:00",
  "score_total": 60.5,
  "grade": "C",
  "score_breakdown": {
@@ -32,9 +32,11 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+ "sample_note": "YT 30일내 9개 실측(RSS)",
+ "_likes_hidden": 0,
  "history": [
   {
    "evaluated_at": "2026-08-12T10:26:00+09:00",
@@ -297,6 +299,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 9
+  },
+  {
+   "evaluated_at": "2026-08-21T11:14:09+09:00",
+   "score_total": 60.5,
+   "grade": "C",
+   "engagement_rate": 0.008,
+   "followers": 2140,
+   "posts_last_30d": 8,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 8
   }
  ]
 }

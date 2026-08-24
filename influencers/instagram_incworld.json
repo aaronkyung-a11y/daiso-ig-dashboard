@@ -3,50 +3,40 @@
  "username": "incworld",
  "fullname": "뷰드름유튜버 인씨 inssi",
  "profile_url": "https://www.instagram.com/incworld/",
- "followers": 62087,
+ "followers": 62071,
  "engagement_rate": 0.0084,
- "avg_likes": 488.9,
- "avg_comments": 30.6,
- "avg_views": 93066.3,
- "posts_last_30d": 5,
+ "avg_likes": 484.3,
+ "avg_comments": 40,
+ "avg_views": 125662.3,
+ "posts_last_30d": 3,
  "_posts_last_30d_est": false,
- "sample_size": 24,
- "brand_fit_score": 100,
- "retailer_focus": "our_brand",
+ "sample_size": 12,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "11건",
-  "olive_young_mentions": "4건",
-  "beauty_keywords": "73건",
-  "labrang_present": true
+  "daiso_mentions": "1건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "10건",
+  "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:22:49+09:00",
- "score_total": 65,
- "grade": "B",
+ "evaluated_at": "2026-08-24T10:53:58+09:00",
+ "score_total": 59.5,
+ "grade": "C",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 100,
-  "consistency": 80,
+  "brand_fit": 90,
+  "consistency": 60,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts30_estimated": false
+  "posts_30d_estimated": false
  },
- "sample_note": "IG 샘플 24개, 30일내 5",
+ "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 3건.",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-08-12T10:57:07+09:00",
-   "followers": 62222,
-   "engagement_rate": 0.008,
-   "avg_likes": 463.8,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 59.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 62214,
@@ -309,6 +299,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "mixed",
    "sample_size": 12
+  },
+  {
+   "evaluated_at": "2026-08-21T11:22:49+09:00",
+   "score_total": 65,
+   "grade": "B",
+   "engagement_rate": 0.0084,
+   "followers": 62087,
+   "posts_last_30d": 5,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "sample_size": 24
   }
  ]
 }

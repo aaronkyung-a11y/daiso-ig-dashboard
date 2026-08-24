@@ -4,23 +4,23 @@
  "fullname": "Nyam",
  "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
  "channel_id": "UCs-DJ22ij2ykpyczPSFZNYQ",
- "followers": 49,
- "engagement_rate": 0.0117,
- "avg_likes": 94.0,
- "avg_comments": 0.6,
- "avg_views": 8036.1,
+ "followers": 48,
+ "engagement_rate": 0.0105,
+ "avg_likes": 65.7,
+ "avg_comments": 0.5,
+ "avg_views": 6274.5,
  "posts_last_30d": 0,
- "_posts_last_30d_est": false,
- "sample_size": 12,
+ "_posts_last_30d_est": true,
+ "sample_size": 18,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso_mentions": "12건",
-  "olive_young_mentions": "9건",
-  "beauty_keywords": "29건",
+  "daiso_mentions": "13건",
+  "olive_young_mentions": "13건",
+  "beauty_keywords": "30건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:20:49+09:00",
+ "evaluated_at": "2026-08-24T10:17:36+09:00",
  "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 0 → 최근 12개 대체",
+ "sample_note": "YT 30일내 업로드 0건 — 최근 18개 대체 샘플(추정)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 49,
-   "engagement_rate": 0.0426,
-   "avg_likes": 2.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 49,
@@ -306,6 +297,17 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "sample_size": 1
+  },
+  {
+   "evaluated_at": "2026-08-21T11:20:49+09:00",
+   "score_total": 62.5,
+   "grade": "C",
+   "engagement_rate": 0.0117,
+   "followers": 49,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 12
   }
  ]
 }

@@ -5,13 +5,13 @@
  "profile_url": "https://www.youtube.com/channel/UC4ls0b7f-ngnyKCWLdyRWrw",
  "channel_id": "UC4ls0b7f-ngnyKCWLdyRWrw",
  "followers": 16200,
- "engagement_rate": 0.0208,
- "avg_likes": 232.3,
- "avg_comments": 8.9,
- "avg_views": 11184.0,
- "posts_last_30d": 10,
+ "engagement_rate": 0.02,
+ "avg_likes": 240.2,
+ "avg_comments": 10.0,
+ "avg_views": 11991.0,
+ "posts_last_30d": 11,
  "_posts_last_30d_est": false,
- "sample_size": 10,
+ "sample_size": 11,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,8 +20,8 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:31:59+09:00",
- "score_total": 59.25,
+ "evaluated_at": "2026-08-24T10:54:04+09:00",
+ "score_total": 59.2,
  "grade": "C",
  "score_breakdown": {
   "er": 60,
@@ -32,21 +32,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 10개",
+ "sample_note": "YT 30일내 11개 실측(RSS)",
+ "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 15900,
-   "engagement_rate": 0.0097,
-   "avg_likes": 212.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 56.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 15800,
@@ -301,6 +292,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
    "sample_size": 4
+  },
+  {
+   "evaluated_at": "2026-08-21T10:31:59+09:00",
+   "score_total": 59.25,
+   "grade": "C",
+   "engagement_rate": 0.0208,
+   "followers": 16200,
+   "posts_last_30d": 10,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "sample_size": 10
   }
  ]
 }
