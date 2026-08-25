@@ -20,7 +20,6 @@
   "beauty_keywords": "1건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:50:20+09:00",
  "score_total": 50.0,
  "grade": "C",
  "score_breakdown": {
@@ -35,20 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 2개 [videos:9+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 2개 [fetched:21] | 2026-08-25T14:11:37+09:00 STEP B-Light(14:00) 재분석",
+ "evaluated_at": "2026-08-25T14:11:37+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 3650,
-   "engagement_rate": 0.009,
-   "avg_likes": 6.7,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 54.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:16:11+09:00",
    "followers": 3650,
@@ -295,6 +283,17 @@
   },
   {
    "evaluated_at": "2026-08-24T10:54:04+09:00",
+   "score_total": 50.0,
+   "grade": "C",
+   "engagement_rate": 0.0095,
+   "followers": 3630,
+   "posts_last_30d": 2,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "sample_size": 2
+  },
+  {
+   "evaluated_at": "2026-08-25T10:50:20+09:00",
    "score_total": 50.0,
    "grade": "C",
    "engagement_rate": 0.0095,

@@ -4,11 +4,11 @@
  "fullname": "오지랖퍼 처리",
  "profile_url": "https://www.youtube.com/channel/UC294X8EcA7CyoirMttWUlJQ",
  "channel_id": "UC294X8EcA7CyoirMttWUlJQ",
- "followers": 171,
+ "followers": 172,
  "engagement_rate": 0.0077,
- "avg_likes": 206.4,
+ "avg_likes": 208.0,
  "avg_comments": 0.6,
- "avg_views": 26781.8,
+ "avg_views": 26936.6,
  "posts_last_30d": 8,
  "_posts_last_30d_est": false,
  "sample_size": 8,
@@ -20,7 +20,6 @@
   "beauty_keywords": "1건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:50:20+09:00",
  "score_total": 51.0,
  "grade": "C",
  "score_breakdown": {
@@ -35,9 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 [shorts:12]",
- "_likes_hidden": 0,
- "_er_measurable": true,
+ "sample_note": "YT 30일내 8개 [fetched:12] | 2026-08-25T14:11:37+09:00 STEP B-Light(14:00) 재분석",
+ "evaluated_at": "2026-08-25T14:11:37+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:13:18+09:00",
@@ -49,6 +47,17 @@
    "brand_fit_score": 80,
    "retailer_focus": "our_brand",
    "sample_size": 9
+  },
+  {
+   "evaluated_at": "2026-08-25T10:50:20+09:00",
+   "score_total": 51.0,
+   "grade": "C",
+   "engagement_rate": 0.0077,
+   "followers": 171,
+   "posts_last_30d": 8,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso",
+   "sample_size": 8
   }
  ]
 }
