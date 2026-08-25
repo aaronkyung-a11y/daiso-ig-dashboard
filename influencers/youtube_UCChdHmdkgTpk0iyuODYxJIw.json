@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
  "channel_id": "UCChdHmdkgTpk0iyuODYxJIw",
  "followers": 479000,
- "engagement_rate": 0.0298,
- "avg_likes": 1489.3,
- "avg_comments": 80.7,
- "avg_views": 50024.8,
+ "engagement_rate": 0.0297,
+ "avg_likes": 1495.5,
+ "avg_comments": 81.0,
+ "avg_views": 50280.3,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
  "sample_size": 6,
@@ -20,7 +20,7 @@
   "beauty_keywords": "143건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-24T10:17:36+09:00",
+ "evaluated_at": "2026-08-25T10:52:57+09:00",
  "score_total": 77.0,
  "grade": "A",
  "score_breakdown": {
@@ -35,19 +35,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 6개 실측(RSS)",
+ "sample_note": "YT 30일내 6개 [videos:12+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:22:20.335257+09:00",
-   "followers": 480000,
-   "engagement_rate": 0.0385,
-   "posts_last_30d": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 81.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-05-14T10:16:44.698250+09:00",
    "followers": 478000,
@@ -304,6 +294,17 @@
    "score_total": 77.0,
    "grade": "A",
    "engagement_rate": 0.0299,
+   "followers": 479000,
+   "posts_last_30d": 6,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "sample_size": 6
+  },
+  {
+   "evaluated_at": "2026-08-24T10:17:36+09:00",
+   "score_total": 77.0,
+   "grade": "A",
+   "engagement_rate": 0.0298,
    "followers": 479000,
    "posts_last_30d": 6,
    "brand_fit_score": 100,

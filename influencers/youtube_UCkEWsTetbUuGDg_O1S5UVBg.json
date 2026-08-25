@@ -5,27 +5,27 @@
  "profile_url": "https://www.youtube.com/channel/UCkEWsTetbUuGDg_O1S5UVBg",
  "channel_id": "UCkEWsTetbUuGDg_O1S5UVBg",
  "followers": 478000,
- "engagement_rate": 0.0049,
- "avg_likes": 1441.9,
- "avg_comments": 18.5,
- "avg_views": 294662.8,
- "posts_last_30d": 15,
- "_posts_last_30d_est": true,
- "sample_size": 15,
- "brand_fit_score": 60,
+ "engagement_rate": 0.0048,
+ "avg_likes": 1627.2,
+ "avg_comments": 21.3,
+ "avg_views": 341128.9,
+ "posts_last_30d": 12,
+ "_posts_last_30d_est": false,
+ "sample_size": 12,
+ "brand_fit_score": 25,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "111건",
+  "daiso_mentions": "99건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "2건",
+  "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:40:33+09:00",
- "score_total": 60.0,
+ "evaluated_at": "2026-08-25T11:06:07+09:00",
+ "score_total": 51.25,
  "grade": "C",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 60,
+  "brand_fit": 25,
   "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -33,22 +33,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 476000,
-   "engagement_rate": 0.0075,
-   "avg_likes": 941.8,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 58.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 476000,
@@ -303,6 +292,17 @@
    "score_total": 60.0,
    "grade": "C",
    "engagement_rate": 0.005,
+   "followers": 478000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso",
+   "sample_size": 15
+  },
+  {
+   "evaluated_at": "2026-08-24T10:40:33+09:00",
+   "score_total": 60.0,
+   "grade": "C",
+   "engagement_rate": 0.0049,
    "followers": 478000,
    "posts_last_30d": 15,
    "brand_fit_score": 60,

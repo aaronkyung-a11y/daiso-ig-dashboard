@@ -4,23 +4,23 @@
  "fullname": "블루밍나나 Bloomingnana",
  "profile_url": "https://www.youtube.com/channel/UCwfipXEUgyhWaTNVYzp-gJA",
  "channel_id": "UCwfipXEUgyhWaTNVYzp-gJA",
- "followers": 82300,
- "engagement_rate": 0.0077,
- "avg_likes": 83.4,
- "avg_comments": 8.5,
- "avg_views": 10773.1,
- "posts_last_30d": 15,
+ "followers": 82500,
+ "engagement_rate": 0.0086,
+ "avg_likes": 173.6,
+ "avg_comments": 20.4,
+ "avg_views": 20173.9,
+ "posts_last_30d": 16,
  "_posts_last_30d_est": false,
- "sample_size": 15,
+ "sample_size": 16,
  "brand_fit_score": 60,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "17건",
+  "daiso_mentions": "26건",
   "olive_young_mentions": "0건",
   "beauty_keywords": "1건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:22:59+09:00",
+ "evaluated_at": "2026-08-25T11:08:46+09:00",
  "score_total": 58.0,
  "grade": "C",
  "score_breakdown": {
@@ -32,9 +32,10 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12]",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:22:46+09:00",
@@ -67,6 +68,17 @@
    "brand_fit_score": 60,
    "retailer_focus": "daiso",
    "sample_size": 4
+  },
+  {
+   "evaluated_at": "2026-08-21T11:22:59+09:00",
+   "score_total": 58.0,
+   "grade": "C",
+   "engagement_rate": 0.0077,
+   "followers": 82300,
+   "posts_last_30d": 15,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso",
+   "sample_size": 15
   }
  ]
 }

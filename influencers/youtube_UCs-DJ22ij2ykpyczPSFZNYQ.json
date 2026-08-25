@@ -5,22 +5,22 @@
  "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
  "channel_id": "UCs-DJ22ij2ykpyczPSFZNYQ",
  "followers": 48,
- "engagement_rate": 0.0105,
- "avg_likes": 65.7,
- "avg_comments": 0.5,
- "avg_views": 6274.5,
+ "engagement_rate": 0.0117,
+ "avg_likes": 87.2,
+ "avg_comments": 0.8,
+ "avg_views": 7479.6,
  "posts_last_30d": 0,
- "_posts_last_30d_est": true,
- "sample_size": 18,
+ "_posts_last_30d_est": false,
+ "sample_size": 13,
  "brand_fit_score": 90,
- "retailer_focus": "mixed",
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "13건",
-  "olive_young_mentions": "13건",
-  "beauty_keywords": "30건",
+  "daiso_mentions": "12건",
+  "olive_young_mentions": "9건",
+  "beauty_keywords": "29건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:17:36+09:00",
+ "evaluated_at": "2026-08-25T11:06:07+09:00",
  "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
@@ -33,22 +33,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 업로드 0건 — 최근 18개 대체 샘플(추정)",
+ "sample_note": "YT 30일내 0개 → 최근 13개 표본 [videos:1+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 49,
-   "engagement_rate": 0.0426,
-   "avg_likes": 2.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:24:32+09:00",
    "followers": 49,
@@ -308,6 +297,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 12
+  },
+  {
+   "evaluated_at": "2026-08-24T10:17:36+09:00",
+   "score_total": 62.5,
+   "grade": "C",
+   "engagement_rate": 0.0105,
+   "followers": 48,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
+   "sample_size": 18
   }
  ]
 }

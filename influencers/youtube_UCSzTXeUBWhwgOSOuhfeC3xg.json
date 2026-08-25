@@ -5,22 +5,22 @@
  "profile_url": "https://www.youtube.com/channel/UCSzTXeUBWhwgOSOuhfeC3xg",
  "channel_id": "UCSzTXeUBWhwgOSOuhfeC3xg",
  "followers": 2000,
- "engagement_rate": 0.0008,
+ "engagement_rate": 0.0004,
  "avg_likes": 2.3,
- "avg_comments": 7.3,
- "avg_views": 2910.7,
- "posts_last_30d": 15,
- "_posts_last_30d_est": true,
- "sample_size": 15,
+ "avg_comments": 8.4,
+ "avg_views": 5329.4,
+ "posts_last_30d": 14,
+ "_posts_last_30d_est": false,
+ "sample_size": 14,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "12건",
-  "olive_young_mentions": "41건",
-  "beauty_keywords": "155건",
+  "olive_young_mentions": "45건",
+  "beauty_keywords": "200건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T11:17:09+09:00",
+ "evaluated_at": "2026-08-25T10:58:13+09:00",
  "score_total": 63.5,
  "grade": "C",
  "score_breakdown": {
@@ -33,22 +33,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정) / 좋아요 비공개 8/15건 → ER 과소측정",
+ "sample_note": "YT 30일내 14개 [videos:12+shorts:12]",
  "_likes_hidden": 8,
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 1940,
-   "engagement_rate": 0.0,
-   "avg_likes": 0.0,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 57.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 1930,
@@ -305,6 +294,17 @@
    "grade": "C",
    "engagement_rate": 0.0011,
    "followers": 1990,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "sample_size": 15
+  },
+  {
+   "evaluated_at": "2026-08-24T11:17:09+09:00",
+   "score_total": 63.5,
+   "grade": "C",
+   "engagement_rate": 0.0008,
+   "followers": 2000,
    "posts_last_30d": 15,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",

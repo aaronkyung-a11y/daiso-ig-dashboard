@@ -4,23 +4,23 @@
  "fullname": "코덕순",
  "profile_url": "https://www.youtube.com/channel/UCa6F7kUQnN8fmLBnSRSpY_g",
  "channel_id": "UCa6F7kUQnN8fmLBnSRSpY_g",
- "followers": 5010,
+ "followers": 5070,
  "engagement_rate": 0.0216,
- "avg_likes": 1648.8,
+ "avg_likes": 1684.6,
  "avg_comments": 15.8,
- "avg_views": 76495.8,
+ "avg_views": 77974.4,
  "posts_last_30d": 9,
  "_posts_last_30d_est": false,
  "sample_size": 9,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso_mentions": "65건",
-  "olive_young_mentions": "44건",
-  "beauty_keywords": "33건",
+  "daiso_mentions": "53건",
+  "olive_young_mentions": "60건",
+  "beauty_keywords": "34건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:16:49+09:00",
+ "evaluated_at": "2026-08-25T11:00:51+09:00",
  "score_total": 70.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,9 +32,10 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+ "sample_note": "YT 30일내 9개 [shorts:12]",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:28:42+09:00",
@@ -67,6 +68,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "mixed",
    "sample_size": 10
+  },
+  {
+   "evaluated_at": "2026-08-21T11:16:49+09:00",
+   "score_total": 70.5,
+   "grade": "B",
+   "engagement_rate": 0.0216,
+   "followers": 5010,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 9
   }
  ]
 }

@@ -6,9 +6,9 @@
  "channel_id": "UCYsv-IHC-B-DiVMmJuqibcg",
  "followers": 281000,
  "engagement_rate": 0.0209,
- "avg_likes": 562.0,
- "avg_comments": 128.0,
- "avg_views": 26876.0,
+ "avg_likes": 566.0,
+ "avg_comments": 129.0,
+ "avg_views": 27134.0,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 1,
@@ -20,8 +20,8 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:11:12+09:00",
- "score_total": 52.2,
+ "evaluated_at": "2026-08-25T11:00:51+09:00",
+ "score_total": 52.25,
  "grade": "C",
  "score_breakdown": {
   "er": 60,
@@ -32,10 +32,23 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 1개 실측 (videos+shorts+RSS 합산)",
+ "sample_note": "YT 30일내 1개 [videos:12+shorts:12]",
  "_likes_hidden": 0,
  "_er_measurable": true,
- "history": []
+ "history": [
+  {
+   "evaluated_at": "2026-08-24T10:11:12+09:00",
+   "score_total": 52.2,
+   "grade": "C",
+   "engagement_rate": 0.0209,
+   "followers": 281000,
+   "posts_last_30d": 1,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "sample_size": 1
+  }
+ ]
 }

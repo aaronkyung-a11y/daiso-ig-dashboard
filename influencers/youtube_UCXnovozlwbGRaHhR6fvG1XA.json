@@ -4,11 +4,11 @@
  "fullname": "유정하다",
  "profile_url": "https://www.youtube.com/channel/UCXnovozlwbGRaHhR6fvG1XA",
  "channel_id": "UCXnovozlwbGRaHhR6fvG1XA",
- "followers": 803,
+ "followers": 802,
  "engagement_rate": 0.0,
  "avg_likes": 0.0,
  "avg_comments": 1.0,
- "avg_views": 1129.0,
+ "avg_views": 1150.0,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 1,
@@ -20,7 +20,7 @@
   "beauty_keywords": "2건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T11:17:09+09:00",
+ "evaluated_at": "2026-08-25T11:00:51+09:00",
  "score_total": 45.0,
  "grade": "D",
  "score_breakdown": {
@@ -35,20 +35,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 1개 실측(RSS) / 좋아요 비공개 1/1건 → ER 과소측정",
+ "sample_note": "YT 30일내 1개 [shorts:12]",
  "_likes_hidden": 1,
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 784,
-   "engagement_rate": 0.0,
-   "avg_likes": 0.0,
-   "posts_last_30d": 1,
-   "brand_fit_score": 60,
-   "retailer_focus": "daiso",
-   "score_total": 45.0,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 785,
@@ -306,6 +295,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 12
+  },
+  {
+   "evaluated_at": "2026-08-24T11:17:09+09:00",
+   "score_total": 45.0,
+   "grade": "D",
+   "engagement_rate": 0.0,
+   "followers": 803,
+   "posts_last_30d": 1,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso",
+   "sample_size": 1
   }
  ]
 }

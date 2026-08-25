@@ -4,29 +4,29 @@
  "fullname": "호기심대장 김몽몽  𝐦𝐨𝐧𝐠𝐦𝐨𝐧𝐠",
  "profile_url": "https://www.youtube.com/channel/UCoCxuPrH7NwbBprRjSD2IKw",
  "channel_id": "UCoCxuPrH7NwbBprRjSD2IKw",
- "followers": 42400,
- "engagement_rate": 0.0187,
- "avg_likes": 1535.4,
- "avg_comments": 138.9,
- "avg_views": 81951.9,
- "posts_last_30d": 9,
+ "followers": 42500,
+ "engagement_rate": 0.0194,
+ "avg_likes": 1540.4,
+ "avg_comments": 132.0,
+ "avg_views": 79452.3,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": false,
- "sample_size": 9,
+ "sample_size": 10,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "2건",
-  "beauty_keywords": "13건",
+  "beauty_keywords": "15건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:40:33+09:00",
- "score_total": 72.5,
- "grade": "B",
+ "evaluated_at": "2026-08-25T11:06:07+09:00",
+ "score_total": 75.5,
+ "grade": "A",
  "score_breakdown": {
   "er": 60,
   "brand_fit": 90,
-  "consistency": 80,
+  "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -35,20 +35,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 실측(RSS)",
+ "sample_note": "YT 30일내 10개 [videos:12+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 38300,
-   "engagement_rate": 0.0188,
-   "avg_likes": 481.3,
-   "posts_last_30d": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 69.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 38200,
@@ -308,6 +297,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "sample_size": 10
+  },
+  {
+   "evaluated_at": "2026-08-24T10:40:33+09:00",
+   "score_total": 72.5,
+   "grade": "B",
+   "engagement_rate": 0.0187,
+   "followers": 42400,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "sample_size": 9
   }
  ]
 }

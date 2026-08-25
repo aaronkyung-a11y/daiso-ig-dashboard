@@ -7,35 +7,48 @@
  "followers": 127000,
  "engagement_rate": 0.0,
  "avg_likes": 0.0,
- "avg_comments": 76.6,
- "avg_views": 21927.6,
- "posts_last_30d": 5,
+ "avg_comments": 47.9,
+ "avg_views": 31984.2,
+ "posts_last_30d": 16,
  "_posts_last_30d_est": false,
- "sample_size": 5,
+ "sample_size": 16,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso_mentions": "2건",
-  "olive_young_mentions": "1건",
-  "beauty_keywords": "20건",
+  "daiso_mentions": "3건",
+  "olive_young_mentions": "3건",
+  "beauty_keywords": "25건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:11:12+09:00",
- "score_total": 64.5,
- "grade": "C",
+ "evaluated_at": "2026-08-25T10:52:57+09:00",
+ "score_total": 67.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 90,
-  "consistency": 80,
+  "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 실측 (videos+shorts+RSS 합산) / 좋아요 비공개 5/5건 → ER 과소측정(측정불가분 0 처리)",
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12]",
  "_likes_hidden": 5,
  "_er_measurable": false,
- "history": []
+ "history": [
+  {
+   "evaluated_at": "2026-08-24T10:11:12+09:00",
+   "score_total": 64.5,
+   "grade": "C",
+   "engagement_rate": 0.0,
+   "followers": 127000,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 5
+  }
+ ]
 }

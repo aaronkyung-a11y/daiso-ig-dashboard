@@ -5,23 +5,23 @@
  "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
  "channel_id": "UCGtY9qyrQqqPlkNqAwccjNQ",
  "followers": 602000,
- "engagement_rate": 0.0144,
- "avg_likes": 6681.9,
- "avg_comments": 185.3,
- "avg_views": 463622.5,
- "posts_last_30d": 15,
- "_posts_last_30d_est": true,
- "sample_size": 15,
+ "engagement_rate": 0.0166,
+ "avg_likes": 5329.2,
+ "avg_comments": 149.4,
+ "avg_views": 320073.9,
+ "posts_last_30d": 12,
+ "_posts_last_30d_est": false,
+ "sample_size": 12,
  "brand_fit_score": 25,
- "retailer_focus": "daiso",
+ "retailer_focus": "off_topic",
  "retailer_signal": {
-  "daiso_mentions": "1건",
+  "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:17:36+09:00",
- "score_total": 61.2,
+ "evaluated_at": "2026-08-25T10:52:57+09:00",
+ "score_total": 61.25,
  "grade": "C",
  "score_breakdown": {
   "er": 60,
@@ -33,22 +33,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "sample_note": "YT 30일내 12개 [videos:8+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 595000,
-   "engagement_rate": 0.022,
-   "avg_likes": 2639.1,
-   "posts_last_30d": 0,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 61.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:19:19+09:00",
    "followers": 594000,
@@ -301,6 +290,17 @@
    "score_total": 61.25,
    "grade": "C",
    "engagement_rate": 0.0147,
+   "followers": 602000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 25,
+   "retailer_focus": "daiso",
+   "sample_size": 15
+  },
+  {
+   "evaluated_at": "2026-08-24T10:17:36+09:00",
+   "score_total": 61.2,
+   "grade": "C",
+   "engagement_rate": 0.0144,
    "followers": 602000,
    "posts_last_30d": 15,
    "brand_fit_score": 25,

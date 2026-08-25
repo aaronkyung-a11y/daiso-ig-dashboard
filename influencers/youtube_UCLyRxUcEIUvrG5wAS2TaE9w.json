@@ -4,51 +4,40 @@
  "fullname": "피부는 희쌤",
  "profile_url": "https://www.youtube.com/channel/UCLyRxUcEIUvrG5wAS2TaE9w",
  "channel_id": "UCLyRxUcEIUvrG5wAS2TaE9w",
- "followers": 19700,
- "engagement_rate": 0.021,
- "avg_likes": 66.5,
- "avg_comments": 7.5,
- "avg_views": 3162.0,
- "posts_last_30d": 4,
- "_posts_last_30d_est": true,
- "sample_size": 4,
- "brand_fit_score": 95,
+ "followers": 19800,
+ "engagement_rate": 0.0197,
+ "avg_likes": 57.2,
+ "avg_comments": 8.3,
+ "avg_views": 2904.5,
+ "posts_last_30d": 16,
+ "_posts_last_30d_est": false,
+ "sample_size": 16,
+ "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "3건",
-  "olive_young_mentions": "2건",
-  "beauty_keywords": "5건",
+  "daiso_mentions": "10건",
+  "olive_young_mentions": "5건",
+  "beauty_keywords": "66건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-24T10:17:36+09:00",
- "score_total": 70.8,
- "grade": "B",
+ "evaluated_at": "2026-08-25T10:55:35+09:00",
+ "score_total": 78.0,
+ "grade": "A",
  "score_breakdown": {
   "er": 60,
-  "brand_fit": 95,
-  "consistency": 60,
+  "brand_fit": 100,
+  "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 4개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 19100,
-   "engagement_rate": 0.0304,
-   "avg_likes": 138.2,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 82.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 19100,
@@ -310,6 +299,17 @@
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "sample_size": 15
+  },
+  {
+   "evaluated_at": "2026-08-24T10:17:36+09:00",
+   "score_total": 70.8,
+   "grade": "B",
+   "engagement_rate": 0.021,
+   "followers": 19700,
+   "posts_last_30d": 4,
+   "brand_fit_score": 95,
+   "retailer_focus": "our_brand",
+   "sample_size": 4
   }
  ]
 }

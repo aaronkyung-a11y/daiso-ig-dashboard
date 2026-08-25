@@ -4,23 +4,23 @@
  "fullname": "로빗 lobit🐰🫧",
  "profile_url": "https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA",
  "channel_id": "UCYxuoueMuR3f80RU_ua4TXA",
- "followers": 3090,
- "engagement_rate": 0.019,
- "avg_likes": 378.0,
- "avg_comments": 6.5,
- "avg_views": 19919.0,
- "posts_last_30d": 8,
+ "followers": 3150,
+ "engagement_rate": 0.0192,
+ "avg_likes": 517.3,
+ "avg_comments": 8.0,
+ "avg_views": 26882.9,
+ "posts_last_30d": 7,
  "_posts_last_30d_est": false,
- "sample_size": 8,
+ "sample_size": 7,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "44건",
+  "daiso_mentions": "40건",
   "olive_young_mentions": "13건",
-  "beauty_keywords": "32건",
+  "beauty_keywords": "31건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:16:25+09:00",
+ "evaluated_at": "2026-08-25T11:00:51+09:00",
  "score_total": 70.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,21 +32,11 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+ "sample_note": "YT 30일내 7개 [shorts:12]",
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 2900,
-   "engagement_rate": 0.0172,
-   "avg_likes": 317.5,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 70.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 2870,
@@ -302,6 +292,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 7
+  },
+  {
+   "evaluated_at": "2026-08-21T11:16:25+09:00",
+   "score_total": 70.5,
+   "grade": "B",
+   "engagement_rate": 0.019,
+   "followers": 3090,
+   "posts_last_30d": 8,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 8
   }
  ]
 }

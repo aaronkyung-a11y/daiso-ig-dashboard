@@ -3,13 +3,13 @@
  "username": "boss.lim_",
  "fullname": "보스",
  "profile_url": "https://www.instagram.com/boss.lim_/",
- "followers": 1188,
- "engagement_rate": 0.0239,
- "avg_likes": 26.6,
- "avg_comments": 1.8,
- "avg_views": 5865.7,
+ "followers": 1192,
+ "engagement_rate": 0.0187,
+ "avg_likes": 20.8,
+ "avg_comments": 1.5,
+ "avg_views": 4482.3,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 75,
  "retailer_focus": "mixed",
@@ -19,8 +19,8 @@
   "beauty_keywords": "7건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:53:58+09:00",
- "score_total": 69.8,
+ "evaluated_at": "2026-08-25T11:10:26+09:00",
+ "score_total": 69.75,
  "grade": "B",
  "score_breakdown": {
   "er": 60,
@@ -32,22 +32,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true
  },
- "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 12건.",
- "_likes_hidden": 0,
+ "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 12건 / 평균은 반환 12건 기준. 좋아요 비공개 2/12건 → ER 과소측정",
+ "_likes_hidden": 2,
  "history": [
-  {
-   "evaluated_at": "2026-08-12T10:57:07+09:00",
-   "followers": 1152,
-   "engagement_rate": 0.1369,
-   "avg_likes": 135.8,
-   "posts_last_30d": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 93.5,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-07-27T17:11:48+09:00",
    "followers": 957,
@@ -310,6 +299,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 24
+  },
+  {
+   "evaluated_at": "2026-08-24T10:53:58+09:00",
+   "score_total": 69.8,
+   "grade": "B",
+   "engagement_rate": 0.0239,
+   "followers": 1188,
+   "posts_last_30d": 12,
+   "brand_fit_score": 75,
+   "retailer_focus": "mixed",
+   "sample_size": 12
   }
  ]
 }

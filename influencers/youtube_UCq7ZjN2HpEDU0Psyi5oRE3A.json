@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UCq7ZjN2HpEDU0Psyi5oRE3A",
  "channel_id": "UCq7ZjN2HpEDU0Psyi5oRE3A",
  "followers": 3860,
- "engagement_rate": 0.0213,
- "avg_likes": 64.5,
- "avg_comments": 1.2,
- "avg_views": 3028.5,
+ "engagement_rate": 0.0221,
+ "avg_likes": 78.8,
+ "avg_comments": 1.6,
+ "avg_views": 3559.6,
  "posts_last_30d": 8,
  "_posts_last_30d_est": false,
  "sample_size": 8,
@@ -16,11 +16,11 @@
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "16건",
-  "olive_young_mentions": "8건",
-  "beauty_keywords": "17건",
+  "olive_young_mentions": "6건",
+  "beauty_keywords": "12건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-21T11:19:27+09:00",
+ "evaluated_at": "2026-08-25T11:06:07+09:00",
  "score_total": 73.0,
  "grade": "B",
  "score_breakdown": {
@@ -32,9 +32,10 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+ "sample_note": "YT 30일내 8개 [shorts:12]",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:27:46+09:00",
@@ -293,6 +294,17 @@
    "grade": "B",
    "engagement_rate": 0.0195,
    "followers": 3850,
+   "posts_last_30d": 8,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "sample_size": 8
+  },
+  {
+   "evaluated_at": "2026-08-21T11:19:27+09:00",
+   "score_total": 73.0,
+   "grade": "B",
+   "engagement_rate": 0.0213,
+   "followers": 3860,
    "posts_last_30d": 8,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",

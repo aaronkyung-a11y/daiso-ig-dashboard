@@ -28,7 +28,7 @@
   "posts_last_30d": true,
   "note": "account_unavailable"
  },
- "sample_note": "2026-08-21T14:15:00+09:00 STEP B-Light(14:00) 재확인 — Chrome으로 프로필 접근 시 \"죄송합니다. 페이지를 사용할 수 없습니다.\" 반환. 계정 삭제 상태 지속(변동 없음). 미측정 기본값(ER0/bf25/posts0/fol0) 유지, score_total=36.25.",
+ "sample_note": "2026-08-21T14:15:00+09:00 STEP B-Light(14:00) 재확인 — Chrome으로 프로필 접근 시 \"죄송합니다. 페이지를 사용할 수 없습니다.\" 반환. 계정 삭제 상태 지속(변동 없음). 미측정 기본값(ER0/bf25/posts0/fol0) 유지, score_total=36.25. | ⚠️ 2026-08-25 11:10 재수집 실패: 프로필 404 — 계정 삭제/비공개/핸들 변경 추정 — 직전 값 유지",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:14:34+09:00",
@@ -256,5 +256,6 @@
  ],
  "_posts_last_30d_est": false,
  "account_status": "deleted_or_unavailable (확인일 2026-08-21 14:15, Chrome 실측)",
- "last_checked_at": "2026-08-21T14:15:00+09:00"
+ "last_checked_at": "2026-08-21T14:15:00+09:00",
+ "_refresh_failed_at": "2026-08-25T11:10:26+09:00"
 }

@@ -3,23 +3,23 @@
  "username": "incworld",
  "fullname": "뷰드름유튜버 인씨 inssi",
  "profile_url": "https://www.instagram.com/incworld/",
- "followers": 62071,
- "engagement_rate": 0.0084,
+ "followers": 62060,
+ "engagement_rate": 0.0085,
  "avg_likes": 484.3,
- "avg_comments": 40,
- "avg_views": 125662.3,
+ "avg_comments": 40.6,
+ "avg_views": 115271.3,
  "posts_last_30d": 3,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "1건",
+  "daiso_mentions": "2건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "10건",
+  "beauty_keywords": "13건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:53:58+09:00",
+ "evaluated_at": "2026-08-25T11:10:26+09:00",
  "score_total": 59.5,
  "grade": "C",
  "score_breakdown": {
@@ -32,22 +32,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true
  },
- "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 3건.",
+ "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 3건 / 평균은 반환 12건 기준",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 62214,
-   "engagement_rate": 0.008,
-   "avg_likes": 491.2,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 59.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-17T11:21:44.583713+09:00",
    "followers": 62153,
@@ -310,6 +299,17 @@
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "sample_size": 24
+  },
+  {
+   "evaluated_at": "2026-08-24T10:53:58+09:00",
+   "score_total": 59.5,
+   "grade": "C",
+   "engagement_rate": 0.0084,
+   "followers": 62071,
+   "posts_last_30d": 3,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 12
   }
  ]
 }

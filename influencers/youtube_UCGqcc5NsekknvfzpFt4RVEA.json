@@ -4,14 +4,14 @@
  "fullname": "지니이즈백",
  "profile_url": "https://www.youtube.com/channel/UCGqcc5NsekknvfzpFt4RVEA",
  "channel_id": "UCGqcc5NsekknvfzpFt4RVEA",
- "followers": 8900,
- "engagement_rate": 0.015,
- "avg_likes": 103.5,
- "avg_comments": 9.5,
- "avg_views": 6875.5,
- "posts_last_30d": 15,
+ "followers": 10100,
+ "engagement_rate": 0.0188,
+ "avg_likes": 162.7,
+ "avg_comments": 25.3,
+ "avg_views": 8650.9,
+ "posts_last_30d": 17,
  "_posts_last_30d_est": false,
- "sample_size": 15,
+ "sample_size": 17,
  "brand_fit_score": 25,
  "retailer_focus": "daiso",
  "retailer_signal": {
@@ -20,21 +20,22 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:37:59+09:00",
- "score_total": 57.25,
+ "evaluated_at": "2026-08-25T10:52:57+09:00",
+ "score_total": 59.25,
  "grade": "C",
  "score_breakdown": {
   "er": 60,
   "brand_fit": 25,
   "consistency": 100,
-  "followers": 60,
+  "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 17개 [videos:12+shorts:12]",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -46,6 +47,17 @@
    "brand_fit_score": 60,
    "retailer_focus": "daiso",
    "sample_size": 6
+  },
+  {
+   "evaluated_at": "2026-08-21T10:37:59+09:00",
+   "score_total": 57.25,
+   "grade": "C",
+   "engagement_rate": 0.015,
+   "followers": 8900,
+   "posts_last_30d": 15,
+   "brand_fit_score": 25,
+   "retailer_focus": "daiso",
+   "sample_size": 15
   }
  ]
 }

@@ -4,23 +4,23 @@
  "fullname": "리틀약사 Shorts",
  "profile_url": "https://www.youtube.com/channel/UCPsApmFia_Ej6lcxNkNMp4A",
  "channel_id": "UCPsApmFia_Ej6lcxNkNMp4A",
- "followers": 41800,
- "engagement_rate": 0.0078,
- "avg_likes": 202.5,
- "avg_comments": 1.9,
- "avg_views": 25870.1,
- "posts_last_30d": 15,
+ "followers": 42200,
+ "engagement_rate": 0.0044,
+ "avg_likes": 207.5,
+ "avg_comments": 3.2,
+ "avg_views": 47032.2,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 15,
+ "sample_size": 12,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
-  "daiso_mentions": "1건",
+  "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "36건",
+  "beauty_keywords": "18건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:14:44+09:00",
+ "evaluated_at": "2026-08-25T10:58:13+09:00",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,9 +32,10 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개 / 구독자는 /shorts 탭에서 취득(채널에 videos 탭 없음)",
+ "sample_note": "YT 30일내 12개 [shorts:12]",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -46,6 +47,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 18
+  },
+  {
+   "evaluated_at": "2026-08-21T11:14:44+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "engagement_rate": 0.0078,
+   "followers": 41800,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 15
   }
  ]
 }

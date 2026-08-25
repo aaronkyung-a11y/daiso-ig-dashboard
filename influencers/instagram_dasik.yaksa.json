@@ -3,38 +3,38 @@
  "username": "dasik.yaksa",
  "fullname": "다식 약사 | 박약다식, 박소윤",
  "profile_url": "https://www.instagram.com/dasik.yaksa/",
- "followers": 111767,
- "engagement_rate": 0.0054,
- "avg_likes": 468.3,
- "avg_comments": 139.3,
- "avg_views": 123015.3,
+ "followers": 112855,
+ "engagement_rate": 0.0036,
+ "avg_likes": 334,
+ "avg_comments": 71.7,
+ "avg_views": 12581.1,
  "posts_last_30d": 11,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
- "brand_fit_score": 60,
+ "brand_fit_score": 75,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "2건",
+  "beauty_keywords": "3건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:53:58+09:00",
- "score_total": 60.0,
+ "evaluated_at": "2026-08-25T11:10:26+09:00",
+ "score_total": 63.75,
  "grade": "C",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 60,
+  "brand_fit": 75,
   "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": true,
-  "posts_30d_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": true
  },
- "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 11건. 팔로워 수 취득 실패 → 직전 실측값 유지(추정).",
+ "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 11건 / 평균은 반환 12건 기준. (html-fallback 경로 수집)",
  "_likes_hidden": 0,
  "history": [
   {
@@ -268,6 +268,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
    "sample_size": 24
+  },
+  {
+   "evaluated_at": "2026-08-24T10:53:58+09:00",
+   "score_total": 60.0,
+   "grade": "C",
+   "engagement_rate": 0.0054,
+   "followers": 111767,
+   "posts_last_30d": 11,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "sample_size": 12
   }
  ]
 }

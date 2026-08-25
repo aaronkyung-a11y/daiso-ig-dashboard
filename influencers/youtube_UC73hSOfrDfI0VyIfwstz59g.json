@@ -4,23 +4,23 @@
  "fullname": "아서비",
  "profile_url": "https://www.youtube.com/channel/UC73hSOfrDfI0VyIfwstz59g",
  "channel_id": "UC73hSOfrDfI0VyIfwstz59g",
- "followers": 10600,
- "engagement_rate": 0.0117,
- "avg_likes": 1118.7,
- "avg_comments": 31.0,
- "avg_views": 95358.5,
- "posts_last_30d": 15,
+ "followers": 10800,
+ "engagement_rate": 0.0107,
+ "avg_likes": 1099.0,
+ "avg_comments": 27.5,
+ "avg_views": 102409.0,
+ "posts_last_30d": 13,
  "_posts_last_30d_est": false,
- "sample_size": 15,
+ "sample_size": 13,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "31건",
+  "beauty_keywords": "25건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:34:31+09:00",
+ "evaluated_at": "2026-08-25T10:52:57+09:00",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -32,9 +32,10 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 13개 [videos:12+shorts:12]",
  "history": [
   {
    "evaluated_at": "2026-08-17T10:11:50+09:00",
@@ -46,6 +47,17 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "sample_size": 14
+  },
+  {
+   "evaluated_at": "2026-08-21T10:34:31+09:00",
+   "score_total": 75.5,
+   "grade": "A",
+   "engagement_rate": 0.0117,
+   "followers": 10600,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "sample_size": 15
   }
  ]
 }

@@ -4,23 +4,23 @@
  "fullname": "단이 DANI",
  "profile_url": "https://www.youtube.com/channel/UCxAdlKnB5u0a7A-iqRa5jYw",
  "channel_id": "UCxAdlKnB5u0a7A-iqRa5jYw",
- "followers": 236000,
+ "followers": 237000,
  "engagement_rate": 0.0,
  "avg_likes": 0.0,
- "avg_comments": 38.8,
- "avg_views": 36681.3,
- "posts_last_30d": 15,
+ "avg_comments": 37.9,
+ "avg_views": 30221.2,
+ "posts_last_30d": 18,
  "_posts_last_30d_est": false,
- "sample_size": 15,
+ "sample_size": 18,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "13건",
+  "daiso_mentions": "16건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "41건",
+  "beauty_keywords": "53건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:22:59+09:00",
+ "evaluated_at": "2026-08-25T11:08:46+09:00",
  "score_total": 67.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,21 +32,11 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 18개 [videos:12+shorts:12]",
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 235000,
-   "engagement_rate": 0.0,
-   "avg_likes": 0.0,
-   "posts_last_30d": 7,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "score_total": 64.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 235000,
@@ -300,6 +290,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 7
+  },
+  {
+   "evaluated_at": "2026-08-21T11:22:59+09:00",
+   "score_total": 67.5,
+   "grade": "B",
+   "engagement_rate": 0.0,
+   "followers": 236000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 15
   }
  ]
 }

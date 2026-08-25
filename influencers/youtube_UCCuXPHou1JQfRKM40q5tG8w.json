@@ -4,23 +4,23 @@
  "fullname": "화장품은 과학이다 by 안언니 Ahnunnie",
  "profile_url": "https://www.youtube.com/channel/UCCuXPHou1JQfRKM40q5tG8w",
  "channel_id": "UCCuXPHou1JQfRKM40q5tG8w",
- "followers": 87400,
- "engagement_rate": 0.0236,
- "avg_likes": 355.8,
- "avg_comments": 51.0,
- "avg_views": 15047.8,
+ "followers": 87500,
+ "engagement_rate": 0.025,
+ "avg_likes": 260.0,
+ "avg_comments": 63.2,
+ "avg_views": 10403.0,
  "posts_last_30d": 4,
  "_posts_last_30d_est": false,
  "sample_size": 4,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso_mentions": "9건",
+  "daiso_mentions": "1건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "16건",
+  "beauty_keywords": "10건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:34:51+09:00",
+ "evaluated_at": "2026-08-25T10:52:57+09:00",
  "score_total": 69.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,9 +32,10 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 4개",
+ "sample_note": "YT 30일내 4개 [videos:12+shorts:12]",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:21:16+09:00",
@@ -100,6 +101,17 @@
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "sample_size": 18
+  },
+  {
+   "evaluated_at": "2026-08-21T10:34:51+09:00",
+   "score_total": 69.5,
+   "grade": "B",
+   "engagement_rate": 0.0236,
+   "followers": 87400,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 4
   }
  ]
 }

@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg",
  "channel_id": "UCbNMdCWBwjljPxDu8dfeHmg",
  "followers": 49900,
- "engagement_rate": 0.0164,
- "avg_likes": 302.3,
- "avg_comments": 3.7,
- "avg_views": 18470.0,
+ "engagement_rate": 0.0166,
+ "avg_likes": 347.7,
+ "avg_comments": 6.0,
+ "avg_views": 20910.4,
  "posts_last_30d": 9,
  "_posts_last_30d_est": false,
  "sample_size": 9,
@@ -17,10 +17,10 @@
  "retailer_signal": {
   "daiso_mentions": "8건",
   "olive_young_mentions": "3건",
-  "beauty_keywords": "15건",
+  "beauty_keywords": "8건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T11:02:44+09:00",
+ "evaluated_at": "2026-08-25T11:00:51+09:00",
  "score_total": 72.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,21 +32,11 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개",
+ "sample_note": "YT 30일내 9개 [videos:2+shorts:12]",
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 50000,
-   "engagement_rate": 0.0115,
-   "avg_likes": 669.5,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 66.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 50000,
@@ -303,6 +293,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
    "sample_size": 2
+  },
+  {
+   "evaluated_at": "2026-08-21T11:02:44+09:00",
+   "score_total": 72.5,
+   "grade": "B",
+   "engagement_rate": 0.0164,
+   "followers": 49900,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 9
   }
  ]
 }

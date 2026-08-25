@@ -3,13 +3,13 @@
  "username": "cherry.park___",
  "fullname": "박체리 cherry🍒",
  "profile_url": "https://www.instagram.com/cherry.park___/",
- "followers": 21961,
- "engagement_rate": 0.0207,
- "avg_likes": 451.2,
- "avg_comments": 3.1,
- "avg_views": 34090.8,
+ "followers": 21958,
+ "engagement_rate": 0.0209,
+ "avg_likes": 455.8,
+ "avg_comments": 3.3,
+ "avg_views": 34741.5,
  "posts_last_30d": 9,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
@@ -19,7 +19,7 @@
   "beauty_keywords": "19건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:53:58+09:00",
+ "evaluated_at": "2026-08-25T11:10:26+09:00",
  "score_total": 72.5,
  "grade": "B",
  "score_breakdown": {
@@ -32,9 +32,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true
  },
- "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 9건.",
+ "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 9건 / 평균은 반환 12건 기준",
  "_likes_hidden": 0,
  "history": [
   {
@@ -276,6 +276,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 24
+  },
+  {
+   "evaluated_at": "2026-08-24T10:53:58+09:00",
+   "score_total": 72.5,
+   "grade": "B",
+   "engagement_rate": 0.0207,
+   "followers": 21961,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 12
   }
  ]
 }

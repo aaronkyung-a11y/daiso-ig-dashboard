@@ -3,27 +3,27 @@
  "username": "jangsu_note",
  "fullname": "장수노트",
  "profile_url": "https://www.instagram.com/jangsu_note/",
- "followers": 18186,
- "engagement_rate": 0.0641,
- "avg_likes": 1051.2,
- "avg_comments": 114.9,
- "avg_views": 177330.5,
- "posts_last_30d": 5,
- "_posts_last_30d_est": false,
+ "followers": 18203,
+ "engagement_rate": 0.0464,
+ "avg_likes": 716.5,
+ "avg_comments": 128.8,
+ "avg_views": 64883.8,
+ "posts_last_30d": 7,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "14건",
+  "daiso_mentions": "8건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "11건",
+  "beauty_keywords": "10건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-24T10:53:58+09:00",
- "score_total": 90.0,
+ "evaluated_at": "2026-08-25T11:10:26+09:00",
+ "score_total": 85.0,
  "grade": "S",
  "score_breakdown": {
-  "er": 90,
+  "er": 80,
   "brand_fit": 100,
   "consistency": 80,
   "followers": 80,
@@ -32,21 +32,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true
  },
- "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 5건.",
+ "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 7건 / 평균은 반환 12건 기준",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-06T10:19:37.636436+09:00",
-   "followers": 17019,
-   "engagement_rate": 0.1161,
-   "posts_last_30d": 2,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 92.0,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-07-03T17:11:37.579178+09:00",
    "followers": 15676,
@@ -309,6 +299,17 @@
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "sample_size": 24
+  },
+  {
+   "evaluated_at": "2026-08-24T10:53:58+09:00",
+   "score_total": 90.0,
+   "grade": "S",
+   "engagement_rate": 0.0641,
+   "followers": 18186,
+   "posts_last_30d": 5,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "sample_size": 12
   }
  ]
 }

@@ -4,14 +4,14 @@
  "fullname": "ぼっちの内科医",
  "profile_url": "https://www.youtube.com/channel/UCZdDMMKj3wgBfo9KU79mdMw",
  "channel_id": "UCZdDMMKj3wgBfo9KU79mdMw",
- "followers": 8350,
- "engagement_rate": 0.0276,
- "avg_likes": 338.2,
- "avg_comments": 16.1,
- "avg_views": 12255.7,
- "posts_last_30d": 15,
+ "followers": 8370,
+ "engagement_rate": 0.038,
+ "avg_likes": 279.5,
+ "avg_comments": 16.7,
+ "avg_views": 7353.2,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 15,
+ "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,11 +20,11 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-21T10:58:51+09:00",
- "score_total": 57.25,
- "grade": "C",
+ "evaluated_at": "2026-08-25T11:00:51+09:00",
+ "score_total": 67.25,
+ "grade": "B",
  "score_breakdown": {
-  "er": 60,
+  "er": 80,
   "brand_fit": 25,
   "consistency": 100,
   "followers": 60,
@@ -32,21 +32,11 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개",
+ "sample_note": "YT 30일내 12개 [videos:1+shorts:12]",
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 7950,
-   "engagement_rate": 0.0236,
-   "avg_likes": 10.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.25,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 7920,
@@ -301,6 +291,17 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "sample_size": 1
+  },
+  {
+   "evaluated_at": "2026-08-21T10:58:51+09:00",
+   "score_total": 57.25,
+   "grade": "C",
+   "engagement_rate": 0.0276,
+   "followers": 8350,
+   "posts_last_30d": 15,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "sample_size": 15
   }
  ]
 }

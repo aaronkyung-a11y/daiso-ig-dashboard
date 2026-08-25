@@ -5,22 +5,22 @@
  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
  "channel_id": "UChaTUCM7bPBTJaIZQ83PNwQ",
  "followers": 508000,
- "engagement_rate": 0.0108,
- "avg_likes": 593.7,
- "avg_comments": 134.1,
- "avg_views": 55101.2,
- "posts_last_30d": 15,
- "_posts_last_30d_est": true,
- "sample_size": 15,
+ "engagement_rate": 0.0115,
+ "avg_likes": 650.6,
+ "avg_comments": 149.8,
+ "avg_views": 56729.3,
+ "posts_last_30d": 20,
+ "_posts_last_30d_est": false,
+ "sample_size": 20,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "7건",
-  "beauty_keywords": "35건",
+  "beauty_keywords": "45건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-24T10:17:36+09:00",
+ "evaluated_at": "2026-08-25T11:03:29+09:00",
  "score_total": 80.0,
  "grade": "A",
  "score_breakdown": {
@@ -33,21 +33,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개 실측(RSS) / RSS 15건 상한 도달 → 실제 업로드 수는 더 많을 수 있음(하한 추정)",
+ "sample_note": "YT 30일내 20개 [videos:12+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:23:02+09:00",
-   "followers": 504000,
-   "engagement_rate": 0.0216,
-   "posts_last_30d": 6,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-07-17T10:22:20.335257+09:00",
    "followers": 504000,
@@ -301,6 +291,17 @@
    "grade": "A",
    "engagement_rate": 0.0109,
    "followers": 507000,
+   "posts_last_30d": 15,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "sample_size": 15
+  },
+  {
+   "evaluated_at": "2026-08-24T10:17:36+09:00",
+   "score_total": 80.0,
+   "grade": "A",
+   "engagement_rate": 0.0108,
+   "followers": 508000,
    "posts_last_30d": 15,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",

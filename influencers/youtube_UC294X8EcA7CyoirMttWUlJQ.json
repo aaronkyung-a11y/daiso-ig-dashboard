@@ -4,38 +4,51 @@
  "fullname": "오지랖퍼 처리",
  "profile_url": "https://www.youtube.com/channel/UC294X8EcA7CyoirMttWUlJQ",
  "channel_id": "UC294X8EcA7CyoirMttWUlJQ",
- "followers": 159,
- "engagement_rate": 0.0073,
- "avg_likes": 156.1,
- "avg_comments": 0.7,
- "avg_views": 21433.0,
- "posts_last_30d": 9,
+ "followers": 171,
+ "engagement_rate": 0.0077,
+ "avg_likes": 206.4,
+ "avg_comments": 0.6,
+ "avg_views": 26781.8,
+ "posts_last_30d": 8,
  "_posts_last_30d_est": false,
- "sample_size": 9,
- "brand_fit_score": 80,
- "retailer_focus": "our_brand",
+ "sample_size": 8,
+ "brand_fit_score": 60,
+ "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "8건",
   "olive_young_mentions": "0건",
   "beauty_keywords": "1건",
-  "labrang_present": true
+  "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:13:18+09:00",
- "score_total": 56.0,
+ "evaluated_at": "2026-08-25T10:50:20+09:00",
+ "score_total": 51.0,
  "grade": "C",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 80,
+  "brand_fit": 60,
   "consistency": 80,
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 실측 (videos+shorts+RSS 합산)",
+ "sample_note": "YT 30일내 8개 [shorts:12]",
  "_likes_hidden": 0,
  "_er_measurable": true,
- "history": []
+ "history": [
+  {
+   "evaluated_at": "2026-08-24T10:13:18+09:00",
+   "score_total": 56.0,
+   "grade": "C",
+   "engagement_rate": 0.0073,
+   "followers": 159,
+   "posts_last_30d": 9,
+   "brand_fit_score": 80,
+   "retailer_focus": "our_brand",
+   "sample_size": 9
+  }
+ ]
 }

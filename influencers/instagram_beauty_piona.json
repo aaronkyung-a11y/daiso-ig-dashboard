@@ -3,13 +3,13 @@
  "username": "beauty_piona",
  "fullname": "문혜경",
  "profile_url": "https://www.instagram.com/beauty_piona/",
- "followers": 10990,
- "engagement_rate": 0.2258,
- "avg_likes": 2305.9,
- "avg_comments": 175.1,
- "avg_views": 878838.6,
+ "followers": 11057,
+ "engagement_rate": 0.2394,
+ "avg_likes": 2467.5,
+ "avg_comments": 179.8,
+ "avg_views": 880963.6,
  "posts_last_30d": 9,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
@@ -19,7 +19,7 @@
   "beauty_keywords": "36건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-24T10:53:58+09:00",
+ "evaluated_at": "2026-08-25T11:10:26+09:00",
  "score_total": 92.5,
  "grade": "S",
  "score_breakdown": {
@@ -31,22 +31,12 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": true,
-  "posts_30d_estimated": false
+  "followers_estimated": false,
+  "posts_30d_estimated": true
  },
- "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 9건. 팔로워 수 취득 실패 → 직전 실측값 유지(추정).",
+ "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 9건 / 평균은 반환 12건 기준. (html-fallback 경로 수집)",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-06-12T17:12:38.495268+09:00",
-   "followers": 6153,
-   "engagement_rate": 0.1897,
-   "posts_last_30d": 21,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 93.5,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
    "followers": 6220,
@@ -314,6 +304,17 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 24
+  },
+  {
+   "evaluated_at": "2026-08-24T10:53:58+09:00",
+   "score_total": 92.5,
+   "grade": "S",
+   "engagement_rate": 0.2258,
+   "followers": 10990,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "sample_size": 12
   }
  ]
 }
