@@ -1,72 +1,82 @@
 {
- "platform": "youtube",
- "username": "UC73hSOfrDfI0VyIfwstz59g",
- "fullname": "아서비",
- "profile_url": "https://www.youtube.com/channel/UC73hSOfrDfI0VyIfwstz59g",
- "channel_id": "UC73hSOfrDfI0VyIfwstz59g",
- "followers": 10900,
- "engagement_rate": 0.0101,
- "avg_likes": 1123.0,
- "avg_comments": 27.9,
- "avg_views": 111042.2,
- "posts_last_30d": 13,
- "_posts_last_30d_est": false,
- "sample_size": 13,
- "brand_fit_score": 90,
- "retailer_focus": "beauty_general",
- "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "25건",
-  "labrang_present": false
- },
- "evaluated_at": "2026-08-26T10:09:22+09:00",
- "score_total": 75.5,
- "grade": "A",
- "score_breakdown": {
-  "er": 60,
-  "brand_fit": 90,
-  "consistency": 100,
-  "followers": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 13개 [videos:12+shorts:12]",
- "history": [
-  {
-   "evaluated_at": "2026-08-17T10:11:50+09:00",
-   "score_total": 50.25,
-   "grade": "D",
-   "engagement_rate": 0.0134,
-   "followers": 10500,
-   "posts_last_30d": 1,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "sample_size": 14
+  "platform": "youtube",
+  "username": "UC73hSOfrDfI0VyIfwstz59g",
+  "fullname": "아서비",
+  "profile_url": "https://www.youtube.com/channel/UC73hSOfrDfI0VyIfwstz59g",
+  "channel_id": "UC73hSOfrDfI0VyIfwstz59g",
+  "followers": 10900,
+  "engagement_rate": 0.0093,
+  "avg_likes": 917.7,
+  "avg_comments": 26.1,
+  "avg_views": 98398.8,
+  "posts_last_30d": 12,
+  "_posts_last_30d_est": false,
+  "sample_size": 12,
+  "brand_fit_score": 90,
+  "retailer_focus": "beauty_general",
+  "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "23건",
+    "labrang_present": false
   },
-  {
-   "evaluated_at": "2026-08-21T10:34:31+09:00",
-   "score_total": 75.5,
-   "grade": "A",
-   "engagement_rate": 0.0117,
-   "followers": 10600,
-   "posts_last_30d": 15,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "sample_size": 15
+  "evaluated_at": "2026-08-26T14:12:00+09:00",
+  "score_total": 65.5,
+  "grade": "B",
+  "score_breakdown": {
+    "er": 40,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
   },
-  {
-   "score_total": 75.5,
-   "grade": "A",
-   "engagement_rate": 0.0107,
-   "followers": 10800,
-   "retailer_focus": "beauty_general",
-   "posts_last_30d": 13,
-   "evaluated_at": "2026-08-25T10:52:57+09:00"
-  }
- ]
+  "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false,
+    "posts_30d_estimated": false
+  },
+  "sample_note": "STEP B-Light(14:00) 재분석. yt-dlp videos12+shorts12 → 유니크 24, 30일내 12건. 직전(10:09) 대비 30일 창에서 조회수 높은 구영상 1건이 빠져 avg_views 111,042→98,399, ER 1.01%→0.93%로 1% 경계를 하회 → 총점 -10.0 (A→B). 실제 성과 저하가 아닌 샘플 구성 변화 + ER 구간 경계 효과.",
+  "history": [
+    {
+      "evaluated_at": "2026-08-17T10:11:50+09:00",
+      "score_total": 50.25,
+      "grade": "D",
+      "engagement_rate": 0.0134,
+      "followers": 10500,
+      "posts_last_30d": 1,
+      "brand_fit_score": 25,
+      "retailer_focus": "off_topic",
+      "sample_size": 14
+    },
+    {
+      "evaluated_at": "2026-08-21T10:34:31+09:00",
+      "score_total": 75.5,
+      "grade": "A",
+      "engagement_rate": 0.0117,
+      "followers": 10600,
+      "posts_last_30d": 15,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general",
+      "sample_size": 15
+    },
+    {
+      "score_total": 75.5,
+      "grade": "A",
+      "engagement_rate": 0.0107,
+      "followers": 10800,
+      "retailer_focus": "beauty_general",
+      "posts_last_30d": 13,
+      "evaluated_at": "2026-08-25T10:52:57+09:00"
+    },
+    {
+      "evaluated_at": "2026-08-26T10:09:22+09:00",
+      "score_total": 75.5,
+      "grade": "A",
+      "engagement_rate": 0.0101,
+      "followers": 10900,
+      "posts_last_30d": 13,
+      "brand_fit_score": 90,
+      "retailer_focus": "beauty_general"
+    }
+  ]
 }
