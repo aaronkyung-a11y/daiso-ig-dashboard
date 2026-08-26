@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UC294X8EcA7CyoirMttWUlJQ",
  "channel_id": "UC294X8EcA7CyoirMttWUlJQ",
  "followers": 178,
- "engagement_rate": 0.0085,
- "avg_likes": 252.0,
+ "engagement_rate": 0.0088,
+ "avg_likes": 264.8,
  "avg_comments": 0.6,
- "avg_views": 29592.0,
+ "avg_views": 30215.0,
  "posts_last_30d": 8,
  "_posts_last_30d_est": false,
  "sample_size": 8,
@@ -34,8 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 [videos:0+shorts:12]",
- "evaluated_at": "2026-08-26T10:11:24+09:00",
+ "sample_note": "YT 30일내 8개 [videos:0+shorts:20]",
+ "evaluated_at": "2026-08-26T17:12:00+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:13:18+09:00",
@@ -67,6 +67,15 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 8,
    "evaluated_at": "2026-08-25T14:11:37+09:00"
+  },
+  {
+   "score_total": 51.0,
+   "grade": "C",
+   "engagement_rate": 0.0085,
+   "followers": 178,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 8,
+   "evaluated_at": "2026-08-26T10:11:24+09:00"
   }
  ]
 }

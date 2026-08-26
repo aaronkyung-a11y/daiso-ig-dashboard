@@ -255,10 +255,13 @@
   }
  ],
  "_posts_last_30d_est": false,
- "account_status": "deleted_or_unavailable (재확인 2026-08-25T14:11:37+09:00, Chrome 로그인 상태에서 \"죄송합니다. 페이지를 사용할 수 없습니다.\" 확인)",
+ "account_status": "unavailable_confirmed_logged_in",
  "last_checked_at": "2026-08-25T14:11:37+09:00",
  "_refresh_failed_at": "2026-08-25T11:10:26+09:00",
  "_exclude_from_rolling": true,
  "_last_fetch_error": "404",
- "_last_fetch_attempt": "2026-08-26T10:42:02+09:00"
+ "_last_fetch_attempt": "2026-08-26T10:42:02+09:00",
+ "account_status_checked_at": "2026-08-26T17:12:00+09:00",
+ "account_status_note": "2026-08-26 17시 로그인 세션 브라우저 확인: \"죄송합니다. 페이지를 사용할 수 없습니다\" — 계정 삭제 또는 username 변경으로 확정. 점수 36.25는 2026-08-21 미측정 기본값의 이월치로 실측이 아님.",
+ "_score_is_default_not_measured": true
 }
