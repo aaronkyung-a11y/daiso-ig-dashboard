@@ -20,7 +20,7 @@
   "beauty_keywords": "9건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-25T11:03:29+09:00",
+ "evaluated_at": "2026-08-26T10:36:31+09:00",
  "score_total": 55.0,
  "grade": "C",
  "score_breakdown": {
@@ -35,19 +35,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0개 → 최근 8개 표본 [shorts:8]",
+ "sample_note": "YT 최근(30일내 0건) 8개 [videos:0+shorts:8]",
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 22,
-   "engagement_rate": 0.0096,
-   "avg_likes": 57.8,
-   "posts_last_30d": 0,
-   "brand_fit_score": 95,
-   "retailer_focus": "our_brand",
-   "score_total": 53.75,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 22,
@@ -304,6 +293,15 @@
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "sample_size": 8
+  },
+  {
+   "score_total": 55.0,
+   "grade": "C",
+   "engagement_rate": 0.0098,
+   "followers": 22,
+   "retailer_focus": "our_brand",
+   "posts_last_30d": 0,
+   "evaluated_at": "2026-08-25T11:03:29+09:00"
   }
  ]
 }

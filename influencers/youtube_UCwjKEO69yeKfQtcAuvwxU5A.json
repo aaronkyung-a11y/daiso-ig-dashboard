@@ -4,11 +4,11 @@
  "fullname": "피부보금터",
  "profile_url": "https://www.youtube.com/channel/UCwjKEO69yeKfQtcAuvwxU5A",
  "channel_id": "UCwjKEO69yeKfQtcAuvwxU5A",
- "followers": 9470,
- "engagement_rate": 0.0083,
- "avg_likes": 152.0,
+ "followers": 9490,
+ "engagement_rate": 0.0084,
+ "avg_likes": 153.3,
  "avg_comments": 1.7,
- "avg_views": 18206.3,
+ "avg_views": 18268.3,
  "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "sample_size": 3,
@@ -20,7 +20,7 @@
   "beauty_keywords": "26건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:08:46+09:00",
+ "evaluated_at": "2026-08-26T10:40:10+09:00",
  "score_total": 57.5,
  "grade": "C",
  "score_breakdown": {
@@ -58,6 +58,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 3
+  },
+  {
+   "score_total": 57.5,
+   "grade": "C",
+   "engagement_rate": 0.0083,
+   "followers": 9470,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 3,
+   "evaluated_at": "2026-08-25T11:08:46+09:00"
   }
  ]
 }

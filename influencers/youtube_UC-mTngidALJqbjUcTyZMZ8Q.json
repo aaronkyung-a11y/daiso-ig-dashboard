@@ -5,12 +5,12 @@
  "profile_url": "https://www.youtube.com/channel/UC-mTngidALJqbjUcTyZMZ8Q",
  "channel_id": "UC-mTngidALJqbjUcTyZMZ8Q",
  "followers": 308000,
- "engagement_rate": 0.0163,
- "avg_likes": 1246.3,
- "avg_comments": 179.7,
- "avg_views": 76441.7,
+ "engagement_rate": 0.0165,
+ "avg_likes": 1309.7,
+ "avg_comments": 185.0,
+ "avg_views": 79454.0,
  "posts_last_30d": 3,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 3,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -20,7 +20,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T17:09:51+09:00",
+ "evaluated_at": "2026-08-26T10:11:24+09:00",
  "score_total": 55.25,
  "grade": "C",
  "score_breakdown": {
@@ -33,7 +33,7 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 3개 [videos:12+shorts:1]",
  "history": [
@@ -109,6 +109,15 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "sample_size": 3
+  },
+  {
+   "score_total": 55.25,
+   "grade": "C",
+   "engagement_rate": 0.0163,
+   "followers": 308000,
+   "retailer_focus": "off_topic",
+   "posts_last_30d": 3,
+   "evaluated_at": "2026-08-25T17:09:51+09:00"
   }
  ]
 }

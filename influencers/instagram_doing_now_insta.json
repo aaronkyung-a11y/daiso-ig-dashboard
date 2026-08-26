@@ -3,13 +3,13 @@
  "username": "doing_now_insta",
  "fullname": "두나 | 이슈•꿀팁•뷰티",
  "profile_url": "https://www.instagram.com/doing_now_insta/",
- "followers": 19459,
- "engagement_rate": 0.1326,
- "avg_likes": 2547.8,
- "avg_comments": 32.1,
+ "followers": 19393,
+ "engagement_rate": 0.1308,
+ "avg_likes": 2505.3,
+ "avg_comments": 32,
  "avg_views": 0,
  "posts_last_30d": 9,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 75,
  "retailer_focus": "daiso",
@@ -19,7 +19,7 @@
   "beauty_keywords": "4건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:10:26+09:00",
+ "evaluated_at": "2026-08-26T10:42:02+09:00",
  "score_total": 88.75,
  "grade": "S",
  "score_breakdown": {
@@ -32,7 +32,7 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
  "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 9건 / 평균은 반환 12건 기준. (html-fallback 경로 수집)",
  "_likes_hidden": 0,
@@ -299,6 +299,15 @@
    "brand_fit_score": 60,
    "retailer_focus": "daiso",
    "sample_size": 12
+  },
+  {
+   "score_total": 88.75,
+   "grade": "S",
+   "engagement_rate": 0.1326,
+   "followers": 19459,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 9,
+   "evaluated_at": "2026-08-25T11:10:26+09:00"
   }
  ]
 }

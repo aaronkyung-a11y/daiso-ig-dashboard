@@ -6,9 +6,9 @@
  "channel_id": "UCVWMxFz4W6UuP3kF49o_eMg",
  "followers": 192,
  "engagement_rate": 0.0046,
- "avg_likes": 7.6,
+ "avg_likes": 7.8,
  "avg_comments": 1.6,
- "avg_views": 1656.4,
+ "avg_views": 1683.2,
  "posts_last_30d": 5,
  "_posts_last_30d_est": false,
  "sample_size": 5,
@@ -20,7 +20,7 @@
   "beauty_keywords": "22건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:58:13+09:00",
+ "evaluated_at": "2026-08-26T10:28:56+09:00",
  "score_total": 58.5,
  "grade": "C",
  "score_breakdown": {
@@ -35,20 +35,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 [shorts:12]",
+ "sample_note": "YT 30일내 5개 [videos:0+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 180,
-   "engagement_rate": 0.0041,
-   "avg_likes": 7.8,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "score_total": 55.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:27:41+09:00",
    "followers": 180,
@@ -307,6 +296,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
    "sample_size": 5
+  },
+  {
+   "score_total": 58.5,
+   "grade": "C",
+   "engagement_rate": 0.0046,
+   "followers": 192,
+   "retailer_focus": "beauty_general",
+   "posts_last_30d": 5,
+   "evaluated_at": "2026-08-25T10:58:13+09:00"
   }
  ]
 }

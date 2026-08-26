@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg",
  "channel_id": "UCHCL-VtQlNJTmPA7oy6HQXg",
  "followers": 2570,
- "engagement_rate": 0.0267,
- "avg_likes": 239.8,
- "avg_comments": 4.7,
- "avg_views": 8973.2,
+ "engagement_rate": 0.0264,
+ "avg_likes": 248.4,
+ "avg_comments": 5.0,
+ "avg_views": 9397.1,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -20,7 +20,7 @@
   "beauty_keywords": "66건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:52:57+09:00",
+ "evaluated_at": "2026-08-26T10:21:12+09:00",
  "score_total": 73.5,
  "grade": "B",
  "score_breakdown": {
@@ -35,20 +35,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 2330,
-   "engagement_rate": 0.0266,
-   "avg_likes": 95.6,
-   "posts_last_30d": 13,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 73.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-20T10:26:06+09:00",
    "followers": 2330,
@@ -306,6 +295,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 14
+  },
+  {
+   "score_total": 73.5,
+   "grade": "B",
+   "engagement_rate": 0.0267,
+   "followers": 2570,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 12,
+   "evaluated_at": "2026-08-25T10:52:57+09:00"
   }
  ]
 }

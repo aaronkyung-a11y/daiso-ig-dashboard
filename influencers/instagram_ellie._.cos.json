@@ -3,23 +3,23 @@
  "username": "ellie._.cos",
  "fullname": "ellie エリ",
  "profile_url": "https://www.instagram.com/ellie._.cos/",
- "followers": 2443,
- "engagement_rate": 0.7254,
- "avg_likes": 1757.4,
- "avg_comments": 14.8,
- "avg_views": 54563.3,
- "posts_last_30d": 7,
- "_posts_last_30d_est": true,
+ "followers": 2451,
+ "engagement_rate": 0.7221,
+ "avg_likes": 1761.4,
+ "avg_comments": 8.5,
+ "avg_views": 55159.5,
+ "posts_last_30d": 8,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "3건",
-  "beauty_keywords": "30건",
+  "olive_young_mentions": "6건",
+  "beauty_keywords": "40건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:10:26+09:00",
+ "evaluated_at": "2026-08-26T10:42:02+09:00",
  "score_total": 90.5,
  "grade": "S",
  "score_breakdown": {
@@ -32,9 +32,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 7건 / 평균은 반환 12건 기준",
+ "sample_note": "⚠️ IG 로그아웃 상태 — 샘플 12개 제한(feed API). 30일내 8건 / 평균은 반환 12건 기준.",
  "_likes_hidden": 0,
  "history": [
   {
@@ -295,6 +295,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "sample_size": 12
+  },
+  {
+   "score_total": 90.5,
+   "grade": "S",
+   "engagement_rate": 0.7254,
+   "followers": 2443,
+   "retailer_focus": "olive_young",
+   "posts_last_30d": 7,
+   "evaluated_at": "2026-08-25T11:10:26+09:00"
   }
  ]
 }

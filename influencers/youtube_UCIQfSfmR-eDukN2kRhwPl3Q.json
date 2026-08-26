@@ -4,11 +4,11 @@
  "fullname": "키키하우스 KIKIHOUSE",
  "profile_url": "https://www.youtube.com/channel/UCIQfSfmR-eDukN2kRhwPl3Q",
  "channel_id": "UCIQfSfmR-eDukN2kRhwPl3Q",
- "followers": 9780,
+ "followers": 9800,
  "engagement_rate": 0.0142,
- "avg_likes": 144.6,
+ "avg_likes": 149.3,
  "avg_comments": 6.4,
- "avg_views": 10158.2,
+ "avg_views": 10503.2,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -20,7 +20,7 @@
   "beauty_keywords": "14건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:55:35+09:00",
+ "evaluated_at": "2026-08-26T10:22:32+09:00",
  "score_total": 73.5,
  "grade": "B",
  "score_breakdown": {
@@ -35,20 +35,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 8770,
-   "engagement_rate": 0.0144,
-   "avg_likes": 250.5,
-   "posts_last_30d": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 73.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-20T10:26:57+09:00",
    "followers": 8710,
@@ -307,6 +296,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
    "sample_size": 15
+  },
+  {
+   "score_total": 73.5,
+   "grade": "B",
+   "engagement_rate": 0.0142,
+   "followers": 9780,
+   "retailer_focus": "beauty_general",
+   "posts_last_30d": 12,
+   "evaluated_at": "2026-08-25T10:55:35+09:00"
   }
  ]
 }

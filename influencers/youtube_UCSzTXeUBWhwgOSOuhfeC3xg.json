@@ -4,11 +4,11 @@
  "fullname": "별블리아 byulvelya",
  "profile_url": "https://www.youtube.com/channel/UCSzTXeUBWhwgOSOuhfeC3xg",
  "channel_id": "UCSzTXeUBWhwgOSOuhfeC3xg",
- "followers": 2000,
- "engagement_rate": 0.0004,
- "avg_likes": 2.3,
- "avg_comments": 8.4,
- "avg_views": 5329.4,
+ "followers": 2010,
+ "engagement_rate": 0.0002,
+ "avg_likes": 1.9,
+ "avg_comments": 8.9,
+ "avg_views": 7808.2,
  "posts_last_30d": 14,
  "_posts_last_30d_est": false,
  "sample_size": 14,
@@ -16,11 +16,11 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "12건",
-  "olive_young_mentions": "45건",
-  "beauty_keywords": "200건",
+  "olive_young_mentions": "47건",
+  "beauty_keywords": "198건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:58:13+09:00",
+ "evaluated_at": "2026-08-26T10:28:07+09:00",
  "score_total": 63.5,
  "grade": "C",
  "score_breakdown": {
@@ -38,17 +38,6 @@
  "sample_note": "YT 30일내 14개 [videos:12+shorts:12]",
  "_likes_hidden": 8,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 1930,
-   "engagement_rate": 0.0,
-   "avg_likes": 0.0,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 57.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 1930,
@@ -309,6 +298,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "sample_size": 15
+  },
+  {
+   "score_total": 63.5,
+   "grade": "C",
+   "engagement_rate": 0.0004,
+   "followers": 2000,
+   "retailer_focus": "olive_young",
+   "posts_last_30d": 14,
+   "evaluated_at": "2026-08-25T10:58:13+09:00"
   }
  ]
 }

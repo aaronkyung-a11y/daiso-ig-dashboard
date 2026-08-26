@@ -5,22 +5,22 @@
  "profile_url": "https://www.youtube.com/channel/UCY-sTVmXRY2JXnVjm9QjYBw",
  "channel_id": "UCY-sTVmXRY2JXnVjm9QjYBw",
  "followers": 13700,
- "engagement_rate": 0.0057,
- "avg_likes": 80.3,
- "avg_comments": 17.9,
- "avg_views": 13999.6,
+ "engagement_rate": 0.0064,
+ "avg_likes": 81.9,
+ "avg_comments": 21.0,
+ "avg_views": 12873.5,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 24,
  "brand_fit_score": 90,
- "retailer_focus": "mixed",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "22건",
-  "olive_young_mentions": "24건",
-  "beauty_keywords": "203건",
+  "olive_young_mentions": "50건",
+  "beauty_keywords": "277건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:00:51+09:00",
+ "evaluated_at": "2026-08-26T10:30:55+09:00",
  "score_total": 56.5,
  "grade": "C",
  "score_breakdown": {
@@ -35,7 +35,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0개 → 최근 20개 표본 [videos:12+shorts:12]",
+ "sample_note": "YT 최근(30일내 0건) 24개 [videos:12+shorts:12]",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:21:14+09:00",
@@ -112,6 +112,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
    "sample_size": 1
+  },
+  {
+   "score_total": 56.5,
+   "grade": "C",
+   "engagement_rate": 0.0057,
+   "followers": 13700,
+   "retailer_focus": "mixed",
+   "posts_last_30d": 0,
+   "evaluated_at": "2026-08-25T11:00:51+09:00"
   }
  ]
 }

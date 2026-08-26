@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
  "channel_id": "UCs-DJ22ij2ykpyczPSFZNYQ",
  "followers": 48,
- "engagement_rate": 0.0117,
+ "engagement_rate": 0.0116,
  "avg_likes": 87.2,
  "avg_comments": 0.8,
- "avg_views": 7479.6,
+ "avg_views": 7490.8,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 13,
@@ -20,7 +20,7 @@
   "beauty_keywords": "29건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:06:07+09:00",
+ "evaluated_at": "2026-08-26T10:39:07+09:00",
  "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
@@ -35,19 +35,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0개 → 최근 13개 표본 [videos:1+shorts:12]",
+ "sample_note": "YT 최근(30일내 0건) 13개 [videos:1+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:24:32+09:00",
-   "followers": 49,
-   "engagement_rate": 0.0426,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-17T14:10:31.844930+09:00",
    "followers": 48,
@@ -308,6 +298,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "mixed",
    "sample_size": 18
+  },
+  {
+   "score_total": 62.5,
+   "grade": "C",
+   "engagement_rate": 0.0117,
+   "followers": 48,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 0,
+   "evaluated_at": "2026-08-25T11:06:07+09:00"
   }
  ]
 }

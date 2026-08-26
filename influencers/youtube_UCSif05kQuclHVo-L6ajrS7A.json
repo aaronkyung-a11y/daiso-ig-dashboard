@@ -4,11 +4,11 @@
  "fullname": "Stories Woven by Time",
  "profile_url": "https://www.youtube.com/channel/UCSif05kQuclHVo-L6ajrS7A",
  "channel_id": "UCSif05kQuclHVo-L6ajrS7A",
- "followers": 41500,
- "engagement_rate": 0.0101,
- "avg_likes": 83.0,
+ "followers": 41700,
+ "engagement_rate": 0.0102,
+ "avg_likes": 84.0,
  "avg_comments": 0.0,
- "avg_views": 8187.0,
+ "avg_views": 8265.0,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 1,
@@ -20,7 +20,7 @@
   "beauty_keywords": "2건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:58:13+09:00",
+ "evaluated_at": "2026-08-26T10:28:07+09:00",
  "score_total": 59.0,
  "grade": "C",
  "score_breakdown": {
@@ -35,20 +35,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 1개 [shorts:12]",
+ "sample_note": "YT 30일내 1개 [videos:0+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-08-12T10:26:51+09:00",
-   "followers": 39500,
-   "engagement_rate": 0.0096,
-   "avg_likes": 71.0,
-   "posts_last_30d": 1,
-   "brand_fit_score": 60,
-   "retailer_focus": "daiso",
-   "score_total": 49.0,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-07-27T10:25:16+09:00",
    "followers": 36200,
@@ -311,6 +300,15 @@
    "brand_fit_score": 60,
    "retailer_focus": "daiso",
    "sample_size": 1
+  },
+  {
+   "score_total": 59.0,
+   "grade": "C",
+   "engagement_rate": 0.0101,
+   "followers": 41500,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 1,
+   "evaluated_at": "2026-08-25T10:58:13+09:00"
   }
  ]
 }

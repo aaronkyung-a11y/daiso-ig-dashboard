@@ -4,11 +4,11 @@
  "fullname": "조말랭Jomalraeng",
  "profile_url": "https://www.youtube.com/channel/UCYdYEVp2t0zD5xJu0hKWAgw",
  "channel_id": "UCYdYEVp2t0zD5xJu0hKWAgw",
- "followers": 31900,
- "engagement_rate": 0.0224,
- "avg_likes": 1156.9,
- "avg_comments": 45.5,
- "avg_views": 51675.3,
+ "followers": 32000,
+ "engagement_rate": 0.0229,
+ "avg_likes": 932.1,
+ "avg_comments": 44.8,
+ "avg_views": 40751.2,
  "posts_last_30d": 16,
  "_posts_last_30d_est": false,
  "sample_size": 16,
@@ -16,11 +16,11 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "8건",
-  "olive_young_mentions": "43건",
-  "beauty_keywords": "159건",
+  "olive_young_mentions": "46건",
+  "beauty_keywords": "160건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:00:51+09:00",
+ "evaluated_at": "2026-08-26T10:30:56+09:00",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -37,17 +37,6 @@
  },
  "sample_note": "YT 30일내 16개 [videos:12+shorts:12]",
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 28400,
-   "engagement_rate": 0.0249,
-   "avg_likes": 540.5,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 69.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 28200,
@@ -307,6 +296,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "sample_size": 15
+  },
+  {
+   "score_total": 75.5,
+   "grade": "A",
+   "engagement_rate": 0.0224,
+   "followers": 31900,
+   "retailer_focus": "olive_young",
+   "posts_last_30d": 16,
+   "evaluated_at": "2026-08-25T11:00:51+09:00"
   }
  ]
 }

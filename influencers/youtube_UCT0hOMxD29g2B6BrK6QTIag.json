@@ -4,11 +4,11 @@
  "fullname": "현징이",
  "profile_url": "https://www.youtube.com/channel/UCT0hOMxD29g2B6BrK6QTIag",
  "channel_id": "UCT0hOMxD29g2B6BrK6QTIag",
- "followers": 23200,
+ "followers": 23300,
  "engagement_rate": 0.0219,
- "avg_likes": 1186.0,
- "avg_comments": 15.8,
- "avg_views": 54178.8,
+ "avg_likes": 1247.8,
+ "avg_comments": 16.8,
+ "avg_views": 57101.2,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -20,7 +20,7 @@
   "beauty_keywords": "23건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-25T10:58:13+09:00",
+ "evaluated_at": "2026-08-26T10:28:07+09:00",
  "score_total": 78.0,
  "grade": "A",
  "score_breakdown": {
@@ -35,20 +35,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 22400,
-   "engagement_rate": 0.017,
-   "avg_likes": 2470.3,
-   "posts_last_30d": 12,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 78.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-07-20T10:27:41+09:00",
    "followers": 22300,
@@ -308,6 +297,15 @@
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "sample_size": 12
+  },
+  {
+   "score_total": 78.0,
+   "grade": "A",
+   "engagement_rate": 0.0219,
+   "followers": 23200,
+   "retailer_focus": "our_brand",
+   "posts_last_30d": 12,
+   "evaluated_at": "2026-08-25T10:58:13+09:00"
   }
  ]
 }

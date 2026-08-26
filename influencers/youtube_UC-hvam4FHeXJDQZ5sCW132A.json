@@ -4,11 +4,11 @@
  "fullname": "청담 닥터원",
  "profile_url": "https://www.youtube.com/channel/UC-hvam4FHeXJDQZ5sCW132A",
  "channel_id": "UC-hvam4FHeXJDQZ5sCW132A",
- "followers": 6500,
+ "followers": 6510,
  "engagement_rate": 0.0024,
- "avg_likes": 19.4,
- "avg_comments": 1.1,
- "avg_views": 8116.2,
+ "avg_likes": 20.0,
+ "avg_comments": 1.3,
+ "avg_views": 8390.4,
  "posts_last_30d": 15,
  "_posts_last_30d_est": false,
  "sample_size": 15,
@@ -20,7 +20,7 @@
   "beauty_keywords": "18건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:50:20+09:00",
+ "evaluated_at": "2026-08-26T10:16:20+09:00",
  "score_total": 63.5,
  "grade": "C",
  "score_breakdown": {
@@ -38,17 +38,6 @@
  "sample_note": "YT 30일내 15개 [videos:12+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 6340,
-   "engagement_rate": 0.0018,
-   "avg_likes": 28.0,
-   "posts_last_30d": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 57.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 6340,
@@ -302,6 +291,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
    "sample_size": 15
+  },
+  {
+   "score_total": 63.5,
+   "grade": "C",
+   "engagement_rate": 0.0024,
+   "followers": 6500,
+   "retailer_focus": "beauty_general",
+   "posts_last_30d": 15,
+   "evaluated_at": "2026-08-25T10:50:20+09:00"
   }
  ]
 }

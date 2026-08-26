@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UCSx-2fuyotB8WA8KytyhACg",
  "channel_id": "UCSx-2fuyotB8WA8KytyhACg",
  "followers": 297000,
- "engagement_rate": 0.0197,
- "avg_likes": 890.1,
- "avg_comments": 57.5,
- "avg_views": 45265.4,
+ "engagement_rate": 0.0196,
+ "avg_likes": 912.9,
+ "avg_comments": 58.1,
+ "avg_views": 46600.7,
  "posts_last_30d": 20,
  "_posts_last_30d_est": false,
  "sample_size": 20,
@@ -20,7 +20,7 @@
   "beauty_keywords": "355건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:58:13+09:00",
+ "evaluated_at": "2026-08-26T10:28:07+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -38,16 +38,6 @@
  "sample_note": "YT 30일내 20개 [videos:12+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:22:20.335257+09:00",
-   "followers": 291000,
-   "engagement_rate": 0.0217,
-   "posts_last_30d": 7,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 290000,
@@ -308,6 +298,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "sample_size": 15
+  },
+  {
+   "score_total": 77.5,
+   "grade": "A",
+   "engagement_rate": 0.0197,
+   "followers": 297000,
+   "retailer_focus": "olive_young",
+   "posts_last_30d": 20,
+   "evaluated_at": "2026-08-25T10:58:13+09:00"
   }
  ]
 }

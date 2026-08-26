@@ -4,11 +4,11 @@
  "fullname": "백세 건강보감",
  "profile_url": "https://www.youtube.com/channel/UCaMFZoulRulGg-xG5s9qguw",
  "channel_id": "UCaMFZoulRulGg-xG5s9qguw",
- "followers": 12600,
- "engagement_rate": 0.0054,
- "avg_likes": 17.7,
+ "followers": 12700,
+ "engagement_rate": 0.0046,
+ "avg_likes": 28.8,
  "avg_comments": 0.2,
- "avg_views": 3276.0,
+ "avg_views": 6229.7,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -20,7 +20,7 @@
   "beauty_keywords": "17건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:00:51+09:00",
+ "evaluated_at": "2026-08-26T10:32:28+09:00",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -37,17 +37,6 @@
  },
  "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 9670,
-   "engagement_rate": 0.0586,
-   "avg_likes": 1.2,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 63.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:21:33+09:00",
    "followers": 9510,
@@ -304,6 +293,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 15
+  },
+  {
+   "score_total": 65.5,
+   "grade": "B",
+   "engagement_rate": 0.0054,
+   "followers": 12600,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 12,
+   "evaluated_at": "2026-08-25T11:00:51+09:00"
   }
  ]
 }

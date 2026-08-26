@@ -4,11 +4,11 @@
  "fullname": "지니이즈백",
  "profile_url": "https://www.youtube.com/channel/UCGqcc5NsekknvfzpFt4RVEA",
  "channel_id": "UCGqcc5NsekknvfzpFt4RVEA",
- "followers": 10100,
+ "followers": 10200,
  "engagement_rate": 0.0188,
- "avg_likes": 162.7,
- "avg_comments": 25.3,
- "avg_views": 8650.9,
+ "avg_likes": 171.6,
+ "avg_comments": 26.6,
+ "avg_views": 9146.0,
  "posts_last_30d": 17,
  "_posts_last_30d_est": false,
  "sample_size": 17,
@@ -20,7 +20,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:52:57+09:00",
+ "evaluated_at": "2026-08-26T10:20:49+09:00",
  "score_total": 59.25,
  "grade": "C",
  "score_breakdown": {
@@ -58,6 +58,15 @@
    "brand_fit_score": 25,
    "retailer_focus": "daiso",
    "sample_size": 15
+  },
+  {
+   "score_total": 59.25,
+   "grade": "C",
+   "engagement_rate": 0.0188,
+   "followers": 10100,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 17,
+   "evaluated_at": "2026-08-25T10:52:57+09:00"
   }
  ]
 }

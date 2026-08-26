@@ -4,14 +4,14 @@
  "fullname": "레이지홈",
  "profile_url": "https://www.youtube.com/channel/UCIErIGNaCbne1_Eu1VzHFcw",
  "channel_id": "UCIErIGNaCbne1_Eu1VzHFcw",
- "followers": 2210,
- "engagement_rate": 0.0077,
- "avg_likes": 169.0,
- "avg_comments": 3.0,
- "avg_views": 21848.0,
- "posts_last_30d": 1,
+ "followers": 2220,
+ "engagement_rate": 0.0074,
+ "avg_likes": 88.0,
+ "avg_comments": 2.0,
+ "avg_views": 11869.0,
+ "posts_last_30d": 2,
  "_posts_last_30d_est": false,
- "sample_size": 1,
+ "sample_size": 2,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,13 +20,13 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:55:35+09:00",
- "score_total": 38.25,
+ "evaluated_at": "2026-08-26T10:22:09+09:00",
+ "score_total": 41.25,
  "grade": "D",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 25,
-  "consistency": 40,
+  "consistency": 60,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -35,20 +35,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 1개 [shorts:12]",
+ "sample_note": "YT 30일내 2개 [videos:0+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 2000,
-   "engagement_rate": 0.0048,
-   "avg_likes": 8.5,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 57.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 1980,
@@ -310,6 +299,15 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "sample_size": 1
+  },
+  {
+   "score_total": 38.25,
+   "grade": "D",
+   "engagement_rate": 0.0077,
+   "followers": 2210,
+   "retailer_focus": "off_topic",
+   "posts_last_30d": 1,
+   "evaluated_at": "2026-08-25T10:55:35+09:00"
   }
  ]
 }

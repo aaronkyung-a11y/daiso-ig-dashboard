@@ -4,13 +4,13 @@
  "fullname": "HellfireDrama",
  "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
  "channel_id": "UC-C-faUj5SNcrIkqEM6FcjA",
- "followers": 370000,
- "engagement_rate": 0.0091,
- "avg_likes": 85.2,
- "avg_comments": 1.3,
- "avg_views": 9323.8,
+ "followers": 371000,
+ "engagement_rate": 0.009,
+ "avg_likes": 91.2,
+ "avg_comments": 0.9,
+ "avg_views": 10105.4,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -20,7 +20,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T17:09:51+09:00",
+ "evaluated_at": "2026-08-26T10:11:24+09:00",
  "score_total": 51.25,
  "grade": "C",
  "score_breakdown": {
@@ -33,21 +33,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 12개 [videos:12+shorts:0]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:18:29+09:00",
-   "followers": 345000,
-   "engagement_rate": 0.0073,
-   "posts_last_30d": 8,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.25,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-07-17T10:23:30.923982+09:00",
    "followers": 343000,
@@ -302,6 +292,15 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "sample_size": 12
+  },
+  {
+   "score_total": 51.25,
+   "grade": "C",
+   "engagement_rate": 0.0091,
+   "followers": 370000,
+   "retailer_focus": "off_topic",
+   "posts_last_30d": 12,
+   "evaluated_at": "2026-08-25T17:09:51+09:00"
   }
  ]
 }

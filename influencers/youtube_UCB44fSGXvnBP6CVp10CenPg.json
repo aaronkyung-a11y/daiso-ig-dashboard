@@ -7,8 +7,8 @@
  "followers": 127000,
  "engagement_rate": 0.0,
  "avg_likes": 0.0,
- "avg_comments": 47.9,
- "avg_views": 31984.2,
+ "avg_comments": 48.6,
+ "avg_views": 32242.6,
  "posts_last_30d": 16,
  "_posts_last_30d_est": false,
  "sample_size": 16,
@@ -20,7 +20,7 @@
   "beauty_keywords": "25건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:52:57+09:00",
+ "evaluated_at": "2026-08-26T10:19:00+09:00",
  "score_total": 67.5,
  "grade": "B",
  "score_breakdown": {
@@ -49,6 +49,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 5
+  },
+  {
+   "score_total": 67.5,
+   "grade": "B",
+   "engagement_rate": 0.0,
+   "followers": 127000,
+   "retailer_focus": "mixed",
+   "posts_last_30d": 16,
+   "evaluated_at": "2026-08-25T10:52:57+09:00"
   }
  ]
 }

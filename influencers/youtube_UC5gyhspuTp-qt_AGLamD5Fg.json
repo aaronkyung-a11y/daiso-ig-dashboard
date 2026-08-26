@@ -4,11 +4,11 @@
  "fullname": "DEAR ME",
  "profile_url": "https://www.youtube.com/channel/UC5gyhspuTp-qt_AGLamD5Fg",
  "channel_id": "UC5gyhspuTp-qt_AGLamD5Fg",
- "followers": 3910,
- "engagement_rate": 0.0142,
- "avg_likes": 77.1,
- "avg_comments": 6.2,
- "avg_views": 5419.7,
+ "followers": 3960,
+ "engagement_rate": 0.0141,
+ "avg_likes": 77.4,
+ "avg_comments": 6.0,
+ "avg_views": 5494.3,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -17,10 +17,10 @@
  "retailer_signal": {
   "daiso_mentions": "9건",
   "olive_young_mentions": "3건",
-  "beauty_keywords": "28건",
+  "beauty_keywords": "32건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:50:20+09:00",
+ "evaluated_at": "2026-08-26T10:17:35+09:00",
  "score_total": 73.5,
  "grade": "B",
  "score_breakdown": {
@@ -49,6 +49,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 11
+  },
+  {
+   "score_total": 73.5,
+   "grade": "B",
+   "engagement_rate": 0.0142,
+   "followers": 3910,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 12,
+   "evaluated_at": "2026-08-25T10:50:20+09:00"
   }
  ]
 }

@@ -5,10 +5,10 @@
  "profile_url": "https://www.youtube.com/channel/UCpSa5CzQedAxXFGfmeeFdIw",
  "channel_id": "UCpSa5CzQedAxXFGfmeeFdIw",
  "followers": 150000,
- "engagement_rate": 0.0178,
- "avg_likes": 6421.1,
- "avg_comments": 553.0,
- "avg_views": 360296.6,
+ "engagement_rate": 0.0175,
+ "avg_likes": 6566.9,
+ "avg_comments": 570.4,
+ "avg_views": 376259.5,
  "posts_last_30d": 8,
  "_posts_last_30d_est": false,
  "sample_size": 8,
@@ -20,7 +20,7 @@
   "beauty_keywords": "17건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:06:07+09:00",
+ "evaluated_at": "2026-08-26T10:38:31+09:00",
  "score_total": 74.5,
  "grade": "B",
  "score_breakdown": {
@@ -49,6 +49,15 @@
    "brand_fit_score": 25,
    "retailer_focus": "olive_young",
    "sample_size": 2
+  },
+  {
+   "score_total": 74.5,
+   "grade": "B",
+   "engagement_rate": 0.0178,
+   "followers": 150000,
+   "retailer_focus": "olive_young",
+   "posts_last_30d": 8,
+   "evaluated_at": "2026-08-25T11:06:07+09:00"
   }
  ]
 }

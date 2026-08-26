@@ -4,23 +4,23 @@
  "fullname": "내면의 여유",
  "profile_url": "https://www.youtube.com/channel/UC4OMwa7uM-RC-36JObkN3LQ",
  "channel_id": "UC4OMwa7uM-RC-36JObkN3LQ",
- "followers": 61600,
- "engagement_rate": 0.0164,
- "avg_likes": 1158.5,
- "avg_comments": 8.9,
- "avg_views": 70756.8,
+ "followers": 62000,
+ "engagement_rate": 0.0165,
+ "avg_likes": 1223.8,
+ "avg_comments": 10.1,
+ "avg_views": 74204.3,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "36건",
+  "daiso_mentions": "30건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "48건",
+  "beauty_keywords": "46건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T10:50:20+09:00",
+ "evaluated_at": "2026-08-26T10:17:10+09:00",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -38,16 +38,6 @@
  "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
  "_likes_hidden": 0,
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:18:29+09:00",
-   "followers": 48000,
-   "engagement_rate": 0.034,
-   "posts_last_30d": 8,
-   "brand_fit_score": 75,
-   "retailer_focus": "beauty_general",
-   "score_total": 78.75,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-07-17T10:24:13.911279+09:00",
    "followers": 46800,
@@ -295,6 +285,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 15
+  },
+  {
+   "score_total": 75.5,
+   "grade": "A",
+   "engagement_rate": 0.0164,
+   "followers": 61600,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 12,
+   "evaluated_at": "2026-08-25T10:50:20+09:00"
   }
  ]
 }

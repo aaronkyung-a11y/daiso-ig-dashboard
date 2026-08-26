@@ -4,23 +4,23 @@
  "fullname": "서로디 lody",
  "profile_url": "https://www.youtube.com/channel/UCbDEpKYIxpFJwrqOatkv9tA",
  "channel_id": "UCbDEpKYIxpFJwrqOatkv9tA",
- "followers": 3150,
- "engagement_rate": 0.0103,
- "avg_likes": 212.8,
- "avg_comments": 7.3,
- "avg_views": 20673.8,
+ "followers": 3160,
+ "engagement_rate": 0.0101,
+ "avg_likes": 209.8,
+ "avg_comments": 6.8,
+ "avg_views": 20685.9,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "2건",
+  "daiso_mentions": "4건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "20건",
+  "beauty_keywords": "16건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:00:51+09:00",
+ "evaluated_at": "2026-08-26T10:33:25+09:00",
  "score_total": 73.5,
  "grade": "B",
  "score_breakdown": {
@@ -37,17 +37,6 @@
  },
  "sample_note": "YT 30일내 12개 [videos:3+shorts:12]",
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 2680,
-   "engagement_rate": 0.0305,
-   "avg_likes": 240.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 58.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 2660,
@@ -302,6 +291,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 15
+  },
+  {
+   "score_total": 73.5,
+   "grade": "B",
+   "engagement_rate": 0.0103,
+   "followers": 3150,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 12,
+   "evaluated_at": "2026-08-25T11:00:51+09:00"
   }
  ]
 }

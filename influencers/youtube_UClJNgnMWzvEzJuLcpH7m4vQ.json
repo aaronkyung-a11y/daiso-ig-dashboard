@@ -6,9 +6,9 @@
  "channel_id": "UClJNgnMWzvEzJuLcpH7m4vQ",
  "followers": 415000,
  "engagement_rate": 0.0226,
- "avg_likes": 764.5,
- "avg_comments": 43.1,
- "avg_views": 33791.1,
+ "avg_likes": 797.0,
+ "avg_comments": 47.6,
+ "avg_views": 35257.1,
  "posts_last_30d": 14,
  "_posts_last_30d_est": false,
  "sample_size": 14,
@@ -20,7 +20,7 @@
   "beauty_keywords": "68건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:06:07+09:00",
+ "evaluated_at": "2026-08-26T10:36:59+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -79,6 +79,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "sample_size": 12
+  },
+  {
+   "score_total": 77.5,
+   "grade": "A",
+   "engagement_rate": 0.0226,
+   "followers": 415000,
+   "retailer_focus": "olive_young",
+   "posts_last_30d": 14,
+   "evaluated_at": "2026-08-25T11:06:07+09:00"
   }
  ]
 }

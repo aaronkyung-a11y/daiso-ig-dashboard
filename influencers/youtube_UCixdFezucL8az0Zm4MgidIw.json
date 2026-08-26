@@ -4,11 +4,11 @@
  "fullname": "알파템",
  "profile_url": "https://www.youtube.com/channel/UCixdFezucL8az0Zm4MgidIw",
  "channel_id": "UCixdFezucL8az0Zm4MgidIw",
- "followers": 11600,
- "engagement_rate": 0.0063,
- "avg_likes": 86.8,
- "avg_comments": 6.4,
- "avg_views": 13751.0,
+ "followers": 11700,
+ "engagement_rate": 0.0059,
+ "avg_likes": 99.2,
+ "avg_comments": 6.8,
+ "avg_views": 16782.4,
  "posts_last_30d": 5,
  "_posts_last_30d_est": false,
  "sample_size": 5,
@@ -20,7 +20,7 @@
   "beauty_keywords": "11건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:03:29+09:00",
+ "evaluated_at": "2026-08-26T10:36:06+09:00",
  "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
@@ -35,19 +35,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 [shorts:12]",
+ "sample_note": "YT 30일내 5개 [videos:0+shorts:12]",
  "history": [
-  {
-   "evaluated_at": "2026-08-12T10:27:19+09:00",
-   "followers": 11600,
-   "engagement_rate": 0.007,
-   "avg_likes": 69.6,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 62.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-27T10:25:16+09:00",
    "followers": 11500,
@@ -309,6 +298,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "sample_size": 4
+  },
+  {
+   "score_total": 62.5,
+   "grade": "C",
+   "engagement_rate": 0.0063,
+   "followers": 11600,
+   "retailer_focus": "daiso",
+   "posts_last_30d": 5,
+   "evaluated_at": "2026-08-25T11:03:29+09:00"
   }
  ]
 }

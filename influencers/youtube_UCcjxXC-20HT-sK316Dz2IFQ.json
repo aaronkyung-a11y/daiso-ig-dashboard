@@ -8,7 +8,7 @@
  "engagement_rate": 0.0086,
  "avg_likes": 204.1,
  "avg_comments": 7.8,
- "avg_views": 23609.4,
+ "avg_views": 23627.2,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -20,7 +20,7 @@
   "beauty_keywords": "30건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-25T11:03:29+09:00",
+ "evaluated_at": "2026-08-26T10:33:25+09:00",
  "score_total": 55.0,
  "grade": "C",
  "score_breakdown": {
@@ -35,19 +35,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0개 → 최근 12개 표본 [shorts:12]",
+ "sample_note": "YT 최근(30일내 0건) 12개 [videos:0+shorts:12]",
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 442,
-   "engagement_rate": 0.0062,
-   "avg_likes": 89.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 52.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 442,
@@ -305,6 +294,15 @@
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "sample_size": 12
+  },
+  {
+   "score_total": 55.0,
+   "grade": "C",
+   "engagement_rate": 0.0086,
+   "followers": 441,
+   "retailer_focus": "our_brand",
+   "posts_last_30d": 0,
+   "evaluated_at": "2026-08-25T11:03:29+09:00"
   }
  ]
 }

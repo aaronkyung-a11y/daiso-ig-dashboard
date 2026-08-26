@@ -4,11 +4,11 @@
  "fullname": "Pibukyurl",
  "profile_url": "https://www.youtube.com/channel/UCd7icqUv7f8k2E6n4WOCIQg",
  "channel_id": "UCd7icqUv7f8k2E6n4WOCIQg",
- "followers": 73300,
- "engagement_rate": 0.0321,
- "avg_likes": 711.5,
- "avg_comments": 55.5,
- "avg_views": 22130.8,
+ "followers": 73400,
+ "engagement_rate": 0.0319,
+ "avg_likes": 724.6,
+ "avg_comments": 55.9,
+ "avg_views": 22742.5,
  "posts_last_30d": 11,
  "_posts_last_30d_est": false,
  "sample_size": 11,
@@ -20,7 +20,7 @@
   "beauty_keywords": "67건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-25T11:03:29+09:00",
+ "evaluated_at": "2026-08-26T10:33:48+09:00",
  "score_total": 85.5,
  "grade": "S",
  "score_breakdown": {
@@ -37,17 +37,6 @@
  },
  "sample_note": "YT 30일내 11개 [videos:12+shorts:12]",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 68400,
-   "engagement_rate": 0.0251,
-   "avg_likes": 655.8,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 72.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-20T10:22:17+09:00",
    "followers": 68300,
@@ -303,6 +292,15 @@
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
    "sample_size": 10
+  },
+  {
+   "score_total": 85.5,
+   "grade": "S",
+   "engagement_rate": 0.0321,
+   "followers": 73300,
+   "retailer_focus": "beauty_general",
+   "posts_last_30d": 11,
+   "evaluated_at": "2026-08-25T11:03:29+09:00"
   }
  ]
 }
