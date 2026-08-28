@@ -13,7 +13,7 @@
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": "n/a (account unavailable)",
- "evaluated_at": "2026-08-21T14:15:00+09:00",
+ "evaluated_at": "2026-08-28T14:15:00+09:00",
  "score_total": 36.25,
  "grade": "D",
  "score_breakdown": {
@@ -28,7 +28,7 @@
   "posts_last_30d": true,
   "note": "account_unavailable"
  },
- "sample_note": "2026-08-21T14:15:00+09:00 STEP B-Light(14:00) 재확인 — Chrome으로 프로필 접근 시 \"죄송합니다. 페이지를 사용할 수 없습니다.\" 반환. 계정 삭제 상태 지속(변동 없음). 미측정 기본값(ER0/bf25/posts0/fol0) 유지, score_total=36.25. | ⚠️ 2026-08-25 11:10 재수집 실패: 프로필 404 — 계정 삭제/비공개/핸들 변경 추정 — 직전 값 유지 | 2026-08-25T14:11:37+09:00 STEP B-Light 재확인: 계정 여전히 삭제/비활성. score_total 36.25는 2026-08-21 미측정 기본값의 이월치이며 실측 아님. 이후 rolling refresh 대상에서 제외.",
+ "sample_note": "2026-08-21T14:15:00+09:00 STEP B-Light(14:00) 재확인 — Chrome으로 프로필 접근 시 \"죄송합니다. 페이지를 사용할 수 없습니다.\" 반환. 계정 삭제 상태 지속(변동 없음). 미측정 기본값(ER0/bf25/posts0/fol0) 유지, score_total=36.25. | ⚠️ 2026-08-25 11:10 재수집 실패: 프로필 404 — 계정 삭제/비공개/핸들 변경 추정 — 직전 값 유지 | 2026-08-25T14:11:37+09:00 STEP B-Light 재확인: 계정 여전히 삭제/비활성. score_total 36.25는 2026-08-21 미측정 기본값의 이월치이며 실측 아님. 이후 rolling refresh 대상에서 제외. | 2026-08-28 14:15 재확인 시 404 — 지표는 2026-08-21 마지막 실측값 유지(이번 회차 갱신 아님)",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:14:34+09:00",
@@ -252,6 +252,16 @@
    "retailer_focus": "off_topic",
    "score_total": 36.25,
    "grade": "D"
+  },
+  {
+   "evaluated_at": "2026-08-21T14:15:00+09:00",
+   "followers": 0,
+   "engagement_rate": 0.0,
+   "posts_last_30d": 0,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 36.25,
+   "grade": "D"
   }
  ],
  "_posts_last_30d_est": false,
@@ -263,5 +273,11 @@
  "_last_fetch_attempt": "2026-08-26T10:42:02+09:00",
  "account_status_checked_at": "2026-08-26T17:12:00+09:00",
  "account_status_note": "2026-08-26 17시 로그인 세션 브라우저 확인: \"죄송합니다. 페이지를 사용할 수 없습니다\" — 계정 삭제 또는 username 변경으로 확정. 점수 36.25는 2026-08-21 미측정 기본값의 이월치로 실측이 아님.",
- "_score_is_default_not_measured": true
+ "_score_is_default_not_measured": true,
+ "status": "unavailable_404",
+ "last_check": {
+  "at": "2026-08-28T14:15:00+09:00",
+  "result": "HTTP 404 — 계정 페이지 접근 불가(삭제·비활성·핸들 변경 추정)",
+  "page_text": "죄송합니다. 페이지를 사용할 수 없습니다."
+ }
 }
