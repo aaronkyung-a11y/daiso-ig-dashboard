@@ -3,30 +3,29 @@
  "username": "UC9RZHKBiLfNWb_1D25ajDdw",
  "fullname": "에이로그 뷰티&라이프💕",
  "profile_url": "https://www.youtube.com/channel/UC9RZHKBiLfNWb_1D25ajDdw",
- "channel_id": "UC9RZHKBiLfNWb_1D25ajDdw",
  "followers": 112000,
- "engagement_rate": 0.0114,
- "avg_likes": 26.0,
- "avg_comments": 3.3,
- "avg_views": 2273.0,
- "posts_last_30d": 3,
+ "engagement_rate": 0.0092,
+ "avg_likes": 41.8,
+ "avg_comments": 14.2,
+ "avg_views": 4561.8,
+ "posts_last_30d": 5,
  "_posts_last_30d_est": false,
- "sample_size": 3,
- "brand_fit_score": 25,
- "retailer_focus": "off_topic",
+ "sample_size": 5,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "0건",
+  "daiso_mentions": "10건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "0건",
+  "beauty_keywords": "12건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:19:00+09:00",
- "score_total": 55.25,
+ "evaluated_at": "2026-08-31T10:29:06+09:00",
+ "score_total": 64.5,
  "grade": "C",
  "score_breakdown": {
-  "er": 60,
-  "brand_fit": 25,
-  "consistency": 60,
+  "er": 40,
+  "brand_fit": 90,
+  "consistency": 80,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -35,7 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 3개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 5개 [videos:12+shorts:12]",
+ "channel_id": "UC9RZHKBiLfNWb_1D25ajDdw",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:22:31+09:00",
@@ -88,6 +88,16 @@
    "retailer_focus": "off_topic",
    "posts_last_30d": 2,
    "evaluated_at": "2026-08-25T10:52:57+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:19:00+09:00",
+   "score_total": 55.25,
+   "grade": "C",
+   "followers": 112000,
+   "engagement_rate": 0.0114,
+   "posts_last_30d": 3,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic"
   }
  ]
 }

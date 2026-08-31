@@ -3,29 +3,28 @@
  "username": "UCYsv-IHC-B-DiVMmJuqibcg",
  "fullname": "Jaina",
  "profile_url": "https://www.youtube.com/channel/UCYsv-IHC-B-DiVMmJuqibcg",
- "channel_id": "UCYsv-IHC-B-DiVMmJuqibcg",
  "followers": 280000,
- "engagement_rate": 0.0235,
- "avg_likes": 405.5,
- "avg_comments": 90.5,
- "avg_views": 17231.0,
- "posts_last_30d": 2,
+ "engagement_rate": 0.0152,
+ "avg_likes": 284.0,
+ "avg_comments": 84.0,
+ "avg_views": 18677.8,
+ "posts_last_30d": 4,
  "_posts_last_30d_est": false,
- "sample_size": 2,
- "brand_fit_score": 75,
- "retailer_focus": "beauty_general",
+ "sample_size": 4,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "4건",
-  "labrang_present": false
+  "olive_young_mentions": "23건",
+  "beauty_keywords": "55건",
+  "labrang_present": true
  },
- "evaluated_at": "2026-08-26T10:30:56+09:00",
- "score_total": 67.75,
+ "evaluated_at": "2026-08-31T10:40:37+09:00",
+ "score_total": 74.0,
  "grade": "B",
  "score_breakdown": {
   "er": 60,
-  "brand_fit": 75,
+  "brand_fit": 100,
   "consistency": 60,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -35,9 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 2개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
- "_er_measurable": true,
+ "sample_note": "YT 30일내 4개 [videos:12+shorts:12]",
+ "channel_id": "UCYsv-IHC-B-DiVMmJuqibcg",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:11:12+09:00",
@@ -58,6 +56,16 @@
    "retailer_focus": "off_topic",
    "posts_last_30d": 1,
    "evaluated_at": "2026-08-25T11:00:51+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:30:56+09:00",
+   "score_total": 67.75,
+   "grade": "B",
+   "followers": 280000,
+   "engagement_rate": 0.0235,
+   "posts_last_30d": 2,
+   "brand_fit_score": 75,
+   "retailer_focus": "beauty_general"
   }
  ]
 }

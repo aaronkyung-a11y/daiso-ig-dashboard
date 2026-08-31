@@ -3,24 +3,23 @@
  "username": "UCiULanlNBXuMkaP9OiZWgYQ",
  "fullname": "율리 YULRI",
  "profile_url": "https://www.youtube.com/channel/UCiULanlNBXuMkaP9OiZWgYQ",
- "channel_id": "UCiULanlNBXuMkaP9OiZWgYQ",
  "followers": 425000,
- "engagement_rate": 0.015,
- "avg_likes": 877.2,
- "avg_comments": 48.6,
- "avg_views": 58441.0,
+ "engagement_rate": 0.0142,
+ "avg_likes": 777.3,
+ "avg_comments": 37.3,
+ "avg_views": 54840.4,
  "posts_last_30d": 11,
  "_posts_last_30d_est": false,
  "sample_size": 11,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "40건",
-  "olive_young_mentions": "1건",
-  "beauty_keywords": "35건",
+  "daiso_mentions": "58건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "73건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-26T10:36:06+09:00",
+ "evaluated_at": "2026-08-31T10:34:51+09:00",
  "score_total": 80.0,
  "grade": "A",
  "score_breakdown": {
@@ -36,6 +35,7 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 11개 [videos:12+shorts:12]",
+ "channel_id": "UCiULanlNBXuMkaP9OiZWgYQ",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -67,6 +67,16 @@
    "retailer_focus": "our_brand",
    "posts_last_30d": 12,
    "evaluated_at": "2026-08-25T11:03:29+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:36:06+09:00",
+   "score_total": 80.0,
+   "grade": "A",
+   "followers": 425000,
+   "engagement_rate": 0.015,
+   "posts_last_30d": 11,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand"
   }
  ]
 }

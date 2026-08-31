@@ -3,29 +3,28 @@
  "username": "UCSif05kQuclHVo-L6ajrS7A",
  "fullname": "Stories Woven by Time",
  "profile_url": "https://www.youtube.com/channel/UCSif05kQuclHVo-L6ajrS7A",
- "channel_id": "UCSif05kQuclHVo-L6ajrS7A",
- "followers": 41700,
- "engagement_rate": 0.0102,
- "avg_likes": 84.0,
+ "followers": 42100,
+ "engagement_rate": 0.0101,
+ "avg_likes": 85.0,
  "avg_comments": 0.0,
- "avg_views": 8265.0,
+ "avg_views": 8389.0,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 1,
- "brand_fit_score": 60,
- "retailer_focus": "daiso",
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "2건",
+  "daiso_mentions": "24건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "2건",
-  "labrang_present": false
+  "beauty_keywords": "10건",
+  "labrang_present": true
  },
- "evaluated_at": "2026-08-26T10:28:07+09:00",
- "score_total": 59.0,
- "grade": "C",
+ "evaluated_at": "2026-08-31T10:20:12+09:00",
+ "score_total": 69.0,
+ "grade": "B",
  "score_breakdown": {
   "er": 60,
-  "brand_fit": 60,
+  "brand_fit": 100,
   "consistency": 40,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -36,19 +35,8 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 1개 [videos:0+shorts:12]",
- "_likes_hidden": 0,
+ "channel_id": "UCSif05kQuclHVo-L6ajrS7A",
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 36200,
-   "engagement_rate": 0.016,
-   "avg_likes": 4653.9,
-   "posts_last_30d": 0,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 69.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 34900,
@@ -309,6 +297,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 1,
    "evaluated_at": "2026-08-25T10:58:13+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:28:07+09:00",
+   "score_total": 59.0,
+   "grade": "C",
+   "followers": 41700,
+   "engagement_rate": 0.0102,
+   "posts_last_30d": 1,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso"
   }
  ]
 }

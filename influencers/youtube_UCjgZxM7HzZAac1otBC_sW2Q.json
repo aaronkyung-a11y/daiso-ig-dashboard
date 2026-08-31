@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "UCjgZxM7HzZAac1otBC_sW2Q",
+ "fullname": "맨즈뷰티 훈Hoon",
+ "profile_url": "https://www.youtube.com/channel/UCjgZxM7HzZAac1otBC_sW2Q",
+ "followers": 3330,
+ "engagement_rate": 0.0113,
+ "avg_likes": 43.6,
+ "avg_comments": 11.1,
+ "avg_views": 3866.1,
+ "posts_last_30d": 7,
+ "_posts_last_30d_est": false,
+ "sample_size": 7,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso_mentions": "14건",
+  "olive_young_mentions": "97건",
+  "beauty_keywords": "106건",
+  "labrang_present": true
+ },
+ "evaluated_at": "2026-08-31T10:43:29+09:00",
+ "score_total": 73.0,
+ "grade": "B",
+ "score_breakdown": {
+  "er": 60,
+  "brand_fit": 100,
+  "consistency": 80,
+  "followers": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 7개 [videos:12+shorts:12]",
+ "channel_id": "UCjgZxM7HzZAac1otBC_sW2Q",
+ "history": []
+}

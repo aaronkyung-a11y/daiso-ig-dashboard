@@ -3,24 +3,23 @@
  "username": "UCwFNiYnTtrYuwO7YRWomatw",
  "fullname": "살림토끼",
  "profile_url": "https://www.youtube.com/channel/UCwFNiYnTtrYuwO7YRWomatw",
- "channel_id": "UCwFNiYnTtrYuwO7YRWomatw",
  "followers": 126000,
- "engagement_rate": 0.0129,
- "avg_likes": 964.2,
- "avg_comments": 22.9,
- "avg_views": 74634.2,
+ "engagement_rate": 0.011,
+ "avg_likes": 1551.9,
+ "avg_comments": 26.2,
+ "avg_views": 141142.6,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "55건",
-  "olive_young_mentions": "15건",
-  "beauty_keywords": "22건",
+  "daiso_mentions": "119건",
+  "olive_young_mentions": "11건",
+  "beauty_keywords": "32건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:39:44+09:00",
+ "evaluated_at": "2026-08-31T10:14:13+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -36,18 +35,8 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
+ "channel_id": "UCwFNiYnTtrYuwO7YRWomatw",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:29:12+09:00",
-   "followers": 123000,
-   "engagement_rate": 0.0089,
-   "posts_last_30d": 0,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "score_total": 54.75,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-17T10:23:30.923982+09:00",
    "followers": 123000,
@@ -303,6 +292,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 12,
    "evaluated_at": "2026-08-25T11:08:46+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:39:44+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "followers": 126000,
+   "engagement_rate": 0.0129,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   }
  ]
 }

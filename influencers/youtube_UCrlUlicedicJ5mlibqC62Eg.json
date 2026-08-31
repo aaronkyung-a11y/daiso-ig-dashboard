@@ -3,24 +3,23 @@
  "username": "UCrlUlicedicJ5mlibqC62Eg",
  "fullname": "뷰드름 유튜버 인씨",
  "profile_url": "https://www.youtube.com/channel/UCrlUlicedicJ5mlibqC62Eg",
- "channel_id": "UCrlUlicedicJ5mlibqC62Eg",
  "followers": 568000,
- "engagement_rate": 0.0139,
- "avg_likes": 479.4,
- "avg_comments": 48.3,
- "avg_views": 34378.6,
- "posts_last_30d": 18,
+ "engagement_rate": 0.0114,
+ "avg_likes": 508.2,
+ "avg_comments": 103.7,
+ "avg_views": 44389.1,
+ "posts_last_30d": 16,
  "_posts_last_30d_est": false,
- "sample_size": 18,
+ "sample_size": 16,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "36건",
-  "olive_young_mentions": "47건",
-  "beauty_keywords": "65건",
+  "daiso_mentions": "23건",
+  "olive_young_mentions": "60건",
+  "beauty_keywords": "83건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:38:56+09:00",
+ "evaluated_at": "2026-08-31T10:14:13+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 18개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12]",
+ "channel_id": "UCrlUlicedicJ5mlibqC62Eg",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:29:12+09:00",
-   "followers": 569000,
-   "engagement_rate": 0.0197,
-   "posts_last_30d": 8,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-07-17T10:22:20.335257+09:00",
    "followers": 569000,
@@ -307,6 +296,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 16,
    "evaluated_at": "2026-08-25T11:06:07+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:38:56+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "followers": 568000,
+   "engagement_rate": 0.0139,
+   "posts_last_30d": 18,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

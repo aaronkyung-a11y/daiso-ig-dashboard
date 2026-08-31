@@ -3,24 +3,23 @@
  "username": "UC6zDQHALEBtuEhGYlT1ZTfA",
  "fullname": "선데이미디어",
  "profile_url": "https://www.youtube.com/channel/UC6zDQHALEBtuEhGYlT1ZTfA",
- "channel_id": "UC6zDQHALEBtuEhGYlT1ZTfA",
  "followers": 27900,
- "engagement_rate": 0.0003,
- "avg_likes": 3.0,
- "avg_comments": 0.1,
- "avg_views": 9678.3,
- "posts_last_30d": 12,
+ "engagement_rate": 0.0002,
+ "avg_likes": 3.3,
+ "avg_comments": 1.0,
+ "avg_views": 14147.1,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 10,
  "brand_fit_score": 90,
- "retailer_focus": "beauty_general",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "60건",
+  "olive_young_mentions": "1건",
+  "beauty_keywords": "85건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:18:05+09:00",
+ "evaluated_at": "2026-08-31T10:17:18+09:00",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 10개 [videos:12+shorts:12]",
+ "channel_id": "UC6zDQHALEBtuEhGYlT1ZTfA",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:24:13.911279+09:00",
-   "followers": 27900,
-   "engagement_rate": 0.0007,
-   "posts_last_30d": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 65.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-08T10:17:26.537296+09:00",
    "followers": 27900,
@@ -296,6 +285,16 @@
    "retailer_focus": "beauty_general",
    "posts_last_30d": 9,
    "evaluated_at": "2026-08-25T10:52:57+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:18:05+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "followers": 27900,
+   "engagement_rate": 0.0003,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general"
   }
  ]
 }

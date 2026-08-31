@@ -3,29 +3,28 @@
  "username": "UC6B9J3dKyA8TF-3YC0sEvTw",
  "fullname": "탈모박사 조선행",
  "profile_url": "https://www.youtube.com/channel/UC6B9J3dKyA8TF-3YC0sEvTw",
- "channel_id": "UC6B9J3dKyA8TF-3YC0sEvTw",
- "followers": 25100,
- "engagement_rate": 0.0191,
- "avg_likes": 707.8,
- "avg_comments": 14.2,
- "avg_views": 37084.0,
- "posts_last_30d": 4,
+ "followers": 25400,
+ "engagement_rate": 0.0162,
+ "avg_likes": 1011.3,
+ "avg_comments": 34.5,
+ "avg_views": 62304.3,
+ "posts_last_30d": 3,
  "_posts_last_30d_est": false,
- "sample_size": 4,
- "brand_fit_score": 60,
+ "sample_size": 3,
+ "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "13건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "1건",
+  "daiso_mentions": "60건",
+  "olive_young_mentions": "3건",
+  "beauty_keywords": "8건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:17:57+09:00",
- "score_total": 62.0,
- "grade": "C",
+ "evaluated_at": "2026-08-31T10:31:58+09:00",
+ "score_total": 69.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 60,
-  "brand_fit": 60,
+  "brand_fit": 90,
   "consistency": 60,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -35,7 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 4개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 3개 [videos:12+shorts:12]",
+ "channel_id": "UC6B9J3dKyA8TF-3YC0sEvTw",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:23:10+09:00",
@@ -88,6 +88,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 4,
    "evaluated_at": "2026-08-25T10:50:20+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:17:57+09:00",
+   "score_total": 62.0,
+   "grade": "C",
+   "followers": 25100,
+   "engagement_rate": 0.0191,
+   "posts_last_30d": 4,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso"
   }
  ]
 }

@@ -3,24 +3,23 @@
  "username": "UCoCxuPrH7NwbBprRjSD2IKw",
  "fullname": "호기심대장 김몽몽  𝐦𝐨𝐧𝐠𝐦𝐨𝐧𝐠",
  "profile_url": "https://www.youtube.com/channel/UCoCxuPrH7NwbBprRjSD2IKw",
- "channel_id": "UCoCxuPrH7NwbBprRjSD2IKw",
- "followers": 42500,
- "engagement_rate": 0.0193,
- "avg_likes": 1661.7,
- "avg_comments": 134.4,
- "avg_views": 85972.7,
- "posts_last_30d": 10,
+ "followers": 42900,
+ "engagement_rate": 0.0191,
+ "avg_likes": 1728.2,
+ "avg_comments": 130.2,
+ "avg_views": 90518.3,
+ "posts_last_30d": 11,
  "_posts_last_30d_est": false,
- "sample_size": 10,
+ "sample_size": 11,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "2건",
-  "beauty_keywords": "15건",
+  "daiso_mentions": "4건",
+  "olive_young_mentions": "14건",
+  "beauty_keywords": "37건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:38:07+09:00",
+ "evaluated_at": "2026-08-31T10:14:13+09:00",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 10개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 11개 [videos:12+shorts:12]",
+ "channel_id": "UCoCxuPrH7NwbBprRjSD2IKw",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:29:12+09:00",
-   "followers": 38100,
-   "engagement_rate": 0.0215,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 69.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-17T10:23:30.923982+09:00",
    "followers": 37900,
@@ -306,6 +295,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 10,
    "evaluated_at": "2026-08-25T11:06:07+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:38:07+09:00",
+   "score_total": 75.5,
+   "grade": "A",
+   "followers": 42500,
+   "engagement_rate": 0.0193,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

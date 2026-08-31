@@ -3,29 +3,28 @@
  "username": "UCxyZ8KuHWIgpmLP2XHcc5pQ",
  "fullname": "오시앙 SiAng",
  "profile_url": "https://www.youtube.com/channel/UCxyZ8KuHWIgpmLP2XHcc5pQ",
- "channel_id": "UCxyZ8KuHWIgpmLP2XHcc5pQ",
  "followers": 13600,
- "engagement_rate": 0.0155,
- "avg_likes": 319.6,
- "avg_comments": 12.2,
- "avg_views": 20641.4,
+ "engagement_rate": 0.0136,
+ "avg_likes": 205.6,
+ "avg_comments": 9.4,
+ "avg_views": 15094.0,
  "posts_last_30d": 5,
  "_posts_last_30d_est": false,
  "sample_size": 5,
- "brand_fit_score": 75,
+ "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "4건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "3건",
+  "daiso_mentions": "10건",
+  "olive_young_mentions": "2건",
+  "beauty_keywords": "44건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:41:00+09:00",
- "score_total": 68.75,
+ "evaluated_at": "2026-08-31T10:37:43+09:00",
+ "score_total": 72.5,
  "grade": "B",
  "score_breakdown": {
   "er": 60,
-  "brand_fit": 75,
+  "brand_fit": 90,
   "consistency": 80,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -36,6 +35,7 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 5개 [videos:12+shorts:12]",
+ "channel_id": "UCxyZ8KuHWIgpmLP2XHcc5pQ",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -67,6 +67,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 5,
    "evaluated_at": "2026-08-25T11:08:46+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:41:00+09:00",
+   "score_total": 68.75,
+   "grade": "B",
+   "followers": 13600,
+   "engagement_rate": 0.0155,
+   "posts_last_30d": 5,
+   "brand_fit_score": 75,
+   "retailer_focus": "daiso"
   }
  ]
 }

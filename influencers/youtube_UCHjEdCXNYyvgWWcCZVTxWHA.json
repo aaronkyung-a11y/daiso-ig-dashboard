@@ -3,29 +3,28 @@
  "username": "UCHjEdCXNYyvgWWcCZVTxWHA",
  "fullname": "tibet brother",
  "profile_url": "https://www.youtube.com/channel/UCHjEdCXNYyvgWWcCZVTxWHA",
- "channel_id": "UCHjEdCXNYyvgWWcCZVTxWHA",
  "followers": 503000,
- "engagement_rate": 0.0176,
- "avg_likes": 2917.5,
- "avg_comments": 123.3,
- "avg_views": 166204.8,
- "posts_last_30d": 17,
+ "engagement_rate": 0.0157,
+ "avg_likes": 2275.5,
+ "avg_comments": 92.4,
+ "avg_views": 145085.4,
+ "posts_last_30d": 19,
  "_posts_last_30d_est": false,
- "sample_size": 17,
- "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "sample_size": 19,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "7건",
-  "beauty_keywords": "111건",
-  "labrang_present": false
+  "olive_young_mentions": "11건",
+  "beauty_keywords": "105건",
+  "labrang_present": true
  },
- "evaluated_at": "2026-08-26T10:22:09+09:00",
- "score_total": 77.5,
+ "evaluated_at": "2026-08-31T10:20:12+09:00",
+ "score_total": 80.0,
  "grade": "A",
  "score_breakdown": {
   "er": 60,
-  "brand_fit": 90,
+  "brand_fit": 100,
   "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 17개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 19개 [videos:12+shorts:12]",
+ "channel_id": "UCHjEdCXNYyvgWWcCZVTxWHA",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:20:03+09:00",
-   "followers": 499000,
-   "engagement_rate": 0.0232,
-   "posts_last_30d": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-17T10:25:40.418539+09:00",
    "followers": 499000,
@@ -304,6 +293,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 17,
    "evaluated_at": "2026-08-25T10:55:35+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:22:09+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "followers": 503000,
+   "engagement_rate": 0.0176,
+   "posts_last_30d": 17,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

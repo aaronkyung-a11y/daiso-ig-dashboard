@@ -3,24 +3,23 @@
  "username": "UCR-rSr__YloP08_byJvVd9w",
  "fullname": "지우원",
  "profile_url": "https://www.youtube.com/channel/UCR-rSr__YloP08_byJvVd9w",
- "channel_id": "UCR-rSr__YloP08_byJvVd9w",
- "followers": 41800,
- "engagement_rate": 0.0067,
- "avg_likes": 376.1,
- "avg_comments": 21.8,
- "avg_views": 56012.3,
- "posts_last_30d": 12,
+ "followers": 42200,
+ "engagement_rate": 0.0068,
+ "avg_likes": 305.5,
+ "avg_comments": 20.5,
+ "avg_views": 45237.6,
+ "posts_last_30d": 13,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 13,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "1건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "10건",
+  "olive_young_mentions": "5건",
+  "beauty_keywords": "30건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:26:10+09:00",
+ "evaluated_at": "2026-08-31T10:29:06+09:00",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -35,7 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 13개 [videos:12+shorts:12]",
+ "channel_id": "UCR-rSr__YloP08_byJvVd9w",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:22:29+09:00",
@@ -88,6 +88,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 13,
    "evaluated_at": "2026-08-25T10:58:13+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:26:10+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "followers": 41800,
+   "engagement_rate": 0.0067,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   }
  ]
 }

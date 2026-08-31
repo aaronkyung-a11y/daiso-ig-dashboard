@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "UCQK2si_zQf-jPB6iIEv3inw",
+ "fullname": "秋水不染尘",
+ "profile_url": "https://www.youtube.com/channel/UCQK2si_zQf-jPB6iIEv3inw",
+ "followers": 204000,
+ "engagement_rate": 0.0075,
+ "avg_likes": 430.4,
+ "avg_comments": 21.6,
+ "avg_views": 57159.2,
+ "posts_last_30d": 5,
+ "_posts_last_30d_est": false,
+ "sample_size": 5,
+ "brand_fit_score": 25,
+ "retailer_focus": "off_topic",
+ "retailer_signal": {
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "0건",
+  "labrang_present": false
+ },
+ "evaluated_at": "2026-08-31T10:43:29+09:00",
+ "score_total": 48.25,
+ "grade": "D",
+ "score_breakdown": {
+  "er": 40,
+  "brand_fit": 25,
+  "consistency": 80,
+  "followers": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 5개 [videos:12+shorts:3]",
+ "channel_id": "UCQK2si_zQf-jPB6iIEv3inw",
+ "history": []
+}

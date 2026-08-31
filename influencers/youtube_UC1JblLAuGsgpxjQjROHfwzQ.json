@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "UC1JblLAuGsgpxjQjROHfwzQ",
+ "fullname": "Hyukヒョク",
+ "profile_url": "https://www.youtube.com/channel/UC1JblLAuGsgpxjQjROHfwzQ",
+ "followers": 535000,
+ "engagement_rate": 0.0133,
+ "avg_likes": 871.5,
+ "avg_comments": 35.9,
+ "avg_views": 65438.2,
+ "posts_last_30d": 8,
+ "_posts_last_30d_est": false,
+ "sample_size": 8,
+ "brand_fit_score": 25,
+ "retailer_focus": "off_topic",
+ "retailer_signal": {
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "0건",
+  "labrang_present": false
+ },
+ "evaluated_at": "2026-08-31T10:43:29+09:00",
+ "score_total": 58.25,
+ "grade": "C",
+ "score_breakdown": {
+  "er": 60,
+  "brand_fit": 25,
+  "consistency": 80,
+  "followers": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 8개 [videos:12+shorts:12]",
+ "channel_id": "UC1JblLAuGsgpxjQjROHfwzQ",
+ "history": []
+}

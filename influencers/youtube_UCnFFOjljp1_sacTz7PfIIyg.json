@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "UCnFFOjljp1_sacTz7PfIIyg",
+ "fullname": "LeoJ Makeup",
+ "profile_url": "https://www.youtube.com/channel/UCnFFOjljp1_sacTz7PfIIyg",
+ "followers": 1440000,
+ "engagement_rate": 0.0107,
+ "avg_likes": 1698.7,
+ "avg_comments": 167.5,
+ "avg_views": 158460.2,
+ "posts_last_30d": 17,
+ "_posts_last_30d_est": false,
+ "sample_size": 17,
+ "brand_fit_score": 90,
+ "retailer_focus": "mixed",
+ "retailer_signal": {
+  "daiso_mentions": "34건",
+  "olive_young_mentions": "32건",
+  "beauty_keywords": "106건",
+  "labrang_present": false
+ },
+ "evaluated_at": "2026-08-31T10:43:29+09:00",
+ "score_total": 77.5,
+ "grade": "A",
+ "score_breakdown": {
+  "er": 60,
+  "brand_fit": 90,
+  "consistency": 100,
+  "followers": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 17개 [videos:12+shorts:12]",
+ "channel_id": "UCnFFOjljp1_sacTz7PfIIyg",
+ "history": []
+}

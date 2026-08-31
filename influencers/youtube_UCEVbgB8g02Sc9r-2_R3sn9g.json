@@ -3,24 +3,23 @@
  "username": "UCEVbgB8g02Sc9r-2_R3sn9g",
  "fullname": "테테코덕계 tete",
  "profile_url": "https://www.youtube.com/channel/UCEVbgB8g02Sc9r-2_R3sn9g",
- "channel_id": "UCEVbgB8g02Sc9r-2_R3sn9g",
  "followers": 11300,
- "engagement_rate": 0.0155,
- "avg_likes": 131.7,
- "avg_comments": 18.4,
- "avg_views": 8488.0,
- "posts_last_30d": 7,
+ "engagement_rate": 0.0131,
+ "avg_likes": 113.4,
+ "avg_comments": 11.9,
+ "avg_views": 8680.0,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 7,
+ "sample_size": 9,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "12건",
-  "beauty_keywords": "13건",
+  "olive_young_mentions": "98건",
+  "beauty_keywords": "50건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:20:05+09:00",
+ "evaluated_at": "2026-08-31T10:31:58+09:00",
  "score_total": 72.5,
  "grade": "B",
  "score_breakdown": {
@@ -35,7 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 7개 [videos:9+shorts:12]",
+ "sample_note": "YT 30일내 9개 [videos:9+shorts:12]",
+ "channel_id": "UCEVbgB8g02Sc9r-2_R3sn9g",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:22:46+09:00",
@@ -88,6 +88,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 7,
    "evaluated_at": "2026-08-25T10:52:57+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:20:05+09:00",
+   "score_total": 72.5,
+   "grade": "B",
+   "followers": 11300,
+   "engagement_rate": 0.0155,
+   "posts_last_30d": 7,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

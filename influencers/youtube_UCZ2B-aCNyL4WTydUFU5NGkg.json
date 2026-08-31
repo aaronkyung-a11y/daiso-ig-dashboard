@@ -3,24 +3,23 @@
  "username": "UCZ2B-aCNyL4WTydUFU5NGkg",
  "fullname": "머머리쌤",
  "profile_url": "https://www.youtube.com/channel/UCZ2B-aCNyL4WTydUFU5NGkg",
- "channel_id": "UCZ2B-aCNyL4WTydUFU5NGkg",
  "followers": 24000,
- "engagement_rate": 0.0195,
- "avg_likes": 96.7,
- "avg_comments": 8.0,
- "avg_views": 4966.7,
- "posts_last_30d": 3,
+ "engagement_rate": 0.0189,
+ "avg_likes": 81.0,
+ "avg_comments": 6.2,
+ "avg_views": 4279.8,
+ "posts_last_30d": 4,
  "_posts_last_30d_est": false,
- "sample_size": 3,
+ "sample_size": 4,
  "brand_fit_score": 25,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "3건",
+  "daiso_mentions": "6건",
   "olive_young_mentions": "0건",
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:31:42+09:00",
+ "evaluated_at": "2026-08-31T10:40:37+09:00",
  "score_total": 53.25,
  "grade": "C",
  "score_breakdown": {
@@ -35,7 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 3개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 4개 [videos:12+shorts:12]",
+ "channel_id": "UCZ2B-aCNyL4WTydUFU5NGkg",
  "history": [
   {
    "evaluated_at": "2026-08-20T14:09:34+09:00",
@@ -78,6 +78,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 3,
    "evaluated_at": "2026-08-25T11:00:51+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:31:42+09:00",
+   "score_total": 53.25,
+   "grade": "C",
+   "followers": 24000,
+   "engagement_rate": 0.0195,
+   "posts_last_30d": 3,
+   "brand_fit_score": 25,
+   "retailer_focus": "daiso"
   }
  ]
 }

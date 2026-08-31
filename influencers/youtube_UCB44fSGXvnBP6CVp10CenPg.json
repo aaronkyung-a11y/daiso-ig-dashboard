@@ -3,29 +3,28 @@
  "username": "UCB44fSGXvnBP6CVp10CenPg",
  "fullname": "효블리 Hyovely",
  "profile_url": "https://www.youtube.com/channel/UCB44fSGXvnBP6CVp10CenPg",
- "channel_id": "UCB44fSGXvnBP6CVp10CenPg",
  "followers": 127000,
  "engagement_rate": 0.0,
  "avg_likes": 0.0,
- "avg_comments": 48.6,
- "avg_views": 32242.6,
- "posts_last_30d": 16,
+ "avg_comments": 52.9,
+ "avg_views": 32792.0,
+ "posts_last_30d": 18,
  "_posts_last_30d_est": false,
- "sample_size": 16,
- "brand_fit_score": 90,
- "retailer_focus": "mixed",
+ "sample_size": 18,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "3건",
-  "olive_young_mentions": "3건",
-  "beauty_keywords": "25건",
-  "labrang_present": false
+  "daiso_mentions": "2건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "47건",
+  "labrang_present": true
  },
- "evaluated_at": "2026-08-26T10:19:00+09:00",
- "score_total": 67.5,
+ "evaluated_at": "2026-08-31T10:40:37+09:00",
+ "score_total": 70.0,
  "grade": "B",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 90,
+  "brand_fit": 100,
   "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -35,9 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12]",
- "_likes_hidden": 5,
- "_er_measurable": false,
+ "sample_note": "YT 30일내 18개 [videos:12+shorts:12]",
+ "channel_id": "UCB44fSGXvnBP6CVp10CenPg",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:11:12+09:00",
@@ -58,6 +56,16 @@
    "retailer_focus": "mixed",
    "posts_last_30d": 16,
    "evaluated_at": "2026-08-25T10:52:57+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:19:00+09:00",
+   "score_total": 67.5,
+   "grade": "B",
+   "followers": 127000,
+   "engagement_rate": 0.0,
+   "posts_last_30d": 16,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed"
   }
  ]
 }

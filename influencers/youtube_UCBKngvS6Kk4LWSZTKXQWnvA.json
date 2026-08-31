@@ -3,12 +3,11 @@
  "username": "UCBKngvS6Kk4LWSZTKXQWnvA",
  "fullname": "오드의원 민경률 원장",
  "profile_url": "https://www.youtube.com/channel/UCBKngvS6Kk4LWSZTKXQWnvA",
- "channel_id": "UCBKngvS6Kk4LWSZTKXQWnvA",
- "followers": 5200,
- "engagement_rate": 0.0109,
- "avg_likes": 62.0,
- "avg_comments": 5.1,
- "avg_views": 5703.2,
+ "followers": 5210,
+ "engagement_rate": 0.0099,
+ "avg_likes": 37.2,
+ "avg_comments": 4.9,
+ "avg_views": 3746.0,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -17,14 +16,14 @@
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "2건",
+  "beauty_keywords": "1건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:19:27+09:00",
- "score_total": 66.0,
- "grade": "B",
+ "evaluated_at": "2026-08-31T10:17:18+09:00",
+ "score_total": 56.0,
+ "grade": "C",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 60,
   "consistency": 100,
   "followers": 60,
@@ -36,19 +35,8 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
- "_likes_hidden": 0,
+ "channel_id": "UCBKngvS6Kk4LWSZTKXQWnvA",
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 4920,
-   "engagement_rate": 0.0151,
-   "avg_likes": 113.8,
-   "posts_last_30d": 6,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 63.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 4870,
@@ -308,6 +296,16 @@
    "retailer_focus": "beauty_general",
    "posts_last_30d": 12,
    "evaluated_at": "2026-08-25T10:52:57+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:19:27+09:00",
+   "score_total": 66.0,
+   "grade": "B",
+   "followers": 5200,
+   "engagement_rate": 0.0109,
+   "posts_last_30d": 12,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general"
   }
  ]
 }

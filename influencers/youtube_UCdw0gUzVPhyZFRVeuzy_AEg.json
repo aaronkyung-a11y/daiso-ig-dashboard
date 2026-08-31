@@ -3,12 +3,11 @@
  "username": "UCdw0gUzVPhyZFRVeuzy_AEg",
  "fullname": "하우머치코리아 (HOWMUCH KOREA)",
  "profile_url": "https://www.youtube.com/channel/UCdw0gUzVPhyZFRVeuzy_AEg",
- "channel_id": "UCdw0gUzVPhyZFRVeuzy_AEg",
- "followers": 134000,
- "engagement_rate": 0.0099,
- "avg_likes": 1567.3,
- "avg_comments": 70.5,
- "avg_views": 158556.2,
+ "followers": 135000,
+ "engagement_rate": 0.0115,
+ "avg_likes": 832.0,
+ "avg_comments": 24.6,
+ "avg_views": 72446.9,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -17,14 +16,14 @@
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "18건",
+  "beauty_keywords": "30건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:34:13+09:00",
- "score_total": 67.5,
- "grade": "B",
+ "evaluated_at": "2026-08-31T10:23:20+09:00",
+ "score_total": 77.5,
+ "grade": "A",
  "score_breakdown": {
-  "er": 40,
+  "er": 60,
   "brand_fit": 90,
   "consistency": 100,
   "followers": 100,
@@ -36,18 +35,8 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
+ "channel_id": "UCdw0gUzVPhyZFRVeuzy_AEg",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 123000,
-   "engagement_rate": 0.014,
-   "avg_likes": 2343.4,
-   "posts_last_30d": 0,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 61.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:23:02+09:00",
    "followers": 122000,
@@ -300,6 +289,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 12,
    "evaluated_at": "2026-08-25T11:03:29+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:34:13+09:00",
+   "score_total": 67.5,
+   "grade": "B",
+   "followers": 134000,
+   "engagement_rate": 0.0099,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   }
  ]
 }

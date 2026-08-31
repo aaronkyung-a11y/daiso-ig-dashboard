@@ -3,24 +3,23 @@
  "username": "UC-hvam4FHeXJDQZ5sCW132A",
  "fullname": "청담 닥터원",
  "profile_url": "https://www.youtube.com/channel/UC-hvam4FHeXJDQZ5sCW132A",
- "channel_id": "UC-hvam4FHeXJDQZ5sCW132A",
- "followers": 6540,
- "engagement_rate": 0.0028,
- "avg_likes": 19.2,
- "avg_comments": 0.8,
- "avg_views": 6984.6,
- "posts_last_30d": 16,
+ "followers": 6550,
+ "engagement_rate": 0.0027,
+ "avg_likes": 22.3,
+ "avg_comments": 3.5,
+ "avg_views": 8289.3,
+ "posts_last_30d": 14,
  "_posts_last_30d_est": false,
- "sample_size": 16,
+ "sample_size": 14,
  "brand_fit_score": 90,
- "retailer_focus": "beauty_general",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "25건",
+  "daiso_mentions": "1건",
+  "olive_young_mentions": "5건",
+  "beauty_keywords": "123건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-28T14:15:00+09:00",
+ "evaluated_at": "2026-08-31T10:14:13+09:00",
  "score_total": 63.5,
  "grade": "C",
  "score_breakdown": {
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 16개 [videos+shorts 40개 메타 수집]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 14개 [videos:12+shorts:12]",
+ "channel_id": "UC-hvam4FHeXJDQZ5sCW132A",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:18:29+09:00",
-   "followers": 6330,
-   "engagement_rate": 0.0019,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 57.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-17T10:23:30.923982+09:00",
    "followers": 6320,
@@ -299,6 +288,16 @@
    "retailer_focus": "beauty_general",
    "score_total": 63.5,
    "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-08-28T14:15:00+09:00",
+   "score_total": 63.5,
+   "grade": "C",
+   "followers": 6540,
+   "engagement_rate": 0.0028,
+   "posts_last_30d": 16,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general"
   }
  ]
 }

@@ -3,24 +3,23 @@
  "username": "UCFuMPPmNvRAVIqYlAO5v_vg",
  "fullname": "리뷰밍밍",
  "profile_url": "https://www.youtube.com/channel/UCFuMPPmNvRAVIqYlAO5v_vg",
- "channel_id": "UCFuMPPmNvRAVIqYlAO5v_vg",
- "followers": 14500,
- "engagement_rate": 0.0079,
- "avg_likes": 129.1,
- "avg_comments": 2.1,
- "avg_views": 16396.2,
- "posts_last_30d": 11,
+ "followers": 14600,
+ "engagement_rate": 0.0064,
+ "avg_likes": 129.3,
+ "avg_comments": 1.9,
+ "avg_views": 20346.9,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 11,
+ "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "95건",
+  "daiso_mentions": "68건",
   "olive_young_mentions": "6건",
-  "beauty_keywords": "83건",
+  "beauty_keywords": "67건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:20:27+09:00",
+ "evaluated_at": "2026-08-31T10:17:18+09:00",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -35,20 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 11개 [videos:0+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
+ "channel_id": "UCFuMPPmNvRAVIqYlAO5v_vg",
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 14500,
-   "engagement_rate": 0.0116,
-   "avg_likes": 140.7,
-   "posts_last_30d": 6,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 75.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 14500,
@@ -308,6 +296,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 11,
    "evaluated_at": "2026-08-25T10:52:57+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:20:27+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "followers": 14500,
+   "engagement_rate": 0.0079,
+   "posts_last_30d": 11,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   }
  ]
 }

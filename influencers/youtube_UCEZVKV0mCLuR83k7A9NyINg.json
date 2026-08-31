@@ -3,12 +3,11 @@
  "username": "UCEZVKV0mCLuR83k7A9NyINg",
  "fullname": "청담동 마녀",
  "profile_url": "https://www.youtube.com/channel/UCEZVKV0mCLuR83k7A9NyINg",
- "channel_id": "UCEZVKV0mCLuR83k7A9NyINg",
  "followers": 104000,
- "engagement_rate": 0.0106,
- "avg_likes": 195.5,
- "avg_comments": 7.8,
- "avg_views": 18401.2,
+ "engagement_rate": 0.0097,
+ "avg_likes": 219.8,
+ "avg_comments": 12.0,
+ "avg_views": 22582.0,
  "posts_last_30d": 4,
  "_posts_last_30d_est": false,
  "sample_size": 4,
@@ -16,15 +15,15 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "6건",
-  "beauty_keywords": "70건",
+  "olive_young_mentions": "9건",
+  "beauty_keywords": "328건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:20:08+09:00",
- "score_total": 71.5,
- "grade": "B",
+ "evaluated_at": "2026-08-31T10:40:37+09:00",
+ "score_total": 61.5,
+ "grade": "C",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 90,
   "consistency": 60,
   "followers": 100,
@@ -36,8 +35,7 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 4개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
- "_er_measurable": true,
+ "channel_id": "UCEZVKV0mCLuR83k7A9NyINg",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:14:59+09:00",
@@ -58,6 +56,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 4,
    "evaluated_at": "2026-08-25T10:52:57+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:20:08+09:00",
+   "score_total": 71.5,
+   "grade": "B",
+   "followers": 104000,
+   "engagement_rate": 0.0106,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

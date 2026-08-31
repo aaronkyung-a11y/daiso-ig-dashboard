@@ -3,15 +3,14 @@
  "username": "UCOjmYCnYlTcdoD2DKHvrV5g",
  "fullname": "HARUNA KOJIMA's cat nap",
  "profile_url": "https://www.youtube.com/channel/UCOjmYCnYlTcdoD2DKHvrV5g",
- "channel_id": "UCOjmYCnYlTcdoD2DKHvrV5g",
  "followers": 695000,
- "engagement_rate": 0.0143,
- "avg_likes": 3211.0,
- "avg_comments": 124.0,
- "avg_views": 225118.3,
- "posts_last_30d": 3,
+ "engagement_rate": 0.0134,
+ "avg_likes": 2818.5,
+ "avg_comments": 115.0,
+ "avg_views": 211031.8,
+ "posts_last_30d": 4,
  "_posts_last_30d_est": false,
- "sample_size": 3,
+ "sample_size": 4,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,7 +19,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:25:28+09:00",
+ "evaluated_at": "2026-08-31T10:34:51+09:00",
  "score_total": 55.25,
  "grade": "C",
  "score_breakdown": {
@@ -35,7 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 3개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 4개 [videos:12+shorts:12]",
+ "channel_id": "UCOjmYCnYlTcdoD2DKHvrV5g",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -67,6 +67,16 @@
    "retailer_focus": "off_topic",
    "posts_last_30d": 3,
    "evaluated_at": "2026-08-25T10:58:13+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:25:28+09:00",
+   "score_total": 55.25,
+   "grade": "C",
+   "followers": 695000,
+   "engagement_rate": 0.0143,
+   "posts_last_30d": 3,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic"
   }
  ]
 }

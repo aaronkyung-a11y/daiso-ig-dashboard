@@ -3,12 +3,11 @@
  "username": "UCcU1vg4c0iV1VKH8_BE7bZw",
  "fullname": "찐예쁨연구소",
  "profile_url": "https://www.youtube.com/channel/UCcU1vg4c0iV1VKH8_BE7bZw",
- "channel_id": "UCcU1vg4c0iV1VKH8_BE7bZw",
- "followers": 3130,
+ "followers": 3120,
  "engagement_rate": 0.0073,
- "avg_likes": 37.8,
+ "avg_likes": 35.9,
  "avg_comments": 0.0,
- "avg_views": 5174.8,
+ "avg_views": 4948.2,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -16,11 +15,11 @@
  "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "8건",
-  "olive_young_mentions": "2건",
+  "olive_young_mentions": "1건",
   "beauty_keywords": "8건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:33:25+09:00",
+ "evaluated_at": "2026-08-31T10:23:20+09:00",
  "score_total": 63.5,
  "grade": "C",
  "score_breakdown": {
@@ -36,18 +35,8 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
+ "channel_id": "UCcU1vg4c0iV1VKH8_BE7bZw",
  "history": [
-  {
-   "evaluated_at": "2026-07-27T10:25:16+09:00",
-   "followers": 3200,
-   "engagement_rate": 0.0351,
-   "avg_likes": 50.8,
-   "posts_last_30d": 5,
-   "brand_fit_score": 25,
-   "retailer_focus": "olive_young",
-   "score_total": 64.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-23T10:35:31+09:00",
    "followers": 2950,
@@ -307,6 +296,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 12,
    "evaluated_at": "2026-08-25T11:00:51+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:33:25+09:00",
+   "score_total": 63.5,
+   "grade": "C",
+   "followers": 3130,
+   "engagement_rate": 0.0073,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   }
  ]
 }

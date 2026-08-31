@@ -3,24 +3,23 @@
  "username": "UCYjkiHwK6yj1VgMfqNZvHEA",
  "fullname": "아름닥터tv_자연스러운게 예쁜거다_15년차",
  "profile_url": "https://www.youtube.com/channel/UCYjkiHwK6yj1VgMfqNZvHEA",
- "channel_id": "UCYjkiHwK6yj1VgMfqNZvHEA",
  "followers": 126000,
- "engagement_rate": 0.0109,
- "avg_likes": 57.8,
- "avg_comments": 3.0,
- "avg_views": 5274.6,
- "posts_last_30d": 16,
+ "engagement_rate": 0.011,
+ "avg_likes": 61.9,
+ "avg_comments": 5.0,
+ "avg_views": 5643.5,
+ "posts_last_30d": 17,
  "_posts_last_30d_est": false,
- "sample_size": 16,
+ "sample_size": 17,
  "brand_fit_score": 60,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "1건",
+  "beauty_keywords": "2건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:30:56+09:00",
+ "evaluated_at": "2026-08-31T10:23:20+09:00",
  "score_total": 70.0,
  "grade": "B",
  "score_breakdown": {
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 17개 [videos:12+shorts:12]",
+ "channel_id": "UCYjkiHwK6yj1VgMfqNZvHEA",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 126000,
-   "engagement_rate": 0.017,
-   "avg_likes": 119.3,
-   "posts_last_30d": 3,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 64.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:22:17+09:00",
    "followers": 126000,
@@ -300,6 +289,16 @@
    "retailer_focus": "beauty_general",
    "posts_last_30d": 16,
    "evaluated_at": "2026-08-25T11:00:51+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:30:56+09:00",
+   "score_total": 70.0,
+   "grade": "B",
+   "followers": 126000,
+   "engagement_rate": 0.0109,
+   "posts_last_30d": 16,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general"
   }
  ]
 }

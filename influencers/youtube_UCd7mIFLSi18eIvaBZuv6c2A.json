@@ -3,12 +3,11 @@
  "username": "UCd7mIFLSi18eIvaBZuv6c2A",
  "fullname": "전지적 피부 시점",
  "profile_url": "https://www.youtube.com/channel/UCd7mIFLSi18eIvaBZuv6c2A",
- "channel_id": "UCd7mIFLSi18eIvaBZuv6c2A",
  "followers": 15800,
  "engagement_rate": 0.0139,
- "avg_likes": 3104.6,
+ "avg_likes": 3105.5,
  "avg_comments": 34.0,
- "avg_views": 223940.2,
+ "avg_views": 224167.0,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -20,7 +19,7 @@
   "beauty_keywords": "77건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:33:49+09:00",
+ "evaluated_at": "2026-08-31T10:23:20+09:00",
  "score_total": 66.5,
  "grade": "B",
  "score_breakdown": {
@@ -35,18 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 최근(30일내 0건) 24개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 0개 [videos:12+shorts:12]",
+ "channel_id": "UCd7mIFLSi18eIvaBZuv6c2A",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:22:17+09:00",
-   "followers": 15900,
-   "engagement_rate": 0.0272,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 66.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-17T10:27:07.454534+09:00",
    "followers": 15900,
@@ -293,6 +283,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 0,
    "evaluated_at": "2026-08-25T11:03:29+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:33:49+09:00",
+   "score_total": 66.5,
+   "grade": "B",
+   "followers": 15800,
+   "engagement_rate": 0.0139,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   }
  ]
 }

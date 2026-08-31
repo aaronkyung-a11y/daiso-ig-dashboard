@@ -3,30 +3,29 @@
  "username": "UCVbW7vOtOnmjyDORZB4Sz0w",
  "fullname": "관리는 하고 살자",
  "profile_url": "https://www.youtube.com/channel/UCVbW7vOtOnmjyDORZB4Sz0w",
- "channel_id": "UCVbW7vOtOnmjyDORZB4Sz0w",
  "followers": 359000,
- "engagement_rate": 0.0096,
- "avg_likes": 1121.8,
- "avg_comments": 79.9,
- "avg_views": 117056.6,
- "posts_last_30d": 9,
+ "engagement_rate": 0.0093,
+ "avg_likes": 1019.3,
+ "avg_comments": 77.2,
+ "avg_views": 109403.1,
+ "posts_last_30d": 11,
  "_posts_last_30d_est": false,
- "sample_size": 9,
+ "sample_size": 11,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "6건",
-  "beauty_keywords": "28건",
+  "daiso_mentions": "5건",
+  "olive_young_mentions": "18건",
+  "beauty_keywords": "46건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:28:57+09:00",
- "score_total": 64.5,
- "grade": "C",
+ "evaluated_at": "2026-08-31T10:20:12+09:00",
+ "score_total": 67.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 90,
-  "consistency": 80,
+  "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 11개 [videos:12+shorts:12]",
+ "channel_id": "UCVbW7vOtOnmjyDORZB4Sz0w",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:22:17+09:00",
-   "followers": 358000,
-   "engagement_rate": 0.0206,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-17T10:26:23.788106+09:00",
    "followers": 358000,
@@ -302,6 +291,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 9,
    "evaluated_at": "2026-08-25T11:00:51+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:28:57+09:00",
+   "score_total": 64.5,
+   "grade": "C",
+   "followers": 359000,
+   "engagement_rate": 0.0096,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

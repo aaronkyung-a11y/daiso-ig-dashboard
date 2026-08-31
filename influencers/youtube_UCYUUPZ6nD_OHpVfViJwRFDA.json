@@ -3,24 +3,23 @@
  "username": "UCYUUPZ6nD_OHpVfViJwRFDA",
  "fullname": "김퍼프PUFF",
  "profile_url": "https://www.youtube.com/channel/UCYUUPZ6nD_OHpVfViJwRFDA",
- "channel_id": "UCYUUPZ6nD_OHpVfViJwRFDA",
- "followers": 53900,
- "engagement_rate": 0.0181,
- "avg_likes": 3255.8,
- "avg_comments": 71.8,
- "avg_views": 179496.5,
+ "followers": 54200,
+ "engagement_rate": 0.0218,
+ "avg_likes": 2153.5,
+ "avg_comments": 55.9,
+ "avg_views": 98671.9,
  "posts_last_30d": 13,
  "_posts_last_30d_est": false,
  "sample_size": 13,
  "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "1건",
-  "beauty_keywords": "12건",
+  "daiso_mentions": "14건",
+  "olive_young_mentions": "16건",
+  "beauty_keywords": "112건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:30:55+09:00",
+ "evaluated_at": "2026-08-31T10:23:20+09:00",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -36,18 +35,8 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 13개 [videos:12+shorts:12]",
+ "channel_id": "UCYUUPZ6nD_OHpVfViJwRFDA",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 52600,
-   "engagement_rate": 0.0311,
-   "avg_likes": 128.5,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 76.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-07-20T10:22:17+09:00",
    "followers": 52600,
@@ -303,6 +292,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 13,
    "evaluated_at": "2026-08-25T11:00:51+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:30:55+09:00",
+   "score_total": 75.5,
+   "grade": "A",
+   "followers": 53900,
+   "engagement_rate": 0.0181,
+   "posts_last_30d": 13,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

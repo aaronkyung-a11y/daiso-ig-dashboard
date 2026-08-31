@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "UCsTzKed46UFjXa3ofHVVwZg",
+ "fullname": "히메",
+ "profile_url": "https://www.youtube.com/channel/UCsTzKed46UFjXa3ofHVVwZg",
+ "followers": 2400,
+ "engagement_rate": 0.0281,
+ "avg_likes": 437.7,
+ "avg_comments": 7.8,
+ "avg_views": 15572.2,
+ "posts_last_30d": 12,
+ "_posts_last_30d_est": false,
+ "sample_size": 12,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso_mentions": "16건",
+  "olive_young_mentions": "16건",
+  "beauty_keywords": "49건",
+  "labrang_present": true
+ },
+ "evaluated_at": "2026-08-31T10:43:29+09:00",
+ "score_total": 76.0,
+ "grade": "A",
+ "score_breakdown": {
+  "er": 60,
+  "brand_fit": 100,
+  "consistency": 100,
+  "followers": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
+ "channel_id": "UCsTzKed46UFjXa3ofHVVwZg",
+ "history": []
+}

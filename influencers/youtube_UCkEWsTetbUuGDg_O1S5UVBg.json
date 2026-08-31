@@ -3,29 +3,28 @@
  "username": "UCkEWsTetbUuGDg_O1S5UVBg",
  "fullname": "살림남 The Life",
  "profile_url": "https://www.youtube.com/channel/UCkEWsTetbUuGDg_O1S5UVBg",
- "channel_id": "UCkEWsTetbUuGDg_O1S5UVBg",
  "followers": 478000,
- "engagement_rate": 0.0048,
- "avg_likes": 1680.8,
- "avg_comments": 21.8,
- "avg_views": 351275.1,
+ "engagement_rate": 0.0055,
+ "avg_likes": 1584.6,
+ "avg_comments": 17.2,
+ "avg_views": 287402.2,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
- "brand_fit_score": 25,
+ "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "99건",
+  "daiso_mentions": "141건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "0건",
+  "beauty_keywords": "15건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:36:49+09:00",
- "score_total": 51.25,
- "grade": "C",
+ "evaluated_at": "2026-08-31T10:14:13+09:00",
+ "score_total": 67.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 25,
+  "brand_fit": 90,
   "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -36,18 +35,8 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
+ "channel_id": "UCkEWsTetbUuGDg_O1S5UVBg",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:23:02+09:00",
-   "followers": 476000,
-   "engagement_rate": 0.0079,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 58.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-17T10:23:30.923982+09:00",
    "followers": 475000,
@@ -306,6 +295,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 12,
    "evaluated_at": "2026-08-25T11:06:07+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:36:49+09:00",
+   "score_total": 51.25,
+   "grade": "C",
+   "followers": 478000,
+   "engagement_rate": 0.0048,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "retailer_focus": "daiso"
   }
  ]
 }

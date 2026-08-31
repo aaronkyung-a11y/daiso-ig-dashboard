@@ -3,30 +3,29 @@
  "username": "UCbNMdCWBwjljPxDu8dfeHmg",
  "fullname": "박체리 cherry",
  "profile_url": "https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg",
- "channel_id": "UCbNMdCWBwjljPxDu8dfeHmg",
- "followers": 50000,
+ "followers": 50100,
  "engagement_rate": 0.0169,
- "avg_likes": 413.7,
- "avg_comments": 6.7,
- "avg_views": 24427.3,
- "posts_last_30d": 9,
+ "avg_likes": 875.4,
+ "avg_comments": 7.8,
+ "avg_views": 51864.1,
+ "posts_last_30d": 11,
  "_posts_last_30d_est": false,
- "sample_size": 9,
+ "sample_size": 11,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso_mentions": "8건",
-  "olive_young_mentions": "3건",
-  "beauty_keywords": "8건",
+  "daiso_mentions": "10건",
+  "olive_young_mentions": "9건",
+  "beauty_keywords": "29건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:33:25+09:00",
- "score_total": 72.5,
- "grade": "B",
+ "evaluated_at": "2026-08-31T10:23:20+09:00",
+ "score_total": 75.5,
+ "grade": "A",
  "score_breakdown": {
   "er": 60,
   "brand_fit": 90,
-  "consistency": 80,
+  "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -35,18 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 [videos:2+shorts:12]",
+ "sample_note": "YT 30일내 11개 [videos:2+shorts:12]",
+ "channel_id": "UCbNMdCWBwjljPxDu8dfeHmg",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:21:33+09:00",
-   "followers": 50000,
-   "engagement_rate": 0.0115,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 66.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-17T10:27:07.454534+09:00",
    "followers": 50000,
@@ -302,6 +292,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 9,
    "evaluated_at": "2026-08-25T11:00:51+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:33:25+09:00",
+   "score_total": 72.5,
+   "grade": "B",
+   "followers": 50000,
+   "engagement_rate": 0.0169,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   }
  ]
 }

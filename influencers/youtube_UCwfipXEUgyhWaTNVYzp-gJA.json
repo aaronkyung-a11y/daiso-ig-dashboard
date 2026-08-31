@@ -3,29 +3,28 @@
  "username": "UCwfipXEUgyhWaTNVYzp-gJA",
  "fullname": "블루밍나나 Bloomingnana",
  "profile_url": "https://www.youtube.com/channel/UCwfipXEUgyhWaTNVYzp-gJA",
- "channel_id": "UCwfipXEUgyhWaTNVYzp-gJA",
- "followers": 82500,
- "engagement_rate": 0.0085,
- "avg_likes": 178.6,
- "avg_comments": 21.4,
- "avg_views": 21065.4,
+ "followers": 82800,
+ "engagement_rate": 0.0088,
+ "avg_likes": 159.6,
+ "avg_comments": 20.9,
+ "avg_views": 18056.8,
  "posts_last_30d": 16,
  "_posts_last_30d_est": false,
  "sample_size": 16,
- "brand_fit_score": 60,
- "retailer_focus": "daiso",
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "26건",
+  "daiso_mentions": "54건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "1건",
-  "labrang_present": false
+  "beauty_keywords": "17건",
+  "labrang_present": true
  },
- "evaluated_at": "2026-08-26T10:40:09+09:00",
- "score_total": 58.0,
- "grade": "C",
+ "evaluated_at": "2026-08-31T10:31:58+09:00",
+ "score_total": 68.0,
+ "grade": "B",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 60,
+  "brand_fit": 100,
   "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -36,6 +35,7 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 16개 [videos:12+shorts:12]",
+ "channel_id": "UCwfipXEUgyhWaTNVYzp-gJA",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:22:46+09:00",
@@ -88,6 +88,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 16,
    "evaluated_at": "2026-08-25T11:08:46+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:40:09+09:00",
+   "score_total": 58.0,
+   "grade": "C",
+   "followers": 82500,
+   "engagement_rate": 0.0085,
+   "posts_last_30d": 16,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso"
   }
  ]
 }

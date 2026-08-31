@@ -3,28 +3,27 @@
  "username": "UCd7icqUv7f8k2E6n4WOCIQg",
  "fullname": "Pibukyurl",
  "profile_url": "https://www.youtube.com/channel/UCd7icqUv7f8k2E6n4WOCIQg",
- "channel_id": "UCd7icqUv7f8k2E6n4WOCIQg",
- "followers": 73400,
- "engagement_rate": 0.0319,
- "avg_likes": 724.6,
- "avg_comments": 55.9,
- "avg_views": 22742.5,
- "posts_last_30d": 11,
+ "followers": 74000,
+ "engagement_rate": 0.0255,
+ "avg_likes": 825.0,
+ "avg_comments": 57.6,
+ "avg_views": 32335.1,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": false,
- "sample_size": 11,
+ "sample_size": 10,
  "brand_fit_score": 90,
- "retailer_focus": "beauty_general",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "67건",
+  "olive_young_mentions": "3건",
+  "beauty_keywords": "141건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:33:48+09:00",
- "score_total": 85.5,
- "grade": "S",
+ "evaluated_at": "2026-08-31T10:23:20+09:00",
+ "score_total": 75.5,
+ "grade": "A",
  "score_breakdown": {
-  "er": 80,
+  "er": 60,
   "brand_fit": 90,
   "consistency": 100,
   "followers": 80,
@@ -35,18 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 11개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 10개 [videos:12+shorts:12]",
+ "channel_id": "UCd7icqUv7f8k2E6n4WOCIQg",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:22:17+09:00",
-   "followers": 68300,
-   "engagement_rate": 0.026,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 72.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-17T10:27:07.454534+09:00",
    "followers": 68000,
@@ -301,6 +291,16 @@
    "retailer_focus": "beauty_general",
    "posts_last_30d": 11,
    "evaluated_at": "2026-08-25T11:03:29+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:33:48+09:00",
+   "score_total": 85.5,
+   "grade": "S",
+   "followers": 73400,
+   "engagement_rate": 0.0319,
+   "posts_last_30d": 11,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general"
   }
  ]
 }

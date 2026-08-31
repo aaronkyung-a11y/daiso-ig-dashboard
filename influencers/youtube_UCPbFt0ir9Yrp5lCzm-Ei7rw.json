@@ -3,24 +3,23 @@
  "username": "UCPbFt0ir9Yrp5lCzm-Ei7rw",
  "fullname": "로주 RhoJu",
  "profile_url": "https://www.youtube.com/channel/UCPbFt0ir9Yrp5lCzm-Ei7rw",
- "channel_id": "UCPbFt0ir9Yrp5lCzm-Ei7rw",
  "followers": 41800,
- "engagement_rate": 0.0172,
- "avg_likes": 522.2,
- "avg_comments": 18.2,
- "avg_views": 30338.6,
- "posts_last_30d": 5,
+ "engagement_rate": 0.0166,
+ "avg_likes": 467.5,
+ "avg_comments": 20.0,
+ "avg_views": 28205.2,
+ "posts_last_30d": 6,
  "_posts_last_30d_est": false,
- "sample_size": 5,
+ "sample_size": 6,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "1건",
-  "olive_young_mentions": "3건",
-  "beauty_keywords": "30건",
+  "olive_young_mentions": "29건",
+  "beauty_keywords": "115건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:25:51+09:00",
+ "evaluated_at": "2026-08-31T10:43:29+09:00",
  "score_total": 72.5,
  "grade": "B",
  "score_breakdown": {
@@ -35,9 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
- "_er_measurable": true,
+ "sample_note": "YT 30일내 6개 [videos:12+shorts:12]",
+ "channel_id": "UCPbFt0ir9Yrp5lCzm-Ei7rw",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:14:59+09:00",
@@ -58,6 +56,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 5,
    "evaluated_at": "2026-08-25T10:58:13+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:25:51+09:00",
+   "score_total": 72.5,
+   "grade": "B",
+   "followers": 41800,
+   "engagement_rate": 0.0172,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

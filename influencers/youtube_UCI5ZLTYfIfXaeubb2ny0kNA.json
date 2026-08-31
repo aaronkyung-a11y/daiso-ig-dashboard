@@ -3,28 +3,27 @@
  "username": "UCI5ZLTYfIfXaeubb2ny0kNA",
  "fullname": "해피해은 HAEPPY",
  "profile_url": "https://www.youtube.com/channel/UCI5ZLTYfIfXaeubb2ny0kNA",
- "channel_id": "UCI5ZLTYfIfXaeubb2ny0kNA",
  "followers": 303000,
- "engagement_rate": 0.0067,
- "avg_likes": 695.9,
- "avg_comments": 39.2,
- "avg_views": 104560.7,
- "posts_last_30d": 12,
+ "engagement_rate": 0.0118,
+ "avg_likes": 348.2,
+ "avg_comments": 18.5,
+ "avg_views": 29487.3,
+ "posts_last_30d": 15,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "5건",
-  "beauty_keywords": "28건",
+  "beauty_keywords": "71건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:22:09+09:00",
- "score_total": 67.5,
- "grade": "B",
+ "evaluated_at": "2026-08-31T10:34:51+09:00",
+ "score_total": 77.5,
+ "grade": "A",
  "score_breakdown": {
-  "er": 40,
+  "er": 60,
   "brand_fit": 90,
   "consistency": 100,
   "followers": 100,
@@ -35,7 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 15개 [videos:12+shorts:12]",
+ "channel_id": "UCI5ZLTYfIfXaeubb2ny0kNA",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -67,6 +67,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 12,
    "evaluated_at": "2026-08-25T10:55:35+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:22:09+09:00",
+   "score_total": 67.5,
+   "grade": "B",
+   "followers": 303000,
+   "engagement_rate": 0.0067,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

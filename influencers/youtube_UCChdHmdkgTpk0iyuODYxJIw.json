@@ -3,29 +3,28 @@
  "username": "UCChdHmdkgTpk0iyuODYxJIw",
  "fullname": "해니 haeni beauty",
  "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
- "channel_id": "UCChdHmdkgTpk0iyuODYxJIw",
  "followers": 479000,
- "engagement_rate": 0.0291,
- "avg_likes": 1642.2,
- "avg_comments": 82.2,
- "avg_views": 56499.6,
+ "engagement_rate": 0.0275,
+ "avg_likes": 985.2,
+ "avg_comments": 65.2,
+ "avg_views": 35854.4,
  "posts_last_30d": 5,
  "_posts_last_30d_est": false,
  "sample_size": 5,
- "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "2건",
-  "olive_young_mentions": "4건",
-  "beauty_keywords": "119건",
-  "labrang_present": false
+  "daiso_mentions": "4건",
+  "olive_young_mentions": "20건",
+  "beauty_keywords": "515건",
+  "labrang_present": true
  },
- "evaluated_at": "2026-08-26T10:19:51+09:00",
- "score_total": 74.5,
- "grade": "B",
+ "evaluated_at": "2026-08-31T10:08:28+09:00",
+ "score_total": 77.0,
+ "grade": "A",
  "score_breakdown": {
   "er": 60,
-  "brand_fit": 90,
+  "brand_fit": 100,
   "consistency": 80,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -36,17 +35,8 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 5개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
+ "channel_id": "UCChdHmdkgTpk0iyuODYxJIw",
  "history": [
-  {
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 81.5,
-   "engagement_rate": 4.5973,
-   "followers": 478000,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young"
-  },
   {
    "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
    "followers": 478000,
@@ -309,6 +299,16 @@
    "retailer_focus": "our_brand",
    "posts_last_30d": 6,
    "evaluated_at": "2026-08-25T10:52:57+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:19:51+09:00",
+   "score_total": 74.5,
+   "grade": "B",
+   "followers": 479000,
+   "engagement_rate": 0.0291,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

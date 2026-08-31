@@ -3,30 +3,29 @@
  "username": "UCrNISLWm4d6SRf8AUjoGm1g",
  "fullname": "미니피 minniep",
  "profile_url": "https://www.youtube.com/channel/UCrNISLWm4d6SRf8AUjoGm1g",
- "channel_id": "UCrNISLWm4d6SRf8AUjoGm1g",
  "followers": 133000,
- "engagement_rate": 0.0281,
- "avg_likes": 797.8,
- "avg_comments": 68.5,
- "avg_views": 28359.3,
- "posts_last_30d": 10,
+ "engagement_rate": 0.0232,
+ "avg_likes": 831.7,
+ "avg_comments": 68.1,
+ "avg_views": 35845.4,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 10,
+ "sample_size": 9,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "1건",
-  "olive_young_mentions": "7건",
-  "beauty_keywords": "30건",
+  "olive_young_mentions": "9건",
+  "beauty_keywords": "34건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:38:52+09:00",
- "score_total": 77.5,
- "grade": "A",
+ "evaluated_at": "2026-08-31T10:14:13+09:00",
+ "score_total": 74.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 60,
   "brand_fit": 90,
-  "consistency": 100,
+  "consistency": 80,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 10개 [videos:12+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 9개 [videos:12+shorts:12]",
+ "channel_id": "UCrNISLWm4d6SRf8AUjoGm1g",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:23:30.923982+09:00",
-   "followers": 127000,
-   "engagement_rate": 0.013,
-   "posts_last_30d": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-03T10:14:33.516676+09:00",
    "followers": 126000,
@@ -306,6 +295,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 10,
    "evaluated_at": "2026-08-25T11:06:07+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:38:52+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "followers": 133000,
+   "engagement_rate": 0.0281,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

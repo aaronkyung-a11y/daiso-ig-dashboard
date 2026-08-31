@@ -3,28 +3,27 @@
  "username": "UCk7crozhjvi2prXCtWwWxoQ",
  "fullname": "뷰티장바구니",
  "profile_url": "https://www.youtube.com/channel/UCk7crozhjvi2prXCtWwWxoQ",
- "channel_id": "UCk7crozhjvi2prXCtWwWxoQ",
- "followers": 2090,
- "engagement_rate": 0.0102,
- "avg_likes": 31.8,
+ "followers": 2120,
+ "engagement_rate": 0.0096,
+ "avg_likes": 21.8,
  "avg_comments": 0.0,
- "avg_views": 3110.9,
+ "avg_views": 2260.1,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "43건",
+  "daiso_mentions": "42건",
   "olive_young_mentions": "3건",
-  "beauty_keywords": "32건",
+  "beauty_keywords": "20건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:36:06+09:00",
- "score_total": 73.5,
- "grade": "B",
+ "evaluated_at": "2026-08-31T10:34:51+09:00",
+ "score_total": 63.5,
+ "grade": "C",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 90,
   "consistency": 100,
   "followers": 60,
@@ -36,6 +35,7 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
+ "channel_id": "UCk7crozhjvi2prXCtWwWxoQ",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -67,6 +67,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 12,
    "evaluated_at": "2026-08-25T11:03:29+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:36:06+09:00",
+   "score_total": 73.5,
+   "grade": "B",
+   "followers": 2090,
+   "engagement_rate": 0.0102,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   }
  ]
 }

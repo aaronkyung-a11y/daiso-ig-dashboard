@@ -3,29 +3,28 @@
  "username": "UCVRAHN1wuI9pUDyeSAc_I1A",
  "fullname": "쏘민_뷰티에대한모든것",
  "profile_url": "https://www.youtube.com/channel/UCVRAHN1wuI9pUDyeSAc_I1A",
- "channel_id": "UCVRAHN1wuI9pUDyeSAc_I1A",
  "followers": 13300,
- "engagement_rate": 0.008,
- "avg_likes": 117.9,
- "avg_comments": 1.5,
- "avg_views": 14778.6,
+ "engagement_rate": 0.0081,
+ "avg_likes": 129.6,
+ "avg_comments": 2.6,
+ "avg_views": 15940.2,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
- "brand_fit_score": 25,
+ "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "1건",
-  "beauty_keywords": "0건",
+  "olive_young_mentions": "7건",
+  "beauty_keywords": "14건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:28:56+09:00",
- "score_total": 49.25,
- "grade": "D",
+ "evaluated_at": "2026-08-31T10:20:12+09:00",
+ "score_total": 65.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 25,
+  "brand_fit": 90,
   "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:7+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 12개 [videos:4+shorts:12]",
+ "channel_id": "UCVRAHN1wuI9pUDyeSAc_I1A",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:26:23.788106+09:00",
-   "followers": 13300,
-   "engagement_rate": 0.0082,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 56.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
    "followers": 13100,
@@ -296,6 +285,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 12,
    "evaluated_at": "2026-08-25T10:58:13+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:28:56+09:00",
+   "score_total": 49.25,
+   "grade": "D",
+   "followers": 13300,
+   "engagement_rate": 0.008,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "retailer_focus": "olive_young"
   }
  ]
 }

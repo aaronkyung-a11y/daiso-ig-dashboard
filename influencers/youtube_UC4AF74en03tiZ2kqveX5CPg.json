@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "UC4AF74en03tiZ2kqveX5CPg",
+ "fullname": "秘境动漫社",
+ "profile_url": "https://www.youtube.com/channel/UC4AF74en03tiZ2kqveX5CPg",
+ "followers": 4830,
+ "engagement_rate": 0.0099,
+ "avg_likes": 223.8,
+ "avg_comments": 11.2,
+ "avg_views": 22699.5,
+ "posts_last_30d": 12,
+ "_posts_last_30d_est": false,
+ "sample_size": 12,
+ "brand_fit_score": 25,
+ "retailer_focus": "off_topic",
+ "retailer_signal": {
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "0건",
+  "labrang_present": false
+ },
+ "evaluated_at": "2026-08-31T10:43:29+09:00",
+ "score_total": 47.25,
+ "grade": "D",
+ "score_breakdown": {
+  "er": 40,
+  "brand_fit": 25,
+  "consistency": 100,
+  "followers": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:0]",
+ "channel_id": "UC4AF74en03tiZ2kqveX5CPg",
+ "history": []
+}

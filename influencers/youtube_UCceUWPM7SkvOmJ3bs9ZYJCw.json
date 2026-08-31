@@ -3,24 +3,23 @@
  "username": "UCceUWPM7SkvOmJ3bs9ZYJCw",
  "fullname": "유리숍 URISHOP",
  "profile_url": "https://www.youtube.com/channel/UCceUWPM7SkvOmJ3bs9ZYJCw",
- "channel_id": "UCceUWPM7SkvOmJ3bs9ZYJCw",
  "followers": 274000,
- "engagement_rate": 0.0137,
- "avg_likes": 192.8,
- "avg_comments": 31.5,
- "avg_views": 14052.1,
- "posts_last_30d": 10,
+ "engagement_rate": 0.0119,
+ "avg_likes": 200.2,
+ "avg_comments": 34.5,
+ "avg_views": 16872.6,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 10,
+ "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "23건",
-  "beauty_keywords": "32건",
+  "olive_young_mentions": "40건",
+  "beauty_keywords": "79건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:33:25+09:00",
+ "evaluated_at": "2026-08-31T10:40:37+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -35,7 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 10개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
+ "channel_id": "UCceUWPM7SkvOmJ3bs9ZYJCw",
  "history": [
   {
    "evaluated_at": "2026-08-20T14:09:34+09:00",
@@ -78,6 +78,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 11,
    "evaluated_at": "2026-08-25T11:03:29+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:33:25+09:00",
+   "score_total": 77.5,
+   "grade": "A",
+   "followers": 274000,
+   "engagement_rate": 0.0137,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

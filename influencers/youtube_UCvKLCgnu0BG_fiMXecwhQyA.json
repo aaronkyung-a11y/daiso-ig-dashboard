@@ -3,24 +3,23 @@
  "username": "UCvKLCgnu0BG_fiMXecwhQyA",
  "fullname": "베러픽",
  "profile_url": "https://www.youtube.com/channel/UCvKLCgnu0BG_fiMXecwhQyA",
- "channel_id": "UCvKLCgnu0BG_fiMXecwhQyA",
- "followers": 63600,
- "engagement_rate": 0.0046,
- "avg_likes": 51.5,
- "avg_comments": 2.4,
- "avg_views": 11179.6,
+ "followers": 63700,
+ "engagement_rate": 0.009,
+ "avg_likes": 84.6,
+ "avg_comments": 4.1,
+ "avg_views": 9367.5,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso_mentions": "3건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "13건",
+  "daiso_mentions": "6건",
+  "olive_young_mentions": "5건",
+  "beauty_keywords": "26건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:39:44+09:00",
+ "evaluated_at": "2026-08-31T10:29:06+09:00",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -36,6 +35,7 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
+ "channel_id": "UCvKLCgnu0BG_fiMXecwhQyA",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:28:46+09:00",
@@ -88,6 +88,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 12,
    "evaluated_at": "2026-08-25T11:06:07+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:39:44+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "followers": 63600,
+   "engagement_rate": 0.0046,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   }
  ]
 }

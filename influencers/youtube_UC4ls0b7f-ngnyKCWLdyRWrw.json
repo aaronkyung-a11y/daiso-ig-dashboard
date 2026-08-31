@@ -3,30 +3,29 @@
  "username": "UC4ls0b7f-ngnyKCWLdyRWrw",
  "fullname": "하요이",
  "profile_url": "https://www.youtube.com/channel/UC4ls0b7f-ngnyKCWLdyRWrw",
- "channel_id": "UC4ls0b7f-ngnyKCWLdyRWrw",
- "followers": 16200,
- "engagement_rate": 0.0192,
- "avg_likes": 199.2,
- "avg_comments": 9.8,
- "avg_views": 10378.9,
- "posts_last_30d": 10,
+ "followers": 16300,
+ "engagement_rate": 0.0203,
+ "avg_likes": 189.4,
+ "avg_comments": 9.6,
+ "avg_views": 9330.2,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 10,
- "brand_fit_score": 25,
- "retailer_focus": "off_topic",
+ "sample_size": 9,
+ "brand_fit_score": 90,
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "0건",
+  "beauty_keywords": "9건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:17:12+09:00",
- "score_total": 59.25,
- "grade": "C",
+ "evaluated_at": "2026-08-31T10:17:18+09:00",
+ "score_total": 72.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 60,
-  "brand_fit": 25,
-  "consistency": 100,
+  "brand_fit": 90,
+  "consistency": 80,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 10개 [videos:4+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 9개 [videos:4+shorts:12]",
+ "channel_id": "UC4ls0b7f-ngnyKCWLdyRWrw",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:16:11+09:00",
-   "followers": 15800,
-   "engagement_rate": 0.0097,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 56.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-17T10:24:13.911279+09:00",
    "followers": 15700,
@@ -301,6 +290,16 @@
    "retailer_focus": "off_topic",
    "posts_last_30d": 10,
    "evaluated_at": "2026-08-25T10:50:20+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:17:12+09:00",
+   "score_total": 59.25,
+   "grade": "C",
+   "followers": 16200,
+   "engagement_rate": 0.0192,
+   "posts_last_30d": 10,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic"
   }
  ]
 }

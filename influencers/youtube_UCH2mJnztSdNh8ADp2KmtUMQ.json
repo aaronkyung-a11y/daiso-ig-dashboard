@@ -3,24 +3,23 @@
  "username": "UCH2mJnztSdNh8ADp2KmtUMQ",
  "fullname": "Yoo True",
  "profile_url": "https://www.youtube.com/channel/UCH2mJnztSdNh8ADp2KmtUMQ",
- "channel_id": "UCH2mJnztSdNh8ADp2KmtUMQ",
  "followers": 602000,
- "engagement_rate": 0.0147,
- "avg_likes": 852.3,
- "avg_comments": 136.7,
- "avg_views": 57843.3,
+ "engagement_rate": 0.0136,
+ "avg_likes": 876.0,
+ "avg_comments": 138.0,
+ "avg_views": 64371.0,
  "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "sample_size": 3,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "1건",
-  "beauty_keywords": "47건",
+  "daiso_mentions": "2건",
+  "olive_young_mentions": "11건",
+  "beauty_keywords": "233건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:21:02+09:00",
+ "evaluated_at": "2026-08-31T10:34:51+09:00",
  "score_total": 71.5,
  "grade": "B",
  "score_breakdown": {
@@ -36,6 +35,7 @@
   "posts_30d_estimated": false
  },
  "sample_note": "YT 30일내 3개 [videos:12+shorts:12]",
+ "channel_id": "UCH2mJnztSdNh8ADp2KmtUMQ",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -67,6 +67,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 3,
    "evaluated_at": "2026-08-25T10:55:35+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:21:02+09:00",
+   "score_total": 71.5,
+   "grade": "B",
+   "followers": 602000,
+   "engagement_rate": 0.0147,
+   "posts_last_30d": 3,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

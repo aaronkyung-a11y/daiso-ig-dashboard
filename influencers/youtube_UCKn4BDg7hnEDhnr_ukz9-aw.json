@@ -3,12 +3,11 @@
  "username": "UCKn4BDg7hnEDhnr_ukz9-aw",
  "fullname": "건강씨그날",
  "profile_url": "https://www.youtube.com/channel/UCKn4BDg7hnEDhnr_ukz9-aw",
- "channel_id": "UCKn4BDg7hnEDhnr_ukz9-aw",
  "followers": 121000,
- "engagement_rate": 0.0085,
- "avg_likes": 123.7,
- "avg_comments": 0.5,
- "avg_views": 14470.3,
+ "engagement_rate": 0.0086,
+ "avg_likes": 124.2,
+ "avg_comments": 1.2,
+ "avg_views": 14515.6,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -20,7 +19,7 @@
   "beauty_keywords": "23건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:23:15+09:00",
+ "evaluated_at": "2026-08-31T10:14:13+09:00",
  "score_total": 58.5,
  "grade": "C",
  "score_breakdown": {
@@ -35,20 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 최근(30일내 0건) 12개 [videos:0+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 0개 [videos:0+shorts:12]",
+ "channel_id": "UCKn4BDg7hnEDhnr_ukz9-aw",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 121000,
-   "engagement_rate": 0.0067,
-   "avg_likes": 29.3,
-   "posts_last_30d": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 61.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:26:57+09:00",
    "followers": 121000,
@@ -307,6 +295,16 @@
    "retailer_focus": "daiso",
    "posts_last_30d": 0,
    "evaluated_at": "2026-08-25T10:55:35+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:23:15+09:00",
+   "score_total": 58.5,
+   "grade": "C",
+   "followers": 121000,
+   "engagement_rate": 0.0085,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso"
   }
  ]
 }

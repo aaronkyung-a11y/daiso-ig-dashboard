@@ -3,12 +3,11 @@
  "username": "UCkCQe4QPcKCvB3PTzIWHn2g",
  "fullname": "하이하쥬 hihajyu",
  "profile_url": "https://www.youtube.com/channel/UCkCQe4QPcKCvB3PTzIWHn2g",
- "channel_id": "UCkCQe4QPcKCvB3PTzIWHn2g",
  "followers": 22,
  "engagement_rate": 0.0098,
- "avg_likes": 49.1,
- "avg_comments": 0.8,
- "avg_views": 5013.9,
+ "avg_likes": 49.0,
+ "avg_comments": 6.0,
+ "avg_views": 5014.0,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 8,
@@ -20,7 +19,7 @@
   "beauty_keywords": "9건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-26T10:36:31+09:00",
+ "evaluated_at": "2026-08-31T10:23:20+09:00",
  "score_total": 55.0,
  "grade": "C",
  "score_breakdown": {
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 최근(30일내 0건) 8개 [videos:0+shorts:8]",
+ "sample_note": "YT 30일내 0개 [videos:0+shorts:8]",
+ "channel_id": "UCkCQe4QPcKCvB3PTzIWHn2g",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 22,
-   "engagement_rate": 0.0099,
-   "avg_likes": 49.5,
-   "posts_last_30d": 0,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 55.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:28:25+09:00",
    "followers": 22,
@@ -302,6 +291,16 @@
    "retailer_focus": "our_brand",
    "posts_last_30d": 0,
    "evaluated_at": "2026-08-25T11:03:29+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:36:31+09:00",
+   "score_total": 55.0,
+   "grade": "C",
+   "followers": 22,
+   "engagement_rate": 0.0098,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand"
   }
  ]
 }

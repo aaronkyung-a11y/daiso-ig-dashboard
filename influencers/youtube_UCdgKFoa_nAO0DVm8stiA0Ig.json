@@ -3,30 +3,29 @@
  "username": "UCdgKFoa_nAO0DVm8stiA0Ig",
  "fullname": "지나스ㅣ 동안연구소",
  "profile_url": "https://www.youtube.com/channel/UCdgKFoa_nAO0DVm8stiA0Ig",
- "channel_id": "UCdgKFoa_nAO0DVm8stiA0Ig",
  "followers": 52600,
- "engagement_rate": 0.0062,
- "avg_likes": 21.9,
- "avg_comments": 3.2,
- "avg_views": 3524.2,
- "posts_last_30d": 8,
+ "engagement_rate": 0.0067,
+ "avg_likes": 18.9,
+ "avg_comments": 3.3,
+ "avg_views": 2833.5,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": false,
- "sample_size": 8,
+ "sample_size": 10,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "1건",
-  "olive_young_mentions": "4건",
-  "beauty_keywords": "31건",
+  "olive_young_mentions": "19건",
+  "beauty_keywords": "110건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:33:57+09:00",
- "score_total": 62.5,
- "grade": "C",
+ "evaluated_at": "2026-08-31T10:23:20+09:00",
+ "score_total": 65.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 90,
-  "consistency": 80,
+  "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 10개 [videos:12+shorts:12]",
+ "channel_id": "UCdgKFoa_nAO0DVm8stiA0Ig",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 52500,
-   "engagement_rate": 0.0221,
-   "avg_likes": 26.8,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 69.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-20T10:23:02+09:00",
    "followers": 52500,
@@ -304,6 +293,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 7,
    "evaluated_at": "2026-08-25T11:03:29+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:33:57+09:00",
+   "score_total": 62.5,
+   "grade": "C",
+   "followers": 52600,
+   "engagement_rate": 0.0062,
+   "posts_last_30d": 8,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

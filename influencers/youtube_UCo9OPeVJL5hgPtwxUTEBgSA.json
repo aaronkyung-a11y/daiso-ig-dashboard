@@ -3,24 +3,23 @@
  "username": "UCo9OPeVJL5hgPtwxUTEBgSA",
  "fullname": "룡지니",
  "profile_url": "https://www.youtube.com/channel/UCo9OPeVJL5hgPtwxUTEBgSA",
- "channel_id": "UCo9OPeVJL5hgPtwxUTEBgSA",
- "followers": 71000,
- "engagement_rate": 0.0077,
- "avg_likes": 1370.8,
- "avg_comments": 26.7,
- "avg_views": 177818.8,
- "posts_last_30d": 10,
+ "followers": 70600,
+ "engagement_rate": 0.0069,
+ "avg_likes": 599.0,
+ "avg_comments": 12.9,
+ "avg_views": 86911.9,
+ "posts_last_30d": 11,
  "_posts_last_30d_est": false,
- "sample_size": 10,
+ "sample_size": 11,
  "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso_mentions": "2건",
-  "olive_young_mentions": "8건",
-  "beauty_keywords": "58건",
+  "daiso_mentions": "17건",
+  "olive_young_mentions": "15건",
+  "beauty_keywords": "105건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:37:44+09:00",
+ "evaluated_at": "2026-08-31T10:14:13+09:00",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 10개 [videos:4+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 11개 [videos:4+shorts:12]",
+ "channel_id": "UCo9OPeVJL5hgPtwxUTEBgSA",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:23:30.923982+09:00",
-   "followers": 70500,
-   "engagement_rate": 0.0143,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 66.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-03T10:14:33.516676+09:00",
    "followers": 70500,
@@ -304,6 +293,16 @@
    "retailer_focus": "olive_young",
    "posts_last_30d": 10,
    "evaluated_at": "2026-08-25T11:06:07+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:37:44+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "followers": 71000,
+   "engagement_rate": 0.0077,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young"
   }
  ]
 }

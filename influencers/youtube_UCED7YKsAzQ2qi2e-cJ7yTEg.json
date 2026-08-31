@@ -3,28 +3,27 @@
  "username": "UCED7YKsAzQ2qi2e-cJ7yTEg",
  "fullname": "merryview메리뷰",
  "profile_url": "https://www.youtube.com/channel/UCED7YKsAzQ2qi2e-cJ7yTEg",
- "channel_id": "UCED7YKsAzQ2qi2e-cJ7yTEg",
- "followers": 32900,
- "engagement_rate": 0.0027,
- "avg_likes": 206.2,
- "avg_comments": 12.6,
- "avg_views": 77062.9,
- "posts_last_30d": 11,
+ "followers": 32700,
+ "engagement_rate": 0.0125,
+ "avg_likes": 223.4,
+ "avg_comments": 12.0,
+ "avg_views": 17905.2,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 11,
+ "sample_size": 12,
  "brand_fit_score": 90,
- "retailer_focus": "mixed",
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "28건",
-  "olive_young_mentions": "27건",
-  "beauty_keywords": "19건",
+  "daiso_mentions": "45건",
+  "olive_young_mentions": "32건",
+  "beauty_keywords": "45건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:19:54+09:00",
- "score_total": 65.5,
- "grade": "B",
+ "evaluated_at": "2026-08-31T10:14:13+09:00",
+ "score_total": 75.5,
+ "grade": "A",
  "score_breakdown": {
-  "er": 40,
+  "er": 60,
   "brand_fit": 90,
   "consistency": 100,
   "followers": 80,
@@ -35,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 11개 [videos:6+shorts:12]",
- "_likes_hidden": 0,
+ "sample_note": "YT 30일내 12개 [videos:6+shorts:12]",
+ "channel_id": "UCED7YKsAzQ2qi2e-cJ7yTEg",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:22:20.335257+09:00",
-   "followers": 32700,
-   "engagement_rate": 0.0145,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 66.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
    "followers": 32600,
@@ -304,6 +293,16 @@
    "retailer_focus": "mixed",
    "posts_last_30d": 11,
    "evaluated_at": "2026-08-25T10:52:57+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:19:54+09:00",
+   "score_total": 65.5,
+   "grade": "B",
+   "followers": 32900,
+   "engagement_rate": 0.0027,
+   "posts_last_30d": 11,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed"
   }
  ]
 }

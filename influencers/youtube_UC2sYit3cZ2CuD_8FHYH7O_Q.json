@@ -3,15 +3,14 @@
  "username": "UC2sYit3cZ2CuD_8FHYH7O_Q",
  "fullname": "Hyram",
  "profile_url": "https://www.youtube.com/channel/UC2sYit3cZ2CuD_8FHYH7O_Q",
- "channel_id": "UC2sYit3cZ2CuD_8FHYH7O_Q",
  "followers": 4350000,
- "engagement_rate": 0.0354,
- "avg_likes": 857.4,
- "avg_comments": 100.0,
- "avg_views": 24202.7,
- "posts_last_30d": 7,
+ "engagement_rate": 0.0301,
+ "avg_likes": 621.1,
+ "avg_comments": 66.6,
+ "avg_views": 20641.2,
+ "posts_last_30d": 8,
  "_posts_last_30d_est": false,
- "sample_size": 7,
+ "sample_size": 8,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,7 +19,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-26T10:16:20+09:00",
+ "evaluated_at": "2026-08-31T10:43:29+09:00",
  "score_total": 68.25,
  "grade": "B",
  "score_breakdown": {
@@ -35,7 +34,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 7개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 8개 [videos:12+shorts:12]",
+ "channel_id": "UC2sYit3cZ2CuD_8FHYH7O_Q",
  "history": [
   {
    "evaluated_at": "2026-08-21T10:31:03+09:00",
@@ -78,6 +78,16 @@
    "retailer_focus": "off_topic",
    "posts_last_30d": 8,
    "evaluated_at": "2026-08-25T10:50:20+09:00"
+  },
+  {
+   "evaluated_at": "2026-08-26T10:16:20+09:00",
+   "score_total": 68.25,
+   "grade": "B",
+   "followers": 4350000,
+   "engagement_rate": 0.0354,
+   "posts_last_30d": 7,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic"
   }
  ]
 }
