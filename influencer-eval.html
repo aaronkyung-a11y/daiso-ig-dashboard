@@ -428,11 +428,15 @@ async function loadQueue() {
       return m ? {timestamp: m[1], url: m[2].replace(/^"|"$/g, '')} : null;
     }).filter(Boolean);
     // 이미 분석된 username 추출
-    const analyzedUsernames = new Set(INFLUENCER_DATA.accounts.map(a => {
-      const u = a.profile_url.toLowerCase();
+    const analyzedUsernames = new Set();
+    (INFLUENCER_DATA.accounts || INFLUENCER_DATA.records || []).forEach(a => {
+      const u = (a.profile_url || '').toLowerCase();
       const m = u.match(/instagram\.com\/([^/]+)\/?$|youtube\.com\/(?:@|channel\/|c\/)([^/]+)/);
-      return m ? (m[1] || m[2]).toLowerCase() : '';
-    }).filter(Boolean));
+      if (m && (m[1] || m[2])) analyzedUsernames.add((m[1] || m[2]).toLowerCase());
+      // [fix] channel_id 기준 dedup 으로 인덱스에서 빠진 중복 파일도 '완료'로 인식
+      if (a.channel_id) analyzedUsernames.add(String(a.channel_id).toLowerCase());
+      if (a.username) analyzedUsernames.add(String(a.username).toLowerCase());
+    });
     
     const pending = [];
     const done = [];
