@@ -4,10 +4,10 @@
  "fullname": "유리나 𝒀𝒖𝒓𝒊𝒏𝒂",
  "profile_url": "https://www.youtube.com/channel/UCRPEXjbWYRtFdCKxMwWvrxQ",
  "followers": 3360,
- "engagement_rate": 0.0183,
- "avg_likes": 177.1,
+ "engagement_rate": 0.0172,
+ "avg_likes": 195.0,
  "avg_comments": 4.2,
- "avg_views": 9683.1,
+ "avg_views": 11369.4,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -16,10 +16,10 @@
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "18건",
-  "beauty_keywords": "4건",
+  "beauty_keywords": "5건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:08:28+09:00",
+ "evaluated_at": "2026-09-01T17:20:00+09:00",
  "score_total": 74.75,
  "grade": "B",
  "score_breakdown": {
@@ -37,16 +37,6 @@
  "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
  "channel_id": "UCRPEXjbWYRtFdCKxMwWvrxQ",
  "history": [
-  {
-   "evaluated_at": "2026-06-25T13:09:43.915692+09:00",
-   "followers": 3020,
-   "engagement_rate": 0.0129,
-   "posts_last_30d": 13,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 76.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 3020,
@@ -303,6 +293,13 @@
    "posts_last_30d": 12,
    "brand_fit_score": 95,
    "retailer_focus": "our_brand"
+  },
+  {
+   "score_total": 74.75,
+   "grade": "B",
+   "er": 0.0183,
+   "followers": 3360,
+   "evaluated_at": "2026-08-31T10:08:28+09:00"
   }
  ]
 }

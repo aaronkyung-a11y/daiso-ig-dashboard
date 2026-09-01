@@ -3,11 +3,11 @@
  "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
  "fullname": "뮤니",
  "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
- "followers": 1760,
- "engagement_rate": 0.0124,
- "avg_likes": 174.8,
+ "followers": 1780,
+ "engagement_rate": 0.0136,
+ "avg_likes": 211.5,
  "avg_comments": 2.8,
- "avg_views": 14114.4,
+ "avg_views": 15500.6,
  "posts_last_30d": 10,
  "_posts_last_30d_est": false,
  "sample_size": 10,
@@ -16,10 +16,10 @@
  "retailer_signal": {
   "daiso_mentions": "6건",
   "olive_young_mentions": "22건",
-  "beauty_keywords": "23건",
+  "beauty_keywords": "24건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:08:28+09:00",
+ "evaluated_at": "2026-09-01T17:20:00+09:00",
  "score_total": 76.0,
  "grade": "A",
  "score_breakdown": {
@@ -37,16 +37,6 @@
  "sample_note": "YT 30일내 10개 [videos:0+shorts:12]",
  "channel_id": "UCUCUu_rOf4b5BtKIMRL7jhg",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 1440,
-   "engagement_rate": 0.0266,
-   "posts_last_30d": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 70.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:26.980413+09:00",
    "followers": 1410,
@@ -302,6 +292,13 @@
    "posts_last_30d": 5,
    "brand_fit_score": 75,
    "retailer_focus": "daiso"
+  },
+  {
+   "score_total": 76.0,
+   "grade": "A",
+   "er": 0.0124,
+   "followers": 1760,
+   "evaluated_at": "2026-08-31T10:08:28+09:00"
   }
  ]
 }
