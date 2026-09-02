@@ -3,23 +3,23 @@
  "username": "beauty._charmi",
  "fullname": "챠미뷰티 l 홈케어•색조템•뷰티꿀팁",
  "profile_url": "https://www.instagram.com/beauty._charmi/",
- "followers": 63756,
- "engagement_rate": 0.009,
- "avg_likes": 558.8,
- "avg_comments": 12.6,
- "avg_views": 103482.8,
+ "followers": 63768,
+ "engagement_rate": 0.0087,
+ "avg_likes": 545.3,
+ "avg_comments": 12.3,
+ "avg_views": 98931.9,
  "posts_last_30d": 21,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "9건",
-  "olive_young_mentions": "33건",
-  "beauty_keywords": "114건",
+  "daiso_mentions": "3건",
+  "olive_young_mentions": "40건",
+  "beauty_keywords": "115건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "evaluated_at": "2026-09-02T14:35:00+09:00",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -34,20 +34,10 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 21건",
- "_likes_hidden": 0,
+ "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API 페이지네이션), ER=(평균좋아요+평균댓글)/팔로워, 30일내 21건, 평균조회수는 영상 21건 기준. 좋아요 비공개 10건(like_count 자리값 3) 포함 집계 — avg_likes 하향 왜곡 있음",
+ "_likes_hidden": 10,
  "_ig_logged_out": false,
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:32:29.467856+09:00",
-   "followers": 58930,
-   "engagement_rate": 0.0153,
-   "posts_last_30d": 21,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 75.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-12T14:12:12.265461+09:00",
    "followers": 58765,
@@ -306,6 +296,16 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "score_total": 72.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 63756,
+   "engagement_rate": 0.009,
+   "posts_last_30d": 21,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 65.5,
    "grade": "B"
   }
  ]
