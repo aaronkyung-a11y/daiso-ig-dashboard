@@ -3,54 +3,41 @@
  "username": "jangsu_note",
  "fullname": "장수노트",
  "profile_url": "https://www.instagram.com/jangsu_note/",
- "followers": 18275,
- "engagement_rate": 0.0518,
- "avg_likes": 718.6,
- "avg_comments": 227.5,
- "avg_views": 63538.3,
- "posts_last_30d": 8,
+ "followers": 18285,
+ "engagement_rate": 0.0508,
+ "avg_likes": 756.3,
+ "avg_comments": 172.6,
+ "avg_views": 205660.4,
+ "posts_last_30d": 15,
  "_posts_last_30d_est": false,
- "sample_size": 12,
- "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "sample_size": 24,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "5건",
+  "daiso_mentions": "19건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "9건",
-  "labrang_present": false
+  "beauty_keywords": "23건",
+  "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:50:48+09:00",
- "score_total": 87.5,
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 93.0,
  "grade": "S",
  "score_breakdown": {
   "er": 90,
-  "brand_fit": 90,
-  "consistency": 80,
+  "brand_fit": 100,
+  "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "er_carried_over": true,
-  "posts_30d_carried_over": true,
-  "brand_fit_carried_over": true,
-  "carried_over_from": "2026-08-26T10:42:02+09:00"
+  "posts_30d_estimated": false
  },
- "sample_note": "IG 로그아웃 — 프로필 지표만 실측(팔로워). ER·30일게시물·brand_fit 은 2026-08-26T10:42 측정값 이월",
+ "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 15건",
  "_likes_hidden": 0,
+ "_ig_logged_out": false,
  "history": [
-  {
-   "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
-   "followers": 11000,
-   "engagement_rate": 0.0496,
-   "posts_last_30d": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 85.5,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-05-05T17:05:00+09:00",
    "followers": 9918,
@@ -313,7 +300,16 @@
    "posts_last_30d": 8,
    "brand_fit_score": 90,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:50:48+09:00",
+   "followers": 18275,
+   "engagement_rate": 0.0518,
+   "posts_last_30d": 8,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 87.5,
+   "grade": "S"
   }
- ],
- "_ig_logged_out": true
+ ]
 }

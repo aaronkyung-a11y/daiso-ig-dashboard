@@ -4,10 +4,10 @@
  "fullname": "daily miracle~",
  "profile_url": "https://www.youtube.com/channel/UCk1BE73NfSUGz19LpNg9E-w",
  "followers": 382000,
- "engagement_rate": 0.0065,
- "avg_likes": 53.3,
- "avg_comments": 9.4,
- "avg_views": 8153.9,
+ "engagement_rate": 0.0062,
+ "avg_likes": 55.2,
+ "avg_comments": 9.6,
+ "avg_views": 8949.6,
  "posts_last_30d": 16,
  "_posts_last_30d_est": false,
  "sample_size": 16,
@@ -15,11 +15,11 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "5건",
-  "beauty_keywords": "115건",
+  "olive_young_mentions": "2건",
+  "beauty_keywords": "59건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:26:13+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 67.5,
  "grade": "B",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCk1BE73NfSUGz19LpNg9E-w",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:23:46+09:00",
-   "followers": 382000,
-   "engagement_rate": 0.0111,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 71.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-17T10:27:51.312635+09:00",
    "followers": 383000,
@@ -299,6 +289,16 @@
    "posts_last_30d": 16,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:26:13+09:00",
+   "followers": 382000,
+   "engagement_rate": 0.0065,
+   "posts_last_30d": 16,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 67.5,
+   "grade": "B"
   }
  ]
 }

@@ -4,27 +4,27 @@
  "fullname": "ASMR vlogs ",
  "profile_url": "https://www.youtube.com/channel/UCmgaEzWAbBVrSS1jLnOyiuA",
  "followers": 807000,
- "engagement_rate": 0.0217,
- "avg_likes": 185.3,
- "avg_comments": 2.8,
- "avg_views": 8534.4,
- "posts_last_30d": 14,
+ "engagement_rate": 0.0265,
+ "avg_likes": 188.1,
+ "avg_comments": 1.7,
+ "avg_views": 7106.5,
+ "posts_last_30d": 13,
  "_posts_last_30d_est": false,
- "sample_size": 14,
- "brand_fit_score": 75,
+ "sample_size": 13,
+ "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "4건",
+  "beauty_keywords": "62건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:29:06+09:00",
- "score_total": 73.75,
- "grade": "B",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 77.5,
+ "grade": "A",
  "score_breakdown": {
   "er": 60,
-  "brand_fit": 75,
+  "brand_fit": 90,
   "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 14개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCmgaEzWAbBVrSS1jLnOyiuA",
  "history": [
   {
@@ -98,6 +98,16 @@
    "posts_last_30d": 14,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:29:06+09:00",
+   "followers": 807000,
+   "engagement_rate": 0.0217,
+   "posts_last_30d": 14,
+   "brand_fit_score": 75,
+   "retailer_focus": "beauty_general",
+   "score_total": 73.75,
+   "grade": "B"
   }
  ]
 }

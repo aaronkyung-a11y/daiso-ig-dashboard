@@ -4,10 +4,10 @@
  "fullname": "예쁜데 문제있나예",
  "profile_url": "https://www.youtube.com/channel/UC66y-iJZXgWc4LwRlrNGVYw",
  "followers": 3630,
- "engagement_rate": 0.0111,
+ "engagement_rate": 0.011,
  "avg_likes": 12.0,
  "avg_comments": 1.0,
- "avg_views": 1085.0,
+ "avg_views": 1089.0,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 1,
@@ -19,7 +19,7 @@
   "beauty_keywords": "9건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:17:18+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 64.5,
  "grade": "C",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 1개 [videos:9+shorts:12]",
+ "sample_note": "YT 30일내 1개 [videos:9+shorts:12] meta_ok:21/21",
  "channel_id": "UC66y-iJZXgWc4LwRlrNGVYw",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
-   "followers": 3640,
-   "engagement_rate": 0.0111,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 64.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 3640,
@@ -301,6 +291,16 @@
    "posts_last_30d": 2,
    "brand_fit_score": 60,
    "retailer_focus": "beauty_general"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:17:18+09:00",
+   "followers": 3630,
+   "engagement_rate": 0.0111,
+   "posts_last_30d": 1,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 64.5,
+   "grade": "C"
   }
  ]
 }

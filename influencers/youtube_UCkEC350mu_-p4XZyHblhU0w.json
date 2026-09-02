@@ -3,11 +3,11 @@
  "username": "UCkEC350mu_-p4XZyHblhU0w",
  "fullname": "메이코",
  "profile_url": "https://www.youtube.com/channel/UCkEC350mu_-p4XZyHblhU0w",
- "followers": 875,
- "engagement_rate": 0.017,
- "avg_likes": 282.2,
- "avg_comments": 4.7,
- "avg_views": 16566.9,
+ "followers": 878,
+ "engagement_rate": 0.0168,
+ "avg_likes": 284.2,
+ "avg_comments": 4.8,
+ "avg_views": 16872.8,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -19,7 +19,7 @@
   "beauty_keywords": "18건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:34:51+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 0개 [videos:0+shorts:12] meta_ok:12/12 — 30일내 0건, 최근 20개로 대체",
  "channel_id": "UCkEC350mu_-p4XZyHblhU0w",
  "history": [
   {
@@ -77,6 +77,16 @@
    "posts_last_30d": 2,
    "brand_fit_score": 60,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:34:51+09:00",
+   "followers": 875,
+   "engagement_rate": 0.017,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 62.5,
+   "grade": "C"
   }
  ]
 }

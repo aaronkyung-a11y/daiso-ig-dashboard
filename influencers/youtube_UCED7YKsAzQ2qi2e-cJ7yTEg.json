@@ -3,23 +3,23 @@
  "username": "UCED7YKsAzQ2qi2e-cJ7yTEg",
  "fullname": "merryview메리뷰",
  "profile_url": "https://www.youtube.com/channel/UCED7YKsAzQ2qi2e-cJ7yTEg",
- "followers": 32700,
- "engagement_rate": 0.0125,
- "avg_likes": 223.4,
- "avg_comments": 12.0,
- "avg_views": 17905.2,
+ "followers": 32800,
+ "engagement_rate": 0.0126,
+ "avg_likes": 244.9,
+ "avg_comments": 12.3,
+ "avg_views": 19385.4,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso_mentions": "45건",
-  "olive_young_mentions": "32건",
-  "beauty_keywords": "45건",
+  "daiso_mentions": "9건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "36건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:14:13+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:6+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:6+shorts:12] meta_ok:18/18",
  "channel_id": "UCED7YKsAzQ2qi2e-cJ7yTEg",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
-   "followers": 32600,
-   "engagement_rate": 0.0146,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 66.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 32500,
@@ -303,6 +293,16 @@
    "posts_last_30d": 11,
    "brand_fit_score": 90,
    "retailer_focus": "mixed"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:14:13+09:00",
+   "followers": 32700,
+   "engagement_rate": 0.0125,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 75.5,
+   "grade": "A"
   }
  ]
 }

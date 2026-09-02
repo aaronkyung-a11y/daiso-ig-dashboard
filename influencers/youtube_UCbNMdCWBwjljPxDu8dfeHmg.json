@@ -4,22 +4,22 @@
  "fullname": "박체리 cherry",
  "profile_url": "https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg",
  "followers": 50100,
- "engagement_rate": 0.0169,
- "avg_likes": 875.4,
- "avg_comments": 7.8,
- "avg_views": 51864.1,
- "posts_last_30d": 11,
+ "engagement_rate": 0.0162,
+ "avg_likes": 894.5,
+ "avg_comments": 7.5,
+ "avg_views": 55298.2,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 11,
+ "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "mixed",
  "retailer_signal": {
   "daiso_mentions": "10건",
-  "olive_young_mentions": "9건",
-  "beauty_keywords": "29건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "34건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:23:20+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 11개 [videos:2+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:2+shorts:12] meta_ok:14/14",
  "channel_id": "UCbNMdCWBwjljPxDu8dfeHmg",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:27:07.454534+09:00",
-   "followers": 50000,
-   "engagement_rate": 0.0115,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 66.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
    "followers": 50000,
@@ -302,6 +292,16 @@
    "posts_last_30d": 9,
    "brand_fit_score": 90,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:23:20+09:00",
+   "followers": 50100,
+   "engagement_rate": 0.0169,
+   "posts_last_30d": 11,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
+   "score_total": 75.5,
+   "grade": "A"
   }
  ]
 }

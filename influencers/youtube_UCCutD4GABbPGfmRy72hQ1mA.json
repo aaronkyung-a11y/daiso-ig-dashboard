@@ -4,22 +4,22 @@
  "fullname": "서히",
  "profile_url": "https://www.youtube.com/channel/UCCutD4GABbPGfmRy72hQ1mA",
  "followers": 36100,
- "engagement_rate": 0.0215,
+ "engagement_rate": 0.0229,
  "avg_likes": 138.4,
- "avg_comments": 9.8,
- "avg_views": 6439.0,
- "posts_last_30d": 7,
+ "avg_comments": 12.0,
+ "avg_views": 6038.8,
+ "posts_last_30d": 5,
  "_posts_last_30d_est": false,
- "sample_size": 7,
+ "sample_size": 5,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "13건",
-  "olive_young_mentions": "4건",
-  "beauty_keywords": "19건",
+  "daiso_mentions": "7건",
+  "olive_young_mentions": "3건",
+  "beauty_keywords": "11건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:17:18+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 75.0,
  "grade": "A",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 7개 [videos:5+shorts:12]",
+ "sample_note": "YT 30일내 5개 [videos:5+shorts:12] meta_ok:17/17",
  "channel_id": "UCCutD4GABbPGfmRy72hQ1mA",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:24:13.911279+09:00",
-   "followers": 36200,
-   "engagement_rate": 0.0167,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 50.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
    "followers": 36300,
@@ -300,6 +290,16 @@
    "posts_last_30d": 5,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:17:18+09:00",
+   "followers": 36100,
+   "engagement_rate": 0.0215,
+   "posts_last_30d": 7,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 75.0,
+   "grade": "A"
   }
  ]
 }

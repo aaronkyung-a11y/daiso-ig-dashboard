@@ -3,11 +3,11 @@
  "username": "UCsTzKed46UFjXa3ofHVVwZg",
  "fullname": "히메",
  "profile_url": "https://www.youtube.com/channel/UCsTzKed46UFjXa3ofHVVwZg",
- "followers": 2400,
- "engagement_rate": 0.0281,
- "avg_likes": 437.7,
- "avg_comments": 7.8,
- "avg_views": 15572.2,
+ "followers": 2470,
+ "engagement_rate": 0.0256,
+ "avg_likes": 406.6,
+ "avg_comments": 6.6,
+ "avg_views": 15898.8,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -15,11 +15,11 @@
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "16건",
-  "olive_young_mentions": "16건",
-  "beauty_keywords": "49건",
+  "olive_young_mentions": "14건",
+  "beauty_keywords": "48건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:43:29+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 76.0,
  "grade": "A",
  "score_breakdown": {
@@ -34,7 +34,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UCsTzKed46UFjXa3ofHVVwZg",
- "history": []
+ "history": [
+  {
+   "evaluated_at": "2026-08-31T10:43:29+09:00",
+   "followers": 2400,
+   "engagement_rate": 0.0281,
+   "posts_last_30d": 12,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 76.0,
+   "grade": "A"
+  }
+ ]
 }

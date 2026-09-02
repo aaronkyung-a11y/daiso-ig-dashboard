@@ -4,10 +4,10 @@
  "fullname": "아서비",
  "profile_url": "https://www.youtube.com/channel/UC73hSOfrDfI0VyIfwstz59g",
  "followers": 11100,
- "engagement_rate": 0.0177,
- "avg_likes": 778.4,
- "avg_comments": 23.1,
- "avg_views": 43890.9,
+ "engagement_rate": 0.0208,
+ "avg_likes": 681.8,
+ "avg_comments": 22.2,
+ "avg_views": 32703.3,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -16,10 +16,10 @@
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "25건",
+  "beauty_keywords": "24건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:31:58+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UC73hSOfrDfI0VyIfwstz59g",
  "history": [
   {
@@ -87,6 +87,16 @@
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:31:58+09:00",
+   "followers": 11100,
+   "engagement_rate": 0.0177,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 75.5,
+   "grade": "A"
   }
  ]
 }

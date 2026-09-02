@@ -3,11 +3,11 @@
  "username": "UCK3L6x0ZGU-2cfTDMLnmUyw",
  "fullname": "진뉴 JINNEW",
  "profile_url": "https://www.youtube.com/channel/UCK3L6x0ZGU-2cfTDMLnmUyw",
- "followers": 66400,
- "engagement_rate": 0.0139,
- "avg_likes": 1015.5,
- "avg_comments": 39.9,
- "avg_views": 73096.9,
+ "followers": 66600,
+ "engagement_rate": 0.0137,
+ "avg_likes": 1017.2,
+ "avg_comments": 39.5,
+ "avg_views": 74464.5,
  "posts_last_30d": 13,
  "_posts_last_30d_est": false,
  "sample_size": 13,
@@ -15,11 +15,11 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "141건",
-  "beauty_keywords": "220건",
+  "olive_young_mentions": "34건",
+  "beauty_keywords": "120건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:26:13+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 13개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCK3L6x0ZGU-2cfTDMLnmUyw",
  "history": [
   {
@@ -131,6 +131,16 @@
    "posts_last_30d": 13,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:26:13+09:00",
+   "followers": 66400,
+   "engagement_rate": 0.0139,
+   "posts_last_30d": 13,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 75.5,
+   "grade": "A"
   }
  ]
 }

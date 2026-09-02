@@ -4,22 +4,22 @@
  "fullname": "뽀용뇽 l 남다른 뷰티꿀팁",
  "profile_url": "https://www.youtube.com/channel/UCRXL4vnST2AE6UtjrYMv4tw",
  "followers": 439000,
- "engagement_rate": 0.0174,
- "avg_likes": 2586.4,
- "avg_comments": 38.4,
- "avg_views": 148413.0,
- "posts_last_30d": 14,
+ "engagement_rate": 0.0176,
+ "avg_likes": 2055.3,
+ "avg_comments": 34.7,
+ "avg_views": 116862.9,
+ "posts_last_30d": 15,
  "_posts_last_30d_est": false,
- "sample_size": 14,
+ "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "17건",
-  "olive_young_mentions": "9건",
-  "beauty_keywords": "151건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "171건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:20:12+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 14개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 15개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCRXL4vnST2AE6UtjrYMv4tw",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:25:40.418539+09:00",
-   "followers": 437000,
-   "engagement_rate": 0.0278,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 71.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
    "followers": 437000,
@@ -305,6 +295,16 @@
    "posts_last_30d": 14,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:20:12+09:00",
+   "followers": 439000,
+   "engagement_rate": 0.0174,
+   "posts_last_30d": 14,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 77.5,
+   "grade": "A"
   }
  ]
 }

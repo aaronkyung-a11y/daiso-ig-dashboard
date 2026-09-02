@@ -4,28 +4,28 @@
  "fullname": "텅장주의",
  "profile_url": "https://www.youtube.com/channel/UCfcM9RkfntkTH0pCwd4vSPA",
  "followers": 18000,
- "engagement_rate": 0.0064,
- "avg_likes": 275.8,
- "avg_comments": 2.5,
- "avg_views": 43007.0,
- "posts_last_30d": 4,
+ "engagement_rate": 0.0065,
+ "avg_likes": 260.2,
+ "avg_comments": 3.0,
+ "avg_views": 40194.4,
+ "posts_last_30d": 5,
  "_posts_last_30d_est": false,
- "sample_size": 4,
+ "sample_size": 5,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "70건",
+  "daiso_mentions": "66건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "16건",
+  "beauty_keywords": "17건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:23:20+09:00",
- "score_total": 59.5,
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 90,
-  "consistency": 60,
+  "consistency": 80,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -34,20 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 4개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 5개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UCfcM9RkfntkTH0pCwd4vSPA",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 17800,
-   "engagement_rate": 0.0072,
-   "avg_likes": 1746.7,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 62.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:28:25+09:00",
    "followers": 17700,
@@ -303,6 +292,16 @@
    "posts_last_30d": 3,
    "brand_fit_score": 75,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:23:20+09:00",
+   "followers": 18000,
+   "engagement_rate": 0.0064,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 59.5,
+   "grade": "C"
   }
  ]
 }

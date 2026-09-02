@@ -3,23 +3,23 @@
  "username": "UCYxuoueMuR3f80RU_ua4TXA",
  "fullname": "로빗 lobit🐰🫧",
  "profile_url": "https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA",
- "followers": 3160,
- "engagement_rate": 0.0191,
- "avg_likes": 514.6,
- "avg_comments": 9.6,
- "avg_views": 26921.6,
- "posts_last_30d": 5,
+ "followers": 3170,
+ "engagement_rate": 0.0185,
+ "avg_likes": 427.8,
+ "avg_comments": 7.7,
+ "avg_views": 23181.7,
+ "posts_last_30d": 6,
  "_posts_last_30d_est": false,
- "sample_size": 5,
+ "sample_size": 6,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "63건",
-  "olive_young_mentions": "22건",
-  "beauty_keywords": "38건",
+  "daiso_mentions": "56건",
+  "olive_young_mentions": "33건",
+  "beauty_keywords": "43건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:20:12+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 70.5,
  "grade": "B",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 6개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UCYxuoueMuR3f80RU_ua4TXA",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:27:41+09:00",
-   "followers": 2870,
-   "engagement_rate": 0.0166,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 70.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-17T10:48:49.268427+09:00",
    "followers": 2840,
@@ -300,6 +290,16 @@
    "posts_last_30d": 6,
    "brand_fit_score": 90,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:20:12+09:00",
+   "followers": 3160,
+   "engagement_rate": 0.0191,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 70.5,
+   "grade": "B"
   }
  ]
 }

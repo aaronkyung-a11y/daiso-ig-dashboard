@@ -16,10 +16,10 @@
  "retailer_signal": {
   "daiso_mentions": "7건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "9건",
+  "beauty_keywords": "15건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:23:20+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 55.0,
  "grade": "C",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0개 [videos:0+shorts:8]",
+ "sample_note": "YT 30일내 0개 [videos:0+shorts:8] meta_ok:8/8 — 30일내 0건, 최근 20개로 대체",
  "channel_id": "UCkCQe4QPcKCvB3PTzIWHn2g",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:28:25+09:00",
-   "followers": 22,
-   "engagement_rate": 0.0099,
-   "posts_last_30d": 0,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 55.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-17T10:48:49.268427+09:00",
    "followers": 22,
@@ -301,6 +291,16 @@
    "posts_last_30d": 0,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:23:20+09:00",
+   "followers": 22,
+   "engagement_rate": 0.0098,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 55.0,
+   "grade": "C"
   }
  ]
 }

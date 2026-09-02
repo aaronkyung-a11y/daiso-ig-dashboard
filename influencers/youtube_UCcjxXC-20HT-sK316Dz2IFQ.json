@@ -5,21 +5,21 @@
  "profile_url": "https://www.youtube.com/channel/UCcjxXC-20HT-sK316Dz2IFQ",
  "followers": 442,
  "engagement_rate": 0.0086,
- "avg_likes": 204.9,
+ "avg_likes": 204.8,
  "avg_comments": 7.8,
- "avg_views": 23760.5,
+ "avg_views": 23808.5,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "77건",
+  "daiso_mentions": "46건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "30건",
+  "beauty_keywords": "24건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:23:20+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 55.0,
  "grade": "C",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 0개 [videos:0+shorts:12] meta_ok:12/12 — 30일내 0건, 최근 20개로 대체",
  "channel_id": "UCcjxXC-20HT-sK316Dz2IFQ",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:28:25+09:00",
-   "followers": 442,
-   "engagement_rate": 0.0081,
-   "posts_last_30d": 0,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 55.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-17T10:48:49.268427+09:00",
    "followers": 443,
@@ -302,6 +292,16 @@
    "posts_last_30d": 0,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:23:20+09:00",
+   "followers": 442,
+   "engagement_rate": 0.0086,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 55.0,
+   "grade": "C"
   }
  ]
 }

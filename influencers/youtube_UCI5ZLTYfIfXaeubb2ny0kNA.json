@@ -4,10 +4,10 @@
  "fullname": "해피해은 HAEPPY",
  "profile_url": "https://www.youtube.com/channel/UCI5ZLTYfIfXaeubb2ny0kNA",
  "followers": 303000,
- "engagement_rate": 0.0118,
- "avg_likes": 348.2,
+ "engagement_rate": 0.0117,
+ "avg_likes": 363.9,
  "avg_comments": 18.5,
- "avg_views": 29487.3,
+ "avg_views": 31200.3,
  "posts_last_30d": 15,
  "_posts_last_30d_est": false,
  "sample_size": 15,
@@ -15,11 +15,11 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "5건",
-  "beauty_keywords": "71건",
+  "olive_young_mentions": "1건",
+  "beauty_keywords": "16건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:34:51+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 15개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCI5ZLTYfIfXaeubb2ny0kNA",
  "history": [
   {
@@ -77,6 +77,16 @@
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:34:51+09:00",
+   "followers": 303000,
+   "engagement_rate": 0.0118,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 77.5,
+   "grade": "A"
   }
  ]
 }

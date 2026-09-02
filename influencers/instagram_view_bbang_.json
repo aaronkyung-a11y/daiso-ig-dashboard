@@ -3,27 +3,27 @@
  "username": "view_bbang_",
  "fullname": "뷰빵",
  "profile_url": "https://www.instagram.com/view_bbang_/",
- "followers": 690,
- "engagement_rate": 0.0401,
- "avg_likes": 19,
- "avg_comments": 7.8,
- "avg_views": 481.5,
- "posts_last_30d": 4,
+ "followers": 694,
+ "engagement_rate": 0.0529,
+ "avg_likes": 28.7,
+ "avg_comments": 8,
+ "avg_views": 905.8,
+ "posts_last_30d": 3,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 24,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "4건",
-  "olive_young_mentions": "3건",
-  "beauty_keywords": "23건",
+  "daiso_mentions": "11건",
+  "olive_young_mentions": "22건",
+  "beauty_keywords": "56건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:50:48+09:00",
- "score_total": 75.5,
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 80.5,
  "grade": "A",
  "score_breakdown": {
-  "er": 80,
+  "er": 90,
   "brand_fit": 90,
   "consistency": 60,
   "followers": 40,
@@ -32,26 +32,12 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "er_carried_over": true,
-  "posts_30d_carried_over": true,
-  "brand_fit_carried_over": true,
-  "carried_over_from": "2026-08-26T10:42:02+09:00"
+  "posts_30d_estimated": false
  },
- "sample_note": "IG 로그아웃 — 프로필 지표만 실측(팔로워). ER·30일게시물·brand_fit 은 2026-08-26T10:42 측정값 이월",
+ "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 3건",
  "_likes_hidden": 0,
+ "_ig_logged_out": false,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 605,
-   "engagement_rate": 0.061,
-   "avg_likes": 28.3,
-   "posts_last_30d": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "score_total": 80.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-07-17T11:37:18.785672+09:00",
    "followers": 584,
@@ -309,7 +295,16 @@
    "posts_last_30d": 4,
    "brand_fit_score": 90,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:50:48+09:00",
+   "followers": 690,
+   "engagement_rate": 0.0401,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 75.5,
+   "grade": "A"
   }
- ],
- "_ig_logged_out": true
+ ]
 }

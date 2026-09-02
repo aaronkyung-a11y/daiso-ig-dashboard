@@ -4,10 +4,10 @@
  "fullname": "오드의원 민경률 원장",
  "profile_url": "https://www.youtube.com/channel/UCBKngvS6Kk4LWSZTKXQWnvA",
  "followers": 5210,
- "engagement_rate": 0.0099,
- "avg_likes": 37.2,
+ "engagement_rate": 0.0088,
+ "avg_likes": 31.2,
  "avg_comments": 4.9,
- "avg_views": 3746.0,
+ "avg_views": 3550.6,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -19,7 +19,7 @@
   "beauty_keywords": "1건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:17:18+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 56.0,
  "grade": "C",
  "score_breakdown": {
@@ -34,20 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UCBKngvS6Kk4LWSZTKXQWnvA",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 4870,
-   "engagement_rate": 0.0098,
-   "avg_likes": 384.3,
-   "posts_last_30d": 13,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 63.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:26:06+09:00",
    "followers": 4730,
@@ -306,6 +295,16 @@
    "posts_last_30d": 12,
    "brand_fit_score": 60,
    "retailer_focus": "beauty_general"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:17:18+09:00",
+   "followers": 5210,
+   "engagement_rate": 0.0099,
+   "posts_last_30d": 12,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "score_total": 56.0,
+   "grade": "C"
   }
  ]
 }

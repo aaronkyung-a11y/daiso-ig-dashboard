@@ -3,54 +3,41 @@
  "username": "incworld",
  "fullname": "뷰드름유튜버 인씨 inssi",
  "profile_url": "https://www.instagram.com/incworld/",
- "followers": 62161,
- "engagement_rate": 0.0084,
- "avg_likes": 469.4,
- "avg_comments": 49.9,
- "avg_views": 110628.4,
- "posts_last_30d": 4,
+ "followers": 62171,
+ "engagement_rate": 0.0055,
+ "avg_likes": 311.5,
+ "avg_comments": 33.5,
+ "avg_views": 84805.2,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 24,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "1건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "10건",
+  "daiso_mentions": "2건",
+  "olive_young_mentions": "3건",
+  "beauty_keywords": "35건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:50:48+09:00",
- "score_total": 59.5,
- "grade": "C",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 65.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 90,
-  "consistency": 60,
+  "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "er_carried_over": true,
-  "posts_30d_carried_over": true,
-  "brand_fit_carried_over": true,
-  "carried_over_from": "2026-08-26T10:42:02+09:00"
+  "posts_30d_estimated": false
  },
- "sample_note": "IG 로그아웃 — 프로필 지표만 실측(팔로워). ER·30일게시물·brand_fit 은 2026-08-26T10:42 측정값 이월",
+ "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 10건",
  "_likes_hidden": 0,
+ "_ig_logged_out": false,
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:32:29.467856+09:00",
-   "followers": 61990,
-   "engagement_rate": 0.0073,
-   "posts_last_30d": 7,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 65.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
    "followers": 61810,
@@ -312,7 +299,16 @@
    "posts_last_30d": 4,
    "brand_fit_score": 90,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:50:48+09:00",
+   "followers": 62161,
+   "engagement_rate": 0.0084,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 59.5,
+   "grade": "C"
   }
- ],
- "_ig_logged_out": true
+ ]
 }

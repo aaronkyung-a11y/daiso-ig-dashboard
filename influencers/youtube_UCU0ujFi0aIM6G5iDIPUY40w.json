@@ -4,10 +4,10 @@
  "fullname": "집남편",
  "profile_url": "https://www.youtube.com/channel/UCU0ujFi0aIM6G5iDIPUY40w",
  "followers": 10500,
- "engagement_rate": 0.0074,
- "avg_likes": 137.9,
+ "engagement_rate": 0.0073,
+ "avg_likes": 121.0,
  "avg_comments": 1.6,
- "avg_views": 18618.5,
+ "avg_views": 16650.4,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -19,7 +19,7 @@
   "beauty_keywords": "1건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:29:06+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 58.0,
  "grade": "C",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UCU0ujFi0aIM6G5iDIPUY40w",
  "history": [
   {
@@ -98,6 +98,16 @@
    "posts_last_30d": 12,
    "brand_fit_score": 60,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:29:06+09:00",
+   "followers": 10500,
+   "engagement_rate": 0.0074,
+   "posts_last_30d": 12,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso",
+   "score_total": 58.0,
+   "grade": "C"
   }
  ]
 }

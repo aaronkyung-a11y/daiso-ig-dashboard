@@ -4,22 +4,22 @@
  "fullname": "화장품은 과학이다 by 안언니 Ahnunnie",
  "profile_url": "https://www.youtube.com/channel/UCCuXPHou1JQfRKM40q5tG8w",
  "followers": 87500,
- "engagement_rate": 0.0234,
- "avg_likes": 236.2,
- "avg_comments": 49.7,
- "avg_views": 10083.5,
+ "engagement_rate": 0.0231,
+ "avg_likes": 237.5,
+ "avg_comments": 49.0,
+ "avg_views": 10296.8,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
  "sample_size": 6,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "83건",
-  "olive_young_mentions": "44건",
-  "beauty_keywords": "90건",
+  "daiso_mentions": "18건",
+  "olive_young_mentions": "12건",
+  "beauty_keywords": "37건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:29:06+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 75.0,
  "grade": "A",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 6개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCCuXPHou1JQfRKM40q5tG8w",
  "history": [
   {
@@ -131,6 +131,16 @@
    "posts_last_30d": 4,
    "brand_fit_score": 90,
    "retailer_focus": "mixed"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:29:06+09:00",
+   "followers": 87500,
+   "engagement_rate": 0.0234,
+   "posts_last_30d": 6,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 75.0,
+   "grade": "A"
   }
  ]
 }

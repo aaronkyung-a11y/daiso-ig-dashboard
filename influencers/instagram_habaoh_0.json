@@ -3,55 +3,41 @@
  "username": "habaoh_0",
  "fullname": "하바오",
  "profile_url": "https://www.instagram.com/habaoh_0/",
- "followers": 8955,
- "engagement_rate": 0.058,
- "avg_likes": 488.3,
- "avg_comments": 32,
- "avg_views": 40476.5,
- "posts_last_30d": 10,
+ "followers": 8960,
+ "engagement_rate": 0.0449,
+ "avg_likes": 378.3,
+ "avg_comments": 24.4,
+ "avg_views": 37557.7,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 24,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "9건",
-  "beauty_keywords": "16건",
+  "daiso_mentions": "1건",
+  "olive_young_mentions": "25건",
+  "beauty_keywords": "33건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:50:48+09:00",
- "score_total": 88.5,
- "grade": "S",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 80.5,
+ "grade": "A",
  "score_breakdown": {
-  "er": 90,
+  "er": 80,
   "brand_fit": 90,
-  "consistency": 100,
+  "consistency": 80,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "er_carried_over": true,
-  "posts_30d_carried_over": true,
-  "brand_fit_carried_over": true,
-  "carried_over_from": "2026-08-26T10:42:02+09:00"
+  "posts_30d_estimated": false
  },
- "sample_note": "IG 로그아웃 — 프로필 지표만 실측(팔로워). ER·30일게시물·brand_fit 은 2026-08-26T10:42 측정값 이월",
+ "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 9건",
  "_likes_hidden": 0,
+ "_ig_logged_out": false,
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 9154,
-   "engagement_rate": 0.0212,
-   "avg_likes": 181.3,
-   "posts_last_30d": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 73.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-17T11:29:14.545999+09:00",
    "followers": 9198,
@@ -309,7 +295,16 @@
    "posts_last_30d": 10,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:50:48+09:00",
+   "followers": 8955,
+   "engagement_rate": 0.058,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 88.5,
+   "grade": "S"
   }
- ],
- "_ig_logged_out": true
+ ]
 }

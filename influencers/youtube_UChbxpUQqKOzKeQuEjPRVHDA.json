@@ -4,10 +4,10 @@
  "fullname": "셀럽박스",
  "profile_url": "https://www.youtube.com/channel/UChbxpUQqKOzKeQuEjPRVHDA",
  "followers": 1110,
- "engagement_rate": 0.0038,
- "avg_likes": 21.3,
- "avg_comments": 3.0,
- "avg_views": 5676.1,
+ "engagement_rate": 0.0036,
+ "avg_likes": 13.7,
+ "avg_comments": 0.0,
+ "avg_views": 3752.8,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -16,10 +16,10 @@
  "retailer_signal": {
   "daiso_mentions": "4건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "27건",
+  "beauty_keywords": "24건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:43:29+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 63.5,
  "grade": "C",
  "score_breakdown": {
@@ -34,7 +34,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UChbxpUQqKOzKeQuEjPRVHDA",
- "history": []
+ "history": [
+  {
+   "evaluated_at": "2026-08-31T10:43:29+09:00",
+   "followers": 1110,
+   "engagement_rate": 0.0038,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 63.5,
+   "grade": "C"
+  }
+ ]
 }

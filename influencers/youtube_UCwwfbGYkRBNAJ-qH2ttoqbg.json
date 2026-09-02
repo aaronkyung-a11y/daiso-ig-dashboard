@@ -4,10 +4,10 @@
  "fullname": "훠니 Huoney",
  "profile_url": "https://www.youtube.com/channel/UCwwfbGYkRBNAJ-qH2ttoqbg",
  "followers": 110000,
- "engagement_rate": 0.0152,
- "avg_likes": 134.2,
- "avg_comments": 24.1,
- "avg_views": 8830.2,
+ "engagement_rate": 0.0143,
+ "avg_likes": 146.8,
+ "avg_comments": 25.9,
+ "avg_views": 10299.2,
  "posts_last_30d": 9,
  "_posts_last_30d_est": false,
  "sample_size": 9,
@@ -19,7 +19,7 @@
   "beauty_keywords": "40건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:40:37+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 74.5,
  "grade": "B",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 9개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCwwfbGYkRBNAJ-qH2ttoqbg",
  "history": [
   {
@@ -66,6 +66,16 @@
    "posts_last_30d": 6,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:40:37+09:00",
+   "followers": 110000,
+   "engagement_rate": 0.0152,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 74.5,
+   "grade": "B"
   }
  ]
 }

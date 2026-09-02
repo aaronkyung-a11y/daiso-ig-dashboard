@@ -4,22 +4,22 @@
  "fullname": "피부텐텐 · 피부가 예뻐지는 10분 ",
  "profile_url": "https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw",
  "followers": 325000,
- "engagement_rate": 0.0097,
- "avg_likes": 75.3,
- "avg_comments": 14.1,
- "avg_views": 7759.4,
- "posts_last_30d": 20,
+ "engagement_rate": 0.0099,
+ "avg_likes": 72.0,
+ "avg_comments": 13.8,
+ "avg_views": 7300.1,
+ "posts_last_30d": 21,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 21,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "16건",
+  "beauty_keywords": "18건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:26:13+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 67.5,
  "grade": "B",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 20개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 21개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCxA9k7UJz50ZJPa5aUGf7fw",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:28:38.695107+09:00",
-   "followers": 326000,
-   "engagement_rate": 0.0094,
-   "posts_last_30d": 10,
-   "brand_fit_score": 75,
-   "retailer_focus": "beauty_general",
-   "score_total": 63.75,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-03T10:14:33.516676+09:00",
    "followers": 325000,
@@ -297,6 +287,16 @@
    "posts_last_30d": 21,
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:26:13+09:00",
+   "followers": 325000,
+   "engagement_rate": 0.0097,
+   "posts_last_30d": 20,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 67.5,
+   "grade": "B"
   }
  ]
 }

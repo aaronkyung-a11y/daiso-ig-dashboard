@@ -4,22 +4,22 @@
  "fullname": "리사 Lisalog",
  "profile_url": "https://www.youtube.com/channel/UCNKrDQQ9OLARlFVpHIi7nrQ",
  "followers": 19000,
- "engagement_rate": 0.0072,
- "avg_likes": 37.3,
- "avg_comments": 6.2,
- "avg_views": 5145.4,
- "posts_last_30d": 14,
+ "engagement_rate": 0.0069,
+ "avg_likes": 41.5,
+ "avg_comments": 6.9,
+ "avg_views": 5978.9,
+ "posts_last_30d": 15,
  "_posts_last_30d_est": false,
- "sample_size": 14,
+ "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "7건",
-  "olive_young_mentions": "19건",
-  "beauty_keywords": "102건",
+  "olive_young_mentions": "18건",
+  "beauty_keywords": "56건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:29:06+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 14개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 15개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCNKrDQQ9OLARlFVpHIi7nrQ",
  "history": [
   {
@@ -131,6 +131,16 @@
    "posts_last_30d": 13,
    "brand_fit_score": 90,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:29:06+09:00",
+   "followers": 19000,
+   "engagement_rate": 0.0072,
+   "posts_last_30d": 14,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 65.5,
+   "grade": "B"
   }
  ]
 }

@@ -4,22 +4,22 @@
  "fullname": "제이미포유 Jaymeeforyou",
  "profile_url": "https://www.youtube.com/channel/UClJNgnMWzvEzJuLcpH7m4vQ",
  "followers": 415000,
- "engagement_rate": 0.0191,
- "avg_likes": 667.8,
- "avg_comments": 49.4,
- "avg_views": 34896.4,
- "posts_last_30d": 14,
+ "engagement_rate": 0.0172,
+ "avg_likes": 567.7,
+ "avg_comments": 51.7,
+ "avg_views": 32975.9,
+ "posts_last_30d": 13,
  "_posts_last_30d_est": false,
- "sample_size": 14,
+ "sample_size": 13,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "3건",
-  "olive_young_mentions": "45건",
-  "beauty_keywords": "180건",
+  "olive_young_mentions": "19건",
+  "beauty_keywords": "93건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:29:06+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 14개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UClJNgnMWzvEzJuLcpH7m4vQ",
  "history": [
   {
@@ -98,6 +98,16 @@
    "posts_last_30d": 14,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:29:06+09:00",
+   "followers": 415000,
+   "engagement_rate": 0.0191,
+   "posts_last_30d": 14,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 77.5,
+   "grade": "A"
   }
  ]
 }

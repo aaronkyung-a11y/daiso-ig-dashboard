@@ -4,10 +4,10 @@
  "fullname": "BeautywithFranz",
  "profile_url": "https://www.youtube.com/channel/UCePjZRTgGmQs7C3TFxX1Ffg",
  "followers": 27800,
- "engagement_rate": 0.0078,
- "avg_likes": 32.0,
+ "engagement_rate": 0.0066,
+ "avg_likes": 28.1,
  "avg_comments": 3.0,
- "avg_views": 4128.9,
+ "avg_views": 4264.8,
  "posts_last_30d": 8,
  "_posts_last_30d_est": false,
  "sample_size": 8,
@@ -19,7 +19,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:31:58+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 46.25,
  "grade": "D",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 8개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UCePjZRTgGmQs7C3TFxX1Ffg",
  "history": [
   {
@@ -98,6 +98,16 @@
    "posts_last_30d": 9,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:31:58+09:00",
+   "followers": 27800,
+   "engagement_rate": 0.0078,
+   "posts_last_30d": 8,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 46.25,
+   "grade": "D"
   }
  ]
 }

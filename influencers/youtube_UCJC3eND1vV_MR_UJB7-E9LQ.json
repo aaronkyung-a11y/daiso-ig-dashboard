@@ -4,22 +4,22 @@
  "fullname": "민카롱",
  "profile_url": "https://www.youtube.com/channel/UCJC3eND1vV_MR_UJB7-E9LQ",
  "followers": 433000,
- "engagement_rate": 0.0043,
- "avg_likes": 879.3,
- "avg_comments": 44.7,
- "avg_views": 205019.5,
+ "engagement_rate": 0.0042,
+ "avg_likes": 932.8,
+ "avg_comments": 45.2,
+ "avg_views": 219869.0,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
  "sample_size": 6,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "5건",
-  "olive_young_mentions": "13건",
-  "beauty_keywords": "152건",
+  "daiso_mentions": "4건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "119건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:14:13+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 67.0,
  "grade": "B",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 6개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCJC3eND1vV_MR_UJB7-E9LQ",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T17:11:26.173766+09:00",
-   "followers": 435000,
-   "engagement_rate": 0.0158,
-   "posts_last_30d": 5,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-16T10:20:33.092020+09:00",
    "followers": 435000,
@@ -303,6 +293,16 @@
    "posts_last_30d": 6,
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:14:13+09:00",
+   "followers": 433000,
+   "engagement_rate": 0.0043,
+   "posts_last_30d": 6,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 67.0,
+   "grade": "B"
   }
  ]
 }

@@ -3,14 +3,14 @@
  "username": "UCwFwe_7ck1v_bMv9jccgyTw",
  "fullname": "Beauty Done",
  "profile_url": "https://www.youtube.com/channel/UCwFwe_7ck1v_bMv9jccgyTw",
- "followers": 17700,
- "engagement_rate": 0.0046,
- "avg_likes": 269.3,
- "avg_comments": 4.4,
- "avg_views": 57924.4,
- "posts_last_30d": 11,
+ "followers": 17800,
+ "engagement_rate": 0.0047,
+ "avg_likes": 257.8,
+ "avg_comments": 4.8,
+ "avg_views": 54700.6,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 11,
+ "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -19,7 +19,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:37:43+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 49.25,
  "grade": "D",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 11개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UCwFwe_7ck1v_bMv9jccgyTw",
  "history": [
   {
@@ -66,6 +66,16 @@
    "posts_last_30d": 11,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:37:43+09:00",
+   "followers": 17700,
+   "engagement_rate": 0.0046,
+   "posts_last_30d": 11,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 49.25,
+   "grade": "D"
   }
  ]
 }

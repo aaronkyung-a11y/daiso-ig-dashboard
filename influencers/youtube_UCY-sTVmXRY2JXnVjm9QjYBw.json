@@ -6,20 +6,20 @@
  "followers": 13700,
  "engagement_rate": 0.0,
  "avg_likes": 0.0,
- "avg_comments": 31.0,
- "avg_views": 1277.0,
+ "avg_comments": 36.0,
+ "avg_views": 1342.0,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 1,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "22건",
-  "olive_young_mentions": "47건",
-  "beauty_keywords": "241건",
+  "daiso_mentions": "15건",
+  "olive_young_mentions": "31건",
+  "beauty_keywords": "150건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:29:06+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 56.5,
  "grade": "C",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 1개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 1개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCY-sTVmXRY2JXnVjm9QjYBw",
  "history": [
   {
@@ -131,6 +131,16 @@
    "posts_last_30d": 0,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:29:06+09:00",
+   "followers": 13700,
+   "engagement_rate": 0.0,
+   "posts_last_30d": 1,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 56.5,
+   "grade": "C"
   }
  ]
 }

@@ -3,23 +3,23 @@
  "username": "UChaTUCM7bPBTJaIZQ83PNwQ",
  "fullname": "스완SWAN_현실남자관리",
  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
- "followers": 508000,
- "engagement_rate": 0.0104,
- "avg_likes": 705.6,
- "avg_comments": 180.8,
- "avg_views": 67575.7,
- "posts_last_30d": 20,
+ "followers": 509000,
+ "engagement_rate": 0.0105,
+ "avg_likes": 847.1,
+ "avg_comments": 179.9,
+ "avg_views": 80703.4,
+ "posts_last_30d": 21,
  "_posts_last_30d_est": false,
- "sample_size": 20,
+ "sample_size": 21,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "2건",
-  "olive_young_mentions": "11건",
-  "beauty_keywords": "45건",
+  "olive_young_mentions": "17건",
+  "beauty_keywords": "48건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:14:13+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 80.0,
  "grade": "A",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 20개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 21개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UChaTUCM7bPBTJaIZQ83PNwQ",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 502000,
-   "engagement_rate": 0.0158,
-   "posts_last_30d": 7,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-19T10:17:14.851286+09:00",
    "followers": 501000,
@@ -304,6 +294,16 @@
    "posts_last_30d": 20,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:14:13+09:00",
+   "followers": 508000,
+   "engagement_rate": 0.0104,
+   "posts_last_30d": 20,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 80.0,
+   "grade": "A"
   }
  ]
 }

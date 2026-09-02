@@ -3,11 +3,11 @@
  "username": "UClSW7LJ8qs7BwNfn2yMT0sQ",
  "fullname": "桃夭剧场TopLove",
  "profile_url": "https://www.youtube.com/channel/UClSW7LJ8qs7BwNfn2yMT0sQ",
- "followers": 636000,
- "engagement_rate": 0.0028,
- "avg_likes": 132.4,
- "avg_comments": 7.4,
- "avg_views": 46959.0,
+ "followers": 638000,
+ "engagement_rate": 0.0045,
+ "avg_likes": 140.9,
+ "avg_comments": 4.9,
+ "avg_views": 31508.2,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -19,7 +19,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:26:13+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 51.25,
  "grade": "C",
  "score_breakdown": {
@@ -34,20 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:0]",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12",
  "channel_id": "UClSW7LJ8qs7BwNfn2yMT0sQ",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 615000,
-   "engagement_rate": 0.0081,
-   "avg_likes": 184.9,
-   "posts_last_30d": 10,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 51.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:23:46+09:00",
    "followers": 613000,
@@ -302,6 +291,16 @@
    "posts_last_30d": 12,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:26:13+09:00",
+   "followers": 636000,
+   "engagement_rate": 0.0028,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 51.25,
+   "grade": "C"
   }
  ]
 }

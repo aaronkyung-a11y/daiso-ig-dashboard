@@ -4,13 +4,13 @@
  "fullname": "YUZU",
  "profile_url": "https://www.youtube.com/channel/UCkthQXGzGcLw5oW2KWTM4dg",
  "followers": 223000,
- "engagement_rate": 0.0249,
- "avg_likes": 824.8,
- "avg_comments": 45.6,
- "avg_views": 33098.8,
- "posts_last_30d": 14,
+ "engagement_rate": 0.0242,
+ "avg_likes": 868.9,
+ "avg_comments": 49.4,
+ "avg_views": 35855.5,
+ "posts_last_30d": 16,
  "_posts_last_30d_est": false,
- "sample_size": 14,
+ "sample_size": 16,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
@@ -19,7 +19,7 @@
   "beauty_keywords": "22건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:37:43+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 14개 [videos:8+shorts:12]",
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCkthQXGzGcLw5oW2KWTM4dg",
  "history": [
   {
@@ -88,6 +88,16 @@
    "posts_last_30d": 16,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:37:43+09:00",
+   "followers": 223000,
+   "engagement_rate": 0.0249,
+   "posts_last_30d": 14,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 77.5,
+   "grade": "A"
   }
  ]
 }

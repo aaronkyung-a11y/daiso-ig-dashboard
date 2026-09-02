@@ -3,11 +3,11 @@
  "username": "UCIErIGNaCbne1_Eu1VzHFcw",
  "fullname": "레이지홈",
  "profile_url": "https://www.youtube.com/channel/UCIErIGNaCbne1_Eu1VzHFcw",
- "followers": 2240,
- "engagement_rate": 0.0071,
+ "followers": 2250,
+ "engagement_rate": 0.007,
  "avg_likes": 46.5,
- "avg_comments": 2.2,
- "avg_views": 6588.5,
+ "avg_comments": 2.8,
+ "avg_views": 6601.0,
  "posts_last_30d": 4,
  "_posts_last_30d_est": false,
  "sample_size": 4,
@@ -19,7 +19,7 @@
   "beauty_keywords": "15건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:17:18+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 57.5,
  "grade": "C",
  "score_breakdown": {
@@ -34,20 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 4개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 4개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UCIErIGNaCbne1_Eu1VzHFcw",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 1980,
-   "engagement_rate": 0.0084,
-   "avg_likes": 825.7,
-   "posts_last_30d": 2,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 57.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-20T10:26:57+09:00",
    "followers": 1970,
@@ -306,6 +295,16 @@
    "posts_last_30d": 2,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:17:18+09:00",
+   "followers": 2240,
+   "engagement_rate": 0.0071,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 57.5,
+   "grade": "C"
   }
  ]
 }

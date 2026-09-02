@@ -3,23 +3,23 @@
  "username": "UCdLwMtqz0GwDXRPO_bgKwbw",
  "fullname": "리뷰히",
  "profile_url": "https://www.youtube.com/channel/UCdLwMtqz0GwDXRPO_bgKwbw",
- "followers": 6860,
- "engagement_rate": 0.0095,
- "avg_likes": 42.8,
- "avg_comments": 3.6,
- "avg_views": 4485.6,
- "posts_last_30d": 10,
+ "followers": 6880,
+ "engagement_rate": 0.0094,
+ "avg_likes": 40.6,
+ "avg_comments": 3.5,
+ "avg_views": 4328.4,
+ "posts_last_30d": 11,
  "_posts_last_30d_est": false,
- "sample_size": 10,
+ "sample_size": 11,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "8건",
-  "olive_young_mentions": "13건",
+  "daiso_mentions": "13건",
+  "olive_young_mentions": "10건",
   "beauty_keywords": "78건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:31:58+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 66.0,
  "grade": "B",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 10개 [videos:2+shorts:12]",
+ "sample_note": "YT 30일내 11개 [videos:2+shorts:12] meta_ok:14/14",
  "channel_id": "UCdLwMtqz0GwDXRPO_bgKwbw",
  "history": [
   {
@@ -77,6 +77,16 @@
    "posts_last_30d": 11,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:31:58+09:00",
+   "followers": 6860,
+   "engagement_rate": 0.0095,
+   "posts_last_30d": 10,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 66.0,
+   "grade": "B"
   }
  ]
 }

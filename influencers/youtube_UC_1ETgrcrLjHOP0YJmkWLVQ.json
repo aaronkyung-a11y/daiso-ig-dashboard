@@ -3,11 +3,11 @@
  "username": "UC_1ETgrcrLjHOP0YJmkWLVQ",
  "fullname": "최종시안",
  "profile_url": "https://www.youtube.com/channel/UC_1ETgrcrLjHOP0YJmkWLVQ",
- "followers": 369000,
- "engagement_rate": 0.0109,
- "avg_likes": 576.8,
- "avg_comments": 49.7,
- "avg_views": 53002.9,
+ "followers": 370000,
+ "engagement_rate": 0.0101,
+ "avg_likes": 640.7,
+ "avg_comments": 60.6,
+ "avg_views": 63463.9,
  "posts_last_30d": 18,
  "_posts_last_30d_est": false,
  "sample_size": 18,
@@ -15,11 +15,11 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "34건",
-  "beauty_keywords": "137건",
+  "olive_young_mentions": "27건",
+  "beauty_keywords": "82건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:31:58+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 18개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 18개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UC_1ETgrcrLjHOP0YJmkWLVQ",
  "history": [
   {
@@ -98,6 +98,16 @@
    "posts_last_30d": 18,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:31:58+09:00",
+   "followers": 369000,
+   "engagement_rate": 0.0109,
+   "posts_last_30d": 18,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 77.5,
+   "grade": "A"
   }
  ]
 }

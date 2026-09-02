@@ -3,23 +3,23 @@
  "username": "UCklkYxRVIAsczwi9w6Y3l5g",
  "fullname": "수",
  "profile_url": "https://www.youtube.com/channel/UCklkYxRVIAsczwi9w6Y3l5g",
- "followers": 924,
- "engagement_rate": 0.0072,
- "avg_likes": 7.4,
+ "followers": 926,
+ "engagement_rate": 0.0074,
+ "avg_likes": 7.7,
  "avg_comments": 0.0,
- "avg_views": 1031.4,
- "posts_last_30d": 5,
+ "avg_views": 1033.7,
+ "posts_last_30d": 6,
  "_posts_last_30d_est": false,
- "sample_size": 5,
+ "sample_size": 6,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "20건",
-  "olive_young_mentions": "12건",
-  "beauty_keywords": "33건",
+  "olive_young_mentions": "14건",
+  "beauty_keywords": "32건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:23:20+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 58.5,
  "grade": "C",
  "score_breakdown": {
@@ -34,20 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 6개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UCklkYxRVIAsczwi9w6Y3l5g",
  "history": [
-  {
-   "evaluated_at": "2026-07-23T10:35:31+09:00",
-   "followers": 884,
-   "engagement_rate": 0.0104,
-   "avg_likes": 72.7,
-   "posts_last_30d": 6,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 71.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-22T10:33:54+09:00",
    "followers": 884,
@@ -306,6 +295,16 @@
    "posts_last_30d": 6,
    "brand_fit_score": 90,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:23:20+09:00",
+   "followers": 924,
+   "engagement_rate": 0.0072,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 58.5,
+   "grade": "C"
   }
  ]
 }

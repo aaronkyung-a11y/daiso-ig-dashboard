@@ -4,13 +4,13 @@
  "fullname": "Hyukヒョク",
  "profile_url": "https://www.youtube.com/channel/UC1JblLAuGsgpxjQjROHfwzQ",
  "followers": 535000,
- "engagement_rate": 0.0133,
- "avg_likes": 871.5,
- "avg_comments": 35.9,
- "avg_views": 65438.2,
- "posts_last_30d": 8,
+ "engagement_rate": 0.0115,
+ "avg_likes": 865.3,
+ "avg_comments": 34.0,
+ "avg_views": 75075.4,
+ "posts_last_30d": 7,
  "_posts_last_30d_est": false,
- "sample_size": 8,
+ "sample_size": 7,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -19,7 +19,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:43:29+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 58.25,
  "grade": "C",
  "score_breakdown": {
@@ -34,7 +34,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UC1JblLAuGsgpxjQjROHfwzQ",
- "history": []
+ "history": [
+  {
+   "evaluated_at": "2026-08-31T10:43:29+09:00",
+   "followers": 535000,
+   "engagement_rate": 0.0133,
+   "posts_last_30d": 8,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 58.25,
+   "grade": "C"
+  }
+ ]
 }

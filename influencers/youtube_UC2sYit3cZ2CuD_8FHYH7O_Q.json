@@ -4,27 +4,27 @@
  "fullname": "Hyram",
  "profile_url": "https://www.youtube.com/channel/UC2sYit3cZ2CuD_8FHYH7O_Q",
  "followers": 4350000,
- "engagement_rate": 0.0301,
- "avg_likes": 621.1,
- "avg_comments": 66.6,
- "avg_views": 20641.2,
- "posts_last_30d": 8,
+ "engagement_rate": 0.0243,
+ "avg_likes": 566.1,
+ "avg_comments": 53.9,
+ "avg_views": 23321.1,
+ "posts_last_30d": 7,
  "_posts_last_30d_est": false,
- "sample_size": 8,
- "brand_fit_score": 25,
- "retailer_focus": "off_topic",
+ "sample_size": 7,
+ "brand_fit_score": 90,
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "0건",
+  "beauty_keywords": "80건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:43:29+09:00",
- "score_total": 68.25,
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 74.5,
  "grade": "B",
  "score_breakdown": {
-  "er": 80,
-  "brand_fit": 25,
+  "er": 60,
+  "brand_fit": 90,
   "consistency": 80,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UC2sYit3cZ2CuD_8FHYH7O_Q",
  "history": [
   {
@@ -88,6 +88,16 @@
    "posts_last_30d": 7,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:43:29+09:00",
+   "followers": 4350000,
+   "engagement_rate": 0.0301,
+   "posts_last_30d": 8,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 68.25,
+   "grade": "B"
   }
  ]
 }

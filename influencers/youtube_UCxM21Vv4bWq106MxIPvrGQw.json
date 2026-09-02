@@ -4,10 +4,10 @@
  "fullname": "써니 SUNNY",
  "profile_url": "https://www.youtube.com/channel/UCxM21Vv4bWq106MxIPvrGQw",
  "followers": 1200000,
- "engagement_rate": 0.0198,
- "avg_likes": 345.0,
- "avg_comments": 75.5,
- "avg_views": 17432.5,
+ "engagement_rate": 0.0171,
+ "avg_likes": 437.0,
+ "avg_comments": 82.0,
+ "avg_views": 25622.0,
  "posts_last_30d": 2,
  "_posts_last_30d_est": false,
  "sample_size": 2,
@@ -15,11 +15,11 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "22건",
-  "beauty_keywords": "396건",
+  "olive_young_mentions": "7건",
+  "beauty_keywords": "191건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:37:43+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 71.5,
  "grade": "B",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 2개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 2개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCxM21Vv4bWq106MxIPvrGQw",
  "history": [
   {
@@ -88,6 +88,16 @@
    "posts_last_30d": 1,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:37:43+09:00",
+   "followers": 1200000,
+   "engagement_rate": 0.0198,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 71.5,
+   "grade": "B"
   }
  ]
 }

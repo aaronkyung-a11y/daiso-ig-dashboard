@@ -4,22 +4,22 @@
  "fullname": "에이로그 뷰티&라이프💕",
  "profile_url": "https://www.youtube.com/channel/UC9RZHKBiLfNWb_1D25ajDdw",
  "followers": 112000,
- "engagement_rate": 0.0092,
- "avg_likes": 41.8,
- "avg_comments": 14.2,
- "avg_views": 4561.8,
- "posts_last_30d": 5,
+ "engagement_rate": 0.009,
+ "avg_likes": 39.5,
+ "avg_comments": 15.3,
+ "avg_views": 4371.8,
+ "posts_last_30d": 6,
  "_posts_last_30d_est": false,
- "sample_size": 5,
+ "sample_size": 6,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "10건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "12건",
+  "daiso_mentions": "14건",
+  "olive_young_mentions": "2건",
+  "beauty_keywords": "13건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:29:06+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 64.5,
  "grade": "C",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UC9RZHKBiLfNWb_1D25ajDdw",
  "history": [
   {
@@ -98,6 +98,16 @@
    "posts_last_30d": 3,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:29:06+09:00",
+   "followers": 112000,
+   "engagement_rate": 0.0092,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 64.5,
+   "grade": "C"
   }
  ]
 }

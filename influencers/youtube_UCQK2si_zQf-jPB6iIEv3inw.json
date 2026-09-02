@@ -3,14 +3,14 @@
  "username": "UCQK2si_zQf-jPB6iIEv3inw",
  "fullname": "秋水不染尘",
  "profile_url": "https://www.youtube.com/channel/UCQK2si_zQf-jPB6iIEv3inw",
- "followers": 204000,
- "engagement_rate": 0.0075,
- "avg_likes": 430.4,
- "avg_comments": 21.6,
- "avg_views": 57159.2,
- "posts_last_30d": 5,
+ "followers": 205000,
+ "engagement_rate": 0.0076,
+ "avg_likes": 514.0,
+ "avg_comments": 27.2,
+ "avg_views": 67274.8,
+ "posts_last_30d": 6,
  "_posts_last_30d_est": false,
- "sample_size": 5,
+ "sample_size": 6,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -19,7 +19,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:43:29+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 48.25,
  "grade": "D",
  "score_breakdown": {
@@ -34,7 +34,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 [videos:12+shorts:3]",
+ "sample_note": "YT 30일내 6개 [videos:12+shorts:3] meta_ok:15/15",
  "channel_id": "UCQK2si_zQf-jPB6iIEv3inw",
- "history": []
+ "history": [
+  {
+   "evaluated_at": "2026-08-31T10:43:29+09:00",
+   "followers": 204000,
+   "engagement_rate": 0.0075,
+   "posts_last_30d": 5,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 48.25,
+   "grade": "D"
+  }
+ ]
 }

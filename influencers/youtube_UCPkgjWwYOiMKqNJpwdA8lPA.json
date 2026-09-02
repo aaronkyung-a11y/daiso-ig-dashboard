@@ -4,28 +4,28 @@
  "fullname": "소살 Sora Salon",
  "profile_url": "https://www.youtube.com/channel/UCPkgjWwYOiMKqNJpwdA8lPA",
  "followers": 139000,
- "engagement_rate": 0.008,
- "avg_likes": 1159.0,
+ "engagement_rate": 0.0079,
+ "avg_likes": 1050.0,
  "avg_comments": 86.4,
- "avg_views": 144018.7,
- "posts_last_30d": 9,
+ "avg_views": 132842.5,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": false,
- "sample_size": 9,
+ "sample_size": 10,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "17건",
-  "beauty_keywords": "57건",
+  "olive_young_mentions": "5건",
+  "beauty_keywords": "32건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:20:12+09:00",
- "score_total": 64.5,
- "grade": "C",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 67.5,
+ "grade": "B",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 90,
-  "consistency": 80,
+  "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 10개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCPkgjWwYOiMKqNJpwdA8lPA",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
-   "followers": 134000,
-   "engagement_rate": 0.0165,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 133000,
@@ -299,6 +289,16 @@
    "posts_last_30d": 10,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:20:12+09:00",
+   "followers": 139000,
+   "engagement_rate": 0.008,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 64.5,
+   "grade": "C"
   }
  ]
 }

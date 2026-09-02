@@ -3,54 +3,41 @@
  "username": "beauty._charmi",
  "fullname": "챠미뷰티 l 홈케어•색조템•뷰티꿀팁",
  "profile_url": "https://www.instagram.com/beauty._charmi/",
- "followers": 63689,
- "engagement_rate": 0.01,
- "avg_likes": 620,
- "avg_comments": 16,
- "avg_views": 76572.5,
- "posts_last_30d": 9,
+ "followers": 63756,
+ "engagement_rate": 0.009,
+ "avg_likes": 558.8,
+ "avg_comments": 12.6,
+ "avg_views": 103482.8,
+ "posts_last_30d": 21,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 24,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "3건",
-  "olive_young_mentions": "9건",
-  "beauty_keywords": "75건",
+  "daiso_mentions": "9건",
+  "olive_young_mentions": "33건",
+  "beauty_keywords": "114건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:50:48+09:00",
- "score_total": 72.5,
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 90,
-  "consistency": 80,
+  "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "er_carried_over": true,
-  "posts_30d_carried_over": true,
-  "brand_fit_carried_over": true,
-  "carried_over_from": "2026-08-26T10:42:02+09:00"
+  "posts_30d_estimated": false
  },
- "sample_note": "IG 로그아웃 — 프로필 지표만 실측(팔로워). ER·30일게시물·brand_fit 은 2026-08-26T10:42 측정값 이월",
- "_likes_hidden": 8,
+ "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 21건",
+ "_likes_hidden": 0,
+ "_ig_logged_out": false,
  "history": [
-  {
-   "evaluated_at": "2026-07-06T10:19:37.636436+09:00",
-   "followers": 61249,
-   "engagement_rate": 0.0116,
-   "posts_last_30d": 21,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 78.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-19T10:32:29.467856+09:00",
    "followers": 58930,
@@ -310,7 +297,16 @@
    "posts_last_30d": 9,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:50:48+09:00",
+   "followers": 63689,
+   "engagement_rate": 0.01,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 72.5,
+   "grade": "B"
   }
- ],
- "_ig_logged_out": true
+ ]
 }

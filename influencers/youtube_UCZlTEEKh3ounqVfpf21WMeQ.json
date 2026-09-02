@@ -3,23 +3,23 @@
  "username": "UCZlTEEKh3ounqVfpf21WMeQ",
  "fullname": "최모나choimona",
  "profile_url": "https://www.youtube.com/channel/UCZlTEEKh3ounqVfpf21WMeQ",
- "followers": 447000,
- "engagement_rate": 0.0128,
- "avg_likes": 373.2,
- "avg_comments": 74.1,
- "avg_views": 29114.7,
- "posts_last_30d": 17,
+ "followers": 446000,
+ "engagement_rate": 0.0124,
+ "avg_likes": 359.6,
+ "avg_comments": 79.1,
+ "avg_views": 28884.0,
+ "posts_last_30d": 19,
  "_posts_last_30d_est": false,
- "sample_size": 17,
+ "sample_size": 19,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "12건",
-  "beauty_keywords": "100건",
+  "olive_young_mentions": "8건",
+  "beauty_keywords": "63건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:40:37+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 17개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 19개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCZlTEEKh3ounqVfpf21WMeQ",
  "history": [
   {
@@ -88,6 +88,16 @@
    "posts_last_30d": 16,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:40:37+09:00",
+   "followers": 447000,
+   "engagement_rate": 0.0128,
+   "posts_last_30d": 17,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 77.5,
+   "grade": "A"
   }
  ]
 }

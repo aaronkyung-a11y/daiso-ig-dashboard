@@ -3,14 +3,14 @@
  "username": "k_eunmi___",
  "fullname": "은미✨",
  "profile_url": "https://www.instagram.com/k_eunmi___/",
- "followers": 1585,
- "engagement_rate": 0.0482,
- "avg_likes": 73.4,
- "avg_comments": 2.9,
+ "followers": 1584,
+ "engagement_rate": 0.0362,
+ "avg_likes": 55.4,
+ "avg_comments": 2,
  "avg_views": 0,
  "posts_last_30d": 2,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 24,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -19,7 +19,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:50:48+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 61.25,
  "grade": "C",
  "score_breakdown": {
@@ -32,25 +32,12 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "er_carried_over": true,
-  "posts_30d_carried_over": true,
-  "brand_fit_carried_over": true,
-  "carried_over_from": "2026-08-26T10:42:02+09:00"
+  "posts_30d_estimated": false
  },
- "sample_note": "IG 로그아웃 — 프로필 지표만 실측(팔로워). ER·30일게시물·brand_fit 은 2026-08-26T10:42 측정값 이월",
+ "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 2건",
  "_likes_hidden": 0,
+ "_ig_logged_out": false,
  "history": [
-  {
-   "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
-   "followers": 1640,
-   "engagement_rate": 0.0223,
-   "posts_last_30d": 3,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 51.25,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-05-06T09:10:00+09:00",
    "followers": 1650,
@@ -318,7 +305,16 @@
    "posts_last_30d": 2,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:50:48+09:00",
+   "followers": 1585,
+   "engagement_rate": 0.0482,
+   "posts_last_30d": 2,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 61.25,
+   "grade": "C"
   }
- ],
- "_ig_logged_out": true
+ ]
 }

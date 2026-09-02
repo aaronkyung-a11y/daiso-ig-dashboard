@@ -4,26 +4,26 @@
  "fullname": "살림토끼",
  "profile_url": "https://www.youtube.com/channel/UCwFNiYnTtrYuwO7YRWomatw",
  "followers": 126000,
- "engagement_rate": 0.011,
- "avg_likes": 1551.9,
- "avg_comments": 26.2,
- "avg_views": 141142.6,
+ "engagement_rate": 0.0093,
+ "avg_likes": 1358.2,
+ "avg_comments": 24.2,
+ "avg_views": 145428.1,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "119건",
-  "olive_young_mentions": "11건",
-  "beauty_keywords": "32건",
+  "daiso_mentions": "67건",
+  "olive_young_mentions": "7건",
+  "beauty_keywords": "35건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:14:13+09:00",
- "score_total": 77.5,
- "grade": "A",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 67.5,
+ "grade": "B",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 90,
   "consistency": 100,
   "followers": 100,
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCwFNiYnTtrYuwO7YRWomatw",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:23:30.923982+09:00",
-   "followers": 123000,
-   "engagement_rate": 0.0079,
-   "posts_last_30d": 0,
-   "brand_fit_score": 75,
-   "retailer_focus": "daiso",
-   "score_total": 54.75,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-03T10:14:33.516676+09:00",
    "followers": 122000,
@@ -302,6 +292,16 @@
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:14:13+09:00",
+   "followers": 126000,
+   "engagement_rate": 0.011,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 77.5,
+   "grade": "A"
   }
  ]
 }

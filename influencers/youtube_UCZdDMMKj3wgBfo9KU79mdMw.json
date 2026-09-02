@@ -4,10 +4,10 @@
  "fullname": "ぼっちの内科医",
  "profile_url": "https://www.youtube.com/channel/UCZdDMMKj3wgBfo9KU79mdMw",
  "followers": 8390,
- "engagement_rate": 0.018,
- "avg_likes": 203.8,
- "avg_comments": 16.4,
- "avg_views": 11292.2,
+ "engagement_rate": 0.0154,
+ "avg_likes": 202.2,
+ "avg_comments": 16.2,
+ "avg_views": 13172.3,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -19,7 +19,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:23:20+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 57.25,
  "grade": "C",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:1+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:1+shorts:12] meta_ok:13/13",
  "channel_id": "UCZdDMMKj3wgBfo9KU79mdMw",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:21:33+09:00",
-   "followers": 7910,
-   "engagement_rate": 0.0217,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.25,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-07-17T10:26:23.788106+09:00",
    "followers": 7900,
@@ -299,6 +289,16 @@
    "posts_last_30d": 12,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:23:20+09:00",
+   "followers": 8390,
+   "engagement_rate": 0.018,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 57.25,
+   "grade": "C"
   }
  ]
 }

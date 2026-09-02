@@ -3,14 +3,14 @@
  "username": "UCtBo1Hf3HI7QmpHwRWOBRLw",
  "fullname": "세네모",
  "profile_url": "https://www.youtube.com/channel/UCtBo1Hf3HI7QmpHwRWOBRLw",
- "followers": 1370,
- "engagement_rate": 0.0283,
- "avg_likes": 3.8,
- "avg_comments": 1.3,
- "avg_views": 134.2,
- "posts_last_30d": 6,
+ "followers": 1380,
+ "engagement_rate": 0.0242,
+ "avg_likes": 3.6,
+ "avg_comments": 1.5,
+ "avg_views": 149.0,
+ "posts_last_30d": 5,
  "_posts_last_30d_est": false,
- "sample_size": 6,
+ "sample_size": 5,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -19,7 +19,7 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:31:58+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 54.25,
  "grade": "C",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 6개 [videos:12+shorts:0]",
+ "sample_note": "YT 30일내 5개 [videos:12+shorts:0] meta_ok:12/12",
  "channel_id": "UCtBo1Hf3HI7QmpHwRWOBRLw",
  "history": [
   {
@@ -98,6 +98,16 @@
    "posts_last_30d": 9,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:31:58+09:00",
+   "followers": 1370,
+   "engagement_rate": 0.0283,
+   "posts_last_30d": 6,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 54.25,
+   "grade": "C"
   }
  ]
 }

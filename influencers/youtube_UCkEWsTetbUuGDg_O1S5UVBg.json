@@ -4,22 +4,22 @@
  "fullname": "살림남 The Life",
  "profile_url": "https://www.youtube.com/channel/UCkEWsTetbUuGDg_O1S5UVBg",
  "followers": 478000,
- "engagement_rate": 0.0055,
- "avg_likes": 1584.6,
- "avg_comments": 17.2,
- "avg_views": 287402.2,
+ "engagement_rate": 0.0054,
+ "avg_likes": 1875.0,
+ "avg_comments": 19.0,
+ "avg_views": 346457.4,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "141건",
+  "daiso_mentions": "58건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "15건",
+  "beauty_keywords": "11건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:14:13+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 67.5,
  "grade": "B",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCkEWsTetbUuGDg_O1S5UVBg",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:23:30.923982+09:00",
-   "followers": 475000,
-   "engagement_rate": 0.0079,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 58.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-03T10:14:09.465620+09:00",
    "followers": 475000,
@@ -305,6 +295,16 @@
    "posts_last_30d": 12,
    "brand_fit_score": 25,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:14:13+09:00",
+   "followers": 478000,
+   "engagement_rate": 0.0055,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 67.5,
+   "grade": "B"
   }
  ]
 }

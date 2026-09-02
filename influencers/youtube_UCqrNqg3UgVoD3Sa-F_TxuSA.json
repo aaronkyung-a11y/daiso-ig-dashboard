@@ -4,10 +4,10 @@
  "fullname": "디렉터파이",
  "profile_url": "https://www.youtube.com/channel/UCqrNqg3UgVoD3Sa-F_TxuSA",
  "followers": 1040000,
- "engagement_rate": 0.0102,
- "avg_likes": 444.8,
- "avg_comments": 34.5,
- "avg_views": 43800.6,
+ "engagement_rate": 0.0098,
+ "avg_likes": 458.8,
+ "avg_comments": 36.8,
+ "avg_views": 47055.6,
  "posts_last_30d": 5,
  "_posts_last_30d_est": false,
  "sample_size": 5,
@@ -15,15 +15,15 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "8건",
-  "beauty_keywords": "57건",
+  "olive_young_mentions": "7건",
+  "beauty_keywords": "54건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:14:13+09:00",
- "score_total": 74.5,
- "grade": "B",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 64.5,
+ "grade": "C",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 90,
   "consistency": 80,
   "followers": 100,
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 5개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCqrNqg3UgVoD3Sa-F_TxuSA",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:22:20.335257+09:00",
-   "followers": 1040000,
-   "engagement_rate": 0.023,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-03T10:14:33.516676+09:00",
    "followers": 1040000,
@@ -304,6 +294,16 @@
    "posts_last_30d": 5,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:14:13+09:00",
+   "followers": 1040000,
+   "engagement_rate": 0.0102,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 74.5,
+   "grade": "B"
   }
  ]
 }

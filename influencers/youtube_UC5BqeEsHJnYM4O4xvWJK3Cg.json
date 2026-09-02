@@ -3,23 +3,23 @@
  "username": "UC5BqeEsHJnYM4O4xvWJK3Cg",
  "fullname": "쎄이 SSAY",
  "profile_url": "https://www.youtube.com/channel/UC5BqeEsHJnYM4O4xvWJK3Cg",
- "followers": 7010,
- "engagement_rate": 0.0107,
- "avg_likes": 34.5,
- "avg_comments": 4.3,
- "avg_views": 3228.0,
+ "followers": 7020,
+ "engagement_rate": 0.0104,
+ "avg_likes": 35.7,
+ "avg_comments": 5.0,
+ "avg_views": 3431.8,
  "posts_last_30d": 13,
  "_posts_last_30d_est": false,
  "sample_size": 13,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "137건",
-  "olive_young_mentions": "109건",
-  "beauty_keywords": "126건",
+  "daiso_mentions": "52건",
+  "olive_young_mentions": "50건",
+  "beauty_keywords": "72건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:17:18+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 76.0,
  "grade": "A",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 13개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UC5BqeEsHJnYM4O4xvWJK3Cg",
  "history": [
-  {
-   "evaluated_at": "2026-07-08T10:17:26.537296+09:00",
-   "followers": 6870,
-   "engagement_rate": 0.0147,
-   "posts_last_30d": 1,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "score_total": 64.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
    "followers": 6860,
@@ -305,6 +295,16 @@
    "posts_last_30d": 13,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:17:18+09:00",
+   "followers": 7010,
+   "engagement_rate": 0.0107,
+   "posts_last_30d": 13,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 76.0,
+   "grade": "A"
   }
  ]
 }

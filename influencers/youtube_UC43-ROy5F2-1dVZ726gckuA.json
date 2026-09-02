@@ -3,23 +3,23 @@
  "username": "UC43-ROy5F2-1dVZ726gckuA",
  "fullname": "원츄",
  "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA",
- "followers": 666,
- "engagement_rate": 0.012,
- "avg_likes": 368.6,
- "avg_comments": 6.7,
- "avg_views": 30620.7,
+ "followers": 665,
+ "engagement_rate": 0.0119,
+ "avg_likes": 371.2,
+ "avg_comments": 6.8,
+ "avg_views": 31101.8,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "16건",
-  "olive_young_mentions": "5건",
-  "beauty_keywords": "28건",
+  "daiso_mentions": "17건",
+  "olive_young_mentions": "7건",
+  "beauty_keywords": "29건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:14:13+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 0개 [videos:0+shorts:12] meta_ok:12/12 — 30일내 0건, 최근 20개로 대체",
  "channel_id": "UC43-ROy5F2-1dVZ726gckuA",
  "history": [
-  {
-   "evaluated_at": "2026-06-30T10:19:36.483425+09:00",
-   "followers": 649,
-   "engagement_rate": 0.0134,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 68.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 641,
@@ -298,6 +288,16 @@
    "posts_last_30d": 0,
    "brand_fit_score": 90,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:14:13+09:00",
+   "followers": 666,
+   "engagement_rate": 0.012,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 62.5,
+   "grade": "C"
   }
  ]
 }

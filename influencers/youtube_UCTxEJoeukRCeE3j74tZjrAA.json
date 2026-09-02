@@ -4,13 +4,13 @@
  "fullname": "DDOLDDOL 김똘똘",
  "profile_url": "https://www.youtube.com/channel/UCTxEJoeukRCeE3j74tZjrAA",
  "followers": 431000,
- "engagement_rate": 0.0094,
- "avg_likes": 395.3,
- "avg_comments": 27.1,
- "avg_views": 41981.7,
- "posts_last_30d": 16,
+ "engagement_rate": 0.0092,
+ "avg_likes": 387.5,
+ "avg_comments": 25.8,
+ "avg_views": 42241.8,
+ "posts_last_30d": 15,
  "_posts_last_30d_est": false,
- "sample_size": 16,
+ "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
@@ -19,7 +19,7 @@
   "beauty_keywords": "8건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:29:06+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 67.5,
  "grade": "B",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 15개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCTxEJoeukRCeE3j74tZjrAA",
  "history": [
   {
@@ -131,6 +131,16 @@
    "posts_last_30d": 15,
    "brand_fit_score": 25,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:29:06+09:00",
+   "followers": 431000,
+   "engagement_rate": 0.0094,
+   "posts_last_30d": 16,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 67.5,
+   "grade": "B"
   }
  ]
 }

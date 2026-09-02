@@ -4,28 +4,28 @@
  "fullname": "하요이",
  "profile_url": "https://www.youtube.com/channel/UC4ls0b7f-ngnyKCWLdyRWrw",
  "followers": 16300,
- "engagement_rate": 0.0203,
- "avg_likes": 189.4,
- "avg_comments": 9.6,
- "avg_views": 9330.2,
- "posts_last_30d": 9,
+ "engagement_rate": 0.0208,
+ "avg_likes": 171.2,
+ "avg_comments": 8.4,
+ "avg_views": 8217.5,
+ "posts_last_30d": 11,
  "_posts_last_30d_est": false,
- "sample_size": 9,
+ "sample_size": 11,
  "brand_fit_score": 90,
- "retailer_focus": "beauty_general",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "0건",
+  "olive_young_mentions": "4건",
   "beauty_keywords": "9건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:17:18+09:00",
- "score_total": 72.5,
- "grade": "B",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 75.5,
+ "grade": "A",
  "score_breakdown": {
   "er": 60,
   "brand_fit": 90,
-  "consistency": 80,
+  "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 [videos:4+shorts:12]",
+ "sample_note": "YT 30일내 11개 [videos:4+shorts:12] meta_ok:16/16",
  "channel_id": "UC4ls0b7f-ngnyKCWLdyRWrw",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:24:13.911279+09:00",
-   "followers": 15700,
-   "engagement_rate": 0.0097,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 56.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
    "followers": 15200,
@@ -300,6 +290,16 @@
    "posts_last_30d": 10,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:17:18+09:00",
+   "followers": 16300,
+   "engagement_rate": 0.0203,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 72.5,
+   "grade": "B"
   }
  ]
 }

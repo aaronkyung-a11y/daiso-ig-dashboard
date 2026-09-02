@@ -4,27 +4,27 @@
  "fullname": "황송픽 hs_pick",
  "profile_url": "https://www.youtube.com/channel/UC6gHLvwXKjfSG9OkECAJT5g",
  "followers": 22600,
- "engagement_rate": 0.006,
- "avg_likes": 30.4,
+ "engagement_rate": 0.0059,
+ "avg_likes": 26.0,
  "avg_comments": 1.6,
- "avg_views": 5081.6,
- "posts_last_30d": 5,
+ "avg_views": 4423.0,
+ "posts_last_30d": 6,
  "_posts_last_30d_est": false,
- "sample_size": 5,
- "brand_fit_score": 90,
+ "sample_size": 6,
+ "brand_fit_score": 75,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "82건",
-  "olive_young_mentions": "13건",
-  "beauty_keywords": "28건",
+  "daiso_mentions": "53건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "6건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:29:06+09:00",
- "score_total": 62.5,
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 58.75,
  "grade": "C",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 90,
+  "brand_fit": 75,
   "consistency": 80,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 6개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UC6gHLvwXKjfSG9OkECAJT5g",
  "history": [
   {
@@ -98,6 +98,16 @@
    "posts_last_30d": 6,
    "brand_fit_score": 75,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:29:06+09:00",
+   "followers": 22600,
+   "engagement_rate": 0.006,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 62.5,
+   "grade": "C"
   }
  ]
 }

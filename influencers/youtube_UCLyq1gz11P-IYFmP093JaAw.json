@@ -4,22 +4,22 @@
  "fullname": "뷰티숨BEAUTYSOOM",
  "profile_url": "https://www.youtube.com/channel/UCLyq1gz11P-IYFmP093JaAw",
  "followers": 349000,
- "engagement_rate": 0.013,
- "avg_likes": 345.0,
- "avg_comments": 27.7,
- "avg_views": 26506.0,
+ "engagement_rate": 0.0139,
+ "avg_likes": 654.3,
+ "avg_comments": 56.3,
+ "avg_views": 46952.7,
  "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "sample_size": 3,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "14건",
-  "olive_young_mentions": "55건",
-  "beauty_keywords": "643건",
+  "daiso_mentions": "1건",
+  "olive_young_mentions": "7건",
+  "beauty_keywords": "224건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:20:12+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 71.5,
  "grade": "B",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 3개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCLyq1gz11P-IYFmP093JaAw",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
-   "followers": 347000,
-   "engagement_rate": 0.0206,
-   "posts_last_30d": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 71.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 347000,
@@ -294,6 +284,16 @@
    "posts_last_30d": 2,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:20:12+09:00",
+   "followers": 349000,
+   "engagement_rate": 0.013,
+   "posts_last_30d": 3,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 71.5,
+   "grade": "B"
   }
  ]
 }

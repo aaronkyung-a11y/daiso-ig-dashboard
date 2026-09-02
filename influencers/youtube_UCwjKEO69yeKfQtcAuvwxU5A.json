@@ -3,23 +3,23 @@
  "username": "UCwjKEO69yeKfQtcAuvwxU5A",
  "fullname": "피부보금터",
  "profile_url": "https://www.youtube.com/channel/UCwjKEO69yeKfQtcAuvwxU5A",
- "followers": 9510,
+ "followers": 9520,
  "engagement_rate": 0.0086,
- "avg_likes": 225.0,
+ "avg_likes": 225.5,
  "avg_comments": 2.0,
- "avg_views": 26104.5,
+ "avg_views": 26211.5,
  "posts_last_30d": 2,
  "_posts_last_30d_est": false,
  "sample_size": 2,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "38건",
+  "daiso_mentions": "42건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "54건",
+  "beauty_keywords": "60건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:34:51+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 57.5,
  "grade": "C",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 2개 [videos:1+shorts:12]",
+ "sample_note": "YT 30일내 2개 [videos:1+shorts:12] meta_ok:13/13",
  "channel_id": "UCwjKEO69yeKfQtcAuvwxU5A",
  "history": [
   {
@@ -77,6 +77,16 @@
    "posts_last_30d": 3,
    "brand_fit_score": 90,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:34:51+09:00",
+   "followers": 9510,
+   "engagement_rate": 0.0086,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 57.5,
+   "grade": "C"
   }
  ]
 }

@@ -3,23 +3,23 @@
  "username": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
  "fullname": "키키 ",
  "profile_url": "https://www.youtube.com/channel/UC8HAR9C0Wuy7Hp1RPi1BZiw",
- "followers": 2080,
+ "followers": 2110,
  "engagement_rate": 0.0081,
- "avg_likes": 947.8,
- "avg_comments": 12.5,
- "avg_views": 117016.0,
- "posts_last_30d": 8,
+ "avg_likes": 1155.3,
+ "avg_comments": 13.4,
+ "avg_views": 143177.6,
+ "posts_last_30d": 7,
  "_posts_last_30d_est": false,
- "sample_size": 8,
+ "sample_size": 7,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "4건",
   "olive_young_mentions": "7건",
-  "beauty_keywords": "45건",
+  "beauty_keywords": "46건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:17:18+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 60.5,
  "grade": "C",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 7개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:26:06+09:00",
-   "followers": 955,
-   "engagement_rate": 0.0058,
-   "posts_last_30d": 7,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 58.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-17T10:47:13.614770+09:00",
    "followers": 946,
@@ -304,6 +294,16 @@
    "posts_last_30d": 8,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:17:18+09:00",
+   "followers": 2080,
+   "engagement_rate": 0.0081,
+   "posts_last_30d": 8,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 60.5,
+   "grade": "C"
   }
  ]
 }

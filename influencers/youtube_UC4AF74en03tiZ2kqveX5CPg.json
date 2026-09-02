@@ -3,14 +3,14 @@
  "username": "UC4AF74en03tiZ2kqveX5CPg",
  "fullname": "秘境动漫社",
  "profile_url": "https://www.youtube.com/channel/UC4AF74en03tiZ2kqveX5CPg",
- "followers": 4830,
- "engagement_rate": 0.0099,
- "avg_likes": 223.8,
- "avg_comments": 11.2,
- "avg_views": 22699.5,
- "posts_last_30d": 12,
+ "followers": 5220,
+ "engagement_rate": 0.0078,
+ "avg_likes": 263.2,
+ "avg_comments": 11.7,
+ "avg_views": 33713.0,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 9,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -19,13 +19,13 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:43:29+09:00",
- "score_total": 47.25,
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 44.25,
  "grade": "D",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 25,
-  "consistency": 100,
+  "consistency": 80,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
@@ -34,7 +34,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:0]",
+ "sample_note": "YT 30일내 9개 [videos:9+shorts:0] meta_ok:9/9",
  "channel_id": "UC4AF74en03tiZ2kqveX5CPg",
- "history": []
+ "history": [
+  {
+   "evaluated_at": "2026-08-31T10:43:29+09:00",
+   "followers": 4830,
+   "engagement_rate": 0.0099,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 47.25,
+   "grade": "D"
+  }
+ ]
 }

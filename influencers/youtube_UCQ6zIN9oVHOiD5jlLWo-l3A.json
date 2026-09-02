@@ -4,10 +4,10 @@
  "fullname": "글리터코코",
  "profile_url": "https://www.youtube.com/channel/UCQ6zIN9oVHOiD5jlLWo-l3A",
  "followers": 2920,
- "engagement_rate": 0.0027,
- "avg_likes": 39.4,
+ "engagement_rate": 0.0024,
+ "avg_likes": 38.4,
  "avg_comments": 1.0,
- "avg_views": 14812.4,
+ "avg_views": 16163.4,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -15,11 +15,11 @@
  "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "7건",
-  "olive_young_mentions": "2건",
-  "beauty_keywords": "8건",
+  "olive_young_mentions": "3건",
+  "beauty_keywords": "10건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:34:51+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 63.5,
  "grade": "C",
  "score_breakdown": {
@@ -34,7 +34,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UCQ6zIN9oVHOiD5jlLWo-l3A",
  "history": [
   {
@@ -77,6 +77,16 @@
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "daiso"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:34:51+09:00",
+   "followers": 2920,
+   "engagement_rate": 0.0027,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 63.5,
+   "grade": "C"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "username": "lobit_beauty",
  "fullname": "로빗 lobit🐰🫧",
  "profile_url": "https://www.instagram.com/lobit_beauty/",
- "followers": 17485,
- "engagement_rate": 0.0439,
- "avg_likes": 741,
- "avg_comments": 21.9,
- "avg_views": 64548.1,
- "posts_last_30d": 12,
- "_posts_last_30d_est": true,
- "sample_size": 12,
+ "followers": 17479,
+ "engagement_rate": 0.0508,
+ "avg_likes": 864.3,
+ "avg_comments": 24.1,
+ "avg_views": 76857.9,
+ "posts_last_30d": 13,
+ "_posts_last_30d_est": false,
+ "sample_size": 24,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "25건",
-  "olive_young_mentions": "28건",
-  "beauty_keywords": "25건",
+  "daiso_mentions": "59건",
+  "olive_young_mentions": "57건",
+  "beauty_keywords": "48건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:50:48+09:00",
- "score_total": 88.0,
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "score_total": 93.0,
  "grade": "S",
  "score_breakdown": {
-  "er": 80,
+  "er": 90,
   "brand_fit": 100,
   "consistency": 100,
   "followers": 80,
@@ -32,25 +32,12 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "er_carried_over": true,
-  "posts_30d_carried_over": true,
-  "brand_fit_carried_over": true,
-  "carried_over_from": "2026-08-26T10:42:02+09:00"
+  "posts_30d_estimated": false
  },
- "sample_note": "IG 로그아웃 — 프로필 지표만 실측(팔로워). ER·30일게시물·brand_fit 은 2026-08-26T10:42 측정값 이월",
- "_likes_hidden": 3,
+ "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 13건",
+ "_likes_hidden": 0,
+ "_ig_logged_out": false,
  "history": [
-  {
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
-   "followers": 14489,
-   "engagement_rate": 0.2565,
-   "posts_last_30d": 13,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 95.5,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
    "followers": 11000,
@@ -318,7 +305,16 @@
    "posts_last_30d": 12,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:50:48+09:00",
+   "followers": 17485,
+   "engagement_rate": 0.0439,
+   "posts_last_30d": 12,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 88.0,
+   "grade": "S"
   }
- ],
- "_ig_logged_out": true
+ ]
 }

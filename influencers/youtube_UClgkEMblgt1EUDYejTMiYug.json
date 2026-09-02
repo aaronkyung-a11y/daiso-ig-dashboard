@@ -3,11 +3,11 @@
  "username": "UClgkEMblgt1EUDYejTMiYug",
  "fullname": "은혜로운은혜",
  "profile_url": "https://www.youtube.com/channel/UClgkEMblgt1EUDYejTMiYug",
- "followers": 414,
+ "followers": 415,
  "engagement_rate": 0.0032,
  "avg_likes": 5.0,
  "avg_comments": 0.0,
- "avg_views": 1556.0,
+ "avg_views": 1580.0,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 1,
@@ -19,7 +19,7 @@
   "beauty_keywords": "81건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:14:13+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 55.0,
  "grade": "C",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 1개 [videos:0+shorts:12]",
+ "sample_note": "YT 30일내 1개 [videos:0+shorts:12] meta_ok:12/12",
  "channel_id": "UClgkEMblgt1EUDYejTMiYug",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:28:25+09:00",
-   "followers": 413,
-   "engagement_rate": 0.0079,
-   "posts_last_30d": 2,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 58.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-17T10:46:25.070601+09:00",
    "followers": 415,
@@ -305,6 +295,16 @@
    "posts_last_30d": 0,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:14:13+09:00",
+   "followers": 414,
+   "engagement_rate": 0.0032,
+   "posts_last_30d": 1,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 55.0,
+   "grade": "C"
   }
  ]
 }

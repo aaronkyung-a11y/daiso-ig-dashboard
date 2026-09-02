@@ -4,22 +4,22 @@
  "fullname": "재유JEYU",
  "profile_url": "https://www.youtube.com/channel/UC8P33HyFhfqThDUGk0disqw",
  "followers": 561000,
- "engagement_rate": 0.0127,
- "avg_likes": 445.9,
- "avg_comments": 51.1,
- "avg_views": 35033.0,
- "posts_last_30d": 14,
+ "engagement_rate": 0.0115,
+ "avg_likes": 456.2,
+ "avg_comments": 56.6,
+ "avg_views": 39686.2,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 14,
+ "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "1건",
-  "olive_young_mentions": "10건",
+  "olive_young_mentions": "14건",
   "beauty_keywords": "96건",
   "labrang_present": false
  },
- "evaluated_at": "2026-08-31T10:43:29+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -34,7 +34,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 14개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UC8P33HyFhfqThDUGk0disqw",
- "history": []
+ "history": [
+  {
+   "evaluated_at": "2026-08-31T10:43:29+09:00",
+   "followers": 561000,
+   "engagement_rate": 0.0127,
+   "posts_last_30d": 14,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 77.5,
+   "grade": "A"
+  }
+ ]
 }

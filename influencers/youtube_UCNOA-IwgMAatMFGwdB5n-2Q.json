@@ -4,22 +4,22 @@
  "fullname": "서윤초이 seoyoonchoi",
  "profile_url": "https://www.youtube.com/channel/UCNOA-IwgMAatMFGwdB5n-2Q",
  "followers": 13200,
- "engagement_rate": 0.0204,
- "avg_likes": 61.7,
- "avg_comments": 16.7,
- "avg_views": 3026.3,
+ "engagement_rate": 0.0197,
+ "avg_likes": 63.3,
+ "avg_comments": 17.3,
+ "avg_views": 3221.3,
  "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "sample_size": 3,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "25건",
-  "olive_young_mentions": "16건",
-  "beauty_keywords": "14건",
+  "daiso_mentions": "40건",
+  "olive_young_mentions": "4건",
+  "beauty_keywords": "11건",
   "labrang_present": true
  },
- "evaluated_at": "2026-08-31T10:14:13+09:00",
+ "evaluated_at": "2026-09-02T11:40:59+09:00",
  "score_total": 72.0,
  "grade": "B",
  "score_breakdown": {
@@ -34,19 +34,9 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 3개 [videos:12+shorts:12]",
+ "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:24/24",
  "channel_id": "UCNOA-IwgMAatMFGwdB5n-2Q",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
-   "followers": 12500,
-   "engagement_rate": 0.0295,
-   "posts_last_30d": 2,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 53.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 12400,
@@ -301,6 +291,16 @@
    "posts_last_30d": 3,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic"
+  },
+  {
+   "evaluated_at": "2026-08-31T10:14:13+09:00",
+   "followers": 13200,
+   "engagement_rate": 0.0204,
+   "posts_last_30d": 3,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 72.0,
+   "grade": "B"
   }
  ]
 }
