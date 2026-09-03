@@ -3,11 +3,11 @@
  "username": "ellie._.cos",
  "fullname": "ellie エリ",
  "profile_url": "https://www.instagram.com/ellie._.cos/",
- "followers": 2469,
- "engagement_rate": 0.378,
- "avg_likes": 926.4,
- "avg_comments": 7,
- "avg_views": 331434,
+ "followers": 2476,
+ "engagement_rate": 0.3776,
+ "avg_likes": 927.9,
+ "avg_comments": 7.1,
+ "avg_views": 27664.5,
  "posts_last_30d": 10,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -19,7 +19,14 @@
   "beauty_keywords": "54건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 10건",
+ "_likes_hidden": 0,
+ "_ig_logged_out": false,
  "score_total": 93.5,
  "grade": "S",
  "score_breakdown": {
@@ -29,26 +36,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 10건",
- "_likes_hidden": 0,
- "_ig_logged_out": false,
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T14:11:14+09:00",
-   "followers": 2341,
-   "engagement_rate": 0.7539,
-   "avg_likes": 1753.3,
-   "posts_last_30d": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 90.5,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-07-17T11:08:36.512833+09:00",
    "followers": 2327,
@@ -302,6 +291,16 @@
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "score_total": 90.5,
+   "grade": "S"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 2469,
+   "engagement_rate": 0.378,
+   "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 93.5,
    "grade": "S"
   }
  ]

@@ -4,22 +4,28 @@
  "fullname": "스완SWAN_현실남자관리",
  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
  "followers": 509000,
- "engagement_rate": 0.0105,
- "avg_likes": 847.1,
- "avg_comments": 179.9,
- "avg_views": 80703.4,
- "posts_last_30d": 21,
+ "engagement_rate": 0.0103,
+ "avg_likes": 891.2,
+ "avg_comments": 145.4,
+ "avg_views": 86440.1,
+ "posts_last_30d": 20,
  "_posts_last_30d_est": false,
- "sample_size": 21,
+ "sample_size": 20,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "2건",
-  "olive_young_mentions": "17건",
-  "beauty_keywords": "48건",
+  "olive_young_mentions": "15건",
+  "beauty_keywords": "36건",
   "labrang_present": true
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 20개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:20/20",
+ "channel_id": "UChaTUCM7bPBTJaIZQ83PNwQ",
  "score_total": 80.0,
  "grade": "A",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 21개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UChaTUCM7bPBTJaIZQ83PNwQ",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:17:14.851286+09:00",
-   "followers": 501000,
-   "engagement_rate": 0.0146,
-   "posts_last_30d": 7,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-17T10:24:42.739141+09:00",
    "followers": 501000,
@@ -300,6 +290,16 @@
    "followers": 508000,
    "engagement_rate": 0.0104,
    "posts_last_30d": 20,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 80.0,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 509000,
+   "engagement_rate": 0.0105,
+   "posts_last_30d": 21,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "score_total": 80.0,

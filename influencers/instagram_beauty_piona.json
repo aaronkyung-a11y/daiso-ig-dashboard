@@ -3,11 +3,11 @@
  "username": "beauty_piona",
  "fullname": "문혜경",
  "profile_url": "https://www.instagram.com/beauty_piona/",
- "followers": 11148,
- "engagement_rate": 0.1399,
- "avg_likes": 1449.5,
- "avg_comments": 110.4,
- "avg_views": 453535.7,
+ "followers": 11165,
+ "engagement_rate": 0.1522,
+ "avg_likes": 1586.2,
+ "avg_comments": 113,
+ "avg_views": 455894.3,
  "posts_last_30d": 21,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -16,10 +16,17 @@
  "retailer_signal": {
   "daiso_mentions": "4건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "44건",
+  "beauty_keywords": "56건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T14:35:00+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 21건",
+ "_likes_hidden": 0,
+ "_ig_logged_out": false,
  "score_total": 95.5,
  "grade": "S",
  "score_breakdown": {
@@ -29,28 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": true,
-  "posts_30d_estimated": false
- },
- "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API 페이지네이션), ER=(평균좋아요+평균댓글)/팔로워, 30일내 21건. ★팔로워는 이번 회차 미실측(IG profile API 서버오류 400) — 직전 회차값 11,148 이월(프로필 표기 \"1.1만\"과 일치)",
- "_likes_hidden": 0,
- "_ig_logged_out": false,
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-04-30T13:58:42+09:00",
-   "followers": 6144,
-   "engagement_rate": 0.6042,
-   "avg_likes": 3461,
-   "avg_comments": 251,
-   "sample_size": 7,
-   "brand_fit_score": 100,
-   "retailer_focus": "daiso",
-   "grade": "S",
-   "score_total": 93.0,
-   "posts_last_30d": 5
-  },
   {
    "evaluated_at": "2026-05-04T14:10:00+09:00",
    "followers": 6190,
@@ -300,6 +287,16 @@
    "evaluated_at": "2026-09-02T11:40:59+09:00",
    "followers": 11148,
    "engagement_rate": 0.1403,
+   "posts_last_30d": 21,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 95.5,
+   "grade": "S"
+  },
+  {
+   "evaluated_at": "2026-09-02T14:35:00+09:00",
+   "followers": 11148,
+   "engagement_rate": 0.1399,
    "posts_last_30d": 21,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",

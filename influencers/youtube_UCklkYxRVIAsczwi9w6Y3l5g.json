@@ -3,11 +3,11 @@
  "username": "UCklkYxRVIAsczwi9w6Y3l5g",
  "fullname": "수",
  "profile_url": "https://www.youtube.com/channel/UCklkYxRVIAsczwi9w6Y3l5g",
- "followers": 926,
- "engagement_rate": 0.0074,
- "avg_likes": 7.7,
- "avg_comments": 0.0,
- "avg_views": 1033.7,
+ "followers": 928,
+ "engagement_rate": 0.0077,
+ "avg_likes": 8.0,
+ "avg_comments": 0,
+ "avg_views": 1039.8,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
  "sample_size": 6,
@@ -19,7 +19,13 @@
   "beauty_keywords": "32건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:6/6",
+ "channel_id": "UCklkYxRVIAsczwi9w6Y3l5g",
  "score_total": 58.5,
  "grade": "C",
  "score_breakdown": {
@@ -29,25 +35,8 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 6개 [videos:0+shorts:12] meta_ok:12/12",
- "channel_id": "UCklkYxRVIAsczwi9w6Y3l5g",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-22T10:33:54+09:00",
-   "followers": 884,
-   "engagement_rate": 0.0108,
-   "avg_likes": 53.2,
-   "posts_last_30d": 11,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 74.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-20T10:28:25+09:00",
    "followers": 883,
@@ -301,6 +290,16 @@
    "followers": 924,
    "engagement_rate": 0.0072,
    "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 58.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 926,
+   "engagement_rate": 0.0074,
+   "posts_last_30d": 6,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "score_total": 58.5,

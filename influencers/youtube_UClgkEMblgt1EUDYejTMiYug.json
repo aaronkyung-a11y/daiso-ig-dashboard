@@ -3,23 +3,29 @@
  "username": "UClgkEMblgt1EUDYejTMiYug",
  "fullname": "은혜로운은혜",
  "profile_url": "https://www.youtube.com/channel/UClgkEMblgt1EUDYejTMiYug",
- "followers": 415,
+ "followers": 414,
  "engagement_rate": 0.0032,
  "avg_likes": 5.0,
- "avg_comments": 0.0,
- "avg_views": 1580.0,
+ "avg_comments": 0,
+ "avg_views": 1581.0,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 1,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "43건",
+  "daiso_mentions": "41건",
   "olive_young_mentions": "31건",
   "beauty_keywords": "81건",
   "labrang_present": true
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 1개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:1/1",
+ "channel_id": "UClgkEMblgt1EUDYejTMiYug",
  "score_total": 55.0,
  "grade": "C",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 1개 [videos:0+shorts:12] meta_ok:12/12",
- "channel_id": "UClgkEMblgt1EUDYejTMiYug",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:46:25.070601+09:00",
-   "followers": 415,
-   "engagement_rate": 0.008,
-   "posts_last_30d": 2,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 58.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
    "followers": 411,
@@ -299,6 +289,16 @@
   {
    "evaluated_at": "2026-08-31T10:14:13+09:00",
    "followers": 414,
+   "engagement_rate": 0.0032,
+   "posts_last_30d": 1,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 55.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 415,
    "engagement_rate": 0.0032,
    "posts_last_30d": 1,
    "brand_fit_score": 100,

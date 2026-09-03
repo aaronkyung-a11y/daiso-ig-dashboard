@@ -4,22 +4,28 @@
  "fullname": "율리 YULRI",
  "profile_url": "https://www.youtube.com/channel/UCiULanlNBXuMkaP9OiZWgYQ",
  "followers": 425000,
- "engagement_rate": 0.0133,
- "avg_likes": 813.6,
- "avg_comments": 42.1,
- "avg_views": 61022.3,
+ "engagement_rate": 0.0132,
+ "avg_likes": 831.8,
+ "avg_comments": 42.8,
+ "avg_views": 63137.8,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "21건",
-  "olive_young_mentions": "4건",
-  "beauty_keywords": "11건",
+  "daiso_mentions": "30건",
+  "olive_young_mentions": "5건",
+  "beauty_keywords": "22건",
   "labrang_present": true
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12",
+ "channel_id": "UCiULanlNBXuMkaP9OiZWgYQ",
  "score_total": 80.0,
  "grade": "A",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCiULanlNBXuMkaP9OiZWgYQ",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -83,6 +83,16 @@
    "followers": 425000,
    "engagement_rate": 0.0142,
    "posts_last_30d": 11,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 80.0,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 425000,
+   "engagement_rate": 0.0133,
+   "posts_last_30d": 12,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "score_total": 80.0,

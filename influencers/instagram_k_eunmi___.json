@@ -3,12 +3,12 @@
  "username": "k_eunmi___",
  "fullname": "은미✨",
  "profile_url": "https://www.instagram.com/k_eunmi___/",
- "followers": 1584,
+ "followers": 1585,
  "engagement_rate": 0.0362,
  "avg_likes": 55.4,
  "avg_comments": 2,
  "avg_views": 0,
- "posts_last_30d": 2,
+ "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 25,
@@ -19,37 +19,25 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
- "score_total": 61.25,
- "grade": "C",
- "score_breakdown": {
-  "er": 80,
-  "brand_fit": 25,
-  "consistency": 60,
-  "followers": 60,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 2건",
+ "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 1건",
  "_likes_hidden": 0,
  "_ig_logged_out": false,
+ "score_total": 58.25,
+ "grade": "C",
+ "score_breakdown": {
+  "er": 80,
+  "brand_fit": 25,
+  "consistency": 40,
+  "followers": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-06T09:10:00+09:00",
-   "followers": 1650,
-   "engagement_rate": 0.0217,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "total_score": 51.25,
-   "grade": "C",
-   "sample_size": 12,
-   "posts_last_30d": 3,
-   "note": "snapshot before B-Light rolling refresh (17:00 KST 슬롯)"
-  },
   {
    "evaluated_at": "2026-05-04T09:40:03+09:00",
    "followers": 1645,
@@ -310,6 +298,16 @@
    "evaluated_at": "2026-08-31T10:50:48+09:00",
    "followers": 1585,
    "engagement_rate": 0.0482,
+   "posts_last_30d": 2,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 61.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 1584,
+   "engagement_rate": 0.0362,
    "posts_last_30d": 2,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",

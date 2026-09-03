@@ -4,10 +4,10 @@
  "fullname": "Jaina",
  "profile_url": "https://www.youtube.com/channel/UCYsv-IHC-B-DiVMmJuqibcg",
  "followers": 280000,
- "engagement_rate": 0.0131,
- "avg_likes": 321.2,
- "avg_comments": 92.5,
- "avg_views": 24581.0,
+ "engagement_rate": 0.0128,
+ "avg_likes": 324.2,
+ "avg_comments": 92.8,
+ "avg_views": 25296.5,
  "posts_last_30d": 4,
  "_posts_last_30d_est": false,
  "sample_size": 4,
@@ -15,11 +15,17 @@
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "23건",
-  "beauty_keywords": "56건",
+  "olive_young_mentions": "20건",
+  "beauty_keywords": "53건",
   "labrang_present": true
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 4개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:4/4",
+ "channel_id": "UCYsv-IHC-B-DiVMmJuqibcg",
  "score_total": 74.0,
  "grade": "B",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 4개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCYsv-IHC-B-DiVMmJuqibcg",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:11:12+09:00",
@@ -71,6 +71,16 @@
    "evaluated_at": "2026-08-31T10:40:37+09:00",
    "followers": 280000,
    "engagement_rate": 0.0152,
+   "posts_last_30d": 4,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 74.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 280000,
+   "engagement_rate": 0.0131,
    "posts_last_30d": 4,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",

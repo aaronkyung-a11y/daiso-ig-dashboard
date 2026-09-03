@@ -3,11 +3,11 @@
  "username": "UCCZr7t-gZ62L056QOW3RXdQ",
  "fullname": "니야 Niiya",
  "profile_url": "https://www.youtube.com/channel/UCCZr7t-gZ62L056QOW3RXdQ",
- "followers": 144000,
- "engagement_rate": 0.0186,
- "avg_likes": 6305.7,
- "avg_comments": 124.6,
- "avg_views": 338888.4,
+ "followers": 145000,
+ "engagement_rate": 0.019,
+ "avg_likes": 6745.8,
+ "avg_comments": 128.3,
+ "avg_views": 355648.5,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -19,7 +19,13 @@
   "beauty_keywords": "2건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:18/18 likes_ok:12/12",
+ "channel_id": "UCCZr7t-gZ62L056QOW3RXdQ",
  "score_total": 70.0,
  "grade": "B",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:6+shorts:12] meta_ok:18/18",
- "channel_id": "UCCZr7t-gZ62L056QOW3RXdQ",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
-   "followers": 86900,
-   "engagement_rate": 0.0173,
-   "posts_last_30d": 0,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 59.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 59600,
@@ -295,6 +285,16 @@
    "evaluated_at": "2026-08-31T10:14:13+09:00",
    "followers": 144000,
    "engagement_rate": 0.0188,
+   "posts_last_30d": 12,
+   "brand_fit_score": 60,
+   "retailer_focus": "olive_young",
+   "score_total": 70.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 144000,
+   "engagement_rate": 0.0186,
    "posts_last_30d": 12,
    "brand_fit_score": 60,
    "retailer_focus": "olive_young",

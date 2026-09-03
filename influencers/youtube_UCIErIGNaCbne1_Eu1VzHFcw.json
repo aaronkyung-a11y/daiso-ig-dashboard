@@ -4,13 +4,13 @@
  "fullname": "레이지홈",
  "profile_url": "https://www.youtube.com/channel/UCIErIGNaCbne1_Eu1VzHFcw",
  "followers": 2250,
- "engagement_rate": 0.007,
- "avg_likes": 46.5,
- "avg_comments": 2.8,
- "avg_views": 6601.0,
- "posts_last_30d": 4,
+ "engagement_rate": 0.0038,
+ "avg_likes": 5.7,
+ "avg_comments": 2.0,
+ "avg_views": 1498.7,
+ "posts_last_30d": 3,
  "_posts_last_30d_est": false,
- "sample_size": 4,
+ "sample_size": 3,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
@@ -19,7 +19,13 @@
   "beauty_keywords": "15건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:3/3",
+ "channel_id": "UCIErIGNaCbne1_Eu1VzHFcw",
  "score_total": 57.5,
  "grade": "C",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 4개 [videos:0+shorts:12] meta_ok:12/12",
- "channel_id": "UCIErIGNaCbne1_Eu1VzHFcw",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:26:57+09:00",
-   "followers": 1970,
-   "engagement_rate": 0.0037,
-   "posts_last_30d": 2,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 50.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-17T10:48:02.060040+09:00",
    "followers": 1940,
@@ -300,6 +290,16 @@
    "evaluated_at": "2026-08-31T10:17:18+09:00",
    "followers": 2240,
    "engagement_rate": 0.0071,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 57.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 2250,
+   "engagement_rate": 0.007,
    "posts_last_30d": 4,
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",

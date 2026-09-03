@@ -4,22 +4,28 @@
  "fullname": "뽀용뇽 l 남다른 뷰티꿀팁",
  "profile_url": "https://www.youtube.com/channel/UCRXL4vnST2AE6UtjrYMv4tw",
  "followers": 439000,
- "engagement_rate": 0.0176,
- "avg_likes": 2055.3,
+ "engagement_rate": 0.0162,
+ "avg_likes": 1958.7,
  "avg_comments": 34.7,
- "avg_views": 116862.9,
+ "avg_views": 120763.8,
  "posts_last_30d": 15,
  "_posts_last_30d_est": false,
  "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "17건",
-  "olive_young_mentions": "10건",
-  "beauty_keywords": "171건",
+  "daiso_mentions": "15건",
+  "olive_young_mentions": "5건",
+  "beauty_keywords": "110건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 15개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:15/15",
+ "channel_id": "UCRXL4vnST2AE6UtjrYMv4tw",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 15개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCRXL4vnST2AE6UtjrYMv4tw",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
-   "followers": 437000,
-   "engagement_rate": 0.0234,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 437000,
@@ -301,6 +291,16 @@
    "followers": 439000,
    "engagement_rate": 0.0174,
    "posts_last_30d": 14,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 77.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 439000,
+   "engagement_rate": 0.0176,
+   "posts_last_30d": 15,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "score_total": 77.5,

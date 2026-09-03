@@ -3,14 +3,14 @@
  "username": "UC3iSLVH0MxHfwO69oHKpvog",
  "fullname": "리틀약사",
  "profile_url": "https://www.youtube.com/channel/UC3iSLVH0MxHfwO69oHKpvog",
- "followers": 614000,
- "engagement_rate": 0.0107,
- "avg_likes": 180.2,
- "avg_comments": 15.6,
- "avg_views": 16770.9,
- "posts_last_30d": 9,
+ "followers": 618000,
+ "engagement_rate": 0.0087,
+ "avg_likes": 190.4,
+ "avg_comments": 15.9,
+ "avg_views": 21862.6,
+ "posts_last_30d": 8,
  "_posts_last_30d_est": false,
- "sample_size": 9,
+ "sample_size": 8,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
@@ -19,23 +19,23 @@
   "beauty_keywords": "17건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
- "score_total": 74.5,
- "grade": "B",
- "score_breakdown": {
-  "er": 60,
-  "brand_fit": 90,
-  "consistency": 80,
-  "followers": 100,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
- },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 [videos:12+shorts:0] meta_ok:12/12",
+ "sample_note": "YT 30일내 8개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:8/8",
  "channel_id": "UC3iSLVH0MxHfwO69oHKpvog",
+ "score_total": 64.5,
+ "grade": "C",
+ "score_breakdown": {
+  "er": 40,
+  "brand_fit": 90,
+  "consistency": 80,
+  "followers": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:14:59+09:00",
@@ -72,6 +72,16 @@
    "followers": 607000,
    "engagement_rate": 0.0135,
    "posts_last_30d": 8,
+   "brand_fit_score": 90,
+   "retailer_focus": "beauty_general",
+   "score_total": 74.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 614000,
+   "engagement_rate": 0.0107,
+   "posts_last_30d": 9,
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
    "score_total": 74.5,

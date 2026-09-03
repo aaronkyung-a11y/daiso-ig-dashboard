@@ -4,12 +4,12 @@
  "fullname": "바이홈",
  "profile_url": "https://www.youtube.com/channel/UCN_YKz-tKWkVpNyYths0ZQQ",
  "followers": 3110,
- "engagement_rate": 0.0048,
- "avg_likes": 9.2,
+ "engagement_rate": 0.0049,
+ "avg_likes": 9.9,
  "avg_comments": 2.7,
- "avg_views": 1907.2,
+ "avg_views": 2004.7,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 60,
  "retailer_focus": "daiso",
@@ -19,7 +19,13 @@
   "beauty_keywords": "1건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": true
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "channel_id": "UCN_YKz-tKWkVpNyYths0ZQQ",
  "score_total": 56.0,
  "grade": "C",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12",
- "channel_id": "UCN_YKz-tKWkVpNyYths0ZQQ",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -82,6 +82,16 @@
    "evaluated_at": "2026-08-31T10:34:51+09:00",
    "followers": 3100,
    "engagement_rate": 0.007,
+   "posts_last_30d": 12,
+   "brand_fit_score": 60,
+   "retailer_focus": "daiso",
+   "score_total": 56.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 3110,
+   "engagement_rate": 0.0048,
    "posts_last_30d": 12,
    "brand_fit_score": 60,
    "retailer_focus": "daiso",

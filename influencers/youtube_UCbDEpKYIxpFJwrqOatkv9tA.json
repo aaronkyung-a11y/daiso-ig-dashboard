@@ -4,22 +4,28 @@
  "fullname": "서로디 lody",
  "profile_url": "https://www.youtube.com/channel/UCbDEpKYIxpFJwrqOatkv9tA",
  "followers": 3240,
- "engagement_rate": 0.0155,
- "avg_likes": 186.4,
- "avg_comments": 7.0,
- "avg_views": 12046.3,
+ "engagement_rate": 0.0147,
+ "avg_likes": 197.3,
+ "avg_comments": 7.4,
+ "avg_views": 13400.8,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "mixed",
  "retailer_signal": {
   "daiso_mentions": "2건",
-  "olive_young_mentions": "1건",
-  "beauty_keywords": "16건",
+  "olive_young_mentions": "2건",
+  "beauty_keywords": "10건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:15/15 likes_ok:12/12",
+ "channel_id": "UCbDEpKYIxpFJwrqOatkv9tA",
  "score_total": 73.5,
  "grade": "B",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:3+shorts:12] meta_ok:15/15",
- "channel_id": "UCbDEpKYIxpFJwrqOatkv9tA",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:27:07.454534+09:00",
-   "followers": 2550,
-   "engagement_rate": 0.0312,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 58.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
    "followers": 1720,
@@ -294,6 +284,16 @@
    "evaluated_at": "2026-08-31T10:23:20+09:00",
    "followers": 3220,
    "engagement_rate": 0.0148,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 73.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 3240,
+   "engagement_rate": 0.0155,
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",

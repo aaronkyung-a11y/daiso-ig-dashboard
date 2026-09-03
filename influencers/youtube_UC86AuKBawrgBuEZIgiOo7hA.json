@@ -4,22 +4,28 @@
  "fullname": "셀럽의 건강비결",
  "profile_url": "https://www.youtube.com/channel/UC86AuKBawrgBuEZIgiOo7hA",
  "followers": 111000,
- "engagement_rate": 0.0086,
- "avg_likes": 121.7,
- "avg_comments": 3.2,
- "avg_views": 14087.7,
+ "engagement_rate": 0.0087,
+ "avg_likes": 131.0,
+ "avg_comments": 3.7,
+ "avg_views": 15078.8,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "28건",
-  "beauty_keywords": "36건",
+  "olive_young_mentions": "34건",
+  "beauty_keywords": "38건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": true
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "channel_id": "UC86AuKBawrgBuEZIgiOo7hA",
  "score_total": 67.5,
  "grade": "B",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12",
- "channel_id": "UC86AuKBawrgBuEZIgiOo7hA",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:46:25.070601+09:00",
-   "followers": 107000,
-   "engagement_rate": 0.0117,
-   "posts_last_30d": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 77.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-07-07T14:30:00.000000+09:00",
    "followers": 105000,
@@ -301,6 +291,16 @@
    "evaluated_at": "2026-08-31T10:17:18+09:00",
    "followers": 111000,
    "engagement_rate": 0.0092,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 67.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 111000,
+   "engagement_rate": 0.0086,
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",

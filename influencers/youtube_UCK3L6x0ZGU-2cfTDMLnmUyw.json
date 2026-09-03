@@ -3,11 +3,11 @@
  "username": "UCK3L6x0ZGU-2cfTDMLnmUyw",
  "fullname": "진뉴 JINNEW",
  "profile_url": "https://www.youtube.com/channel/UCK3L6x0ZGU-2cfTDMLnmUyw",
- "followers": 66600,
- "engagement_rate": 0.0137,
- "avg_likes": 1017.2,
- "avg_comments": 39.5,
- "avg_views": 74464.5,
+ "followers": 66800,
+ "engagement_rate": 0.0136,
+ "avg_likes": 1070.8,
+ "avg_comments": 41.7,
+ "avg_views": 78862.3,
  "posts_last_30d": 13,
  "_posts_last_30d_est": false,
  "sample_size": 13,
@@ -15,11 +15,17 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "34건",
-  "beauty_keywords": "120건",
+  "olive_young_mentions": "35건",
+  "beauty_keywords": "128건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:13/13",
+ "channel_id": "UCK3L6x0ZGU-2cfTDMLnmUyw",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCK3L6x0ZGU-2cfTDMLnmUyw",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:20:29+09:00",
@@ -136,6 +136,16 @@
    "evaluated_at": "2026-08-31T10:26:13+09:00",
    "followers": 66400,
    "engagement_rate": 0.0139,
+   "posts_last_30d": 13,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 75.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 66600,
+   "engagement_rate": 0.0137,
    "posts_last_30d": 13,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",

@@ -4,22 +4,28 @@
  "fullname": "박체리 cherry",
  "profile_url": "https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg",
  "followers": 50100,
- "engagement_rate": 0.0162,
- "avg_likes": 894.5,
- "avg_comments": 7.5,
- "avg_views": 55298.2,
- "posts_last_30d": 12,
+ "engagement_rate": 0.0159,
+ "avg_likes": 980.3,
+ "avg_comments": 7.3,
+ "avg_views": 61531.5,
+ "posts_last_30d": 11,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 11,
  "brand_fit_score": 90,
  "retailer_focus": "mixed",
  "retailer_signal": {
   "daiso_mentions": "10건",
-  "olive_young_mentions": "10건",
+  "olive_young_mentions": "11건",
   "beauty_keywords": "34건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 11개 [videos:12+shorts:12] meta_ok:14/14 likes_ok:11/11",
+ "channel_id": "UCbNMdCWBwjljPxDu8dfeHmg",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:2+shorts:12] meta_ok:14/14",
- "channel_id": "UCbNMdCWBwjljPxDu8dfeHmg",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
-   "followers": 50000,
-   "engagement_rate": 0.0115,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 66.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 50000,
@@ -298,6 +288,16 @@
    "followers": 50100,
    "engagement_rate": 0.0169,
    "posts_last_30d": 11,
+   "brand_fit_score": 90,
+   "retailer_focus": "mixed",
+   "score_total": 75.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 50100,
+   "engagement_rate": 0.0162,
+   "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "mixed",
    "score_total": 75.5,

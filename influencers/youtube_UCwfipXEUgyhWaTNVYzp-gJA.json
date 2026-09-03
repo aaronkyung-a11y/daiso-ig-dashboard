@@ -3,23 +3,29 @@
  "username": "UCwfipXEUgyhWaTNVYzp-gJA",
  "fullname": "블루밍나나 Bloomingnana",
  "profile_url": "https://www.youtube.com/channel/UCwfipXEUgyhWaTNVYzp-gJA",
- "followers": 82800,
+ "followers": 82900,
  "engagement_rate": 0.0077,
- "avg_likes": 167.0,
- "avg_comments": 22.2,
- "avg_views": 21755.8,
+ "avg_likes": 183.1,
+ "avg_comments": 25.6,
+ "avg_views": 23685.8,
  "posts_last_30d": 16,
  "_posts_last_30d_est": false,
  "sample_size": 16,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "41건",
+  "daiso_mentions": "39건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "18건",
+  "beauty_keywords": "11건",
   "labrang_present": true
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:16/16",
+ "channel_id": "UCwfipXEUgyhWaTNVYzp-gJA",
  "score_total": 68.0,
  "grade": "B",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCwfipXEUgyhWaTNVYzp-gJA",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:22:46+09:00",
@@ -103,6 +103,16 @@
    "evaluated_at": "2026-08-31T10:31:58+09:00",
    "followers": 82800,
    "engagement_rate": 0.0088,
+   "posts_last_30d": 16,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 68.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 82800,
+   "engagement_rate": 0.0077,
    "posts_last_30d": 16,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",

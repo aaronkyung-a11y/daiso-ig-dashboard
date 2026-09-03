@@ -4,10 +4,10 @@
  "fullname": "아름닥터tv_자연스러운게 예쁜거다_15년차",
  "profile_url": "https://www.youtube.com/channel/UCYjkiHwK6yj1VgMfqNZvHEA",
  "followers": 126000,
- "engagement_rate": 0.0108,
- "avg_likes": 63.6,
+ "engagement_rate": 0.0106,
+ "avg_likes": 64.7,
  "avg_comments": 5.4,
- "avg_views": 5868.5,
+ "avg_views": 6096.0,
  "posts_last_30d": 16,
  "_posts_last_30d_est": false,
  "sample_size": 16,
@@ -16,10 +16,16 @@
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "2건",
+  "beauty_keywords": "1건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:16/16",
+ "channel_id": "UCYjkiHwK6yj1VgMfqNZvHEA",
  "score_total": 70.0,
  "grade": "B",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCYjkiHwK6yj1VgMfqNZvHEA",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:27:07.454534+09:00",
-   "followers": 126000,
-   "engagement_rate": 0.0185,
-   "posts_last_30d": 3,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 64.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
    "followers": 126000,
@@ -295,6 +285,16 @@
    "followers": 126000,
    "engagement_rate": 0.011,
    "posts_last_30d": 17,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "score_total": 70.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 126000,
+   "engagement_rate": 0.0108,
+   "posts_last_30d": 16,
    "brand_fit_score": 60,
    "retailer_focus": "beauty_general",
    "score_total": 70.0,

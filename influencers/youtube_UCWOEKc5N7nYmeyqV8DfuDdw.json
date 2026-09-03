@@ -3,23 +3,29 @@
  "username": "UCWOEKc5N7nYmeyqV8DfuDdw",
  "fullname": "왕실 피부 건강 연구소",
  "profile_url": "https://www.youtube.com/channel/UCWOEKc5N7nYmeyqV8DfuDdw",
- "followers": 21800,
- "engagement_rate": 0.0151,
- "avg_likes": 412.8,
- "avg_comments": 2.9,
- "avg_views": 27397.2,
+ "followers": 21900,
+ "engagement_rate": 0.0148,
+ "avg_likes": 372.9,
+ "avg_comments": 2.8,
+ "avg_views": 25162.9,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "68건",
-  "olive_young_mentions": "8건",
-  "beauty_keywords": "80건",
+  "daiso_mentions": "31건",
+  "olive_young_mentions": "5건",
+  "beauty_keywords": "51건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": true
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "channel_id": "UCWOEKc5N7nYmeyqV8DfuDdw",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12",
- "channel_id": "UCWOEKc5N7nYmeyqV8DfuDdw",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:27:59+09:00",
@@ -135,6 +135,16 @@
   {
    "evaluated_at": "2026-08-31T10:26:13+09:00",
    "followers": 21600,
+   "engagement_rate": 0.0151,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 75.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 21800,
    "engagement_rate": 0.0151,
    "posts_last_30d": 12,
    "brand_fit_score": 90,

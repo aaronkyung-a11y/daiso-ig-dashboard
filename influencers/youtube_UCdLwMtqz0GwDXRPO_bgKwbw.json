@@ -3,23 +3,29 @@
  "username": "UCdLwMtqz0GwDXRPO_bgKwbw",
  "fullname": "리뷰히",
  "profile_url": "https://www.youtube.com/channel/UCdLwMtqz0GwDXRPO_bgKwbw",
- "followers": 6880,
- "engagement_rate": 0.0094,
- "avg_likes": 40.6,
- "avg_comments": 3.5,
- "avg_views": 4328.4,
+ "followers": 6890,
+ "engagement_rate": 0.0099,
+ "avg_likes": 40.2,
+ "avg_comments": 3.8,
+ "avg_views": 4076.3,
  "posts_last_30d": 11,
  "_posts_last_30d_est": false,
  "sample_size": 11,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "13건",
-  "olive_young_mentions": "10건",
-  "beauty_keywords": "78건",
+  "daiso_mentions": "5건",
+  "olive_young_mentions": "14건",
+  "beauty_keywords": "82건",
   "labrang_present": true
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 11개 [videos:12+shorts:12] meta_ok:14/14 likes_ok:11/11",
+ "channel_id": "UCdLwMtqz0GwDXRPO_bgKwbw",
  "score_total": 66.0,
  "grade": "B",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 11개 [videos:2+shorts:12] meta_ok:14/14",
- "channel_id": "UCdLwMtqz0GwDXRPO_bgKwbw",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -83,6 +83,16 @@
    "followers": 6860,
    "engagement_rate": 0.0095,
    "posts_last_30d": 10,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 66.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 6880,
+   "engagement_rate": 0.0094,
+   "posts_last_30d": 11,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
    "score_total": 66.0,

@@ -4,10 +4,10 @@
  "fullname": "HARUNA KOJIMA's cat nap",
  "profile_url": "https://www.youtube.com/channel/UCOjmYCnYlTcdoD2DKHvrV5g",
  "followers": 695000,
- "engagement_rate": 0.0119,
- "avg_likes": 2983.3,
- "avg_comments": 120.3,
- "avg_views": 251609.7,
+ "engagement_rate": 0.0117,
+ "avg_likes": 3010.7,
+ "avg_comments": 120.7,
+ "avg_views": 256583.3,
  "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "sample_size": 3,
@@ -19,7 +19,13 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:3/3",
+ "channel_id": "UCOjmYCnYlTcdoD2DKHvrV5g",
  "score_total": 55.25,
  "grade": "C",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCOjmYCnYlTcdoD2DKHvrV5g",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -83,6 +83,16 @@
    "followers": 695000,
    "engagement_rate": 0.0134,
    "posts_last_30d": 4,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 55.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 695000,
+   "engagement_rate": 0.0119,
+   "posts_last_30d": 3,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "score_total": 55.25,

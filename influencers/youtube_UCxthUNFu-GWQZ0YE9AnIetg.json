@@ -4,22 +4,28 @@
  "fullname": "Kangna TV",
  "profile_url": "https://www.youtube.com/channel/UCxthUNFu-GWQZ0YE9AnIetg",
  "followers": 164000,
- "engagement_rate": 0.0111,
- "avg_likes": 1120.8,
- "avg_comments": 60.2,
- "avg_views": 100998.5,
- "posts_last_30d": 8,
+ "engagement_rate": 0.0105,
+ "avg_likes": 1277.3,
+ "avg_comments": 60.9,
+ "avg_views": 121081.0,
+ "posts_last_30d": 7,
  "_posts_last_30d_est": false,
- "sample_size": 8,
+ "sample_size": 7,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "12건",
-  "beauty_keywords": "43건",
+  "olive_young_mentions": "14건",
+  "beauty_keywords": "40건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:7/7",
+ "channel_id": "UCxthUNFu-GWQZ0YE9AnIetg",
  "score_total": 74.5,
  "grade": "B",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 8개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCxthUNFu-GWQZ0YE9AnIetg",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-17T10:19:05+09:00",
@@ -83,6 +83,16 @@
    "followers": 164000,
    "engagement_rate": 0.012,
    "posts_last_30d": 6,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 74.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 164000,
+   "engagement_rate": 0.0111,
+   "posts_last_30d": 8,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "score_total": 74.5,

@@ -5,21 +5,27 @@
  "profile_url": "https://www.youtube.com/channel/UCxyZ8KuHWIgpmLP2XHcc5pQ",
  "followers": 13600,
  "engagement_rate": 0.0136,
- "avg_likes": 156.4,
- "avg_comments": 12.7,
- "avg_views": 11465.1,
+ "avg_likes": 156.9,
+ "avg_comments": 12.9,
+ "avg_views": 11534.9,
  "posts_last_30d": 7,
  "_posts_last_30d_est": false,
  "sample_size": 7,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "10건",
+  "daiso_mentions": "9건",
   "olive_young_mentions": "5건",
-  "beauty_keywords": "45건",
+  "beauty_keywords": "42건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:7/7",
+ "channel_id": "UCxyZ8KuHWIgpmLP2XHcc5pQ",
  "score_total": 72.5,
  "grade": "B",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCxyZ8KuHWIgpmLP2XHcc5pQ",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -83,6 +83,16 @@
    "followers": 13600,
    "engagement_rate": 0.0136,
    "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 72.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 13600,
+   "engagement_rate": 0.0136,
+   "posts_last_30d": 7,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "score_total": 72.5,

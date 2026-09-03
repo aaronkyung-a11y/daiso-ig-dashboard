@@ -4,10 +4,10 @@
  "fullname": "씬온(Scene On)",
  "profile_url": "https://www.youtube.com/channel/UCIxqG8c5etMBhAUZr0FIJJA",
  "followers": 6380,
- "engagement_rate": 0.0066,
- "avg_likes": 207.8,
- "avg_comments": 2.6,
- "avg_views": 31673.8,
+ "engagement_rate": 0.0067,
+ "avg_likes": 207.0,
+ "avg_comments": 3.0,
+ "avg_views": 30764.8,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -19,7 +19,13 @@
   "beauty_keywords": "2건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12",
+ "channel_id": "UCIxqG8c5etMBhAUZr0FIJJA",
  "score_total": 56.0,
  "grade": "C",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCIxqG8c5etMBhAUZr0FIJJA",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -81,6 +81,16 @@
   {
    "evaluated_at": "2026-08-31T10:34:51+09:00",
    "followers": 6370,
+   "engagement_rate": 0.0066,
+   "posts_last_30d": 12,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "score_total": 56.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 6380,
    "engagement_rate": 0.0066,
    "posts_last_30d": 12,
    "brand_fit_score": 60,

@@ -5,21 +5,27 @@
  "profile_url": "https://www.youtube.com/channel/UC6zDQHALEBtuEhGYlT1ZTfA",
  "followers": 27900,
  "engagement_rate": 0.0003,
- "avg_likes": 3.3,
+ "avg_likes": 3.4,
  "avg_comments": 1.0,
- "avg_views": 12901.1,
- "posts_last_30d": 11,
+ "avg_views": 13038.7,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": false,
- "sample_size": 11,
+ "sample_size": 10,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "38건",
+  "beauty_keywords": "48건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 10개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:10/10",
+ "channel_id": "UC6zDQHALEBtuEhGYlT1ZTfA",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 11개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UC6zDQHALEBtuEhGYlT1ZTfA",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
-   "followers": 27900,
-   "engagement_rate": 0.0009,
-   "posts_last_30d": 20,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 65.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 28000,
@@ -291,6 +281,16 @@
    "followers": 27900,
    "engagement_rate": 0.0002,
    "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 65.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 27900,
+   "engagement_rate": 0.0003,
+   "posts_last_30d": 11,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "score_total": 65.5,

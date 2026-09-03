@@ -4,22 +4,28 @@
  "fullname": "tibet brother",
  "profile_url": "https://www.youtube.com/channel/UCHjEdCXNYyvgWWcCZVTxWHA",
  "followers": 503000,
- "engagement_rate": 0.0156,
- "avg_likes": 2259.4,
- "avg_comments": 113.2,
- "avg_views": 144981.9,
- "posts_last_30d": 19,
+ "engagement_rate": 0.0153,
+ "avg_likes": 2342.2,
+ "avg_comments": 112.2,
+ "avg_views": 153126.2,
+ "posts_last_30d": 17,
  "_posts_last_30d_est": false,
- "sample_size": 19,
+ "sample_size": 17,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "13건",
-  "beauty_keywords": "54건",
+  "olive_young_mentions": "9건",
+  "beauty_keywords": "16건",
   "labrang_present": true
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 17개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:17/17",
+ "channel_id": "UCHjEdCXNYyvgWWcCZVTxWHA",
  "score_total": 80.0,
  "grade": "A",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 19개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCHjEdCXNYyvgWWcCZVTxWHA",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:12:20.934442+09:00",
-   "followers": 497000,
-   "engagement_rate": 0.0256,
-   "posts_last_30d": 7,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 495000,
@@ -298,6 +288,16 @@
    "evaluated_at": "2026-08-31T10:20:12+09:00",
    "followers": 503000,
    "engagement_rate": 0.0157,
+   "posts_last_30d": 19,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 80.0,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 503000,
+   "engagement_rate": 0.0156,
    "posts_last_30d": 19,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",

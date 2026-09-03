@@ -4,22 +4,28 @@
  "fullname": "일돈나",
  "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
  "followers": 1290,
- "engagement_rate": 0.0126,
+ "engagement_rate": 0.0125,
  "avg_likes": 39.3,
  "avg_comments": 1.3,
- "avg_views": 3132.0,
+ "avg_views": 3142.3,
  "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "sample_size": 3,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "101건",
-  "olive_young_mentions": "51건",
-  "beauty_keywords": "89건",
+  "daiso_mentions": "80건",
+  "olive_young_mentions": "43건",
+  "beauty_keywords": "77건",
   "labrang_present": true
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:3/3",
+ "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
  "score_total": 70.0,
  "grade": "B",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 3개 [videos:0+shorts:12] meta_ok:12/12",
- "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:49:36.915062+09:00",
-   "followers": 1280,
-   "engagement_rate": 0.0156,
-   "posts_last_30d": 5,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 73.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
    "followers": 1290,
@@ -298,6 +288,16 @@
    "evaluated_at": "2026-08-31T10:23:20+09:00",
    "followers": 1290,
    "engagement_rate": 0.0122,
+   "posts_last_30d": 3,
+   "brand_fit_score": 100,
+   "retailer_focus": "our_brand",
+   "score_total": 70.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 1290,
+   "engagement_rate": 0.0126,
    "posts_last_30d": 3,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",

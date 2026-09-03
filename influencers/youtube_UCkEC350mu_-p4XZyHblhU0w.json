@@ -3,11 +3,11 @@
  "username": "UCkEC350mu_-p4XZyHblhU0w",
  "fullname": "메이코",
  "profile_url": "https://www.youtube.com/channel/UCkEC350mu_-p4XZyHblhU0w",
- "followers": 878,
+ "followers": 879,
  "engagement_rate": 0.0168,
- "avg_likes": 284.2,
+ "avg_likes": 285.0,
  "avg_comments": 4.8,
- "avg_views": 16872.8,
+ "avg_views": 16979.8,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -19,7 +19,13 @@
   "beauty_keywords": "18건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 최근 12개(30일내 0건) [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "channel_id": "UCkEC350mu_-p4XZyHblhU0w",
  "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
@@ -29,13 +35,7 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 0개 [videos:0+shorts:12] meta_ok:12/12 — 30일내 0건, 최근 20개로 대체",
- "channel_id": "UCkEC350mu_-p4XZyHblhU0w",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -82,6 +82,16 @@
    "evaluated_at": "2026-08-31T10:34:51+09:00",
    "followers": 875,
    "engagement_rate": 0.017,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 62.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 878,
+   "engagement_rate": 0.0168,
    "posts_last_30d": 0,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",

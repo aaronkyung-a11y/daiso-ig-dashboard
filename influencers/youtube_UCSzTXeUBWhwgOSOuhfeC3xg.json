@@ -3,11 +3,11 @@
  "username": "UCSzTXeUBWhwgOSOuhfeC3xg",
  "fullname": "별블리아 byulvelya",
  "profile_url": "https://www.youtube.com/channel/UCSzTXeUBWhwgOSOuhfeC3xg",
- "followers": 2010,
- "engagement_rate": 0.0006,
- "avg_likes": 8.5,
- "avg_comments": 13.5,
- "avg_views": 13249.2,
+ "followers": 2020,
+ "engagement_rate": 0.0005,
+ "avg_likes": 7.0,
+ "avg_comments": 14.1,
+ "avg_views": 13542.2,
  "posts_last_30d": 14,
  "_posts_last_30d_est": false,
  "sample_size": 14,
@@ -15,11 +15,17 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "6건",
-  "olive_young_mentions": "89건",
-  "beauty_keywords": "233건",
+  "olive_young_mentions": "112건",
+  "beauty_keywords": "252건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:1/14",
+ "channel_id": "UCSzTXeUBWhwgOSOuhfeC3xg",
  "score_total": 63.5,
  "grade": "C",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCSzTXeUBWhwgOSOuhfeC3xg",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:26:23.788106+09:00",
-   "followers": 1930,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 1,
-   "brand_fit_score": 25,
-   "retailer_focus": "olive_young",
-   "score_total": 38.25,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
    "followers": 1920,
@@ -301,6 +291,16 @@
    "followers": 2020,
    "engagement_rate": 0.0007,
    "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 63.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 2010,
+   "engagement_rate": 0.0006,
+   "posts_last_30d": 14,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
    "score_total": 63.5,

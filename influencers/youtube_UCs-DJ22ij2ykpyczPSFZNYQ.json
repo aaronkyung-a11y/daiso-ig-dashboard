@@ -5,9 +5,9 @@
  "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
  "followers": 48,
  "engagement_rate": 0.0114,
- "avg_likes": 87.5,
+ "avg_likes": 87.7,
  "avg_comments": 2.5,
- "avg_views": 7658.7,
+ "avg_views": 7681.0,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 13,
@@ -19,7 +19,13 @@
   "beauty_keywords": "29건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 최근 13개(30일내 0건) [videos:12+shorts:12] meta_ok:13/13 likes_ok:13/13",
+ "channel_id": "UCs-DJ22ij2ykpyczPSFZNYQ",
  "score_total": 62.5,
  "grade": "C",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 0개 [videos:1+shorts:12] meta_ok:13/13 — 30일내 0건, 최근 20개로 대체",
- "channel_id": "UCs-DJ22ij2ykpyczPSFZNYQ",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 50,
-   "engagement_rate": 0.0426,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 56.2,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
    "followers": 50,
@@ -298,6 +288,16 @@
    "evaluated_at": "2026-08-31T10:14:13+09:00",
    "followers": 48,
    "engagement_rate": 0.0115,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 62.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 48,
+   "engagement_rate": 0.0114,
    "posts_last_30d": 0,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",

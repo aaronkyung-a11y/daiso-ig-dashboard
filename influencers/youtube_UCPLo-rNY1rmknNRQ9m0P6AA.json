@@ -3,23 +3,29 @@
  "username": "UCPLo-rNY1rmknNRQ9m0P6AA",
  "fullname": "서록 seorok",
  "profile_url": "https://www.youtube.com/channel/UCPLo-rNY1rmknNRQ9m0P6AA",
- "followers": 50300,
- "engagement_rate": 0.0045,
- "avg_likes": 205.2,
- "avg_comments": 9.9,
- "avg_views": 45705.9,
+ "followers": 50400,
+ "engagement_rate": 0.0043,
+ "avg_likes": 214.5,
+ "avg_comments": 10.5,
+ "avg_views": 50053.9,
  "posts_last_30d": 17,
  "_posts_last_30d_est": false,
  "sample_size": 17,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "16건",
-  "olive_young_mentions": "10건",
-  "beauty_keywords": "20건",
+  "daiso_mentions": "3건",
+  "olive_young_mentions": "6건",
+  "beauty_keywords": "14건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 17개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:17/17",
+ "channel_id": "UCPLo-rNY1rmknNRQ9m0P6AA",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -29,18 +35,22 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 17개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCPLo-rNY1rmknNRQ9m0P6AA",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
    "followers": 50300,
    "engagement_rate": 0.0053,
+   "posts_last_30d": 17,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 65.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 50300,
+   "engagement_rate": 0.0045,
    "posts_last_30d": 17,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",

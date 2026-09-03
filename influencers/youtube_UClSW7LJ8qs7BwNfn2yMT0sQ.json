@@ -4,12 +4,12 @@
  "fullname": "桃夭剧场TopLove",
  "profile_url": "https://www.youtube.com/channel/UClSW7LJ8qs7BwNfn2yMT0sQ",
  "followers": 638000,
- "engagement_rate": 0.0045,
- "avg_likes": 140.9,
- "avg_comments": 4.9,
- "avg_views": 31508.2,
+ "engagement_rate": 0.0044,
+ "avg_likes": 164.9,
+ "avg_comments": 5.6,
+ "avg_views": 37554.2,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -19,7 +19,13 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": true
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "channel_id": "UClSW7LJ8qs7BwNfn2yMT0sQ",
  "score_total": 51.25,
  "grade": "C",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12",
- "channel_id": "UClSW7LJ8qs7BwNfn2yMT0sQ",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:23:46+09:00",
-   "followers": 613000,
-   "engagement_rate": 0.0091,
-   "posts_last_30d": 8,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.25,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-07-17T10:27:51.312635+09:00",
    "followers": 611000,
@@ -296,6 +286,16 @@
    "evaluated_at": "2026-08-31T10:26:13+09:00",
    "followers": 636000,
    "engagement_rate": 0.0028,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 51.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 638000,
+   "engagement_rate": 0.0045,
    "posts_last_30d": 12,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",

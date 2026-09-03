@@ -5,9 +5,9 @@
  "profile_url": "https://www.youtube.com/channel/UCrhm4vlaOhwDND5uIBQPbiw",
  "followers": 11800,
  "engagement_rate": 0.0088,
- "avg_likes": 63.8,
+ "avg_likes": 64.2,
  "avg_comments": 2.2,
- "avg_views": 7274.2,
+ "avg_views": 7293.7,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 18,
@@ -15,11 +15,17 @@
  "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "44건",
-  "olive_young_mentions": "7건",
-  "beauty_keywords": "41건",
+  "olive_young_mentions": "9건",
+  "beauty_keywords": "47건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 최근 18개(30일내 0건) [videos:12+shorts:12] meta_ok:18/18 likes_ok:12/18",
+ "channel_id": "UCrhm4vlaOhwDND5uIBQPbiw",
  "score_total": 56.5,
  "grade": "C",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 0개 [videos:6+shorts:12] meta_ok:18/18 — 30일내 0건, 최근 20개로 대체",
- "channel_id": "UCrhm4vlaOhwDND5uIBQPbiw",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:14:33.516676+09:00",
-   "followers": 11700,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 40.25,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 11700,
@@ -291,6 +281,16 @@
   },
   {
    "evaluated_at": "2026-08-31T10:26:13+09:00",
+   "followers": 11800,
+   "engagement_rate": 0.0088,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 56.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
    "followers": 11800,
    "engagement_rate": 0.0088,
    "posts_last_30d": 0,

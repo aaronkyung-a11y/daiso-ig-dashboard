@@ -4,10 +4,10 @@
  "fullname": "Hyukヒョク",
  "profile_url": "https://www.youtube.com/channel/UC1JblLAuGsgpxjQjROHfwzQ",
  "followers": 535000,
- "engagement_rate": 0.0115,
- "avg_likes": 865.3,
+ "engagement_rate": 0.0113,
+ "avg_likes": 875.6,
  "avg_comments": 34.0,
- "avg_views": 75075.4,
+ "avg_views": 77213.7,
  "posts_last_30d": 7,
  "_posts_last_30d_est": false,
  "sample_size": 7,
@@ -19,7 +19,13 @@
   "beauty_keywords": "0건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:7/7",
+ "channel_id": "UC1JblLAuGsgpxjQjROHfwzQ",
  "score_total": 58.25,
  "grade": "C",
  "score_breakdown": {
@@ -29,19 +35,23 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UC1JblLAuGsgpxjQjROHfwzQ",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
    "followers": 535000,
    "engagement_rate": 0.0133,
    "posts_last_30d": 8,
+   "brand_fit_score": 25,
+   "retailer_focus": "off_topic",
+   "score_total": 58.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 535000,
+   "engagement_rate": 0.0115,
+   "posts_last_30d": 7,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "score_total": 58.25,

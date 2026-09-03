@@ -4,13 +4,13 @@
  "fullname": "나나씨 Nanasi",
  "profile_url": "https://www.youtube.com/channel/UCzBbE7x7mPrs56PvCc0errA",
  "followers": 159000,
- "engagement_rate": 0.0168,
- "avg_likes": 291.0,
- "avg_comments": 39.7,
- "avg_views": 17334.7,
- "posts_last_30d": 3,
+ "engagement_rate": 0.0163,
+ "avg_likes": 306.5,
+ "avg_comments": 57.0,
+ "avg_views": 18815.5,
+ "posts_last_30d": 2,
  "_posts_last_30d_est": false,
- "sample_size": 3,
+ "sample_size": 2,
  "brand_fit_score": 60,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
@@ -19,7 +19,13 @@
   "beauty_keywords": "1건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 2개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:2/2",
+ "channel_id": "UCzBbE7x7mPrs56PvCc0errA",
  "score_total": 64.0,
  "grade": "C",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 3개 [videos:0+shorts:12] meta_ok:12/12",
- "channel_id": "UCzBbE7x7mPrs56PvCc0errA",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:49:36.915062+09:00",
-   "followers": 159000,
-   "engagement_rate": 0.0109,
-   "posts_last_30d": 2,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 55.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-30T10:25:05.403459+09:00",
    "followers": 159000,
@@ -301,6 +291,16 @@
    "retailer_focus": "olive_young",
    "score_total": 67.75,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 159000,
+   "engagement_rate": 0.0168,
+   "posts_last_30d": 3,
+   "brand_fit_score": 60,
+   "retailer_focus": "beauty_general",
+   "score_total": 64.0,
+   "grade": "C"
   }
  ]
 }

@@ -3,23 +3,29 @@
  "username": "UCHCL-VtQlNJTmPA7oy6HQXg",
  "fullname": "선스캣 sun's cat",
  "profile_url": "https://www.youtube.com/channel/UCHCL-VtQlNJTmPA7oy6HQXg",
- "followers": 2650,
- "engagement_rate": 0.0126,
- "avg_likes": 235.2,
- "avg_comments": 6.9,
- "avg_views": 18625.5,
+ "followers": 2660,
+ "engagement_rate": 0.0127,
+ "avg_likes": 236.8,
+ "avg_comments": 6.6,
+ "avg_views": 18654.1,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "10건",
-  "olive_young_mentions": "43건",
-  "beauty_keywords": "77건",
+  "daiso_mentions": "4건",
+  "olive_young_mentions": "47건",
+  "beauty_keywords": "71건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": true
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "channel_id": "UCHCL-VtQlNJTmPA7oy6HQXg",
  "score_total": 73.5,
  "grade": "B",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12",
- "channel_id": "UCHCL-VtQlNJTmPA7oy6HQXg",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
-   "followers": 2270,
-   "engagement_rate": 0.0246,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 73.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 2240,
@@ -298,6 +288,16 @@
    "evaluated_at": "2026-08-31T10:17:18+09:00",
    "followers": 2620,
    "engagement_rate": 0.0123,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "olive_young",
+   "score_total": 73.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 2650,
+   "engagement_rate": 0.0126,
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",

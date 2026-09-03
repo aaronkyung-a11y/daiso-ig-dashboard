@@ -3,9 +3,9 @@
  "username": "gaeeeeurii",
  "fullname": "가 을",
  "profile_url": "https://www.instagram.com/gaeeeeurii/",
- "followers": 8601,
- "engagement_rate": 0.1085,
- "avg_likes": 897.4,
+ "followers": 8603,
+ "engagement_rate": 0.1084,
+ "avg_likes": 897.5,
  "avg_comments": 35.4,
  "avg_views": 0,
  "posts_last_30d": 0,
@@ -19,7 +19,14 @@
   "beauty_keywords": "13건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "IG 로그인 실측 — 샘플 10건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 0건",
+ "_likes_hidden": 0,
+ "_ig_logged_out": false,
  "score_total": 84.5,
  "grade": "A",
  "score_breakdown": {
@@ -29,14 +36,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "IG 로그인 실측 — 샘플 10건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 0건",
- "_likes_hidden": 0,
- "_ig_logged_out": false,
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:57:07+09:00",
@@ -289,6 +289,16 @@
    "retailer_focus": "daiso",
    "score_total": 87.5,
    "grade": "S"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 8601,
+   "engagement_rate": 0.1085,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 84.5,
+   "grade": "A"
   }
  ]
 }

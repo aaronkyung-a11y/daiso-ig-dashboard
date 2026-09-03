@@ -4,10 +4,10 @@
  "fullname": "하우머치코리아 (HOWMUCH KOREA)",
  "profile_url": "https://www.youtube.com/channel/UCdw0gUzVPhyZFRVeuzy_AEg",
  "followers": 135000,
- "engagement_rate": 0.0107,
- "avg_likes": 978.6,
- "avg_comments": 28.6,
- "avg_views": 91567.6,
+ "engagement_rate": 0.0106,
+ "avg_likes": 1084.9,
+ "avg_comments": 34.6,
+ "avg_views": 102779.2,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -16,10 +16,16 @@
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "31건",
+  "beauty_keywords": "29건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12",
+ "channel_id": "UCdw0gUzVPhyZFRVeuzy_AEg",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24",
- "channel_id": "UCdw0gUzVPhyZFRVeuzy_AEg",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:27:51.312635+09:00",
-   "followers": 120000,
-   "engagement_rate": 0.0138,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 68.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-03T10:14:09.465620+09:00",
    "followers": 117000,
@@ -294,6 +284,16 @@
    "evaluated_at": "2026-08-31T10:23:20+09:00",
    "followers": 135000,
    "engagement_rate": 0.0115,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 77.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 135000,
+   "engagement_rate": 0.0107,
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",

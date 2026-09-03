@@ -3,23 +3,29 @@
  "username": "UCQN8kxyq6a_z0-49pG8g09w",
  "fullname": "장수의 비밀",
  "profile_url": "https://www.youtube.com/channel/UCQN8kxyq6a_z0-49pG8g09w",
- "followers": 191000,
- "engagement_rate": 0.0155,
- "avg_likes": 979.2,
- "avg_comments": 3.8,
- "avg_views": 63315.2,
+ "followers": 192000,
+ "engagement_rate": 0.0156,
+ "avg_likes": 966.0,
+ "avg_comments": 3.4,
+ "avg_views": 61785.1,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "51건",
+  "daiso_mentions": "36건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "39건",
+  "beauty_keywords": "36건",
   "labrang_present": false
  },
- "evaluated_at": "2026-09-02T11:40:59+09:00",
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": true
+ },
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
  "score_total": 77.5,
  "grade": "A",
  "score_breakdown": {
@@ -29,24 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
- },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12",
- "channel_id": "UCQN8kxyq6a_z0-49pG8g09w",
+ "evaluated_at": "2026-09-03T10:51:23+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 165000,
-   "engagement_rate": 0.0161,
-   "posts_last_30d": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 77.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:26.980413+09:00",
    "followers": 164000,
@@ -304,6 +294,16 @@
    "followers": 191000,
    "engagement_rate": 0.0176,
    "posts_last_30d": 10,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 77.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-02T11:40:59+09:00",
+   "followers": 191000,
+   "engagement_rate": 0.0155,
+   "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
    "score_total": 77.5,
