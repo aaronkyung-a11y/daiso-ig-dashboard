@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-09-03T10:51:56+09:00",
- "lastUpdated": "2026-09-03T10:51:56+09:00",
- "last_run_mode": "2026-09-03 10:00 슬롯 — STEP A(큐 3소스, 신규 0건) + STEP B 풀 재분석(watchlist 224계정)",
+ "last_updated": "2026-09-03T14:25:12+09:00",
+ "lastUpdated": "2026-09-03T14:25:12+09:00",
+ "last_run_mode": "2026-09-03 14:00 슬롯 — STEP A(큐 3소스: Issues 0 / _queue.txt 0 / Form 신규 0건) + STEP B-Light 재측정 실패(IG web_profile_info API 429 rate limit 지속, ~25분간 미해제). ★ 레코드 수치는 전건 10:00 회차 실측값 이월 — 이번 회차 실측 아님",
  "total": 223,
  "platforms": {
   "instagram": 23,
@@ -23,7 +23,7 @@
   "off_topic": 15
  },
  "dedup_note": "동일 채널 중복 파일(youtube_Jinyaa.json / youtube_UCRiIf6rt91BVfZVtURRXlOw.json)은 channel_id 기준 1건만 집계 — 양쪽 파일은 동일 실측값으로 동시 갱신",
- "method_note": "2026-09-03T10:00 슬롯 풀 재분석. YT: 채널당 /videos 12 + /shorts 12 스캔 후 30일내 영상으로 ER 산출(30일내 0건이면 최근 20개 대체). 메타데이터는 yt-dlp 2회 수집 — 수치(조회수·좋아요·댓글·게시일)는 기본 로케일, 텍스트(제목·태그·설명)는 --extractor-args youtube:lang=ko 한국어 원문. lang=ko 단독 수집 시 like_count/view_count가 누락되므로 수치는 반드시 기본 로케일 결과를 사용. 좋아요 비공개 영상은 평균에서 제외(sample_note의 likes_ok 참조). 게시일은 timestamp 없을 때 upload_date(일 단위) 사용. IG: 로그인 세션에서 topsearch(username→pk) + users/{pk}/info + feed/user 2페이지로 계정당 최근 24건 실측(좋아요·댓글·조회수·게시일·캡션). ER(IG)=(평균좋아요+평균댓글)/팔로워, ER(YT)=평균좋아요/평균조회수. 전건 이번 회차 실측(예외: instagram_mingjikim_107 — 계정 조회 불가로 이전 값 이월). score_total 전건 number.",
+ "method_note": "2026-09-03T10:00 슬롯 풀 재분석. YT: 채널당 /videos 12 + /shorts 12 스캔 후 30일내 영상으로 ER 산출(30일내 0건이면 최근 20개 대체). 메타데이터는 yt-dlp 2회 수집 — 수치(조회수·좋아요·댓글·게시일)는 기본 로케일, 텍스트(제목·태그·설명)는 --extractor-args youtube:lang=ko 한국어 원문. lang=ko 단독 수집 시 like_count/view_count가 누락되므로 수치는 반드시 기본 로케일 결과를 사용. 좋아요 비공개 영상은 평균에서 제외(sample_note의 likes_ok 참조). 게시일은 timestamp 없을 때 upload_date(일 단위) 사용. IG: 로그인 세션에서 topsearch(username→pk) + users/{pk}/info + feed/user 2페이지로 계정당 최근 24건 실측(좋아요·댓글·조회수·게시일·캡션). ER(IG)=(평균좋아요+평균댓글)/팔로워, ER(YT)=평균좋아요/평균조회수. 전건 이번 회차 실측(예외: instagram_mingjikim_107 — 계정 조회 불가로 이전 값 이월). score_total 전건 number. || 14:00 슬롯: IG API 429로 롤링 리프레시 미실행. 그리드 DOM 폴백은 페이지네이션이 12건에서 차단되고 일부 계정에서 like_and_view_counts_disabled 마스킹 및 code 불일치(교차오염)가 확인되어 수치 기록하지 않음. 따라서 본 회차는 메타데이터(last_updated/last_run_mode)만 갱신하며 레코드 수치는 10:00 회차 실측값 그대로임",
  "score_total_null_count": 0,
  "records": [
   {
