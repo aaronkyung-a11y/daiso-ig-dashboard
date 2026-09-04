@@ -4,10 +4,10 @@
  "fullname": "리뷰하는 회사원",
  "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
  "followers": 605000,
- "engagement_rate": 0.0137,
- "avg_likes": 10863.8,
- "avg_comments": 243.1,
- "avg_views": 793224.2,
+ "engagement_rate": 0.0133,
+ "avg_likes": 11719.2,
+ "avg_comments": 274.3,
+ "avg_views": 880785.2,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCGtY9qyrQqqPlkNqAwccjNQ",
  "score_total": 61.25,
  "grade": "C",
@@ -35,18 +36,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:24:42.739141+09:00",
-   "followers": 589000,
-   "engagement_rate": 0.0232,
-   "posts_last_30d": 0,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 61.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-16T10:18:56.001816+09:00",
    "followers": 589000,
@@ -302,6 +293,15 @@
    "posts_last_30d": 12,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
+   "score_total": 61.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 605000,
+   "engagement_rate": 0.0137,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
    "score_total": 61.25,
    "grade": "C"
   }

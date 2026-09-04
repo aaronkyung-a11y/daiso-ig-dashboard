@@ -5,12 +5,12 @@
  "profile_url": "https://www.youtube.com/channel/UC3ZQbE9FKR8TwHYqTNcIXQQ",
  "followers": 405000,
  "engagement_rate": 0.0129,
- "avg_likes": 1100.5,
- "avg_comments": 82.8,
- "avg_views": 85283.0,
- "posts_last_30d": 4,
+ "avg_likes": 914.4,
+ "avg_comments": 71.6,
+ "avg_views": 71113.4,
+ "posts_last_30d": 5,
  "_posts_last_30d_est": false,
- "sample_size": 4,
+ "sample_size": 5,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
@@ -22,20 +22,21 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 4개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:4/4",
+ "sample_note": "YT 30일내 5개 [videos:12+shorts:12] meta_ok:24 likes_ok:5/5 | brand_fit 이월(09-03 측정)",
  "channel_id": "UC3ZQbE9FKR8TwHYqTNcIXQQ",
- "score_total": 71.5,
+ "score_total": 74.5,
  "grade": "B",
  "score_breakdown": {
   "er": 60,
   "brand_fit": 90,
-  "consistency": 60,
+  "consistency": 80,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -54,6 +55,15 @@
    "posts_last_30d": 4,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 71.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 405000,
+   "engagement_rate": 0.0129,
+   "posts_last_30d": 4,
+   "brand_fit_score": 90,
    "score_total": 71.5,
    "grade": "B"
   }

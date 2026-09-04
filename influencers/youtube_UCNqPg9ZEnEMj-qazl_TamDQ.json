@@ -4,13 +4,13 @@
  "fullname": "YERIBU",
  "profile_url": "https://www.youtube.com/channel/UCNqPg9ZEnEMj-qazl_TamDQ",
  "followers": 17000,
- "engagement_rate": 0.0146,
- "avg_likes": 526.7,
- "avg_comments": 25.6,
- "avg_views": 35957.1,
- "posts_last_30d": 13,
+ "engagement_rate": 0.0094,
+ "avg_likes": 211.8,
+ "avg_comments": 23.9,
+ "avg_views": 22428.8,
+ "posts_last_30d": 14,
  "_posts_last_30d_est": false,
- "sample_size": 13,
+ "sample_size": 14,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
@@ -22,20 +22,21 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:13/13",
+ "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24 likes_ok:14/14 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCNqPg9ZEnEMj-qazl_TamDQ",
- "score_total": 75.5,
- "grade": "A",
+ "score_total": 65.5,
+ "grade": "B",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 90,
   "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:13:18+09:00",
@@ -84,6 +85,15 @@
    "posts_last_30d": 13,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 75.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 17000,
+   "engagement_rate": 0.0146,
+   "posts_last_30d": 13,
+   "brand_fit_score": 90,
    "score_total": 75.5,
    "grade": "A"
   }

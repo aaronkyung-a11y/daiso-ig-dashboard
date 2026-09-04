@@ -4,12 +4,12 @@
  "fullname": "스완SWAN_현실남자관리",
  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
  "followers": 509000,
- "engagement_rate": 0.0103,
- "avg_likes": 891.2,
- "avg_comments": 145.4,
- "avg_views": 86440.1,
+ "engagement_rate": 0.0098,
+ "avg_likes": 900.2,
+ "avg_comments": 146.5,
+ "avg_views": 92017.6,
  "posts_last_30d": 20,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 20,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
@@ -22,31 +22,22 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 20개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:20/20",
+ "sample_note": "YT 30일내 20개 [videos:12+shorts:12] meta_ok:24 likes_ok:20/20 | brand_fit 이월(09-03 측정)",
  "channel_id": "UChaTUCM7bPBTJaIZQ83PNwQ",
- "score_total": 80.0,
- "grade": "A",
+ "score_total": 70.0,
+ "grade": "B",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 100,
   "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:24:42.739141+09:00",
-   "followers": 501000,
-   "engagement_rate": 0.0155,
-   "posts_last_30d": 8,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-16T10:26:49.399610+09:00",
    "followers": 501000,
@@ -302,6 +293,15 @@
    "posts_last_30d": 21,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
+   "score_total": 80.0,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 509000,
+   "engagement_rate": 0.0103,
+   "posts_last_30d": 20,
+   "brand_fit_score": 100,
    "score_total": 80.0,
    "grade": "A"
   }

@@ -4,12 +4,12 @@
  "fullname": "겸다미",
  "profile_url": "https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ",
  "followers": 113000,
- "engagement_rate": 0.016,
- "avg_likes": 2083.0,
- "avg_comments": 59.6,
- "avg_views": 129949.3,
+ "engagement_rate": 0.0161,
+ "avg_likes": 2181.4,
+ "avg_comments": 65.4,
+ "avg_views": 135852.2,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCn_b_mrrhtMGhiLZLCzF7rQ",
  "score_total": 77.5,
  "grade": "A",
@@ -35,18 +36,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 111000,
-   "engagement_rate": 0.0132,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 68.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
    "followers": 111000,
@@ -302,6 +293,15 @@
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 77.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 113000,
+   "engagement_rate": 0.016,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
    "score_total": 77.5,
    "grade": "A"
   }

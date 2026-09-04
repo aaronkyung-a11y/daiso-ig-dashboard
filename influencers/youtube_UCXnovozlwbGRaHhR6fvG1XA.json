@@ -3,13 +3,13 @@
  "username": "UCXnovozlwbGRaHhR6fvG1XA",
  "fullname": "유정하다",
  "profile_url": "https://www.youtube.com/channel/UCXnovozlwbGRaHhR6fvG1XA",
- "followers": 806,
+ "followers": 808,
  "engagement_rate": 0.0,
- "avg_likes": 0,
+ "avg_likes": 0.0,
  "avg_comments": 1.0,
- "avg_views": 1298.0,
+ "avg_views": 1305.0,
  "posts_last_30d": 1,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 1,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 1개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:0/1",
+ "sample_note": "YT 30일내 1개 [videos:0+shorts:12] meta_ok:12 likes_ok:0/1 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCXnovozlwbGRaHhR6fvG1XA",
  "score_total": 52.5,
  "grade": "C",
@@ -35,18 +36,8 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
-   "followers": 768,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 52.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 766,
@@ -300,6 +291,15 @@
    "posts_last_30d": 1,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
+   "score_total": 52.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 806,
+   "engagement_rate": 0.0,
+   "posts_last_30d": 1,
+   "brand_fit_score": 90,
    "score_total": 52.5,
    "grade": "C"
   }

@@ -4,10 +4,10 @@
  "fullname": "秋水不染尘",
  "profile_url": "https://www.youtube.com/channel/UCQK2si_zQf-jPB6iIEv3inw",
  "followers": 205000,
- "engagement_rate": 0.0083,
- "avg_likes": 647.0,
- "avg_comments": 34.4,
- "avg_views": 77980.0,
+ "engagement_rate": 0.0086,
+ "avg_likes": 796.1,
+ "avg_comments": 41.9,
+ "avg_views": 92679.9,
  "posts_last_30d": 7,
  "_posts_last_30d_est": false,
  "sample_size": 7,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:15/15 likes_ok:7/7",
+ "sample_note": "YT 30일내 7개 [videos:12+shorts:3] meta_ok:15 likes_ok:7/7 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCQK2si_zQf-jPB6iIEv3inw",
  "score_total": 48.25,
  "grade": "D",
@@ -35,7 +36,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -54,6 +55,15 @@
    "posts_last_30d": 6,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
+   "score_total": 48.25,
+   "grade": "D"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 205000,
+   "engagement_rate": 0.0083,
+   "posts_last_30d": 7,
+   "brand_fit_score": 25,
    "score_total": 48.25,
    "grade": "D"
   }

@@ -4,10 +4,10 @@
  "fullname": "아서비",
  "profile_url": "https://www.youtube.com/channel/UC73hSOfrDfI0VyIfwstz59g",
  "followers": 11100,
- "engagement_rate": 0.0197,
- "avg_likes": 653.8,
- "avg_comments": 21.7,
- "avg_views": 33141.0,
+ "engagement_rate": 0.0193,
+ "avg_likes": 635.3,
+ "avg_comments": 19.9,
+ "avg_views": 32904.3,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UC73hSOfrDfI0VyIfwstz59g",
  "score_total": 75.5,
  "grade": "A",
@@ -35,7 +36,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-17T10:11:50+09:00",
@@ -105,6 +106,15 @@
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
+   "score_total": 75.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 11100,
+   "engagement_rate": 0.0197,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
    "score_total": 75.5,
    "grade": "A"
   }

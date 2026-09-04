@@ -3,11 +3,11 @@
  "username": "UCIQB1KXcPIhskB7jy1SJdLw",
  "fullname": "Dr.란의 스킨다이어리",
  "profile_url": "https://www.youtube.com/channel/UCIQB1KXcPIhskB7jy1SJdLw",
- "followers": 657,
- "engagement_rate": 0.0039,
- "avg_likes": 2.4,
+ "followers": 656,
+ "engagement_rate": 0.0044,
+ "avg_likes": 2.7,
  "avg_comments": 1.0,
- "avg_views": 615.8,
+ "avg_views": 612.8,
  "posts_last_30d": 8,
  "_posts_last_30d_est": false,
  "sample_size": 8,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 8개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:8/8",
+ "sample_note": "YT 30일내 8개 [videos:12+shorts:12] meta_ok:24 likes_ok:6/8 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCIQB1KXcPIhskB7jy1SJdLw",
  "score_total": 54.75,
  "grade": "C",
@@ -35,18 +36,8 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
-   "followers": 546,
-   "engagement_rate": 0.0041,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 58.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-17T10:26:52.027915+09:00",
    "followers": 546,
@@ -294,6 +285,15 @@
    "posts_last_30d": 9,
    "brand_fit_score": 75,
    "retailer_focus": "beauty_general",
+   "score_total": 54.75,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 657,
+   "engagement_rate": 0.0039,
+   "posts_last_30d": 8,
+   "brand_fit_score": 75,
    "score_total": 54.75,
    "grade": "C"
   }

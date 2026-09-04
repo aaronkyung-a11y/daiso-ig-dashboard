@@ -4,13 +4,13 @@
  "fullname": "톡신TOXIN",
  "profile_url": "https://www.youtube.com/channel/UCHa6h8DGLYkAljbskQbIXHw",
  "followers": 206000,
- "engagement_rate": 0.0183,
- "avg_likes": 555.1,
- "avg_comments": 26.8,
- "avg_views": 30319.1,
- "posts_last_30d": 13,
+ "engagement_rate": 0.0173,
+ "avg_likes": 602.4,
+ "avg_comments": 26.6,
+ "avg_views": 34742.8,
+ "posts_last_30d": 14,
  "_posts_last_30d_est": false,
- "sample_size": 13,
+ "sample_size": 14,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:13/13",
+ "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24 likes_ok:14/14 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCHa6h8DGLYkAljbskQbIXHw",
  "score_total": 77.5,
  "grade": "A",
@@ -35,18 +36,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 206000,
-   "engagement_rate": 0.0182,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 71.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
    "followers": 206000,
@@ -301,6 +292,15 @@
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 77.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 206000,
+   "engagement_rate": 0.0183,
+   "posts_last_30d": 13,
+   "brand_fit_score": 90,
    "score_total": 77.5,
    "grade": "A"
   }

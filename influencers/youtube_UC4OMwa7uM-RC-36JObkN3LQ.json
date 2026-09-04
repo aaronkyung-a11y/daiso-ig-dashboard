@@ -3,11 +3,11 @@
  "username": "UC4OMwa7uM-RC-36JObkN3LQ",
  "fullname": "내면의 여유",
  "profile_url": "https://www.youtube.com/channel/UC4OMwa7uM-RC-36JObkN3LQ",
- "followers": 63700,
- "engagement_rate": 0.0149,
- "avg_likes": 933.6,
- "avg_comments": 13.1,
- "avg_views": 62629.0,
+ "followers": 63900,
+ "engagement_rate": 0.0154,
+ "avg_likes": 1051.4,
+ "avg_comments": 10.8,
+ "avg_views": 68344.3,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UC4OMwa7uM-RC-36JObkN3LQ",
  "score_total": 75.5,
  "grade": "A",
@@ -35,18 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T17:09:53.780554+09:00",
-   "followers": 41200,
-   "engagement_rate": 0.039,
-   "posts_last_30d": 10,
-   "brand_fit_score": 75,
-   "retailer_focus": "beauty_general",
-   "score_total": 81.8,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-17T10:26:21.263322+09:00",
    "followers": 40800,
@@ -291,6 +282,15 @@
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
+   "score_total": 75.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 63700,
+   "engagement_rate": 0.0149,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
    "score_total": 75.5,
    "grade": "A"
   }

@@ -4,13 +4,13 @@
  "fullname": "BeautywithFranz",
  "profile_url": "https://www.youtube.com/channel/UCePjZRTgGmQs7C3TFxX1Ffg",
  "followers": 27800,
- "engagement_rate": 0.0066,
- "avg_likes": 28.1,
+ "engagement_rate": 0.005,
+ "avg_likes": 17.7,
  "avg_comments": 3.0,
- "avg_views": 4266.4,
- "posts_last_30d": 8,
- "_posts_last_30d_est": false,
- "sample_size": 8,
+ "avg_views": 3567.0,
+ "posts_last_30d": 7,
+ "_posts_last_30d_est": true,
+ "sample_size": 7,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 8개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:8/8",
+ "sample_note": "YT 30일내 7개 [videos:0+shorts:12] meta_ok:12 likes_ok:7/7 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCePjZRTgGmQs7C3TFxX1Ffg",
  "score_total": 46.25,
  "grade": "D",
@@ -35,7 +36,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:29:08+09:00",
@@ -116,6 +117,15 @@
    "posts_last_30d": 8,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
+   "score_total": 46.25,
+   "grade": "D"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 27800,
+   "engagement_rate": 0.0066,
+   "posts_last_30d": 8,
+   "brand_fit_score": 25,
    "score_total": 46.25,
    "grade": "D"
   }

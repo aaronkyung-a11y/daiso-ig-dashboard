@@ -3,14 +3,14 @@
  "username": "UCdLwMtqz0GwDXRPO_bgKwbw",
  "fullname": "리뷰히",
  "profile_url": "https://www.youtube.com/channel/UCdLwMtqz0GwDXRPO_bgKwbw",
- "followers": 6890,
- "engagement_rate": 0.0099,
- "avg_likes": 40.2,
- "avg_comments": 3.8,
- "avg_views": 4076.3,
- "posts_last_30d": 11,
- "_posts_last_30d_est": false,
- "sample_size": 11,
+ "followers": 6900,
+ "engagement_rate": 0.0102,
+ "avg_likes": 43.7,
+ "avg_comments": 4.4,
+ "avg_views": 4276.6,
+ "posts_last_30d": 10,
+ "_posts_last_30d_est": true,
+ "sample_size": 10,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
@@ -22,20 +22,21 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 11개 [videos:12+shorts:12] meta_ok:14/14 likes_ok:11/11",
+ "sample_note": "YT 30일내 10개 [videos:2+shorts:12] meta_ok:14 likes_ok:10/10 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCdLwMtqz0GwDXRPO_bgKwbw",
- "score_total": 66.0,
- "grade": "B",
+ "score_total": 76.0,
+ "grade": "A",
  "score_breakdown": {
-  "er": 40,
+  "er": 60,
   "brand_fit": 100,
   "consistency": 100,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -95,6 +96,15 @@
    "posts_last_30d": 11,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
+   "score_total": 66.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 6890,
+   "engagement_rate": 0.0099,
+   "posts_last_30d": 11,
+   "brand_fit_score": 100,
    "score_total": 66.0,
    "grade": "B"
   }

@@ -4,12 +4,12 @@
  "fullname": "머머리쌤",
  "profile_url": "https://www.youtube.com/channel/UCZ2B-aCNyL4WTydUFU5NGkg",
  "followers": 24000,
- "engagement_rate": 0.0189,
- "avg_likes": 81.5,
- "avg_comments": 6.2,
- "avg_views": 4313.8,
+ "engagement_rate": 0.019,
+ "avg_likes": 82.0,
+ "avg_comments": 7.0,
+ "avg_views": 4322.5,
  "posts_last_30d": 4,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 4,
  "brand_fit_score": 25,
  "retailer_focus": "daiso",
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 4개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:4/4",
+ "sample_note": "YT 30일내 4개 [videos:12+shorts:12] meta_ok:24 likes_ok:4/4 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCZ2B-aCNyL4WTydUFU5NGkg",
  "score_total": 53.25,
  "grade": "C",
@@ -35,7 +36,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-20T14:09:34+09:00",
@@ -106,6 +107,15 @@
    "posts_last_30d": 4,
    "brand_fit_score": 25,
    "retailer_focus": "daiso",
+   "score_total": 53.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 24000,
+   "engagement_rate": 0.0189,
+   "posts_last_30d": 4,
+   "brand_fit_score": 25,
    "score_total": 53.25,
    "grade": "C"
   }

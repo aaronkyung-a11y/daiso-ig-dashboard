@@ -4,13 +4,13 @@
  "fullname": "피부텐텐 · 피부가 예뻐지는 10분 ",
  "profile_url": "https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw",
  "followers": 325000,
- "engagement_rate": 0.0098,
- "avg_likes": 75.9,
- "avg_comments": 13.2,
- "avg_views": 7756.3,
- "posts_last_30d": 20,
- "_posts_last_30d_est": false,
- "sample_size": 20,
+ "engagement_rate": 0.0094,
+ "avg_likes": 71.1,
+ "avg_comments": 12.7,
+ "avg_views": 7553.0,
+ "posts_last_30d": 21,
+ "_posts_last_30d_est": true,
+ "sample_size": 21,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 20개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:20/20",
+ "sample_note": "YT 30일내 21개 [videos:12+shorts:12] meta_ok:24 likes_ok:21/21 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCxA9k7UJz50ZJPa5aUGf7fw",
  "score_total": 67.5,
  "grade": "B",
@@ -35,18 +36,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 325000,
-   "engagement_rate": 0.0148,
-   "posts_last_30d": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:26.980413+09:00",
    "followers": 325000,
@@ -295,6 +286,15 @@
    "posts_last_30d": 21,
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
+   "score_total": 67.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 325000,
+   "engagement_rate": 0.0098,
+   "posts_last_30d": 20,
+   "brand_fit_score": 90,
    "score_total": 67.5,
    "grade": "B"
   }

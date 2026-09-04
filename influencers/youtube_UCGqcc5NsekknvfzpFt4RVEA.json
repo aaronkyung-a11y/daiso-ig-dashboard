@@ -3,11 +3,11 @@
  "username": "UCGqcc5NsekknvfzpFt4RVEA",
  "fullname": "지니이즈백",
  "profile_url": "https://www.youtube.com/channel/UCGqcc5NsekknvfzpFt4RVEA",
- "followers": 10900,
- "engagement_rate": 0.0171,
- "avg_likes": 181.6,
+ "followers": 11000,
+ "engagement_rate": 0.0172,
+ "avg_likes": 182.4,
  "avg_comments": 30.4,
- "avg_views": 10623.6,
+ "avg_views": 10627.9,
  "posts_last_30d": 16,
  "_posts_last_30d_est": false,
  "sample_size": 16,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:16/16",
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24 likes_ok:16/16 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCGqcc5NsekknvfzpFt4RVEA",
  "score_total": 68.0,
  "grade": "B",
@@ -35,7 +36,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -95,6 +96,15 @@
    "posts_last_30d": 16,
    "brand_fit_score": 60,
    "retailer_focus": "daiso",
+   "score_total": 68.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 10900,
+   "engagement_rate": 0.0171,
+   "posts_last_30d": 16,
+   "brand_fit_score": 60,
    "score_total": 68.0,
    "grade": "B"
   }

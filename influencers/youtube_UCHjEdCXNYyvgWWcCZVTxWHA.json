@@ -3,11 +3,11 @@
  "username": "UCHjEdCXNYyvgWWcCZVTxWHA",
  "fullname": "tibet brother",
  "profile_url": "https://www.youtube.com/channel/UCHjEdCXNYyvgWWcCZVTxWHA",
- "followers": 503000,
- "engagement_rate": 0.0153,
- "avg_likes": 2342.2,
- "avg_comments": 112.2,
- "avg_views": 153126.2,
+ "followers": 504000,
+ "engagement_rate": 0.0152,
+ "avg_likes": 2382.6,
+ "avg_comments": 114.0,
+ "avg_views": 156845.2,
  "posts_last_30d": 17,
  "_posts_last_30d_est": false,
  "sample_size": 17,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 17개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:17/17",
+ "sample_note": "YT 30일내 17개 [videos:12+shorts:12] meta_ok:24 likes_ok:17/17 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCHjEdCXNYyvgWWcCZVTxWHA",
  "score_total": 80.0,
  "grade": "A",
@@ -35,18 +36,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 495000,
-   "engagement_rate": 0.0249,
-   "posts_last_30d": 8,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-19T10:35:22.263612+09:00",
    "followers": 495000,
@@ -301,6 +292,15 @@
    "posts_last_30d": 19,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
+   "score_total": 80.0,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 503000,
+   "engagement_rate": 0.0153,
+   "posts_last_30d": 17,
+   "brand_fit_score": 100,
    "score_total": 80.0,
    "grade": "A"
   }

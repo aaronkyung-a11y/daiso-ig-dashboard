@@ -7,7 +7,7 @@
  "engagement_rate": 0.0067,
  "avg_likes": 34.7,
  "avg_comments": 5.0,
- "avg_views": 5161.0,
+ "avg_views": 5169.9,
  "posts_last_30d": 9,
  "_posts_last_30d_est": false,
  "sample_size": 9,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 9개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:9/9",
+ "sample_note": "YT 30일내 9개 [videos:0+shorts:12] meta_ok:12 likes_ok:9/9 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCBIH59jFPAuSB783uspXcTQ",
  "score_total": 60.5,
  "grade": "C",
@@ -35,7 +36,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:28:46+09:00",
@@ -116,6 +117,15 @@
    "posts_last_30d": 8,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
+   "score_total": 60.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 2410,
+   "engagement_rate": 0.0067,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
    "score_total": 60.5,
    "grade": "C"
   }

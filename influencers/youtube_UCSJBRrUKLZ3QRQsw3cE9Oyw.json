@@ -3,13 +3,13 @@
  "username": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
  "fullname": "centralgrocery 중앙식품점",
  "profile_url": "https://www.youtube.com/channel/UCSJBRrUKLZ3QRQsw3cE9Oyw",
- "followers": 21800,
- "engagement_rate": 0.0117,
- "avg_likes": 111.8,
- "avg_comments": 40.8,
- "avg_views": 9554.2,
+ "followers": 21900,
+ "engagement_rate": 0.0113,
+ "avg_likes": 116.9,
+ "avg_comments": 42.7,
+ "avg_views": 10368.0,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 60,
  "retailer_focus": "beauty_general",
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
  "score_total": 68.0,
  "grade": "B",
@@ -35,7 +36,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:23:07+09:00",
@@ -116,6 +117,15 @@
    "posts_last_30d": 11,
    "brand_fit_score": 60,
    "retailer_focus": "beauty_general",
+   "score_total": 68.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 21800,
+   "engagement_rate": 0.0117,
+   "posts_last_30d": 12,
+   "brand_fit_score": 60,
    "score_total": 68.0,
    "grade": "B"
   }

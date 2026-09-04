@@ -4,13 +4,13 @@
  "fullname": "JUNGSAEMMOOL",
  "profile_url": "https://www.youtube.com/channel/UCtCpkkzNnYixE9GEJVaCI8g",
  "followers": 688000,
- "engagement_rate": 0.0102,
- "avg_likes": 280.6,
- "avg_comments": 39.3,
- "avg_views": 27613.5,
- "posts_last_30d": 16,
- "_posts_last_30d_est": false,
- "sample_size": 16,
+ "engagement_rate": 0.01,
+ "avg_likes": 267.9,
+ "avg_comments": 37.6,
+ "avg_views": 26742.8,
+ "posts_last_30d": 17,
+ "_posts_last_30d_est": true,
+ "sample_size": 17,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:16/16",
+ "sample_note": "YT 30일내 17개 [videos:12+shorts:12] meta_ok:24 likes_ok:17/17 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCtCpkkzNnYixE9GEJVaCI8g",
  "score_total": 77.5,
  "grade": "A",
@@ -35,7 +36,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:20:30+09:00",
@@ -149,6 +150,15 @@
    "posts_last_30d": 17,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 77.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 688000,
+   "engagement_rate": 0.0102,
+   "posts_last_30d": 16,
+   "brand_fit_score": 90,
    "score_total": 77.5,
    "grade": "A"
   }

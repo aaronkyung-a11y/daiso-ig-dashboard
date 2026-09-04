@@ -7,9 +7,9 @@
  "engagement_rate": 0.0088,
  "avg_likes": 64.2,
  "avg_comments": 2.2,
- "avg_views": 7293.7,
+ "avg_views": 7309.6,
  "posts_last_30d": 0,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 18,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 최근 18개(30일내 0건) [videos:12+shorts:12] meta_ok:18/18 likes_ok:12/18",
+ "sample_note": "YT 30일내 0개 [videos:6+shorts:12] meta_ok:18 likes_ok:12/18 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCrhm4vlaOhwDND5uIBQPbiw",
  "score_total": 56.5,
  "grade": "C",
@@ -35,18 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 11700,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 40.2,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
    "followers": 11700,
@@ -296,6 +287,15 @@
    "posts_last_30d": 0,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
+   "score_total": 56.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 11800,
+   "engagement_rate": 0.0088,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
    "score_total": 56.5,
    "grade": "C"
   }

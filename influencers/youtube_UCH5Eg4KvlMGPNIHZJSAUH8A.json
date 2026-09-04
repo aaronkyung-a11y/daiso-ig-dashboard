@@ -4,12 +4,12 @@
  "fullname": "홀앙희",
  "profile_url": "https://www.youtube.com/channel/UCH5Eg4KvlMGPNIHZJSAUH8A",
  "followers": 5240,
- "engagement_rate": 0.0369,
- "avg_likes": 751.0,
- "avg_comments": 8.2,
- "avg_views": 20344.6,
+ "engagement_rate": 0.0285,
+ "avg_likes": 438.4,
+ "avg_comments": 7.2,
+ "avg_views": 15403.5,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
@@ -22,31 +22,22 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:6/12",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12 likes_ok:7/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCH5Eg4KvlMGPNIHZJSAUH8A",
- "score_total": 83.5,
- "grade": "A",
+ "score_total": 73.5,
+ "grade": "B",
  "score_breakdown": {
-  "er": 80,
+  "er": 60,
   "brand_fit": 90,
   "consistency": 100,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 4450,
-   "engagement_rate": 0.0176,
-   "posts_last_30d": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 70.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
    "followers": 4440,
@@ -301,6 +292,15 @@
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 83.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 5240,
+   "engagement_rate": 0.0369,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
    "score_total": 83.5,
    "grade": "A"
   }

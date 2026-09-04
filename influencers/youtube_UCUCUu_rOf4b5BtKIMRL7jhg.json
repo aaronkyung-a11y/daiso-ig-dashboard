@@ -3,11 +3,11 @@
  "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
  "fullname": "뮤니",
  "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
- "followers": 1800,
- "engagement_rate": 0.0142,
- "avg_likes": 248.0,
+ "followers": 1810,
+ "engagement_rate": 0.0143,
+ "avg_likes": 258.9,
  "avg_comments": 4.1,
- "avg_views": 17498.4,
+ "avg_views": 18063.1,
  "posts_last_30d": 10,
  "_posts_last_30d_est": false,
  "sample_size": 10,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 10개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:10/10",
+ "sample_note": "YT 30일내 10개 [videos:0+shorts:12] meta_ok:12 likes_ok:10/10 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCUCUu_rOf4b5BtKIMRL7jhg",
  "score_total": 76.0,
  "grade": "A",
@@ -35,18 +36,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:24:25.680424+09:00",
-   "followers": 1400,
-   "engagement_rate": 0.0259,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "score_total": 73.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-05-14T10:17:28.728191+09:00",
    "followers": 1150,
@@ -297,6 +288,15 @@
    "posts_last_30d": 10,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
+   "score_total": 76.0,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 1800,
+   "engagement_rate": 0.0142,
+   "posts_last_30d": 10,
+   "brand_fit_score": 100,
    "score_total": 76.0,
    "grade": "A"
   }

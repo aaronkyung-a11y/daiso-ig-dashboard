@@ -3,13 +3,13 @@
  "username": "UCLXYyuMtfzbXPlimfOWQGHA",
  "fullname": "여니룸",
  "profile_url": "https://www.youtube.com/channel/UCLXYyuMtfzbXPlimfOWQGHA",
- "followers": 3360,
+ "followers": 3370,
  "engagement_rate": 0.0064,
- "avg_likes": 49.0,
- "avg_comments": 6.2,
- "avg_views": 7686.3,
+ "avg_likes": 52.2,
+ "avg_comments": 7.2,
+ "avg_views": 8215.2,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 60,
  "retailer_focus": "beauty_general",
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCLXYyuMtfzbXPlimfOWQGHA",
  "score_total": 56.0,
  "grade": "C",
@@ -35,7 +36,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:29:08+09:00",
@@ -116,6 +117,15 @@
    "posts_last_30d": 12,
    "brand_fit_score": 60,
    "retailer_focus": "beauty_general",
+   "score_total": 56.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 3360,
+   "engagement_rate": 0.0064,
+   "posts_last_30d": 12,
+   "brand_fit_score": 60,
    "score_total": 56.0,
    "grade": "C"
   }

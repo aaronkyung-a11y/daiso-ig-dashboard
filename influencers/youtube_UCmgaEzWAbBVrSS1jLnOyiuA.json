@@ -4,12 +4,12 @@
  "fullname": "ASMR vlogs ",
  "profile_url": "https://www.youtube.com/channel/UCmgaEzWAbBVrSS1jLnOyiuA",
  "followers": 807000,
- "engagement_rate": 0.0296,
- "avg_likes": 292.0,
- "avg_comments": 3.0,
- "avg_views": 9862.2,
+ "engagement_rate": 0.0329,
+ "avg_likes": 526.4,
+ "avg_comments": 3.2,
+ "avg_views": 15985.2,
  "posts_last_30d": 13,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 13,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
@@ -22,20 +22,21 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:13/13",
+ "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24 likes_ok:13/13 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCmgaEzWAbBVrSS1jLnOyiuA",
- "score_total": 77.5,
- "grade": "A",
+ "score_total": 87.5,
+ "grade": "S",
  "score_breakdown": {
-  "er": 60,
+  "er": 80,
   "brand_fit": 90,
   "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:22:23+09:00",
@@ -116,6 +117,15 @@
    "posts_last_30d": 13,
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
+   "score_total": 77.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 807000,
+   "engagement_rate": 0.0296,
+   "posts_last_30d": 13,
+   "brand_fit_score": 90,
    "score_total": 77.5,
    "grade": "A"
   }

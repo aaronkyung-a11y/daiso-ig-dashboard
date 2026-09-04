@@ -5,9 +5,9 @@
  "profile_url": "https://www.youtube.com/channel/UCIgltl46C_j2wVay4tgIFJg",
  "followers": 2150,
  "engagement_rate": 0.0076,
- "avg_likes": 21.6,
+ "avg_likes": 21.7,
  "avg_comments": 1.0,
- "avg_views": 2828.3,
+ "avg_views": 2840.1,
  "posts_last_30d": 7,
  "_posts_last_30d_est": false,
  "sample_size": 7,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:7/7",
+ "sample_note": "YT 30일내 7개 [videos:0+shorts:12] meta_ok:12 likes_ok:7/7 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCIgltl46C_j2wVay4tgIFJg",
  "score_total": 60.5,
  "grade": "C",
@@ -35,18 +36,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:48:02.060040+09:00",
-   "followers": 2040,
-   "engagement_rate": 0.0108,
-   "posts_last_30d": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 73.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
    "followers": 1960,
@@ -303,6 +294,15 @@
    "posts_last_30d": 8,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
+   "score_total": 60.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 2150,
+   "engagement_rate": 0.0076,
+   "posts_last_30d": 7,
+   "brand_fit_score": 90,
    "score_total": 60.5,
    "grade": "C"
   }

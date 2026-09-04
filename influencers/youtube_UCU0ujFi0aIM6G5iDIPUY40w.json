@@ -4,12 +4,12 @@
  "fullname": "집남편",
  "profile_url": "https://www.youtube.com/channel/UCU0ujFi0aIM6G5iDIPUY40w",
  "followers": 10600,
- "engagement_rate": 0.0074,
- "avg_likes": 119.4,
+ "engagement_rate": 0.0073,
+ "avg_likes": 125.4,
  "avg_comments": 1.5,
- "avg_views": 16179.5,
+ "avg_views": 17175.2,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 60,
  "retailer_focus": "daiso",
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCU0ujFi0aIM6G5iDIPUY40w",
  "score_total": 58.0,
  "grade": "C",
@@ -35,7 +36,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:28:44+09:00",
@@ -116,6 +117,15 @@
    "posts_last_30d": 12,
    "brand_fit_score": 60,
    "retailer_focus": "daiso",
+   "score_total": 58.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 10600,
+   "engagement_rate": 0.0074,
+   "posts_last_30d": 12,
+   "brand_fit_score": 60,
    "score_total": 58.0,
    "grade": "C"
   }

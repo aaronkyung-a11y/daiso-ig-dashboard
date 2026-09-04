@@ -4,13 +4,13 @@
  "fullname": "먼지나방 스토그래피",
  "profile_url": "https://www.youtube.com/channel/UCHUkpUuH7O3U7eIx93tMUwA",
  "followers": 103000,
- "engagement_rate": 0.0132,
- "avg_likes": 194.8,
- "avg_comments": 14.8,
- "avg_views": 14796.3,
- "posts_last_30d": 11,
+ "engagement_rate": 0.0133,
+ "avg_likes": 201.6,
+ "avg_comments": 17.6,
+ "avg_views": 15184.1,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 11,
+ "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 11개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:11/11",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCHUkpUuH7O3U7eIx93tMUwA",
  "score_total": 77.5,
  "grade": "A",
@@ -35,18 +36,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 101000,
-   "engagement_rate": 0.0196,
-   "posts_last_30d": 5,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:26.980413+09:00",
    "followers": 101000,
@@ -301,6 +292,15 @@
    "posts_last_30d": 10,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 77.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 103000,
+   "engagement_rate": 0.0132,
+   "posts_last_30d": 11,
+   "brand_fit_score": 90,
    "score_total": 77.5,
    "grade": "A"
   }

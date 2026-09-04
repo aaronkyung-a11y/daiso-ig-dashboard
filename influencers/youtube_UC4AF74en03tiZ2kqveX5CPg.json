@@ -3,14 +3,14 @@
  "username": "UC4AF74en03tiZ2kqveX5CPg",
  "fullname": "秘境动漫社",
  "profile_url": "https://www.youtube.com/channel/UC4AF74en03tiZ2kqveX5CPg",
- "followers": 5430,
- "engagement_rate": 0.0056,
- "avg_likes": 197.3,
+ "followers": 5650,
+ "engagement_rate": 0.0054,
+ "avg_likes": 172.8,
  "avg_comments": 9.6,
- "avg_views": 35525.3,
- "posts_last_30d": 7,
- "_posts_last_30d_est": true,
- "sample_size": 7,
+ "avg_views": 31829.0,
+ "posts_last_30d": 10,
+ "_posts_last_30d_est": false,
+ "sample_size": 10,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -22,20 +22,21 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:7/7 likes_ok:7/7",
+ "sample_note": "YT 30일내 10개 [videos:10+shorts:0] meta_ok:10 likes_ok:10/10 | brand_fit 이월(09-03 측정)",
  "channel_id": "UC4AF74en03tiZ2kqveX5CPg",
- "score_total": 44.25,
+ "score_total": 47.25,
  "grade": "D",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 25,
-  "consistency": 80,
+  "consistency": 100,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -54,6 +55,15 @@
    "posts_last_30d": 9,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
+   "score_total": 44.25,
+   "grade": "D"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 5430,
+   "engagement_rate": 0.0056,
+   "posts_last_30d": 7,
+   "brand_fit_score": 25,
    "score_total": 44.25,
    "grade": "D"
   }

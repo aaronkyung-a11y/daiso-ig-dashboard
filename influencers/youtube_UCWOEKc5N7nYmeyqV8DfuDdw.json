@@ -3,11 +3,11 @@
  "username": "UCWOEKc5N7nYmeyqV8DfuDdw",
  "fullname": "왕실 피부 건강 연구소",
  "profile_url": "https://www.youtube.com/channel/UCWOEKc5N7nYmeyqV8DfuDdw",
- "followers": 21900,
- "engagement_rate": 0.0148,
- "avg_likes": 372.9,
+ "followers": 22000,
+ "engagement_rate": 0.0153,
+ "avg_likes": 324.8,
  "avg_comments": 2.8,
- "avg_views": 25162.9,
+ "avg_views": 21181.2,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCWOEKc5N7nYmeyqV8DfuDdw",
  "score_total": 75.5,
  "grade": "A",
@@ -35,7 +36,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:27:59+09:00",
@@ -149,6 +150,15 @@
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
+   "score_total": 75.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 21900,
+   "engagement_rate": 0.0148,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
    "score_total": 75.5,
    "grade": "A"
   }

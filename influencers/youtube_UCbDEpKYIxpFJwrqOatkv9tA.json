@@ -4,12 +4,12 @@
  "fullname": "서로디 lody",
  "profile_url": "https://www.youtube.com/channel/UCbDEpKYIxpFJwrqOatkv9tA",
  "followers": 3240,
- "engagement_rate": 0.0147,
- "avg_likes": 197.3,
- "avg_comments": 7.4,
- "avg_views": 13400.8,
+ "engagement_rate": 0.0145,
+ "avg_likes": 202.0,
+ "avg_comments": 7.5,
+ "avg_views": 13939.2,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "mixed",
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:15/15 likes_ok:12/12",
+ "sample_note": "YT 30일내 12개 [videos:3+shorts:12] meta_ok:15 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCbDEpKYIxpFJwrqOatkv9tA",
  "score_total": 73.5,
  "grade": "B",
@@ -35,18 +36,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
-   "followers": 1720,
-   "engagement_rate": 0.0276,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.25,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 1390,
@@ -297,6 +288,15 @@
    "posts_last_30d": 12,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
+   "score_total": 73.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 3240,
+   "engagement_rate": 0.0147,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
    "score_total": 73.5,
    "grade": "B"
   }

@@ -3,11 +3,11 @@
  "username": "UCLyRxUcEIUvrG5wAS2TaE9w",
  "fullname": "피부는 희쌤",
  "profile_url": "https://www.youtube.com/channel/UCLyRxUcEIUvrG5wAS2TaE9w",
- "followers": 20100,
- "engagement_rate": 0.0127,
- "avg_likes": 88.6,
- "avg_comments": 22.3,
- "avg_views": 6955.0,
+ "followers": 20300,
+ "engagement_rate": 0.0106,
+ "avg_likes": 103.2,
+ "avg_comments": 25.6,
+ "avg_views": 9695.1,
  "posts_last_30d": 16,
  "_posts_last_30d_est": false,
  "sample_size": 16,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:16/16",
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24 likes_ok:16/16 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCLyRxUcEIUvrG5wAS2TaE9w",
  "score_total": 78.0,
  "grade": "A",
@@ -35,18 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 18600,
-   "engagement_rate": 0.022,
-   "posts_last_30d": 4,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 72.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-19T10:36:00.353879+09:00",
    "followers": 18500,
@@ -305,6 +296,15 @@
    "posts_last_30d": 15,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
+   "score_total": 78.0,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 20100,
+   "engagement_rate": 0.0127,
+   "posts_last_30d": 16,
+   "brand_fit_score": 100,
    "score_total": 78.0,
    "grade": "A"
   }

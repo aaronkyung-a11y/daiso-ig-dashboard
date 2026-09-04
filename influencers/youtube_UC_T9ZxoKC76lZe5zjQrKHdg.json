@@ -4,12 +4,12 @@
  "fullname": "YeEul's JPOP",
  "profile_url": "https://www.youtube.com/channel/UC_T9ZxoKC76lZe5zjQrKHdg",
  "followers": 41400,
- "engagement_rate": 0.0208,
- "avg_likes": 287.8,
- "avg_comments": 11.2,
- "avg_views": 13829.8,
+ "engagement_rate": 0.0199,
+ "avg_likes": 278.4,
+ "avg_comments": 10.2,
+ "avg_views": 14024.6,
  "posts_last_30d": 13,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 13,
  "brand_fit_score": 60,
  "retailer_focus": "beauty_general",
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:13/13",
+ "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24 likes_ok:13/13 | brand_fit 이월(09-03 측정)",
  "channel_id": "UC_T9ZxoKC76lZe5zjQrKHdg",
  "score_total": 68.0,
  "grade": "B",
@@ -35,7 +36,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:23:05+09:00",
@@ -117,6 +118,15 @@
    "brand_fit_score": 75,
    "retailer_focus": "beauty_general",
    "score_total": 71.75,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 41400,
+   "engagement_rate": 0.0208,
+   "posts_last_30d": 13,
+   "brand_fit_score": 60,
+   "score_total": 68.0,
    "grade": "B"
   }
  ]

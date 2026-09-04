@@ -7,7 +7,7 @@
  "engagement_rate": 0.0038,
  "avg_likes": 5.7,
  "avg_comments": 2.0,
- "avg_views": 1498.7,
+ "avg_views": 1505.7,
  "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "sample_size": 3,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:12/12 likes_ok:3/3",
+ "sample_note": "YT 30일내 3개 [videos:0+shorts:12] meta_ok:12 likes_ok:3/3 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCIErIGNaCbne1_Eu1VzHFcw",
  "score_total": 57.5,
  "grade": "C",
@@ -35,18 +36,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:48:02.060040+09:00",
-   "followers": 1940,
-   "engagement_rate": 0.0038,
-   "posts_last_30d": 1,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 38.25,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
    "followers": 1840,
@@ -303,6 +294,15 @@
    "posts_last_30d": 4,
    "brand_fit_score": 90,
    "retailer_focus": "beauty_general",
+   "score_total": 57.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 2250,
+   "engagement_rate": 0.0038,
+   "posts_last_30d": 3,
+   "brand_fit_score": 90,
    "score_total": 57.5,
    "grade": "C"
   }

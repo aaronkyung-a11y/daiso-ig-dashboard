@@ -4,13 +4,13 @@
  "fullname": "로주 RhoJu",
  "profile_url": "https://www.youtube.com/channel/UCPbFt0ir9Yrp5lCzm-Ei7rw",
  "followers": 41800,
- "engagement_rate": 0.0164,
- "avg_likes": 472.0,
- "avg_comments": 20.8,
- "avg_views": 28792.7,
- "posts_last_30d": 6,
+ "engagement_rate": 0.0163,
+ "avg_likes": 414.7,
+ "avg_comments": 19.1,
+ "avg_views": 25486.0,
+ "posts_last_30d": 7,
  "_posts_last_30d_est": false,
- "sample_size": 6,
+ "sample_size": 7,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:6/6",
+ "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24 likes_ok:7/7 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCPbFt0ir9Yrp5lCzm-Ei7rw",
  "score_total": 72.5,
  "grade": "B",
@@ -35,7 +36,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:14:59+09:00",
@@ -84,6 +85,15 @@
    "posts_last_30d": 6,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 72.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 41800,
+   "engagement_rate": 0.0164,
+   "posts_last_30d": 6,
+   "brand_fit_score": 90,
    "score_total": 72.5,
    "grade": "B"
   }

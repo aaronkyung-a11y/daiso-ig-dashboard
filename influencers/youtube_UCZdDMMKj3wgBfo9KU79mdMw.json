@@ -4,12 +4,12 @@
  "fullname": "ぼっちの内科医",
  "profile_url": "https://www.youtube.com/channel/UCZdDMMKj3wgBfo9KU79mdMw",
  "followers": 8400,
- "engagement_rate": 0.0129,
- "avg_likes": 178.4,
- "avg_comments": 10.5,
- "avg_views": 13876.9,
+ "engagement_rate": 0.0115,
+ "avg_likes": 170.1,
+ "avg_comments": 10.4,
+ "avg_views": 14803.2,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:13/13 likes_ok:12/12",
+ "sample_note": "YT 30일내 12개 [videos:1+shorts:12] meta_ok:13 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCZdDMMKj3wgBfo9KU79mdMw",
  "score_total": 57.25,
  "grade": "C",
@@ -35,18 +36,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:13:06.763804+09:00",
-   "followers": 7830,
-   "engagement_rate": 0.018,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.25,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 7700,
@@ -297,6 +288,15 @@
    "posts_last_30d": 12,
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
+   "score_total": 57.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 8400,
+   "engagement_rate": 0.0129,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
    "score_total": 57.25,
    "grade": "C"
   }

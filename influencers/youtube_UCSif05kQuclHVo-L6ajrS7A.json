@@ -5,9 +5,9 @@
  "profile_url": "https://www.youtube.com/channel/UCSif05kQuclHVo-L6ajrS7A",
  "followers": 42300,
  "engagement_rate": 0.0174,
- "avg_likes": 6646.9,
+ "avg_likes": 6654.9,
  "avg_comments": 53.0,
- "avg_views": 381111.4,
+ "avg_views": 381752.8,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": false,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 최근 12개(30일내 0건) [videos:12+shorts:12] meta_ok:12/12 likes_ok:12/12",
+ "sample_note": "YT 30일내 0개 [videos:0+shorts:12] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCSif05kQuclHVo-L6ajrS7A",
  "score_total": 69.0,
  "grade": "B",
@@ -35,18 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-20T10:27:41+09:00",
-   "followers": 33800,
-   "engagement_rate": 0.0154,
-   "posts_last_30d": 0,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 69.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-07-17T10:48:02.060040+09:00",
    "followers": 32900,
@@ -303,6 +294,15 @@
    "posts_last_30d": 1,
    "brand_fit_score": 100,
    "retailer_focus": "our_brand",
+   "score_total": 69.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 42300,
+   "engagement_rate": 0.0174,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
    "score_total": 69.0,
    "grade": "B"
   }

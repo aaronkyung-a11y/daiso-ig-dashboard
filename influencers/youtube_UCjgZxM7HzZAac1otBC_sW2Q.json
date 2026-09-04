@@ -3,13 +3,13 @@
  "username": "UCjgZxM7HzZAac1otBC_sW2Q",
  "fullname": "맨즈뷰티 훈Hoon",
  "profile_url": "https://www.youtube.com/channel/UCjgZxM7HzZAac1otBC_sW2Q",
- "followers": 3360,
- "engagement_rate": 0.009,
- "avg_likes": 52.1,
- "avg_comments": 10.5,
- "avg_views": 5780.0,
+ "followers": 3370,
+ "engagement_rate": 0.0087,
+ "avg_likes": 55.6,
+ "avg_comments": 11.5,
+ "avg_views": 6390.8,
  "posts_last_30d": 8,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 8,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
@@ -22,9 +22,10 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true,
+  "brand_fit_carried_over": true
  },
- "sample_note": "YT 30일내 8개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:8/8",
+ "sample_note": "YT 30일내 8개 [videos:12+shorts:12] meta_ok:24 likes_ok:8/8 | brand_fit 이월(09-03 측정)",
  "channel_id": "UCjgZxM7HzZAac1otBC_sW2Q",
  "score_total": 63.0,
  "grade": "C",
@@ -35,7 +36,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T10:53:36+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -56,6 +57,15 @@
    "retailer_focus": "our_brand",
    "score_total": 73.0,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 3360,
+   "engagement_rate": 0.009,
+   "posts_last_30d": 8,
+   "brand_fit_score": 100,
+   "score_total": 63.0,
+   "grade": "C"
   }
  ]
 }
