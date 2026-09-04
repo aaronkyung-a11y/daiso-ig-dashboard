@@ -309,5 +309,6 @@
    "grade": "B"
   }
  ],
- "_refresh_failed_reason": "2026-09-03 17:00 슬롯 재측정 실패: IG 로그아웃(sessionid 없음) + web_profile_info API 429 + 로그아웃 상태에서 like_count/comment_count 비노출. 수치는 10:00 회차 실측값 이월"
+ "_refresh_failed_reason": "2026-09-04 14:00 슬롯 재측정 시도 실패: 계정이 좋아요 수 비공개(릴스/게시물 UI에 숫자 미노출) + web_profile_info API 429로 like_count 취득 불가. 수치는 2026-09-03 10:00 실측값 이월(이번 회차 실측 아님).",
+ "_refresh_failed_at": "2026-09-04T14:35:00+09:00"
 }

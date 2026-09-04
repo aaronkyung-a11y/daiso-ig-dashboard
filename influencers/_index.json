@@ -1,112 +1,31 @@
 {
- "last_updated": "2026-09-04T10:53:36+09:00",
- "lastUpdated": "2026-09-04T10:53:36+09:00",
- "last_run_mode": "2026-09-04 10:00 슬롯 — STEP B 풀 재분석. YT 201개 파일(200채널) 전건 실측 재측정 완료. IG 23건은 web_profile_info 429 + feed API 차단 + 게시물 페이지 좋아요 비노출로 재측정 불가 → 09-03 10:00 실측값 이월(이번 회차 실측 아님). STEP A 큐 3소스(Issues 0 / _queue.txt 0 / Form 신규 0건). STEP B-Light SKIP(10시 슬롯).",
+ "last_updated": "2026-09-04T14:35:00+09:00",
+ "lastUpdated": "2026-09-04T14:35:00+09:00",
+ "last_run_mode": "2026-09-04 14:00 슬롯 — STEP A(큐 3소스: Issues 0 / _queue.txt 0 / Form 신규 0건) + STEP B-Light 롤링 리프레시. STEP B 풀 재분석 SKIP(10시 슬롯 아님, 당일 10:53 풀 재분석 정상 실행 확인). B-Light 실측 2건: beauty_piona, boss.lim_ (릴스 퍼머링크 DOM 9건씩 실측). beauty._charmi·beautyus_mag는 좋아요 비공개 + web_profile_info 429로 재측정 불가 → 차순위 대체. 나머지 221건은 이번 회차 실측 아님(이월).",
  "total": 223,
  "platforms": {
   "instagram": 23,
   "youtube": 200
  },
  "grades": {
-  "S": 8,
+  "B": 83,
+  "S": 7,
   "A": 53,
-  "B": 82,
   "C": 75,
   "D": 5
  },
  "retailer_focus": {
-  "daiso": 46,
   "olive_young": 107,
-  "our_brand": 23,
+  "daiso": 46,
   "beauty_general": 25,
-  "mixed": 7,
-  "off_topic": 15
+  "our_brand": 23,
+  "off_topic": 15,
+  "mixed": 7
  },
  "dedup_note": "동일 채널 중복 파일(youtube_Jinyaa.json / youtube_UCRiIf6rt91BVfZVtURRXlOw.json)은 channel_id 기준 1건만 집계 — 양쪽 파일은 동일 실측값으로 동시 갱신",
- "method_note": "2026-09-04T10:00 슬롯 풀 재분석. YT: 채널당 /videos 12 + /shorts 12 스캔 후 30일내 영상으로 ER 산출(30일내 0건이면 최근 20개 대체). yt-dlp 단일 패스 --extractor-args \"youtube:player_skip=js,configs,webpage;player_client=web\" 로 수집 — 이 경로는 제목·태그가 한국어 원문으로 반환되어 lang=ko 2차 패스 불필요(검증 완료). 좋아요 비공개 영상은 평균에서 제외(sample_note의 likes_ok 참조). 게시일은 timestamp 없을 때 upload_date(일 단위) 사용. IG: 이번 회차 재측정 실패 — 수치는 2026-09-03 실측값 이월.",
+ "method_note": "2026-09-04T14:00 슬롯. B-Light 2건은 IG 릴스 퍼머링크 DOM에서 좋아요·댓글 직접 실측(샘플 9건), ER=(평균좋아요+평균댓글)/팔로워. IG web_profile_info/feed API가 429로 차단되어 팔로워·30일게시물수·brand_fit·avg_views는 직전 실측값 이월 또는 추정(각 레코드 sample_note·estimation_flags 참조). YT 201개 파일(200채널)은 2026-09-04 10:00 슬롯 실측값 유지.",
  "score_total_null_count": 0,
  "records": [
-  {
-   "platform": "instagram",
-   "username": "beauty_piona",
-   "fullname": "문혜경",
-   "profile_url": "https://www.instagram.com/beauty_piona/",
-   "followers": 11165,
-   "engagement_rate": 0.1522,
-   "avg_likes": 1586.2,
-   "avg_comments": 113,
-   "avg_views": 455894.3,
-   "posts_last_30d": 21,
-   "_posts_last_30d_est": false,
-   "sample_size": 24,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "4건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "56건",
-    "labrang_present": false
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false,
-    "posts_30d_estimated": false
-   },
-   "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 21건",
-   "_likes_hidden": 0,
-   "_ig_logged_out": false,
-   "score_total": 95.5,
-   "grade": "S",
-   "score_breakdown": {
-    "er": 100,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 80,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "evaluated_at": "2026-09-03T10:51:23+09:00",
-   "_refresh_failed_reason": "2026-09-03 17:00 슬롯 재측정 실패: IG 로그아웃(sessionid 없음) + web_profile_info API 429 + 로그아웃 상태에서 like_count/comment_count 비노출. 수치는 10:00 회차 실측값 이월"
-  },
-  {
-   "platform": "instagram",
-   "username": "boss.lim_",
-   "fullname": "보스",
-   "profile_url": "https://www.instagram.com/boss.lim_/",
-   "followers": 1212,
-   "engagement_rate": 0.8947,
-   "avg_likes": 1062.1,
-   "avg_comments": 22.3,
-   "avg_views": 74993.8,
-   "posts_last_30d": 15,
-   "_posts_last_30d_est": false,
-   "sample_size": 24,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "retailer_signal": {
-    "daiso_mentions": "15건",
-    "olive_young_mentions": "9건",
-    "beauty_keywords": "20건",
-    "labrang_present": false
-   },
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false,
-    "posts_30d_estimated": false
-   },
-   "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 15건",
-   "_likes_hidden": 0,
-   "_ig_logged_out": false,
-   "score_total": 93.5,
-   "grade": "S",
-   "score_breakdown": {
-    "er": 100,
-    "brand_fit": 90,
-    "consistency": 100,
-    "followers": 60,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "evaluated_at": "2026-09-03T10:51:23+09:00"
-  },
   {
    "platform": "instagram",
    "username": "cos_muni",
@@ -186,6 +105,46 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "evaluated_at": "2026-09-03T10:51:23+09:00"
+  },
+  {
+   "platform": "instagram",
+   "username": "beauty_piona",
+   "fullname": "문혜경",
+   "profile_url": "https://www.instagram.com/beauty_piona/",
+   "followers": 11165,
+   "engagement_rate": 0.0888,
+   "avg_likes": 945.2,
+   "avg_comments": 46.11,
+   "avg_views": 455894.3,
+   "posts_last_30d": 21,
+   "_posts_last_30d_est": true,
+   "sample_size": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "4건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "56건",
+    "labrang_present": false
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": true,
+    "followers_estimated": false,
+    "posts_30d_estimated": true
+   },
+   "sample_note": "IG 로그인 실측(2026-09-04 14:00 슬롯) — 릴스 퍼머링크 DOM 9건 실측(좋아요·댓글). web_profile_info API 429로 피드 API 불가 → 팔로워는 09-03 실측값 11,165 이월(프로필 표기 \"1.1만\"과 부합), 30일 게시물수 21건도 이월(추정) — 단 최근 9건이 08-31~09-04 5일 내 게시로 일관성 100 구간 실측 뒷받침. brand_fit·retailer_focus는 09-03 24건 전체 캡션 기준값 이월(이번 회차 미측정). avg_views 이월(이번 회차 미측정).",
+   "_likes_hidden": 0,
+   "_ig_logged_out": false,
+   "score_total": 90.5,
+   "grade": "S",
+   "score_breakdown": {
+    "er": 90,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 80,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "evaluated_at": "2026-09-04T14:35:00+09:00"
   },
   {
    "platform": "instagram",
@@ -2948,6 +2907,46 @@
    "evaluated_at": "2026-09-04T10:53:36+09:00"
   },
   {
+   "platform": "instagram",
+   "username": "boss.lim_",
+   "fullname": "보스",
+   "profile_url": "https://www.instagram.com/boss.lim_/",
+   "followers": 1210,
+   "engagement_rate": 0.0111,
+   "avg_likes": 11.0,
+   "avg_comments": 2.44,
+   "avg_views": 74993.8,
+   "posts_last_30d": 12,
+   "_posts_last_30d_est": true,
+   "sample_size": 9,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "retailer_signal": {
+    "daiso_mentions": "15건",
+    "olive_young_mentions": "9건",
+    "beauty_keywords": "20건",
+    "labrang_present": false
+   },
+   "estimation_flags": {
+    "brand_fit_estimated": true,
+    "followers_estimated": false,
+    "posts_30d_estimated": true
+   },
+   "sample_note": "IG 로그인 실측(2026-09-04 14:00 슬롯) — 릴스 퍼머링크 DOM 9건 실측(좋아요·댓글). 팔로워 1,210 프로필 실측. 30일 게시물수: 프로필 그리드 12건 전부 08-07~08-31로 30일 내 → 12건은 실측 하한(그리드 페이지네이션이 429로 차단되어 그 이상은 미확인, 추정 플래그 유지). brand_fit·retailer_focus는 09-03 값 이월(이번 회차 미측정). avg_views 이월(이번 회차 미측정).",
+   "_likes_hidden": 0,
+   "_ig_logged_out": false,
+   "score_total": 73.5,
+   "grade": "B",
+   "score_breakdown": {
+    "er": 60,
+    "brand_fit": 90,
+    "consistency": 100,
+    "followers": 60,
+    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+   },
+   "evaluated_at": "2026-09-04T14:35:00+09:00"
+  },
+  {
    "platform": "youtube",
    "username": "UC5gyhspuTp-qt_AGLamD5Fg",
    "fullname": "DEAR ME",
@@ -5226,7 +5225,8 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "evaluated_at": "2026-09-03T10:51:23+09:00",
-   "_refresh_failed_reason": "2026-09-03 17:00 슬롯 재측정 실패: IG 로그아웃(sessionid 없음) + web_profile_info API 429 + 로그아웃 상태에서 like_count/comment_count 비노출. 수치는 10:00 회차 실측값 이월"
+   "_refresh_failed_reason": "2026-09-04 14:00 슬롯 재측정 시도 실패: 계정이 좋아요 수 비공개(릴스/게시물 UI에 숫자 미노출) + web_profile_info API 429로 like_count 취득 불가. 수치는 2026-09-03 10:00 실측값 이월(이번 회차 실측 아님).",
+   "_refresh_failed_at": "2026-09-04T14:35:00+09:00"
   },
   {
    "platform": "instagram",
@@ -5266,7 +5266,9 @@
     "followers": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
-   "evaluated_at": "2026-09-03T10:51:23+09:00"
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "_refresh_failed_reason": "2026-09-04 14:00 슬롯 대체 재측정 시도 실패: 계정이 좋아요 수 비공개(\"OOO님 여러 명이 좋아합니다\") + web_profile_info API 429. 수치는 2026-09-03 10:00 실측값 이월(이번 회차 실측 아님).",
+   "_refresh_failed_at": "2026-09-04T14:35:00+09:00"
   },
   {
    "platform": "youtube",

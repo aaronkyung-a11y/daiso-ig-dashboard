@@ -4,13 +4,13 @@
  "fullname": "문혜경",
  "profile_url": "https://www.instagram.com/beauty_piona/",
  "followers": 11165,
- "engagement_rate": 0.1522,
- "avg_likes": 1586.2,
- "avg_comments": 113,
+ "engagement_rate": 0.0888,
+ "avg_likes": 945.2,
+ "avg_comments": 46.11,
  "avg_views": 455894.3,
  "posts_last_30d": 21,
- "_posts_last_30d_est": false,
- "sample_size": 24,
+ "_posts_last_30d_est": true,
+ "sample_size": 9,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
@@ -20,37 +20,24 @@
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
+  "brand_fit_estimated": true,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 21건",
+ "sample_note": "IG 로그인 실측(2026-09-04 14:00 슬롯) — 릴스 퍼머링크 DOM 9건 실측(좋아요·댓글). web_profile_info API 429로 피드 API 불가 → 팔로워는 09-03 실측값 11,165 이월(프로필 표기 \"1.1만\"과 부합), 30일 게시물수 21건도 이월(추정) — 단 최근 9건이 08-31~09-04 5일 내 게시로 일관성 100 구간 실측 뒷받침. brand_fit·retailer_focus는 09-03 24건 전체 캡션 기준값 이월(이번 회차 미측정). avg_views 이월(이번 회차 미측정).",
  "_likes_hidden": 0,
  "_ig_logged_out": false,
- "score_total": 95.5,
+ "score_total": 90.5,
  "grade": "S",
  "score_breakdown": {
-  "er": 100,
+  "er": 90,
   "brand_fit": 90,
   "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-04T14:35:00+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-04T14:10:00+09:00",
-   "followers": 6190,
-   "engagement_rate": 0.1811,
-   "avg_likes": 989.73,
-   "avg_comments": 131.18,
-   "sample_size": 11,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "grade": "S",
-   "score_total": 93.5,
-   "posts_last_30d": 10
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "score_total": 93.5,
@@ -302,7 +289,16 @@
    "retailer_focus": "daiso",
    "score_total": 95.5,
    "grade": "S"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 11165,
+   "engagement_rate": 0.1522,
+   "posts_last_30d": 21,
+   "brand_fit_score": 90,
+   "retailer_focus": "daiso",
+   "score_total": 95.5,
+   "grade": "S"
   }
- ],
- "_refresh_failed_reason": "2026-09-03 17:00 슬롯 재측정 실패: IG 로그아웃(sessionid 없음) + web_profile_info API 429 + 로그아웃 상태에서 like_count/comment_count 비노출. 수치는 10:00 회차 실측값 이월"
+ ]
 }
