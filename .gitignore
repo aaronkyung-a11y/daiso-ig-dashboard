@@ -1,3 +1,4 @@
 .github-pat
 *.log
 .run_ts
+moves.json
