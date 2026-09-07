@@ -3,11 +3,11 @@
  "username": "beauty_piona",
  "fullname": "문혜경",
  "profile_url": "https://www.instagram.com/beauty_piona/",
- "followers": 11188,
- "engagement_rate": 0.1016,
- "avg_likes": 1088.9,
- "avg_comments": 48.11,
- "avg_views": 18028.7,
+ "followers": 11190,
+ "engagement_rate": 0.1019,
+ "avg_likes": 1091.4,
+ "avg_comments": 48.56,
+ "avg_views": 18104.2,
  "posts_last_30d": 9,
  "_posts_last_30d_est": true,
  "sample_size": 9,
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-07 10:00 슬롯) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건. 좋아요·댓글·조회수는 media/info API 실측(shortcode→pk 변환). ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 그리드 12건 창이 모두 30일 내라 하한값 — 추정. ★ 그리드 무한스크롤이 이번 실행에서 동작하지 않아 샘플 12건 상한(로그인 상태는 정상).",
+ "sample_note": "IG 로그인 실측(2026-09-07 14:00 슬롯 · STEP B-Light) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건. 좋아요·댓글·조회수 전건 media/info API 실측(숨김 0건). ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 그리드 12건 상한 창이 모두 30일 내라 하한값 — 추정. ★ feed/user API 및 무한스크롤이 차단되어 샘플 12건 상한(로그인 상태 정상).",
  "_likes_hidden": 0,
  "_ig_logged_out": false,
  "score_total": 92.5,
@@ -36,19 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T10:58:30+09:00",
+ "evaluated_at": "2026-09-07T14:14:38+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-06T17:05:00+09:00",
-   "followers": 6199,
-   "engagement_rate": 0.1172,
-   "posts_last_30d": 10,
-   "sample_size": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 93.5,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-05-12T17:15:00+09:00",
    "followers": 6222,
@@ -297,6 +286,15 @@
    "posts_last_30d": 21,
    "brand_fit_score": 90,
    "score_total": 90.5,
+   "grade": "S"
+  },
+  {
+   "evaluated_at": "2026-09-07T10:58:30+09:00",
+   "followers": 11188,
+   "engagement_rate": 0.1016,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "score_total": 92.5,
    "grade": "S"
   }
  ]
