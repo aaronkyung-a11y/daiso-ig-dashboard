@@ -3,29 +3,28 @@
  "username": "UCIgltl46C_j2wVay4tgIFJg",
  "fullname": "골랐다",
  "profile_url": "https://www.youtube.com/channel/UCIgltl46C_j2wVay4tgIFJg",
- "followers": 2150,
+ "followers": 2160,
  "engagement_rate": 0.0076,
- "avg_likes": 21.7,
+ "avg_likes": 23.2,
  "avg_comments": 1.0,
- "avg_views": 2840.1,
- "posts_last_30d": 7,
+ "avg_views": 3072.2,
+ "posts_last_30d": 6,
  "_posts_last_30d_est": false,
- "sample_size": 7,
+ "sample_size": 6,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "119건",
+  "daiso_mentions": "113건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "52건",
+  "beauty_keywords": "46건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 7개 [videos:0+shorts:12] meta_ok:12 likes_ok:7/7 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 6개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:6/6 | 2026-09-07 10:00 슬롯 실측",
  "channel_id": "UCIgltl46C_j2wVay4tgIFJg",
  "score_total": 60.5,
  "grade": "C",
@@ -36,18 +35,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:05:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
-   "followers": 1960,
-   "engagement_rate": 0.0099,
-   "posts_last_30d": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 57.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 1940,
@@ -299,6 +288,15 @@
   },
   {
    "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 2150,
+   "engagement_rate": 0.0076,
+   "posts_last_30d": 7,
+   "brand_fit_score": 90,
+   "score_total": 60.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
    "followers": 2150,
    "engagement_rate": 0.0076,
    "posts_last_30d": 7,

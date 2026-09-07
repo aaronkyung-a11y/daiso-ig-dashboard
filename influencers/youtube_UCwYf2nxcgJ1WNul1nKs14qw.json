@@ -7,25 +7,24 @@
  "engagement_rate": 0.0101,
  "avg_likes": 178.5,
  "avg_comments": 1.5,
- "avg_views": 17715.5,
+ "avg_views": 17716.5,
  "posts_last_30d": 0,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 2,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "11건",
+  "daiso_mentions": "13건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "9건",
+  "beauty_keywords": "12건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0개 [videos:0+shorts:2] meta_ok:2 likes_ok:2/2 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 0개 → 최근 2개 대체 [videos:0+shorts:2] meta_ok:2/2 likes_ok:2/2 | 2026-09-07 10:00 슬롯 실측",
  "channel_id": "UCwYf2nxcgJ1WNul1nKs14qw",
  "score_total": 62.5,
  "grade": "C",
@@ -36,18 +35,8 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:08:22+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 88,
-   "engagement_rate": 0.0102,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 62.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
    "followers": 88,
@@ -294,6 +283,15 @@
   },
   {
    "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 88,
+   "engagement_rate": 0.0101,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
+   "score_total": 62.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
    "followers": 88,
    "engagement_rate": 0.0101,
    "posts_last_30d": 0,

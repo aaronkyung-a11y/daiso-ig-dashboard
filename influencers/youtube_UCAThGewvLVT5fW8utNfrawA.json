@@ -4,12 +4,12 @@
  "fullname": "ARADHYA FACT",
  "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
  "followers": 812000,
- "engagement_rate": 0.0335,
- "avg_likes": 28807.7,
- "avg_comments": 0.0,
- "avg_views": 861111.8,
+ "engagement_rate": 0.0472,
+ "avg_likes": 23353.5,
+ "avg_comments": 1.0,
+ "avg_views": 494698.4,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -22,12 +22,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12 likes_ok:3/12 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:2/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UCAThGewvLVT5fW8utNfrawA",
- "score_total": 71.25,
+ "score_total": 71.2,
  "grade": "B",
  "score_breakdown": {
   "er": 80,
@@ -36,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:03:11+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:22:04.056999+09:00",
-   "followers": 691000,
-   "engagement_rate": 0.0552,
-   "posts_last_30d": 15,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 76.2,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-05-12T10:05:00+09:00",
    "score_total": 51.2,
@@ -296,6 +285,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 811000,
    "engagement_rate": 0.0339,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "score_total": 71.25,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 812000,
+   "engagement_rate": 0.0335,
    "posts_last_30d": 12,
    "brand_fit_score": 25,
    "score_total": 71.25,

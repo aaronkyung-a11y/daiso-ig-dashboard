@@ -3,29 +3,28 @@
  "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
  "fullname": "뮤니",
  "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
- "followers": 1810,
- "engagement_rate": 0.0143,
- "avg_likes": 258.9,
+ "followers": 1830,
+ "engagement_rate": 0.0145,
+ "avg_likes": 276.8,
  "avg_comments": 4.1,
- "avg_views": 18063.1,
- "posts_last_30d": 10,
+ "avg_views": 19075.6,
+ "posts_last_30d": 11,
  "_posts_last_30d_est": false,
- "sample_size": 10,
+ "sample_size": 11,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "6건",
-  "olive_young_mentions": "22건",
-  "beauty_keywords": "25건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "8건",
   "labrang_present": true
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 10개 [videos:0+shorts:12] meta_ok:12 likes_ok:10/10 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 11개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:11/11 | 2026-09-07 10:00 슬롯 실측",
  "channel_id": "UCUCUu_rOf4b5BtKIMRL7jhg",
  "score_total": 76.0,
  "grade": "A",
@@ -36,18 +35,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:00:45+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-14T10:17:28.728191+09:00",
-   "followers": 1150,
-   "engagement_rate": 3.293,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 83.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "score_total": 79.8,
@@ -295,6 +284,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 1800,
    "engagement_rate": 0.0142,
+   "posts_last_30d": 10,
+   "brand_fit_score": 100,
+   "score_total": 76.0,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 1810,
+   "engagement_rate": 0.0143,
    "posts_last_30d": 10,
    "brand_fit_score": 100,
    "score_total": 76.0,

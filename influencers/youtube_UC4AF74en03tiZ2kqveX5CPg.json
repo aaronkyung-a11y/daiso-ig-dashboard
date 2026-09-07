@@ -3,14 +3,14 @@
  "username": "UC4AF74en03tiZ2kqveX5CPg",
  "fullname": "秘境动漫社",
  "profile_url": "https://www.youtube.com/channel/UC4AF74en03tiZ2kqveX5CPg",
- "followers": 5650,
- "engagement_rate": 0.0054,
- "avg_likes": 172.8,
- "avg_comments": 9.6,
- "avg_views": 31829.0,
- "posts_last_30d": 10,
- "_posts_last_30d_est": false,
- "sample_size": 10,
+ "followers": 6160,
+ "engagement_rate": 0.0063,
+ "avg_likes": 127.7,
+ "avg_comments": 6.18,
+ "avg_views": 20290.2,
+ "posts_last_30d": 12,
+ "_posts_last_30d_est": true,
+ "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -22,12 +22,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 10개 [videos:10+shorts:0] meta_ok:10 likes_ok:10/10 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UC4AF74en03tiZ2kqveX5CPg",
- "score_total": 47.25,
+ "score_total": 47.2,
  "grade": "D",
  "score_breakdown": {
   "er": 40,
@@ -36,7 +35,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:16:08+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -65,6 +64,15 @@
    "posts_last_30d": 7,
    "brand_fit_score": 25,
    "score_total": 44.25,
+   "grade": "D"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 5650,
+   "engagement_rate": 0.0054,
+   "posts_last_30d": 10,
+   "brand_fit_score": 25,
+   "score_total": 47.25,
    "grade": "D"
   }
  ]

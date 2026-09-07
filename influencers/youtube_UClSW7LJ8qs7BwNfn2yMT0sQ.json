@@ -3,11 +3,11 @@
  "username": "UClSW7LJ8qs7BwNfn2yMT0sQ",
  "fullname": "桃夭剧场TopLove",
  "profile_url": "https://www.youtube.com/channel/UClSW7LJ8qs7BwNfn2yMT0sQ",
- "followers": 638000,
- "engagement_rate": 0.0044,
- "avg_likes": 178.8,
- "avg_comments": 5.9,
- "avg_views": 40564.9,
+ "followers": 639000,
+ "engagement_rate": 0.0057,
+ "avg_likes": 102.8,
+ "avg_comments": 3.09,
+ "avg_views": 17896.8,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -22,12 +22,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UClSW7LJ8qs7BwNfn2yMT0sQ",
- "score_total": 51.25,
+ "score_total": 51.2,
  "grade": "C",
  "score_breakdown": {
   "er": 40,
@@ -36,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:08:22+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-03T10:14:09.465620+09:00",
-   "followers": 602000,
-   "engagement_rate": 0.0122,
-   "posts_last_30d": 10,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 61.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 597000,
@@ -295,6 +284,15 @@
   },
   {
    "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 638000,
+   "engagement_rate": 0.0044,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "score_total": 51.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
    "followers": 638000,
    "engagement_rate": 0.0044,
    "posts_last_30d": 12,

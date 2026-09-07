@@ -4,28 +4,27 @@
  "fullname": "LeoJ Makeup",
  "profile_url": "https://www.youtube.com/channel/UCnFFOjljp1_sacTz7PfIIyg",
  "followers": 1440000,
- "engagement_rate": 0.0113,
- "avg_likes": 3011.4,
- "avg_comments": 198.8,
- "avg_views": 267401.9,
+ "engagement_rate": 0.0109,
+ "avg_likes": 3428.2,
+ "avg_comments": 197.24,
+ "avg_views": 314399.2,
  "posts_last_30d": 17,
  "_posts_last_30d_est": true,
  "sample_size": 17,
  "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "11건",
-  "olive_young_mentions": "15건",
-  "beauty_keywords": "51건",
+  "daiso_mentions": "25건",
+  "olive_young_mentions": "20건",
+  "beauty_keywords": "76건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 17개 [videos:12+shorts:12] meta_ok:24 likes_ok:17/17 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 17개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:17/17 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UCnFFOjljp1_sacTz7PfIIyg",
  "score_total": 77.5,
  "grade": "A",
@@ -36,7 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:16:09+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -62,6 +61,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 1440000,
    "engagement_rate": 0.0109,
+   "posts_last_30d": 17,
+   "brand_fit_score": 90,
+   "score_total": 77.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 1440000,
+   "engagement_rate": 0.0113,
    "posts_last_30d": 17,
    "brand_fit_score": 90,
    "score_total": 77.5,

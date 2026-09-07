@@ -4,28 +4,27 @@
  "fullname": "청담 닥터원",
  "profile_url": "https://www.youtube.com/channel/UC-hvam4FHeXJDQZ5sCW132A",
  "followers": 6580,
- "engagement_rate": 0.0027,
- "avg_likes": 22.2,
- "avg_comments": 3.5,
- "avg_views": 8227.9,
+ "engagement_rate": 0.0029,
+ "avg_likes": 17.1,
+ "avg_comments": 3.33,
+ "avg_views": 5968.0,
  "posts_last_30d": 14,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 14,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "52건",
+  "beauty_keywords": "46건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24 likes_ok:14/14 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:14/14 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UC-hvam4FHeXJDQZ5sCW132A",
  "score_total": 63.5,
  "grade": "C",
@@ -36,16 +35,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:03:11+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
-   "score_total": 67.5,
-   "engagement_rate": 0.0141,
-   "followers": 6230,
-   "grade": "B",
-   "posts_last_30d": 4
-  },
   {
    "evaluated_at": "2026-06-26T10:21:50.641466+09:00",
    "followers": 6210,
@@ -298,6 +289,15 @@
    "followers": 6570,
    "engagement_rate": 0.0027,
    "posts_last_30d": 13,
+   "brand_fit_score": 90,
+   "score_total": 63.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 6580,
+   "engagement_rate": 0.0027,
+   "posts_last_30d": 14,
    "brand_fit_score": 90,
    "score_total": 63.5,
    "grade": "C"

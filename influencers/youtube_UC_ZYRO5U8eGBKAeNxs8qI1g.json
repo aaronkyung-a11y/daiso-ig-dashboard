@@ -3,31 +3,30 @@
  "username": "UC_ZYRO5U8eGBKAeNxs8qI1g",
  "fullname": "빌드퍼센트",
  "profile_url": "https://www.youtube.com/channel/UC_ZYRO5U8eGBKAeNxs8qI1g",
- "followers": 17300,
- "engagement_rate": 0.0212,
- "avg_likes": 72.0,
+ "followers": 17600,
+ "engagement_rate": 0.0211,
+ "avg_likes": 74.0,
  "avg_comments": 10.0,
- "avg_views": 3393.0,
+ "avg_views": 3504.0,
  "posts_last_30d": 1,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 1,
  "brand_fit_score": 25,
- "retailer_focus": "olive_young",
+ "retailer_focus": "off_topic",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "1건",
+  "olive_young_mentions": "0건",
   "beauty_keywords": "0건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 1개 [videos:9+shorts:2] meta_ok:11 likes_ok:1/1 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 1개 [videos:9+shorts:2] meta_ok:11/11 likes_ok:1/1 | 2026-09-07 10:00 슬롯 실측",
  "channel_id": "UC_ZYRO5U8eGBKAeNxs8qI1g",
- "score_total": 50.25,
+ "score_total": 50.2,
  "grade": "C",
  "score_breakdown": {
   "er": 60,
@@ -36,7 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:10:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:22:54+09:00",
@@ -124,6 +123,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 17300,
    "engagement_rate": 0.0214,
+   "posts_last_30d": 1,
+   "brand_fit_score": 25,
+   "score_total": 50.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 17300,
+   "engagement_rate": 0.0212,
    "posts_last_30d": 1,
    "brand_fit_score": 25,
    "score_total": 50.25,

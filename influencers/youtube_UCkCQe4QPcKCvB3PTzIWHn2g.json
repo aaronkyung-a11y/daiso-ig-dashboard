@@ -7,9 +7,9 @@
  "engagement_rate": 0.0098,
  "avg_likes": 49.0,
  "avg_comments": 6.0,
- "avg_views": 5014.1,
+ "avg_views": 5014.6,
  "posts_last_30d": 0,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 8,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
@@ -22,10 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0개 [videos:0+shorts:8] meta_ok:8 likes_ok:8/8 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 0개 → 최근 8개 대체 [videos:0+shorts:8] meta_ok:8/8 likes_ok:8/8 | 2026-09-07 10:00 슬롯 실측",
  "channel_id": "UCkCQe4QPcKCvB3PTzIWHn2g",
  "score_total": 55.0,
  "grade": "C",
@@ -36,18 +35,8 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:08:22+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 23,
-   "engagement_rate": 0.0099,
-   "posts_last_30d": 0,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 55.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
    "followers": 23,
@@ -295,6 +284,15 @@
   },
   {
    "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 22,
+   "engagement_rate": 0.0098,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
+   "score_total": 55.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
    "followers": 22,
    "engagement_rate": 0.0098,
    "posts_last_30d": 0,

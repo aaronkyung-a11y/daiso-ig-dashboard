@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "me_sonyeo",
+ "fullname": "미소녀",
+ "profile_url": "https://www.youtube.com/@me_sonyeo",
+ "followers": 4190,
+ "engagement_rate": 0.0176,
+ "avg_likes": 437.4,
+ "avg_comments": 4.64,
+ "avg_views": 24820.3,
+ "posts_last_30d": 12,
+ "_posts_last_30d_est": true,
+ "sample_size": 12,
+ "brand_fit_score": 80,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso_mentions": "4건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "1건",
+  "labrang_present": true
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": true
+ },
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "channel_id": "UCa7m7DWFPDlKMiouX_K8ABQ",
+ "score_total": 71.0,
+ "grade": "B",
+ "score_breakdown": {
+  "er": 60,
+  "brand_fit": 80,
+  "consistency": 100,
+  "followers": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "evaluated_at": "2026-09-07T11:00:45+09:00",
+ "history": []
+}

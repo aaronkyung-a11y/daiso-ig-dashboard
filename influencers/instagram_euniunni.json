@@ -3,53 +3,41 @@
  "username": "euniunni",
  "fullname": "조성은 Euniunni 유니언니",
  "profile_url": "https://www.instagram.com/euniunni/",
- "followers": 141799,
- "engagement_rate": 0.0081,
- "avg_likes": 1099.6,
- "avg_comments": 47.6,
- "avg_views": 210490.2,
- "posts_last_30d": 21,
- "_posts_last_30d_est": false,
- "sample_size": 24,
- "brand_fit_score": 60,
- "retailer_focus": "olive_young",
+ "followers": 141822,
+ "engagement_rate": 0.0035,
+ "avg_likes": 419.2,
+ "avg_comments": 74.67,
+ "avg_views": 23705.7,
+ "posts_last_30d": 9,
+ "_posts_last_30d_est": true,
+ "sample_size": 9,
+ "brand_fit_score": 25,
+ "retailer_focus": "off_topic",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "6건",
-  "beauty_keywords": "2건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "0건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 21건",
+ "sample_note": "IG 로그인 실측(2026-09-07 10:00 슬롯) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건. 좋아요·댓글·조회수는 media/info API 실측(shortcode→pk 변환). ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 그리드 12건 창이 모두 30일 내라 하한값 — 추정. ★ 그리드 무한스크롤이 이번 실행에서 동작하지 않아 샘플 12건 상한(로그인 상태는 정상).",
  "_likes_hidden": 0,
  "_ig_logged_out": false,
- "score_total": 60.0,
- "grade": "C",
+ "score_total": 48.2,
+ "grade": "D",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 60,
-  "consistency": 100,
+  "brand_fit": 25,
+  "consistency": 80,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-07T10:58:30+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-05T14:08:00+09:00",
-   "followers": 141000,
-   "engagement_rate": 0.0098,
-   "avg_likes": 1307.45,
-   "avg_comments": 73.18,
-   "sample_size": 11,
-   "brand_fit_score": 25,
-   "retailer_focus": "olive_young",
-   "grade": "C",
-   "total_score": 48.25
-  },
   {
    "evaluated_at": "2026-05-04T09:24:16+09:00",
    "followers": 141000,
@@ -313,6 +301,15 @@
    "retailer_focus": "olive_young",
    "score_total": 73.75,
    "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 141799,
+   "engagement_rate": 0.0081,
+   "posts_last_30d": 21,
+   "brand_fit_score": 60,
+   "score_total": 60.0,
+   "grade": "C"
   }
  ]
 }

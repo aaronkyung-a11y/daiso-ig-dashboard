@@ -7,47 +7,36 @@
  "engagement_rate": 0.0031,
  "avg_likes": 5.0,
  "avg_comments": 0.0,
- "avg_views": 1588.0,
+ "avg_views": 1600.0,
  "posts_last_30d": 1,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 1,
- "brand_fit_score": 100,
+ "brand_fit_score": 95,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "41건",
-  "olive_young_mentions": "31건",
-  "beauty_keywords": "81건",
+  "daiso_mentions": "43건",
+  "olive_young_mentions": "22건",
+  "beauty_keywords": "4건",
   "labrang_present": true
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 1개 [videos:0+shorts:12] meta_ok:12 likes_ok:1/1 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 1개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:1/1 | 2026-09-07 10:00 슬롯 실측",
  "channel_id": "UClgkEMblgt1EUDYejTMiYug",
- "score_total": 55.0,
+ "score_total": 53.8,
  "grade": "C",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 100,
+  "brand_fit": 95,
   "consistency": 40,
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:03:11+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 408,
-   "engagement_rate": 0.015,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 65.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
    "followers": 409,
@@ -301,6 +290,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 414,
    "engagement_rate": 0.0032,
+   "posts_last_30d": 1,
+   "brand_fit_score": 100,
+   "score_total": 55.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 414,
+   "engagement_rate": 0.0031,
    "posts_last_30d": 1,
    "brand_fit_score": 100,
    "score_total": 55.0,

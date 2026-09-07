@@ -3,28 +3,28 @@
  "username": "cos_muni",
  "fullname": "무니",
  "profile_url": "https://www.instagram.com/cos_muni/",
- "followers": 1777,
- "engagement_rate": 0.1843,
- "avg_likes": 318.3,
- "avg_comments": 9.2,
- "avg_views": 30612.2,
- "posts_last_30d": 14,
- "_posts_last_30d_est": false,
- "sample_size": 24,
+ "followers": 1796,
+ "engagement_rate": 0.1062,
+ "avg_likes": 177.8,
+ "avg_comments": 12.92,
+ "avg_views": 46855.4,
+ "posts_last_30d": 12,
+ "_posts_last_30d_est": true,
+ "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "5건",
-  "olive_young_mentions": "40건",
-  "beauty_keywords": "29건",
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "31건",
+  "beauty_keywords": "17건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 14건",
+ "sample_note": "IG 로그인 실측(2026-09-07 10:00 슬롯) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건. 좋아요·댓글·조회수는 media/info API 실측(shortcode→pk 변환). ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 그리드 12건 창이 모두 30일 내라 하한값 — 추정. ★ 그리드 무한스크롤이 이번 실행에서 동작하지 않아 샘플 12건 상한(로그인 상태는 정상).",
  "_likes_hidden": 0,
  "_ig_logged_out": false,
  "score_total": 93.5,
@@ -36,18 +36,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-07T10:58:30+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T17:11:19.584394+09:00",
-   "followers": 1723,
-   "engagement_rate": 0.397,
-   "posts_last_30d": 13,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 93.5,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
    "followers": 1715,
@@ -302,6 +292,15 @@
    "posts_last_30d": 14,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 93.5,
+   "grade": "S"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 1777,
+   "engagement_rate": 0.1843,
+   "posts_last_30d": 14,
+   "brand_fit_score": 90,
    "score_total": 93.5,
    "grade": "S"
   }

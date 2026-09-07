@@ -3,29 +3,28 @@
  "username": "UCjgZxM7HzZAac1otBC_sW2Q",
  "fullname": "맨즈뷰티 훈Hoon",
  "profile_url": "https://www.youtube.com/channel/UCjgZxM7HzZAac1otBC_sW2Q",
- "followers": 3370,
- "engagement_rate": 0.0087,
- "avg_likes": 55.6,
- "avg_comments": 11.5,
- "avg_views": 6390.8,
- "posts_last_30d": 8,
- "_posts_last_30d_est": true,
- "sample_size": 8,
+ "followers": 3390,
+ "engagement_rate": 0.0079,
+ "avg_likes": 62.0,
+ "avg_comments": 12.0,
+ "avg_views": 7857.6,
+ "posts_last_30d": 7,
+ "_posts_last_30d_est": false,
+ "sample_size": 7,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "3건",
-  "olive_young_mentions": "29건",
-  "beauty_keywords": "28건",
+  "daiso_mentions": "6건",
+  "olive_young_mentions": "39건",
+  "beauty_keywords": "29건",
   "labrang_present": true
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 [videos:12+shorts:12] meta_ok:24 likes_ok:8/8 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:7/7 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UCjgZxM7HzZAac1otBC_sW2Q",
  "score_total": 63.0,
  "grade": "C",
@@ -36,7 +35,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:16:09+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -62,6 +61,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 3360,
    "engagement_rate": 0.009,
+   "posts_last_30d": 8,
+   "brand_fit_score": 100,
+   "score_total": 63.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 3370,
+   "engagement_rate": 0.0087,
    "posts_last_30d": 8,
    "brand_fit_score": 100,
    "score_total": 63.0,

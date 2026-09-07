@@ -4,28 +4,27 @@
  "fullname": "텅장주의",
  "profile_url": "https://www.youtube.com/channel/UCfcM9RkfntkTH0pCwd4vSPA",
  "followers": 18000,
- "engagement_rate": 0.0064,
- "avg_likes": 270.6,
- "avg_comments": 3.2,
- "avg_views": 42597.8,
+ "engagement_rate": 0.0058,
+ "avg_likes": 349.8,
+ "avg_comments": 3.8,
+ "avg_views": 60824.4,
  "posts_last_30d": 5,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 5,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "59건",
+  "daiso_mentions": "73건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "17건",
+  "beauty_keywords": "15건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 [videos:0+shorts:12] meta_ok:12 likes_ok:5/5 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 5개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:5/5 | 2026-09-07 10:00 슬롯 실측",
  "channel_id": "UCfcM9RkfntkTH0pCwd4vSPA",
  "score_total": 62.5,
  "grade": "C",
@@ -36,18 +35,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:05:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-30T10:22:57.718982+09:00",
-   "followers": 17100,
-   "engagement_rate": 0.0091,
-   "posts_last_30d": 4,
-   "brand_fit_score": 25,
-   "retailer_focus": "daiso",
-   "score_total": 43.2,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 17000,
@@ -296,6 +285,15 @@
   },
   {
    "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 18000,
+   "engagement_rate": 0.0064,
+   "posts_last_30d": 5,
+   "brand_fit_score": 90,
+   "score_total": 62.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
    "followers": 18000,
    "engagement_rate": 0.0064,
    "posts_last_30d": 5,

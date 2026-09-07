@@ -4,28 +4,27 @@
  "fullname": "율리 YULRI",
  "profile_url": "https://www.youtube.com/channel/UCiULanlNBXuMkaP9OiZWgYQ",
  "followers": 425000,
- "engagement_rate": 0.013,
- "avg_likes": 791.8,
- "avg_comments": 41.8,
- "avg_views": 60803.4,
- "posts_last_30d": 13,
- "_posts_last_30d_est": true,
- "sample_size": 13,
+ "engagement_rate": 0.0123,
+ "avg_likes": 796.8,
+ "avg_comments": 43.25,
+ "avg_views": 64718.6,
+ "posts_last_30d": 12,
+ "_posts_last_30d_est": false,
+ "sample_size": 12,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "30건",
-  "olive_young_mentions": "5건",
-  "beauty_keywords": "22건",
+  "daiso_mentions": "21건",
+  "olive_young_mentions": "4건",
+  "beauty_keywords": "15건",
   "labrang_present": true
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24 likes_ok:13/13 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UCiULanlNBXuMkaP9OiZWgYQ",
  "score_total": 80.0,
  "grade": "A",
@@ -36,7 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:13:33+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -104,6 +103,15 @@
    "followers": 425000,
    "engagement_rate": 0.0132,
    "posts_last_30d": 12,
+   "brand_fit_score": 100,
+   "score_total": 80.0,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 425000,
+   "engagement_rate": 0.013,
+   "posts_last_30d": 13,
    "brand_fit_score": 100,
    "score_total": 80.0,
    "grade": "A"

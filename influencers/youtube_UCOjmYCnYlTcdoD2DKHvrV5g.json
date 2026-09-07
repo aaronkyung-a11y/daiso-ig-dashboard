@@ -4,10 +4,10 @@
  "fullname": "HARUNA KOJIMA's cat nap",
  "profile_url": "https://www.youtube.com/channel/UCOjmYCnYlTcdoD2DKHvrV5g",
  "followers": 695000,
- "engagement_rate": 0.0116,
- "avg_likes": 3044.7,
- "avg_comments": 121.3,
- "avg_views": 262584.0,
+ "engagement_rate": 0.0112,
+ "avg_likes": 3114.7,
+ "avg_comments": 124.0,
+ "avg_views": 277591.0,
  "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "sample_size": 3,
@@ -22,12 +22,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:24 likes_ok:3/3 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:3/3 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UCOjmYCnYlTcdoD2DKHvrV5g",
- "score_total": 55.25,
+ "score_total": 55.2,
  "grade": "C",
  "score_breakdown": {
   "er": 60,
@@ -36,7 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:13:33+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -103,6 +102,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 695000,
    "engagement_rate": 0.0117,
+   "posts_last_30d": 3,
+   "brand_fit_score": 25,
+   "score_total": 55.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 695000,
+   "engagement_rate": 0.0116,
    "posts_last_30d": 3,
    "brand_fit_score": 25,
    "score_total": 55.25,

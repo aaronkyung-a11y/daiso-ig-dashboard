@@ -3,11 +3,11 @@
  "username": "UCsZ_7NNHqolo9mos449uSfg",
  "fullname": "POLINA ZAITSEVA",
  "profile_url": "https://www.youtube.com/channel/UCsZ_7NNHqolo9mos449uSfg",
- "followers": 6680,
- "engagement_rate": 0.0148,
- "avg_likes": 66.8,
+ "followers": 6810,
+ "engagement_rate": 0.0147,
+ "avg_likes": 67.7,
  "avg_comments": 2.2,
- "avg_views": 4524.7,
+ "avg_views": 4600.3,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -22,12 +22,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UCsZ_7NNHqolo9mos449uSfg",
- "score_total": 57.25,
+ "score_total": 57.2,
  "grade": "C",
  "score_breakdown": {
   "er": 60,
@@ -36,7 +35,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:10:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:29:08+09:00",
@@ -123,6 +122,15 @@
   {
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 6660,
+   "engagement_rate": 0.0148,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "score_total": 57.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 6680,
    "engagement_rate": 0.0148,
    "posts_last_30d": 12,
    "brand_fit_score": 25,

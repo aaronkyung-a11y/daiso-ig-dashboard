@@ -3,51 +3,40 @@
  "username": "UCy4L-mlTgH-v8vBbtzCGhIA",
  "fullname": "Channel Talk",
  "profile_url": "https://www.youtube.com/channel/UCy4L-mlTgH-v8vBbtzCGhIA",
- "followers": 896,
- "engagement_rate": 0.0155,
- "avg_likes": 60.2,
- "avg_comments": 2.8,
- "avg_views": 3888.8,
- "posts_last_30d": 6,
- "_posts_last_30d_est": true,
- "sample_size": 6,
- "brand_fit_score": 60,
- "retailer_focus": "beauty_general",
+ "followers": 89700,
+ "engagement_rate": 0.0086,
+ "avg_likes": 176.2,
+ "avg_comments": 20.0,
+ "avg_views": 20450.6,
+ "posts_last_30d": 5,
+ "_posts_last_30d_est": false,
+ "sample_size": 5,
+ "brand_fit_score": 25,
+ "retailer_focus": "off_topic",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "2건",
+  "beauty_keywords": "0건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24 likes_ok:6/6 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 5개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:5/5 | 2026-09-07 10:00 슬롯 실측",
  "channel_id": "UCy4L-mlTgH-v8vBbtzCGhIA",
- "score_total": 61.0,
- "grade": "C",
+ "score_total": 46.2,
+ "grade": "D",
  "score_breakdown": {
-  "er": 60,
-  "brand_fit": 60,
+  "er": 40,
+  "brand_fit": 25,
   "consistency": 80,
-  "followers": 40,
+  "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:08:22+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
-   "followers": 89900,
-   "engagement_rate": 0.0029,
-   "posts_last_30d": 14,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 49.2,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-06-17T10:30:00.917329+09:00",
    "followers": 89900,
@@ -297,6 +286,15 @@
    "posts_last_30d": 4,
    "brand_fit_score": 60,
    "score_total": 52.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 896,
+   "engagement_rate": 0.0155,
+   "posts_last_30d": 6,
+   "brand_fit_score": 60,
+   "score_total": 61.0,
    "grade": "C"
   }
  ]

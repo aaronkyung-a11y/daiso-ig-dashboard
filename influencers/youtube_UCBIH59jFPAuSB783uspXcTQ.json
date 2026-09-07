@@ -4,28 +4,27 @@
  "fullname": "Good Tip",
  "profile_url": "https://www.youtube.com/channel/UCBIH59jFPAuSB783uspXcTQ",
  "followers": 2410,
- "engagement_rate": 0.0067,
- "avg_likes": 34.7,
+ "engagement_rate": 0.0072,
+ "avg_likes": 16.0,
  "avg_comments": 5.0,
- "avg_views": 5169.9,
- "posts_last_30d": 9,
+ "avg_views": 2209.7,
+ "posts_last_30d": 7,
  "_posts_last_30d_est": false,
- "sample_size": 9,
+ "sample_size": 7,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "50건",
-  "olive_young_mentions": "0건",
+  "daiso_mentions": "53건",
+  "olive_young_mentions": "1건",
   "beauty_keywords": "16건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 [videos:0+shorts:12] meta_ok:12 likes_ok:9/9 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 7개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:7/7 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UCBIH59jFPAuSB783uspXcTQ",
  "score_total": 60.5,
  "grade": "C",
@@ -36,7 +35,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:10:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:28:46+09:00",
@@ -122,6 +121,15 @@
   },
   {
    "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 2410,
+   "engagement_rate": 0.0067,
+   "posts_last_30d": 9,
+   "brand_fit_score": 90,
+   "score_total": 60.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
    "followers": 2410,
    "engagement_rate": 0.0067,
    "posts_last_30d": 9,

@@ -3,29 +3,28 @@
  "username": "UCU0ujFi0aIM6G5iDIPUY40w",
  "fullname": "집남편",
  "profile_url": "https://www.youtube.com/channel/UCU0ujFi0aIM6G5iDIPUY40w",
- "followers": 10600,
- "engagement_rate": 0.0073,
- "avg_likes": 125.4,
- "avg_comments": 1.5,
- "avg_views": 17175.2,
+ "followers": 10700,
+ "engagement_rate": 0.007,
+ "avg_likes": 118.9,
+ "avg_comments": 1.33,
+ "avg_views": 16893.5,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 60,
  "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "60건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "1건",
+  "beauty_keywords": "2건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UCU0ujFi0aIM6G5iDIPUY40w",
  "score_total": 58.0,
  "grade": "C",
@@ -36,7 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:10:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:28:44+09:00",
@@ -124,6 +123,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 10600,
    "engagement_rate": 0.0074,
+   "posts_last_30d": 12,
+   "brand_fit_score": 60,
+   "score_total": 58.0,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 10600,
+   "engagement_rate": 0.0073,
    "posts_last_30d": 12,
    "brand_fit_score": 60,
    "score_total": 58.0,

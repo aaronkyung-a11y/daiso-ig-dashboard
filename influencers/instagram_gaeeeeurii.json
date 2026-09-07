@@ -3,40 +3,40 @@
  "username": "gaeeeeurii",
  "fullname": "가 을",
  "profile_url": "https://www.instagram.com/gaeeeeurii/",
- "followers": 8603,
- "engagement_rate": 0.1084,
- "avg_likes": 897.5,
- "avg_comments": 35.4,
- "avg_views": 0,
- "posts_last_30d": 0,
+ "followers": 8695,
+ "engagement_rate": 0.0949,
+ "avg_likes": 774.3,
+ "avg_comments": 51.17,
+ "avg_views": 54100.7,
+ "posts_last_30d": 3,
  "_posts_last_30d_est": false,
- "sample_size": 10,
- "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "sample_size": 12,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "4건",
-  "olive_young_mentions": "0건",
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "1건",
   "beauty_keywords": "13건",
-  "labrang_present": false
+  "labrang_present": true
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "IG 로그인 실측 — 샘플 10건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 0건",
+ "sample_note": "IG 로그인 실측(2026-09-07 10:00 슬롯) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건. 좋아요·댓글·조회수는 media/info API 실측(shortcode→pk 변환). ER=(평균 좋아요+평균 댓글)/팔로워. ★ 그리드 무한스크롤이 이번 실행에서 동작하지 않아 샘플 12건 상한(로그인 상태는 정상).",
  "_likes_hidden": 0,
  "_ig_logged_out": false,
- "score_total": 84.5,
- "grade": "A",
+ "score_total": 85.0,
+ "grade": "S",
  "score_breakdown": {
-  "er": 100,
-  "brand_fit": 90,
-  "consistency": 40,
+  "er": 90,
+  "brand_fit": 100,
+  "consistency": 60,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-07T10:58:30+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:57:07+09:00",
@@ -297,6 +297,15 @@
    "posts_last_30d": 0,
    "brand_fit_score": 90,
    "retailer_focus": "daiso",
+   "score_total": 84.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 8603,
+   "engagement_rate": 0.1084,
+   "posts_last_30d": 0,
+   "brand_fit_score": 90,
    "score_total": 84.5,
    "grade": "A"
   }

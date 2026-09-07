@@ -3,11 +3,11 @@
  "username": "UCSif05kQuclHVo-L6ajrS7A",
  "fullname": "Stories Woven by Time",
  "profile_url": "https://www.youtube.com/channel/UCSif05kQuclHVo-L6ajrS7A",
- "followers": 42300,
+ "followers": 42500,
  "engagement_rate": 0.0174,
- "avg_likes": 6654.9,
+ "avg_likes": 6694.9,
  "avg_comments": 53.0,
- "avg_views": 381752.8,
+ "avg_views": 384945.2,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -22,10 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 0개 [videos:0+shorts:12] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 0개 → 최근 12개 대체 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UCSif05kQuclHVo-L6ajrS7A",
  "score_total": 69.0,
  "grade": "B",
@@ -36,18 +35,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:05:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-17T10:48:02.060040+09:00",
-   "followers": 32900,
-   "engagement_rate": 0.0157,
-   "posts_last_30d": 0,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 69.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
    "followers": 27500,
@@ -299,6 +288,15 @@
   },
   {
    "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 42300,
+   "engagement_rate": 0.0174,
+   "posts_last_30d": 0,
+   "brand_fit_score": 100,
+   "score_total": 69.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
    "followers": 42300,
    "engagement_rate": 0.0174,
    "posts_last_30d": 0,

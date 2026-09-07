@@ -3,14 +3,14 @@
  "username": "k_eunmi___",
  "fullname": "은미✨",
  "profile_url": "https://www.instagram.com/k_eunmi___/",
- "followers": 1585,
- "engagement_rate": 0.0362,
- "avg_likes": 55.4,
- "avg_comments": 2,
- "avg_views": 0,
+ "followers": 1583,
+ "engagement_rate": 0.0482,
+ "avg_likes": 73.4,
+ "avg_comments": 2.92,
+ "avg_views": 0.0,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
- "sample_size": 24,
+ "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -24,10 +24,10 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 1건",
+ "sample_note": "IG 로그인 실측(2026-09-07 10:00 슬롯) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건. 좋아요·댓글·조회수는 media/info API 실측(shortcode→pk 변환). ER=(평균 좋아요+평균 댓글)/팔로워. ★ 그리드 무한스크롤이 이번 실행에서 동작하지 않아 샘플 12건 상한(로그인 상태는 정상).",
  "_likes_hidden": 0,
  "_ig_logged_out": false,
- "score_total": 58.25,
+ "score_total": 58.2,
  "grade": "C",
  "score_breakdown": {
   "er": 80,
@@ -36,21 +36,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-07T10:58:30+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-04T09:40:03+09:00",
-   "followers": 1645,
-   "engagement_rate": 0.0221,
-   "avg_likes": 34.75,
-   "avg_comments": 1.62,
-   "sample_size": 8,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "grade": "D",
-   "score_total": 51.2,
-   "posts_last_30d": 3
-  },
   {
    "evaluated_at": "2026-05-04T09:28:43+09:00",
    "followers": 1645,
@@ -312,6 +299,15 @@
    "brand_fit_score": 25,
    "retailer_focus": "off_topic",
    "score_total": 61.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 1585,
+   "engagement_rate": 0.0362,
+   "posts_last_30d": 1,
+   "brand_fit_score": 25,
+   "score_total": 58.25,
    "grade": "C"
   }
  ]

@@ -4,10 +4,10 @@
  "fullname": "희재 HEEJAE",
  "profile_url": "https://www.youtube.com/channel/UC-mTngidALJqbjUcTyZMZ8Q",
  "followers": 309000,
- "engagement_rate": 0.0167,
- "avg_likes": 1805.5,
- "avg_comments": 175.0,
- "avg_views": 108138.0,
+ "engagement_rate": 0.0165,
+ "avg_likes": 1839.5,
+ "avg_comments": 174.5,
+ "avg_views": 111807.5,
  "posts_last_30d": 2,
  "_posts_last_30d_est": false,
  "sample_size": 2,
@@ -22,10 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 2개 [videos:12+shorts:1] meta_ok:13 likes_ok:2/2 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 2개 [videos:12+shorts:1] meta_ok:13/13 likes_ok:2/2 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UC-mTngidALJqbjUcTyZMZ8Q",
  "score_total": 71.5,
  "grade": "B",
@@ -36,7 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:10:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-21T10:31:03+09:00",
@@ -163,6 +162,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 309000,
    "engagement_rate": 0.0168,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "score_total": 71.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 309000,
+   "engagement_rate": 0.0167,
    "posts_last_30d": 2,
    "brand_fit_score": 90,
    "score_total": 71.5,

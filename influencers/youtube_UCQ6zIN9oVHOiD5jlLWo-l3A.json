@@ -4,39 +4,38 @@
  "fullname": "글리터코코",
  "profile_url": "https://www.youtube.com/channel/UCQ6zIN9oVHOiD5jlLWo-l3A",
  "followers": 2920,
- "engagement_rate": 0.0022,
- "avg_likes": 35.1,
+ "engagement_rate": 0.0023,
+ "avg_likes": 36.9,
  "avg_comments": 1.0,
- "avg_views": 16222.5,
+ "avg_views": 16181.3,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
- "brand_fit_score": 75,
+ "brand_fit_score": 90,
  "retailer_focus": "mixed",
  "retailer_signal": {
   "daiso_mentions": "7건",
-  "olive_young_mentions": "6건",
-  "beauty_keywords": "6건",
+  "olive_young_mentions": "8건",
+  "beauty_keywords": "9건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UCQ6zIN9oVHOiD5jlLWo-l3A",
- "score_total": 59.75,
+ "score_total": 63.5,
  "grade": "C",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 75,
+  "brand_fit": 90,
   "consistency": 100,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:10:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -103,6 +102,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 2920,
    "engagement_rate": 0.0024,
+   "posts_last_30d": 12,
+   "brand_fit_score": 75,
+   "score_total": 59.75,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 2920,
+   "engagement_rate": 0.0022,
    "posts_last_30d": 12,
    "brand_fit_score": 75,
    "score_total": 59.75,

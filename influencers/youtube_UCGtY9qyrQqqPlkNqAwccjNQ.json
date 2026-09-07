@@ -3,13 +3,13 @@
  "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
  "fullname": "리뷰하는 회사원",
  "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
- "followers": 605000,
- "engagement_rate": 0.0133,
- "avg_likes": 11719.2,
- "avg_comments": 274.3,
- "avg_views": 880785.2,
+ "followers": 606000,
+ "engagement_rate": 0.0126,
+ "avg_likes": 13713.9,
+ "avg_comments": 348.58,
+ "avg_views": 1089708.7,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -22,12 +22,11 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
  "channel_id": "UCGtY9qyrQqqPlkNqAwccjNQ",
- "score_total": 61.25,
+ "score_total": 61.2,
  "grade": "C",
  "score_breakdown": {
   "er": 60,
@@ -36,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:00:45+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:18:56.001816+09:00",
-   "followers": 589000,
-   "engagement_rate": 0.0232,
-   "posts_last_30d": 0,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 61.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-05-15T17:05:00+09:00",
    "score_total": 52.25,
@@ -300,6 +289,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 605000,
    "engagement_rate": 0.0137,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "score_total": 61.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 605000,
+   "engagement_rate": 0.0133,
    "posts_last_30d": 12,
    "brand_fit_score": 25,
    "score_total": 61.25,

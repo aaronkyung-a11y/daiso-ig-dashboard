@@ -3,11 +3,11 @@
  "username": "UCZdDMMKj3wgBfo9KU79mdMw",
  "fullname": "ぼっちの内科医",
  "profile_url": "https://www.youtube.com/channel/UCZdDMMKj3wgBfo9KU79mdMw",
- "followers": 8400,
- "engagement_rate": 0.0115,
- "avg_likes": 170.1,
- "avg_comments": 10.4,
- "avg_views": 14803.2,
+ "followers": 8410,
+ "engagement_rate": 0.0064,
+ "avg_likes": 142.7,
+ "avg_comments": 9.0,
+ "avg_views": 22423.3,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -22,32 +22,21 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:1+shorts:12] meta_ok:13 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:1+shorts:12] meta_ok:13/13 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
  "channel_id": "UCZdDMMKj3wgBfo9KU79mdMw",
- "score_total": 57.25,
- "grade": "C",
+ "score_total": 47.2,
+ "grade": "D",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 25,
   "consistency": 100,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:05:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 7700,
-   "engagement_rate": 0.0182,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.2,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
    "followers": 7670,
@@ -295,6 +284,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 8400,
    "engagement_rate": 0.0129,
+   "posts_last_30d": 12,
+   "brand_fit_score": 25,
+   "score_total": 57.25,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 8400,
+   "engagement_rate": 0.0115,
    "posts_last_30d": 12,
    "brand_fit_score": 25,
    "score_total": 57.25,

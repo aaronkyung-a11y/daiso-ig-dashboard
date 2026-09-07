@@ -3,13 +3,13 @@
  "username": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
  "fullname": "centralgrocery 중앙식품점",
  "profile_url": "https://www.youtube.com/channel/UCSJBRrUKLZ3QRQsw3cE9Oyw",
- "followers": 21900,
- "engagement_rate": 0.0113,
- "avg_likes": 116.9,
- "avg_comments": 42.7,
- "avg_views": 10368.0,
+ "followers": 22200,
+ "engagement_rate": 0.0105,
+ "avg_likes": 113.0,
+ "avg_comments": 39.83,
+ "avg_views": 10714.1,
  "posts_last_30d": 12,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 60,
  "retailer_focus": "beauty_general",
@@ -22,10 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
  "channel_id": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
  "score_total": 68.0,
  "grade": "B",
@@ -36,7 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:10:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:23:07+09:00",
@@ -124,6 +123,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 21800,
    "engagement_rate": 0.0117,
+   "posts_last_30d": 12,
+   "brand_fit_score": 60,
+   "score_total": 68.0,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 21900,
+   "engagement_rate": 0.0113,
    "posts_last_30d": 12,
    "brand_fit_score": 60,
    "score_total": 68.0,

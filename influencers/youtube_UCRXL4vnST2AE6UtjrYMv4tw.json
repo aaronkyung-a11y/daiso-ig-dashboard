@@ -4,28 +4,27 @@
  "fullname": "뽀용뇽 l 남다른 뷰티꿀팁",
  "profile_url": "https://www.youtube.com/channel/UCRXL4vnST2AE6UtjrYMv4tw",
  "followers": 439000,
- "engagement_rate": 0.0158,
- "avg_likes": 2077.1,
- "avg_comments": 35.8,
- "avg_views": 131715.7,
- "posts_last_30d": 15,
- "_posts_last_30d_est": false,
- "sample_size": 15,
+ "engagement_rate": 0.0154,
+ "avg_likes": 2405.6,
+ "avg_comments": 37.93,
+ "avg_views": 156009.1,
+ "posts_last_30d": 14,
+ "_posts_last_30d_est": true,
+ "sample_size": 14,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "15건",
-  "olive_young_mentions": "5건",
-  "beauty_keywords": "110건",
+  "daiso_mentions": "17건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "194건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 15개 [videos:12+shorts:12] meta_ok:24 likes_ok:15/15 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:14/14 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
  "channel_id": "UCRXL4vnST2AE6UtjrYMv4tw",
  "score_total": 77.5,
  "grade": "A",
@@ -36,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:05:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:18:26.948709+09:00",
-   "followers": 437000,
-   "engagement_rate": 0.0282,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-17T10:27:23.435380+09:00",
    "followers": 437000,
@@ -301,6 +290,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 439000,
    "engagement_rate": 0.0162,
+   "posts_last_30d": 15,
+   "brand_fit_score": 90,
+   "score_total": 77.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 439000,
+   "engagement_rate": 0.0158,
    "posts_last_30d": 15,
    "brand_fit_score": 90,
    "score_total": 77.5,

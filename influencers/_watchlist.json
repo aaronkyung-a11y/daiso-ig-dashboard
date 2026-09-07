@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-09-04T17:20:00+09:00",
+ "lastUpdated": "2026-09-07T10:00:00+09:00",
  "auto_refresh": true,
  "refresh_cron": "weekly",
  "accounts": [
@@ -1122,6 +1122,51 @@
    "platform": "youtube",
    "username": "UC4AF74en03tiZ2kqveX5CPg",
    "profile_url": "https://www.youtube.com/channel/UC4AF74en03tiZ2kqveX5CPg"
+  },
+  {
+   "platform": "youtube",
+   "username": "Charming_ramy",
+   "profile_url": "https://www.youtube.com/@Charming_ramy"
+  },
+  {
+   "platform": "youtube",
+   "username": "TTOujin",
+   "profile_url": "https://www.youtube.com/@TTOujin"
+  },
+  {
+   "platform": "youtube",
+   "username": "bbiiju",
+   "profile_url": "https://www.youtube.com/@bbiiju"
+  },
+  {
+   "platform": "youtube",
+   "username": "cozrinx",
+   "profile_url": "https://www.youtube.com/@cozrinx"
+  },
+  {
+   "platform": "youtube",
+   "username": "kwon_taei",
+   "profile_url": "https://www.youtube.com/@kwon_taei"
+  },
+  {
+   "platform": "youtube",
+   "username": "me_sonyeo",
+   "profile_url": "https://www.youtube.com/@me_sonyeo"
+  },
+  {
+   "platform": "youtube",
+   "username": "yyangbeauty",
+   "profile_url": "https://www.youtube.com/@yyangbeauty"
+  },
+  {
+   "platform": "youtube",
+   "username": "콩덕-e",
+   "profile_url": "https://www.youtube.com/@콩덕-e"
+  },
+  {
+   "platform": "youtube",
+   "username": "회사원B",
+   "profile_url": "https://www.youtube.com/@회사원B"
   }
  ],
  "updated_at": "2026-09-04T17:20:00+09:00"

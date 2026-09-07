@@ -3,11 +3,11 @@
  "username": "UCdw0gUzVPhyZFRVeuzy_AEg",
  "fullname": "하우머치코리아 (HOWMUCH KOREA)",
  "profile_url": "https://www.youtube.com/channel/UCdw0gUzVPhyZFRVeuzy_AEg",
- "followers": 136000,
- "engagement_rate": 0.0097,
- "avg_likes": 1370.5,
- "avg_comments": 53.1,
- "avg_views": 141920.3,
+ "followers": 137000,
+ "engagement_rate": 0.0084,
+ "avg_likes": 1744.3,
+ "avg_comments": 71.5,
+ "avg_views": 206443.7,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -16,16 +16,15 @@
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "29건",
+  "beauty_keywords": "9건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
  "channel_id": "UCdw0gUzVPhyZFRVeuzy_AEg",
  "score_total": 67.5,
  "grade": "B",
@@ -36,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:08:22+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 116000,
-   "engagement_rate": 0.0141,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 68.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
    "followers": 115000,
@@ -299,6 +288,15 @@
    "brand_fit_score": 90,
    "score_total": 77.5,
    "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 136000,
+   "engagement_rate": 0.0097,
+   "posts_last_30d": 12,
+   "brand_fit_score": 90,
+   "score_total": 67.5,
+   "grade": "B"
   }
  ]
 }

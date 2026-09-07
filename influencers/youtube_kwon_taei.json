@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "kwon_taei",
+ "fullname": "권태이 KWON TAEI",
+ "profile_url": "https://www.youtube.com/@kwon_taei",
+ "followers": 22200,
+ "engagement_rate": 0.0061,
+ "avg_likes": 62.1,
+ "avg_comments": 13.0,
+ "avg_views": 10174.8,
+ "posts_last_30d": 8,
+ "_posts_last_30d_est": false,
+ "sample_size": 8,
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
+ "retailer_signal": {
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "17건",
+  "beauty_keywords": "29건",
+  "labrang_present": false
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 8개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:8/8 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "channel_id": "UCx5wQET-to7eb5WXvUXEofw",
+ "score_total": 62.5,
+ "grade": "C",
+ "score_breakdown": {
+  "er": 40,
+  "brand_fit": 90,
+  "consistency": 80,
+  "followers": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "evaluated_at": "2026-09-07T11:00:45+09:00",
+ "history": []
+}

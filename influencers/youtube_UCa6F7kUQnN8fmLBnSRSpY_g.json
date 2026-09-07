@@ -3,29 +3,28 @@
  "username": "UCa6F7kUQnN8fmLBnSRSpY_g",
  "fullname": "코덕순",
  "profile_url": "https://www.youtube.com/channel/UCa6F7kUQnN8fmLBnSRSpY_g",
- "followers": 5260,
- "engagement_rate": 0.0197,
- "avg_likes": 1182.8,
- "avg_comments": 12.7,
- "avg_views": 59911.8,
+ "followers": 5390,
+ "engagement_rate": 0.0195,
+ "avg_likes": 1075.2,
+ "avg_comments": 12.75,
+ "avg_views": 55075.9,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "41건",
-  "olive_young_mentions": "159건",
-  "beauty_keywords": "39건",
+  "daiso_mentions": "32건",
+  "olive_young_mentions": "191건",
+  "beauty_keywords": "45건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12 likes_ok:12/12 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
  "channel_id": "UCa6F7kUQnN8fmLBnSRSpY_g",
  "score_total": 73.5,
  "grade": "B",
@@ -36,7 +35,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:08:22+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:28:42+09:00",
@@ -125,6 +124,15 @@
    "followers": 5210,
    "engagement_rate": 0.0198,
    "posts_last_30d": 11,
+   "brand_fit_score": 90,
+   "score_total": 73.5,
+   "grade": "B"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 5260,
+   "engagement_rate": 0.0197,
+   "posts_last_30d": 12,
    "brand_fit_score": 90,
    "score_total": 73.5,
    "grade": "B"

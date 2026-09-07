@@ -4,39 +4,38 @@
  "fullname": "피부보금터",
  "profile_url": "https://www.youtube.com/channel/UCwjKEO69yeKfQtcAuvwxU5A",
  "followers": 9520,
- "engagement_rate": 0.0086,
- "avg_likes": 227.0,
- "avg_comments": 2.0,
- "avg_views": 26367.5,
- "posts_last_30d": 2,
- "_posts_last_30d_est": true,
- "sample_size": 2,
- "brand_fit_score": 90,
+ "engagement_rate": 0.0108,
+ "avg_likes": 111.0,
+ "avg_comments": 3.0,
+ "avg_views": 10306.0,
+ "posts_last_30d": 1,
+ "_posts_last_30d_est": false,
+ "sample_size": 1,
+ "brand_fit_score": 75,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "15건",
+  "daiso_mentions": "22건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "24건",
+  "beauty_keywords": "7건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 2개 [videos:1+shorts:12] meta_ok:13 likes_ok:2/2 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 1개 [videos:1+shorts:12] meta_ok:13/13 likes_ok:1/1 | 2026-09-07 10:00 슬롯 실측",
  "channel_id": "UCwjKEO69yeKfQtcAuvwxU5A",
- "score_total": 57.5,
+ "score_total": 60.8,
  "grade": "C",
  "score_breakdown": {
-  "er": 40,
-  "brand_fit": 90,
-  "consistency": 60,
+  "er": 60,
+  "brand_fit": 75,
+  "consistency": 40,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:13:33+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -101,6 +100,15 @@
   },
   {
    "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 9520,
+   "engagement_rate": 0.0086,
+   "posts_last_30d": 2,
+   "brand_fit_score": 90,
+   "score_total": 57.5,
+   "grade": "C"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
    "followers": 9520,
    "engagement_rate": 0.0086,
    "posts_last_30d": 2,

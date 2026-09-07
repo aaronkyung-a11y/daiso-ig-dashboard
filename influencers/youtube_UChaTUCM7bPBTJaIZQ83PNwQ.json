@@ -4,28 +4,27 @@
  "fullname": "스완SWAN_현실남자관리",
  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
  "followers": 509000,
- "engagement_rate": 0.0098,
- "avg_likes": 900.2,
- "avg_comments": 146.5,
- "avg_views": 92017.6,
+ "engagement_rate": 0.0096,
+ "avg_likes": 939.9,
+ "avg_comments": 153.5,
+ "avg_views": 98401.4,
  "posts_last_30d": 20,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 20,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "2건",
-  "olive_young_mentions": "15건",
-  "beauty_keywords": "36건",
+  "daiso_mentions": "1건",
+  "olive_young_mentions": "17건",
+  "beauty_keywords": "51건",
   "labrang_present": true
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 20개 [videos:12+shorts:12] meta_ok:24 likes_ok:20/20 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 20개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:20/20 | 2026-09-07 10:00 슬롯 실측",
  "channel_id": "UChaTUCM7bPBTJaIZQ83PNwQ",
  "score_total": 70.0,
  "grade": "B",
@@ -36,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:00:45+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:26:49.399610+09:00",
-   "followers": 501000,
-   "engagement_rate": 0.0139,
-   "posts_last_30d": 8,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 77.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-05-19T05:09:02.898661+00:00",
    "engagement_rate": 2.03,
@@ -304,6 +293,15 @@
    "brand_fit_score": 100,
    "score_total": 80.0,
    "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 509000,
+   "engagement_rate": 0.0098,
+   "posts_last_30d": 20,
+   "brand_fit_score": 100,
+   "score_total": 70.0,
+   "grade": "B"
   }
  ]
 }

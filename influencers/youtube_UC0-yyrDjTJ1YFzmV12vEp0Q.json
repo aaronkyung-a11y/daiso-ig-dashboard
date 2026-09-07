@@ -3,29 +3,28 @@
  "username": "UC0-yyrDjTJ1YFzmV12vEp0Q",
  "fullname": "시네 si-ne",
  "profile_url": "https://www.youtube.com/channel/UC0-yyrDjTJ1YFzmV12vEp0Q",
- "followers": 534000,
- "engagement_rate": 0.0153,
- "avg_likes": 5725.4,
- "avg_comments": 145.8,
- "avg_views": 373278.9,
+ "followers": 537000,
+ "engagement_rate": 0.0156,
+ "avg_likes": 7284.1,
+ "avg_comments": 170.0,
+ "avg_views": 466839.1,
  "posts_last_30d": 14,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 14,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "2건",
-  "olive_young_mentions": "1건",
-  "beauty_keywords": "41건",
+  "olive_young_mentions": "0건",
+  "beauty_keywords": "24건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false,
-  "brand_fit_carried_over": true
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24 likes_ok:14/14 | brand_fit 이월(09-03 측정)",
+ "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:14/14 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
  "channel_id": "UC0-yyrDjTJ1YFzmV12vEp0Q",
  "score_total": 77.5,
  "grade": "A",
@@ -36,17 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-04T10:53:36+09:00",
+ "evaluated_at": "2026-09-07T11:03:11+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-19T05:06:41.169114+00:00",
-   "engagement_rate": 2.16,
-   "followers": 493000,
-   "brand_fit_score": 90,
-   "posts_last_30d": 17,
-   "score_total": 77.5,
-   "grade": "A"
-  },
   {
    "platform": "youtube",
    "username": "UC0-yyrDjTJ1YFzmV12vEp0Q",
@@ -309,6 +299,15 @@
    "evaluated_at": "2026-09-03T10:51:23+09:00",
    "followers": 534000,
    "engagement_rate": 0.0162,
+   "posts_last_30d": 14,
+   "brand_fit_score": 90,
+   "score_total": 77.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-04T10:53:36+09:00",
+   "followers": 534000,
+   "engagement_rate": 0.0153,
    "posts_last_30d": 14,
    "brand_fit_score": 90,
    "score_total": 77.5,

@@ -3,20 +3,20 @@
  "username": "view_bbang_",
  "fullname": "뷰빵",
  "profile_url": "https://www.instagram.com/view_bbang_/",
- "followers": 697,
- "engagement_rate": 0.0528,
- "avg_likes": 28.8,
- "avg_comments": 8,
- "avg_views": 681,
+ "followers": 691,
+ "engagement_rate": 0.0389,
+ "avg_likes": 19.4,
+ "avg_comments": 7.5,
+ "avg_views": 580.7,
  "posts_last_30d": 3,
  "_posts_last_30d_est": false,
- "sample_size": 24,
+ "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "15건",
-  "olive_young_mentions": "30건",
-  "beauty_keywords": "68건",
+  "daiso_mentions": "8건",
+  "olive_young_mentions": "14건",
+  "beauty_keywords": "28건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,30 +24,20 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "IG 로그인 실측 — 샘플 24건(피드 API), ER=(평균좋아요+평균댓글)/팔로워, 30일내 3건",
+ "sample_note": "IG 로그인 실측(2026-09-07 10:00 슬롯) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건. 좋아요·댓글·조회수는 media/info API 실측(shortcode→pk 변환). ER=(평균 좋아요+평균 댓글)/팔로워. ★ 그리드 무한스크롤이 이번 실행에서 동작하지 않아 샘플 12건 상한(로그인 상태는 정상).",
  "_likes_hidden": 0,
  "_ig_logged_out": false,
- "score_total": 80.5,
+ "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
-  "er": 90,
+  "er": 80,
   "brand_fit": 90,
   "consistency": 60,
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-03T10:51:23+09:00",
+ "evaluated_at": "2026-09-07T10:58:30+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-06T10:19:37.636436+09:00",
-   "followers": 572,
-   "engagement_rate": 0.0926,
-   "posts_last_30d": 2,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 83.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-19T10:32:29.467856+09:00",
    "followers": 540,
@@ -302,6 +292,15 @@
    "posts_last_30d": 3,
    "brand_fit_score": 90,
    "retailer_focus": "olive_young",
+   "score_total": 80.5,
+   "grade": "A"
+  },
+  {
+   "evaluated_at": "2026-09-03T10:51:23+09:00",
+   "followers": 697,
+   "engagement_rate": 0.0528,
+   "posts_last_30d": 3,
+   "brand_fit_score": 90,
    "score_total": 80.5,
    "grade": "A"
   }
