@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-09-09T12:35:00+09:00",
- "lastUpdated": "2026-09-09T12:35:00+09:00",
- "last_run_mode": "2026-09-09 10:00 슬롯(평일 오전) — STEP A(큐 3소스: GitHub Issues 0건 / _queue.txt 0건 / Google Form 누적 242 URL 중 신규 9건, 모두 기존 핸들 계정의 channel_id 중복 제출) + STEP B 풀 재분석 전건 실측. YT 219파일(고유 209채널) yt-dlp 실측, IG 23건 중 22건 로그인 실측. instagram_mingjikim_107은 계정 삭제/비활성으로 재측정 불가 — 2026-08-28 값 이월(이번 회차 실측 아님). STEP B-Light는 10시 슬롯이므로 미실행.",
+ "last_updated": "2026-09-09T14:20:00+09:00",
+ "lastUpdated": "2026-09-09T14:20:00+09:00",
+ "last_run_mode": "2026-09-09 14:00 슬롯(평일 오후) — STEP A(큐 3소스: GitHub Issues 0건 / _queue.txt 0건 / Google Form 누적 233 고유 URL 전부 기분석 → 신규 0건) + STEP B-Light 롤링 리프레시 2계정 실측 (youtube 미소녀 UCa7m7…K8ABQ, youtube 권태이 UCx5wQET…EofW — 각 dedup pair 2파일씩 총 4파일 동시 갱신). STEP B 풀 재분석은 10시 슬롯 전용이므로 SKIPPED. 나머지 230건은 2026-09-09 10:00 슬롯 값 이월 — 이번 회차 실측 아님.",
  "total": 232,
  "platforms": {
   "instagram": 23,
@@ -23,7 +23,7 @@
   "mixed": 5
  },
  "dedup_note": "동일 channel_id 중복 파일 10쌍은 channel_id 기준 1건만 집계 — 중복 파일은 동일 실측값으로 동시 갱신",
- "method_note": "2026-09-09T10:00 슬롯 STEP B 풀 재분석. [YT] yt-dlp로 /videos 12 + /shorts 12 스캔 후 각 영상 메타 실측, ER=평균 좋아요/평균 조회수. 좋아요 비공개 채널은 ER=0 처리(측정 불가). ★ 일부 채널은 기본 로케일에서 제목·설명이 영어 자동번역으로 반환되어, 해당 채널의 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로). [IG] 로그인 상태에서 프로필 그리드 shortcode를 media_id로 변환해 /api/v1/media/{id}/info/ 실측, 팔로워는 /api/v1/users/{pk}/info/ 실측(web_profile_info는 이번 회차도 429). 게시물당 4.8초 throttle. ★ 그리드 무한스크롤이 이번 회차에도 동작하지 않아 IG 샘플 12건 상한. ★ like_and_view_counts_disabled=true 게시물은 like_count가 자리표시값이므로 좋아요 평균에서 제외 — 해당 계정 ER은 댓글 기반 하한값(추정). ★ posts_last_30d가 샘플 창을 가득 채운 경우 하한값 — 추정.",
+ "method_note": "2026-09-09T14:00 슬롯 STEP B-Light. [YT] yt-dlp(2026.08.19)로 /videos 12 + /shorts 12 스캔 후 각 영상 메타 개별 실측, ER=평균 좋아요/평균 조회수. 브랜드 키워드는 스캔 전건의 title+description+tags(ko 로케일 재수집) 기준. 이번 회차 두 채널 모두 기본 로케일이 이미 한국어로 반환되어 자동번역 이슈 없음. 이번 슬롯에 실측한 레코드는 2건(파일 4개)뿐이고, 그 외 레코드의 수치는 10:00 슬롯 실측값 이월분이다.",
  "score_total_null_count": 0,
  "records": [
   {
@@ -1067,35 +1067,24 @@
    "username": "UCUCUu_rOf4b5BtKIMRL7jhg"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
-   "_posts_last_30d_est": false,
-   "avg_comments": 4.3,
-   "avg_likes": 399.6,
-   "avg_views": 25455.1,
-   "brand_fit_score": 100,
-   "engagement_rate": 0.0157,
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false,
-    "posts_30d_estimated": false
-   },
-   "evaluated_at": "2026-09-09T10:13:33+09:00",
-   "followers": 4200,
-   "fullname": "미소녀",
-   "grade": "A",
-   "platform": "youtube",
-   "posts_last_30d": 12,
-   "profile_url": "https://www.youtube.com/channel/UCa7m7DWFPDlKMiouX_K8ABQ",
-   "retailer_focus": "our_brand",
+   "engagement_rate": 0.0156,
    "retailer_signal": {
     "daiso_mentions": "9건",
     "olive_young_mentions": "24건",
-    "beauty_keywords": "13건",
+    "beauty_keywords": "12건",
     "labrang_present": true
    },
-   "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 실측 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
-   "sample_size": 12,
+   "score_total": 76.0,
+   "brand_fit_score": 100,
+   "followers": 4200,
+   "fullname": "미소녀",
+   "grade": "A",
+   "username": "UCa7m7DWFPDlKMiouX_K8ABQ",
+   "_posts_last_30d_est": false,
+   "avg_views": 25665.7,
+   "platform": "youtube",
+   "avg_comments": 4,
+   "evaluated_at": "2026-09-09T14:20:00+09:00",
    "score_breakdown": {
     "er": 60,
     "brand_fit": 100,
@@ -1103,8 +1092,19 @@
     "followers": 60,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
-   "score_total": 76.0,
-   "username": "UCa7m7DWFPDlKMiouX_K8ABQ"
+   "avg_likes": 400.1,
+   "profile_url": "https://www.youtube.com/channel/UCa7m7DWFPDlKMiouX_K8ABQ",
+   "sample_size": 12,
+   "sample_note": "YT 30일내 12개 스캔 12개 [videos+shorts] | 2026-09-09 14:00 슬롯 STEP B-Light 실측 | 키워드 분석은 스캔 12건 전체(ko 로케일) 기준 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false,
+    "posts_30d_estimated": false
+   },
+   "retailer_focus": "our_brand",
+   "_likes_hidden": null,
+   "_ig_logged_out": null,
+   "posts_last_30d": 12
   },
   {
    "_ig_logged_out": null,
@@ -6427,35 +6427,24 @@
    "username": "UCwYf2nxcgJ1WNul1nKs14qw"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
-   "_posts_last_30d_est": false,
-   "avg_comments": 13.0,
-   "avg_likes": 63.4,
-   "avg_views": 10523.1,
-   "brand_fit_score": 90,
    "engagement_rate": 0.006,
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false,
-    "posts_30d_estimated": false
-   },
-   "evaluated_at": "2026-09-09T10:14:12+09:00",
-   "followers": 22200,
-   "fullname": "권태이 KWON TAEI",
-   "grade": "C",
-   "platform": "youtube",
-   "posts_last_30d": 8,
-   "profile_url": "https://www.youtube.com/channel/UCx5wQET-to7eb5WXvUXEofw",
-   "retailer_focus": "olive_young",
    "retailer_signal": {
     "daiso_mentions": "0건",
-    "olive_young_mentions": "15건",
+    "olive_young_mentions": "17건",
     "beauty_keywords": "29건",
     "labrang_present": false
    },
-   "sample_note": "YT 30일내 8개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:8/8 | 2026-09-09 10:00 슬롯 실측 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건) | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건) | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
-   "sample_size": 8,
+   "score_total": 62.5,
+   "brand_fit_score": 90,
+   "followers": 22200,
+   "fullname": "권태이 KWON TAEI",
+   "grade": "C",
+   "username": "UCx5wQET-to7eb5WXvUXEofw",
+   "_posts_last_30d_est": false,
+   "avg_views": 10526.8,
+   "platform": "youtube",
+   "avg_comments": 9.8,
+   "evaluated_at": "2026-09-09T14:20:00+09:00",
    "score_breakdown": {
     "er": 40,
     "brand_fit": 90,
@@ -6463,8 +6452,19 @@
     "followers": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
-   "score_total": 62.5,
-   "username": "UCx5wQET-to7eb5WXvUXEofw"
+   "avg_likes": 63.4,
+   "profile_url": "https://www.youtube.com/channel/UCx5wQET-to7eb5WXvUXEofw",
+   "sample_size": 8,
+   "sample_note": "YT 30일내 8개 스캔 24개 [videos+shorts] | 2026-09-09 14:00 슬롯 STEP B-Light 실측 | 키워드 분석은 스캔 24건 전체(ko 로케일) 기준 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false,
+    "posts_30d_estimated": false
+   },
+   "retailer_focus": "olive_young",
+   "_likes_hidden": null,
+   "_ig_logged_out": null,
+   "posts_last_30d": 8
   },
   {
    "_ig_logged_out": false,
