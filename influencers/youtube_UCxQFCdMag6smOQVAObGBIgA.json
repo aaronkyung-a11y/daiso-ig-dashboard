@@ -6,17 +6,17 @@
  "followers": 6370,
  "engagement_rate": 0.0,
  "avg_likes": 0.0,
- "avg_comments": 9.22,
- "avg_views": 1429.8,
+ "avg_comments": 9.1,
+ "avg_views": 1383.3,
  "posts_last_30d": 9,
  "_posts_last_30d_est": false,
  "sample_size": 9,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "10건",
-  "olive_young_mentions": "37건",
-  "beauty_keywords": "17건",
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "58건",
+  "beauty_keywords": "50건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:0/9 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 9개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:0/9 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCxQFCdMag6smOQVAObGBIgA",
  "score_total": 60.5,
  "grade": "C",
@@ -35,18 +35,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:08:22+09:00",
+ "evaluated_at": "2026-09-09T10:38:32+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:30:00.917329+09:00",
-   "followers": 6340,
-   "engagement_rate": 0.004,
-   "posts_last_30d": 1,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 54.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-16T10:30:09.107884+09:00",
    "followers": 6340,
@@ -295,6 +285,16 @@
    "brand_fit_score": 90,
    "score_total": 63.5,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0,
+   "evaluated_at": "2026-09-07T11:08:22+09:00",
+   "followers": 6370,
+   "grade": "C",
+   "posts_last_30d": 9,
+   "retailer_focus": "olive_young",
+   "score_total": 60.5
   }
  ]
 }

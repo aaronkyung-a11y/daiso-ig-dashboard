@@ -5,26 +5,26 @@
  "profile_url": "https://www.youtube.com/channel/UCcjxXC-20HT-sK316Dz2IFQ",
  "followers": 442,
  "engagement_rate": 0.0086,
- "avg_likes": 205.2,
- "avg_comments": 7.92,
- "avg_views": 23940.8,
+ "avg_likes": 205.5,
+ "avg_comments": 7.9,
+ "avg_views": 23986.3,
  "posts_last_30d": 0,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "50건",
-  "olive_young_mentions": "5건",
-  "beauty_keywords": "25건",
+  "daiso_mentions": "41건",
+  "olive_young_mentions": "1건",
+  "beauty_keywords": "23건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 0개 → 최근 12개 대체 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 0개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 30일내 영상 0건 → 최근 영상으로 대체 산출(ER은 실측, posts_30d=0)",
  "channel_id": "UCcjxXC-20HT-sK316Dz2IFQ",
  "score_total": 52.5,
  "grade": "C",
@@ -35,18 +35,8 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:05:47+09:00",
+ "evaluated_at": "2026-09-09T10:32:50+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
-   "followers": 443,
-   "engagement_rate": 0.008,
-   "posts_last_30d": 0,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 55.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-17T10:36:20.270179+09:00",
    "followers": 443,
@@ -300,6 +290,16 @@
    "brand_fit_score": 100,
    "score_total": 55.0,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0086,
+   "evaluated_at": "2026-09-07T11:05:47+09:00",
+   "followers": 442,
+   "grade": "C",
+   "posts_last_30d": 0,
+   "retailer_focus": "daiso",
+   "score_total": 52.5
   }
  ]
 }

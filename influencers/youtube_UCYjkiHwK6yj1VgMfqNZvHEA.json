@@ -4,12 +4,12 @@
  "fullname": "아름닥터tv_자연스러운게 예쁜거다_15년차",
  "profile_url": "https://www.youtube.com/channel/UCYjkiHwK6yj1VgMfqNZvHEA",
  "followers": 126000,
- "engagement_rate": 0.0083,
- "avg_likes": 56.2,
- "avg_comments": 6.1,
- "avg_views": 6787.3,
+ "engagement_rate": 0.0086,
+ "avg_likes": 72.3,
+ "avg_comments": 8.4,
+ "avg_views": 8399.8,
  "posts_last_30d": 16,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 16,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -22,9 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:16/16 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:16/16 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UCYjkiHwK6yj1VgMfqNZvHEA",
  "score_total": 51.2,
  "grade": "C",
@@ -35,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:05:47+09:00",
+ "evaluated_at": "2026-09-09T10:32:50+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
-   "followers": 126000,
-   "engagement_rate": 0.0118,
-   "posts_last_30d": 15,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 61.2,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-17T10:28:23.576898+09:00",
    "followers": 126000,
@@ -297,6 +287,16 @@
    "brand_fit_score": 60,
    "score_total": 70.0,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0083,
+   "evaluated_at": "2026-09-07T11:05:47+09:00",
+   "followers": 126000,
+   "grade": "C",
+   "posts_last_30d": 16,
+   "retailer_focus": "off_topic",
+   "score_total": 51.2
   }
  ]
 }

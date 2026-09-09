@@ -3,11 +3,11 @@
  "username": "UCLXYyuMtfzbXPlimfOWQGHA",
  "fullname": "여니룸",
  "profile_url": "https://www.youtube.com/channel/UCLXYyuMtfzbXPlimfOWQGHA",
- "followers": 3390,
- "engagement_rate": 0.006,
- "avg_likes": 55.8,
- "avg_comments": 7.92,
- "avg_views": 9304.5,
+ "followers": 3410,
+ "engagement_rate": 0.0061,
+ "avg_likes": 43.2,
+ "avg_comments": 7.9,
+ "avg_views": 7124.9,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정",
  "channel_id": "UCLXYyuMtfzbXPlimfOWQGHA",
  "score_total": 56.0,
  "grade": "C",
@@ -35,7 +35,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:10:58+09:00",
+ "evaluated_at": "2026-09-09T10:27:53+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:29:08+09:00",
@@ -136,6 +136,16 @@
    "brand_fit_score": 60,
    "score_total": 56.0,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.006,
+   "evaluated_at": "2026-09-07T11:10:58+09:00",
+   "followers": 3390,
+   "grade": "C",
+   "posts_last_30d": 12,
+   "retailer_focus": "beauty_general",
+   "score_total": 56.0
   }
  ]
 }

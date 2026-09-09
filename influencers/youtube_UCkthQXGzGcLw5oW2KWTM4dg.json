@@ -1,30 +1,30 @@
 {
  "platform": "youtube",
  "username": "UCkthQXGzGcLw5oW2KWTM4dg",
- "fullname": "YUZU",
+ "fullname": "YUZU 유즈",
  "profile_url": "https://www.youtube.com/channel/UCkthQXGzGcLw5oW2KWTM4dg",
  "followers": 224000,
- "engagement_rate": 0.0212,
- "avg_likes": 903.8,
- "avg_comments": 42.57,
- "avg_views": 42725.5,
+ "engagement_rate": 0.0232,
+ "avg_likes": 955.7,
+ "avg_comments": 44.4,
+ "avg_views": 41208.6,
  "posts_last_30d": 16,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 16,
  "brand_fit_score": 60,
  "retailer_focus": "mixed",
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "2건",
+  "beauty_keywords": "1건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:14/16 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:14/16 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UCkthQXGzGcLw5oW2KWTM4dg",
  "score_total": 70.0,
  "grade": "B",
@@ -35,7 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:13:33+09:00",
+ "evaluated_at": "2026-09-09T10:35:41+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-20T14:09:34+09:00",
@@ -126,6 +126,16 @@
    "brand_fit_score": 90,
    "score_total": 77.5,
    "grade": "A"
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.0212,
+   "evaluated_at": "2026-09-07T11:13:33+09:00",
+   "followers": 224000,
+   "grade": "B",
+   "posts_last_30d": 16,
+   "retailer_focus": "mixed",
+   "score_total": 70.0
   }
  ]
 }

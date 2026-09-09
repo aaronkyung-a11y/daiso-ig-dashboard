@@ -4,27 +4,27 @@
  "fullname": "피부텐텐 · 피부가 예뻐지는 10분 ",
  "profile_url": "https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw",
  "followers": 325000,
- "engagement_rate": 0.0077,
- "avg_likes": 41.2,
- "avg_comments": 9.25,
- "avg_views": 5359.2,
- "posts_last_30d": 20,
- "_posts_last_30d_est": true,
- "sample_size": 20,
+ "engagement_rate": 0.007,
+ "avg_likes": 37.0,
+ "avg_comments": 10.3,
+ "avg_views": 5278.3,
+ "posts_last_30d": 21,
+ "_posts_last_30d_est": false,
+ "sample_size": 21,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "17건",
+  "beauty_keywords": "13건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 20개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:20/20 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 21개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:21/21 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCxA9k7UJz50ZJPa5aUGf7fw",
  "score_total": 67.5,
  "grade": "B",
@@ -35,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:08:22+09:00",
+ "evaluated_at": "2026-09-09T10:38:32+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:29:30.701414+09:00",
-   "followers": 325000,
-   "engagement_rate": 0.0168,
-   "posts_last_30d": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 74.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-16T10:30:09.107884+09:00",
    "followers": 325000,
@@ -295,6 +285,16 @@
    "brand_fit_score": 90,
    "score_total": 67.5,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0077,
+   "evaluated_at": "2026-09-07T11:08:22+09:00",
+   "followers": 325000,
+   "grade": "B",
+   "posts_last_30d": 20,
+   "retailer_focus": "beauty_general",
+   "score_total": 67.5
   }
  ]
 }

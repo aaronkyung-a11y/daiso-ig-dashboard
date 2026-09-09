@@ -4,27 +4,27 @@
  "fullname": "LeoJ Makeup",
  "profile_url": "https://www.youtube.com/channel/UCnFFOjljp1_sacTz7PfIIyg",
  "followers": 1440000,
- "engagement_rate": 0.0109,
- "avg_likes": 3428.2,
- "avg_comments": 197.24,
- "avg_views": 314399.2,
+ "engagement_rate": 0.0108,
+ "avg_likes": 3519.3,
+ "avg_comments": 199.9,
+ "avg_views": 326666.6,
  "posts_last_30d": 17,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 17,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "25건",
-  "olive_young_mentions": "20건",
-  "beauty_keywords": "76건",
+  "daiso_mentions": "20건",
+  "olive_young_mentions": "16건",
+  "beauty_keywords": "65건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 17개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:17/17 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 17개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:17/17 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCnFFOjljp1_sacTz7PfIIyg",
  "score_total": 77.5,
  "grade": "A",
@@ -35,7 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:16:09+09:00",
+ "evaluated_at": "2026-09-09T10:35:41+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -74,6 +74,16 @@
    "brand_fit_score": 90,
    "score_total": 77.5,
    "grade": "A"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0109,
+   "evaluated_at": "2026-09-07T11:16:09+09:00",
+   "followers": 1440000,
+   "grade": "A",
+   "posts_last_30d": 17,
+   "retailer_focus": "daiso",
+   "score_total": 77.5
   }
  ]
 }

@@ -4,12 +4,12 @@
  "fullname": "ぼっちの内科医",
  "profile_url": "https://www.youtube.com/channel/UCZdDMMKj3wgBfo9KU79mdMw",
  "followers": 8410,
- "engagement_rate": 0.0064,
- "avg_likes": 142.7,
+ "engagement_rate": 0.0055,
+ "avg_likes": 147.2,
  "avg_comments": 9.0,
- "avg_views": 22423.3,
+ "avg_views": 26701.9,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -22,9 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:1+shorts:12] meta_ok:13/13 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 12개 [videos:1+shorts:12] meta_ok:13/13 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UCZdDMMKj3wgBfo9KU79mdMw",
  "score_total": 47.2,
  "grade": "D",
@@ -35,18 +35,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:05:47+09:00",
+ "evaluated_at": "2026-09-09T10:32:50+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
-   "followers": 7670,
-   "engagement_rate": 0.0228,
-   "posts_last_30d": 15,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 57.2,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-17T10:28:23.576898+09:00",
    "followers": 7650,
@@ -297,6 +287,16 @@
    "brand_fit_score": 25,
    "score_total": 57.25,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0064,
+   "evaluated_at": "2026-09-07T11:05:47+09:00",
+   "followers": 8410,
+   "grade": "D",
+   "posts_last_30d": 12,
+   "retailer_focus": "off_topic",
+   "score_total": 47.2
   }
  ]
 }

@@ -3,20 +3,20 @@
  "username": "UC3iSLVH0MxHfwO69oHKpvog",
  "fullname": "리틀약사",
  "profile_url": "https://www.youtube.com/channel/UC3iSLVH0MxHfwO69oHKpvog",
- "followers": 639000,
- "engagement_rate": 0.0054,
- "avg_likes": 196.1,
- "avg_comments": 15.88,
- "avg_views": 36247.0,
- "posts_last_30d": 8,
+ "followers": 649000,
+ "engagement_rate": 0.005,
+ "avg_likes": 196.0,
+ "avg_comments": 16.2,
+ "avg_views": 39297.3,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 8,
+ "sample_size": 9,
  "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
-  "daiso_mentions": "1건",
+  "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "16건",
+  "beauty_keywords": "14건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:8/8 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 9개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:9/9 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UC3iSLVH0MxHfwO69oHKpvog",
  "score_total": 64.5,
  "grade": "C",
@@ -35,7 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:13:33+09:00",
+ "evaluated_at": "2026-09-09T10:21:20+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:14:59+09:00",
@@ -104,6 +104,16 @@
    "brand_fit_score": 90,
    "score_total": 64.5,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0054,
+   "evaluated_at": "2026-09-07T11:13:33+09:00",
+   "followers": 639000,
+   "grade": "C",
+   "posts_last_30d": 8,
+   "retailer_focus": "daiso",
+   "score_total": 64.5
   }
  ]
 }

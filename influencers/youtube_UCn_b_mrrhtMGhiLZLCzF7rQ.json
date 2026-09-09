@@ -4,27 +4,27 @@
  "fullname": "겸다미",
  "profile_url": "https://www.youtube.com/channel/UCn_b_mrrhtMGhiLZLCzF7rQ",
  "followers": 114000,
- "engagement_rate": 0.0167,
- "avg_likes": 2421.1,
- "avg_comments": 74.83,
- "avg_views": 145381.7,
+ "engagement_rate": 0.0171,
+ "avg_likes": 2521.1,
+ "avg_comments": 69.0,
+ "avg_views": 147345.3,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "20건",
-  "olive_young_mentions": "82건",
-  "beauty_keywords": "111건",
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "65건",
+  "beauty_keywords": "41건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UCn_b_mrrhtMGhiLZLCzF7rQ",
  "score_total": 77.5,
  "grade": "A",
@@ -35,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:08:22+09:00",
+ "evaluated_at": "2026-09-09T10:35:41+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:29:30.701414+09:00",
-   "followers": 111000,
-   "engagement_rate": 0.0122,
-   "posts_last_30d": 1,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 68.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-16T10:28:24.430643+09:00",
    "followers": 111000,
@@ -302,6 +292,16 @@
    "brand_fit_score": 90,
    "score_total": 77.5,
    "grade": "A"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0167,
+   "evaluated_at": "2026-09-07T11:08:22+09:00",
+   "followers": 114000,
+   "grade": "A",
+   "posts_last_30d": 12,
+   "retailer_focus": "olive_young",
+   "score_total": 77.5
   }
  ]
 }

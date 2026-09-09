@@ -4,19 +4,19 @@
  "fullname": "먼지나방 스토그래피",
  "profile_url": "https://www.youtube.com/channel/UCHUkpUuH7O3U7eIx93tMUwA",
  "followers": 103000,
- "engagement_rate": 0.0129,
- "avg_likes": 233.9,
- "avg_comments": 19.8,
- "avg_views": 18104.1,
+ "engagement_rate": 0.0131,
+ "avg_likes": 237.5,
+ "avg_comments": 20.1,
+ "avg_views": 18186.6,
  "posts_last_30d": 10,
  "_posts_last_30d_est": false,
  "sample_size": 10,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "8건",
-  "olive_young_mentions": "16건",
-  "beauty_keywords": "106건",
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "9건",
+  "beauty_keywords": "30건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 10개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:10/10 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 10개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:10/10 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UCHUkpUuH7O3U7eIx93tMUwA",
  "score_total": 77.5,
  "grade": "A",
@@ -35,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:03:11+09:00",
+ "evaluated_at": "2026-09-09T10:24:52+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:26:52.027915+09:00",
-   "followers": 101000,
-   "engagement_rate": 0.0194,
-   "posts_last_30d": 4,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 74.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-16T10:18:56.001816+09:00",
    "followers": 101000,
@@ -301,6 +291,16 @@
    "brand_fit_score": 90,
    "score_total": 77.5,
    "grade": "A"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0129,
+   "evaluated_at": "2026-09-07T11:03:11+09:00",
+   "followers": 103000,
+   "grade": "A",
+   "posts_last_30d": 10,
+   "retailer_focus": "olive_young",
+   "score_total": 77.5
   }
  ]
 }

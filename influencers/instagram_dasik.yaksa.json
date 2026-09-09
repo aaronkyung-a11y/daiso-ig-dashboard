@@ -3,20 +3,22 @@
  "username": "dasik.yaksa",
  "fullname": "다식 약사 | 박약다식, 박소윤",
  "profile_url": "https://www.instagram.com/dasik.yaksa/",
- "followers": 114486,
- "engagement_rate": 0.002346,
- "avg_likes": 210.6,
- "avg_comments": 58.0,
- "avg_views": 44454.6,
+ "followers": 114584,
+ "engagement_rate": 0.002886,
+ "avg_likes": 270.9,
+ "avg_comments": 59.8,
+ "avg_views": 58435.4,
  "posts_last_30d": 10,
  "_posts_last_30d_est": true,
+ "_likes_hidden": false,
+ "_ig_logged_out": false,
  "sample_size": 10,
  "brand_fit_score": 75,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "5건",
+  "beauty_keywords": "3건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,9 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-08 17:00 슬롯) — 프로필 그리드 12건 스캔 → 고정글 2건 제외 10건. 좋아요·댓글·조회수·작성시각은 /api/v1/media/{id}/info/ 실측(shortcode→pk 변환), 팔로워는 /api/v1/users/{pk}/info/ 실측(114,486). ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 그리드 12건 창이 모두 30일 내라 하한값 — 추정. ★ 그리드 무한스크롤 미동작으로 샘플 12건 상한(로그인 상태 정상). ★ web_profile_info 엔드포인트는 이번 회차도 429 — users/{pk}/info 로 우회.",
- "_likes_hidden": 0,
- "_ig_logged_out": false,
+ "sample_note": "IG 로그인 실측(2026-09-09 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 2건 제외 10건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
  "score_total": 63.8,
  "grade": "C",
  "score_breakdown": {
@@ -36,18 +36,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-08T17:05:00+09:00",
+ "evaluated_at": "2026-09-09T11:08:34+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-06T10:19:37.636436+09:00",
-   "followers": 108026,
-   "engagement_rate": 0.003,
-   "posts_last_30d": 21,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 67.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-19T10:32:29.467856+09:00",
    "followers": 106863,
@@ -301,6 +291,16 @@
    "followers": 114248,
    "posts_last_30d": 10,
    "brand_fit_score": 75
+  },
+  {
+   "brand_fit_score": 75,
+   "engagement_rate": 0.002346,
+   "evaluated_at": "2026-09-08T17:05:00+09:00",
+   "followers": 114486,
+   "grade": "C",
+   "posts_last_30d": 10,
+   "retailer_focus": "beauty_general",
+   "score_total": 63.8
   }
  ]
 }

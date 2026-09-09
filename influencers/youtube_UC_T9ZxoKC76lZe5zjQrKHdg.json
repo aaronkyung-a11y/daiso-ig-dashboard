@@ -1,15 +1,15 @@
 {
  "platform": "youtube",
  "username": "UC_T9ZxoKC76lZe5zjQrKHdg",
- "fullname": "YeEul's JPOP",
+ "fullname": "제이팝듣는예을이",
  "profile_url": "https://www.youtube.com/channel/UC_T9ZxoKC76lZe5zjQrKHdg",
- "followers": 41500,
+ "followers": 41600,
  "engagement_rate": 0.0202,
- "avg_likes": 314.4,
- "avg_comments": 12.0,
- "avg_views": 15555.3,
+ "avg_likes": 304.1,
+ "avg_comments": 11.8,
+ "avg_views": 15085.3,
  "posts_last_30d": 13,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 13,
  "brand_fit_score": 60,
  "retailer_focus": "beauty_general",
@@ -22,9 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:13/13 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:13/13 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UC_T9ZxoKC76lZe5zjQrKHdg",
  "score_total": 68.0,
  "grade": "B",
@@ -35,7 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:13:33+09:00",
+ "evaluated_at": "2026-09-09T10:32:50+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:23:05+09:00",
@@ -136,6 +136,16 @@
    "brand_fit_score": 60,
    "score_total": 68.0,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.0202,
+   "evaluated_at": "2026-09-07T11:13:33+09:00",
+   "followers": 41500,
+   "grade": "B",
+   "posts_last_30d": 13,
+   "retailer_focus": "beauty_general",
+   "score_total": 68.0
   }
  ]
 }

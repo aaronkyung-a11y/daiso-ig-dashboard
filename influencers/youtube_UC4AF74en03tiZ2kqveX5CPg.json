@@ -1,16 +1,16 @@
 {
  "platform": "youtube",
  "username": "UC4AF74en03tiZ2kqveX5CPg",
- "fullname": "秘境动漫社",
+ "fullname": "UC4AF74en03tiZ2kqveX5CPg",
  "profile_url": "https://www.youtube.com/channel/UC4AF74en03tiZ2kqveX5CPg",
- "followers": 6160,
- "engagement_rate": 0.0063,
- "avg_likes": 127.7,
- "avg_comments": 6.18,
- "avg_views": 20290.2,
- "posts_last_30d": 12,
+ "followers": 0,
+ "engagement_rate": 0.0,
+ "avg_likes": 0.0,
+ "avg_comments": 0.0,
+ "avg_views": 0.0,
+ "posts_last_30d": 0,
  "_posts_last_30d_est": true,
- "sample_size": 12,
+ "sample_size": 0,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -21,21 +21,21 @@
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
-  "followers_estimated": false,
+  "followers_estimated": true,
   "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 0개 [videos:0+shorts:0] meta_ok:0/0 likes_ok:0/0 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 30일내 영상 0건 → 최근 영상으로 대체 산출(ER은 실측, posts_30d=0)",
  "channel_id": "UC4AF74en03tiZ2kqveX5CPg",
- "score_total": 47.2,
+ "score_total": 36.2,
  "grade": "D",
  "score_breakdown": {
   "er": 40,
   "brand_fit": 25,
-  "consistency": 100,
-  "followers": 60,
+  "consistency": 40,
+  "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:16:08+09:00",
+ "evaluated_at": "2026-09-09T10:40:11+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -74,6 +74,16 @@
    "brand_fit_score": 25,
    "score_total": 47.25,
    "grade": "D"
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0063,
+   "evaluated_at": "2026-09-07T11:16:08+09:00",
+   "followers": 6160,
+   "grade": "D",
+   "posts_last_30d": 12,
+   "retailer_focus": "off_topic",
+   "score_total": 47.2
   }
  ]
 }

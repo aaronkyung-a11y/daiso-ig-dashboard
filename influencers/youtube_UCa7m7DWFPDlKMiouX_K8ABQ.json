@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "UCa7m7DWFPDlKMiouX_K8ABQ",
+ "fullname": "미소녀",
+ "profile_url": "https://www.youtube.com/channel/UCa7m7DWFPDlKMiouX_K8ABQ",
+ "followers": 4200,
+ "engagement_rate": 0.0157,
+ "avg_likes": 399.6,
+ "avg_comments": 4.3,
+ "avg_views": 25455.1,
+ "posts_last_30d": 12,
+ "_posts_last_30d_est": false,
+ "sample_size": 12,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso_mentions": "9건",
+  "olive_young_mentions": "24건",
+  "beauty_keywords": "13건",
+  "labrang_present": true
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 실측 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
+ "channel_id": "UCa7m7DWFPDlKMiouX_K8ABQ",
+ "score_total": 76.0,
+ "grade": "A",
+ "score_breakdown": {
+  "er": 60,
+  "brand_fit": 100,
+  "consistency": 100,
+  "followers": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "evaluated_at": "2026-09-09T10:13:33+09:00",
+ "history": []
+}

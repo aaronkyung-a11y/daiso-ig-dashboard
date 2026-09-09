@@ -4,27 +4,27 @@
  "fullname": "전지적 피부 시점",
  "profile_url": "https://www.youtube.com/channel/UCd7mIFLSi18eIvaBZuv6c2A",
  "followers": 15800,
- "engagement_rate": 0.0138,
- "avg_likes": 3725.4,
- "avg_comments": 40.6,
- "avg_views": 269342.4,
+ "engagement_rate": 0.0123,
+ "avg_likes": 2289.1,
+ "avg_comments": 31.7,
+ "avg_views": 186219.1,
  "posts_last_30d": 0,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 20,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "3건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "21건",
+  "beauty_keywords": "18건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 0개 → 최근 20개 대체 [videos:12+shorts:12] meta_ok:24/24 likes_ok:20/20 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 0개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:20/20 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 30일내 영상 0건 → 최근 영상으로 대체 산출(ER은 실측, posts_30d=0)",
  "channel_id": "UCd7mIFLSi18eIvaBZuv6c2A",
  "score_total": 66.5,
  "grade": "B",
@@ -35,18 +35,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:08:22+09:00",
+ "evaluated_at": "2026-09-09T10:32:50+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:28:47.830172+09:00",
-   "followers": 15900,
-   "engagement_rate": 0.0274,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 66.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-16T10:26:49.399610+09:00",
    "followers": 15900,
@@ -291,6 +281,16 @@
    "brand_fit_score": 90,
    "score_total": 66.5,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0138,
+   "evaluated_at": "2026-09-07T11:08:22+09:00",
+   "followers": 15800,
+   "grade": "B",
+   "posts_last_30d": 0,
+   "retailer_focus": "daiso",
+   "score_total": 66.5
   }
  ]
 }

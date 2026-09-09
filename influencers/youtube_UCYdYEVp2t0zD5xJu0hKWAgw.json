@@ -3,28 +3,28 @@
  "username": "UCYdYEVp2t0zD5xJu0hKWAgw",
  "fullname": "조말랭Jomalraeng",
  "profile_url": "https://www.youtube.com/channel/UCYdYEVp2t0zD5xJu0hKWAgw",
- "followers": 33700,
- "engagement_rate": 0.0177,
- "avg_likes": 701.4,
- "avg_comments": 47.44,
- "avg_views": 39594.4,
+ "followers": 33800,
+ "engagement_rate": 0.0189,
+ "avg_likes": 888.4,
+ "avg_comments": 48.3,
+ "avg_views": 47042.4,
  "posts_last_30d": 16,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 16,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "27건",
-  "beauty_keywords": "108건",
+  "olive_young_mentions": "16건",
+  "beauty_keywords": "19건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:16/16 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:16/16 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UCYdYEVp2t0zD5xJu0hKWAgw",
  "score_total": 75.5,
  "grade": "A",
@@ -35,18 +35,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:08:22+09:00",
+ "evaluated_at": "2026-09-09T10:32:50+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
-   "followers": 25600,
-   "engagement_rate": 0.0185,
-   "posts_last_30d": 14,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 75.5,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-17T10:28:23.576898+09:00",
    "followers": 25600,
@@ -302,6 +292,16 @@
    "brand_fit_score": 90,
    "score_total": 75.5,
    "grade": "A"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0177,
+   "evaluated_at": "2026-09-07T11:08:22+09:00",
+   "followers": 33700,
+   "grade": "A",
+   "posts_last_30d": 16,
+   "retailer_focus": "olive_young",
+   "score_total": 75.5
   }
  ]
 }

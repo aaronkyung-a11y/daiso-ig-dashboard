@@ -1,22 +1,22 @@
 {
  "platform": "youtube",
- "username": "콩덕-e",
+ "username": "UCgzAA_oZqrNH8yry_uQUlPA",
  "fullname": "콩덕",
- "profile_url": "https://www.youtube.com/@콩덕-e",
- "followers": 28,
+ "profile_url": "https://www.youtube.com/channel/UCgzAA_oZqrNH8yry_uQUlPA",
+ "followers": 27,
  "engagement_rate": 0.0056,
- "avg_likes": 18.5,
- "avg_comments": 3.25,
- "avg_views": 3279.7,
+ "avg_likes": 19.2,
+ "avg_comments": 3.2,
+ "avg_views": 3444.0,
  "posts_last_30d": 10,
  "_posts_last_30d_est": false,
  "sample_size": 10,
  "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "retailer_focus": "mixed",
  "retailer_signal": {
   "daiso_mentions": "14건",
-  "olive_young_mentions": "24건",
-  "beauty_keywords": "71건",
+  "olive_young_mentions": "13건",
+  "beauty_keywords": "56건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 10개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:10/10 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 10개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:10/10 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
  "channel_id": "UCgzAA_oZqrNH8yry_uQUlPA",
  "score_total": 61.5,
  "grade": "C",
@@ -35,6 +35,17 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:00:45+09:00",
- "history": []
+ "evaluated_at": "2026-09-09T10:38:32+09:00",
+ "history": [
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0056,
+   "evaluated_at": "2026-09-07T11:00:45+09:00",
+   "followers": 28,
+   "grade": "C",
+   "posts_last_30d": 10,
+   "retailer_focus": "olive_young",
+   "score_total": 61.5
+  }
+ ]
 }

@@ -4,49 +4,39 @@
  "fullname": "민카롱",
  "profile_url": "https://www.youtube.com/channel/UCJC3eND1vV_MR_UJB7-E9LQ",
  "followers": 433000,
- "engagement_rate": 0.0031,
- "avg_likes": 520.2,
- "avg_comments": 35.25,
- "avg_views": 168221.4,
- "posts_last_30d": 8,
+ "engagement_rate": 0.0023,
+ "avg_likes": 430.0,
+ "avg_comments": 35.7,
+ "avg_views": 185669.9,
+ "posts_last_30d": 7,
  "_posts_last_30d_est": false,
- "sample_size": 8,
- "brand_fit_score": 90,
- "retailer_focus": "olive_young",
+ "sample_size": 7,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "4건",
-  "olive_young_mentions": "10건",
-  "beauty_keywords": "11건",
-  "labrang_present": false
+  "olive_young_mentions": "30건",
+  "beauty_keywords": "112건",
+  "labrang_present": true
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 8개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:8/8 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:7/7 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCJC3eND1vV_MR_UJB7-E9LQ",
- "score_total": 64.5,
- "grade": "C",
+ "score_total": 67.0,
+ "grade": "B",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 90,
+  "brand_fit": 100,
   "consistency": 80,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:00:45+09:00",
+ "evaluated_at": "2026-09-09T10:27:53+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 436000,
-   "engagement_rate": 2.106,
-   "posts_last_30d": 5,
-   "brand_fit_score": 100,
-   "score_total": 77.0,
-   "grade": "A",
-   "note": "STEP B light refresh"
-  },
   {
    "evaluated_at": "2026-05-19T10:18:09+09:00",
    "followers": 436000,
@@ -303,6 +293,16 @@
    "brand_fit_score": 100,
    "score_total": 67.0,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0031,
+   "evaluated_at": "2026-09-07T11:00:45+09:00",
+   "followers": 433000,
+   "grade": "C",
+   "posts_last_30d": 8,
+   "retailer_focus": "olive_young",
+   "score_total": 64.5
   }
  ]
 }

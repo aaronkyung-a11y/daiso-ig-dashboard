@@ -3,13 +3,13 @@
  "username": "UC43-ROy5F2-1dVZ726gckuA",
  "fullname": "원츄",
  "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA",
- "followers": 667,
+ "followers": 668,
  "engagement_rate": 0.0117,
- "avg_likes": 377.4,
- "avg_comments": 6.89,
- "avg_views": 32160.1,
+ "avg_likes": 379.8,
+ "avg_comments": 7.0,
+ "avg_views": 32453.1,
  "posts_last_30d": 0,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
@@ -22,9 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 0개 → 최근 12개 대체 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 0개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 30일내 영상 0건 → 최근 영상으로 대체 산출(ER은 실측, posts_30d=0)",
  "channel_id": "UC43-ROy5F2-1dVZ726gckuA",
  "score_total": 62.5,
  "grade": "C",
@@ -35,18 +35,8 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:03:11+09:00",
+ "evaluated_at": "2026-09-09T11:47:31+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:22:04.056999+09:00",
-   "followers": 611,
-   "engagement_rate": 0.0135,
-   "posts_last_30d": 7,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 68.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "score_total": 68.5,
@@ -296,6 +286,16 @@
    "brand_fit_score": 90,
    "score_total": 62.5,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0117,
+   "evaluated_at": "2026-09-07T11:03:11+09:00",
+   "followers": 667,
+   "grade": "C",
+   "posts_last_30d": 0,
+   "retailer_focus": "daiso",
+   "score_total": 62.5
   }
  ]
 }

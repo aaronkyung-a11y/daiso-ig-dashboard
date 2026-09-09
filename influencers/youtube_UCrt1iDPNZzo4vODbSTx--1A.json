@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "UCrt1iDPNZzo4vODbSTx--1A",
+ "fullname": "또유진",
+ "profile_url": "https://www.youtube.com/channel/UCrt1iDPNZzo4vODbSTx--1A",
+ "followers": 119000,
+ "engagement_rate": 0.0088,
+ "avg_likes": 119.8,
+ "avg_comments": 7.0,
+ "avg_views": 13555.8,
+ "posts_last_30d": 13,
+ "_posts_last_30d_est": false,
+ "sample_size": 13,
+ "brand_fit_score": 90,
+ "retailer_focus": "olive_young",
+ "retailer_signal": {
+  "daiso_mentions": "2건",
+  "olive_young_mentions": "5건",
+  "beauty_keywords": "16건",
+  "labrang_present": false
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/13 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
+ "channel_id": "UCrt1iDPNZzo4vODbSTx--1A",
+ "score_total": 67.5,
+ "grade": "B",
+ "score_breakdown": {
+  "er": 40,
+  "brand_fit": 90,
+  "consistency": 100,
+  "followers": 100,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "evaluated_at": "2026-09-09T11:47:31+09:00",
+ "history": []
+}

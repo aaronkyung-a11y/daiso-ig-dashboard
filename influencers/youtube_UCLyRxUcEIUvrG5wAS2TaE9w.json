@@ -3,20 +3,20 @@
  "username": "UCLyRxUcEIUvrG5wAS2TaE9w",
  "fullname": "피부는 희쌤",
  "profile_url": "https://www.youtube.com/channel/UCLyRxUcEIUvrG5wAS2TaE9w",
- "followers": 20500,
- "engagement_rate": 0.0091,
- "avg_likes": 123.1,
- "avg_comments": 26.43,
- "avg_views": 13503.3,
+ "followers": 20600,
+ "engagement_rate": 0.008,
+ "avg_likes": 112.1,
+ "avg_comments": 23.0,
+ "avg_views": 14038.9,
  "posts_last_30d": 15,
  "_posts_last_30d_est": false,
  "sample_size": 15,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "23건",
-  "olive_young_mentions": "23건",
-  "beauty_keywords": "75건",
+  "daiso_mentions": "6건",
+  "olive_young_mentions": "25건",
+  "beauty_keywords": "53건",
   "labrang_present": true
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 15개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:15/15 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 15개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:15/15 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCLyRxUcEIUvrG5wAS2TaE9w",
  "score_total": 68.0,
  "grade": "B",
@@ -35,18 +35,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:03:11+09:00",
+ "evaluated_at": "2026-09-09T10:27:53+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:24:42.739141+09:00",
-   "followers": 18400,
-   "engagement_rate": 0.023,
-   "posts_last_30d": 4,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 72.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-16T10:20:33.092020+09:00",
    "followers": 18400,
@@ -305,6 +295,16 @@
    "brand_fit_score": 100,
    "score_total": 78.0,
    "grade": "A"
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0091,
+   "evaluated_at": "2026-09-07T11:03:11+09:00",
+   "followers": 20500,
+   "grade": "B",
+   "posts_last_30d": 15,
+   "retailer_focus": "our_brand",
+   "score_total": 68.0
   }
  ]
 }

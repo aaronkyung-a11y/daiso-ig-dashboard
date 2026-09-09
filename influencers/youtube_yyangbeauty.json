@@ -1,13 +1,13 @@
 {
  "platform": "youtube",
- "username": "yyangbeauty",
+ "username": "UCvqdSTuGXEUQPeEJPQHy9yA",
  "fullname": "양뷰",
- "profile_url": "https://www.youtube.com/@yyangbeauty",
+ "profile_url": "https://www.youtube.com/channel/UCvqdSTuGXEUQPeEJPQHy9yA",
  "followers": 25100,
- "engagement_rate": 0.0156,
- "avg_likes": 327.3,
- "avg_comments": 17.83,
- "avg_views": 21031.2,
+ "engagement_rate": 0.016,
+ "avg_likes": 299.2,
+ "avg_comments": 18.1,
+ "avg_views": 18692.5,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -15,8 +15,8 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "10건",
-  "olive_young_mentions": "22건",
-  "beauty_keywords": "42건",
+  "olive_young_mentions": "24건",
+  "beauty_keywords": "39건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건) | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCvqdSTuGXEUQPeEJPQHy9yA",
  "score_total": 75.5,
  "grade": "A",
@@ -35,6 +35,17 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:00:45+09:00",
- "history": []
+ "evaluated_at": "2026-09-09T10:38:32+09:00",
+ "history": [
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0156,
+   "evaluated_at": "2026-09-07T11:00:45+09:00",
+   "followers": 25100,
+   "grade": "A",
+   "posts_last_30d": 12,
+   "retailer_focus": "olive_young",
+   "score_total": 75.5
+  }
+ ]
 }

@@ -9,7 +9,7 @@
  "avg_comments": 6.0,
  "avg_views": 5014.6,
  "posts_last_30d": 0,
- "_posts_last_30d_est": false,
+ "_posts_last_30d_est": true,
  "sample_size": 8,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
@@ -22,9 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": false
+  "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 0개 → 최근 8개 대체 [videos:0+shorts:8] meta_ok:8/8 likes_ok:8/8 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 0개 [videos:0+shorts:8] meta_ok:8/8 likes_ok:8/8 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 30일내 영상 0건 → 최근 영상으로 대체 산출(ER은 실측, posts_30d=0)",
  "channel_id": "UCkCQe4QPcKCvB3PTzIWHn2g",
  "score_total": 55.0,
  "grade": "C",
@@ -35,18 +35,8 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:08:22+09:00",
+ "evaluated_at": "2026-09-09T10:32:50+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
-   "followers": 23,
-   "engagement_rate": 0.0099,
-   "posts_last_30d": 0,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 55.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-17T10:36:20.270179+09:00",
    "followers": 23,
@@ -299,6 +289,16 @@
    "brand_fit_score": 100,
    "score_total": 55.0,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0098,
+   "evaluated_at": "2026-09-07T11:08:22+09:00",
+   "followers": 22,
+   "grade": "C",
+   "posts_last_30d": 0,
+   "retailer_focus": "our_brand",
+   "score_total": 55.0
   }
  ]
 }

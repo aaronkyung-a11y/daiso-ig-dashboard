@@ -3,20 +3,22 @@
  "username": "cupoftea_mag",
  "fullname": "컵오브티 매거진",
  "profile_url": "https://www.instagram.com/cupoftea_mag/",
- "followers": 144420,
- "engagement_rate": 0.012858,
- "avg_likes": 1847.33,
+ "followers": 144415,
+ "engagement_rate": 0.013122,
+ "avg_likes": 1885.33,
  "avg_comments": 9.67,
- "avg_views": 0.0,
+ "avg_views": 0,
  "posts_last_30d": 9,
  "_posts_last_30d_est": true,
+ "_likes_hidden": true,
+ "_ig_logged_out": false,
  "sample_size": 9,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "39건",
-  "beauty_keywords": "18건",
+  "beauty_keywords": "15건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,9 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-08 17:00 슬롯) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건. 좋아요·댓글·작성시각은 /api/v1/media/{id}/info/ 실측(shortcode→pk 변환), 팔로워는 /api/v1/users/{pk}/info/ 실측(144,420). ER=(평균 좋아요+평균 댓글)/팔로워. ★ 9건 중 6건이 '좋아요 수 숨김'이라 평균 좋아요는 공개 3건 기준. ★ posts_last_30d는 그리드 12건 창이 모두 30일 내라 하한값 — 추정. ★ 그리드 무한스크롤 미동작으로 샘플 12건 상한(로그인 상태 정상). ★ web_profile_info 엔드포인트는 이번 회차도 429 — users/{pk}/info 로 우회.",
- "_likes_hidden": 6,
- "_ig_logged_out": false,
+ "sample_note": "IG 로그인 실측(2026-09-09 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정. ★ 좋아요 비공개(like_and_view_counts_disabled) 6/9건 — 해당 건은 좋아요 평균에서 제외, ER 하한값(추정).",
  "score_total": 74.5,
  "grade": "B",
  "score_breakdown": {
@@ -36,18 +36,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-08T17:05:00+09:00",
+ "evaluated_at": "2026-09-09T11:07:00+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
-   "followers": 141000,
-   "engagement_rate": 0.0307,
-   "posts_last_30d": 1,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 62.25,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "score_total": 62.25,
@@ -306,6 +296,16 @@
    "followers": 144439,
    "posts_last_30d": 9,
    "brand_fit_score": 90
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.012858,
+   "evaluated_at": "2026-09-08T17:05:00+09:00",
+   "followers": 144420,
+   "grade": "B",
+   "posts_last_30d": 9,
+   "retailer_focus": "olive_young",
+   "score_total": 74.5
   }
  ]
 }

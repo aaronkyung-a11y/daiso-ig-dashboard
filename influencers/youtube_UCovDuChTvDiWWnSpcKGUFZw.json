@@ -5,9 +5,9 @@
  "profile_url": "https://www.youtube.com/channel/UCovDuChTvDiWWnSpcKGUFZw",
  "followers": 27400,
  "engagement_rate": 0.0117,
- "avg_likes": 833.3,
- "avg_comments": 25.33,
- "avg_views": 71182.3,
+ "avg_likes": 839.3,
+ "avg_comments": 25.7,
+ "avg_views": 71900.7,
  "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "sample_size": 3,
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 3개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:3/3 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 3개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:3/3 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCovDuChTvDiWWnSpcKGUFZw",
  "score_total": 69.5,
  "grade": "B",
@@ -35,7 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:10:58+09:00",
+ "evaluated_at": "2026-09-09T10:35:41+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:28:07+09:00",
@@ -169,6 +169,16 @@
    "brand_fit_score": 90,
    "score_total": 69.5,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0117,
+   "evaluated_at": "2026-09-07T11:10:58+09:00",
+   "followers": 27400,
+   "grade": "B",
+   "posts_last_30d": 3,
+   "retailer_focus": "olive_young",
+   "score_total": 69.5
   }
  ]
 }

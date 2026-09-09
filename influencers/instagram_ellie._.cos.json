@@ -3,20 +3,22 @@
  "username": "ellie._.cos",
  "fullname": "ellie エリ",
  "profile_url": "https://www.instagram.com/ellie._.cos/",
- "followers": 2480,
- "engagement_rate": 0.0135,
- "avg_likes": 31.0,
- "avg_comments": 2.44,
- "avg_views": 5887.0,
+ "followers": 2482,
+ "engagement_rate": 0.008372,
+ "avg_likes": 19,
+ "avg_comments": 1.78,
+ "avg_views": 0,
  "posts_last_30d": 9,
  "_posts_last_30d_est": true,
+ "_likes_hidden": false,
+ "_ig_logged_out": false,
  "sample_size": 9,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "12건",
-  "beauty_keywords": "28건",
+  "olive_young_mentions": "8건",
+  "beauty_keywords": "25건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,30 +26,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-07 10:00 슬롯) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건. 좋아요·댓글·조회수는 media/info API 실측(shortcode→pk 변환). ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 그리드 12건 창이 모두 30일 내라 하한값 — 추정. ★ 그리드 무한스크롤이 이번 실행에서 동작하지 않아 샘플 12건 상한(로그인 상태는 정상).",
- "_likes_hidden": 0,
- "_ig_logged_out": false,
- "score_total": 70.5,
- "grade": "B",
+ "sample_note": "IG 로그인 실측(2026-09-09 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
+ "score_total": 60.5,
+ "grade": "C",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 90,
   "consistency": 80,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T10:58:30+09:00",
+ "evaluated_at": "2026-09-09T11:16:06+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-07-06T10:19:37.636436+09:00",
-   "followers": 2313,
-   "engagement_rate": 0.3735,
-   "posts_last_30d": 6,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 90.5,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-06-19T10:32:29.467856+09:00",
    "followers": 2225,
@@ -301,6 +291,16 @@
    "brand_fit_score": 90,
    "score_total": 93.5,
    "grade": "S"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0135,
+   "evaluated_at": "2026-09-07T10:58:30+09:00",
+   "followers": 2480,
+   "grade": "B",
+   "posts_last_30d": 9,
+   "retailer_focus": "olive_young",
+   "score_total": 70.5
   }
  ]
 }

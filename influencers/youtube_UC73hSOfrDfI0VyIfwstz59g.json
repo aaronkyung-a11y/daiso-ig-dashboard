@@ -3,13 +3,13 @@
  "username": "UC73hSOfrDfI0VyIfwstz59g",
  "fullname": "아서비",
  "profile_url": "https://www.youtube.com/channel/UC73hSOfrDfI0VyIfwstz59g",
- "followers": 11300,
- "engagement_rate": 0.0201,
- "avg_likes": 648.9,
- "avg_comments": 21.5,
- "avg_views": 32284.6,
+ "followers": 11400,
+ "engagement_rate": 0.0181,
+ "avg_likes": 493.1,
+ "avg_comments": 18.1,
+ "avg_views": 27276.8,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
@@ -22,9 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UC73hSOfrDfI0VyIfwstz59g",
  "score_total": 75.5,
  "grade": "A",
@@ -35,7 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:13:33+09:00",
+ "evaluated_at": "2026-09-09T10:24:52+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-17T10:11:50+09:00",
@@ -125,6 +125,16 @@
    "brand_fit_score": 90,
    "score_total": 75.5,
    "grade": "A"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0201,
+   "evaluated_at": "2026-09-07T11:13:33+09:00",
+   "followers": 11300,
+   "grade": "A",
+   "posts_last_30d": 12,
+   "retailer_focus": "beauty_general",
+   "score_total": 75.5
   }
  ]
 }

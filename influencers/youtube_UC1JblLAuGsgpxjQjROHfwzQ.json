@@ -4,10 +4,10 @@
  "fullname": "Hyukヒョク",
  "profile_url": "https://www.youtube.com/channel/UC1JblLAuGsgpxjQjROHfwzQ",
  "followers": 535000,
- "engagement_rate": 0.0106,
- "avg_likes": 933.6,
- "avg_comments": 37.71,
- "avg_views": 87838.9,
+ "engagement_rate": 0.0104,
+ "avg_likes": 951.4,
+ "avg_comments": 38.3,
+ "avg_views": 91743.7,
  "posts_last_30d": 7,
  "_posts_last_30d_est": false,
  "sample_size": 7,
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:7/7 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:7/7 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UC1JblLAuGsgpxjQjROHfwzQ",
  "score_total": 58.2,
  "grade": "C",
@@ -35,7 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:16:08+09:00",
+ "evaluated_at": "2026-09-09T10:21:20+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -74,6 +74,16 @@
    "brand_fit_score": 25,
    "score_total": 58.25,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0106,
+   "evaluated_at": "2026-09-07T11:16:08+09:00",
+   "followers": 535000,
+   "grade": "C",
+   "posts_last_30d": 7,
+   "retailer_focus": "off_topic",
+   "score_total": 58.2
   }
  ]
 }

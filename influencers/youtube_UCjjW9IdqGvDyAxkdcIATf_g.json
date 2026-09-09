@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "UCjjW9IdqGvDyAxkdcIATf_g",
+ "fullname": "bbiiju",
+ "profile_url": "https://www.youtube.com/channel/UCjjW9IdqGvDyAxkdcIATf_g",
+ "followers": 21700,
+ "engagement_rate": 0.0099,
+ "avg_likes": 299.3,
+ "avg_comments": 17.7,
+ "avg_views": 30236.7,
+ "posts_last_30d": 3,
+ "_posts_last_30d_est": false,
+ "sample_size": 3,
+ "brand_fit_score": 80,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "16건",
+  "beauty_keywords": "2건",
+  "labrang_present": true
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:3/3 | 2026-09-09 10:00 슬롯 실측 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
+ "channel_id": "UCjjW9IdqGvDyAxkdcIATf_g",
+ "score_total": 57.0,
+ "grade": "C",
+ "score_breakdown": {
+  "er": 40,
+  "brand_fit": 80,
+  "consistency": 60,
+  "followers": 80,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "evaluated_at": "2026-09-09T10:16:37+09:00",
+ "history": []
+}

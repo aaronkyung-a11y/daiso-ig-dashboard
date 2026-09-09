@@ -3,19 +3,19 @@
  "username": "UCdLwMtqz0GwDXRPO_bgKwbw",
  "fullname": "리뷰히",
  "profile_url": "https://www.youtube.com/channel/UCdLwMtqz0GwDXRPO_bgKwbw",
- "followers": 6940,
- "engagement_rate": 0.0102,
- "avg_likes": 48.4,
- "avg_comments": 4.67,
- "avg_views": 4738.2,
+ "followers": 6980,
+ "engagement_rate": 0.0098,
+ "avg_likes": 38.9,
+ "avg_comments": 3.4,
+ "avg_views": 3980.3,
  "posts_last_30d": 9,
  "_posts_last_30d_est": false,
  "sample_size": 9,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "13건",
-  "olive_young_mentions": "7건",
+  "daiso_mentions": "6건",
+  "olive_young_mentions": "0건",
   "beauty_keywords": "19건",
   "labrang_present": true
  },
@@ -24,18 +24,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 9개 [videos:2+shorts:12] meta_ok:14/14 likes_ok:9/9 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 9개 [videos:2+shorts:12] meta_ok:14/14 likes_ok:9/9 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UCdLwMtqz0GwDXRPO_bgKwbw",
- "score_total": 73.0,
- "grade": "B",
+ "score_total": 63.0,
+ "grade": "C",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 100,
   "consistency": 80,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:10:58+09:00",
+ "evaluated_at": "2026-09-09T10:32:50+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -115,6 +115,16 @@
    "brand_fit_score": 100,
    "score_total": 76.0,
    "grade": "A"
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0102,
+   "evaluated_at": "2026-09-07T11:10:58+09:00",
+   "followers": 6940,
+   "grade": "B",
+   "posts_last_30d": 9,
+   "retailer_focus": "our_brand",
+   "score_total": 73.0
   }
  ]
 }

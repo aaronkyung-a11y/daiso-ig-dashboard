@@ -3,20 +3,22 @@
  "username": "beauty_piona",
  "fullname": "문혜경",
  "profile_url": "https://www.instagram.com/beauty_piona/",
- "followers": 11190,
- "engagement_rate": 0.1019,
- "avg_likes": 1091.4,
- "avg_comments": 48.56,
- "avg_views": 18104.2,
+ "followers": 11195,
+ "engagement_rate": 0.024724,
+ "avg_likes": 247.56,
+ "avg_comments": 29.22,
+ "avg_views": 8929.56,
  "posts_last_30d": 9,
  "_posts_last_30d_est": true,
+ "_likes_hidden": false,
+ "_ig_logged_out": false,
  "sample_size": 9,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "4건",
   "olive_young_mentions": "5건",
-  "beauty_keywords": "48건",
+  "beauty_keywords": "22건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,30 +26,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-07 14:00 슬롯 · STEP B-Light) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건. 좋아요·댓글·조회수 전건 media/info API 실측(숨김 0건). ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 그리드 12건 상한 창이 모두 30일 내라 하한값 — 추정. ★ feed/user API 및 무한스크롤이 차단되어 샘플 12건 상한(로그인 상태 정상).",
- "_likes_hidden": 0,
- "_ig_logged_out": false,
- "score_total": 92.5,
- "grade": "S",
+ "sample_note": "IG 로그인 실측(2026-09-09 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
+ "score_total": 72.5,
+ "grade": "B",
  "score_breakdown": {
-  "er": 100,
+  "er": 60,
   "brand_fit": 90,
   "consistency": 80,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T14:14:38+09:00",
+ "evaluated_at": "2026-09-09T10:55:19+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-12T17:15:00+09:00",
-   "followers": 6222,
-   "engagement_rate": 0.112,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 93.5,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
    "followers": 6221,
@@ -296,6 +286,16 @@
    "brand_fit_score": 90,
    "score_total": 92.5,
    "grade": "S"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.1019,
+   "evaluated_at": "2026-09-07T14:14:38+09:00",
+   "followers": 11190,
+   "grade": "S",
+   "posts_last_30d": 9,
+   "retailer_focus": "olive_young",
+   "score_total": 92.5
   }
  ]
 }

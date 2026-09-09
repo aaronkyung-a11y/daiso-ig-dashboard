@@ -3,13 +3,15 @@
  "username": "jangsu_note",
  "fullname": "장수노트",
  "profile_url": "https://www.instagram.com/jangsu_note/",
- "followers": 18332,
- "engagement_rate": 0.014,
- "avg_likes": 37.3,
- "avg_comments": 218.92,
- "avg_views": 0.0,
+ "followers": 18327,
+ "engagement_rate": 0.013391,
+ "avg_likes": 36.92,
+ "avg_comments": 208.5,
+ "avg_views": 0,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
+ "_likes_hidden": false,
+ "_ig_logged_out": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
@@ -24,9 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-07 10:00 슬롯) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건. 좋아요·댓글·조회수는 media/info API 실측(shortcode→pk 변환). ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 그리드 12건 창이 모두 30일 내라 하한값 — 추정. ★ 그리드 무한스크롤이 이번 실행에서 동작하지 않아 샘플 12건 상한(로그인 상태는 정상).",
- "_likes_hidden": 0,
- "_ig_logged_out": false,
+ "sample_note": "IG 로그인 실측(2026-09-09 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -36,21 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T10:58:30+09:00",
+ "evaluated_at": "2026-09-09T10:45:18+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-01T14:05:00+09:00",
-   "followers": 9060,
-   "engagement_rate": 0.3738,
-   "avg_likes": 3348.0,
-   "avg_comments": 38.62,
-   "sample_size": 8,
-   "brand_fit_score": 100,
-   "retailer_focus": "daiso",
-   "grade": "S",
-   "score_total": 93.0,
-   "posts_last_30d": 5
-  },
   {
    "evaluated_at": "2026-04-30T13:58:42+09:00",
    "followers": 8956,
@@ -304,6 +291,16 @@
    "brand_fit_score": 100,
    "score_total": 88.0,
    "grade": "S"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.014,
+   "evaluated_at": "2026-09-07T10:58:30+09:00",
+   "followers": 18332,
+   "grade": "A",
+   "posts_last_30d": 12,
+   "retailer_focus": "daiso",
+   "score_total": 75.5
   }
  ]
 }

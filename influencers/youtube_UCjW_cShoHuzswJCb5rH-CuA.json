@@ -1,0 +1,40 @@
+{
+ "platform": "youtube",
+ "username": "UCjW_cShoHuzswJCb5rH-CuA",
+ "fullname": "코링",
+ "profile_url": "https://www.youtube.com/channel/UCjW_cShoHuzswJCb5rH-CuA",
+ "followers": 2610,
+ "engagement_rate": 0.0332,
+ "avg_likes": 86.3,
+ "avg_comments": 1.0,
+ "avg_views": 2596.7,
+ "posts_last_30d": 3,
+ "_posts_last_30d_est": false,
+ "sample_size": 3,
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
+ "retailer_signal": {
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "16건",
+  "beauty_keywords": "23건",
+  "labrang_present": true
+ },
+ "estimation_flags": {
+  "brand_fit_estimated": false,
+  "followers_estimated": false,
+  "posts_30d_estimated": false
+ },
+ "sample_note": "YT 30일내 3개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:3/3 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
+ "channel_id": "UCjW_cShoHuzswJCb5rH-CuA",
+ "score_total": 80.0,
+ "grade": "A",
+ "score_breakdown": {
+  "er": 80,
+  "brand_fit": 100,
+  "consistency": 60,
+  "followers": 60,
+  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+ },
+ "evaluated_at": "2026-09-09T10:38:32+09:00",
+ "history": []
+}

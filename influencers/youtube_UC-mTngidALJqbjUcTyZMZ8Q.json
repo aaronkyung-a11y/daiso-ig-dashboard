@@ -4,13 +4,13 @@
  "fullname": "희재 HEEJAE",
  "profile_url": "https://www.youtube.com/channel/UC-mTngidALJqbjUcTyZMZ8Q",
  "followers": 309000,
- "engagement_rate": 0.0165,
- "avg_likes": 1839.5,
- "avg_comments": 174.5,
- "avg_views": 111807.5,
- "posts_last_30d": 2,
+ "engagement_rate": 0.0196,
+ "avg_likes": 2416.0,
+ "avg_comments": 191.0,
+ "avg_views": 123281.0,
+ "posts_last_30d": 1,
  "_posts_last_30d_est": false,
- "sample_size": 2,
+ "sample_size": 1,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
@@ -24,18 +24,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 2개 [videos:12+shorts:1] meta_ok:13/13 likes_ok:2/2 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 1개 [videos:12+shorts:1] meta_ok:13/13 likes_ok:1/1 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UC-mTngidALJqbjUcTyZMZ8Q",
- "score_total": 71.5,
+ "score_total": 68.5,
  "grade": "B",
  "score_breakdown": {
   "er": 60,
   "brand_fit": 90,
-  "consistency": 60,
+  "consistency": 40,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:10:58+09:00",
+ "evaluated_at": "2026-09-09T10:21:20+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-21T10:31:03+09:00",
@@ -175,6 +175,16 @@
    "brand_fit_score": 90,
    "score_total": 71.5,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0165,
+   "evaluated_at": "2026-09-07T11:10:58+09:00",
+   "followers": 309000,
+   "grade": "B",
+   "posts_last_30d": 2,
+   "retailer_focus": "olive_young",
+   "score_total": 71.5
   }
  ]
 }

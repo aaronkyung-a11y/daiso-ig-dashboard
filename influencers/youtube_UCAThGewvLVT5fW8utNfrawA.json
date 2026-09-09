@@ -3,11 +3,11 @@
  "username": "UCAThGewvLVT5fW8utNfrawA",
  "fullname": "ARADHYA FACT",
  "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
- "followers": 812000,
- "engagement_rate": 0.0472,
- "avg_likes": 23353.5,
- "avg_comments": 1.0,
- "avg_views": 494698.4,
+ "followers": 813000,
+ "engagement_rate": 0.0,
+ "avg_likes": 0.0,
+ "avg_comments": 2.0,
+ "avg_views": 148789.8,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -24,28 +24,19 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:2/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:0/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정",
  "channel_id": "UCAThGewvLVT5fW8utNfrawA",
- "score_total": 71.2,
- "grade": "B",
+ "score_total": 51.2,
+ "grade": "C",
  "score_breakdown": {
-  "er": 80,
+  "er": 40,
   "brand_fit": 25,
   "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:03:11+09:00",
+ "evaluated_at": "2026-09-09T10:40:11+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-12T10:05:00+09:00",
-   "score_total": 51.2,
-   "engagement_rate": 0.1165,
-   "followers": 572000,
-   "posts_last_30d": 20,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic"
-  },
   {
    "evaluated_at": "2026-05-14T17:10:31+09:00",
    "score_total": 51.25,
@@ -298,6 +289,16 @@
    "brand_fit_score": 25,
    "score_total": 71.25,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0472,
+   "evaluated_at": "2026-09-07T11:03:11+09:00",
+   "followers": 812000,
+   "grade": "B",
+   "posts_last_30d": 12,
+   "retailer_focus": "off_topic",
+   "score_total": 71.2
   }
  ]
 }

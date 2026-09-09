@@ -4,12 +4,12 @@
  "fullname": "니야 Niiya",
  "profile_url": "https://www.youtube.com/channel/UCCZr7t-gZ62L056QOW3RXdQ",
  "followers": 146000,
- "engagement_rate": 0.0218,
- "avg_likes": 6259.1,
- "avg_comments": 120.75,
- "avg_views": 287505.1,
+ "engagement_rate": 0.0213,
+ "avg_likes": 6538.0,
+ "avg_comments": 125.6,
+ "avg_views": 306862.8,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 60,
  "retailer_focus": "olive_young",
@@ -22,9 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:6+shorts:12] meta_ok:18/18 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "sample_note": "YT 30일내 12개 [videos:6+shorts:12] meta_ok:18/18 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UCCZr7t-gZ62L056QOW3RXdQ",
  "score_total": 70.0,
  "grade": "B",
@@ -35,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:00:45+09:00",
+ "evaluated_at": "2026-09-09T10:24:52+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:24:42.739141+09:00",
-   "followers": 57500,
-   "engagement_rate": 0.0177,
-   "posts_last_30d": 0,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 59.0,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-16T10:18:01.731757+09:00",
    "followers": 57100,
@@ -298,6 +288,16 @@
    "brand_fit_score": 60,
    "score_total": 70.0,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.0218,
+   "evaluated_at": "2026-09-07T11:00:45+09:00",
+   "followers": 146000,
+   "grade": "B",
+   "posts_last_30d": 12,
+   "retailer_focus": "olive_young",
+   "score_total": 70.0
   }
  ]
 }

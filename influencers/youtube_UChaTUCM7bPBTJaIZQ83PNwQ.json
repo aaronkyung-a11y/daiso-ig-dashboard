@@ -4,10 +4,10 @@
  "fullname": "스완SWAN_현실남자관리",
  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
  "followers": 509000,
- "engagement_rate": 0.0096,
- "avg_likes": 939.9,
- "avg_comments": 153.5,
- "avg_views": 98401.4,
+ "engagement_rate": 0.0094,
+ "avg_likes": 961.9,
+ "avg_comments": 151.3,
+ "avg_views": 102514.9,
  "posts_last_30d": 20,
  "_posts_last_30d_est": false,
  "sample_size": 20,
@@ -16,7 +16,7 @@
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "17건",
-  "beauty_keywords": "51건",
+  "beauty_keywords": "44건",
   "labrang_present": true
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 20개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:20/20 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 20개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:20/20 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UChaTUCM7bPBTJaIZQ83PNwQ",
  "score_total": 70.0,
  "grade": "B",
@@ -35,17 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:00:45+09:00",
+ "evaluated_at": "2026-09-09T10:35:41+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-19T05:09:02.898661+00:00",
-   "engagement_rate": 2.03,
-   "followers": 497000,
-   "brand_fit_score": 100,
-   "posts_last_30d": 20,
-   "score_total": 80.0,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-05-19T05:09:02.898661+00:00",
    "followers": 497000,
@@ -302,6 +293,16 @@
    "brand_fit_score": 100,
    "score_total": 70.0,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0096,
+   "evaluated_at": "2026-09-07T11:00:45+09:00",
+   "followers": 509000,
+   "grade": "B",
+   "posts_last_30d": 20,
+   "retailer_focus": "our_brand",
+   "score_total": 70.0
   }
  ]
 }

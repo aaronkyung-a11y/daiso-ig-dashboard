@@ -1,30 +1,30 @@
 {
  "platform": "youtube",
- "username": "Charming_ramy",
+ "username": "UCPDYF8wq8Arz4klmZNY2WRg",
  "fullname": "윤라임 LIME",
- "profile_url": "https://www.youtube.com/@Charming_ramy",
+ "profile_url": "https://www.youtube.com/channel/UCPDYF8wq8Arz4klmZNY2WRg",
  "followers": 2220,
  "engagement_rate": 0.0025,
- "avg_likes": 23.0,
- "avg_comments": 1.38,
- "avg_views": 9219.8,
+ "avg_likes": 23.6,
+ "avg_comments": 1.3,
+ "avg_views": 9343.2,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "21건",
-  "olive_young_mentions": "12건",
-  "beauty_keywords": "10건",
+  "daiso_mentions": "22건",
+  "olive_young_mentions": "31건",
+  "beauty_keywords": "34건",
   "labrang_present": true
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:7/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:7/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UCPDYF8wq8Arz4klmZNY2WRg",
  "score_total": 66.0,
  "grade": "B",
@@ -35,6 +35,17 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:00:45+09:00",
- "history": []
+ "evaluated_at": "2026-09-09T11:47:31+09:00",
+ "history": [
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0025,
+   "evaluated_at": "2026-09-07T11:00:45+09:00",
+   "followers": 2220,
+   "grade": "B",
+   "posts_last_30d": 12,
+   "retailer_focus": "our_brand",
+   "score_total": 66.0
+  }
+ ]
 }

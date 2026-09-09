@@ -4,19 +4,19 @@
  "fullname": "예쁜데 문제있나예",
  "profile_url": "https://www.youtube.com/channel/UC66y-iJZXgWc4LwRlrNGVYw",
  "followers": 3620,
- "engagement_rate": 0.0071,
- "avg_likes": 9.0,
- "avg_comments": 1.0,
- "avg_views": 1261.5,
- "posts_last_30d": 2,
+ "engagement_rate": 0.0038,
+ "avg_likes": 6.0,
+ "avg_comments": 0.0,
+ "avg_views": 1571.0,
+ "posts_last_30d": 1,
  "_posts_last_30d_est": false,
- "sample_size": 2,
- "brand_fit_score": 25,
- "retailer_focus": "off_topic",
+ "sample_size": 1,
+ "brand_fit_score": 90,
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "0건",
+  "beauty_keywords": "9건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,29 +24,19 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 2개 [videos:9+shorts:12] meta_ok:21/21 likes_ok:2/2 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 1개 [videos:9+shorts:12] meta_ok:21/21 likes_ok:1/1 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UC66y-iJZXgWc4LwRlrNGVYw",
- "score_total": 41.2,
- "grade": "D",
+ "score_total": 54.5,
+ "grade": "C",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 25,
-  "consistency": 60,
+  "brand_fit": 90,
+  "consistency": 40,
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:03:11+09:00",
+ "evaluated_at": "2026-09-09T10:24:52+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:18:01.731757+09:00",
-   "followers": 3630,
-   "engagement_rate": 0.0113,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 64.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-01T01:09:22.511409+00:00",
    "score_total": 54.5,
@@ -299,6 +289,16 @@
    "brand_fit_score": 90,
    "score_total": 64.5,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0071,
+   "evaluated_at": "2026-09-07T11:03:11+09:00",
+   "followers": 3620,
+   "grade": "D",
+   "posts_last_30d": 2,
+   "retailer_focus": "off_topic",
+   "score_total": 41.2
   }
  ]
 }

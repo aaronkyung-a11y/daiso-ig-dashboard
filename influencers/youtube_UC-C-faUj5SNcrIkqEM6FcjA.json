@@ -1,22 +1,22 @@
 {
  "platform": "youtube",
  "username": "UC-C-faUj5SNcrIkqEM6FcjA",
- "fullname": "HellfireDrama",
+ "fullname": "燎原剧场HellfireDrama",
  "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
- "followers": 373000,
- "engagement_rate": 0.0039,
- "avg_likes": 36.9,
- "avg_comments": 2.0,
- "avg_views": 9423.9,
+ "followers": 374000,
+ "engagement_rate": 0.0045,
+ "avg_likes": 41.0,
+ "avg_comments": 1.7,
+ "avg_views": 9191.8,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
- "brand_fit_score": 25,
- "retailer_focus": "off_topic",
+ "brand_fit_score": 60,
+ "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "0건",
+  "beauty_keywords": "1건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,29 +24,19 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UC-C-faUj5SNcrIkqEM6FcjA",
- "score_total": 51.2,
+ "score_total": 60.0,
  "grade": "C",
  "score_breakdown": {
   "er": 40,
-  "brand_fit": 25,
+  "brand_fit": 60,
   "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:00:45+09:00",
+ "evaluated_at": "2026-09-09T10:21:20+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-23T10:17:31.550244+09:00",
-   "followers": 326000,
-   "engagement_rate": 0.0093,
-   "posts_last_30d": 15,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 51.2,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-22T10:19:15.183340+09:00",
    "followers": 322000,
@@ -303,6 +293,16 @@
    "brand_fit_score": 25,
    "score_total": 51.25,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0039,
+   "evaluated_at": "2026-09-07T11:00:45+09:00",
+   "followers": 373000,
+   "grade": "C",
+   "posts_last_30d": 12,
+   "retailer_focus": "off_topic",
+   "score_total": 51.2
   }
  ]
 }

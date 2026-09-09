@@ -4,12 +4,12 @@
  "fullname": "리뷰하는 회사원",
  "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
  "followers": 606000,
- "engagement_rate": 0.0126,
- "avg_likes": 13713.9,
- "avg_comments": 348.58,
- "avg_views": 1089708.7,
+ "engagement_rate": 0.0123,
+ "avg_likes": 10537.7,
+ "avg_comments": 331.3,
+ "avg_views": 857784.6,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -22,9 +22,9 @@
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UCGtY9qyrQqqPlkNqAwccjNQ",
  "score_total": 61.2,
  "grade": "C",
@@ -35,17 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:00:45+09:00",
+ "evaluated_at": "2026-09-09T10:24:52+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-15T17:05:00+09:00",
-   "score_total": 52.25,
-   "engagement_rate": 2.3751,
-   "followers": 581000,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic"
-  },
   {
    "evaluated_at": "2026-05-19T10:18:09+09:00",
    "followers": 25400,
@@ -302,6 +293,16 @@
    "brand_fit_score": 25,
    "score_total": 61.25,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0126,
+   "evaluated_at": "2026-09-07T11:00:45+09:00",
+   "followers": 606000,
+   "grade": "C",
+   "posts_last_30d": 12,
+   "retailer_focus": "off_topic",
+   "score_total": 61.2
   }
  ]
 }

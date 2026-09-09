@@ -6,17 +6,17 @@
  "followers": 5110,
  "engagement_rate": 0.0,
  "avg_likes": 0.0,
- "avg_comments": 6.83,
- "avg_views": 3610.2,
+ "avg_comments": 7.0,
+ "avg_views": 3690.2,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
  "sample_size": 6,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "50건",
-  "olive_young_mentions": "9건",
-  "beauty_keywords": "41건",
+  "daiso_mentions": "13건",
+  "olive_young_mentions": "3건",
+  "beauty_keywords": "8건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:0/6 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:0/6 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UC_FeFXisROV48LEXS6RvhDA",
  "score_total": 60.5,
  "grade": "C",
@@ -35,7 +35,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:16:08+09:00",
+ "evaluated_at": "2026-09-09T10:32:50+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -74,6 +74,16 @@
    "brand_fit_score": 100,
    "score_total": 63.0,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0,
+   "evaluated_at": "2026-09-07T11:16:08+09:00",
+   "followers": 5110,
+   "grade": "C",
+   "posts_last_30d": 6,
+   "retailer_focus": "daiso",
+   "score_total": 60.5
   }
  ]
 }

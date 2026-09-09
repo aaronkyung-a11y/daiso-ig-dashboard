@@ -3,20 +3,20 @@
  "username": "UCklkYxRVIAsczwi9w6Y3l5g",
  "fullname": "수",
  "profile_url": "https://www.youtube.com/channel/UCklkYxRVIAsczwi9w6Y3l5g",
- "followers": 934,
+ "followers": 936,
  "engagement_rate": 0.007,
  "avg_likes": 8.6,
  "avg_comments": 0.0,
- "avg_views": 1220.0,
+ "avg_views": 1227.0,
  "posts_last_30d": 5,
  "_posts_last_30d_est": false,
  "sample_size": 5,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "12건",
-  "olive_young_mentions": "2건",
-  "beauty_keywords": "10건",
+  "daiso_mentions": "20건",
+  "olive_young_mentions": "14건",
+  "beauty_keywords": "32건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 5개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:5/5 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 5개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:5/5 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCklkYxRVIAsczwi9w6Y3l5g",
  "score_total": 58.5,
  "grade": "C",
@@ -35,18 +35,8 @@
   "followers": 40,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:05:47+09:00",
+ "evaluated_at": "2026-09-09T10:35:41+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-29T11:33:21.045356+09:00",
-   "followers": 849,
-   "engagement_rate": 0.0112,
-   "posts_last_30d": 20,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 71.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
    "followers": 813,
@@ -302,6 +292,16 @@
    "brand_fit_score": 90,
    "score_total": 58.5,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.007,
+   "evaluated_at": "2026-09-07T11:05:47+09:00",
+   "followers": 934,
+   "grade": "C",
+   "posts_last_30d": 5,
+   "retailer_focus": "daiso",
+   "score_total": 58.5
   }
  ]
 }

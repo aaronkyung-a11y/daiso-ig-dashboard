@@ -4,19 +4,19 @@
  "fullname": "화장품은 과학이다 by 안언니 Ahnunnie",
  "profile_url": "https://www.youtube.com/channel/UCCuXPHou1JQfRKM40q5tG8w",
  "followers": 87500,
- "engagement_rate": 0.0221,
- "avg_likes": 198.3,
- "avg_comments": 56.83,
- "avg_views": 8990.5,
+ "engagement_rate": 0.021,
+ "avg_likes": 199.5,
+ "avg_comments": 57.0,
+ "avg_views": 9480.5,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
  "sample_size": 6,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "19건",
-  "olive_young_mentions": "17건",
-  "beauty_keywords": "40건",
+  "daiso_mentions": "11건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "35건",
   "labrang_present": true
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:6/6 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:6/6 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCCuXPHou1JQfRKM40q5tG8w",
  "score_total": 75.0,
  "grade": "A",
@@ -35,7 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:10:58+09:00",
+ "evaluated_at": "2026-09-09T10:24:52+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:21:16+09:00",
@@ -169,6 +169,16 @@
    "brand_fit_score": 100,
    "score_total": 75.0,
    "grade": "A"
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0221,
+   "evaluated_at": "2026-09-07T11:10:58+09:00",
+   "followers": 87500,
+   "grade": "A",
+   "posts_last_30d": 6,
+   "retailer_focus": "our_brand",
+   "score_total": 75.0
   }
  ]
 }

@@ -3,20 +3,20 @@
  "username": "UCFuMPPmNvRAVIqYlAO5v_vg",
  "fullname": "리뷰밍밍",
  "profile_url": "https://www.youtube.com/channel/UCFuMPPmNvRAVIqYlAO5v_vg",
- "followers": 14600,
- "engagement_rate": 0.0061,
- "avg_likes": 202.3,
- "avg_comments": 2.08,
- "avg_views": 33368.2,
+ "followers": 14700,
+ "engagement_rate": 0.0062,
+ "avg_likes": 225.7,
+ "avg_comments": 2.1,
+ "avg_views": 36595.6,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "25건",
+  "daiso_mentions": "21건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "16건",
+  "beauty_keywords": "14건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCFuMPPmNvRAVIqYlAO5v_vg",
  "score_total": 65.5,
  "grade": "B",
@@ -35,18 +35,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:03:11+09:00",
+ "evaluated_at": "2026-09-09T10:24:52+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-24T10:24:55.583567+09:00",
-   "followers": 14300,
-   "engagement_rate": 0.0088,
-   "posts_last_30d": 11,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 65.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
    "followers": 14200,
@@ -303,6 +293,16 @@
    "brand_fit_score": 90,
    "score_total": 65.5,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0061,
+   "evaluated_at": "2026-09-07T11:03:11+09:00",
+   "followers": 14600,
+   "grade": "B",
+   "posts_last_30d": 12,
+   "retailer_focus": "daiso",
+   "score_total": 65.5
   }
  ]
 }

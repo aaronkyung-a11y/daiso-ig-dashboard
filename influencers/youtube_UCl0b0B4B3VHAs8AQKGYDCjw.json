@@ -4,13 +4,13 @@
  "fullname": "일돈나",
  "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
  "followers": 1290,
- "engagement_rate": 0.0125,
- "avg_likes": 39.3,
- "avg_comments": 1.33,
- "avg_views": 3154.0,
- "posts_last_30d": 3,
+ "engagement_rate": 0.0148,
+ "avg_likes": 54.0,
+ "avg_comments": 1.0,
+ "avg_views": 3641.0,
+ "posts_last_30d": 2,
  "_posts_last_30d_est": false,
- "sample_size": 3,
+ "sample_size": 2,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 3개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:3/3 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 2개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:2/2 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
  "score_total": 70.0,
  "grade": "B",
@@ -35,18 +35,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:08:22+09:00",
+ "evaluated_at": "2026-09-09T10:35:41+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
-   "followers": 1280,
-   "engagement_rate": 0.0158,
-   "posts_last_30d": 3,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 70.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-17T10:37:09.720708+09:00",
    "followers": 1280,
@@ -301,6 +291,16 @@
    "brand_fit_score": 100,
    "score_total": 70.0,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0125,
+   "evaluated_at": "2026-09-07T11:08:22+09:00",
+   "followers": 1290,
+   "grade": "B",
+   "posts_last_30d": 3,
+   "retailer_focus": "our_brand",
+   "score_total": 70.0
   }
  ]
 }

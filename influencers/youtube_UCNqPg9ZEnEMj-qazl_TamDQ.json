@@ -1,30 +1,30 @@
 {
  "platform": "youtube",
  "username": "UCNqPg9ZEnEMj-qazl_TamDQ",
- "fullname": "YERIBU",
+ "fullname": "예리부 YERIBU",
  "profile_url": "https://www.youtube.com/channel/UCNqPg9ZEnEMj-qazl_TamDQ",
  "followers": 17100,
- "engagement_rate": 0.0091,
- "avg_likes": 222.8,
- "avg_comments": 24.71,
- "avg_views": 24525.4,
+ "engagement_rate": 0.009,
+ "avg_likes": 228.3,
+ "avg_comments": 25.0,
+ "avg_views": 25379.9,
  "posts_last_30d": 14,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 14,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "9건",
-  "olive_young_mentions": "22건",
-  "beauty_keywords": "102건",
+  "daiso_mentions": "1건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "63건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_estimated": false,
   "followers_estimated": false,
-  "posts_30d_estimated": true
+  "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:14/14 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:14/14 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCNqPg9ZEnEMj-qazl_TamDQ",
  "score_total": 65.5,
  "grade": "B",
@@ -35,7 +35,7 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:16:08+09:00",
+ "evaluated_at": "2026-09-09T10:30:00+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:13:18+09:00",
@@ -104,6 +104,16 @@
    "brand_fit_score": 90,
    "score_total": 65.5,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0091,
+   "evaluated_at": "2026-09-07T11:16:08+09:00",
+   "followers": 17100,
+   "grade": "B",
+   "posts_last_30d": 14,
+   "retailer_focus": "olive_young",
+   "score_total": 65.5
   }
  ]
 }

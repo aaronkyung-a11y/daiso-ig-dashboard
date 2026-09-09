@@ -3,20 +3,20 @@
  "username": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
  "fullname": "centralgrocery 중앙식품점",
  "profile_url": "https://www.youtube.com/channel/UCSJBRrUKLZ3QRQsw3cE9Oyw",
- "followers": 22200,
- "engagement_rate": 0.0105,
- "avg_likes": 113.0,
- "avg_comments": 39.83,
- "avg_views": 10714.1,
+ "followers": 22400,
+ "engagement_rate": 0.0109,
+ "avg_likes": 133.3,
+ "avg_comments": 35.5,
+ "avg_views": 12243.0,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
- "brand_fit_score": 60,
- "retailer_focus": "beauty_general",
+ "brand_fit_score": 25,
+ "retailer_focus": "off_topic",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "1건",
+  "beauty_keywords": "0건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,18 +24,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정",
  "channel_id": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
- "score_total": 68.0,
- "grade": "B",
+ "score_total": 59.2,
+ "grade": "C",
  "score_breakdown": {
   "er": 60,
-  "brand_fit": 60,
+  "brand_fit": 25,
   "consistency": 100,
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:10:58+09:00",
+ "evaluated_at": "2026-09-09T10:30:00+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:23:07+09:00",
@@ -136,6 +136,16 @@
    "brand_fit_score": 60,
    "score_total": 68.0,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.0105,
+   "evaluated_at": "2026-09-07T11:10:58+09:00",
+   "followers": 22200,
+   "grade": "B",
+   "posts_last_30d": 12,
+   "retailer_focus": "beauty_general",
+   "score_total": 68.0
   }
  ]
 }

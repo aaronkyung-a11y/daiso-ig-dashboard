@@ -3,18 +3,18 @@
  "username": "UCN_YKz-tKWkVpNyYths0ZQQ",
  "fullname": "바이홈",
  "profile_url": "https://www.youtube.com/channel/UCN_YKz-tKWkVpNyYths0ZQQ",
- "followers": 3230,
- "engagement_rate": 0.0036,
- "avg_likes": 63.8,
- "avg_comments": 2.17,
- "avg_views": 17834.9,
+ "followers": 3300,
+ "engagement_rate": 0.004,
+ "avg_likes": 87.8,
+ "avg_comments": 2.6,
+ "avg_views": 21872.2,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "6건",
+  "daiso_mentions": "4건",
   "olive_young_mentions": "0건",
   "beauty_keywords": "0건",
   "labrang_present": false
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-07 10:00 슬롯 실측 | posts_last_30d는 스캔창(12+12) 하한 — 추정",
+ "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정",
  "channel_id": "UCN_YKz-tKWkVpNyYths0ZQQ",
  "score_total": 47.2,
  "grade": "D",
@@ -35,7 +35,7 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:13:33+09:00",
+ "evaluated_at": "2026-09-09T10:27:53+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -115,6 +115,16 @@
    "brand_fit_score": 60,
    "score_total": 56.0,
    "grade": "C"
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0036,
+   "evaluated_at": "2026-09-07T11:13:33+09:00",
+   "followers": 3230,
+   "grade": "D",
+   "posts_last_30d": 12,
+   "retailer_focus": "daiso",
+   "score_total": 47.2
   }
  ]
 }

@@ -4,19 +4,19 @@
  "fullname": "HOONION",
  "profile_url": "https://www.youtube.com/channel/UC3ZQbE9FKR8TwHYqTNcIXQQ",
  "followers": 404000,
- "engagement_rate": 0.0119,
- "avg_likes": 829.2,
- "avg_comments": 72.33,
- "avg_views": 69491.8,
+ "engagement_rate": 0.0117,
+ "avg_likes": 839.5,
+ "avg_comments": 74.0,
+ "avg_views": 71550.2,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
  "sample_size": 6,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
-  "daiso_mentions": "2건",
-  "olive_young_mentions": "7건",
-  "beauty_keywords": "177건",
+  "daiso_mentions": "0건",
+  "olive_young_mentions": "5건",
+  "beauty_keywords": "32건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:6/6 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:6/6 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UC3ZQbE9FKR8TwHYqTNcIXQQ",
  "score_total": 74.5,
  "grade": "B",
@@ -35,7 +35,7 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:16:09+09:00",
+ "evaluated_at": "2026-09-09T11:53:23+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -74,6 +74,16 @@
    "brand_fit_score": 90,
    "score_total": 74.5,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0119,
+   "evaluated_at": "2026-09-07T11:16:09+09:00",
+   "followers": 404000,
+   "grade": "B",
+   "posts_last_30d": 6,
+   "retailer_focus": "olive_young",
+   "score_total": 74.5
   }
  ]
 }

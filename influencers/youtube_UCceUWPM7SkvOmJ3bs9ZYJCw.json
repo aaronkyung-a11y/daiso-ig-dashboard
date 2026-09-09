@@ -4,19 +4,19 @@
  "fullname": "유리숍 URISHOP",
  "profile_url": "https://www.youtube.com/channel/UCceUWPM7SkvOmJ3bs9ZYJCw",
  "followers": 274000,
- "engagement_rate": 0.01,
- "avg_likes": 186.2,
- "avg_comments": 31.56,
- "avg_views": 18647.2,
- "posts_last_30d": 16,
+ "engagement_rate": 0.0095,
+ "avg_likes": 196.7,
+ "avg_comments": 33.6,
+ "avg_views": 20619.2,
+ "posts_last_30d": 15,
  "_posts_last_30d_est": false,
- "sample_size": 16,
+ "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "30건",
-  "beauty_keywords": "27건",
+  "olive_young_mentions": "29건",
+  "beauty_keywords": "25건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -24,18 +24,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:16/16 | 2026-09-07 10:00 슬롯 실측",
+ "sample_note": "YT 30일내 15개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:15/15 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
  "channel_id": "UCceUWPM7SkvOmJ3bs9ZYJCw",
- "score_total": 77.5,
- "grade": "A",
+ "score_total": 67.5,
+ "grade": "B",
  "score_breakdown": {
-  "er": 60,
+  "er": 40,
   "brand_fit": 90,
   "consistency": 100,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:13:33+09:00",
+ "evaluated_at": "2026-09-09T10:32:50+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-20T14:09:34+09:00",
@@ -126,6 +126,16 @@
    "brand_fit_score": 90,
    "score_total": 77.5,
    "grade": "A"
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.01,
+   "evaluated_at": "2026-09-07T11:13:33+09:00",
+   "followers": 274000,
+   "grade": "A",
+   "posts_last_30d": 16,
+   "retailer_focus": "olive_young",
+   "score_total": 77.5
   }
  ]
 }

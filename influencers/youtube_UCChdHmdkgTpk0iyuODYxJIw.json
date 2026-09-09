@@ -4,19 +4,19 @@
  "fullname": "해니 haeni beauty",
  "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
  "followers": 479000,
- "engagement_rate": 0.0215,
- "avg_likes": 757.0,
- "avg_comments": 39.0,
- "avg_views": 35266.0,
- "posts_last_30d": 7,
+ "engagement_rate": 0.0161,
+ "avg_likes": 646.2,
+ "avg_comments": 30.8,
+ "avg_views": 40165.8,
+ "posts_last_30d": 6,
  "_posts_last_30d_est": false,
- "sample_size": 7,
+ "sample_size": 6,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "4건",
-  "olive_young_mentions": "21건",
-  "beauty_keywords": "119건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "78건",
   "labrang_present": true
  },
  "estimation_flags": {
@@ -24,7 +24,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:7/7 | 2026-09-07 10:00 슬롯 실측 | 메타데이터가 영어 자동번역으로 반환되어 lang=ko 2차 패스로 원문 재수집(brand_fit)",
+ "sample_note": "YT 30일내 6개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:6/6 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
  "channel_id": "UCChdHmdkgTpk0iyuODYxJIw",
  "score_total": 77.0,
  "grade": "A",
@@ -35,18 +35,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-07T11:00:45+09:00",
+ "evaluated_at": "2026-09-09T10:24:52+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-26T10:17:00+09:00",
-   "score_total": 81.5,
-   "engagement_rate": 0.0432,
-   "followers": 479000,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-05-27T10:33:00+09:00",
    "score_total": 84.0,
@@ -312,6 +302,16 @@
    "brand_fit_score": 90,
    "score_total": 74.5,
    "grade": "B"
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0215,
+   "evaluated_at": "2026-09-07T11:00:45+09:00",
+   "followers": 479000,
+   "grade": "A",
+   "posts_last_30d": 7,
+   "retailer_focus": "our_brand",
+   "score_total": 77.0
   }
  ]
 }
