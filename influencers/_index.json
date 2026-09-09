@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-09-09T14:20:00+09:00",
- "lastUpdated": "2026-09-09T14:20:00+09:00",
- "last_run_mode": "2026-09-09 14:00 슬롯(평일 오후) — STEP A(큐 3소스: GitHub Issues 0건 / _queue.txt 0건 / Google Form 누적 233 고유 URL 전부 기분석 → 신규 0건) + STEP B-Light 롤링 리프레시 2계정 실측 (youtube 미소녀 UCa7m7…K8ABQ, youtube 권태이 UCx5wQET…EofW — 각 dedup pair 2파일씩 총 4파일 동시 갱신). STEP B 풀 재분석은 10시 슬롯 전용이므로 SKIPPED. 나머지 230건은 2026-09-09 10:00 슬롯 값 이월 — 이번 회차 실측 아님.",
+ "last_updated": "2026-09-09T17:10:00+09:00",
+ "lastUpdated": "2026-09-09T17:10:00+09:00",
+ "last_run_mode": "2026-09-09 17:00 슬롯(평일 오후) — STEP A(큐 3소스: GitHub Issues 0건 / _queue.txt 0건 / Google Form 누적 233 고유 URL 전부 기분석 → 신규 0건) + STEP B-Light 롤링 리프레시 2계정 실측 (youtube bbiiju UCjjW9Id…ATf_g — dedup pair 2파일 동시 갱신, youtube 燎原剧场HellfireDrama UC-C-faUj…M6FcjA). STEP B 풀 재분석은 10시 슬롯 전용이므로 SKIPPED (오늘 10:00 슬롯 정상 실행 확인). 나머지 230건은 2026-09-09 10:00 슬롯 값 이월 — 이번 회차 실측 아님.",
  "total": 232,
  "platforms": {
   "instagram": 23,
@@ -17,13 +17,13 @@
  "retailer_focus": {
   "olive_young": 107,
   "daiso": 42,
-  "beauty_general": 35,
+  "beauty_general": 34,
   "our_brand": 26,
-  "off_topic": 17,
+  "off_topic": 18,
   "mixed": 5
  },
  "dedup_note": "동일 channel_id 중복 파일 10쌍은 channel_id 기준 1건만 집계 — 중복 파일은 동일 실측값으로 동시 갱신",
- "method_note": "2026-09-09T14:00 슬롯 STEP B-Light. [YT] yt-dlp(2026.08.19)로 /videos 12 + /shorts 12 스캔 후 각 영상 메타 개별 실측, ER=평균 좋아요/평균 조회수. 브랜드 키워드는 스캔 전건의 title+description+tags(ko 로케일 재수집) 기준. 이번 회차 두 채널 모두 기본 로케일이 이미 한국어로 반환되어 자동번역 이슈 없음. 이번 슬롯에 실측한 레코드는 2건(파일 4개)뿐이고, 그 외 레코드의 수치는 10:00 슬롯 실측값 이월분이다.",
+ "method_note": "2026-09-09T17:00 슬롯 STEP B-Light. [YT] yt-dlp(2026.08.19)로 /videos 12 + /shorts 12 스캔 후 각 영상 메타 개별 실측(meta 24/24, 12/12 전건 성공), ER=평균 좋아요/평균 조회수. 브랜드 키워드는 스캔 전건의 title+tags+description 및 채널 소개문 기준 — brand_fit_score는 키워드 카운트 기반 산출값(추정). HellfireDrama의 posts_last_30d=12는 스캔창 상한에 걸린 하한값(추정). 이번 슬롯에 실측한 레코드는 2건(파일 3개)뿐이고, 그 외 레코드의 수치는 10:00 슬롯 실측값 이월분이다.",
  "score_total_null_count": 0,
  "records": [
   {
@@ -147,8 +147,6 @@
    "username": "imttaengttaeng"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 6.2,
    "avg_likes": 495.7,
@@ -184,11 +182,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 83.5,
-   "username": "UCH5Eg4KvlMGPNIHZJSAUH8A"
+   "username": "UCH5Eg4KvlMGPNIHZJSAUH8A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 42.2,
    "avg_likes": 797.9,
@@ -224,11 +222,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 80.0,
-   "username": "UCiULanlNBXuMkaP9OiZWgYQ"
+   "username": "UCiULanlNBXuMkaP9OiZWgYQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 1.0,
    "avg_likes": 86.3,
@@ -264,11 +262,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 80.0,
-   "username": "UCjW_cShoHuzswJCb5rH-CuA"
+   "username": "UCjW_cShoHuzswJCb5rH-CuA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 189.4,
    "avg_likes": 8733.0,
@@ -304,11 +302,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UC0-yyrDjTJ1YFzmV12vEp0Q"
+   "username": "UC0-yyrDjTJ1YFzmV12vEp0Q",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 47.9,
    "avg_likes": 424.7,
@@ -344,11 +342,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UC8P33HyFhfqThDUGk0disqw"
+   "username": "UC8P33HyFhfqThDUGk0disqw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 40.9,
    "avg_likes": 1026.6,
@@ -384,11 +382,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UC9CNQeSlpeuYR0tjQkGJw4w"
+   "username": "UC9CNQeSlpeuYR0tjQkGJw4w",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 20.1,
    "avg_likes": 237.5,
@@ -424,11 +422,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCHUkpUuH7O3U7eIx93tMUwA"
+   "username": "UCHUkpUuH7O3U7eIx93tMUwA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 30.7,
    "avg_likes": 700.2,
@@ -464,11 +462,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCHa6h8DGLYkAljbskQbIXHw"
+   "username": "UCHa6h8DGLYkAljbskQbIXHw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 16.1,
    "avg_likes": 373.0,
@@ -504,11 +502,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCI5ZLTYfIfXaeubb2ny0kNA"
+   "username": "UCI5ZLTYfIfXaeubb2ny0kNA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.9,
    "avg_likes": 935.4,
@@ -544,11 +542,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCQN8kxyq6a_z0-49pG8g09w"
+   "username": "UCQN8kxyq6a_z0-49pG8g09w",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 40.0,
    "avg_likes": 2423.6,
@@ -584,11 +582,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCRXL4vnST2AE6UtjrYMv4tw"
+   "username": "UCRXL4vnST2AE6UtjrYMv4tw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 1111.2,
    "avg_likes": 5454.4,
@@ -624,11 +622,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCRiIf6rt91BVfZVtURRXlOw"
+   "username": "UCRiIf6rt91BVfZVtURRXlOw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 61.3,
    "avg_likes": 3821.4,
@@ -664,11 +662,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCTjwlF8Y8hxR85JPUoZv-6A"
+   "username": "UCTjwlF8Y8hxR85JPUoZv-6A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 42.5,
    "avg_likes": 637.1,
@@ -704,11 +702,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCVbW7vOtOnmjyDORZB4Sz0w"
+   "username": "UCVbW7vOtOnmjyDORZB4Sz0w",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 55.5,
    "avg_likes": 696.0,
@@ -744,11 +742,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UClJNgnMWzvEzJuLcpH7m4vQ"
+   "username": "UClJNgnMWzvEzJuLcpH7m4vQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 39.7,
    "avg_likes": 197.3,
@@ -784,11 +782,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCm3aFTKTRsClNaN0rsYmQYg"
+   "username": "UCm3aFTKTRsClNaN0rsYmQYg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 3.4,
    "avg_likes": 722.1,
@@ -824,11 +822,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCmgaEzWAbBVrSS1jLnOyiuA"
+   "username": "UCmgaEzWAbBVrSS1jLnOyiuA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 199.9,
    "avg_likes": 3519.3,
@@ -864,11 +862,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCnFFOjljp1_sacTz7PfIIyg"
+   "username": "UCnFFOjljp1_sacTz7PfIIyg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 69.0,
    "avg_likes": 2521.1,
@@ -904,11 +902,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCn_b_mrrhtMGhiLZLCzF7rQ"
+   "username": "UCn_b_mrrhtMGhiLZLCzF7rQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 91.9,
    "avg_likes": 522.3,
@@ -944,11 +942,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCrNISLWm4d6SRf8AUjoGm1g"
+   "username": "UCrNISLWm4d6SRf8AUjoGm1g",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 36.5,
    "avg_likes": 134.3,
@@ -984,11 +982,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.5,
-   "username": "UCtCpkkzNnYixE9GEJVaCI8g"
+   "username": "UCtCpkkzNnYixE9GEJVaCI8g",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 30.8,
    "avg_likes": 646.2,
@@ -1024,11 +1022,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 77.0,
-   "username": "UCChdHmdkgTpk0iyuODYxJIw"
+   "username": "UCChdHmdkgTpk0iyuODYxJIw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 3.9,
    "avg_likes": 208.4,
@@ -1064,27 +1062,38 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 76.0,
-   "username": "UCUCUu_rOf4b5BtKIMRL7jhg"
+   "username": "UCUCUu_rOf4b5BtKIMRL7jhg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
+   "_posts_last_30d_est": false,
+   "avg_comments": 4,
+   "avg_likes": 400.1,
+   "avg_views": 25665.7,
+   "brand_fit_score": 100,
    "engagement_rate": 0.0156,
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false,
+    "posts_30d_estimated": false
+   },
+   "evaluated_at": "2026-09-09T14:20:00+09:00",
+   "followers": 4200,
+   "fullname": "미소녀",
+   "grade": "A",
+   "platform": "youtube",
+   "posts_last_30d": 12,
+   "profile_url": "https://www.youtube.com/channel/UCa7m7DWFPDlKMiouX_K8ABQ",
+   "retailer_focus": "our_brand",
    "retailer_signal": {
     "daiso_mentions": "9건",
     "olive_young_mentions": "24건",
     "beauty_keywords": "12건",
     "labrang_present": true
    },
-   "score_total": 76.0,
-   "brand_fit_score": 100,
-   "followers": 4200,
-   "fullname": "미소녀",
-   "grade": "A",
-   "username": "UCa7m7DWFPDlKMiouX_K8ABQ",
-   "_posts_last_30d_est": false,
-   "avg_views": 25665.7,
-   "platform": "youtube",
-   "avg_comments": 4,
-   "evaluated_at": "2026-09-09T14:20:00+09:00",
+   "sample_note": "YT 30일내 12개 스캔 12개 [videos+shorts] | 2026-09-09 14:00 슬롯 STEP B-Light 실측 | 키워드 분석은 스캔 12건 전체(ko 로케일) 기준 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
+   "sample_size": 12,
    "score_breakdown": {
     "er": 60,
     "brand_fit": 100,
@@ -1092,23 +1101,12 @@
     "followers": 60,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
-   "avg_likes": 400.1,
-   "profile_url": "https://www.youtube.com/channel/UCa7m7DWFPDlKMiouX_K8ABQ",
-   "sample_size": 12,
-   "sample_note": "YT 30일내 12개 스캔 12개 [videos+shorts] | 2026-09-09 14:00 슬롯 STEP B-Light 실측 | 키워드 분석은 스캔 12건 전체(ko 로케일) 기준 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false,
-    "posts_30d_estimated": false
-   },
-   "retailer_focus": "our_brand",
+   "score_total": 76.0,
+   "username": "UCa7m7DWFPDlKMiouX_K8ABQ",
    "_likes_hidden": null,
-   "_ig_logged_out": null,
-   "posts_last_30d": 12
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 9.8,
    "avg_likes": 738.6,
@@ -1144,11 +1142,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 76.0,
-   "username": "UCsTzKed46UFjXa3ofHVVwZg"
+   "username": "UCsTzKed46UFjXa3ofHVVwZg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 47.8,
    "avg_likes": 574.7,
@@ -1184,11 +1182,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UC2bN1vE7esxNXhBSYIHzQwg"
+   "username": "UC2bN1vE7esxNXhBSYIHzQwg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 5.8,
    "avg_likes": 788.6,
@@ -1224,11 +1222,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UC4OMwa7uM-RC-36JObkN3LQ"
+   "username": "UC4OMwa7uM-RC-36JObkN3LQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 7.9,
    "avg_likes": 183.6,
@@ -1264,11 +1262,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UC4ls0b7f-ngnyKCWLdyRWrw"
+   "username": "UC4ls0b7f-ngnyKCWLdyRWrw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 18.1,
    "avg_likes": 493.1,
@@ -1304,11 +1302,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UC73hSOfrDfI0VyIfwstz59g"
+   "username": "UC73hSOfrDfI0VyIfwstz59g",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 39.2,
    "avg_likes": 2731.4,
@@ -1344,11 +1342,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCAJKsKmumOybMKA0jZ1i7nw"
+   "username": "UCAJKsKmumOybMKA0jZ1i7nw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 26.8,
    "avg_likes": 694.5,
@@ -1384,11 +1382,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCBEvSDXPu2rsaI7pRV9W1UQ"
+   "username": "UCBEvSDXPu2rsaI7pRV9W1UQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 15.3,
    "avg_likes": 297.0,
@@ -1424,11 +1422,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCED7YKsAzQ2qi2e-cJ7yTEg"
+   "username": "UCED7YKsAzQ2qi2e-cJ7yTEg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 14.6,
    "avg_likes": 128.7,
@@ -1464,11 +1462,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCEVbgB8g02Sc9r-2_R3sn9g"
+   "username": "UCEVbgB8g02Sc9r-2_R3sn9g",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 14.3,
    "avg_likes": 122.0,
@@ -1504,11 +1502,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCF-EIhIdEWMXg8z6FuKFuQg"
+   "username": "UCF-EIhIdEWMXg8z6FuKFuQg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 37.8,
    "avg_likes": 944.9,
@@ -1544,11 +1542,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCK3L6x0ZGU-2cfTDMLnmUyw"
+   "username": "UCK3L6x0ZGU-2cfTDMLnmUyw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 10.9,
    "avg_likes": 735.6,
@@ -1584,11 +1582,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCT0hOMxD29g2B6BrK6QTIag"
+   "username": "UCT0hOMxD29g2B6BrK6QTIag",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 3.5,
    "avg_likes": 233.8,
@@ -1624,11 +1622,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCWOEKc5N7nYmeyqV8DfuDdw"
+   "username": "UCWOEKc5N7nYmeyqV8DfuDdw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 53.7,
    "avg_likes": 2619.4,
@@ -1664,11 +1662,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCYUUPZ6nD_OHpVfViJwRFDA"
+   "username": "UCYUUPZ6nD_OHpVfViJwRFDA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 48.3,
    "avg_likes": 888.4,
@@ -1704,11 +1702,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCYdYEVp2t0zD5xJu0hKWAgw"
+   "username": "UCYdYEVp2t0zD5xJu0hKWAgw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 8.0,
    "avg_likes": 998.5,
@@ -1744,11 +1742,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCbNMdCWBwjljPxDu8dfeHmg"
+   "username": "UCbNMdCWBwjljPxDu8dfeHmg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 34.1,
    "avg_likes": 432.6,
@@ -1784,11 +1782,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UChz7dY8O1jTD8bXGJ8JgXEA"
+   "username": "UChz7dY8O1jTD8bXGJ8JgXEA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 18.1,
    "avg_likes": 299.2,
@@ -1824,7 +1822,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.5,
-   "username": "UCvqdSTuGXEUQPeEJPQHy9yA"
+   "username": "UCvqdSTuGXEUQPeEJPQHy9yA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -1907,8 +1907,6 @@
    "username": "jangsu_note"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 57.0,
    "avg_likes": 199.5,
@@ -1944,11 +1942,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 75.0,
-   "username": "UCCuXPHou1JQfRKM40q5tG8w"
+   "username": "UCCuXPHou1JQfRKM40q5tG8w",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 29.7,
    "avg_likes": 524.1,
@@ -1984,11 +1982,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 74.5,
-   "username": "UC2sYit3cZ2CuD_8FHYH7O_Q"
+   "username": "UC2sYit3cZ2CuD_8FHYH7O_Q",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 74.0,
    "avg_likes": 839.5,
@@ -2024,11 +2022,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 74.5,
-   "username": "UC3ZQbE9FKR8TwHYqTNcIXQQ"
+   "username": "UC3ZQbE9FKR8TwHYqTNcIXQQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 53.0,
    "avg_likes": 431.5,
@@ -2064,11 +2062,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 74.5,
-   "username": "UC4PAS3ck6trKI0RsM2Nskew"
+   "username": "UC4PAS3ck6trKI0RsM2Nskew",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 45.2,
    "avg_likes": 337.0,
@@ -2104,11 +2102,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 74.5,
-   "username": "UCUm54M-_1W1kjEAPjFtmwNw"
+   "username": "UCUm54M-_1W1kjEAPjFtmwNw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 38.9,
    "avg_likes": 146.4,
@@ -2144,11 +2142,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 74.5,
-   "username": "UCfM7HC0wkS_cWVIcgpy2XPA"
+   "username": "UCfM7HC0wkS_cWVIcgpy2XPA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 603.2,
    "avg_likes": 7239.9,
@@ -2184,11 +2182,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 74.5,
-   "username": "UCpSa5CzQedAxXFGfmeeFdIw"
+   "username": "UCpSa5CzQedAxXFGfmeeFdIw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 28.1,
    "avg_likes": 134.0,
@@ -2224,7 +2222,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 74.5,
-   "username": "UCwwfbGYkRBNAJ-qH2ttoqbg"
+   "username": "UCwwfbGYkRBNAJ-qH2ttoqbg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -2267,8 +2267,6 @@
    "username": "cupoftea_mag"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 98.1,
    "avg_likes": 2495.4,
@@ -2304,11 +2302,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 74.0,
-   "username": "UCHjEdCXNYyvgWWcCZVTxWHA"
+   "username": "UCHjEdCXNYyvgWWcCZVTxWHA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 91.3,
    "avg_likes": 287.3,
@@ -2344,11 +2342,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 74.0,
-   "username": "UCYsv-IHC-B-DiVMmJuqibcg"
+   "username": "UCYsv-IHC-B-DiVMmJuqibcg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 90.8,
    "avg_likes": 372.5,
@@ -2384,11 +2382,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 73.8,
-   "username": "UCZlTEEKh3ounqVfpf21WMeQ"
+   "username": "UCZlTEEKh3ounqVfpf21WMeQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 2.7,
    "avg_likes": 36.9,
@@ -2424,11 +2422,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 73.5,
-   "username": "UC5gyhspuTp-qt_AGLamD5Fg"
+   "username": "UC5gyhspuTp-qt_AGLamD5Fg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 3.3,
    "avg_likes": 171.2,
@@ -2464,11 +2462,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 73.5,
-   "username": "UCHCL-VtQlNJTmPA7oy6HQXg"
+   "username": "UCHCL-VtQlNJTmPA7oy6HQXg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 13.4,
    "avg_likes": 1132.5,
@@ -2504,11 +2502,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 73.5,
-   "username": "UCa6F7kUQnN8fmLBnSRSpY_g"
+   "username": "UCa6F7kUQnN8fmLBnSRSpY_g",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 87.5,
    "avg_likes": 259.5,
@@ -2544,11 +2542,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 73.5,
-   "username": "UCiiYM77UGrWIdOmMopc0KHA"
+   "username": "UCiiYM77UGrWIdOmMopc0KHA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 22.0,
    "avg_likes": 376.1,
@@ -2584,11 +2582,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 72.5,
-   "username": "UC4BFwp5_Xf16cV1HecJYMJA"
+   "username": "UC4BFwp5_Xf16cV1HecJYMJA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 3.8,
    "avg_likes": 101.0,
@@ -2624,11 +2622,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 72.5,
-   "username": "UCKAwUq0rYJ7JVkwK-XWADnQ"
+   "username": "UCKAwUq0rYJ7JVkwK-XWADnQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 19.2,
    "avg_likes": 457.0,
@@ -2664,11 +2662,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 72.5,
-   "username": "UCPbFt0ir9Yrp5lCzm-Ei7rw"
+   "username": "UCPbFt0ir9Yrp5lCzm-Ei7rw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 53.4,
    "avg_likes": 646.2,
@@ -2704,11 +2702,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 72.5,
-   "username": "UCd7icqUv7f8k2E6n4WOCIQg"
+   "username": "UCd7icqUv7f8k2E6n4WOCIQg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 127.9,
    "avg_likes": 1837.2,
@@ -2744,11 +2742,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 72.5,
-   "username": "UCoCxuPrH7NwbBprRjSD2IKw"
+   "username": "UCoCxuPrH7NwbBprRjSD2IKw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 13.3,
    "avg_likes": 27.8,
@@ -2784,7 +2782,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 72.5,
-   "username": "UCxyZ8KuHWIgpmLP2XHcc5pQ"
+   "username": "UCxyZ8KuHWIgpmLP2XHcc5pQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -2867,8 +2867,6 @@
    "username": "view_bbang_"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 3.0,
    "avg_likes": 274.6,
@@ -2904,11 +2902,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 71.5,
-   "username": "UC294X8EcA7CyoirMttWUlJQ"
+   "username": "UC294X8EcA7CyoirMttWUlJQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 65.8,
    "avg_likes": 824.8,
@@ -2944,11 +2942,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 71.5,
-   "username": "UCLyq1gz11P-IYFmP093JaAw"
+   "username": "UCLyq1gz11P-IYFmP093JaAw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 84.0,
    "avg_likes": 507.5,
@@ -2984,11 +2982,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 71.5,
-   "username": "UCxM21Vv4bWq106MxIPvrGQw"
+   "username": "UCxM21Vv4bWq106MxIPvrGQw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 20.3,
    "avg_likes": 155.0,
@@ -3024,11 +3022,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 70.8,
-   "username": "UCNOA-IwgMAatMFGwdB5n-2Q"
+   "username": "UCNOA-IwgMAatMFGwdB5n-2Q",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 7.7,
    "avg_likes": 400.8,
@@ -3064,11 +3062,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 70.5,
-   "username": "UCYxuoueMuR3f80RU_ua4TXA"
+   "username": "UCYxuoueMuR3f80RU_ua4TXA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 71.6,
    "avg_likes": 0.0,
@@ -3104,11 +3102,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 70.0,
-   "username": "UCB44fSGXvnBP6CVp10CenPg"
+   "username": "UCB44fSGXvnBP6CVp10CenPg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 125.6,
    "avg_likes": 6538.0,
@@ -3144,11 +3142,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 70.0,
-   "username": "UCCZr7t-gZ62L056QOW3RXdQ"
+   "username": "UCCZr7t-gZ62L056QOW3RXdQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 443.8,
    "avg_likes": 12085.8,
@@ -3184,11 +3182,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 70.0,
-   "username": "UCX0Qk4QtPOlEwBmsbIG4vOg"
+   "username": "UCX0Qk4QtPOlEwBmsbIG4vOg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 151.3,
    "avg_likes": 961.9,
@@ -3224,11 +3222,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 70.0,
-   "username": "UChaTUCM7bPBTJaIZQ83PNwQ"
+   "username": "UChaTUCM7bPBTJaIZQ83PNwQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 44.4,
    "avg_likes": 955.7,
@@ -3264,11 +3262,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 70.0,
-   "username": "UCkthQXGzGcLw5oW2KWTM4dg"
+   "username": "UCkthQXGzGcLw5oW2KWTM4dg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 1.0,
    "avg_likes": 54.0,
@@ -3304,11 +3302,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 70.0,
-   "username": "UCl0b0B4B3VHAs8AQKGYDCjw"
+   "username": "UCl0b0B4B3VHAs8AQKGYDCjw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 5.8,
    "avg_likes": 123.9,
@@ -3344,11 +3342,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 69.8,
-   "username": "UCIQfSfmR-eDukN2kRhwPl3Q"
+   "username": "UCIQfSfmR-eDukN2kRhwPl3Q",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 0.0,
    "avg_likes": 35.9,
@@ -3384,7 +3382,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 69.8,
-   "username": "UCcU1vg4c0iV1VKH8_BE7bZw"
+   "username": "UCcU1vg4c0iV1VKH8_BE7bZw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -3427,8 +3427,6 @@
    "username": "boss.lim_"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 7.0,
    "avg_likes": 117.7,
@@ -3464,11 +3462,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 69.5,
-   "username": "UCCutD4GABbPGfmRy72hQ1mA"
+   "username": "UCCutD4GABbPGfmRy72hQ1mA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 25.7,
    "avg_likes": 839.3,
@@ -3504,11 +3502,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 69.5,
-   "username": "UCovDuChTvDiWWnSpcKGUFZw"
+   "username": "UCovDuChTvDiWWnSpcKGUFZw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 53.1,
    "avg_likes": 6718.6,
@@ -3544,7 +3542,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 69.0,
-   "username": "UCSif05kQuclHVo-L6ajrS7A"
+   "username": "UCSif05kQuclHVo-L6ajrS7A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -3627,8 +3627,6 @@
    "username": "moon__brand"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 191.0,
    "avg_likes": 2416.0,
@@ -3664,11 +3662,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 68.5,
-   "username": "UC-mTngidALJqbjUcTyZMZ8Q"
+   "username": "UC-mTngidALJqbjUcTyZMZ8Q",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 249.0,
    "avg_likes": 333.0,
@@ -3704,11 +3702,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 68.5,
-   "username": "UCdgox0o2bY1zbh37iihMMsQ"
+   "username": "UCdgox0o2bY1zbh37iihMMsQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 41.3,
    "avg_likes": 215.5,
@@ -3744,11 +3742,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 68.0,
-   "username": "UCGqcc5NsekknvfzpFt4RVEA"
+   "username": "UCGqcc5NsekknvfzpFt4RVEA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 18.8,
    "avg_likes": 277.4,
@@ -3784,11 +3782,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 68.0,
-   "username": "UCJTjld8QdvFnS5CeqOJjDTA"
+   "username": "UCJTjld8QdvFnS5CeqOJjDTA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 23.0,
    "avg_likes": 112.1,
@@ -3824,11 +3822,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 68.0,
-   "username": "UCLyRxUcEIUvrG5wAS2TaE9w"
+   "username": "UCLyRxUcEIUvrG5wAS2TaE9w",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 11.8,
    "avg_likes": 304.1,
@@ -3864,11 +3862,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 68.0,
-   "username": "UC_T9ZxoKC76lZe5zjQrKHdg"
+   "username": "UC_T9ZxoKC76lZe5zjQrKHdg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 31.2,
    "avg_likes": 191.3,
@@ -3904,11 +3902,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 68.0,
-   "username": "UCwfipXEUgyhWaTNVYzp-gJA"
+   "username": "UCwfipXEUgyhWaTNVYzp-gJA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 11.0,
    "avg_likes": 39.8,
@@ -3944,11 +3942,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.8,
-   "username": "UC5o9Z5lgw4kk4fjDhweZxKg"
+   "username": "UC5o9Z5lgw4kk4fjDhweZxKg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.0,
    "avg_likes": 144.2,
@@ -3984,11 +3982,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UC86AuKBawrgBuEZIgiOo7hA"
+   "username": "UC86AuKBawrgBuEZIgiOo7hA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 59.0,
    "avg_likes": 585.3,
@@ -4024,11 +4022,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UCSx-2fuyotB8WA8KytyhACg"
+   "username": "UCSx-2fuyotB8WA8KytyhACg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 21.9,
    "avg_likes": 403.4,
@@ -4064,11 +4062,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UCTxEJoeukRCeE3j74tZjrAA"
+   "username": "UCTxEJoeukRCeE3j74tZjrAA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 69.6,
    "avg_likes": 726.1,
@@ -4104,11 +4102,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UC_1ETgrcrLjHOP0YJmkWLVQ"
+   "username": "UC_1ETgrcrLjHOP0YJmkWLVQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 33.6,
    "avg_likes": 196.7,
@@ -4144,11 +4142,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UCceUWPM7SkvOmJ3bs9ZYJCw"
+   "username": "UCceUWPM7SkvOmJ3bs9ZYJCw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 79.4,
    "avg_likes": 1878.4,
@@ -4184,11 +4182,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UCdw0gUzVPhyZFRVeuzy_AEg"
+   "username": "UCdw0gUzVPhyZFRVeuzy_AEg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 9.9,
    "avg_likes": 49.4,
@@ -4224,11 +4222,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UCk1BE73NfSUGz19LpNg9E-w"
+   "username": "UCk1BE73NfSUGz19LpNg9E-w",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 2.0,
    "avg_likes": 4.9,
@@ -4264,11 +4262,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UCodG0bJ3OICRA1bg4TBdU9A"
+   "username": "UCodG0bJ3OICRA1bg4TBdU9A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 99.1,
    "avg_likes": 630.5,
@@ -4304,11 +4302,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UCrlUlicedicJ5mlibqC62Eg"
+   "username": "UCrlUlicedicJ5mlibqC62Eg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 7.0,
    "avg_likes": 119.8,
@@ -4344,11 +4342,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UCrt1iDPNZzo4vODbSTx--1A"
+   "username": "UCrt1iDPNZzo4vODbSTx--1A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 10.3,
    "avg_likes": 37.0,
@@ -4384,11 +4382,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UCxA9k7UJz50ZJPa5aUGf7fw"
+   "username": "UCxA9k7UJz50ZJPa5aUGf7fw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 54.2,
    "avg_likes": 0.0,
@@ -4424,11 +4422,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.5,
-   "username": "UCxAdlKnB5u0a7A-iqRa5jYw"
+   "username": "UCxAdlKnB5u0a7A-iqRa5jYw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 35.7,
    "avg_likes": 430.0,
@@ -4464,7 +4462,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 67.0,
-   "username": "UCJC3eND1vV_MR_UJB7-E9LQ"
+   "username": "UCJC3eND1vV_MR_UJB7-E9LQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -4507,8 +4507,6 @@
    "username": "haeriporter"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 4.2,
    "avg_likes": 37.7,
@@ -4544,11 +4542,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 66.8,
-   "username": "UCMF0yXO7AUMutaktzpiMgSg"
+   "username": "UCMF0yXO7AUMutaktzpiMgSg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 9.3,
    "avg_likes": 147.4,
@@ -4584,7 +4582,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 66.8,
-   "username": "UCq7ZjN2HpEDU0Psyi5oRE3A"
+   "username": "UCq7ZjN2HpEDU0Psyi5oRE3A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -4627,8 +4627,6 @@
    "username": "habaoh_0"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 31.7,
    "avg_likes": 2289.1,
@@ -4664,11 +4662,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 66.5,
-   "username": "UCd7mIFLSi18eIvaBZuv6c2A"
+   "username": "UCd7mIFLSi18eIvaBZuv6c2A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 5.0,
    "avg_likes": 32.4,
@@ -4704,11 +4702,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 66.0,
-   "username": "UC5BqeEsHJnYM4O4xvWJK3Cg"
+   "username": "UC5BqeEsHJnYM4O4xvWJK3Cg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.9,
    "avg_likes": 169.7,
@@ -4744,11 +4742,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 66.0,
-   "username": "UCPBXXHL9lapYss3PwwLe0fQ"
+   "username": "UCPBXXHL9lapYss3PwwLe0fQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 1.3,
    "avg_likes": 23.6,
@@ -4784,11 +4782,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 66.0,
-   "username": "UCPDYF8wq8Arz4klmZNY2WRg"
+   "username": "UCPDYF8wq8Arz4klmZNY2WRg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 4.6,
    "avg_likes": 236.6,
@@ -4824,11 +4822,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 66.0,
-   "username": "UCRPEXjbWYRtFdCKxMwWvrxQ"
+   "username": "UCRPEXjbWYRtFdCKxMwWvrxQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.1,
    "avg_likes": 225.7,
@@ -4864,11 +4862,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 65.5,
-   "username": "UCFuMPPmNvRAVIqYlAO5v_vg"
+   "username": "UCFuMPPmNvRAVIqYlAO5v_vg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 7.5,
    "avg_likes": 47.3,
@@ -4904,11 +4902,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 65.5,
-   "username": "UCNKrDQQ9OLARlFVpHIi7nrQ"
+   "username": "UCNKrDQQ9OLARlFVpHIi7nrQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 25.0,
    "avg_likes": 228.3,
@@ -4944,11 +4942,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 65.5,
-   "username": "UCNqPg9ZEnEMj-qazl_TamDQ"
+   "username": "UCNqPg9ZEnEMj-qazl_TamDQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 3.5,
    "avg_likes": 54.2,
@@ -4984,11 +4982,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 65.5,
-   "username": "UCPsApmFia_Ej6lcxNkNMp4A"
+   "username": "UCPsApmFia_Ej6lcxNkNMp4A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 2.6,
    "avg_likes": 127.7,
@@ -5024,11 +5022,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 65.5,
-   "username": "UCVRAHN1wuI9pUDyeSAc_I1A"
+   "username": "UCVRAHN1wuI9pUDyeSAc_I1A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 2.9,
    "avg_likes": 19.3,
@@ -5064,11 +5062,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 65.5,
-   "username": "UCdgKFoa_nAO0DVm8stiA0Ig"
+   "username": "UCdgKFoa_nAO0DVm8stiA0Ig",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 30.8,
    "avg_likes": 177.7,
@@ -5104,11 +5102,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 65.5,
-   "username": "UCn7Ifm7sq_IIMivtzZ-LtnA"
+   "username": "UCn7Ifm7sq_IIMivtzZ-LtnA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 14.3,
    "avg_likes": 575.1,
@@ -5144,11 +5142,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 65.5,
-   "username": "UCo9OPeVJL5hgPtwxUTEBgSA"
+   "username": "UCo9OPeVJL5hgPtwxUTEBgSA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 39.0,
    "avg_likes": 497.5,
@@ -5184,7 +5182,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 65.5,
-   "username": "UCtgE4LyeI-Y2ZADVA-ogRaw"
+   "username": "UCtgE4LyeI-Y2ZADVA-ogRaw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -5267,8 +5267,6 @@
    "username": "doing_now_insta"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 16.2,
    "avg_likes": 196.0,
@@ -5304,11 +5302,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 64.5,
-   "username": "UC3iSLVH0MxHfwO69oHKpvog"
+   "username": "UC3iSLVH0MxHfwO69oHKpvog",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 43.0,
    "avg_likes": 27.0,
@@ -5344,11 +5342,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 64.5,
-   "username": "UC71fEEzS9yMYQvT1iz5-zxQ"
+   "username": "UC71fEEzS9yMYQvT1iz5-zxQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 16.3,
    "avg_likes": 41.3,
@@ -5384,11 +5382,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 64.5,
-   "username": "UC9RZHKBiLfNWb_1D25ajDdw"
+   "username": "UC9RZHKBiLfNWb_1D25ajDdw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 140.0,
    "avg_likes": 738.5,
@@ -5424,11 +5422,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 64.5,
-   "username": "UCPkgjWwYOiMKqNJpwdA8lPA"
+   "username": "UCPkgjWwYOiMKqNJpwdA8lPA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 17.4,
    "avg_likes": 134.5,
@@ -5464,11 +5462,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 64.5,
-   "username": "UCXFd79l1HUumoM6spU4D1Cw"
+   "username": "UCXFd79l1HUumoM6spU4D1Cw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 48.5,
    "avg_likes": 141.3,
@@ -5504,11 +5502,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 64.5,
-   "username": "UCb8_UiUdnM9S7r1aYPAsSMw"
+   "username": "UCb8_UiUdnM9S7r1aYPAsSMw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 32.8,
    "avg_likes": 522.6,
@@ -5544,11 +5542,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 64.5,
-   "username": "UCqrNqg3UgVoD3Sa-F_TxuSA"
+   "username": "UCqrNqg3UgVoD3Sa-F_TxuSA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 52.4,
    "avg_likes": 1860.0,
@@ -5584,7 +5582,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 64.5,
-   "username": "UCxthUNFu-GWQZ0YE9AnIetg"
+   "username": "UCxthUNFu-GWQZ0YE9AnIetg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -5627,8 +5627,6 @@
    "username": "rorobeauty48791"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 24.2,
    "avg_likes": 1379.2,
@@ -5664,7 +5662,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.8,
-   "username": "UCwFNiYnTtrYuwO7YRWomatw"
+   "username": "UCwFNiYnTtrYuwO7YRWomatw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -5707,8 +5707,6 @@
    "username": "dasik.yaksa"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 2.0,
    "avg_likes": 5.7,
@@ -5744,11 +5742,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.5,
-   "username": "UC-hvam4FHeXJDQZ5sCW132A"
+   "username": "UC-hvam4FHeXJDQZ5sCW132A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 12.2,
    "avg_likes": 890.5,
@@ -5784,11 +5782,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.5,
-   "username": "UC8HAR9C0Wuy7Hp1RPi1BZiw"
+   "username": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 3.2,
    "avg_likes": 43.9,
@@ -5824,11 +5822,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.5,
-   "username": "UCM3LKBTSr8fUivTfrvOPZCg"
+   "username": "UCM3LKBTSr8fUivTfrvOPZCg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 7.2,
    "avg_likes": 0.0,
@@ -5864,11 +5862,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.5,
-   "username": "UCSzTXeUBWhwgOSOuhfeC3xg"
+   "username": "UCSzTXeUBWhwgOSOuhfeC3xg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 2.7,
    "avg_likes": 6.5,
@@ -5904,11 +5902,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.5,
-   "username": "UCWYY6sFq1PyyKYKrM0HGcvQ"
+   "username": "UCWYY6sFq1PyyKYKrM0HGcvQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 1.0,
    "avg_likes": 8.9,
@@ -5944,11 +5942,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.5,
-   "username": "UCcHI3xOFPdcESMQCthwmmpA"
+   "username": "UCcHI3xOFPdcESMQCthwmmpA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.0,
    "avg_likes": 11.8,
@@ -5984,11 +5982,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.5,
-   "username": "UChbxpUQqKOzKeQuEjPRVHDA"
+   "username": "UChbxpUQqKOzKeQuEjPRVHDA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 0.0,
    "avg_likes": 5.5,
@@ -6024,11 +6022,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.5,
-   "username": "UCk7crozhjvi2prXCtWwWxoQ"
+   "username": "UCk7crozhjvi2prXCtWwWxoQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 1.0,
    "avg_likes": 4.7,
@@ -6064,11 +6062,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.5,
-   "username": "UCuTZV3ucLKRyavYVlYF5vsA"
+   "username": "UCuTZV3ucLKRyavYVlYF5vsA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 3.4,
    "avg_likes": 38.9,
@@ -6104,11 +6102,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.0,
-   "username": "UCdLwMtqz0GwDXRPO_bgKwbw"
+   "username": "UCdLwMtqz0GwDXRPO_bgKwbw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 12.1,
    "avg_likes": 62.9,
@@ -6144,11 +6142,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 63.0,
-   "username": "UCjgZxM7HzZAac1otBC_sW2Q"
+   "username": "UCjgZxM7HzZAac1otBC_sW2Q",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 7.0,
    "avg_likes": 379.8,
@@ -6184,11 +6182,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 62.5,
-   "username": "UC43-ROy5F2-1dVZ726gckuA"
+   "username": "UC43-ROy5F2-1dVZ726gckuA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 1.0,
    "avg_likes": 3.0,
@@ -6224,11 +6222,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 62.5,
-   "username": "UC6zDQHALEBtuEhGYlT1ZTfA"
+   "username": "UC6zDQHALEBtuEhGYlT1ZTfA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 5.0,
    "avg_likes": 533.7,
@@ -6264,11 +6262,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 62.5,
-   "username": "UCfcM9RkfntkTH0pCwd4vSPA"
+   "username": "UCfcM9RkfntkTH0pCwd4vSPA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 58.0,
    "avg_likes": 290.8,
@@ -6304,11 +6302,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 62.5,
-   "username": "UChHcae6qoUV72jYtBwORM_Q"
+   "username": "UChHcae6qoUV72jYtBwORM_Q",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 4.8,
    "avg_likes": 288.6,
@@ -6344,11 +6342,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 62.5,
-   "username": "UCkEC350mu_-p4XZyHblhU0w"
+   "username": "UCkEC350mu_-p4XZyHblhU0w",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.5,
    "avg_likes": 88.1,
@@ -6384,11 +6382,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 62.5,
-   "username": "UCs-DJ22ij2ykpyczPSFZNYQ"
+   "username": "UCs-DJ22ij2ykpyczPSFZNYQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 1.5,
    "avg_likes": 178.5,
@@ -6424,27 +6422,38 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 62.5,
-   "username": "UCwYf2nxcgJ1WNul1nKs14qw"
+   "username": "UCwYf2nxcgJ1WNul1nKs14qw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
+   "_posts_last_30d_est": false,
+   "avg_comments": 9.8,
+   "avg_likes": 63.4,
+   "avg_views": 10526.8,
+   "brand_fit_score": 90,
    "engagement_rate": 0.006,
+   "estimation_flags": {
+    "brand_fit_estimated": false,
+    "followers_estimated": false,
+    "posts_30d_estimated": false
+   },
+   "evaluated_at": "2026-09-09T14:20:00+09:00",
+   "followers": 22200,
+   "fullname": "권태이 KWON TAEI",
+   "grade": "C",
+   "platform": "youtube",
+   "posts_last_30d": 8,
+   "profile_url": "https://www.youtube.com/channel/UCx5wQET-to7eb5WXvUXEofw",
+   "retailer_focus": "olive_young",
    "retailer_signal": {
     "daiso_mentions": "0건",
     "olive_young_mentions": "17건",
     "beauty_keywords": "29건",
     "labrang_present": false
    },
-   "score_total": 62.5,
-   "brand_fit_score": 90,
-   "followers": 22200,
-   "fullname": "권태이 KWON TAEI",
-   "grade": "C",
-   "username": "UCx5wQET-to7eb5WXvUXEofw",
-   "_posts_last_30d_est": false,
-   "avg_views": 10526.8,
-   "platform": "youtube",
-   "avg_comments": 9.8,
-   "evaluated_at": "2026-09-09T14:20:00+09:00",
+   "sample_note": "YT 30일내 8개 스캔 24개 [videos+shorts] | 2026-09-09 14:00 슬롯 STEP B-Light 실측 | 키워드 분석은 스캔 24건 전체(ko 로케일) 기준 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
+   "sample_size": 8,
    "score_breakdown": {
     "er": 40,
     "brand_fit": 90,
@@ -6452,19 +6461,10 @@
     "followers": 80,
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
-   "avg_likes": 63.4,
-   "profile_url": "https://www.youtube.com/channel/UCx5wQET-to7eb5WXvUXEofw",
-   "sample_size": 8,
-   "sample_note": "YT 30일내 8개 스캔 24개 [videos+shorts] | 2026-09-09 14:00 슬롯 STEP B-Light 실측 | 키워드 분석은 스캔 24건 전체(ko 로케일) 기준 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false,
-    "posts_30d_estimated": false
-   },
-   "retailer_focus": "olive_young",
+   "score_total": 62.5,
+   "username": "UCx5wQET-to7eb5WXvUXEofw",
    "_likes_hidden": null,
-   "_ig_logged_out": null,
-   "posts_last_30d": 8
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -6507,8 +6507,47 @@
    "username": "beauty._charmi"
   },
   {
-   "_ig_logged_out": null,
+   "_posts_last_30d_est": false,
+   "avg_comments": 17.7,
+   "avg_likes": 301.7,
+   "avg_views": 30428.0,
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0099,
+   "estimation_flags": {
+    "brand_fit_score": "추정(키워드 카운트 기반)",
+    "posts_last_30d": "실측",
+    "followers": "실측(yt-dlp channel_follower_count)",
+    "engagement_rate": "실측(avg_likes/avg_views)"
+   },
+   "evaluated_at": "2026-09-09T17:08:58+09:00",
+   "followers": 21700,
+   "fullname": "bbiiju",
+   "grade": "C",
+   "platform": "youtube",
+   "posts_last_30d": 3,
+   "profile_url": "https://www.youtube.com/channel/UCjjW9IdqGvDyAxkdcIATf_g",
+   "retailer_focus": "our_brand",
+   "retailer_signal": {
+    "daiso_mentions": "1건",
+    "olive_young_mentions": "21건",
+    "beauty_keywords": "61건",
+    "labrang_present": true
+   },
+   "sample_note": "2026-09-09 17:00 슬롯 STEP B-Light 롤링 리프레시 실측 | videos:12+shorts:12 meta_ok:24/24 likes_ok:3/3 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건) | brand_fit은 캡션/태그/설명·채널소개 키워드 기반 산출값(추정)",
+   "sample_size": 3,
+   "score_breakdown": {
+    "er_score": 40,
+    "brand_fit": 100,
+    "consistency": 60,
+    "follower_scale": 80,
+    "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
+   },
+   "score_total": 62.0,
+   "username": "UCjjW9IdqGvDyAxkdcIATf_g",
    "_likes_hidden": null,
+   "_ig_logged_out": null
+  },
+  {
    "_posts_last_30d_est": false,
    "avg_comments": 29.8,
    "avg_likes": 284.8,
@@ -6544,11 +6583,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 61.8,
-   "username": "UCR-rSr__YloP08_byJvVd9w"
+   "username": "UCR-rSr__YloP08_byJvVd9w",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 13.0,
    "avg_likes": 87.6,
@@ -6584,11 +6623,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 61.8,
-   "username": "UCaMFZoulRulGg-xG5s9qguw"
+   "username": "UCaMFZoulRulGg-xG5s9qguw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.4,
    "avg_likes": 24.5,
@@ -6624,11 +6663,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 61.8,
-   "username": "UCvKLCgnu0BG_fiMXecwhQyA"
+   "username": "UCvKLCgnu0BG_fiMXecwhQyA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 216.0,
    "avg_likes": 367.0,
@@ -6664,11 +6703,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 61.5,
-   "username": "UC44cKVGrHsZdWfLNuqcowkw"
+   "username": "UC44cKVGrHsZdWfLNuqcowkw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 15.0,
    "avg_likes": 250.5,
@@ -6704,11 +6743,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 61.5,
-   "username": "UCEZVKV0mCLuR83k7A9NyINg"
+   "username": "UCEZVKV0mCLuR83k7A9NyINg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 211.0,
    "avg_likes": 1974.0,
@@ -6744,11 +6783,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 61.5,
-   "username": "UCH2mJnztSdNh8ADp2KmtUMQ"
+   "username": "UCH2mJnztSdNh8ADp2KmtUMQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 59.3,
    "avg_likes": 568.7,
@@ -6784,11 +6823,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 61.5,
-   "username": "UCKitX3MzbFuVJHoRiYQwEpw"
+   "username": "UCKitX3MzbFuVJHoRiYQwEpw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 3.2,
    "avg_likes": 19.2,
@@ -6824,11 +6863,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 61.5,
-   "username": "UCgzAA_oZqrNH8yry_uQUlPA"
+   "username": "UCgzAA_oZqrNH8yry_uQUlPA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 331.3,
    "avg_likes": 10537.7,
@@ -6864,11 +6903,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 61.2,
-   "username": "UCGtY9qyrQqqPlkNqAwccjNQ"
+   "username": "UCGtY9qyrQqqPlkNqAwccjNQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 50.8,
    "avg_likes": 4073.4,
@@ -6904,11 +6943,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 61.2,
-   "username": "UCmf_Xgbqr0WnQsUOJXWXLLA"
+   "username": "UCmf_Xgbqr0WnQsUOJXWXLLA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 23.1,
    "avg_likes": 128.9,
@@ -6944,11 +6983,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 61.0,
-   "username": "UCQK2si_zQf-jPB6iIEv3inw"
+   "username": "UCQK2si_zQf-jPB6iIEv3inw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 3.0,
    "avg_likes": 111.0,
@@ -6984,11 +7023,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 60.8,
-   "username": "UCwjKEO69yeKfQtcAuvwxU5A"
+   "username": "UCwjKEO69yeKfQtcAuvwxU5A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 5.0,
    "avg_likes": 16.0,
@@ -7024,11 +7063,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 60.5,
-   "username": "UCBIH59jFPAuSB783uspXcTQ"
+   "username": "UCBIH59jFPAuSB783uspXcTQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 0.0,
    "avg_likes": 24.0,
@@ -7064,11 +7103,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 60.5,
-   "username": "UCIgltl46C_j2wVay4tgIFJg"
+   "username": "UCIgltl46C_j2wVay4tgIFJg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 7.0,
    "avg_likes": 0.0,
@@ -7104,11 +7143,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 60.5,
-   "username": "UC_FeFXisROV48LEXS6RvhDA"
+   "username": "UC_FeFXisROV48LEXS6RvhDA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 9.1,
    "avg_likes": 0.0,
@@ -7144,7 +7183,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 60.5,
-   "username": "UCxQFCdMag6smOQVAObGBIgA"
+   "username": "UCxQFCdMag6smOQVAObGBIgA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -7187,8 +7228,6 @@
    "username": "ellie._.cos"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 290.6,
    "avg_likes": 3514.6,
@@ -7224,51 +7263,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 60.3,
-   "username": "UC_ZYRO5U8eGBKAeNxs8qI1g"
+   "username": "UC_ZYRO5U8eGBKAeNxs8qI1g",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
-   "_posts_last_30d_est": true,
-   "avg_comments": 1.7,
-   "avg_likes": 41.0,
-   "avg_views": 9191.8,
-   "brand_fit_score": 60,
-   "engagement_rate": 0.0045,
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false,
-    "posts_30d_estimated": true
-   },
-   "evaluated_at": "2026-09-09T10:21:20+09:00",
-   "followers": 374000,
-   "fullname": "燎原剧场HellfireDrama",
-   "grade": "C",
-   "platform": "youtube",
-   "posts_last_30d": 12,
-   "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
-   "retailer_focus": "beauty_general",
-   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "0건",
-    "beauty_keywords": "1건",
-    "labrang_present": false
-   },
-   "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
-   "sample_size": 12,
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 60,
-    "consistency": 100,
-    "followers": 100,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "score_total": 60.0,
-   "username": "UC-C-faUj5SNcrIkqEM6FcjA"
-  },
-  {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 2.8,
    "avg_likes": 12.6,
@@ -7304,11 +7303,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 60.0,
-   "username": "UCjegsOAf5nOCfLfMpLyNj0A"
+   "username": "UCjegsOAf5nOCfLfMpLyNj0A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.2,
    "avg_likes": 19.8,
@@ -7344,11 +7343,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 59.8,
-   "username": "UCBKngvS6Kk4LWSZTKXQWnvA"
+   "username": "UCBKngvS6Kk4LWSZTKXQWnvA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 1.0,
    "avg_likes": 34.4,
@@ -7384,11 +7383,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 59.8,
-   "username": "UCQ6zIN9oVHOiD5jlLWo-l3A"
+   "username": "UCQ6zIN9oVHOiD5jlLWo-l3A",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 4.7,
    "avg_likes": 393.3,
@@ -7424,11 +7423,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 59.8,
-   "username": "UCYQZ1P6Jd5ZM66eeZH4iifA"
+   "username": "UCYQZ1P6Jd5ZM66eeZH4iifA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 53.5,
    "avg_likes": 173.5,
@@ -7464,11 +7463,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 59.5,
-   "username": "UCNaJNdeeEWaeHanx1Jl21gQ"
+   "username": "UCNaJNdeeEWaeHanx1Jl21gQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 22.0,
    "avg_likes": 0.0,
@@ -7504,11 +7503,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 59.5,
-   "username": "UCY-sTVmXRY2JXnVjm9QjYBw"
+   "username": "UCY-sTVmXRY2JXnVjm9QjYBw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 6.5,
    "avg_likes": 69.3,
@@ -7544,11 +7543,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 59.5,
-   "username": "UCaH0qTQwlqUZ6O54m0s04EA"
+   "username": "UCaH0qTQwlqUZ6O54m0s04EA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 6.5,
    "avg_likes": 65.8,
@@ -7584,11 +7583,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 59.5,
-   "username": "UCixdFezucL8az0Zm4MgidIw"
+   "username": "UCixdFezucL8az0Zm4MgidIw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 35.5,
    "avg_likes": 133.3,
@@ -7624,11 +7623,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 59.2,
-   "username": "UCSJBRrUKLZ3QRQsw3cE9Oyw"
+   "username": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 62.6,
    "avg_likes": 1621.8,
@@ -7664,11 +7663,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 59.0,
-   "username": "UC6B9J3dKyA8TF-3YC0sEvTw"
+   "username": "UC6B9J3dKyA8TF-3YC0sEvTw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 1.2,
    "avg_likes": 26.4,
@@ -7704,11 +7703,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 58.8,
-   "username": "UC6gHLvwXKjfSG9OkECAJT5g"
+   "username": "UC6gHLvwXKjfSG9OkECAJT5g",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 0.0,
    "avg_likes": 8.6,
@@ -7744,11 +7743,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 58.5,
-   "username": "UCklkYxRVIAsczwi9w6Y3l5g"
+   "username": "UCklkYxRVIAsczwi9w6Y3l5g",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 38.3,
    "avg_likes": 951.4,
@@ -7784,11 +7783,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 58.2,
-   "username": "UC1JblLAuGsgpxjQjROHfwzQ"
+   "username": "UC1JblLAuGsgpxjQjROHfwzQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 12.4,
    "avg_likes": 230.9,
@@ -7824,11 +7823,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 58.0,
-   "username": "UCPLo-rNY1rmknNRQ9m0P6AA"
+   "username": "UCPLo-rNY1rmknNRQ9m0P6AA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 1.3,
    "avg_likes": 122.7,
@@ -7864,11 +7863,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 58.0,
-   "username": "UCU0ujFi0aIM6G5iDIPUY40w"
+   "username": "UCU0ujFi0aIM6G5iDIPUY40w",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 2.0,
    "avg_likes": 6.3,
@@ -7904,11 +7903,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 57.5,
-   "username": "UCIErIGNaCbne1_Eu1VzHFcw"
+   "username": "UCIErIGNaCbne1_Eu1VzHFcw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.2,
    "avg_likes": 67.5,
@@ -7944,51 +7943,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 57.2,
-   "username": "UCsZ_7NNHqolo9mos449uSfg"
+   "username": "UCsZ_7NNHqolo9mos449uSfg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
-   "_posts_last_30d_est": false,
-   "avg_comments": 17.7,
-   "avg_likes": 299.3,
-   "avg_views": 30236.7,
-   "brand_fit_score": 80,
-   "engagement_rate": 0.0099,
-   "estimation_flags": {
-    "brand_fit_estimated": false,
-    "followers_estimated": false,
-    "posts_30d_estimated": false
-   },
-   "evaluated_at": "2026-09-09T10:16:37+09:00",
-   "followers": 21700,
-   "fullname": "bbiiju",
-   "grade": "C",
-   "platform": "youtube",
-   "posts_last_30d": 3,
-   "profile_url": "https://www.youtube.com/channel/UCjjW9IdqGvDyAxkdcIATf_g",
-   "retailer_focus": "our_brand",
-   "retailer_signal": {
-    "daiso_mentions": "0건",
-    "olive_young_mentions": "16건",
-    "beauty_keywords": "2건",
-    "labrang_present": true
-   },
-   "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:3/3 | 2026-09-09 10:00 슬롯 실측 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
-   "sample_size": 3,
-   "score_breakdown": {
-    "er": 40,
-    "brand_fit": 80,
-    "consistency": 60,
-    "followers": 80,
-    "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
-   },
-   "score_total": 57.0,
-   "username": "UCjjW9IdqGvDyAxkdcIATf_g"
-  },
-  {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.2,
    "avg_likes": 64.2,
@@ -8024,11 +7983,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 56.5,
-   "username": "UCrhm4vlaOhwDND5uIBQPbiw"
+   "username": "UCrhm4vlaOhwDND5uIBQPbiw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 8.3,
    "avg_likes": 1278.1,
@@ -8064,11 +8023,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 56.3,
-   "username": "UCZ-oeQmEiTLw4d5PSDyd1Cw"
+   "username": "UCZ-oeQmEiTLw4d5PSDyd1Cw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 3.7,
    "avg_likes": 203.3,
@@ -8104,11 +8063,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 56.0,
-   "username": "UCIxqG8c5etMBhAUZr0FIJJA"
+   "username": "UCIxqG8c5etMBhAUZr0FIJJA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 7.9,
    "avg_likes": 43.2,
@@ -8144,11 +8103,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 56.0,
-   "username": "UCLXYyuMtfzbXPlimfOWQGHA"
+   "username": "UCLXYyuMtfzbXPlimfOWQGHA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 2.5,
    "avg_likes": 19.5,
@@ -8184,11 +8143,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 55.5,
-   "username": "UCRYXMMSdMYhURh_Dr6Vz18w"
+   "username": "UCRYXMMSdMYhURh_Dr6Vz18w",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 1.0,
    "avg_likes": 4.0,
@@ -8224,11 +8183,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 55.5,
-   "username": "UCVWMxFz4W6UuP3kF49o_eMg"
+   "username": "UCVWMxFz4W6UuP3kF49o_eMg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 124.3,
    "avg_likes": 3146.3,
@@ -8264,11 +8223,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 55.2,
-   "username": "UCOjmYCnYlTcdoD2DKHvrV5g"
+   "username": "UCOjmYCnYlTcdoD2DKHvrV5g",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 6.0,
    "avg_likes": 49.0,
@@ -8304,11 +8263,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 55.0,
-   "username": "UCkCQe4QPcKCvB3PTzIWHn2g"
+   "username": "UCkCQe4QPcKCvB3PTzIWHn2g",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 0.0,
    "avg_likes": 5.0,
@@ -8344,11 +8303,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 55.0,
-   "username": "UClgkEMblgt1EUDYejTMiYug"
+   "username": "UClgkEMblgt1EUDYejTMiYug",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 1.0,
    "avg_likes": 2.8,
@@ -8384,11 +8343,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 54.8,
-   "username": "UCIQB1KXcPIhskB7jy1SJdLw"
+   "username": "UCIQB1KXcPIhskB7jy1SJdLw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 1.0,
    "avg_likes": 8.6,
@@ -8424,11 +8383,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 54.8,
-   "username": "UCkzE35OjxyfX_x_kJO-7rdw"
+   "username": "UCkzE35OjxyfX_x_kJO-7rdw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 0.0,
    "avg_likes": 6.0,
@@ -8464,11 +8423,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 54.5,
-   "username": "UC66y-iJZXgWc4LwRlrNGVYw"
+   "username": "UC66y-iJZXgWc4LwRlrNGVYw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 7.0,
    "avg_likes": 83.0,
@@ -8504,11 +8463,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 53.2,
-   "username": "UCZ2B-aCNyL4WTydUFU5NGkg"
+   "username": "UCZ2B-aCNyL4WTydUFU5NGkg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 7.9,
    "avg_likes": 205.5,
@@ -8544,11 +8503,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 52.5,
-   "username": "UCcjxXC-20HT-sK316Dz2IFQ"
+   "username": "UCcjxXC-20HT-sK316Dz2IFQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 30.8,
    "avg_likes": 450.2,
@@ -8584,7 +8543,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 52.2,
-   "username": "UCzBbE7x7mPrs56PvCc0errA"
+   "username": "UCzBbE7x7mPrs56PvCc0errA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -8627,8 +8588,47 @@
    "username": "incworld"
   },
   {
-   "_ig_logged_out": null,
+   "_posts_last_30d_est": true,
+   "avg_comments": 0.9,
+   "avg_likes": 42.9,
+   "avg_views": 9862.7,
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0044,
+   "estimation_flags": {
+    "brand_fit_score": "추정(키워드 카운트 기반)",
+    "posts_last_30d": "추정(스캔창 상한 도달 하한값)",
+    "followers": "실측(yt-dlp channel_follower_count)",
+    "engagement_rate": "실측(avg_likes/avg_views)"
+   },
+   "evaluated_at": "2026-09-09T17:08:58+09:00",
+   "followers": 374000,
+   "fullname": "燎原剧场HellfireDrama",
+   "grade": "C",
+   "platform": "youtube",
+   "posts_last_30d": 12,
+   "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
+   "retailer_focus": "off_topic",
+   "retailer_signal": {
+    "daiso_mentions": "0건",
+    "olive_young_mentions": "0건",
+    "beauty_keywords": "0건",
+    "labrang_present": false
+   },
+   "sample_note": "2026-09-09 17:00 슬롯 STEP B-Light 롤링 리프레시 실측 | videos:12+shorts:없음 meta_ok:12/12 likes_ok:12/12 | posts_last_30d=12는 스캔창(12건) 상한에 걸린 하한값 — 추정 | brand_fit은 제목/태그/설명·채널소개 키워드 기반 산출값(추정)",
+   "sample_size": 12,
+   "score_breakdown": {
+    "er_score": 40,
+    "brand_fit": 25,
+    "consistency": 100,
+    "follower_scale": 100,
+    "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
+   },
+   "score_total": 51.2,
+   "username": "UC-C-faUj5SNcrIkqEM6FcjA",
    "_likes_hidden": null,
+   "_ig_logged_out": null
+  },
+  {
    "_posts_last_30d_est": true,
    "avg_comments": 2.0,
    "avg_likes": 0.0,
@@ -8664,11 +8664,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 51.2,
-   "username": "UCAThGewvLVT5fW8utNfrawA"
+   "username": "UCAThGewvLVT5fW8utNfrawA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 8.4,
    "avg_likes": 72.3,
@@ -8704,11 +8704,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 51.2,
-   "username": "UCYjkiHwK6yj1VgMfqNZvHEA"
+   "username": "UCYjkiHwK6yj1VgMfqNZvHEA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 16.1,
    "avg_likes": 1824.3,
@@ -8744,11 +8744,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 51.2,
-   "username": "UCkEWsTetbUuGDg_O1S5UVBg"
+   "username": "UCkEWsTetbUuGDg_O1S5UVBg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.8,
    "avg_likes": 97.7,
@@ -8784,11 +8784,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 51.2,
-   "username": "UClSW7LJ8qs7BwNfn2yMT0sQ"
+   "username": "UClSW7LJ8qs7BwNfn2yMT0sQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 0.0,
    "avg_likes": 12.0,
@@ -8824,11 +8824,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 51.0,
-   "username": "UCKn4BDg7hnEDhnr_ukz9-aw"
+   "username": "UCKn4BDg7hnEDhnr_ukz9-aw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 30.0,
    "avg_likes": 182.7,
@@ -8864,11 +8864,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 51.0,
-   "username": "UCy4L-mlTgH-v8vBbtzCGhIA"
+   "username": "UCy4L-mlTgH-v8vBbtzCGhIA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 1.0,
    "avg_likes": 0.0,
@@ -8904,7 +8904,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 48.8,
-   "username": "UCXnovozlwbGRaHhR6fvG1XA"
+   "username": "UCXnovozlwbGRaHhR6fvG1XA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
    "_ig_logged_out": false,
@@ -8987,8 +8989,6 @@
    "username": "k_eunmi___"
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 1.4,
    "avg_likes": 5.3,
@@ -9024,11 +9024,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 48.2,
-   "username": "UCtBo1Hf3HI7QmpHwRWOBRLw"
+   "username": "UCtBo1Hf3HI7QmpHwRWOBRLw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 2.6,
    "avg_likes": 87.8,
@@ -9064,11 +9064,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 47.2,
-   "username": "UCN_YKz-tKWkVpNyYths0ZQQ"
+   "username": "UCN_YKz-tKWkVpNyYths0ZQQ",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 9.0,
    "avg_likes": 147.2,
@@ -9104,11 +9104,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 47.2,
-   "username": "UCZdDMMKj3wgBfo9KU79mdMw"
+   "username": "UCZdDMMKj3wgBfo9KU79mdMw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 5.8,
    "avg_likes": 194.3,
@@ -9144,11 +9144,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 47.2,
-   "username": "UCbDEpKYIxpFJwrqOatkv9tA"
+   "username": "UCbDEpKYIxpFJwrqOatkv9tA",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 0.0,
    "avg_likes": 9.0,
@@ -9184,11 +9184,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 46.2,
-   "username": "UCePjZRTgGmQs7C3TFxX1Ffg"
+   "username": "UCePjZRTgGmQs7C3TFxX1Ffg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 6.0,
    "avg_likes": 284.5,
@@ -9224,11 +9224,11 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 46.2,
-   "username": "UCwFwe_7ck1v_bMv9jccgyTw"
+   "username": "UCwFwe_7ck1v_bMv9jccgyTw",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": false,
    "avg_comments": 0.0,
    "avg_likes": 0.0,
@@ -9259,11 +9259,11 @@
     "formula": "40*0.50+25*0.25+40*0.15+40*0.10"
    },
    "score_total": 36.25,
-   "username": "mingjikim_107"
+   "username": "mingjikim_107",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   },
   {
-   "_ig_logged_out": null,
-   "_likes_hidden": null,
    "_posts_last_30d_est": true,
    "avg_comments": 0.0,
    "avg_likes": 0.0,
@@ -9299,7 +9299,9 @@
     "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
    },
    "score_total": 36.2,
-   "username": "UC4AF74en03tiZ2kqveX5CPg"
+   "username": "UC4AF74en03tiZ2kqveX5CPg",
+   "_likes_hidden": null,
+   "_ig_logged_out": null
   }
  ]
 }

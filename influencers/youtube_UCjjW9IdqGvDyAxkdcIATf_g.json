@@ -5,36 +5,48 @@
  "profile_url": "https://www.youtube.com/channel/UCjjW9IdqGvDyAxkdcIATf_g",
  "followers": 21700,
  "engagement_rate": 0.0099,
- "avg_likes": 299.3,
+ "avg_likes": 301.7,
  "avg_comments": 17.7,
- "avg_views": 30236.7,
+ "avg_views": 30428.0,
  "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "sample_size": 3,
- "brand_fit_score": 80,
+ "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "16건",
-  "beauty_keywords": "2건",
+  "daiso_mentions": "1건",
+  "olive_young_mentions": "21건",
+  "beauty_keywords": "61건",
   "labrang_present": true
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 3개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:3/3 | 2026-09-09 10:00 슬롯 실측 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건)",
+ "sample_note": "2026-09-09 17:00 슬롯 STEP B-Light 롤링 리프레시 실측 | videos:12+shorts:12 meta_ok:24/24 likes_ok:3/3 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건) | brand_fit은 캡션/태그/설명·채널소개 키워드 기반 산출값(추정)",
  "channel_id": "UCjjW9IdqGvDyAxkdcIATf_g",
- "score_total": 57.0,
+ "score_total": 62.0,
  "grade": "C",
  "score_breakdown": {
-  "er": 40,
-  "brand_fit": 80,
+  "er_score": 40,
+  "brand_fit": 100,
   "consistency": 60,
-  "followers": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 80,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:16:37+09:00",
- "history": []
+ "evaluated_at": "2026-09-09T17:08:58+09:00",
+ "history": [
+  {
+   "score_total": 57.0,
+   "grade": "C",
+   "engagement_rate": 0.0099,
+   "followers": 21700,
+   "brand_fit_score": 80,
+   "posts_last_30d": 3,
+   "retailer_focus": "our_brand",
+   "evaluated_at": "2026-09-09T10:16:37+09:00"
+  }
+ ]
 }
