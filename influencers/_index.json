@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-10T14:00:00+09:00",
-  "lastUpdated": "2026-09-10T14:00:00+09:00",
-  "last_run_mode": "2026-09-10 14:00 슬롯(평일 오후) — STEP A(큐 3소스: GitHub Issues 0건 / _queue.txt 0건 / Google Form 누적 233 고유 URL 전부 기분석 → 신규 0건) + STEP B-Light 롤링 재분석 2건(youtube_Charming_ramy, youtube_Jinyaa — 중복 channel_id 쌍 포함 실파일 4건 동시 갱신). STEP B 풀 재분석은 10시 슬롯 전용이므로 SKIP(정상). 그 외 230건은 10:00 슬롯 실측값 이월 — 이번 회차 실측 아님.",
+  "last_updated": "2026-09-10T17:00:00+09:00",
+  "lastUpdated": "2026-09-10T17:00:00+09:00",
+  "last_run_mode": "17:00 슬롯 (STEP A 큐 처리 + STEP B-Light 롤링 재분석 2건). STEP B 풀 재분석은 평일 10:00 슬롯 전용이라 SKIP.",
   "total": 232,
   "platforms": {
     "instagram": 23,
@@ -9,21 +9,21 @@
   },
   "grades": {
     "S": 6,
-    "A": 57,
-    "B": 88,
+    "A": 56,
+    "B": 89,
     "C": 74,
     "D": 7
   },
   "retailer_focus": {
     "olive_young": 103,
     "daiso": 51,
-    "beauty_general": 29,
+    "beauty_general": 28,
     "our_brand": 24,
-    "off_topic": 17,
+    "off_topic": 18,
     "mixed": 8
   },
   "dedup_note": "동일 channel_id 중복 파일 10쌍은 channel_id 기준 1건만 집계 — 중복 파일은 동일 실측값으로 동시 갱신",
-  "method_note": "2026-09-10T14:00 슬롯. 이번 회차 실측은 STEP B-Light 2채널(yt-dlp 2026.08.19, /videos 12 + /shorts 12 스캔 후 30일 내 영상 채택, ER=평균 좋아요/평균 조회수, brand_fit=title+tags+description+채널설명 키워드 카운트 기반 추정)뿐이며, 나머지 230건은 2026-09-10 10:00 슬롯 풀 재분석 실측값을 그대로 이월한 것(이번 회차 재측정 아님). 10:00 슬롯 방법론: YT 209채널 3,966영상 yt-dlp 실측 + 영어 자동번역 채널 126건에 lang=ko 텍스트 전용 패스(2,307영상)로 brand_fit/retailer_focus만 재산출, IG 22계정 로그인 API 실측. brand_fit_score는 전 레코드 키워드 카운트 기반 추정치.",
+  "method_note": "2026-09-10T17:00 슬롯. 이번 회차 실측은 STEP B-Light 2채널(또유진 UCrt1iDPNZzo4vODbSTx--1A, HellfireDrama UC-C-faUj5SNcrIkqEM6FcjA)뿐이며 — yt-dlp 2026.08.19로 /videos 12 + /shorts 12 스캔 후 30일 내 영상 채택, ER=평균좋아요/평균조회수 실측, brand_fit은 title+tags+description 키워드 카운트 기반 추정 — 나머지 230건은 2026-09-10 10:00 슬롯 풀 재분석 실측값을 그대로 이월한 것(이번 회차 재측정 아님). brand_fit_score는 전 레코드 키워드 카운트 기반 추정치.",
   "score_total_null_count": 0,
   "records": [
     {
@@ -1414,47 +1414,6 @@
       },
       "score_total": 77.5,
       "username": "UCrlUlicedicJ5mlibqC62Eg"
-    },
-    {
-      "_ig_logged_out": null,
-      "_likes_hidden": null,
-      "_posts_last_30d_est": false,
-      "avg_comments": 14.3,
-      "avg_likes": 111.7,
-      "avg_views": 9353.3,
-      "brand_fit_score": 90,
-      "engagement_rate": 0.0119,
-      "estimation_flags": {
-        "brand_fit_score": "추정(키워드 카운트 기반)",
-        "posts_last_30d": "실측",
-        "followers": "실측(yt-dlp channel_follower_count)",
-        "engagement_rate": "실측(avg_likes/avg_views)"
-      },
-      "evaluated_at": "2026-09-10T10:33:58+09:00",
-      "followers": 119000,
-      "fullname": "또유진",
-      "grade": "A",
-      "platform": "youtube",
-      "posts_last_30d": 13,
-      "profile_url": "https://www.youtube.com/channel/UCrt1iDPNZzo4vODbSTx--1A",
-      "retailer_focus": "olive_young",
-      "retailer_signal": {
-        "daiso_mentions": "2건",
-        "olive_young_mentions": "8건",
-        "beauty_keywords": "29건",
-        "labrang_present": false
-      },
-      "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:21/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | 동일 channel_id 중복 파일 동시 갱신(dedup 2건)",
-      "sample_size": 24,
-      "score_breakdown": {
-        "er_score": 60,
-        "brand_fit": 90,
-        "consistency": 100,
-        "follower_scale": 100,
-        "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
-      },
-      "score_total": 77.5,
-      "username": "UCrt1iDPNZzo4vODbSTx--1A"
     },
     {
       "_ig_logged_out": null,
@@ -5306,6 +5265,47 @@
       "_ig_logged_out": null,
       "_likes_hidden": null,
       "_posts_last_30d_est": false,
+      "avg_comments": 7.0,
+      "avg_likes": 111.8,
+      "avg_views": 13672.5,
+      "brand_fit_score": 90,
+      "engagement_rate": 0.0082,
+      "estimation_flags": {
+        "brand_fit_score": "추정(키워드 카운트 기반)",
+        "posts_last_30d": "실측",
+        "followers": "실측(yt-dlp channel_follower_count)",
+        "engagement_rate": "실측(avg_likes/avg_views)"
+      },
+      "evaluated_at": "2026-09-10T17:00:00+09:00",
+      "followers": 119000,
+      "fullname": "또유진",
+      "grade": "B",
+      "platform": "youtube",
+      "posts_last_30d": 13,
+      "profile_url": "https://www.youtube.com/channel/UCrt1iDPNZzo4vODbSTx--1A",
+      "retailer_focus": "olive_young",
+      "retailer_signal": {
+        "daiso_mentions": "2건",
+        "olive_young_mentions": "5건",
+        "beauty_keywords": "13건",
+        "labrang_present": false
+      },
+      "sample_note": "2026-09-10 17:00 슬롯 STEP B-Light 재분석 실측 | yt-dlp 2026.08.19 샘플 13개 (/videos+/shorts 스캔, 30일 내 13건) | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description 키워드 카운트 기반 산출값(추정)",
+      "sample_size": 13,
+      "score_breakdown": {
+        "er_score": 40,
+        "brand_fit": 90,
+        "consistency": 100,
+        "follower_scale": 100,
+        "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
+      },
+      "score_total": 67.5,
+      "username": "UCrt1iDPNZzo4vODbSTx--1A"
+    },
+    {
+      "_ig_logged_out": null,
+      "_likes_hidden": null,
+      "_posts_last_30d_est": false,
       "avg_comments": 24.3,
       "avg_likes": 989.5,
       "avg_views": 164318.5,
@@ -7842,47 +7842,6 @@
       "_ig_logged_out": null,
       "_likes_hidden": null,
       "_posts_last_30d_est": true,
-      "avg_comments": 1.8,
-      "avg_likes": 38.8,
-      "avg_views": 7869.6,
-      "brand_fit_score": 60,
-      "engagement_rate": 0.0049,
-      "estimation_flags": {
-        "brand_fit_score": "추정(키워드 카운트 기반)",
-        "posts_last_30d": "추정(스캔창 상한)",
-        "followers": "실측(yt-dlp channel_follower_count)",
-        "engagement_rate": "실측(avg_likes/avg_views)"
-      },
-      "evaluated_at": "2026-09-10T10:33:58+09:00",
-      "followers": 374000,
-      "fullname": "HellfireDrama",
-      "grade": "C",
-      "platform": "youtube",
-      "posts_last_30d": 12,
-      "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
-      "retailer_focus": "beauty_general",
-      "retailer_signal": {
-        "daiso_mentions": "0건",
-        "olive_young_mentions": "0건",
-        "beauty_keywords": "1건",
-        "labrang_present": false
-      },
-      "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ posts_last_30d는 스캔창 상한에 걸린 하한값(추정)",
-      "sample_size": 12,
-      "score_breakdown": {
-        "er_score": 40,
-        "brand_fit": 60,
-        "consistency": 100,
-        "follower_scale": 100,
-        "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
-      },
-      "score_total": 60.0,
-      "username": "UC-C-faUj5SNcrIkqEM6FcjA"
-    },
-    {
-      "_ig_logged_out": null,
-      "_likes_hidden": null,
-      "_posts_last_30d_est": true,
       "avg_comments": 1.0,
       "avg_likes": 118.2,
       "avg_views": 13542.5,
@@ -9106,6 +9065,47 @@
       },
       "score_total": 51.8,
       "username": "UCkzE35OjxyfX_x_kJO-7rdw"
+    },
+    {
+      "_ig_logged_out": null,
+      "_likes_hidden": null,
+      "_posts_last_30d_est": false,
+      "avg_comments": 0.9,
+      "avg_likes": 41.2,
+      "avg_views": 8342.0,
+      "brand_fit_score": 25,
+      "engagement_rate": 0.0049,
+      "estimation_flags": {
+        "brand_fit_score": "추정(키워드 카운트 기반)",
+        "posts_last_30d": "실측",
+        "followers": "실측(yt-dlp channel_follower_count)",
+        "engagement_rate": "실측(avg_likes/avg_views)"
+      },
+      "evaluated_at": "2026-09-10T17:00:00+09:00",
+      "followers": 374000,
+      "fullname": "HellfireDrama",
+      "grade": "C",
+      "platform": "youtube",
+      "posts_last_30d": 12,
+      "profile_url": "https://www.youtube.com/channel/UC-C-faUj5SNcrIkqEM6FcjA",
+      "retailer_focus": "off_topic",
+      "retailer_signal": {
+        "daiso_mentions": "0건",
+        "olive_young_mentions": "0건",
+        "beauty_keywords": "0건",
+        "labrang_present": false
+      },
+      "sample_note": "2026-09-10 17:00 슬롯 STEP B-Light 재분석 실측 | yt-dlp 2026.08.19 샘플 12개 (/videos+/shorts 스캔, 30일 내 12건) | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description 키워드 카운트 기반 산출값(추정)",
+      "sample_size": 12,
+      "score_breakdown": {
+        "er_score": 40,
+        "brand_fit": 25,
+        "consistency": 100,
+        "follower_scale": 100,
+        "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
+      },
+      "score_total": 51.2,
+      "username": "UC-C-faUj5SNcrIkqEM6FcjA"
     },
     {
       "_ig_logged_out": null,
