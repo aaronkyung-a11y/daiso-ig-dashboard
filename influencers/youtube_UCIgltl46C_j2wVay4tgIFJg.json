@@ -3,50 +3,41 @@
  "username": "UCIgltl46C_j2wVay4tgIFJg",
  "fullname": "골랐다",
  "profile_url": "https://www.youtube.com/channel/UCIgltl46C_j2wVay4tgIFJg",
- "followers": 2160,
- "engagement_rate": 0.0074,
- "avg_likes": 24.0,
- "avg_comments": 0.0,
- "avg_views": 3249.6,
+ "followers": 2150,
+ "engagement_rate": 0.0064,
+ "avg_likes": 31.2,
+ "avg_comments": 1.0,
+ "avg_views": 4876.4,
  "posts_last_30d": 5,
  "_posts_last_30d_est": false,
- "sample_size": 5,
+ "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "49건",
+  "daiso_mentions": "110건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "15건",
+  "beauty_keywords": "46건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 5개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:5/5 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCIgltl46C_j2wVay4tgIFJg",
  "score_total": 60.5,
  "grade": "C",
  "score_breakdown": {
-  "er": 40,
+  "er_score": 40,
   "brand_fit": 90,
   "consistency": 80,
-  "followers": 60,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 60,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:27:53+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:21:26.980413+09:00",
-   "followers": 1920,
-   "engagement_rate": 0.01,
-   "posts_last_30d": 11,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 73.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-17T10:35:31.865139+09:00",
    "followers": 1920,
@@ -301,6 +292,16 @@
    "followers": 2160,
    "grade": "C",
    "posts_last_30d": 6,
+   "retailer_focus": "daiso",
+   "score_total": 60.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0074,
+   "evaluated_at": "2026-09-09T10:27:53+09:00",
+   "followers": 2160,
+   "grade": "C",
+   "posts_last_30d": 5,
    "retailer_focus": "daiso",
    "score_total": 60.5
   }

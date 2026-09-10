@@ -3,22 +3,22 @@
  "username": "rorobeauty48791",
  "fullname": "로로",
  "profile_url": "https://www.instagram.com/rorobeauty48791/",
- "followers": 174358,
- "engagement_rate": 0.012999,
- "avg_likes": 1636,
- "avg_comments": 630.5,
- "avg_views": 103464,
- "posts_last_30d": 2,
+ "followers": 174374,
+ "engagement_rate": 0.02708,
+ "avg_likes": 4406.89,
+ "avg_comments": 315.11,
+ "avg_views": 332609,
+ "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "_likes_hidden": false,
  "_ig_logged_out": false,
- "sample_size": 2,
+ "sample_size": 9,
  "brand_fit_score": 60,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "1건",
+  "beauty_keywords": "2건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -26,7 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "IG 로그인 실측(2026-09-09 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워.",
+ "sample_note": "IG 로그인 실측(2026-09-10 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건, media/info API 실측 9/9건. ER=(평균 좋아요+평균 댓글)/팔로워.",
  "score_total": 64.0,
  "grade": "C",
  "score_breakdown": {
@@ -36,21 +36,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-09T11:38:06+09:00",
+ "evaluated_at": "2026-09-10T10:45:11+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-04-30T13:58:42+09:00",
-   "followers": 154000,
-   "engagement_rate": 0.0536,
-   "avg_likes": 8019,
-   "avg_comments": 230,
-   "sample_size": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "grade": "A",
-   "score_total": 89.5,
-   "posts_last_30d": null
-  },
   {
    "platform": "instagram",
    "username": "rorobeauty48791",
@@ -392,6 +379,16 @@
    "posts_last_30d": 3,
    "retailer_focus": "beauty_general",
    "score_total": 71.5
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.012999,
+   "evaluated_at": "2026-09-09T11:38:06+09:00",
+   "followers": 174358,
+   "note": null,
+   "posts_last_30d": 2,
+   "retailer_focus": "olive_young",
+   "score_total": 64.0
   }
  ]
 }

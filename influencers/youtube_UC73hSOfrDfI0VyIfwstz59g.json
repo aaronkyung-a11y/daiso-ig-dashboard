@@ -3,14 +3,14 @@
  "username": "UC73hSOfrDfI0VyIfwstz59g",
  "fullname": "아서비",
  "profile_url": "https://www.youtube.com/channel/UC73hSOfrDfI0VyIfwstz59g",
- "followers": 11400,
- "engagement_rate": 0.0181,
- "avg_likes": 493.1,
- "avg_comments": 18.1,
- "avg_views": 27276.8,
+ "followers": 11500,
+ "engagement_rate": 0.0178,
+ "avg_likes": 704.9,
+ "avg_comments": 33.4,
+ "avg_views": 39700.5,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 24,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
@@ -20,22 +20,23 @@
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UC73hSOfrDfI0VyIfwstz59g",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
-  "er": 60,
+  "er_score": 60,
   "brand_fit": 90,
   "consistency": 100,
-  "followers": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 80,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:24:52+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-17T10:11:50+09:00",
@@ -131,6 +132,16 @@
    "engagement_rate": 0.0201,
    "evaluated_at": "2026-09-07T11:13:33+09:00",
    "followers": 11300,
+   "grade": "A",
+   "posts_last_30d": 12,
+   "retailer_focus": "beauty_general",
+   "score_total": 75.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0181,
+   "evaluated_at": "2026-09-09T10:24:52+09:00",
+   "followers": 11400,
    "grade": "A",
    "posts_last_30d": 12,
    "retailer_focus": "beauty_general",

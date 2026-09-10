@@ -3,10 +3,10 @@
  "username": "doing_now_insta",
  "fullname": "두나 | 이슈•꿀팁•뷰티",
  "profile_url": "https://www.instagram.com/doing_now_insta/",
- "followers": 19050,
- "engagement_rate": 0.022561,
- "avg_likes": 408.67,
- "avg_comments": 21.11,
+ "followers": 19100,
+ "engagement_rate": 0.023566,
+ "avg_likes": 427.11,
+ "avg_comments": 23.0,
  "avg_views": 0,
  "posts_last_30d": 9,
  "_posts_last_30d_est": true,
@@ -26,7 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-09 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
+ "sample_note": "IG 로그인 실측(2026-09-10 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건, media/info API 실측 9/9건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
  "score_total": 65.0,
  "grade": "B",
  "score_breakdown": {
@@ -36,18 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-09T11:10:21+09:00",
+ "evaluated_at": "2026-09-10T10:45:11+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
-   "followers": 19542,
-   "engagement_rate": 0.0715,
-   "posts_last_30d": 21,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 90.5,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
    "followers": 20000,
@@ -302,6 +292,16 @@
    "posts_last_30d": 9,
    "retailer_focus": "olive_young",
    "score_total": 56.2
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.022561,
+   "evaluated_at": "2026-09-09T11:10:21+09:00",
+   "followers": 19050,
+   "note": null,
+   "posts_last_30d": 9,
+   "retailer_focus": "olive_young",
+   "score_total": 65.0
   }
  ]
 }

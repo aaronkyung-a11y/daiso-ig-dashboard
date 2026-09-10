@@ -4,13 +4,13 @@
  "fullname": "율리 YULRI",
  "profile_url": "https://www.youtube.com/channel/UCiULanlNBXuMkaP9OiZWgYQ",
  "followers": 425000,
- "engagement_rate": 0.0124,
- "avg_likes": 797.9,
- "avg_comments": 42.2,
- "avg_views": 64521.5,
- "posts_last_30d": 13,
+ "engagement_rate": 0.0118,
+ "avg_likes": 908.5,
+ "avg_comments": 72.7,
+ "avg_views": 77276.2,
+ "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 13,
+ "sample_size": 24,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
@@ -20,22 +20,23 @@
   "labrang_present": true
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 13개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:13/13 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCiULanlNBXuMkaP9OiZWgYQ",
  "score_total": 80.0,
  "grade": "A",
  "score_breakdown": {
-  "er": 60,
+  "er_score": 60,
   "brand_fit": 100,
   "consistency": 100,
-  "followers": 100,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 100,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:35:41+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -123,6 +124,16 @@
    "followers": 425000,
    "grade": "A",
    "posts_last_30d": 12,
+   "retailer_focus": "our_brand",
+   "score_total": 80.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0124,
+   "evaluated_at": "2026-09-09T10:35:41+09:00",
+   "followers": 425000,
+   "grade": "A",
+   "posts_last_30d": 13,
    "retailer_focus": "our_brand",
    "score_total": 80.0
   }

@@ -3,16 +3,16 @@
  "username": "haeriporter",
  "fullname": "해리포터🖤",
  "profile_url": "https://www.instagram.com/haeriporter/",
- "followers": 733792,
- "engagement_rate": 0.029285,
- "avg_likes": 21216.33,
- "avg_comments": 272.44,
- "avg_views": 1761738,
- "posts_last_30d": 9,
+ "followers": 733663,
+ "engagement_rate": 0.031978,
+ "avg_likes": 23179.92,
+ "avg_comments": 281.17,
+ "avg_views": 1884378,
+ "posts_last_30d": 8,
  "_posts_last_30d_est": false,
  "_likes_hidden": false,
  "_ig_logged_out": false,
- "sample_size": 9,
+ "sample_size": 12,
  "brand_fit_score": 60,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
@@ -26,31 +26,18 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "IG 로그인 실측(2026-09-09 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워.",
- "score_total": 67.0,
- "grade": "B",
+ "sample_note": "IG 로그인 실측(2026-09-10 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워.",
+ "score_total": 77.0,
+ "grade": "A",
  "score_breakdown": {
-  "er": 60,
+  "er": 80,
   "brand_fit": 60,
   "consistency": 80,
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-09T11:25:17+09:00",
+ "evaluated_at": "2026-09-10T10:45:11+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-04T09:24:56+09:00",
-   "followers": 718000,
-   "engagement_rate": 0.0086,
-   "avg_likes": 6015.33,
-   "avg_comments": 142.33,
-   "sample_size": 3,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "grade": "D",
-   "score_total": 45.2,
-   "posts_last_30d": 3
-  },
   {
    "evaluated_at": "2026-04-30T14:58:26+09:00",
    "followers": 718000,
@@ -310,6 +297,16 @@
    "posts_last_30d": 9,
    "retailer_focus": "beauty_general",
    "score_total": 77.0
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.029285,
+   "evaluated_at": "2026-09-09T11:25:17+09:00",
+   "followers": 733792,
+   "note": null,
+   "posts_last_30d": 9,
+   "retailer_focus": "beauty_general",
+   "score_total": 67.0
   }
  ]
 }

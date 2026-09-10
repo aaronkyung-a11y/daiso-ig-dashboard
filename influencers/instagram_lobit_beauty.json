@@ -3,11 +3,11 @@
  "username": "lobit_beauty",
  "fullname": "로빗 lobit🐰🫧",
  "profile_url": "https://www.instagram.com/lobit_beauty/",
- "followers": 17611,
- "engagement_rate": 0.054678,
- "avg_likes": 934.1,
- "avg_comments": 28.83,
- "avg_views": 70637.33,
+ "followers": 17619,
+ "engagement_rate": 0.055452,
+ "avg_likes": 948.1,
+ "avg_comments": 28.92,
+ "avg_views": 71679,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "_likes_hidden": true,
@@ -26,7 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-09 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정. ★ 좋아요 비공개(like_and_view_counts_disabled) 2/12건 — 해당 건은 좋아요 평균에서 제외, ER 하한값(추정).",
+ "sample_note": "IG 로그인 실측(2026-09-10 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ 좋아요 비공개 2/12건 — 해당 건 좋아요 평균에서 제외, ER은 댓글 기반 하한값(추정). ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
  "score_total": 93.0,
  "grade": "S",
  "score_breakdown": {
@@ -36,21 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-09T11:34:23+09:00",
+ "evaluated_at": "2026-09-10T10:45:11+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-01T17:04:00+09:00",
-   "followers": 9744,
-   "engagement_rate": 0.7487,
-   "avg_likes": 7252.4,
-   "avg_comments": 43.29,
-   "sample_size": 7,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "grade": "S",
-   "score_total": 90.5,
-   "posts_last_30d": null
-  },
   {
    "evaluated_at": "2026-04-30T13:58:42+09:00",
    "sample_size": 3,
@@ -308,6 +295,16 @@
    "posts_last_30d": 12,
    "retailer_focus": "our_brand",
    "score_total": 88.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.054678,
+   "evaluated_at": "2026-09-09T11:34:23+09:00",
+   "followers": 17611,
+   "note": null,
+   "posts_last_30d": 12,
+   "retailer_focus": "our_brand",
+   "score_total": 93.0
   }
  ]
 }

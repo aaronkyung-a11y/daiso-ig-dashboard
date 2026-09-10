@@ -5,9 +5,9 @@
  "profile_url": "https://www.youtube.com/channel/UCAThGewvLVT5fW8utNfrawA",
  "followers": 813000,
  "engagement_rate": 0.0,
- "avg_likes": 0.0,
+ "avg_likes": 0,
  "avg_comments": 2.0,
- "avg_views": 148789.8,
+ "avg_views": 136408.8,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -20,30 +20,24 @@
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": true
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "추정(스캔창 상한)",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "측정불가(0 처리)"
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:0/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:0/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ 좋아요 비공개 채널 — ER 측정 불가(0 처리) | ★ posts_last_30d는 스캔창 상한에 걸린 하한값(추정)",
  "channel_id": "UCAThGewvLVT5fW8utNfrawA",
  "score_total": 51.2,
  "grade": "C",
  "score_breakdown": {
-  "er": 40,
+  "er_score": 40,
   "brand_fit": 25,
   "consistency": 100,
-  "followers": 100,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 100,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:40:11+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-14T17:10:31+09:00",
-   "score_total": 51.25,
-   "engagement_rate": 0.0,
-   "followers": 579000,
-   "posts_last_30d": 18
-  },
   {
    "evaluated_at": "2026-05-14T17:10:31+09:00",
    "score_total": 51.25,
@@ -299,6 +293,16 @@
    "posts_last_30d": 12,
    "retailer_focus": "off_topic",
    "score_total": 71.2
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0,
+   "evaluated_at": "2026-09-09T10:40:11+09:00",
+   "followers": 813000,
+   "grade": "C",
+   "posts_last_30d": 12,
+   "retailer_focus": "off_topic",
+   "score_total": 51.2
   }
  ]
 }

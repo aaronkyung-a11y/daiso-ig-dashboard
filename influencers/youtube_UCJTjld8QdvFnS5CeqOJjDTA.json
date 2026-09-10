@@ -4,38 +4,39 @@
  "fullname": "한국 사는 외국인들 ",
  "profile_url": "https://www.youtube.com/channel/UCJTjld8QdvFnS5CeqOJjDTA",
  "followers": 95100,
- "engagement_rate": 0.0187,
- "avg_likes": 277.4,
- "avg_comments": 18.8,
- "avg_views": 14873.8,
- "posts_last_30d": 10,
+ "engagement_rate": 0.0248,
+ "avg_likes": 505.3,
+ "avg_comments": 28.3,
+ "avg_views": 20400.1,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 10,
- "brand_fit_score": 60,
- "retailer_focus": "beauty_general",
+ "sample_size": 23,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "0건",
+  "daiso_mentions": "12건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "2건",
+  "beauty_keywords": "15건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 10개 [videos:11+shorts:12] meta_ok:23/23 likes_ok:10/10 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:23 likes_ok:23/23 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCJTjld8QdvFnS5CeqOJjDTA",
- "score_total": 68.0,
+ "score_total": 72.5,
  "grade": "B",
  "score_breakdown": {
-  "er": 60,
-  "brand_fit": 60,
-  "consistency": 100,
-  "followers": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "er_score": 60,
+  "brand_fit": 90,
+  "consistency": 80,
+  "follower_scale": 80,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:27:53+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -125,6 +126,16 @@
    "posts_last_30d": 9,
    "retailer_focus": "daiso",
    "score_total": 65.0
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.0187,
+   "evaluated_at": "2026-09-09T10:27:53+09:00",
+   "followers": 95100,
+   "grade": "B",
+   "posts_last_30d": 10,
+   "retailer_focus": "beauty_general",
+   "score_total": 68.0
   }
  ]
 }

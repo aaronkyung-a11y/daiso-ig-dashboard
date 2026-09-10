@@ -4,49 +4,40 @@
  "fullname": "리뷰밍밍",
  "profile_url": "https://www.youtube.com/channel/UCFuMPPmNvRAVIqYlAO5v_vg",
  "followers": 14700,
- "engagement_rate": 0.0062,
- "avg_likes": 225.7,
- "avg_comments": 2.1,
- "avg_views": 36595.6,
+ "engagement_rate": 0.0063,
+ "avg_likes": 228.9,
+ "avg_comments": 2.2,
+ "avg_views": 36179.6,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "21건",
+  "daiso_mentions": "17건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "14건",
+  "beauty_keywords": "11건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": true
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "추정(스캔창 상한)",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ posts_last_30d는 스캔창 상한에 걸린 하한값(추정)",
  "channel_id": "UCFuMPPmNvRAVIqYlAO5v_vg",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
-  "er": 40,
+  "er_score": 40,
   "brand_fit": 90,
   "consistency": 100,
-  "followers": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 80,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:24:52+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-19T10:21:33.475649+09:00",
-   "followers": 14200,
-   "engagement_rate": 0.0094,
-   "posts_last_30d": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 65.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-17T10:34:43.863653+09:00",
    "followers": 14100,
@@ -299,6 +290,16 @@
    "engagement_rate": 0.0061,
    "evaluated_at": "2026-09-07T11:03:11+09:00",
    "followers": 14600,
+   "grade": "B",
+   "posts_last_30d": 12,
+   "retailer_focus": "daiso",
+   "score_total": 65.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0062,
+   "evaluated_at": "2026-09-09T10:24:52+09:00",
+   "followers": 14700,
    "grade": "B",
    "posts_last_30d": 12,
    "retailer_focus": "daiso",

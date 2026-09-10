@@ -4,13 +4,13 @@
  "fullname": "일돈나",
  "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
  "followers": 1290,
- "engagement_rate": 0.0148,
- "avg_likes": 54.0,
- "avg_comments": 1.0,
- "avg_views": 3641.0,
+ "engagement_rate": 0.0136,
+ "avg_likes": 75.8,
+ "avg_comments": 2.2,
+ "avg_views": 5589.1,
  "posts_last_30d": 2,
  "_posts_last_30d_est": false,
- "sample_size": 2,
+ "sample_size": 12,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
@@ -20,33 +20,24 @@
   "labrang_present": true
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 2개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:2/2 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
  "score_total": 70.0,
  "grade": "B",
  "score_breakdown": {
-  "er": 60,
+  "er_score": 60,
   "brand_fit": 100,
   "consistency": 60,
-  "followers": 60,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 60,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:35:41+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:37:09.720708+09:00",
-   "followers": 1280,
-   "engagement_rate": 0.0158,
-   "posts_last_30d": 3,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 70.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-16T10:27:36.909693+09:00",
    "followers": 1280,
@@ -299,6 +290,16 @@
    "followers": 1290,
    "grade": "B",
    "posts_last_30d": 3,
+   "retailer_focus": "our_brand",
+   "score_total": 70.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0148,
+   "evaluated_at": "2026-09-09T10:35:41+09:00",
+   "followers": 1290,
+   "grade": "B",
+   "posts_last_30d": 2,
    "retailer_focus": "our_brand",
    "score_total": 70.0
   }

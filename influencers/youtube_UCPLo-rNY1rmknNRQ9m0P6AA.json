@@ -4,38 +4,39 @@
  "fullname": "서록 seorok",
  "profile_url": "https://www.youtube.com/channel/UCPLo-rNY1rmknNRQ9m0P6AA",
  "followers": 50400,
- "engagement_rate": 0.0027,
- "avg_likes": 230.9,
- "avg_comments": 12.4,
- "avg_views": 85067.4,
- "posts_last_30d": 16,
+ "engagement_rate": 0.0035,
+ "avg_likes": 221.0,
+ "avg_comments": 12.7,
+ "avg_views": 63911.5,
+ "posts_last_30d": 17,
  "_posts_last_30d_est": false,
- "sample_size": 16,
- "brand_fit_score": 60,
- "retailer_focus": "olive_young",
+ "sample_size": 24,
+ "brand_fit_score": 90,
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "0건",
-  "olive_young_mentions": "2건",
-  "beauty_keywords": "1건",
+  "daiso_mentions": "13건",
+  "olive_young_mentions": "8건",
+  "beauty_keywords": "12건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 16개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:16/16 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCPLo-rNY1rmknNRQ9m0P6AA",
- "score_total": 58.0,
- "grade": "C",
+ "score_total": 65.5,
+ "grade": "B",
  "score_breakdown": {
-  "er": 40,
-  "brand_fit": 60,
+  "er_score": 40,
+  "brand_fit": 90,
   "consistency": 100,
-  "followers": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 80,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:30:00+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -83,6 +84,16 @@
    "grade": "C",
    "posts_last_30d": 16,
    "retailer_focus": "daiso",
+   "score_total": 58.0
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.0027,
+   "evaluated_at": "2026-09-09T10:30:00+09:00",
+   "followers": 50400,
+   "grade": "C",
+   "posts_last_30d": 16,
+   "retailer_focus": "olive_young",
    "score_total": 58.0
   }
  ]

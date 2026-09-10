@@ -4,10 +4,10 @@
  "fullname": "집남편",
  "profile_url": "https://www.youtube.com/channel/UCU0ujFi0aIM6G5iDIPUY40w",
  "followers": 10700,
- "engagement_rate": 0.0071,
- "avg_likes": 122.7,
- "avg_comments": 1.3,
- "avg_views": 17161.0,
+ "engagement_rate": 0.0069,
+ "avg_likes": 128.9,
+ "avg_comments": 1.4,
+ "avg_views": 18691.5,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -20,22 +20,23 @@
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": true
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "추정(스캔창 상한)",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ posts_last_30d는 스캔창 상한에 걸린 하한값(추정)",
  "channel_id": "UCU0ujFi0aIM6G5iDIPUY40w",
  "score_total": 58.0,
  "grade": "C",
  "score_breakdown": {
-  "er": 40,
+  "er_score": 40,
   "brand_fit": 60,
   "consistency": 100,
-  "followers": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 80,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:30:00+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:28:44+09:00",
@@ -141,6 +142,16 @@
    "brand_fit_score": 60,
    "engagement_rate": 0.007,
    "evaluated_at": "2026-09-07T11:10:58+09:00",
+   "followers": 10700,
+   "grade": "C",
+   "posts_last_30d": 12,
+   "retailer_focus": "daiso",
+   "score_total": 58.0
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.0071,
+   "evaluated_at": "2026-09-09T10:30:00+09:00",
    "followers": 10700,
    "grade": "C",
    "posts_last_30d": 12,

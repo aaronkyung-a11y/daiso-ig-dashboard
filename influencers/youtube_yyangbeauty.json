@@ -4,10 +4,10 @@
  "fullname": "양뷰",
  "profile_url": "https://www.youtube.com/channel/UCvqdSTuGXEUQPeEJPQHy9yA",
  "followers": 25100,
- "engagement_rate": 0.016,
- "avg_likes": 299.2,
- "avg_comments": 18.1,
- "avg_views": 18692.5,
+ "engagement_rate": 0.017,
+ "avg_likes": 246.7,
+ "avg_comments": 17.1,
+ "avg_views": 14520.7,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -16,31 +16,42 @@
  "retailer_signal": {
   "daiso_mentions": "10건",
   "olive_young_mentions": "24건",
-  "beauty_keywords": "39건",
+  "beauty_keywords": "38건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": true
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "추정(스캔창 상한)",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 12개 [videos:0+shorts:12] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정 | 동일 channel_id 중복 파일 동시 갱신(dedup pair 2건) | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ posts_last_30d는 스캔창 상한에 걸린 하한값(추정) | 동일 channel_id 중복 파일 동시 갱신(dedup 2건)",
  "channel_id": "UCvqdSTuGXEUQPeEJPQHy9yA",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
-  "er": 60,
+  "er_score": 60,
   "brand_fit": 90,
   "consistency": 100,
-  "followers": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 80,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:38:32+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
   {
    "brand_fit_score": 90,
    "engagement_rate": 0.0156,
    "evaluated_at": "2026-09-07T11:00:45+09:00",
+   "followers": 25100,
+   "grade": "A",
+   "posts_last_30d": 12,
+   "retailer_focus": "olive_young",
+   "score_total": 75.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.016,
+   "evaluated_at": "2026-09-09T10:38:32+09:00",
    "followers": 25100,
    "grade": "A",
    "posts_last_30d": 12,

@@ -1,41 +1,42 @@
 {
  "platform": "youtube",
  "username": "UCxthUNFu-GWQZ0YE9AnIetg",
- "fullname": "집 팔아 화장품 사는 깡나",
+ "fullname": "Kangna TV",
  "profile_url": "https://www.youtube.com/channel/UCxthUNFu-GWQZ0YE9AnIetg",
  "followers": 165000,
- "engagement_rate": 0.0099,
- "avg_likes": 1860.0,
- "avg_comments": 52.4,
- "avg_views": 188652.4,
+ "engagement_rate": 0.0048,
+ "avg_likes": 676.4,
+ "avg_comments": 46.7,
+ "avg_views": 142045.2,
  "posts_last_30d": 5,
  "_posts_last_30d_est": false,
- "sample_size": 5,
+ "sample_size": 24,
  "brand_fit_score": 90,
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "9건",
-  "beauty_keywords": "34건",
+  "olive_young_mentions": "2건",
+  "beauty_keywords": "15건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 5개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:5/5 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCxthUNFu-GWQZ0YE9AnIetg",
  "score_total": 64.5,
  "grade": "C",
  "score_breakdown": {
-  "er": 40,
+  "er_score": 40,
   "brand_fit": 90,
   "consistency": 80,
-  "followers": 100,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 100,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:38:32+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-17T10:19:05+09:00",
@@ -123,6 +124,16 @@
    "followers": 165000,
    "grade": "C",
    "posts_last_30d": 6,
+   "retailer_focus": "olive_young",
+   "score_total": 64.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0099,
+   "evaluated_at": "2026-09-09T10:38:32+09:00",
+   "followers": 165000,
+   "grade": "C",
+   "posts_last_30d": 5,
    "retailer_focus": "olive_young",
    "score_total": 64.5
   }

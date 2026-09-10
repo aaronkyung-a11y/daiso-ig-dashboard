@@ -3,50 +3,41 @@
  "username": "UCbDEpKYIxpFJwrqOatkv9tA",
  "fullname": "서로디 lody",
  "profile_url": "https://www.youtube.com/channel/UCbDEpKYIxpFJwrqOatkv9tA",
- "followers": 3290,
- "engagement_rate": 0.0097,
- "avg_likes": 194.3,
- "avg_comments": 5.8,
- "avg_views": 19971.3,
+ "followers": 3300,
+ "engagement_rate": 0.0115,
+ "avg_likes": 215.9,
+ "avg_comments": 7.9,
+ "avg_views": 18816.6,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 12,
- "brand_fit_score": 25,
+ "sample_size": 15,
+ "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "2건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "0건",
+  "beauty_keywords": "18건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 12개 [videos:3+shorts:12] meta_ok:15/15 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:15 likes_ok:15/15 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCbDEpKYIxpFJwrqOatkv9tA",
- "score_total": 47.2,
- "grade": "D",
+ "score_total": 73.5,
+ "grade": "B",
  "score_breakdown": {
-  "er": 40,
-  "brand_fit": 25,
+  "er_score": 60,
+  "brand_fit": 90,
   "consistency": 100,
-  "followers": 60,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 60,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:32:50+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:28:23.576898+09:00",
-   "followers": 1060,
-   "engagement_rate": 0.0273,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.2,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-06-16T10:26:49.399610+09:00",
    "followers": 1060,
@@ -297,6 +288,16 @@
    "posts_last_30d": 12,
    "retailer_focus": "daiso",
    "score_total": 57.2
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0097,
+   "evaluated_at": "2026-09-09T10:32:50+09:00",
+   "followers": 3290,
+   "grade": "D",
+   "posts_last_30d": 12,
+   "retailer_focus": "daiso",
+   "score_total": 47.2
   }
  ]
 }

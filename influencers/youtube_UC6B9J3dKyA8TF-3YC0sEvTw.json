@@ -4,38 +4,39 @@
  "fullname": "탈모박사 조선행",
  "profile_url": "https://www.youtube.com/channel/UC6B9J3dKyA8TF-3YC0sEvTw",
  "followers": 26000,
- "engagement_rate": 0.0213,
- "avg_likes": 1621.8,
- "avg_comments": 62.6,
- "avg_views": 76309.9,
+ "engagement_rate": 0.021,
+ "avg_likes": 1365.3,
+ "avg_comments": 58.8,
+ "avg_views": 64992.3,
  "posts_last_30d": 0,
- "_posts_last_30d_est": true,
- "sample_size": 20,
- "brand_fit_score": 60,
+ "_posts_last_30d_est": false,
+ "sample_size": 24,
+ "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "17건",
-  "olive_young_mentions": "1건",
-  "beauty_keywords": "1건",
+  "daiso_mentions": "27건",
+  "olive_young_mentions": "3건",
+  "beauty_keywords": "8건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": true
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 0개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:20/20 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 30일내 영상 0건 → 최근 영상으로 대체 산출(ER은 실측, posts_30d=0)",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UC6B9J3dKyA8TF-3YC0sEvTw",
- "score_total": 59.0,
- "grade": "C",
+ "score_total": 66.5,
+ "grade": "B",
  "score_breakdown": {
-  "er": 60,
-  "brand_fit": 60,
+  "er_score": 60,
+  "brand_fit": 90,
   "consistency": 40,
-  "followers": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 80,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:24:52+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:23:10+09:00",
@@ -146,6 +147,16 @@
    "posts_last_30d": 1,
    "retailer_focus": "daiso",
    "score_total": 49.0
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.0213,
+   "evaluated_at": "2026-09-09T10:24:52+09:00",
+   "followers": 26000,
+   "grade": "C",
+   "posts_last_30d": 0,
+   "retailer_focus": "daiso",
+   "score_total": 59.0
   }
  ]
 }

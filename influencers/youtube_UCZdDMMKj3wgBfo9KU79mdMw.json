@@ -3,14 +3,14 @@
  "username": "UCZdDMMKj3wgBfo9KU79mdMw",
  "fullname": "ぼっちの内科医",
  "profile_url": "https://www.youtube.com/channel/UCZdDMMKj3wgBfo9KU79mdMw",
- "followers": 8410,
- "engagement_rate": 0.0055,
- "avg_likes": 147.2,
- "avg_comments": 9.0,
- "avg_views": 26701.9,
+ "followers": 8420,
+ "engagement_rate": 0.0299,
+ "avg_likes": 120.8,
+ "avg_comments": 7.7,
+ "avg_views": 4046.9,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 13,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,33 +20,24 @@
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 12개 [videos:1+shorts:12] meta_ok:13/13 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:13 likes_ok:13/13 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCZdDMMKj3wgBfo9KU79mdMw",
- "score_total": 47.2,
- "grade": "D",
+ "score_total": 57.2,
+ "grade": "C",
  "score_breakdown": {
-  "er": 40,
+  "er_score": 60,
   "brand_fit": 25,
   "consistency": 100,
-  "followers": 60,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 60,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:32:50+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:28:23.576898+09:00",
-   "followers": 7650,
-   "engagement_rate": 0.0157,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.2,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-06-16T10:26:03.524365+09:00",
    "followers": 7650,
@@ -292,6 +283,16 @@
    "brand_fit_score": 25,
    "engagement_rate": 0.0064,
    "evaluated_at": "2026-09-07T11:05:47+09:00",
+   "followers": 8410,
+   "grade": "D",
+   "posts_last_30d": 12,
+   "retailer_focus": "off_topic",
+   "score_total": 47.2
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0055,
+   "evaluated_at": "2026-09-09T10:32:50+09:00",
    "followers": 8410,
    "grade": "D",
    "posts_last_30d": 12,

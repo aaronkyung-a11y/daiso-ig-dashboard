@@ -3,10 +3,10 @@
  "username": "jangsu_note",
  "fullname": "장수노트",
  "profile_url": "https://www.instagram.com/jangsu_note/",
- "followers": 18327,
- "engagement_rate": 0.013391,
- "avg_likes": 36.92,
- "avg_comments": 208.5,
+ "followers": 18322,
+ "engagement_rate": 0.013536,
+ "avg_likes": 37.5,
+ "avg_comments": 210.5,
  "avg_views": 0,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
@@ -26,7 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-09 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
+ "sample_note": "IG 로그인 실측(2026-09-10 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
  "score_total": 75.5,
  "grade": "A",
  "score_breakdown": {
@@ -36,18 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-09T10:45:18+09:00",
+ "evaluated_at": "2026-09-10T10:45:11+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-04-30T13:58:42+09:00",
-   "followers": 8956,
-   "engagement_rate": 0.3596,
-   "score_total": 93.0,
-   "grade": "S",
-   "sample_size": 8,
-   "avg_likes": 3184,
-   "avg_comments": 37
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "score_total": 85.5,
@@ -298,6 +288,16 @@
    "evaluated_at": "2026-09-07T10:58:30+09:00",
    "followers": 18332,
    "grade": "A",
+   "posts_last_30d": 12,
+   "retailer_focus": "daiso",
+   "score_total": 75.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.013391,
+   "evaluated_at": "2026-09-09T10:45:18+09:00",
+   "followers": 18327,
+   "note": null,
    "posts_last_30d": 12,
    "retailer_focus": "daiso",
    "score_total": 75.5

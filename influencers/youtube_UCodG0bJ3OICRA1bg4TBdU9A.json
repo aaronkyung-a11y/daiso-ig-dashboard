@@ -4,49 +4,40 @@
  "fullname": "피부트래블러",
  "profile_url": "https://www.youtube.com/channel/UCodG0bJ3OICRA1bg4TBdU9A",
  "followers": 134000,
- "engagement_rate": 0.0058,
- "avg_likes": 4.9,
- "avg_comments": 2.0,
- "avg_views": 847.3,
+ "engagement_rate": 0.013,
+ "avg_likes": 9.1,
+ "avg_comments": 4.0,
+ "avg_views": 701.8,
  "posts_last_30d": 14,
  "_posts_last_30d_est": false,
- "sample_size": 14,
+ "sample_size": 24,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "14건",
+  "beauty_keywords": "19건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 14개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/14 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:22/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCodG0bJ3OICRA1bg4TBdU9A",
- "score_total": 67.5,
- "grade": "B",
+ "score_total": 77.5,
+ "grade": "A",
  "score_breakdown": {
-  "er": 40,
+  "er_score": 60,
   "brand_fit": 90,
   "consistency": 100,
-  "followers": 100,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 100,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:35:41+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 135000,
-   "engagement_rate": 3.3724,
-   "posts_last_30d": 3,
-   "brand_fit_score": 90,
-   "score_total": 81.5,
-   "grade": "A",
-   "note": "STEP B light refresh"
-  },
   {
    "evaluated_at": "2026-05-19T10:18:09+09:00",
    "followers": 135000,
@@ -298,6 +289,16 @@
    "brand_fit_score": 90,
    "engagement_rate": 0.0066,
    "evaluated_at": "2026-09-07T11:03:11+09:00",
+   "followers": 134000,
+   "grade": "B",
+   "posts_last_30d": 14,
+   "retailer_focus": "beauty_general",
+   "score_total": 67.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0058,
+   "evaluated_at": "2026-09-09T10:35:41+09:00",
    "followers": 134000,
    "grade": "B",
    "posts_last_30d": 14,

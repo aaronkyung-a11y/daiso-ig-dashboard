@@ -3,11 +3,11 @@
  "username": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
  "fullname": "centralgrocery 중앙식품점",
  "profile_url": "https://www.youtube.com/channel/UCSJBRrUKLZ3QRQsw3cE9Oyw",
- "followers": 22400,
- "engagement_rate": 0.0109,
- "avg_likes": 133.3,
- "avg_comments": 35.5,
- "avg_views": 12243.0,
+ "followers": 22500,
+ "engagement_rate": 0.0111,
+ "avg_likes": 131.9,
+ "avg_comments": 36.3,
+ "avg_views": 11898.7,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "sample_size": 12,
@@ -20,22 +20,23 @@
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": true
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "추정(스캔창 상한)",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | posts_last_30d는 스캔창(12건) 상한에 걸린 하한값 — 추정",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ posts_last_30d는 스캔창 상한에 걸린 하한값(추정)",
  "channel_id": "UCSJBRrUKLZ3QRQsw3cE9Oyw",
  "score_total": 59.2,
  "grade": "C",
  "score_breakdown": {
-  "er": 60,
+  "er_score": 60,
   "brand_fit": 25,
   "consistency": 100,
-  "followers": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 80,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:30:00+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:23:07+09:00",
@@ -146,6 +147,16 @@
    "posts_last_30d": 12,
    "retailer_focus": "beauty_general",
    "score_total": 68.0
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0109,
+   "evaluated_at": "2026-09-09T10:30:00+09:00",
+   "followers": 22400,
+   "grade": "C",
+   "posts_last_30d": 12,
+   "retailer_focus": "off_topic",
+   "score_total": 59.2
   }
  ]
 }

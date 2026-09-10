@@ -4,13 +4,13 @@
  "fullname": "리뷰하는 회사원",
  "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
  "followers": 606000,
- "engagement_rate": 0.0123,
- "avg_likes": 10537.7,
- "avg_comments": 331.3,
- "avg_views": 857784.6,
+ "engagement_rate": 0.011,
+ "avg_likes": 5963.0,
+ "avg_comments": 298.1,
+ "avg_views": 544308.1,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
- "sample_size": 12,
+ "sample_size": 24,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -20,33 +20,24 @@
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 12개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:12/12 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCGtY9qyrQqqPlkNqAwccjNQ",
  "score_total": 61.2,
  "grade": "C",
  "score_breakdown": {
-  "er": 60,
+  "er_score": 60,
   "brand_fit": 25,
   "consistency": 100,
-  "followers": 100,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 100,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:24:52+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 25400,
-   "engagement_rate": 2.3751,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "score_total": 50.2,
-   "grade": "C",
-   "note": "STEP B light refresh"
-  },
   {
    "evaluated_at": "2026-05-19T10:18:09+09:00",
    "followers": 25400,
@@ -298,6 +289,16 @@
    "brand_fit_score": 25,
    "engagement_rate": 0.0126,
    "evaluated_at": "2026-09-07T11:00:45+09:00",
+   "followers": 606000,
+   "grade": "C",
+   "posts_last_30d": 12,
+   "retailer_focus": "off_topic",
+   "score_total": 61.2
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0123,
+   "evaluated_at": "2026-09-09T10:24:52+09:00",
    "followers": 606000,
    "grade": "C",
    "posts_last_30d": 12,

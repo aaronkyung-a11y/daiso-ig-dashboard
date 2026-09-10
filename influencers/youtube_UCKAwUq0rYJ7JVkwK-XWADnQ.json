@@ -4,48 +4,40 @@
  "fullname": "박지윤의 피부 설명서",
  "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ",
  "followers": 54700,
- "engagement_rate": 0.0102,
- "avg_likes": 101.0,
- "avg_comments": 3.8,
- "avg_views": 9929.6,
+ "engagement_rate": 0.0114,
+ "avg_likes": 325.4,
+ "avg_comments": 8.5,
+ "avg_views": 28583.1,
  "posts_last_30d": 9,
  "_posts_last_30d_est": false,
- "sample_size": 9,
+ "sample_size": 24,
  "brand_fit_score": 90,
- "retailer_focus": "beauty_general",
+ "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "0건",
+  "daiso_mentions": "1건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "22건",
+  "beauty_keywords": "25건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 9개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:9/9 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCKAwUq0rYJ7JVkwK-XWADnQ",
  "score_total": 72.5,
  "grade": "B",
  "score_breakdown": {
-  "er": 60,
+  "er_score": 60,
   "brand_fit": 90,
   "consistency": 80,
-  "followers": 80,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 80,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:27:53+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 69.5,
-   "engagement_rate": 1.8955,
-   "followers": 49300,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso"
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "engagement_rate": 1.8955,
@@ -293,6 +285,16 @@
    "grade": "B",
    "posts_last_30d": 7,
    "retailer_focus": "olive_young",
+   "score_total": 72.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0102,
+   "evaluated_at": "2026-09-09T10:27:53+09:00",
+   "followers": 54700,
+   "grade": "B",
+   "posts_last_30d": 9,
+   "retailer_focus": "beauty_general",
    "score_total": 72.5
   }
  ]

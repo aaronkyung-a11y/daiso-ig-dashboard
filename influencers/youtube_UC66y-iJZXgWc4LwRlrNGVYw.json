@@ -4,13 +4,13 @@
  "fullname": "예쁜데 문제있나예",
  "profile_url": "https://www.youtube.com/channel/UC66y-iJZXgWc4LwRlrNGVYw",
  "followers": 3620,
- "engagement_rate": 0.0038,
- "avg_likes": 6.0,
- "avg_comments": 0.0,
- "avg_views": 1571.0,
+ "engagement_rate": 0.0166,
+ "avg_likes": 1754.9,
+ "avg_comments": 9.5,
+ "avg_views": 105712.4,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
- "sample_size": 1,
+ "sample_size": 21,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
@@ -20,36 +20,24 @@
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 1개 [videos:9+shorts:12] meta_ok:21/21 likes_ok:1/1 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:21 likes_ok:19/21 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UC66y-iJZXgWc4LwRlrNGVYw",
- "score_total": 54.5,
+ "score_total": 64.5,
  "grade": "C",
  "score_breakdown": {
-  "er": 40,
+  "er_score": 60,
   "brand_fit": 90,
   "consistency": 40,
-  "followers": 60,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 60,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:24:52+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-01T01:09:22.511409+00:00",
-   "score_total": 54.5,
-   "grade": "C",
-   "engagement_rate": 0.0097,
-   "followers": 3070,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "avg_views": 891,
-   "avg_likes": 9,
-   "sample_size": 6
-  },
   {
    "evaluated_at": "2026-06-04T10:22:41.384425+09:00",
    "score_total": 64.5,
@@ -299,6 +287,16 @@
    "posts_last_30d": 2,
    "retailer_focus": "off_topic",
    "score_total": 41.2
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0038,
+   "evaluated_at": "2026-09-09T10:24:52+09:00",
+   "followers": 3620,
+   "grade": "C",
+   "posts_last_30d": 1,
+   "retailer_focus": "beauty_general",
+   "score_total": 54.5
   }
  ]
 }

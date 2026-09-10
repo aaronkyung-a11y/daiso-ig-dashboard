@@ -4,38 +4,39 @@
  "fullname": "Hyram",
  "profile_url": "https://www.youtube.com/channel/UC2sYit3cZ2CuD_8FHYH7O_Q",
  "followers": 4340000,
- "engagement_rate": 0.0171,
- "avg_likes": 524.1,
- "avg_comments": 29.7,
- "avg_views": 30628.7,
+ "engagement_rate": 0.0083,
+ "avg_likes": 1573.0,
+ "avg_comments": 71.6,
+ "avg_views": 190517.0,
  "posts_last_30d": 7,
  "_posts_last_30d_est": false,
- "sample_size": 7,
+ "sample_size": 24,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "79건",
+  "beauty_keywords": "80건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 7개 [videos:12+shorts:12] meta_ok:24/24 likes_ok:7/7 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측 | 기본 로케일 메타데이터가 영어 자동번역으로 반환되어, 브랜드 적합도·retailer_focus는 한국어 로케일(lang=ko) 텍스트 재수집분으로 산출(통계값은 실측 그대로).",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UC2sYit3cZ2CuD_8FHYH7O_Q",
- "score_total": 74.5,
- "grade": "B",
+ "score_total": 64.5,
+ "grade": "C",
  "score_breakdown": {
-  "er": 60,
+  "er_score": 40,
   "brand_fit": 90,
   "consistency": 80,
-  "followers": 100,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 100,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:21:20+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-21T10:31:03+09:00",
@@ -131,6 +132,16 @@
    "brand_fit_score": 90,
    "engagement_rate": 0.0179,
    "evaluated_at": "2026-09-07T11:13:33+09:00",
+   "followers": 4340000,
+   "grade": "B",
+   "posts_last_30d": 7,
+   "retailer_focus": "beauty_general",
+   "score_total": 74.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0171,
+   "evaluated_at": "2026-09-09T10:21:20+09:00",
    "followers": 4340000,
    "grade": "B",
    "posts_last_30d": 7,

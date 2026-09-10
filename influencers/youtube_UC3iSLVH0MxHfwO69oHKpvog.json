@@ -3,39 +3,40 @@
  "username": "UC3iSLVH0MxHfwO69oHKpvog",
  "fullname": "리틀약사",
  "profile_url": "https://www.youtube.com/channel/UC3iSLVH0MxHfwO69oHKpvog",
- "followers": 649000,
- "engagement_rate": 0.005,
- "avg_likes": 196.0,
- "avg_comments": 16.2,
- "avg_views": 39297.3,
- "posts_last_30d": 9,
+ "followers": 653000,
+ "engagement_rate": 0.0059,
+ "avg_likes": 198.9,
+ "avg_comments": 18.4,
+ "avg_views": 33741.0,
+ "posts_last_30d": 8,
  "_posts_last_30d_est": false,
- "sample_size": 9,
+ "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "beauty_general",
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "14건",
+  "beauty_keywords": "15건",
   "labrang_present": false
  },
  "estimation_flags": {
-  "brand_fit_estimated": false,
-  "followers_estimated": false,
-  "posts_30d_estimated": false
+  "brand_fit_score": "추정(키워드 카운트 기반)",
+  "posts_last_30d": "실측",
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "YT 30일내 9개 [videos:12+shorts:0] meta_ok:12/12 likes_ok:9/9 | 2026-09-09 10:00 슬롯 STEP B 풀 재분석 실측",
+ "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UC3iSLVH0MxHfwO69oHKpvog",
  "score_total": 64.5,
  "grade": "C",
  "score_breakdown": {
-  "er": 40,
+  "er_score": 40,
   "brand_fit": 90,
   "consistency": 80,
-  "followers": 100,
-  "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
+  "follower_scale": 100,
+  "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-09T10:21:20+09:00",
+ "evaluated_at": "2026-09-10T10:33:58+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:14:59+09:00",
@@ -113,6 +114,16 @@
    "grade": "C",
    "posts_last_30d": 8,
    "retailer_focus": "daiso",
+   "score_total": 64.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.005,
+   "evaluated_at": "2026-09-09T10:21:20+09:00",
+   "followers": 649000,
+   "grade": "C",
+   "posts_last_30d": 9,
+   "retailer_focus": "beauty_general",
    "score_total": 64.5
   }
  ]
