@@ -4,18 +4,18 @@
  "fullname": "에이로그 뷰티&라이프💕",
  "profile_url": "https://www.youtube.com/channel/UC9RZHKBiLfNWb_1D25ajDdw",
  "followers": 112000,
- "engagement_rate": 0.0178,
- "avg_likes": 231.7,
- "avg_comments": 29.0,
- "avg_views": 13007.8,
+ "engagement_rate": 0.0177,
+ "avg_likes": 233.1,
+ "avg_comments": 28.8,
+ "avg_views": 13187.4,
  "posts_last_30d": 7,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "13건",
-  "olive_young_mentions": "2건",
+  "daiso_mentions": "10건",
+  "olive_young_mentions": "0건",
   "beauty_keywords": "9건",
   "labrang_present": false
  },
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UC9RZHKBiLfNWb_1D25ajDdw",
  "score_total": 74.5,
  "grade": "B",
@@ -36,7 +36,7 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:22:31+09:00",
@@ -157,6 +157,16 @@
    "posts_last_30d": 6,
    "retailer_focus": "daiso",
    "score_total": 64.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0178,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 112000,
+   "grade": "B",
+   "posts_last_30d": 7,
+   "retailer_focus": "daiso",
+   "score_total": 74.5
   }
  ]
 }

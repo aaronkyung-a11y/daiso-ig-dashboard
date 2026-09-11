@@ -6,7 +6,7 @@
  "followers": 22,
  "engagement_rate": 0.0098,
  "avg_likes": 49.0,
- "avg_comments": 6.0,
+ "avg_comments": 0.8,
  "avg_views": 5014.6,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:8 likes_ok:8/8 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:8 likes_ok:8/8 ER표본:8 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UCkCQe4QPcKCvB3PTzIWHn2g: This channel does not have a video",
  "channel_id": "UCkCQe4QPcKCvB3PTzIWHn2g",
  "score_total": 55.0,
  "grade": "C",
@@ -36,18 +36,8 @@
   "follower_scale": 40,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:27:36.909693+09:00",
-   "followers": 23,
-   "engagement_rate": 0.01,
-   "posts_last_30d": 1,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 65.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "score_total": 51.0,
@@ -295,6 +285,16 @@
    "brand_fit_score": 100,
    "engagement_rate": 0.0098,
    "evaluated_at": "2026-09-09T10:32:50+09:00",
+   "followers": 22,
+   "grade": "C",
+   "posts_last_30d": 0,
+   "retailer_focus": "our_brand",
+   "score_total": 55.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0098,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 22,
    "grade": "C",
    "posts_last_30d": 0,

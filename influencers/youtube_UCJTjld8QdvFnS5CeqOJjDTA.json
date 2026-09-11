@@ -4,19 +4,19 @@
  "fullname": "한국 사는 외국인들 ",
  "profile_url": "https://www.youtube.com/channel/UCJTjld8QdvFnS5CeqOJjDTA",
  "followers": 95100,
- "engagement_rate": 0.0248,
- "avg_likes": 505.3,
- "avg_comments": 28.3,
- "avg_views": 20400.1,
+ "engagement_rate": 0.0247,
+ "avg_likes": 506.2,
+ "avg_comments": 23.4,
+ "avg_views": 20534.9,
  "posts_last_30d": 9,
  "_posts_last_30d_est": false,
  "sample_size": 23,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "12건",
+  "daiso_mentions": "14건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "15건",
+  "beauty_keywords": "18건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:23 likes_ok:23/23 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:23 likes_ok:23/23 ER표본:23 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCJTjld8QdvFnS5CeqOJjDTA",
  "score_total": 72.5,
  "grade": "B",
@@ -36,7 +36,7 @@
   "follower_scale": 80,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -136,6 +136,16 @@
    "posts_last_30d": 10,
    "retailer_focus": "beauty_general",
    "score_total": 68.0
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0248,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 95100,
+   "grade": "B",
+   "posts_last_30d": 9,
+   "retailer_focus": "daiso",
+   "score_total": 72.5
   }
  ]
 }

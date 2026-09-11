@@ -4,19 +4,19 @@
  "fullname": "블루밍나나 Bloomingnana",
  "profile_url": "https://www.youtube.com/channel/UCwfipXEUgyhWaTNVYzp-gJA",
  "followers": 83300,
- "engagement_rate": 0.0086,
- "avg_likes": 315.6,
- "avg_comments": 31.0,
- "avg_views": 36767.0,
+ "engagement_rate": 0.0085,
+ "avg_likes": 318.0,
+ "avg_comments": 31.5,
+ "avg_views": 37457.5,
  "posts_last_30d": 16,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "41건",
+  "daiso_mentions": "49건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "14건",
+  "beauty_keywords": "13건",
   "labrang_present": true
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCwfipXEUgyhWaTNVYzp-gJA",
  "score_total": 68.0,
  "grade": "B",
@@ -36,7 +36,7 @@
   "follower_scale": 80,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:22:46+09:00",
@@ -152,6 +152,16 @@
    "brand_fit_score": 100,
    "engagement_rate": 0.0064,
    "evaluated_at": "2026-09-09T10:38:32+09:00",
+   "followers": 83300,
+   "grade": "B",
+   "posts_last_30d": 16,
+   "retailer_focus": "our_brand",
+   "score_total": 68.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0086,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 83300,
    "grade": "B",
    "posts_last_30d": 16,

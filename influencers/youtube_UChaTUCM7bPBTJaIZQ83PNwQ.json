@@ -4,10 +4,10 @@
  "fullname": "스완SWAN_현실남자관리",
  "profile_url": "https://www.youtube.com/channel/UChaTUCM7bPBTJaIZQ83PNwQ",
  "followers": 509000,
- "engagement_rate": 0.0096,
- "avg_likes": 923.6,
- "avg_comments": 182.6,
- "avg_views": 96326.8,
+ "engagement_rate": 0.0094,
+ "avg_likes": 941.6,
+ "avg_comments": 184.0,
+ "avg_views": 99664.8,
  "posts_last_30d": 20,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -16,7 +16,7 @@
  "retailer_signal": {
   "daiso_mentions": "1건",
   "olive_young_mentions": "17건",
-  "beauty_keywords": "50건",
+  "beauty_keywords": "40건",
   "labrang_present": true
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UChaTUCM7bPBTJaIZQ83PNwQ",
  "score_total": 70.0,
  "grade": "B",
@@ -36,18 +36,8 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-21T10:00:00+09:00",
-   "followers": 497000,
-   "engagement_rate": 0.0193,
-   "posts_last_30d": 8,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general",
-   "score_total": 67.0,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-05-26T10:17:00+09:00",
    "followers": 497000,
@@ -299,6 +289,16 @@
    "brand_fit_score": 100,
    "engagement_rate": 0.0094,
    "evaluated_at": "2026-09-09T10:35:41+09:00",
+   "followers": 509000,
+   "grade": "B",
+   "posts_last_30d": 20,
+   "retailer_focus": "our_brand",
+   "score_total": 70.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0096,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 509000,
    "grade": "B",
    "posts_last_30d": 20,

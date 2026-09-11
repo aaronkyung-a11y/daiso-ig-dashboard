@@ -4,10 +4,10 @@
  "fullname": "tibet brother",
  "profile_url": "https://www.youtube.com/channel/UCHjEdCXNYyvgWWcCZVTxWHA",
  "followers": 504000,
- "engagement_rate": 0.015,
- "avg_likes": 2340.5,
- "avg_comments": 110.4,
- "avg_views": 156133.1,
+ "engagement_rate": 0.0149,
+ "avg_likes": 2368.5,
+ "avg_comments": 111.1,
+ "avg_views": 159221.2,
  "posts_last_30d": 16,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -15,8 +15,8 @@
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "8건",
-  "beauty_keywords": "11건",
+  "olive_young_mentions": "27건",
+  "beauty_keywords": "103건",
   "labrang_present": true
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCHjEdCXNYyvgWWcCZVTxWHA",
  "score_total": 80.0,
  "grade": "A",
@@ -36,21 +36,8 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-01T01:09:49.688223+00:00",
-   "score_total": 77.5,
-   "grade": "A",
-   "engagement_rate": 0.0262,
-   "followers": 493000,
-   "posts_last_30d": 25,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "avg_views": 57694,
-   "avg_likes": 1514,
-   "sample_size": 6
-  },
   {
    "evaluated_at": "2026-06-04T10:23:22.856381+09:00",
    "score_total": 77.0,
@@ -302,6 +289,16 @@
    "posts_last_30d": 16,
    "retailer_focus": "our_brand",
    "score_total": 74.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.015,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 504000,
+   "grade": "A",
+   "posts_last_30d": 16,
+   "retailer_focus": "our_brand",
+   "score_total": 80.0
   }
  ]
 }

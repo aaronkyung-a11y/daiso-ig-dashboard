@@ -5,27 +5,27 @@
  "profile_url": "https://www.youtube.com/channel/UCXnovozlwbGRaHhR6fvG1XA",
  "followers": 811,
  "engagement_rate": 0.0,
- "avg_likes": 0,
+ "avg_likes": 0.0,
  "avg_comments": 8.8,
- "avg_views": 27629.6,
+ "avg_views": 27663.0,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "28건",
-  "olive_young_mentions": "2건",
-  "beauty_keywords": "17건",
+  "daiso_mentions": "72건",
+  "olive_young_mentions": "3건",
+  "beauty_keywords": "37건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_score": "추정(키워드 카운트 기반)",
   "posts_last_30d": "실측",
   "followers": "실측(yt-dlp channel_follower_count)",
-  "engagement_rate": "측정불가(0 처리)"
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:0/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ 좋아요 비공개 채널 — ER 측정 불가(0 처리)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:0/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UCXnovozlwbGRaHhR6fvG1XA: This channel does not have a video",
  "channel_id": "UCXnovozlwbGRaHhR6fvG1XA",
  "score_total": 52.5,
  "grade": "C",
@@ -36,18 +36,8 @@
   "follower_scale": 40,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
-   "followers": 100,
-   "engagement_rate": 0.0,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 52.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "score_total": 52.5,
@@ -301,6 +291,16 @@
    "posts_last_30d": 1,
    "retailer_focus": "daiso",
    "score_total": 48.8
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 811,
+   "grade": "C",
+   "posts_last_30d": 1,
+   "retailer_focus": "daiso",
+   "score_total": 52.5
   }
  ]
 }

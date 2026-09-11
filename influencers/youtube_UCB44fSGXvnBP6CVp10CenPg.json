@@ -5,9 +5,9 @@
  "profile_url": "https://www.youtube.com/channel/UCB44fSGXvnBP6CVp10CenPg",
  "followers": 127000,
  "engagement_rate": 0.0,
- "avg_likes": 0,
- "avg_comments": 62.4,
- "avg_views": 46425.6,
+ "avg_likes": 0.0,
+ "avg_comments": 64.6,
+ "avg_views": 47482.2,
  "posts_last_30d": 17,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -23,9 +23,9 @@
   "brand_fit_score": "추정(키워드 카운트 기반)",
   "posts_last_30d": "실측",
   "followers": "실측(yt-dlp channel_follower_count)",
-  "engagement_rate": "측정불가(0 처리)"
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:0/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ 좋아요 비공개 채널 — ER 측정 불가(0 처리)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:0/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCB44fSGXvnBP6CVp10CenPg",
  "score_total": 70.0,
  "grade": "B",
@@ -36,7 +36,7 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-24T10:11:12+09:00",
@@ -123,6 +123,16 @@
    "followers": 127000,
    "grade": "B",
    "posts_last_30d": 16,
+   "retailer_focus": "our_brand",
+   "score_total": 70.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 127000,
+   "grade": "B",
+   "posts_last_30d": 17,
    "retailer_focus": "our_brand",
    "score_total": 70.0
   }

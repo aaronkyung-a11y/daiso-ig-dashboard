@@ -3,11 +3,11 @@
  "username": "habaoh_0",
  "fullname": "하바오",
  "profile_url": "https://www.instagram.com/habaoh_0/",
- "followers": 8993,
- "engagement_rate": 0.060845,
- "avg_likes": 505.73,
- "avg_comments": 41.45,
- "avg_views": 36466,
+ "followers": 9000,
+ "engagement_rate": 0.061091,
+ "avg_likes": 508,
+ "avg_comments": 41.82,
+ "avg_views": 33459.55,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
  "_likes_hidden": false,
@@ -17,7 +17,7 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "9건",
+  "olive_young_mentions": "6건",
   "beauty_keywords": "8건",
   "labrang_present": false
  },
@@ -26,7 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "IG 로그인 실측(2026-09-10 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 1건 제외 11건, media/info API 실측 11/11건. ER=(평균 좋아요+평균 댓글)/팔로워.",
+ "sample_note": "IG 로그인 실측(2026-09-11 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 1건 제외 11건, media/info API 실측 11/11건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ IG 그리드 페이지네이션 차단으로 샘플 상한 12건(작업정의 18~24 미달) — 전일 회차와 동일 조건.",
  "score_total": 85.5,
  "grade": "S",
  "score_breakdown": {
@@ -36,18 +36,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-10T10:45:11+09:00",
+ "evaluated_at": "2026-09-11T11:02:33+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
-   "followers": 8022,
-   "engagement_rate": 0.005,
-   "posts_last_30d": 1,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 54.5,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "score_total": 54.5,
@@ -303,6 +293,16 @@
    "posts_last_30d": 6,
    "retailer_focus": "beauty_general",
    "score_total": 66.8
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.060845,
+   "evaluated_at": "2026-09-10T10:45:11+09:00",
+   "followers": 8993,
+   "grade": "S",
+   "posts_last_30d": 6,
+   "retailer_focus": "olive_young",
+   "score_total": 85.5
   }
  ]
 }

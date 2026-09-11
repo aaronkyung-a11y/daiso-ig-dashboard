@@ -3,11 +3,11 @@
  "username": "UCK3L6x0ZGU-2cfTDMLnmUyw",
  "fullname": "진뉴 JINNEW",
  "profile_url": "https://www.youtube.com/channel/UCK3L6x0ZGU-2cfTDMLnmUyw",
- "followers": 67200,
- "engagement_rate": 0.0163,
- "avg_likes": 735.5,
- "avg_comments": 62.3,
- "avg_views": 45180.0,
+ "followers": 67300,
+ "engagement_rate": 0.0167,
+ "avg_likes": 712.8,
+ "avg_comments": 63.2,
+ "avg_views": 42710.9,
  "posts_last_30d": 13,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -15,8 +15,8 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "12건",
-  "beauty_keywords": "83건",
+  "olive_young_mentions": "199건",
+  "beauty_keywords": "394건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCK3L6x0ZGU-2cfTDMLnmUyw",
  "score_total": 75.5,
  "grade": "A",
@@ -36,7 +36,7 @@
   "follower_scale": 80,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:20:29+09:00",
@@ -185,6 +185,16 @@
    "brand_fit_score": 90,
    "engagement_rate": 0.0151,
    "evaluated_at": "2026-09-09T10:27:53+09:00",
+   "followers": 67200,
+   "grade": "A",
+   "posts_last_30d": 13,
+   "retailer_focus": "olive_young",
+   "score_total": 75.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0163,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 67200,
    "grade": "A",
    "posts_last_30d": 13,

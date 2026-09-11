@@ -4,19 +4,19 @@
  "fullname": "LeoJ Makeup",
  "profile_url": "https://www.youtube.com/channel/UCnFFOjljp1_sacTz7PfIIyg",
  "followers": 1440000,
- "engagement_rate": 0.0108,
- "avg_likes": 3234.3,
- "avg_comments": 186.1,
- "avg_views": 299770.9,
+ "engagement_rate": 0.011,
+ "avg_likes": 3375.0,
+ "avg_comments": 187.1,
+ "avg_views": 306841.5,
  "posts_last_30d": 16,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 90,
  "retailer_focus": "mixed",
  "retailer_signal": {
-  "daiso_mentions": "20건",
-  "olive_young_mentions": "18건",
-  "beauty_keywords": "67건",
+  "daiso_mentions": "30건",
+  "olive_young_mentions": "34건",
+  "beauty_keywords": "99건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCnFFOjljp1_sacTz7PfIIyg",
  "score_total": 77.5,
  "grade": "A",
@@ -36,7 +36,7 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -94,6 +94,16 @@
    "grade": "A",
    "posts_last_30d": 17,
    "retailer_focus": "daiso",
+   "score_total": 77.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0108,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 1440000,
+   "grade": "A",
+   "posts_last_30d": 16,
+   "retailer_focus": "mixed",
    "score_total": 77.5
   }
  ]

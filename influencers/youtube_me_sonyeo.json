@@ -4,12 +4,12 @@
  "fullname": "미소녀",
  "profile_url": "https://www.youtube.com/channel/UCa7m7DWFPDlKMiouX_K8ABQ",
  "followers": 4210,
- "engagement_rate": 0.0153,
- "avg_likes": 416.0,
- "avg_comments": 4.6,
- "avg_views": 27113.3,
+ "engagement_rate": 0.015,
+ "avg_likes": 424.6,
+ "avg_comments": 4.3,
+ "avg_views": 28310.1,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
@@ -21,11 +21,11 @@
  },
  "estimation_flags": {
   "brand_fit_score": "추정(키워드 카운트 기반)",
-  "posts_last_30d": "추정(스캔창 상한)",
+  "posts_last_30d": "실측",
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ posts_last_30d는 스캔창 상한에 걸린 하한값(추정) | 동일 channel_id 중복 파일 동시 갱신(dedup 2건)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] @me_sonyeo: This channel does not have a videos tab\n",
  "channel_id": "UCa7m7DWFPDlKMiouX_K8ABQ",
  "score_total": 76.0,
  "grade": "A",
@@ -36,7 +36,7 @@
   "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "brand_fit_score": 80,
@@ -63,6 +63,16 @@
    "engagement_rate": 0.0156,
    "evaluated_at": "2026-09-09T14:20:00+09:00",
    "followers": 4200,
+   "grade": "A",
+   "posts_last_30d": 12,
+   "retailer_focus": "our_brand",
+   "score_total": 76.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0153,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 4210,
    "grade": "A",
    "posts_last_30d": 12,
    "retailer_focus": "our_brand",

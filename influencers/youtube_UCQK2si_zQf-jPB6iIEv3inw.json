@@ -96,5 +96,7 @@
    "retailer_focus": "beauty_general",
    "score_total": 61.0
   }
- ]
+ ],
+ "_refresh_failed_reason": "2026-09-11 10:00 슬롯 yt-dlp 오류 \"This channel does not have a videos tab\" — /videos·/shorts 모두 실패. 값은 직전 실측 이월.",
+ "account_status": "no_video_tab"
 }

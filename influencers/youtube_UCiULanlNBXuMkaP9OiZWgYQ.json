@@ -4,19 +4,19 @@
  "fullname": "율리 YULRI",
  "profile_url": "https://www.youtube.com/channel/UCiULanlNBXuMkaP9OiZWgYQ",
  "followers": 425000,
- "engagement_rate": 0.0118,
- "avg_likes": 908.5,
- "avg_comments": 72.7,
- "avg_views": 77276.2,
- "posts_last_30d": 12,
+ "engagement_rate": 0.0114,
+ "avg_likes": 855.2,
+ "avg_comments": 69.2,
+ "avg_views": 74825.9,
+ "posts_last_30d": 13,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "19건",
-  "olive_young_mentions": "4건",
-  "beauty_keywords": "12건",
+  "daiso_mentions": "34건",
+  "olive_young_mentions": "20건",
+  "beauty_keywords": "68건",
   "labrang_present": true
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCiULanlNBXuMkaP9OiZWgYQ",
  "score_total": 80.0,
  "grade": "A",
@@ -36,7 +36,7 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -134,6 +134,16 @@
    "followers": 425000,
    "grade": "A",
    "posts_last_30d": 13,
+   "retailer_focus": "our_brand",
+   "score_total": 80.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0118,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 425000,
+   "grade": "A",
+   "posts_last_30d": 12,
    "retailer_focus": "our_brand",
    "score_total": 80.0
   }

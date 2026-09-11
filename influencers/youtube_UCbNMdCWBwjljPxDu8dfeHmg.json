@@ -5,9 +5,9 @@
  "profile_url": "https://www.youtube.com/channel/UCbNMdCWBwjljPxDu8dfeHmg",
  "followers": 50100,
  "engagement_rate": 0.0153,
- "avg_likes": 949.3,
- "avg_comments": 10.2,
- "avg_views": 62000.1,
+ "avg_likes": 961.2,
+ "avg_comments": 9.6,
+ "avg_views": 62636.9,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 14,
@@ -15,8 +15,8 @@
  "retailer_focus": "daiso",
  "retailer_signal": {
   "daiso_mentions": "13건",
-  "olive_young_mentions": "5건",
-  "beauty_keywords": "25건",
+  "olive_young_mentions": "10건",
+  "beauty_keywords": "33건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:14 likes_ok:14/14 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:14 likes_ok:14/14 ER표본:14 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCbNMdCWBwjljPxDu8dfeHmg",
  "score_total": 75.5,
  "grade": "A",
@@ -36,17 +36,8 @@
   "follower_scale": 80,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 62.8,
-   "engagement_rate": 1.1892,
-   "followers": 49800,
-   "posts_last_30d": 0,
-   "brand_fit_score": 75,
-   "retailer_focus": "beauty_general"
-  },
   {
    "followers": 49800,
    "engagement_rate": 1.1892,
@@ -300,6 +291,16 @@
    "grade": "A",
    "posts_last_30d": 12,
    "retailer_focus": "mixed",
+   "score_total": 75.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0153,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 50100,
+   "grade": "A",
+   "posts_last_30d": 12,
+   "retailer_focus": "daiso",
    "score_total": 75.5
   }
  ]

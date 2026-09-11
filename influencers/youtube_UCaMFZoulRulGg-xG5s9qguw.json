@@ -4,19 +4,19 @@
  "fullname": "백세 건강보감",
  "profile_url": "https://www.youtube.com/channel/UCaMFZoulRulGg-xG5s9qguw",
  "followers": 13500,
- "engagement_rate": 0.0096,
- "avg_likes": 55.0,
- "avg_comments": 13.0,
- "avg_views": 5726.7,
+ "engagement_rate": 0.0083,
+ "avg_likes": 55.1,
+ "avg_comments": 0.6,
+ "avg_views": 6626.8,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 90,
- "retailer_focus": "beauty_general",
+ "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "9건",
+  "olive_young_mentions": "2건",
+  "beauty_keywords": "26건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:21/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:21/24 ER표본:21 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCaMFZoulRulGg-xG5s9qguw",
  "score_total": 65.5,
  "grade": "B",
@@ -36,17 +36,8 @@
   "follower_scale": 80,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 63.2,
-   "engagement_rate": 8.4507,
-   "followers": 6680,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic"
-  },
   {
    "followers": 6680,
    "engagement_rate": 8.4507,
@@ -301,6 +292,16 @@
    "posts_last_30d": 12,
    "retailer_focus": "beauty_general",
    "score_total": 61.8
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0096,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 13500,
+   "grade": "B",
+   "posts_last_30d": 12,
+   "retailer_focus": "beauty_general",
+   "score_total": 65.5
   }
  ]
 }

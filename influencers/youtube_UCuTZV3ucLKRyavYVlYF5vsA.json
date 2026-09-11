@@ -4,28 +4,28 @@
  "fullname": "뷰티카트",
  "profile_url": "https://www.youtube.com/channel/UCuTZV3ucLKRyavYVlYF5vsA",
  "followers": 1480,
- "engagement_rate": 0.0051,
- "avg_likes": 5.2,
- "avg_comments": 1.0,
- "avg_views": 1017.4,
+ "engagement_rate": 0.0046,
+ "avg_likes": 5.3,
+ "avg_comments": 0.1,
+ "avg_views": 1163.4,
  "posts_last_30d": 14,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 14,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "80건",
+  "daiso_mentions": "78건",
   "olive_young_mentions": "1건",
-  "beauty_keywords": "60건",
+  "beauty_keywords": "58건",
   "labrang_present": false
  },
  "estimation_flags": {
   "brand_fit_score": "추정(키워드 카운트 기반)",
-  "posts_last_30d": "추정(스캔창 상한)",
+  "posts_last_30d": "실측",
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:14 likes_ok:12/14 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ posts_last_30d는 스캔창 상한에 걸린 하한값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:14 likes_ok:12/14 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCuTZV3ucLKRyavYVlYF5vsA",
  "score_total": 63.5,
  "grade": "C",
@@ -36,7 +36,7 @@
   "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -131,6 +131,16 @@
    "brand_fit_score": 90,
    "engagement_rate": 0.0046,
    "evaluated_at": "2026-09-09T10:38:32+09:00",
+   "followers": 1480,
+   "grade": "C",
+   "posts_last_30d": 14,
+   "retailer_focus": "daiso",
+   "score_total": 63.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0051,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 1480,
    "grade": "C",
    "posts_last_30d": 14,

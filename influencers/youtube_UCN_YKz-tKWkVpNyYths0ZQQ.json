@@ -3,13 +3,13 @@
  "username": "UCN_YKz-tKWkVpNyYths0ZQQ",
  "fullname": "바이홈",
  "profile_url": "https://www.youtube.com/channel/UCN_YKz-tKWkVpNyYths0ZQQ",
- "followers": 3350,
- "engagement_rate": 0.0044,
- "avg_likes": 99.8,
+ "followers": 3390,
+ "engagement_rate": 0.0048,
+ "avg_likes": 114.7,
  "avg_comments": 2.8,
- "avg_views": 22781.0,
+ "avg_views": 24142.9,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "daiso",
@@ -21,13 +21,13 @@
  },
  "estimation_flags": {
   "brand_fit_score": "추정(키워드 카운트 기반)",
-  "posts_last_30d": "추정(스캔창 상한)",
+  "posts_last_30d": "실측",
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ posts_last_30d는 스캔창 상한에 걸린 하한값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UCN_YKz-tKWkVpNyYths0ZQQ: This channel does not have a video",
  "channel_id": "UCN_YKz-tKWkVpNyYths0ZQQ",
- "score_total": 47.2,
+ "score_total": 47.25,
  "grade": "D",
  "score_breakdown": {
   "er_score": 40,
@@ -36,7 +36,7 @@
   "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -132,6 +132,16 @@
    "engagement_rate": 0.004,
    "evaluated_at": "2026-09-09T10:27:53+09:00",
    "followers": 3300,
+   "grade": "D",
+   "posts_last_30d": 12,
+   "retailer_focus": "daiso",
+   "score_total": 47.2
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0044,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 3350,
    "grade": "D",
    "posts_last_30d": 12,
    "retailer_focus": "daiso",

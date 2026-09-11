@@ -265,7 +265,7 @@
   }
  ],
  "_posts_last_30d_est": false,
- "account_status": "unavailable",
+ "account_status": "deleted_or_unavailable",
  "last_checked_at": "2026-08-25T14:11:37+09:00",
  "_refresh_failed_at": "2026-09-07T10:58:30+09:00",
  "_exclude_from_rolling": true,
@@ -280,5 +280,5 @@
   "result": "HTTP 404 — 계정 페이지 접근 불가(삭제·비활성·핸들 변경 추정)",
   "page_text": "죄송합니다. 페이지를 사용할 수 없습니다."
  },
- "_refresh_failed_reason": "2026-09-10 10:00 슬롯 재확인 — 프로필 페이지 사용 불가(삭제/비활성), topsearch 미검색. 값은 2026-08-28 실측분 이월(이번 회차 실측 아님)."
+ "_refresh_failed_reason": "2026-09-11 10:00 슬롯 확인 — IG 프로필 \"페이지를 사용할 수 없습니다\"(계정 삭제/비활성). 값은 직전 실측 이월."
 }

@@ -3,11 +3,11 @@
  "username": "UCtBo1Hf3HI7QmpHwRWOBRLw",
  "fullname": "세네모",
  "profile_url": "https://www.youtube.com/channel/UCtBo1Hf3HI7QmpHwRWOBRLw",
- "followers": 1370,
- "engagement_rate": 0.0282,
+ "followers": 1380,
+ "engagement_rate": 0.0277,
  "avg_likes": 5.4,
- "avg_comments": 1.4,
- "avg_views": 191.2,
+ "avg_comments": 0.9,
+ "avg_views": 194.8,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -25,9 +25,9 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/shorts:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UCtBo1Hf3HI7QmpHwRWOBRLw: This channel does not have a short",
  "channel_id": "UCtBo1Hf3HI7QmpHwRWOBRLw",
- "score_total": 48.2,
+ "score_total": 48.25,
  "grade": "D",
  "score_breakdown": {
   "er_score": 60,
@@ -36,7 +36,7 @@
   "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:23:01+09:00",
@@ -152,6 +152,16 @@
    "brand_fit_score": 25,
    "engagement_rate": 0.028,
    "evaluated_at": "2026-09-09T10:35:41+09:00",
+   "followers": 1370,
+   "grade": "D",
+   "posts_last_30d": 0,
+   "retailer_focus": "off_topic",
+   "score_total": 48.2
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0282,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 1370,
    "grade": "D",
    "posts_last_30d": 0,

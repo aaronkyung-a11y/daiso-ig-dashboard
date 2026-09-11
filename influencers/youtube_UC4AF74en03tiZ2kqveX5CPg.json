@@ -1,16 +1,16 @@
 {
  "platform": "youtube",
  "username": "UC4AF74en03tiZ2kqveX5CPg",
- "fullname": "UC4AF74en03tiZ2kqveX5CPg",
+ "fullname": "秘境社",
  "profile_url": "https://www.youtube.com/channel/UC4AF74en03tiZ2kqveX5CPg",
- "followers": 0,
- "engagement_rate": 0.0,
- "avg_likes": 0,
- "avg_comments": 0,
- "avg_views": 0,
- "posts_last_30d": 0,
+ "followers": 6030,
+ "engagement_rate": 0.006,
+ "avg_likes": 4.0,
+ "avg_comments": 2.0,
+ "avg_views": 672.0,
+ "posts_last_30d": 1,
  "_posts_last_30d_est": false,
- "sample_size": 0,
+ "sample_size": 1,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
  "retailer_signal": {
@@ -22,21 +22,21 @@
  "estimation_flags": {
   "brand_fit_score": "추정(키워드 카운트 기반)",
   "posts_last_30d": "실측",
-  "followers": "측정불가(0 처리)",
-  "engagement_rate": "측정불가(0 처리)"
+  "followers": "실측(yt-dlp channel_follower_count)",
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:0 likes_ok:0/0 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ videos/shorts 탭 모두 없음 — 채널 소멸 추정, 값 0 처리",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:1 likes_ok:1/1 ER표본:1 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/shorts:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UC4AF74en03tiZ2kqveX5CPg: This channel does not have a short",
  "channel_id": "UC4AF74en03tiZ2kqveX5CPg",
- "score_total": 36.2,
+ "score_total": 38.25,
  "grade": "D",
  "score_breakdown": {
   "er_score": 40,
   "brand_fit": 25,
   "consistency": 40,
-  "follower_scale": 40,
+  "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -90,6 +90,16 @@
    "brand_fit_score": 25,
    "engagement_rate": 0.0,
    "evaluated_at": "2026-09-09T10:40:11+09:00",
+   "followers": 0,
+   "grade": "D",
+   "posts_last_30d": 0,
+   "retailer_focus": "off_topic",
+   "score_total": 36.2
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 0,
    "grade": "D",
    "posts_last_30d": 0,

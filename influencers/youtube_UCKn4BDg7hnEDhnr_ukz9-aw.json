@@ -3,12 +3,12 @@
  "username": "UCKn4BDg7hnEDhnr_ukz9-aw",
  "fullname": "건강씨그날",
  "profile_url": "https://www.youtube.com/channel/UCKn4BDg7hnEDhnr_ukz9-aw",
- "followers": 121000,
- "engagement_rate": 0.0089,
- "avg_likes": 80.2,
- "avg_comments": 1.2,
- "avg_views": 9058.6,
- "posts_last_30d": 2,
+ "followers": 122000,
+ "engagement_rate": 0.0087,
+ "avg_likes": 53.2,
+ "avg_comments": 0.7,
+ "avg_views": 6136.1,
+ "posts_last_30d": 3,
  "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 90,
@@ -16,7 +16,7 @@
  "retailer_signal": {
   "daiso_mentions": "12건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "10건",
+  "beauty_keywords": "14건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UCKn4BDg7hnEDhnr_ukz9-aw: This channel does not have a video",
  "channel_id": "UCKn4BDg7hnEDhnr_ukz9-aw",
  "score_total": 61.5,
  "grade": "C",
@@ -36,18 +36,8 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:22:51.309687+09:00",
-   "followers": 120000,
-   "engagement_rate": 0.0063,
-   "posts_last_30d": 2,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 45.2,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-05-28T10:00:00+09:00",
    "followers": 120000,
@@ -304,6 +294,16 @@
    "posts_last_30d": 1,
    "retailer_focus": "beauty_general",
    "score_total": 51.0
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0089,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 121000,
+   "grade": "C",
+   "posts_last_30d": 2,
+   "retailer_focus": "daiso",
+   "score_total": 61.5
   }
  ]
 }

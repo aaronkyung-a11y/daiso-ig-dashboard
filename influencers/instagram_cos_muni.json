@@ -3,11 +3,11 @@
  "username": "cos_muni",
  "fullname": "무니",
  "profile_url": "https://www.instagram.com/cos_muni/",
- "followers": 1806,
- "engagement_rate": 0.109819,
- "avg_likes": 184.42,
- "avg_comments": 13.92,
- "avg_views": 53321,
+ "followers": 1807,
+ "engagement_rate": 0.111417,
+ "avg_likes": 187.25,
+ "avg_comments": 14.08,
+ "avg_views": 51482.08,
  "posts_last_30d": 12,
  "_posts_last_30d_est": true,
  "_likes_hidden": false,
@@ -26,7 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-10 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
+ "sample_note": "IG 로그인 실측(2026-09-11 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정. ★ IG 그리드 페이지네이션 차단으로 샘플 상한 12건(작업정의 18~24 미달) — 전일 회차와 동일 조건.",
  "score_total": 93.5,
  "grade": "S",
  "score_breakdown": {
@@ -36,18 +36,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-10T10:45:11+09:00",
+ "evaluated_at": "2026-09-11T11:02:33+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-07T14:41:05+09:00",
-   "followers": 1556,
-   "engagement_rate": 0.6547,
-   "posts_last_30d": 4,
-   "brand_fit_score": 90,
-   "score_total": 87.5,
-   "grade": "A",
-   "note": "pre-snapshot"
-  },
   {
    "evaluated_at": "2026-05-13T17:10:00+09:00",
    "followers": 1595,
@@ -299,6 +289,16 @@
    "evaluated_at": "2026-09-09T11:04:32+09:00",
    "followers": 1803,
    "note": null,
+   "posts_last_30d": 12,
+   "retailer_focus": "olive_young",
+   "score_total": 93.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.109819,
+   "evaluated_at": "2026-09-10T10:45:11+09:00",
+   "followers": 1806,
+   "grade": "S",
    "posts_last_30d": 12,
    "retailer_focus": "olive_young",
    "score_total": 93.5

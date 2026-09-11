@@ -3,11 +3,11 @@
  "username": "UCRYXMMSdMYhURh_Dr6Vz18w",
  "fullname": "사유뷰티 sayubeauty",
  "profile_url": "https://www.youtube.com/channel/UCRYXMMSdMYhURh_Dr6Vz18w",
- "followers": 718,
+ "followers": 719,
  "engagement_rate": 0.0049,
  "avg_likes": 15.6,
- "avg_comments": 4.3,
- "avg_views": 3191.0,
+ "avg_comments": 3.4,
+ "avg_views": 3193.6,
  "posts_last_30d": 5,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -15,8 +15,8 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "1건",
-  "olive_young_mentions": "11건",
-  "beauty_keywords": "113건",
+  "olive_young_mentions": "17건",
+  "beauty_keywords": "271건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCRYXMMSdMYhURh_Dr6Vz18w",
  "score_total": 58.5,
  "grade": "C",
@@ -36,21 +36,8 @@
   "follower_scale": 40,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-29T10:09:06+09:00",
-   "score_total": 62.5,
-   "grade": "C",
-   "engagement_rate": 0.0199,
-   "followers": 575,
-   "posts_last_30d": 0,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "avg_views": 332.4,
-   "avg_likes": 6.6,
-   "sample_size": 8
-  },
   {
    "evaluated_at": "2026-06-04T10:23:52.755450+09:00",
    "score_total": 62.5,
@@ -299,6 +286,16 @@
    "posts_last_30d": 4,
    "retailer_focus": "olive_young",
    "score_total": 55.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0049,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 718,
+   "grade": "C",
+   "posts_last_30d": 5,
+   "retailer_focus": "olive_young",
+   "score_total": 58.5
   }
  ]
 }

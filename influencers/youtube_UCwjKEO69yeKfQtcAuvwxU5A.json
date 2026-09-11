@@ -5,18 +5,18 @@
  "profile_url": "https://www.youtube.com/channel/UCwjKEO69yeKfQtcAuvwxU5A",
  "followers": 9530,
  "engagement_rate": 0.0259,
- "avg_likes": 2653.2,
+ "avg_likes": 2654.2,
  "avg_comments": 12.6,
- "avg_views": 102371.5,
+ "avg_views": 102523.5,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 13,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "22건",
+  "daiso_mentions": "33건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "40건",
+  "beauty_keywords": "52건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:13 likes_ok:13/13 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:13 likes_ok:13/13 ER표본:13 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCwjKEO69yeKfQtcAuvwxU5A",
  "score_total": 64.5,
  "grade": "C",
@@ -36,7 +36,7 @@
   "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -136,6 +136,16 @@
    "posts_last_30d": 1,
    "retailer_focus": "daiso",
    "score_total": 60.8
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0259,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 9530,
+   "grade": "C",
+   "posts_last_30d": 0,
+   "retailer_focus": "daiso",
+   "score_total": 64.5
   }
  ]
 }

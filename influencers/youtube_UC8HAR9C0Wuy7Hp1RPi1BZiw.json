@@ -3,11 +3,11 @@
  "username": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
  "fullname": "키키 ",
  "profile_url": "https://www.youtube.com/channel/UC8HAR9C0Wuy7Hp1RPi1BZiw",
- "followers": 2200,
- "engagement_rate": 0.0079,
- "avg_likes": 838.5,
- "avg_comments": 11.8,
- "avg_views": 106271.6,
+ "followers": 2220,
+ "engagement_rate": 0.0078,
+ "avg_likes": 849.6,
+ "avg_comments": 12.0,
+ "avg_views": 108582.9,
  "posts_last_30d": 11,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UC8HAR9C0Wuy7Hp1RPi1BZiw: This channel does not have a video",
  "channel_id": "UC8HAR9C0Wuy7Hp1RPi1BZiw",
  "score_total": 63.5,
  "grade": "C",
@@ -36,18 +36,8 @@
   "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:22:04.056999+09:00",
-   "followers": 850,
-   "engagement_rate": 0.011,
-   "posts_last_30d": 7,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 68.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-06-01T01:09:22.512692+00:00",
    "score_total": 61.5,
@@ -298,6 +288,16 @@
    "brand_fit_score": 90,
    "engagement_rate": 0.0079,
    "evaluated_at": "2026-09-09T10:24:52+09:00",
+   "followers": 2200,
+   "grade": "C",
+   "posts_last_30d": 11,
+   "retailer_focus": "olive_young",
+   "score_total": 63.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0079,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 2200,
    "grade": "C",
    "posts_last_30d": 11,

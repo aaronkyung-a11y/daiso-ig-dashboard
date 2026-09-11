@@ -3,11 +3,11 @@
  "username": "moon__brand",
  "fullname": "문브의 데일리야구🇰🇷 K-야구문화•덕질라이프",
  "profile_url": "https://www.instagram.com/moon__brand/",
- "followers": 45150,
- "engagement_rate": 0.020854,
- "avg_likes": 908.67,
- "avg_comments": 32.89,
- "avg_views": 46327,
+ "followers": 45140,
+ "engagement_rate": 0.021735,
+ "avg_likes": 947.89,
+ "avg_comments": 33.22,
+ "avg_views": 43120.44,
  "posts_last_30d": 9,
  "_posts_last_30d_est": true,
  "_likes_hidden": false,
@@ -26,8 +26,8 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-10 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건, media/info API 실측 9/9건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
- "score_total": 68.8,
+ "sample_note": "IG 로그인 실측(2026-09-11 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건, media/info API 실측 9/9건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정. ★ IG 그리드 페이지네이션 차단으로 샘플 상한 12건(작업정의 18~24 미달) — 전일 회차와 동일 조건.",
+ "score_total": 68.75,
  "grade": "B",
  "score_breakdown": {
   "er": 60,
@@ -36,18 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-10T10:45:11+09:00",
+ "evaluated_at": "2026-09-11T11:02:33+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
-   "followers": 45000,
-   "engagement_rate": 0.0879,
-   "posts_last_30d": 6,
-   "brand_fit_score": 25,
-   "retailer_focus": "daiso",
-   "score_total": 71.25,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "score_total": 71.25,
@@ -300,6 +290,16 @@
    "evaluated_at": "2026-09-09T11:36:19+09:00",
    "followers": 45157,
    "note": null,
+   "posts_last_30d": 9,
+   "retailer_focus": "beauty_general",
+   "score_total": 68.8
+  },
+  {
+   "brand_fit_score": 75,
+   "engagement_rate": 0.020854,
+   "evaluated_at": "2026-09-10T10:45:11+09:00",
+   "followers": 45150,
+   "grade": "B",
    "posts_last_30d": 9,
    "retailer_focus": "beauty_general",
    "score_total": 68.8

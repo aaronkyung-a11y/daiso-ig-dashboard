@@ -5,9 +5,9 @@
  "profile_url": "https://www.youtube.com/channel/UCUCUu_rOf4b5BtKIMRL7jhg",
  "followers": 1840,
  "engagement_rate": 0.0149,
- "avg_likes": 276.1,
- "avg_comments": 4.0,
- "avg_views": 18494.6,
+ "avg_likes": 277.2,
+ "avg_comments": 3.7,
+ "avg_views": 18568.3,
  "posts_last_30d": 10,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -15,8 +15,8 @@
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "6건",
-  "olive_young_mentions": "10건",
-  "beauty_keywords": "8건",
+  "olive_young_mentions": "26건",
+  "beauty_keywords": "24건",
   "labrang_present": true
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UCUCUu_rOf4b5BtKIMRL7jhg: This channel does not have a video",
  "channel_id": "UCUCUu_rOf4b5BtKIMRL7jhg",
  "score_total": 76.0,
  "grade": "A",
@@ -36,18 +36,8 @@
   "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 1170,
-   "engagement_rate": 3.293,
-   "posts_last_30d": 10,
-   "brand_fit_score": 90,
-   "score_total": 83.5,
-   "grade": "A",
-   "note": "STEP B light refresh"
-  },
   {
    "evaluated_at": "2026-05-19T10:18:09+09:00",
    "followers": 1170,
@@ -297,6 +287,16 @@
    "engagement_rate": 0.0141,
    "evaluated_at": "2026-09-09T10:30:00+09:00",
    "followers": 1830,
+   "grade": "A",
+   "posts_last_30d": 10,
+   "retailer_focus": "our_brand",
+   "score_total": 76.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0149,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 1840,
    "grade": "A",
    "posts_last_30d": 10,
    "retailer_focus": "our_brand",

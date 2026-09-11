@@ -3,20 +3,20 @@
  "username": "UCKAwUq0rYJ7JVkwK-XWADnQ",
  "fullname": "박지윤의 피부 설명서",
  "profile_url": "https://www.youtube.com/channel/UCKAwUq0rYJ7JVkwK-XWADnQ",
- "followers": 54700,
- "engagement_rate": 0.0114,
- "avg_likes": 325.4,
- "avg_comments": 8.5,
- "avg_views": 28583.1,
- "posts_last_30d": 9,
+ "followers": 54800,
+ "engagement_rate": 0.0112,
+ "avg_likes": 334.2,
+ "avg_comments": 8.7,
+ "avg_views": 29725.0,
+ "posts_last_30d": 10,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "1건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "25건",
+  "daiso_mentions": "7건",
+  "olive_young_mentions": "2건",
+  "beauty_keywords": "31건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -25,30 +25,19 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCKAwUq0rYJ7JVkwK-XWADnQ",
- "score_total": 72.5,
- "grade": "B",
+ "score_total": 75.5,
+ "grade": "A",
  "score_breakdown": {
   "er_score": 60,
   "brand_fit": 90,
-  "consistency": 80,
+  "consistency": 100,
   "follower_scale": 80,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "engagement_rate": 1.8955,
-   "posts_last_30d": 4,
-   "sample_size": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 69.5,
-   "grade": "B",
-   "followers": 49300
-  },
   {
    "evaluated_at": "2026-06-03T10:11:59+09:00",
    "score_total": 69.5,
@@ -295,6 +284,16 @@
    "grade": "B",
    "posts_last_30d": 9,
    "retailer_focus": "beauty_general",
+   "score_total": 72.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0114,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 54700,
+   "grade": "B",
+   "posts_last_30d": 9,
+   "retailer_focus": "daiso",
    "score_total": 72.5
   }
  ]

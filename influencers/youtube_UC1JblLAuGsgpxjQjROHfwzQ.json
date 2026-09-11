@@ -4,10 +4,10 @@
  "fullname": "Hyukヒョク",
  "profile_url": "https://www.youtube.com/channel/UC1JblLAuGsgpxjQjROHfwzQ",
  "followers": 535000,
- "engagement_rate": 0.0117,
- "avg_likes": 759.0,
+ "engagement_rate": 0.0116,
+ "avg_likes": 760.5,
  "avg_comments": 25.7,
- "avg_views": 64957.7,
+ "avg_views": 65282.0,
  "posts_last_30d": 7,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -25,9 +25,9 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UC1JblLAuGsgpxjQjROHfwzQ",
- "score_total": 58.2,
+ "score_total": 58.25,
  "grade": "C",
  "score_breakdown": {
   "er_score": 60,
@@ -36,7 +36,7 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -90,6 +90,16 @@
    "brand_fit_score": 25,
    "engagement_rate": 0.0104,
    "evaluated_at": "2026-09-09T10:21:20+09:00",
+   "followers": 535000,
+   "grade": "C",
+   "posts_last_30d": 7,
+   "retailer_focus": "off_topic",
+   "score_total": 58.2
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0117,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 535000,
    "grade": "C",
    "posts_last_30d": 7,

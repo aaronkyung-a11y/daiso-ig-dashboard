@@ -5,18 +5,18 @@
  "profile_url": "https://www.youtube.com/channel/UCCuXPHou1JQfRKM40q5tG8w",
  "followers": 87500,
  "engagement_rate": 0.0214,
- "avg_likes": 731.3,
- "avg_comments": 155.5,
- "avg_views": 34204.6,
+ "avg_likes": 731.9,
+ "avg_comments": 149.1,
+ "avg_views": 34273.0,
  "posts_last_30d": 7,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 100,
  "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "14건",
-  "olive_young_mentions": "12건",
-  "beauty_keywords": "36건",
+  "daiso_mentions": "74건",
+  "olive_young_mentions": "44건",
+  "beauty_keywords": "90건",
   "labrang_present": true
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCCuXPHou1JQfRKM40q5tG8w",
  "score_total": 75.0,
  "grade": "A",
@@ -36,7 +36,7 @@
   "follower_scale": 80,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:21:16+09:00",
@@ -188,6 +188,16 @@
    "followers": 87500,
    "grade": "A",
    "posts_last_30d": 6,
+   "retailer_focus": "our_brand",
+   "score_total": 75.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0214,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 87500,
+   "grade": "A",
+   "posts_last_30d": 7,
    "retailer_focus": "our_brand",
    "score_total": 75.0
   }

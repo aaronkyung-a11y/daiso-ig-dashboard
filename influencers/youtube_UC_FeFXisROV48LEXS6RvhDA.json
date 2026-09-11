@@ -5,38 +5,38 @@
  "profile_url": "https://www.youtube.com/channel/UC_FeFXisROV48LEXS6RvhDA",
  "followers": 5100,
  "engagement_rate": 0.0,
- "avg_likes": 0,
- "avg_comments": 15.3,
- "avg_views": 3251.1,
- "posts_last_30d": 6,
+ "avg_likes": 0.0,
+ "avg_comments": 14.9,
+ "avg_views": 3229.2,
+ "posts_last_30d": 7,
  "_posts_last_30d_est": false,
  "sample_size": 24,
- "brand_fit_score": 90,
- "retailer_focus": "daiso",
+ "brand_fit_score": 100,
+ "retailer_focus": "our_brand",
  "retailer_signal": {
-  "daiso_mentions": "43건",
-  "olive_young_mentions": "7건",
-  "beauty_keywords": "39건",
-  "labrang_present": false
+  "daiso_mentions": "67건",
+  "olive_young_mentions": "19건",
+  "beauty_keywords": "128건",
+  "labrang_present": true
  },
  "estimation_flags": {
   "brand_fit_score": "추정(키워드 카운트 기반)",
   "posts_last_30d": "실측",
   "followers": "실측(yt-dlp channel_follower_count)",
-  "engagement_rate": "측정불가(0 처리)"
+  "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:0/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ 좋아요 비공개 채널 — ER 측정 불가(0 처리)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:0/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UC_FeFXisROV48LEXS6RvhDA",
- "score_total": 60.5,
+ "score_total": 63.0,
  "grade": "C",
  "score_breakdown": {
   "er_score": 40,
-  "brand_fit": 90,
+  "brand_fit": 100,
   "consistency": 80,
   "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-31T10:43:29+09:00",
@@ -91,6 +91,16 @@
    "engagement_rate": 0.0,
    "evaluated_at": "2026-09-09T10:32:50+09:00",
    "followers": 5110,
+   "grade": "C",
+   "posts_last_30d": 6,
+   "retailer_focus": "daiso",
+   "score_total": 60.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 5100,
    "grade": "C",
    "posts_last_30d": 6,
    "retailer_focus": "daiso",

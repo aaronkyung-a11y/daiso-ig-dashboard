@@ -4,10 +4,10 @@
  "fullname": "리뷰야놀자",
  "profile_url": "https://www.youtube.com/channel/UCX0Qk4QtPOlEwBmsbIG4vOg",
  "followers": 763000,
- "engagement_rate": 0.0105,
- "avg_likes": 6717.9,
- "avg_comments": 283.5,
- "avg_views": 642139.8,
+ "engagement_rate": 0.0106,
+ "avg_likes": 7099.5,
+ "avg_comments": 293.2,
+ "avg_views": 668309.5,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -25,9 +25,9 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCX0Qk4QtPOlEwBmsbIG4vOg",
- "score_total": 73.8,
+ "score_total": 73.75,
  "grade": "B",
  "score_breakdown": {
   "er_score": 60,
@@ -36,17 +36,8 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 52.2,
-   "engagement_rate": 1.0035,
-   "followers": 699000,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic"
-  },
   {
    "evaluated_at": "2026-05-22T17:10:00+09:00",
    "score_total": 61.0,
@@ -298,6 +289,16 @@
    "posts_last_30d": 12,
    "retailer_focus": "beauty_general",
    "score_total": 70.0
+  },
+  {
+   "brand_fit_score": 75,
+   "engagement_rate": 0.0105,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 763000,
+   "grade": "B",
+   "posts_last_30d": 12,
+   "retailer_focus": "beauty_general",
+   "score_total": 73.8
   }
  ]
 }

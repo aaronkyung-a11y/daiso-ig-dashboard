@@ -3,11 +3,11 @@
  "username": "UCAJKsKmumOybMKA0jZ1i7nw",
  "fullname": "거지코덕",
  "profile_url": "https://www.youtube.com/channel/UCAJKsKmumOybMKA0jZ1i7nw",
- "followers": 22700,
- "engagement_rate": 0.0233,
- "avg_likes": 2587.2,
- "avg_comments": 39.4,
- "avg_views": 111190.1,
+ "followers": 22800,
+ "engagement_rate": 0.0232,
+ "avg_likes": 2653.3,
+ "avg_comments": 40.4,
+ "avg_views": 114420.4,
  "posts_last_30d": 10,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UCAJKsKmumOybMKA0jZ1i7nw: This channel does not have a video",
  "channel_id": "UCAJKsKmumOybMKA0jZ1i7nw",
  "score_total": 75.5,
  "grade": "A",
@@ -36,7 +36,7 @@
   "follower_scale": 80,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:28:45+09:00",
@@ -153,6 +153,16 @@
    "engagement_rate": 0.0226,
    "evaluated_at": "2026-09-09T11:53:23+09:00",
    "followers": 22600,
+   "grade": "A",
+   "posts_last_30d": 10,
+   "retailer_focus": "olive_young",
+   "score_total": 75.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0233,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 22700,
    "grade": "A",
    "posts_last_30d": 10,
    "retailer_focus": "olive_young",

@@ -4,11 +4,11 @@
  "fullname": "피부텐텐 · 피부가 예뻐지는 10분 ",
  "profile_url": "https://www.youtube.com/channel/UCxA9k7UJz50ZJPa5aUGf7fw",
  "followers": 325000,
- "engagement_rate": 0.0092,
- "avg_likes": 66.2,
- "avg_comments": 15.9,
- "avg_views": 7176.5,
- "posts_last_30d": 20,
+ "engagement_rate": 0.0089,
+ "avg_likes": 65.0,
+ "avg_comments": 14.1,
+ "avg_views": 7333.0,
+ "posts_last_30d": 21,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 90,
@@ -16,7 +16,7 @@
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "13건",
+  "beauty_keywords": "16건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCxA9k7UJz50ZJPa5aUGf7fw",
  "score_total": 67.5,
  "grade": "B",
@@ -36,17 +36,8 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-12T10:15:00+09:00",
-   "score_total": 67.0,
-   "engagement_rate": 2.2389,
-   "followers": 325000,
-   "posts_last_30d": 6,
-   "brand_fit_score": 60,
-   "retailer_focus": "beauty_general"
-  },
   {
    "evaluated_at": "2026-05-28T17:04:00+09:00",
    "score_total": 70.75,
@@ -294,6 +285,16 @@
    "followers": 325000,
    "grade": "B",
    "posts_last_30d": 21,
+   "retailer_focus": "beauty_general",
+   "score_total": 67.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0092,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 325000,
+   "grade": "B",
+   "posts_last_30d": 20,
    "retailer_focus": "beauty_general",
    "score_total": 67.5
   }

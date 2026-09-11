@@ -4,10 +4,10 @@
  "fullname": "일돈나",
  "profile_url": "https://www.youtube.com/channel/UCl0b0B4B3VHAs8AQKGYDCjw",
  "followers": 1290,
- "engagement_rate": 0.0136,
- "avg_likes": 75.8,
- "avg_comments": 2.2,
- "avg_views": 5589.1,
+ "engagement_rate": 0.0135,
+ "avg_likes": 75.7,
+ "avg_comments": 2.0,
+ "avg_views": 5590.3,
  "posts_last_30d": 2,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UCl0b0B4B3VHAs8AQKGYDCjw: This channel does not have a video",
  "channel_id": "UCl0b0B4B3VHAs8AQKGYDCjw",
  "score_total": 70.0,
  "grade": "B",
@@ -36,18 +36,8 @@
   "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:27:36.909693+09:00",
-   "followers": 1280,
-   "engagement_rate": 0.0095,
-   "posts_last_30d": 3,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 57.5,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "score_total": 70.5,
@@ -297,6 +287,16 @@
    "brand_fit_score": 100,
    "engagement_rate": 0.0148,
    "evaluated_at": "2026-09-09T10:35:41+09:00",
+   "followers": 1290,
+   "grade": "B",
+   "posts_last_30d": 2,
+   "retailer_focus": "our_brand",
+   "score_total": 70.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0136,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 1290,
    "grade": "B",
    "posts_last_30d": 2,

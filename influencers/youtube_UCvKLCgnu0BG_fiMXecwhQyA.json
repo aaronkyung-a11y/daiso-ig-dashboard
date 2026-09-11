@@ -4,12 +4,12 @@
  "fullname": "베러픽",
  "profile_url": "https://www.youtube.com/channel/UCvKLCgnu0BG_fiMXecwhQyA",
  "followers": 63900,
- "engagement_rate": 0.0035,
- "avg_likes": 19.3,
- "avg_comments": 2.2,
- "avg_views": 5471.1,
+ "engagement_rate": 0.003,
+ "avg_likes": 14.8,
+ "avg_comments": 1.6,
+ "avg_views": 4964.5,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 75,
  "retailer_focus": "beauty_general",
@@ -21,13 +21,13 @@
  },
  "estimation_flags": {
   "brand_fit_score": "추정(키워드 카운트 기반)",
-  "posts_last_30d": "추정(스캔창 상한)",
+  "posts_last_30d": "실측",
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ posts_last_30d는 스캔창 상한에 걸린 하한값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UCvKLCgnu0BG_fiMXecwhQyA: This channel does not have a video",
  "channel_id": "UCvKLCgnu0BG_fiMXecwhQyA",
- "score_total": 61.8,
+ "score_total": 61.75,
  "grade": "C",
  "score_breakdown": {
   "er_score": 40,
@@ -36,7 +36,7 @@
   "follower_scale": 80,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-12T10:28:46+09:00",
@@ -152,6 +152,16 @@
    "brand_fit_score": 75,
    "engagement_rate": 0.0034,
    "evaluated_at": "2026-09-09T10:35:41+09:00",
+   "followers": 63900,
+   "grade": "C",
+   "posts_last_30d": 12,
+   "retailer_focus": "beauty_general",
+   "score_total": 61.8
+  },
+  {
+   "brand_fit_score": 75,
+   "engagement_rate": 0.0035,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 63900,
    "grade": "C",
    "posts_last_30d": 12,

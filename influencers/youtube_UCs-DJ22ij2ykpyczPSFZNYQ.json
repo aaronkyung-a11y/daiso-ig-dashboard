@@ -4,10 +4,10 @@
  "fullname": "Nyam",
  "profile_url": "https://www.youtube.com/channel/UCs-DJ22ij2ykpyczPSFZNYQ",
  "followers": 48,
- "engagement_rate": 0.0113,
- "avg_likes": 88.1,
- "avg_comments": 2.5,
- "avg_views": 7822.4,
+ "engagement_rate": 0.0112,
+ "avg_likes": 88.2,
+ "avg_comments": 0.8,
+ "avg_views": 7842.6,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 13,
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:13 likes_ok:13/13 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:13 likes_ok:13/13 ER표본:13 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCs-DJ22ij2ykpyczPSFZNYQ",
  "score_total": 62.5,
  "grade": "C",
@@ -36,16 +36,8 @@
   "follower_scale": 40,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-15T10:11:38.814469+09:00",
-   "followers": 42,
-   "engagement_rate": 1.715,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "score_total": 68.5
-  },
   {
    "evaluated_at": "2026-05-19T10:18:09+09:00",
    "followers": 46,
@@ -297,6 +289,16 @@
    "brand_fit_score": 90,
    "engagement_rate": 0.0113,
    "evaluated_at": "2026-09-09T10:35:41+09:00",
+   "followers": 48,
+   "grade": "C",
+   "posts_last_30d": 0,
+   "retailer_focus": "daiso",
+   "score_total": 62.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0113,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 48,
    "grade": "C",
    "posts_last_30d": 0,

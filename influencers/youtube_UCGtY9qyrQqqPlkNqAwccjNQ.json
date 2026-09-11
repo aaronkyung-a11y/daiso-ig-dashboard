@@ -4,10 +4,10 @@
  "fullname": "리뷰하는 회사원",
  "profile_url": "https://www.youtube.com/channel/UCGtY9qyrQqqPlkNqAwccjNQ",
  "followers": 606000,
- "engagement_rate": 0.011,
- "avg_likes": 5963.0,
- "avg_comments": 298.1,
- "avg_views": 544308.1,
+ "engagement_rate": 0.0133,
+ "avg_likes": 5368.8,
+ "avg_comments": 223.9,
+ "avg_views": 404042.7,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -25,9 +25,9 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCGtY9qyrQqqPlkNqAwccjNQ",
- "score_total": 61.2,
+ "score_total": 61.25,
  "grade": "C",
  "score_breakdown": {
   "er_score": 60,
@@ -36,18 +36,8 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-19T10:18:09+09:00",
-   "followers": 25400,
-   "engagement_rate": 2.3751,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 50.2,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-05-21T10:00:00+09:00",
    "followers": 581000,
@@ -299,6 +289,16 @@
    "brand_fit_score": 25,
    "engagement_rate": 0.0123,
    "evaluated_at": "2026-09-09T10:24:52+09:00",
+   "followers": 606000,
+   "grade": "C",
+   "posts_last_30d": 12,
+   "retailer_focus": "off_topic",
+   "score_total": 61.2
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.011,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 606000,
    "grade": "C",
    "posts_last_30d": 12,

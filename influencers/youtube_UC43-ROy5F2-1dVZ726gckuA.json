@@ -3,11 +3,11 @@
  "username": "UC43-ROy5F2-1dVZ726gckuA",
  "fullname": "원츄",
  "profile_url": "https://www.youtube.com/channel/UC43-ROy5F2-1dVZ726gckuA",
- "followers": 668,
+ "followers": 669,
  "engagement_rate": 0.0117,
- "avg_likes": 380.6,
- "avg_comments": 7.0,
- "avg_views": 32577.0,
+ "avg_likes": 381.3,
+ "avg_comments": 5.3,
+ "avg_views": 32699.2,
  "posts_last_30d": 0,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UC43-ROy5F2-1dVZ726gckuA: This channel does not have a video",
  "channel_id": "UC43-ROy5F2-1dVZ726gckuA",
  "score_total": 62.5,
  "grade": "C",
@@ -36,18 +36,8 @@
   "follower_scale": 40,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-11T10:12:44+09:00",
-   "followers": 528,
-   "engagement_rate": 0.0107,
-   "posts_last_30d": 9,
-   "brand_fit_score": 90,
-   "score_total": 68.5,
-   "grade": "C",
-   "note": "pre-B-Light snapshot (2026-05-11)"
-  },
   {
    "evaluated_at": "2026-05-14T14:10:00+09:00",
    "score_total": 68.5,
@@ -292,6 +282,16 @@
    "brand_fit_score": 90,
    "engagement_rate": 0.0117,
    "evaluated_at": "2026-09-09T11:47:31+09:00",
+   "followers": 668,
+   "grade": "C",
+   "posts_last_30d": 0,
+   "retailer_focus": "daiso",
+   "score_total": 62.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0117,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 668,
    "grade": "C",
    "posts_last_30d": 0,

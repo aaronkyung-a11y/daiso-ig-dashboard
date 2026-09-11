@@ -3,14 +3,14 @@
  "username": "beautyus_mag",
  "fullname": "뷰티어쓰ㅣBEAUTY MAGAZINE",
  "profile_url": "https://www.instagram.com/beautyus_mag/",
- "followers": 92936,
- "engagement_rate": 1.8e-05,
- "avg_likes": 0.0,
- "avg_comments": 1.64,
+ "followers": 92937,
+ "engagement_rate": 4.5e-05,
+ "avg_likes": 3,
+ "avg_comments": 1.18,
  "avg_views": 0,
  "posts_last_30d": 11,
  "_posts_last_30d_est": true,
- "_likes_hidden": true,
+ "_likes_hidden": false,
  "_ig_logged_out": false,
  "sample_size": 11,
  "brand_fit_score": 90,
@@ -18,7 +18,7 @@
  "retailer_signal": {
   "daiso_mentions": "0건",
   "olive_young_mentions": "0건",
-  "beauty_keywords": "22건",
+  "beauty_keywords": "19건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -26,7 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-10 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 1건 제외 11건, media/info API 실측 11/11건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ 좋아요 비공개 11/11건 — 해당 건 좋아요 평균에서 제외, ER은 댓글 기반 하한값(추정). ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
+ "sample_note": "IG 로그인 실측(2026-09-11 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 1건 제외 11건, media/info API 실측 11/11건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정. ★ IG 그리드 페이지네이션 차단으로 샘플 상한 12건(작업정의 18~24 미달) — 전일 회차와 동일 조건.",
  "score_total": 65.5,
  "grade": "B",
  "score_breakdown": {
@@ -36,19 +36,8 @@
   "followers": 80,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-10T10:45:11+09:00",
+ "evaluated_at": "2026-09-11T11:02:33+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-06T17:05:00+09:00",
-   "followers": 87000,
-   "engagement_rate": 0.0487,
-   "posts_last_30d": 10,
-   "sample_size": 12,
-   "brand_fit_score": 90,
-   "retailer_focus": "beauty_general",
-   "score_total": 75.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-05-12T17:15:00+09:00",
    "followers": 88000,
@@ -294,6 +283,16 @@
    "evaluated_at": "2026-09-09T10:59:12+09:00",
    "followers": 92964,
    "note": null,
+   "posts_last_30d": 11,
+   "retailer_focus": "beauty_general",
+   "score_total": 65.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 1.8e-05,
+   "evaluated_at": "2026-09-10T10:45:11+09:00",
+   "followers": 92936,
+   "grade": "B",
    "posts_last_30d": 11,
    "retailer_focus": "beauty_general",
    "score_total": 65.5

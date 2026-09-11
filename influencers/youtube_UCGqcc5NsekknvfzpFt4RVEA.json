@@ -4,17 +4,17 @@
  "fullname": "지니이즈백",
  "profile_url": "https://www.youtube.com/channel/UCGqcc5NsekknvfzpFt4RVEA",
  "followers": 12100,
- "engagement_rate": 0.0151,
- "avg_likes": 267.7,
- "avg_comments": 53.4,
- "avg_views": 17702.6,
+ "engagement_rate": 0.0149,
+ "avg_likes": 271.9,
+ "avg_comments": 49.3,
+ "avg_views": 18296.0,
  "posts_last_30d": 17,
  "_posts_last_30d_est": false,
  "sample_size": 24,
  "brand_fit_score": 60,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "6건",
+  "daiso_mentions": "11건",
   "olive_young_mentions": "0건",
   "beauty_keywords": "1건",
   "labrang_present": false
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCGqcc5NsekknvfzpFt4RVEA",
  "score_total": 68.0,
  "grade": "B",
@@ -36,7 +36,7 @@
   "follower_scale": 80,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
   {
    "evaluated_at": "2026-08-19T14:13:29+09:00",
@@ -132,6 +132,16 @@
    "engagement_rate": 0.0136,
    "evaluated_at": "2026-09-09T10:24:52+09:00",
    "followers": 11900,
+   "grade": "B",
+   "posts_last_30d": 17,
+   "retailer_focus": "daiso",
+   "score_total": 68.0
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.0151,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 12100,
    "grade": "B",
    "posts_last_30d": 17,
    "retailer_focus": "daiso",

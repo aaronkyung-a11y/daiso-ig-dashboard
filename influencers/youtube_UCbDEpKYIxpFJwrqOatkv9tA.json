@@ -4,19 +4,19 @@
  "fullname": "서로디 lody",
  "profile_url": "https://www.youtube.com/channel/UCbDEpKYIxpFJwrqOatkv9tA",
  "followers": 3300,
- "engagement_rate": 0.0115,
- "avg_likes": 215.9,
+ "engagement_rate": 0.0114,
+ "avg_likes": 214.4,
  "avg_comments": 7.9,
- "avg_views": 18816.6,
+ "avg_views": 18888.2,
  "posts_last_30d": 12,
  "_posts_last_30d_est": false,
  "sample_size": 15,
  "brand_fit_score": 90,
  "retailer_focus": "daiso",
  "retailer_signal": {
-  "daiso_mentions": "2건",
-  "olive_young_mentions": "0건",
-  "beauty_keywords": "18건",
+  "daiso_mentions": "6건",
+  "olive_young_mentions": "1건",
+  "beauty_keywords": "44건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:15 likes_ok:15/15 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:15 likes_ok:15/15 ER표본:15 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCbDEpKYIxpFJwrqOatkv9tA",
  "score_total": 73.5,
  "grade": "B",
@@ -36,18 +36,8 @@
   "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:26:49.399610+09:00",
-   "followers": 1060,
-   "engagement_rate": 0.0272,
-   "posts_last_30d": 0,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 48.2,
-   "grade": "D"
-  },
   {
    "evaluated_at": "2026-06-01T01:10:21.048444+00:00",
    "score_total": 49.25,
@@ -298,6 +288,16 @@
    "posts_last_30d": 12,
    "retailer_focus": "daiso",
    "score_total": 47.2
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0115,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 3300,
+   "grade": "B",
+   "posts_last_30d": 12,
+   "retailer_focus": "daiso",
+   "score_total": 73.5
   }
  ]
 }

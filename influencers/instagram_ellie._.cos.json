@@ -3,10 +3,10 @@
  "username": "ellie._.cos",
  "fullname": "ellie エリ",
  "profile_url": "https://www.instagram.com/ellie._.cos/",
- "followers": 2478,
- "engagement_rate": 0.008923,
- "avg_likes": 20.11,
- "avg_comments": 2.0,
+ "followers": 2474,
+ "engagement_rate": 0.00907,
+ "avg_likes": 20.44,
+ "avg_comments": 2,
  "avg_views": 0,
  "posts_last_30d": 9,
  "_posts_last_30d_est": true,
@@ -17,8 +17,8 @@
  "retailer_focus": "olive_young",
  "retailer_signal": {
   "daiso_mentions": "0건",
-  "olive_young_mentions": "9건",
-  "beauty_keywords": "33건",
+  "olive_young_mentions": "8건",
+  "beauty_keywords": "25건",
   "labrang_present": false
  },
  "estimation_flags": {
@@ -26,7 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": true
  },
- "sample_note": "IG 로그인 실측(2026-09-10 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건, media/info API 실측 9/9건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정.",
+ "sample_note": "IG 로그인 실측(2026-09-11 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 3건 제외 9건, media/info API 실측 9/9건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ posts_last_30d는 샘플 창이 전부 30일 내라 하한값 — 추정. ★ IG 그리드 페이지네이션 차단으로 샘플 상한 12건(작업정의 18~24 미달) — 전일 회차와 동일 조건.",
  "score_total": 60.5,
  "grade": "C",
  "score_breakdown": {
@@ -36,18 +36,8 @@
   "followers": 60,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-10T10:45:11+09:00",
+ "evaluated_at": "2026-09-11T11:02:33+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-12T10:45:10.204691+09:00",
-   "followers": 2207,
-   "engagement_rate": 0.4717,
-   "posts_last_30d": 21,
-   "brand_fit_score": 90,
-   "retailer_focus": "olive_young",
-   "score_total": 93.5,
-   "grade": "S"
-  },
   {
    "evaluated_at": "2026-05-14T10:22:20.228442+09:00",
    "followers": 1987,
@@ -298,6 +288,16 @@
    "evaluated_at": "2026-09-09T11:16:06+09:00",
    "followers": 2482,
    "note": null,
+   "posts_last_30d": 9,
+   "retailer_focus": "olive_young",
+   "score_total": 60.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.008923,
+   "evaluated_at": "2026-09-10T10:45:11+09:00",
+   "followers": 2478,
+   "grade": "C",
    "posts_last_30d": 9,
    "retailer_focus": "olive_young",
    "score_total": 60.5

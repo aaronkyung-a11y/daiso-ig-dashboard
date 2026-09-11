@@ -3,12 +3,12 @@
  "username": "haeriporter",
  "fullname": "해리포터🖤",
  "profile_url": "https://www.instagram.com/haeriporter/",
- "followers": 733663,
- "engagement_rate": 0.031978,
- "avg_likes": 23179.92,
- "avg_comments": 281.17,
- "avg_views": 1884378,
- "posts_last_30d": 8,
+ "followers": 734172,
+ "engagement_rate": 0.032913,
+ "avg_likes": 23869.17,
+ "avg_comments": 294.58,
+ "avg_views": 1844656.08,
+ "posts_last_30d": 9,
  "_posts_last_30d_est": false,
  "_likes_hidden": false,
  "_ig_logged_out": false,
@@ -26,7 +26,7 @@
   "followers_estimated": false,
   "posts_30d_estimated": false
  },
- "sample_note": "IG 로그인 실측(2026-09-10 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워.",
+ "sample_note": "IG 로그인 실측(2026-09-11 10:00 슬롯 · STEP B 풀 재분석) — 프로필 그리드 12건 스캔 → 고정글 0건 제외 12건, media/info API 실측 12/12건. ER=(평균 좋아요+평균 댓글)/팔로워. ★ IG 그리드 페이지네이션 차단으로 샘플 상한 12건(작업정의 18~24 미달) — 전일 회차와 동일 조건.",
  "score_total": 77.0,
  "grade": "A",
  "score_breakdown": {
@@ -36,21 +36,8 @@
   "followers": 100,
   "weights": "ER0.50/brand0.25/consistency0.15/followers0.10"
  },
- "evaluated_at": "2026-09-10T10:45:11+09:00",
+ "evaluated_at": "2026-09-11T11:02:33+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-04-30T14:58:26+09:00",
-   "followers": 718000,
-   "engagement_rate": 0.0284,
-   "avg_likes": 19831,
-   "avg_comments": 537,
-   "sample_size": 1,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "grade": "C",
-   "score_total": 58.2,
-   "posts_last_30d": 6
-  },
   {
    "evaluated_at": "2026-05-04T09:37:51+09:00",
    "total_score": 58.2,
@@ -307,6 +294,16 @@
    "posts_last_30d": 9,
    "retailer_focus": "beauty_general",
    "score_total": 67.0
+  },
+  {
+   "brand_fit_score": 60,
+   "engagement_rate": 0.031978,
+   "evaluated_at": "2026-09-10T10:45:11+09:00",
+   "followers": 733663,
+   "grade": "A",
+   "posts_last_30d": 8,
+   "retailer_focus": "beauty_general",
+   "score_total": 77.0
   }
  ]
 }

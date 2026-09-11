@@ -3,11 +3,11 @@
  "username": "UClgkEMblgt1EUDYejTMiYug",
  "fullname": "은혜로운은혜",
  "profile_url": "https://www.youtube.com/channel/UClgkEMblgt1EUDYejTMiYug",
- "followers": 415,
+ "followers": 416,
  "engagement_rate": 0.0147,
- "avg_likes": 952.0,
- "avg_comments": 9.5,
- "avg_views": 64720.6,
+ "avg_likes": 952.5,
+ "avg_comments": 3.2,
+ "avg_views": 64744.8,
  "posts_last_30d": 1,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UClgkEMblgt1EUDYejTMiYug: This channel does not have a video",
  "channel_id": "UClgkEMblgt1EUDYejTMiYug",
  "score_total": 65.0,
  "grade": "B",
@@ -36,18 +36,8 @@
   "follower_scale": 40,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:28:24.430643+09:00",
-   "followers": 411,
-   "engagement_rate": 0.0154,
-   "posts_last_30d": 5,
-   "brand_fit_score": 90,
-   "retailer_focus": "daiso",
-   "score_total": 68.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-05-28T10:00:00+09:00",
    "followers": 357,
@@ -304,6 +294,16 @@
    "posts_last_30d": 1,
    "retailer_focus": "our_brand",
    "score_total": 55.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0147,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 415,
+   "grade": "B",
+   "posts_last_30d": 1,
+   "retailer_focus": "our_brand",
+   "score_total": 65.0
   }
  ]
 }

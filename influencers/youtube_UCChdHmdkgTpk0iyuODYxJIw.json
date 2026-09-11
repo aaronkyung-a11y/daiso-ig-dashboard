@@ -4,10 +4,10 @@
  "fullname": "해니 haeni beauty",
  "profile_url": "https://www.youtube.com/channel/UCChdHmdkgTpk0iyuODYxJIw",
  "followers": 479000,
- "engagement_rate": 0.0232,
- "avg_likes": 1515.6,
- "avg_comments": 67.2,
- "avg_views": 65406.8,
+ "engagement_rate": 0.0231,
+ "avg_likes": 1519.7,
+ "avg_comments": 67.4,
+ "avg_views": 65784.3,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
  "sample_size": 24,
@@ -15,8 +15,8 @@
  "retailer_focus": "our_brand",
  "retailer_signal": {
   "daiso_mentions": "4건",
-  "olive_young_mentions": "21건",
-  "beauty_keywords": "103건",
+  "olive_young_mentions": "20건",
+  "beauty_keywords": "502건",
   "labrang_present": true
  },
  "estimation_flags": {
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:24 likes_ok:24/24 ER표본:24 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
  "channel_id": "UCChdHmdkgTpk0iyuODYxJIw",
  "score_total": 77.0,
  "grade": "A",
@@ -36,18 +36,8 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-05-28T10:00:00+09:00",
-   "followers": 479000,
-   "engagement_rate": 0.0414,
-   "posts_last_30d": 3,
-   "brand_fit_score": 100,
-   "retailer_focus": "our_brand",
-   "score_total": 84.0,
-   "grade": "A"
-  },
   {
    "evaluated_at": "2026-06-01T01:11:20.692440+00:00",
    "score_total": 87.5,
@@ -308,6 +298,16 @@
    "brand_fit_score": 100,
    "engagement_rate": 0.0161,
    "evaluated_at": "2026-09-09T10:24:52+09:00",
+   "followers": 479000,
+   "grade": "A",
+   "posts_last_30d": 6,
+   "retailer_focus": "our_brand",
+   "score_total": 77.0
+  },
+  {
+   "brand_fit_score": 100,
+   "engagement_rate": 0.0232,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
    "followers": 479000,
    "grade": "A",
    "posts_last_30d": 6,

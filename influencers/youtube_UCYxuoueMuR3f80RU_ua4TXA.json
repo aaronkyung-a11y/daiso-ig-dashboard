@@ -4,10 +4,10 @@
  "fullname": "로빗 lobit🐰🫧",
  "profile_url": "https://www.youtube.com/channel/UCYxuoueMuR3f80RU_ua4TXA",
  "followers": 3200,
- "engagement_rate": 0.0178,
- "avg_likes": 402.5,
+ "engagement_rate": 0.0177,
+ "avg_likes": 403.4,
  "avg_comments": 6.5,
- "avg_views": 22669.0,
+ "avg_views": 22799.3,
  "posts_last_30d": 6,
  "_posts_last_30d_est": false,
  "sample_size": 12,
@@ -25,7 +25,7 @@
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/videos:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UCYxuoueMuR3f80RU_ua4TXA: This channel does not have a video",
  "channel_id": "UCYxuoueMuR3f80RU_ua4TXA",
  "score_total": 70.5,
  "grade": "B",
@@ -36,18 +36,8 @@
   "follower_scale": 60,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-16T10:26:03.524365+09:00",
-   "followers": 2620,
-   "engagement_rate": 0.0183,
-   "posts_last_30d": 8,
-   "brand_fit_score": 90,
-   "retailer_focus": "mixed",
-   "score_total": 70.5,
-   "grade": "B"
-  },
   {
    "evaluated_at": "2026-05-12T10:15:00+09:00",
    "score_total": 67.5,
@@ -295,6 +285,16 @@
    "engagement_rate": 0.0177,
    "evaluated_at": "2026-09-09T10:32:50+09:00",
    "followers": 3190,
+   "grade": "B",
+   "posts_last_30d": 6,
+   "retailer_focus": "daiso",
+   "score_total": 70.5
+  },
+  {
+   "brand_fit_score": 90,
+   "engagement_rate": 0.0178,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 3200,
    "grade": "B",
    "posts_last_30d": 6,
    "retailer_focus": "daiso",

@@ -4,12 +4,12 @@
  "fullname": "桃夭剧场TopLove",
  "profile_url": "https://www.youtube.com/channel/UClSW7LJ8qs7BwNfn2yMT0sQ",
  "followers": 641000,
- "engagement_rate": 0.0068,
- "avg_likes": 100.8,
- "avg_comments": 2.9,
- "avg_views": 14870.7,
+ "engagement_rate": 0.0071,
+ "avg_likes": 75.8,
+ "avg_comments": 2.2,
+ "avg_views": 10604.1,
  "posts_last_30d": 12,
- "_posts_last_30d_est": true,
+ "_posts_last_30d_est": false,
  "sample_size": 12,
  "brand_fit_score": 25,
  "retailer_focus": "off_topic",
@@ -21,13 +21,13 @@
  },
  "estimation_flags": {
   "brand_fit_score": "추정(키워드 카운트 기반)",
-  "posts_last_30d": "추정(스캔창 상한)",
+  "posts_last_30d": "실측",
   "followers": "실측(yt-dlp channel_follower_count)",
   "engagement_rate": "실측(avg_likes/avg_views)"
  },
- "sample_note": "2026-09-10 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | ★ posts_last_30d는 스캔창 상한에 걸린 하한값(추정)",
+ "sample_note": "2026-09-11 10:00 슬롯 STEP B 풀 재분석 실측 | videos+shorts 스캔 meta_ok:12 likes_ok:12/12 ER표본:12 | ER=평균좋아요/평균조회수 | brand_fit은 title+tags+description+채널소개 키워드 카운트 기반 산출값(추정) | fetch_warn:/shorts:Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above\nERROR: [youtube:tab] UClSW7LJ8qs7BwNfn2yMT0sQ: This channel does not have a short",
  "channel_id": "UClSW7LJ8qs7BwNfn2yMT0sQ",
- "score_total": 51.2,
+ "score_total": 51.25,
  "grade": "C",
  "score_breakdown": {
   "er_score": 40,
@@ -36,18 +36,8 @@
   "follower_scale": 100,
   "formula": "ER*0.50 + brand_fit*0.25 + consistency*0.15 + follower*0.10"
  },
- "evaluated_at": "2026-09-10T10:33:58+09:00",
+ "evaluated_at": "2026-09-11T11:40:47+09:00",
  "history": [
-  {
-   "evaluated_at": "2026-06-17T10:29:30.701414+09:00",
-   "followers": 593000,
-   "engagement_rate": 0.01,
-   "posts_last_30d": 15,
-   "brand_fit_score": 25,
-   "retailer_focus": "off_topic",
-   "score_total": 61.2,
-   "grade": "C"
-  },
   {
    "evaluated_at": "2026-06-16T10:27:36.909693+09:00",
    "followers": 592000,
@@ -296,6 +286,16 @@
    "engagement_rate": 0.007,
    "evaluated_at": "2026-09-09T10:35:41+09:00",
    "followers": 640000,
+   "grade": "C",
+   "posts_last_30d": 12,
+   "retailer_focus": "off_topic",
+   "score_total": 51.2
+  },
+  {
+   "brand_fit_score": 25,
+   "engagement_rate": 0.0068,
+   "evaluated_at": "2026-09-10T10:33:58+09:00",
+   "followers": 641000,
    "grade": "C",
    "posts_last_30d": 12,
    "retailer_focus": "off_topic",
