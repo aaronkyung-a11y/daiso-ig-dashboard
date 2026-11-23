@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>뷰티 × Instagram 릴스 대시보드 (다이소 / 올리브영)</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    min-height: 100vh;
+    padding: 32px;
+  }
+  .container { max-width: 1400px; margin: 0 auto; }
+  header {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 16px; padding-bottom: 16px;
+  }
+  h1 { font-size: 26px; font-weight: 700; color: #f1f5f9; }
+  .subtitle { color: #94a3b8; font-size: 13px; margin-top: 4px; }
+  .timestamp { color: #64748b; font-size: 13px; font-family: 'SF Mono', monospace; }
+
+  .tabs {
+    display: flex; gap: 0; margin-bottom: 28px;
+    border-bottom: 2px solid #334155;
+  }
+  .tab-btn {
+    background: transparent; border: none; outline: none; cursor: pointer;
+    padding: 14px 28px; font-size: 15px; font-weight: 600; color: #64748b;
+    border-bottom: 3px solid transparent; margin-bottom: -2px;
+    transition: all 0.15s; font-family: inherit;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .tab-btn:hover { color: #cbd5e1; }
+  .tab-btn.active {
+    color: #f1f5f9; border-bottom-color: #38bdf8;
+  }
+  .tab-btn.oliveyoung.active { border-bottom-color: #10b981; }
+  .tab-btn.youtube.active { border-bottom-color: #ef4444; }
+  .tab-btn .dot {
+    width: 7px; height: 7px; border-radius: 50%; display: inline-block;
+  }
+  .tab-btn .dot.daiso { background: #38bdf8; }
+  .tab-btn .dot.oliveyoung { background: #10b981; }
+  .tab-btn .dot.youtube { background: #ef4444; }
+  .yt-iframe-wrap {
+    border: 1px solid #334155; border-radius: 12px; overflow: hidden;
+    background: #0f172a; min-height: 80vh;
+  }
+  .yt-iframe-wrap iframe {
+    width: 100%; height: 82vh; border: 0; display: block;
+  }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 32px; }
+  .grid-1 { margin-bottom: 32px; }
+  .panel {
+    background: #1e293b; border: 1px solid #334155; border-radius: 12px;
+    padding: 24px;
+  }
+  .panel h2 {
+    font-size: 16px; font-weight: 600; color: #cbd5e1; margin-bottom: 16px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .panel h2::before {
+    content: ''; width: 4px; height: 16px; background: #38bdf8; border-radius: 2px;
+  }
+  .panel h2.rising::before { background: #fbbf24; }
+  .panel h2.top::before { background: #10b981; }
+  .panel .desc {
+    font-size: 12px; color: #94a3b8; margin-top: -10px; margin-bottom: 16px;
+  }
+  .chart-wrap { position: relative; height: 360px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #334155; }
+  th { color: #94a3b8; font-weight: 500; background: #0f172a; font-size: 11px;
+       text-transform: uppercase; letter-spacing: 0.5px; }
+  td { color: #e2e8f0; }
+  td.num { text-align: right; font-family: 'SF Mono', monospace; color: #38bdf8; }
+  tr:hover { background: #0f172a; }
+  a { color: #60a5fa; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .badge {
+    display: inline-block; font-size: 10px; padding: 2px 8px; border-radius: 4px;
+    font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .badge.actual { background: #065f46; color: #6ee7b7; }
+  .badge.est { background: #422006; color: #fbbf24; }
+  .badge.rising { background: #78350f; color: #fcd34d; }
+  .badge.veteran { background: #134e4a; color: #5eead4; }
+
+  .keyword-card {
+    background: #1e293b; border: 1px solid #334155; border-radius: 14px;
+    padding: 22px 20px; transition: all 0.2s;
+    cursor: pointer; display: flex; flex-direction: column;
+    text-decoration: none !important; min-height: 180px;
+    position: relative; overflow: hidden;
+  }
+  .keyword-card:hover {
+    border-color: #38bdf8; background: #1e3a5f;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(56, 189, 248, 0.15);
+  }
+  .keyword-card.oliveyoung:hover {
+    border-color: #10b981; background: #0f2e25;
+    box-shadow: 0 8px 24px rgba(16, 185, 129, 0.15);
+  }
+  .keyword-card .rank-badge {
+    position: absolute; top: 14px; right: 14px;
+    font-size: 10px; font-weight: 700; color: #fbbf24;
+    background: rgba(251, 191, 36, 0.12);
+    padding: 3px 8px; border-radius: 10px;
+    letter-spacing: 0.5px;
+  }
+  .keyword-card .kw-title {
+    font-size: 17px; font-weight: 700; color: #f1f5f9;
+    line-height: 1.35; margin-bottom: 6px;
+    padding-right: 40px;
+    word-break: keep-all;
+  }
+  .keyword-card .kw-reel-count {
+    font-size: 12px; color: #94a3b8; margin-bottom: 16px;
+  }
+  .keyword-card .kw-main-stat {
+    margin-top: auto; padding-top: 12px; border-top: 1px solid #334155;
+  }
+  .keyword-card .kw-main-stat .label {
+    font-size: 10px; color: #64748b; text-transform: uppercase;
+    letter-spacing: 0.5px; margin-bottom: 4px;
+  }
+  .keyword-card .kw-main-stat .value {
+    font-size: 20px; font-weight: 700; color: #38bdf8;
+    font-family: 'SF Mono', monospace;
+  }
+  .keyword-card.oliveyoung .kw-main-stat .value { color: #10b981; }
+  .keyword-card .kw-top-user {
+    font-size: 11px; color: #94a3b8; margin-top: 6px;
+  }
+  .keyword-card .kw-top-user strong { color: #cbd5e1; font-weight: 600; }
+  .keyword-card .kw-cta {
+    position: absolute; bottom: 14px; right: 14px;
+    font-size: 10px; color: #60a5fa; opacity: 0; transition: opacity 0.2s;
+  }
+  .keyword-card:hover .kw-cta { opacity: 1; }
+
+  .keywords-grid {
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px;
+    margin-bottom: 32px;
+  }
+  @media (max-width: 1200px) { .keywords-grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 768px) { .keywords-grid { grid-template-columns: repeat(2, 1fr); } }
+
+  .footer {
+    margin-top: 32px; padding-top: 16px; border-top: 1px solid #334155;
+    color: #64748b; font-size: 12px; text-align: center;
+  }
+  .footer a { color: #60a5fa; }
+
+  .mini-chip {
+    display: inline-block; padding: 3px 10px; border-radius: 10px;
+    background: #0f172a; border: 1px solid #334155;
+    font-size: 11px; color: #94a3b8; margin-right: 6px; margin-top: 4px;
+  }
+
+  .keyword-section { border-top: 1px solid #334155; padding: 16px 0; }
+  .keyword-section .kw-head {
+    display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;
+  }
+  .keyword-section .kw-link {
+    color: #f1f5f9; font-weight: 600; font-size: 15px;
+  }
+  .keyword-section .kw-link:hover { color: #38bdf8; }
+
+  .score-pill {
+    display: inline-block; padding: 2px 7px; border-radius: 10px;
+    font-size: 10px; font-weight: 600; margin-left: 6px;
+  }
+  .score-pill.hot { background: #7f1d1d; color: #fca5a5; }
+  .score-pill.new { background: #78350f; color: #fcd34d; }
+  .multiplier { color: #fbbf24; font-family: 'SF Mono', monospace; font-weight: 600; }
+
+  .tag-keyword {
+    display: inline-block; padding: 2px 8px; background: #312e81; color: #a5b4fc;
+    border-radius: 4px; font-size: 10px; margin-right: 4px;
+  }
+
+  .empty-state {
+    padding: 40px 20px; text-align: center; color: #94a3b8;
+    background: #0f172a; border: 1px dashed #334155; border-radius: 8px;
+  }
+  .empty-state .icon { font-size: 32px; margin-bottom: 8px; }
+  .empty-state .title { font-size: 14px; color: #cbd5e1; margin-bottom: 4px; font-weight: 600; }
+  .empty-state .sub { font-size: 12px; color: #64748b; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div>
+      <h1>🎨 뷰티 × Instagram 릴스 대시보드</h1>
+      <div class="subtitle">다이소몰 / 올리브영 뷰티 Top 10 × Instagram 릴스 트렌드 트래커</div>
+    </div>
+    <div class="timestamp">
+      마지막 업데이트: <span id="lastUpdated">-</span>
+    </div>
+  </header>
+
+  <div class="tabs">
+    <button class="tab-btn daiso active" data-tab="daiso">
+      <span class="dot daiso"></span>다이소 뷰티
+    </button>
+    <button class="tab-btn oliveyoung" data-tab="oliveyoung">
+      <span class="dot oliveyoung"></span>올리브영 뷰티
+    </button>
+    <button class="tab-btn youtube" data-tab="youtube">
+      <span class="dot youtube"></span>YouTube (올리브영)
+    </button>
+    <a class="tab-btn" href="./influencer-eval.html" style="text-decoration:none;color:inherit;">
+      <span class="dot" style="background:#fbbf24;"></span>🤝 인플루언서 검증기
+    </a>
+  </div>
+
+  <!-- 다이소 탭 -->
+  <div class="tab-content active" id="tab-daiso">
+    <div class="keywords-grid" id="daiso-keywordsGrid"></div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>키워드별 조회수 (실측+추정)</h2>
+        <div class="chart-wrap"><canvas id="daiso-keywordBar"></canvas></div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="panel">
+        <h2 class="top">💎 영향력 Top 크리에이터</h2>
+        <div class="desc">누적 조회수 + 출현 키워드 수 + 평균 조회수 기준 상위 10명</div>
+        <div id="daiso-topInfluencers"></div>
+      </div>
+      <div class="panel">
+        <h2 class="rising">🚀 떠오르는 인플루언서</h2>
+        <div class="desc">최근 60일 내 업로드 × 바이럴 배수(조회수/좋아요) 상위. 폭발적 성장 중인 크리에이터</div>
+        <div id="daiso-risingStars"></div>
+      </div>
+    </div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>🏆 전체 바이럴 Top 10 릴스</h2>
+        <div id="daiso-viralTable"></div>
+      </div>
+    </div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>📋 키워드별 상세</h2>
+        <div id="daiso-keywordDetail"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 올리브영 탭 -->
+  <div class="tab-content" id="tab-oliveyoung">
+    <div class="keywords-grid" id="oliveyoung-keywordsGrid"></div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>키워드별 조회수 (실측+추정)</h2>
+        <div class="chart-wrap"><canvas id="oliveyoung-keywordBar"></canvas></div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="panel">
+        <h2 class="top">💎 영향력 Top 크리에이터</h2>
+        <div class="desc">누적 조회수 + 출현 키워드 수 + 평균 조회수 기준 상위 10명</div>
+        <div id="oliveyoung-topInfluencers"></div>
+      </div>
+      <div class="panel">
+        <h2 class="rising">🚀 떠오르는 인플루언서</h2>
+        <div class="desc">최근 60일 내 업로드 × 바이럴 배수(조회수/좋아요) 상위. 폭발적 성장 중인 크리에이터</div>
+        <div id="oliveyoung-risingStars"></div>
+      </div>
+    </div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>🏆 전체 바이럴 Top 10 릴스</h2>
+        <div id="oliveyoung-viralTable"></div>
+      </div>
+    </div>
+    <div class="grid-1">
+      <div class="panel">
+        <h2>📋 키워드별 상세</h2>
+        <div id="oliveyoung-keywordDetail"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- YouTube 탭 -->
+  <div class="tab-content" id="tab-youtube">
+    <div class="yt-iframe-wrap">
+      <iframe src="./youtube/oliveyoung.html" title="올리브영 YouTube Top 10 대시보드" loading="lazy"></iframe>
+    </div>
+  </div>
+
+  <div class="footer">
+    📂 <a href="https://drive.google.com/drive/folders/1K-zw4XcTiR_Ii-nHea1GODUX4x3QxdOh" target="_blank">Google Drive 폴더 열기</a> ·
+    자동 업데이트: 다이소 평일 11:59 · 올리브영 평일 14:59 · Generated by Claude Agent
+  </div>
+
+</div>
+
+<script>
+// ====== 다이소 데이터 (daiso-beauty-instagram-weekly 스케줄이 이 블록을 교체) ======
+// DAISO_DATA_BEGIN
+const daisoData = {
+  "lastUpdated": "2026-10-14T12:28",
+  "top10": [
+    {
+      "rank": 1,
+      "siteRank": 4,
+      "pdNo": "1084362",
+      "brand": "아로셀",
+      "name": "[수분탄력]아로셀 히알콜라겐 앰플 겔 마스크 1매입",
+      "price": 2000,
+      "rating": "4.7",
+      "review_count": "362",
+      "buy_count": "",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260813/thumb/300/rWZh1VRiheHGQZ7liWfK1084362_00_02rWZh1VRiheHGQZ7liWfK.jpg",
+      "url": "https://www.daisomall.co.kr/ds/pd/pd?pdNo=1084362"
+    },
+    {
+      "rank": 2,
+      "siteRank": 6,
+      "pdNo": "1075034",
+      "brand": "마미케어",
+      "name": "[화잘먹/80매]마미케어 바다포도 스킨팩",
+      "price": 5000,
+      "rating": "4.9",
+      "review_count": "9,999+",
+      "buy_count": "",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260630/thumb/300/O2lVbribd9oMO7DLtfTz1075034_00_02O2lVbribd9oMO7DLtfTz.png",
+      "url": "https://www.daisomall.co.kr/ds/pd/pd?pdNo=1075034"
+    },
+    {
+      "rank": 3,
+      "siteRank": 7,
+      "pdNo": "1075934",
+      "brand": "꽁래쉬",
+      "name": "[#2 피치]꽁래쉬 노글루 속눈썹",
+      "price": 3000,
+      "rating": "4.8",
+      "review_count": "2,269",
+      "buy_count": "",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260421/thumb/300/HeG8sWsXBRKTEKue6gVw1075934_00_01HeG8sWsXBRKTEKue6gVw.jpg",
+      "url": "https://www.daisomall.co.kr/ds/pd/pd?pdNo=1075934"
+    },
+    {
+      "rank": 4,
+      "siteRank": 8,
+      "pdNo": "1084352",
+      "brand": "VT",
+      "name": "[생기충전]VT PDRN 톤온 젤리 시트 마스크 1매입",
+      "price": 1000,
+      "rating": "4.9",
+      "review_count": "270",
+      "buy_count": "",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260904/thumb/300/JAyF1RFRDrLVafQBFPJw1084352_00_02JAyF1RFRDrLVafQBFPJw.jpg",
+      "url": "https://www.daisomall.co.kr/ds/pd/pd?pdNo=1084352"
+    },
+    {
+      "rank": 5,
+      "siteRank": 10,
+      "pdNo": "1087776",
+      "brand": "후시덤",
+      "name": "후시덤 흔적 리페어 캡슐 크림 60 g",
+      "price": 5000,
+      "rating": "4.9",
+      "review_count": "103",
+      "buy_count": "",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260923/thumb/300/MZnpcQkzwKXkc2jiiTJV1087776_00_01MZnpcQkzwKXkc2jiiTJV.jpg",
+      "url": "https://www.daisomall.co.kr/ds/pd/pd?pdNo=1087776"
+    },
+    {
+      "rank": 6,
+      "siteRank": 15,
+      "pdNo": "1075938",
+      "brand": "꽁래쉬",
+      "name": "[#6 바니]꽁래쉬 노글루 속눈썹",
+      "price": 3000,
+      "rating": "4.8",
+      "review_count": "1,470",
+      "buy_count": "",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260421/thumb/300/EjJ1zpLokdb4qviwwG7I1075938_00_01EjJ1zpLokdb4qviwwG7I.jpg",
+      "url": "https://www.daisomall.co.kr/ds/pd/pd?pdNo=1075938"
+    },
+    {
+      "rank": 7,
+      "siteRank": 17,
+      "pdNo": "1049301",
+      "brand": "VT",
+      "name": "VT 시카 카밍 마스크팩 4매입",
+      "price": 3000,
+      "rating": "4.8",
+      "review_count": "1,473",
+      "buy_count": "",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250929/thumb/300/DgIsJXXiTvbLy0PKC6QN1049301_00_02DgIsJXXiTvbLy0PKC6QN.jpg",
+      "url": "https://www.daisomall.co.kr/ds/pd/pd?pdNo=1049301"
+    },
+    {
+      "rank": 8,
+      "siteRank": 18,
+      "pdNo": "1084360",
+      "brand": "아로셀",
+      "name": "[광채탄력]아로셀 펩타콜라겐 앰플 겔 마스크 1매입",
+      "price": 2000,
+      "rating": "4.7",
+      "review_count": "394",
+      "buy_count": "",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260813/thumb/300/CjO2c4W32b0jZlRECxBx1084360_00_02CjO2c4W32b0jZlRECxBx.jpg",
+      "url": "https://www.daisomall.co.kr/ds/pd/pd?pdNo=1084360"
+    },
+    {
+      "rank": 9,
+      "siteRank": 22,
+      "pdNo": "1061529",
+      "brand": "바이 리얼베리어",
+      "name": "바이 리얼베리어 세라베이스 카밍 모이스처라이징 크림 50 ml",
+      "price": 5000,
+      "rating": "4.8",
+      "review_count": "7,552",
+      "buy_count": "",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251231/thumb/300/lSHFH0gxhnGL4YteMZaW1061529_00_01lSHFH0gxhnGL4YteMZaW.jpg",
+      "url": "https://www.daisomall.co.kr/ds/pd/pd?pdNo=1061529"
+    },
+    {
+      "rank": 10,
+      "siteRank": 23,
+      "pdNo": "1087786",
+      "brand": "후시덤",
+      "name": "후시덤 흔적 리페어 크림 마스크 20 g",
+      "price": 2000,
+      "rating": "4.7",
+      "review_count": "26",
+      "buy_count": "1.6천+",
+      "image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260923/thumb/300/E2SnrMk9Vmvrhxf40mmK1087786_00_01E2SnrMk9Vmvrhxf40mmK.jpg",
+      "url": "https://www.daisomall.co.kr/ds/pd/pd?pdNo=1087786"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "아로셀 겔마스크",
+      "rank": 1,
+      "reelCount": 6,
+      "totalViews": 461942,
+      "totalEngagement": 4579,
+      "topReels": [
+        {
+          "keyword": "아로셀 겔마스크",
+          "id": "DdoCrj8zJVe",
+          "url": "https://www.instagram.com/reels/DdoCrj8zJVe/",
+          "user": "kimdobii",
+          "date": "2026-09-23",
+          "likes": 2088,
+          "comments": 28,
+          "engagement": 2116,
+          "views": 236269,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "아로셀 겔마스크",
+          "id": "DdYyiF7v09T",
+          "url": "https://www.instagram.com/reels/DdYyiF7v09T/",
+          "user": "ojirapper_",
+          "date": "2026-09-17",
+          "likes": 2348,
+          "comments": 11,
+          "engagement": 2359,
+          "views": 214947,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "아로셀 겔마스크",
+          "id": "DdjDz9vT7KK",
+          "url": "https://www.instagram.com/reels/DdjDz9vT7KK/",
+          "user": "mongttang_review",
+          "date": "2026-09-21",
+          "likes": 49,
+          "comments": 0,
+          "engagement": 49,
+          "views": 9643,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "아로셀 겔마스크",
+          "id": "DdfutuSJaCB",
+          "url": "https://www.instagram.com/reels/DdfutuSJaCB/",
+          "user": "jonwonpic",
+          "date": "2026-09-20",
+          "likes": 13,
+          "comments": 3,
+          "engagement": 16,
+          "views": 512,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "아로셀 겔마스크",
+          "id": "DdgzS8vSTSk",
+          "url": "https://www.instagram.com/reels/DdgzS8vSTSk/",
+          "user": "qazwsx_jjhs",
+          "date": "2026-09-20",
+          "likes": 18,
+          "comments": 10,
+          "engagement": 28,
+          "views": 287,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "아로셀 겔마스크",
+          "id": "DdjQ-cNT2T7",
+          "url": "https://www.instagram.com/reels/DdjQ-cNT2T7/",
+          "user": "soyul.bb",
+          "date": "2026-09-21",
+          "likes": 8,
+          "comments": 3,
+          "engagement": 11,
+          "views": 284,
+          "type": "실측 (play_count)"
+        }
+      ]
+    },
+    {
+      "keyword": "마미케어 바다포도",
+      "rank": 2,
+      "reelCount": 26,
+      "totalViews": 3085248,
+      "totalEngagement": 33990,
+      "topReels": [
+        {
+          "keyword": "마미케어 바다포도",
+          "id": "Dd8xyurzlmx",
+          "url": "https://www.instagram.com/reels/Dd8xyurzlmx/",
+          "user": "ojirapper_",
+          "date": "2026-10-01",
+          "likes": 12535,
+          "comments": 27,
+          "engagement": 12562,
+          "views": 1038901,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "마미케어 바다포도",
+          "id": "DdTFnCDxcGN",
+          "url": "https://www.instagram.com/reels/DdTFnCDxcGN/",
+          "user": "ojirapper_",
+          "date": "2026-09-15",
+          "likes": 4336,
+          "comments": 36,
+          "engagement": 4372,
+          "views": 563500,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "마미케어 바다포도",
+          "id": "DdYcp2KJji7",
+          "url": "https://www.instagram.com/reels/DdYcp2KJji7/",
+          "user": "rovueee",
+          "date": "2026-09-17",
+          "likes": 4966,
+          "comments": 61,
+          "engagement": 5027,
+          "views": 344554,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "마미케어 바다포도",
+          "id": "DdQ7NS8Bi0q",
+          "url": "https://www.instagram.com/reels/DdQ7NS8Bi0q/",
+          "user": "whale_2727",
+          "date": "2026-09-14",
+          "likes": 2449,
+          "comments": 30,
+          "engagement": 2479,
+          "views": 155934,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "마미케어 바다포도",
+          "id": "Dd_A7WeJ6Jb",
+          "url": "https://www.instagram.com/reels/Dd_A7WeJ6Jb/",
+          "user": "byeol.kkol",
+          "date": "2026-10-02",
+          "likes": 865,
+          "comments": 20,
+          "engagement": 885,
+          "views": 154840,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "마미케어 바다포도",
+          "id": "DdqvnapR3HK",
+          "url": "https://www.instagram.com/reels/DdqvnapR3HK/",
+          "user": "_donnada_",
+          "date": "2026-09-24",
+          "likes": 3521,
+          "comments": 42,
+          "engagement": 3563,
+          "views": 150844,
+          "type": "실측 (play_count)"
+        }
+      ]
+    },
+    {
+      "keyword": "꽁래쉬 노글루 속눈썹",
+      "rank": 3,
+      "reelCount": 7,
+      "totalViews": 546159,
+      "totalEngagement": 9743,
+      "topReels": [
+        {
+          "keyword": "꽁래쉬 노글루 속눈썹",
+          "id": "DdoA1M0vdG-",
+          "url": "https://www.instagram.com/reels/DdoA1M0vdG-/",
+          "user": "beauty.e.ze",
+          "date": "2026-09-23",
+          "likes": 6162,
+          "comments": 40,
+          "engagement": 6202,
+          "views": 312615,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "꽁래쉬 노글루 속눈썹",
+          "id": "DdoRucHS8Md",
+          "url": "https://www.instagram.com/reels/DdoRucHS8Md/",
+          "user": "bettiekim__",
+          "date": "2026-09-23",
+          "likes": 1812,
+          "comments": 19,
+          "engagement": 1831,
+          "views": 150145,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "꽁래쉬 노글루 속눈썹",
+          "id": "Ddd2CC2xQ8c",
+          "url": "https://www.instagram.com/reels/Ddd2CC2xQ8c/",
+          "user": "merryview1",
+          "date": "2026-09-19",
+          "likes": 834,
+          "comments": 7,
+          "engagement": 841,
+          "views": 59076,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "꽁래쉬 노글루 속눈썹",
+          "id": "DdZ5HVZSntK",
+          "url": "https://www.instagram.com/reels/DdZ5HVZSntK/",
+          "user": "bgs_coduck",
+          "date": "2026-09-18",
+          "likes": 758,
+          "comments": 10,
+          "engagement": 768,
+          "views": 19704,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "꽁래쉬 노글루 속눈썹",
+          "id": "Dd5HT1Qvzqj",
+          "url": "https://www.instagram.com/reels/Dd5HT1Qvzqj/",
+          "user": "romelom3422",
+          "date": "2026-09-30",
+          "likes": 26,
+          "comments": 5,
+          "engagement": 31,
+          "views": 1731,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "꽁래쉬 노글루 속눈썹",
+          "id": "Ddd7670S1xu",
+          "url": "https://www.instagram.com/reels/Ddd7670S1xu/",
+          "user": "hxzzys_0108",
+          "date": "2026-09-19",
+          "likes": 40,
+          "comments": 9,
+          "engagement": 49,
+          "views": 1707,
+          "type": "실측 (play_count)"
+        }
+      ]
+    },
+    {
+      "keyword": "VT PDRN",
+      "rank": 4,
+      "reelCount": 35,
+      "totalViews": 2760918,
+      "totalEngagement": 25237,
+      "topReels": [
+        {
+          "keyword": "VT PDRN",
+          "id": "Ddbnb05SWPO",
+          "url": "https://www.instagram.com/reels/Ddbnb05SWPO/",
+          "user": "hee.__ni",
+          "date": "2026-09-18",
+          "likes": 6530,
+          "comments": 666,
+          "engagement": 7196,
+          "views": 862321,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "VT PDRN",
+          "id": "DdTFnCDxcGN",
+          "url": "https://www.instagram.com/reels/DdTFnCDxcGN/",
+          "user": "ojirapper_",
+          "date": "2026-09-15",
+          "likes": 4336,
+          "comments": 36,
+          "engagement": 4372,
+          "views": 563500,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "VT PDRN",
+          "id": "Dd75SaNBBW4",
+          "url": "https://www.instagram.com/reels/Dd75SaNBBW4/",
+          "user": "ifyoulovemeornot",
+          "date": "2026-10-01",
+          "likes": 3120,
+          "comments": 25,
+          "engagement": 3145,
+          "views": 313644,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "VT PDRN",
+          "id": "Dddtbz8AfV3",
+          "url": "https://www.instagram.com/reels/Dddtbz8AfV3/",
+          "user": "zzyontteok",
+          "date": "2026-09-19",
+          "likes": 2109,
+          "comments": 14,
+          "engagement": 2123,
+          "views": 286833,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "VT PDRN",
+          "id": "Dda_gBpKBFE",
+          "url": "https://www.instagram.com/reels/Dda_gBpKBFE/",
+          "user": "gamjagirl_",
+          "date": "2026-09-19",
+          "likes": 1777,
+          "comments": 5,
+          "engagement": 1782,
+          "views": 152973,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "VT PDRN",
+          "id": "Ddy0P22ylPa",
+          "url": "https://www.instagram.com/reels/Ddy0P22ylPa/",
+          "user": "hee.__ni",
+          "date": "2026-09-27",
+          "likes": 1134,
+          "comments": 166,
+          "engagement": 1300,
+          "views": 141146,
+          "type": "실측 (play_count)"
+        }
+      ]
+    },
+    {
+      "keyword": "후시덤 흔적 리페어",
+      "rank": 5,
+      "reelCount": 20,
+      "totalViews": 2582185,
+      "totalEngagement": 17944,
+      "topReels": [
+        {
+          "keyword": "후시덤 흔적 리페어",
+          "id": "DeEAh1UzxWc",
+          "url": "https://www.instagram.com/reels/DeEAh1UzxWc/",
+          "user": "ppokoringroom",
+          "date": "2026-10-07",
+          "likes": 4467,
+          "comments": 57,
+          "engagement": 4524,
+          "views": 727606,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "후시덤 흔적 리페어",
+          "id": "DeWsWGKszMT",
+          "url": "https://www.instagram.com/reels/DeWsWGKszMT/",
+          "user": "cherry.park___",
+          "date": "2026-10-11",
+          "likes": 1653,
+          "comments": 6,
+          "engagement": 1659,
+          "views": 353262,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "후시덤 흔적 리페어",
+          "id": "Dd3vD-1v_zj",
+          "url": "https://www.instagram.com/reels/Dd3vD-1v_zj/",
+          "user": "ojirapper_",
+          "date": "2026-09-29",
+          "likes": 2204,
+          "comments": 41,
+          "engagement": 2245,
+          "views": 349033,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "후시덤 흔적 리페어",
+          "id": "DdWktcZvgra",
+          "url": "https://www.instagram.com/reels/DdWktcZvgra/",
+          "user": "eve_skinpharm",
+          "date": "2026-09-17",
+          "likes": 1316,
+          "comments": 6,
+          "engagement": 1322,
+          "views": 195996,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "후시덤 흔적 리페어",
+          "id": "DeYsoKBzPTI",
+          "url": "https://www.instagram.com/reels/DeYsoKBzPTI/",
+          "user": "beauty_by.lumi",
+          "date": "2026-10-13",
+          "likes": 1722,
+          "comments": 30,
+          "engagement": 1752,
+          "views": 184273,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "후시덤 흔적 리페어",
+          "id": "DeJaavgxlPj",
+          "url": "https://www.instagram.com/reels/DeJaavgxlPj/",
+          "user": "ojirapper_",
+          "date": "2026-10-06",
+          "likes": 1365,
+          "comments": 12,
+          "engagement": 1377,
+          "views": 175669,
+          "type": "실측 (play_count)"
+        }
+      ]
+    },
+    {
+      "keyword": "VT 시카 마스크팩",
+      "rank": 6,
+      "reelCount": 6,
+      "totalViews": 1156361,
+      "totalEngagement": 8383,
+      "topReels": [
+        {
+          "keyword": "VT 시카 마스크팩",
+          "id": "Dd31B5ty21q",
+          "url": "https://www.instagram.com/reels/Dd31B5ty21q/",
+          "user": "suuu.vely",
+          "date": "2026-09-29",
+          "likes": 3746,
+          "comments": 33,
+          "engagement": 3779,
+          "views": 700458,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "VT 시카 마스크팩",
+          "id": "Dddtbz8AfV3",
+          "url": "https://www.instagram.com/reels/Dddtbz8AfV3/",
+          "user": "zzyontteok",
+          "date": "2026-09-19",
+          "likes": 2109,
+          "comments": 14,
+          "engagement": 2123,
+          "views": 286845,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "VT 시카 마스크팩",
+          "id": "DdTX-KfiTBR",
+          "url": "https://www.instagram.com/reels/DdTX-KfiTBR/",
+          "user": "gamjagirl_",
+          "date": "2026-09-15",
+          "likes": 2159,
+          "comments": 19,
+          "engagement": 2178,
+          "views": 160104,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "VT 시카 마스크팩",
+          "id": "DdV_kViJSVN",
+          "url": "https://www.instagram.com/reels/DdV_kViJSVN/",
+          "user": "3iirak",
+          "date": "2026-09-16",
+          "likes": 81,
+          "comments": 60,
+          "engagement": 141,
+          "views": 3299,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "VT 시카 마스크팩",
+          "id": "DdytFJVTXO5",
+          "url": "https://www.instagram.com/reels/DdytFJVTXO5/",
+          "user": "itssoozip",
+          "date": "2026-09-27",
+          "likes": 53,
+          "comments": 23,
+          "engagement": 76,
+          "views": 3100,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "VT 시카 마스크팩",
+          "id": "DeWewHQAhLK",
+          "url": "https://www.instagram.com/reels/DeWewHQAhLK/",
+          "user": "j_dlight",
+          "date": "2026-10-11",
+          "likes": 75,
+          "comments": 11,
+          "engagement": 86,
+          "views": 2555,
+          "type": "실측 (play_count)"
+        }
+      ]
+    },
+    {
+      "keyword": "리얼베리어",
+      "rank": 7,
+      "reelCount": 9,
+      "totalViews": 143963,
+      "totalEngagement": 4421,
+      "topReels": [
+        {
+          "keyword": "리얼베리어",
+          "id": "DeLzoTvx6aP",
+          "url": "https://www.instagram.com/reels/DeLzoTvx6aP/",
+          "user": "sena__cho",
+          "date": "2026-10-07",
+          "likes": 268,
+          "comments": 37,
+          "engagement": 305,
+          "views": 39941,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "리얼베리어",
+          "id": "DeLdHAGR44q",
+          "url": "https://www.instagram.com/reels/DeLdHAGR44q/",
+          "user": "eunichu",
+          "date": "2026-10-07",
+          "likes": 181,
+          "comments": 14,
+          "engagement": 195,
+          "views": 33110,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "리얼베리어",
+          "id": "Dd3kNXEhhTK",
+          "url": "https://www.instagram.com/reels/Dd3kNXEhhTK/",
+          "user": "angmondxx",
+          "date": "2026-09-29",
+          "likes": 1227,
+          "comments": 12,
+          "engagement": 1239,
+          "views": 25489,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "리얼베리어",
+          "id": "DeN6S1szI6K",
+          "url": "https://www.instagram.com/reels/DeN6S1szI6K/",
+          "user": "its_x_yeseo",
+          "date": "2026-10-08",
+          "likes": 1021,
+          "comments": 226,
+          "engagement": 1247,
+          "views": 14633,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "리얼베리어",
+          "id": "DeLxlFwPbL1",
+          "url": "https://www.instagram.com/reels/DeLxlFwPbL1/",
+          "user": "ssoothing_98",
+          "date": "2026-10-07",
+          "likes": 398,
+          "comments": 24,
+          "engagement": 422,
+          "views": 12385,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "리얼베리어",
+          "id": "DeX5Q28zIBM",
+          "url": "https://www.instagram.com/reels/DeX5Q28zIBM/",
+          "user": "by_.minseo",
+          "date": "2026-10-12",
+          "likes": 541,
+          "comments": 156,
+          "engagement": 697,
+          "views": 7449,
+          "type": "실측 (play_count)"
+        }
+      ]
+    },
+    {
+      "keyword": "다이소뷰티",
+      "rank": 8,
+      "reelCount": 11,
+      "totalViews": 3644556,
+      "totalEngagement": 38427,
+      "topReels": [
+        {
+          "keyword": "다이소뷰티",
+          "id": "DdoWhppN2bs",
+          "url": "https://www.instagram.com/reels/DdoWhppN2bs/",
+          "user": "re_ole_",
+          "date": "2026-09-23",
+          "likes": 17444,
+          "comments": 102,
+          "engagement": 17546,
+          "views": 1313232,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소뷰티",
+          "id": "Dd1KaGqJVsA",
+          "url": "https://www.instagram.com/reels/Dd1KaGqJVsA/",
+          "user": "ofdohaa",
+          "date": "2026-09-28",
+          "likes": 2819,
+          "comments": 20,
+          "engagement": 2839,
+          "views": 618082,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소뷰티",
+          "id": "DdbRznvhK7d",
+          "url": "https://www.instagram.com/reels/DdbRznvhK7d/",
+          "user": "cos_byoon",
+          "date": "2026-09-18",
+          "likes": 5459,
+          "comments": 15,
+          "engagement": 5474,
+          "views": 434111,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소뷰티",
+          "id": "Dddtbz8AfV3",
+          "url": "https://www.instagram.com/reels/Dddtbz8AfV3/",
+          "user": "zzyontteok",
+          "date": "2026-09-19",
+          "likes": 2109,
+          "comments": 14,
+          "engagement": 2123,
+          "views": 286833,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소뷰티",
+          "id": "DdoCrj8zJVe",
+          "url": "https://www.instagram.com/reels/DdoCrj8zJVe/",
+          "user": "kimdobii",
+          "date": "2026-09-23",
+          "likes": 2088,
+          "comments": 28,
+          "engagement": 2116,
+          "views": 236273,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소뷰티",
+          "id": "DdjG11wvTdr",
+          "url": "https://www.instagram.com/reels/DdjG11wvTdr/",
+          "user": "happytwenties___",
+          "date": "2026-09-21",
+          "likes": 755,
+          "comments": 117,
+          "engagement": 872,
+          "views": 208325,
+          "type": "실측 (play_count)"
+        }
+      ]
+    },
+    {
+      "keyword": "다이소 신상 뷰티",
+      "rank": 9,
+      "reelCount": 6,
+      "totalViews": 1534594,
+      "totalEngagement": 13974,
+      "topReels": [
+        {
+          "keyword": "다이소 신상 뷰티",
+          "id": "DeEAh1UzxWc",
+          "url": "https://www.instagram.com/reels/DeEAh1UzxWc/",
+          "user": "ppokoringroom",
+          "date": "2026-10-07",
+          "likes": 4467,
+          "comments": 57,
+          "engagement": 4524,
+          "views": 727608,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소 신상 뷰티",
+          "id": "Dd6Qpj8SKDE",
+          "url": "https://www.instagram.com/reels/Dd6Qpj8SKDE/",
+          "user": "lobit_beauty",
+          "date": "2026-09-30",
+          "likes": 4875,
+          "comments": 36,
+          "engagement": 4911,
+          "views": 380648,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소 신상 뷰티",
+          "id": "DeYsoKBzPTI",
+          "url": "https://www.instagram.com/reels/DeYsoKBzPTI/",
+          "user": "beauty_by.lumi",
+          "date": "2026-10-13",
+          "likes": 1722,
+          "comments": 30,
+          "engagement": 1752,
+          "views": 184310,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소 신상 뷰티",
+          "id": "DeMaijAyeZm",
+          "url": "https://www.instagram.com/reels/DeMaijAyeZm/",
+          "user": "byudonna",
+          "date": "2026-10-07",
+          "likes": 1751,
+          "comments": 8,
+          "engagement": 1759,
+          "views": 120544,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소 신상 뷰티",
+          "id": "DeZHuSLz9m6",
+          "url": "https://www.instagram.com/reels/DeZHuSLz9m6/",
+          "user": "zingdong__",
+          "date": "2026-10-12",
+          "likes": 834,
+          "comments": 8,
+          "engagement": 842,
+          "views": 115744,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소 신상 뷰티",
+          "id": "DeMbIKqv6rJ",
+          "url": "https://www.instagram.com/reels/DeMbIKqv6rJ/",
+          "user": "dokgo_barbie",
+          "date": "2026-10-07",
+          "likes": 178,
+          "comments": 8,
+          "engagement": 186,
+          "views": 5740,
+          "type": "실측 (play_count)"
+        }
+      ]
+    },
+    {
+      "keyword": "다이소 화장품 추천",
+      "rank": 10,
+      "reelCount": 4,
+      "totalViews": 1735702,
+      "totalEngagement": 16938,
+      "topReels": [
+        {
+          "keyword": "다이소 화장품 추천",
+          "id": "Ddbnb05SWPO",
+          "url": "https://www.instagram.com/reels/Ddbnb05SWPO/",
+          "user": "hee.__ni",
+          "date": "2026-09-18",
+          "likes": 6530,
+          "comments": 666,
+          "engagement": 7196,
+          "views": 862335,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소 화장품 추천",
+          "id": "Dd6Qpj8SKDE",
+          "url": "https://www.instagram.com/reels/Dd6Qpj8SKDE/",
+          "user": "lobit_beauty",
+          "date": "2026-09-30",
+          "likes": 4875,
+          "comments": 36,
+          "engagement": 4911,
+          "views": 380648,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소 화장품 추천",
+          "id": "Dddtbz8AfV3",
+          "url": "https://www.instagram.com/reels/Dddtbz8AfV3/",
+          "user": "zzyontteok",
+          "date": "2026-09-19",
+          "likes": 2109,
+          "comments": 14,
+          "engagement": 2123,
+          "views": 286833,
+          "type": "실측 (play_count)"
+        },
+        {
+          "keyword": "다이소 화장품 추천",
+          "id": "DeWl9N7Sohy",
+          "url": "https://www.instagram.com/reels/DeWl9N7Sohy/",
+          "user": "lobit_beauty",
+          "date": "2026-10-11",
+          "likes": 2678,
+          "comments": 30,
+          "engagement": 2708,
+          "views": 205886,
+          "type": "실측 (play_count)"
+        }
+      ]
+    }
+  ]
+};
+// DAISO_DATA_END
+
+// ====== 올리브영 데이터 (oliveyoung-beauty-instagram-weekly 스케줄이 이 블록을 교체) ======
+// OLIVEYOUNG_DATA_BEGIN
+const oliveyoungData = {"lastUpdated":"2026-10-08T16:30","top10":[{"rank":1,"goodsNo":"A000000223414","name":"[15년 연속 1위] 메디힐 에센셜 마스크팩 10/10+1매 기획 7종 골라담기","brand":"메디힐","price":10000,"image_url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/400/10/0000/0022/A000000223414125ko.png","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223414"},{"rank":2,"goodsNo":"A000000247773","name":"[수지 PICK/한정기획] 아누아 피디알엔 히알루론산 수분 캡슐 미스트 100ml 2입 기획","brand":"아누아","price":31900,"image_url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/400/10/0000/0024/A00000024777322ko.png","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000247773"},{"rank":3,"goodsNo":"A000000171423","name":"[10월올영픽/4년 연속 1위] 어노브 딥 데미지 리페어 헤어 마스크 (트리트먼트/헤어팩) 320ml 더블/듀오 기획","brand":"어노브","price":27800,"image_url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/400/10/0000/0017/A000000171423181ko.png","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171423"},{"rank":4,"goodsNo":"A000000268586","name":"[10월 올영픽/마뗑킴 에디션] 라네즈X마뗑킴 네오쿠션 뮤이 15g 기획 (+더플백)","brand":"라네즈","price":46500,"image_url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/400/10/0000/0026/A00000026858602ko.jpg","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000268586"},{"rank":5,"goodsNo":"A000000255585","name":"[1+1/한정기획] 스킨푸드 캐롯 카로틴 카밍 워터 패드 60매 더블기획 (+PDRN 패드 2매*3)","brand":"스킨푸드","price":24800,"image_url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/400/10/0000/0025/A00000025558514ko.jpg","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000255585"},{"rank":6,"goodsNo":"A000000263009","name":"[손상장벽집중케어]라로슈포제 시카플라스트밤 B5+ 100ml 기획 (+시카에센스7.5ml+히알루세럼3ml)","brand":"라로슈포제","price":29800,"image_url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/400/10/0000/0026/A00000026300911ko.jpg","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000263009"},{"rank":7,"goodsNo":"A000000269281","name":"[NEW 유시몰X헌터] 한정콜라보굿즈 유시몰 베스트셀러 기획 9종","brand":"유시몰","price":35900,"image_url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/400/10/0000/0026/A00000026928110ko.jpg","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000269281"},{"rank":8,"goodsNo":"A000000263019","name":"[데일리장벽케어] 라로슈포제 시카플라스트 멀티 리페어 크림 100ml 기획 (+시카에센스 7.5ml*2)","brand":"라로슈포제","price":38500,"image_url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/400/10/0000/0026/A00000026301910ko.jpg","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000263019"},{"rank":9,"goodsNo":"A000000222698","name":"[수지세럼] 아누아 피디알엔 히알루론산 캡슐 100 세럼 30mL 기획 (+30mL 리필팩)","brand":"아누아","price":26900,"image_url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/400/10/0000/0022/A00000022269818ko.png","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000222698"},{"rank":10,"goodsNo":"A000001001705","name":"[10월 올영픽/마뗑킴 에디션] 라네즈X마뗑킴 한정 에디션 3종(쿠션/파우더/틴트) 모음","brand":"라네즈","price":28500,"image_url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/400/10/0000/0100/A00000100170501ko.jpg","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000001001705"}],"keywords":[{"keyword":"메디힐","rank":1,"reelCount":8,"totalViews":168471,"totalEngagement":10607,"topReels":[{"keyword":"메디힐","id":"DSgZxwXFKaq","url":"https://www.instagram.com/reels/DSgZxwXFKaq/","user":"dip_magazine","date":"2025-12-21","likes":452,"comments":6,"engagement":458,"views":58341,"type":"실측 (play_count)"},{"keyword":"메디힐","id":"DMOtMN0Px7T","url":"https://www.instagram.com/reels/DMOtMN0Px7T/","user":"ellekorea","date":"2025-07-18","likes":4290,"comments":1,"engagement":4291,"views":38334,"type":"실측 (play_count)"},{"keyword":"메디힐","id":"DeCAJQ7tBe3","url":"https://www.instagram.com/reels/DeCAJQ7tBe3/","user":"yuris__c","date":"2026-10-03","likes":286,"comments":5,"engagement":291,"views":34557,"type":"실측 (play_count)"},{"keyword":"메디힐","id":"DMHT94uz_gU","url":"https://www.instagram.com/reels/DMHT94uz_gU/","user":"cosmopolitankorea","date":"2025-07-15","likes":5345,"comments":6,"engagement":5351,"views":26782,"type":"실측 (play_count)"},{"keyword":"메디힐","id":"DeN3qJPpOu3","url":"https://www.instagram.com/reels/DeN3qJPpOu3/","user":"tr._.ue","date":"2026-10-08","likes":113,"comments":0,"engagement":113,"views":5688,"type":"실측 (play_count)"},{"keyword":"메디힐","id":"DeME0jqyTb1","url":"https://www.instagram.com/reels/DeME0jqyTb1/","user":"yeojin2meda","date":"2026-10-07","likes":45,"comments":16,"engagement":61,"views":3941,"type":"실측 (play_count)"}]},{"keyword":"아누아","rank":2,"reelCount":9,"totalViews":716006,"totalEngagement":11725,"topReels":[{"keyword":"아누아","id":"DEpEtc1PMdo","url":"https://www.instagram.com/reels/DEpEtc1PMdo/","user":"eunhalu_","date":"2025-01-10","likes":5156,"comments":843,"engagement":5999,"views":560865,"type":"실측 (play_count)"},{"keyword":"아누아","id":"DYLW-iav7vF","url":"https://www.instagram.com/reels/DYLW-iav7vF/","user":"dip_magazine","date":"2026-05-11","likes":5667,"comments":55,"engagement":5722,"views":151297,"type":"실측 (play_count)"},{"keyword":"아누아","id":"DeJjyFIRqkL","url":"https://www.instagram.com/reels/DeJjyFIRqkL/","user":"xxharamx_","date":"2026-10-06","likes":3,"comments":0,"engagement":3,"views":3549,"type":"실측 (play_count)"},{"keyword":"아누아","id":"DeOUX1ckXsO","url":"https://www.instagram.com/reels/DeOUX1ckXsO/","user":"uniland777","date":"2026-10-08","likes":1,"comments":0,"engagement":1,"views":279,"type":"실측 (play_count)"},{"keyword":"아누아","id":"DeOFAGSyYOr","url":"https://www.instagram.com/reels/DeOFAGSyYOr/","user":"beautycatmomo","date":"2026-10-08","likes":0,"comments":0,"engagement":0,"views":6,"type":"실측 (play_count)"}]},{"keyword":"어노브","rank":3,"reelCount":9,"totalViews":1313359,"totalEngagement":53893,"topReels":[{"keyword":"어노브","id":"DOBXCkXj3Z6","url":"https://www.instagram.com/reels/DOBXCkXj3Z6/","user":"hoiinni","date":"2025-08-31","likes":5542,"comments":19,"engagement":5561,"views":227364,"type":"실측 (play_count)"},{"keyword":"어노브","id":"DCbSwfdv4e1","url":"https://www.instagram.com/reels/DCbSwfdv4e1/","user":"voguekorea","date":"2024-11-16","likes":5930,"comments":6,"engagement":5936,"views":202967,"type":"실측 (play_count)"},{"keyword":"어노브","id":"CmWZOe3NmQY","url":"https://www.instagram.com/reels/CmWZOe3NmQY/","user":"_doenda","date":"2022-12-19","likes":1516,"comments":166,"engagement":1682,"views":192138,"type":"실측 (play_count)"},{"keyword":"어노브","id":"DC08P3NhsPn","url":"https://www.instagram.com/reels/DC08P3NhsPn/","user":"wkorea","date":"2024-11-26","likes":27837,"comments":84,"engagement":27921,"views":190977,"type":"실측 (play_count)"},{"keyword":"어노브","id":"DCbKwh1KUmz","url":"https://www.instagram.com/reels/DCbKwh1KUmz/","user":"wkorea","date":"2024-11-16","likes":5817,"comments":7,"engagement":5824,"views":163208,"type":"실측 (play_count)"},{"keyword":"어노브","id":"DCbpXgUSG3v","url":"https://www.instagram.com/reels/DCbpXgUSG3v/","user":"dailyfashion_news","date":"2024-11-16","likes":3480,"comments":42,"engagement":3522,"views":136198,"type":"실측 (play_count)"}]},{"keyword":"라네즈","rank":4,"reelCount":6,"totalViews":85673,"totalEngagement":6529,"topReels":[{"keyword":"라네즈","id":"C1GqujSvfr1","url":"https://www.instagram.com/reels/C1GqujSvfr1/","user":"singlesmagazine","date":"2023-12-21","likes":6303,"comments":161,"engagement":6464,"views":83154,"type":"실측 (play_count)"},{"keyword":"라네즈","id":"DeJjfcrvgrj","url":"https://www.instagram.com/reels/DeJjfcrvgrj/","user":"recr.recr","date":"2026-10-06","likes":53,"comments":12,"engagement":65,"views":2016,"type":"실측 (play_count)"},{"keyword":"라네즈","id":"DeJK3caSYS_","url":"https://www.instagram.com/reels/DeJK3caSYS_/","user":"found.it_now","date":"2026-10-06","likes":0,"comments":0,"engagement":0,"views":395,"type":"실측 (play_count)"},{"keyword":"라네즈","id":"DeOJ5GggkHu","url":"https://www.instagram.com/reels/DeOJ5GggkHu/","user":"catchmoments_official","date":"2026-10-08","likes":0,"comments":0,"engagement":0,"views":108,"type":"실측 (play_count)"}]},{"keyword":"스킨푸드","rank":5,"reelCount":12,"totalViews":1077428,"totalEngagement":15209,"topReels":[{"keyword":"스킨푸드","id":"CmGYsEUDCaZ","url":"https://www.instagram.com/reels/CmGYsEUDCaZ/","user":"eolmiii","date":"2022-12-13","likes":8797,"comments":107,"engagement":8904,"views":953843,"type":"실측 (play_count)"},{"keyword":"스킨푸드","id":"CRp09jpl-zf","url":"https://www.instagram.com/reels/CRp09jpl-zf/","user":"ellekorea","date":"2021-07-23","likes":3851,"comments":2,"engagement":3853,"views":63836,"type":"실측 (play_count)"},{"keyword":"스킨푸드","id":"Cb2JAghFpQu","url":"https://www.instagram.com/reels/Cb2JAghFpQu/","user":"zinybeauty","date":"2022-04-02","likes":2302,"comments":11,"engagement":2313,"views":43866,"type":"실측 (play_count)"}]},{"keyword":"라로슈포제","rank":6,"reelCount":8,"totalViews":12621,"totalEngagement":9860,"topReels":[{"keyword":"라로슈포제","id":"CZ0_qNfFPrL","url":"https://www.instagram.com/reels/CZ0_qNfFPrL/","user":"dahyeshka","date":"2022-02-11","likes":1849,"comments":13,"engagement":1862,"views":12103,"type":"실측 (play_count)"},{"keyword":"라로슈포제","id":"DeKPzsXJ__z","url":"https://www.instagram.com/reels/DeKPzsXJ__z/","user":"kim_vanilla_c","date":"2026-10-06","likes":31,"comments":0,"engagement":31,"views":352,"type":"실측 (play_count)"},{"keyword":"라로슈포제","id":"DeIys_5S5Ij","url":"https://www.instagram.com/reels/DeIys_5S5Ij/","user":"_blunt.zip","date":"2026-10-06","likes":17,"comments":11,"engagement":28,"views":166,"type":"실측 (play_count)"}]},{"keyword":"유시몰","rank":7,"reelCount":8,"totalViews":264351,"totalEngagement":4448,"topReels":[{"keyword":"유시몰","id":"DM6sCE1pnHm","url":"https://www.instagram.com/reels/DM6sCE1pnHm/","user":"voguekorea","date":"2025-08-04","likes":3860,"comments":2,"engagement":3862,"views":248900,"type":"실측 (play_count)"},{"keyword":"유시몰","id":"DeNmQaoDCFP","url":"https://www.instagram.com/reels/DeNmQaoDCFP/","user":"beautyplmagazine","date":"2026-10-08","likes":561,"comments":0,"engagement":561,"views":10462,"type":"실측 (play_count)"},{"keyword":"유시몰","id":"Dd84sGky9ZE","url":"https://www.instagram.com/reels/Dd84sGky9ZE/","user":"cos_miae","date":"2026-10-01","likes":3,"comments":9,"engagement":12,"views":4077,"type":"실측 (play_count)"},{"keyword":"유시몰","id":"Dd_1--lSf-W","url":"https://www.instagram.com/reels/Dd_1--lSf-W/","user":"uuuuu_zzya","date":"2026-10-02","likes":0,"comments":0,"engagement":0,"views":401,"type":"실측 (play_count)"},{"keyword":"유시몰","id":"DeIs1ztydPp","url":"https://www.instagram.com/reels/DeIs1ztydPp/","user":"limbaebaee","date":"2026-10-06","likes":1,"comments":2,"engagement":3,"views":208,"type":"실측 (play_count)"},{"keyword":"유시몰","id":"DeLVZKkTfml","url":"https://www.instagram.com/reels/DeLVZKkTfml/","user":"jejb_4","date":"2026-10-07","likes":10,"comments":0,"engagement":10,"views":187,"type":"실측 (play_count)"}]},{"keyword":"올영세일","rank":8,"reelCount":18,"totalViews":1117324,"totalEngagement":7028,"topReels":[{"keyword":"올영세일","id":"Dcvfha6PRtW","url":"https://www.instagram.com/reels/Dcvfha6PRtW/","user":"its.jjulie","date":"2026-09-01","likes":1536,"comments":16,"engagement":1552,"views":182878,"type":"실측 (play_count)"},{"keyword":"올영세일","id":"Dc7eyrAv-XB","url":"https://www.instagram.com/reels/Dc7eyrAv-XB/","user":"babammbi","date":"2026-09-06","likes":659,"comments":14,"engagement":673,"views":153722,"type":"실측 (play_count)"},{"keyword":"올영세일","id":"Dd0y31Gyrgh","url":"https://www.instagram.com/reels/Dd0y31Gyrgh/","user":"luna.player","date":"2026-09-28","likes":495,"comments":3,"engagement":498,"views":136324,"type":"실측 (play_count)"},{"keyword":"올영세일","id":"DcuZxNEO7F_","url":"https://www.instagram.com/reels/DcuZxNEO7F_/","user":"coehana297","date":"2026-09-01","likes":755,"comments":31,"engagement":786,"views":123962,"type":"실측 (play_count)"},{"keyword":"올영세일","id":"DdslB76x7ZV","url":"https://www.instagram.com/reels/DdslB76x7ZV/","user":"happing_box","date":"2026-09-25","likes":431,"comments":3,"engagement":434,"views":108314,"type":"실측 (play_count)"}]},{"keyword":"올리브영추천","rank":9,"reelCount":7,"totalViews":762385,"totalEngagement":5940,"topReels":[{"keyword":"올리브영추천","id":"DcISdhpyN6Y","url":"https://www.instagram.com/reels/DcISdhpyN6Y/","user":"dj.dagam","date":"2026-08-17","likes":3,"comments":29,"engagement":32,"views":335729,"type":"실측 (play_count)"},{"keyword":"올리브영추천","id":"DX6fa5STTyE","url":"https://www.instagram.com/reels/DX6fa5STTyE/","user":"hey_jihye__","date":"2026-05-04","likes":3746,"comments":270,"engagement":4016,"views":245547,"type":"실측 (play_count)"},{"keyword":"올리브영추천","id":"DYPIphGxYRT","url":"https://www.instagram.com/reels/DYPIphGxYRT/","user":"ho_aeng__","date":"2026-05-12","likes":635,"comments":4,"engagement":639,"views":72714,"type":"실측 (play_count)"},{"keyword":"올리브영추천","id":"DWu9n3sgXVA","url":"https://www.instagram.com/reels/DWu9n3sgXVA/","user":"jihye_sarang","date":"2026-04-05","likes":296,"comments":29,"engagement":325,"views":51201,"type":"실측 (play_count)"},{"keyword":"올리브영추천","id":"DZKH7bkjurd","url":"https://www.instagram.com/reels/DZKH7bkjurd/","user":"un_ni_tip","date":"2026-06-04","likes":343,"comments":6,"engagement":349,"views":41843,"type":"실측 (play_count)"}]},{"keyword":"올영추천템","rank":10,"reelCount":14,"totalViews":382575,"totalEngagement":9163,"topReels":[{"keyword":"올영추천템","id":"Ddu6i-wzy5o","url":"https://www.instagram.com/reels/Ddu6i-wzy5o/","user":"ahn_bi_mil","date":"2026-09-26","likes":1373,"comments":12,"engagement":1385,"views":120551,"type":"실측 (play_count)"},{"keyword":"올영추천템","id":"Dd_AVZWB1jV","url":"https://www.instagram.com/reels/Dd_AVZWB1jV/","user":"sabinchu","date":"2026-10-02","likes":1928,"comments":15,"engagement":1943,"views":83482,"type":"실측 (play_count)"},{"keyword":"올영추천템","id":"DeNvXUtTgC_","url":"https://www.instagram.com/reels/DeNvXUtTgC_/","user":"codduck.picks","date":"2026-10-08","likes":443,"comments":22,"engagement":465,"views":51038,"type":"실측 (play_count)"},{"keyword":"올영추천템","id":"DeIbcTnzJNb","url":"https://www.instagram.com/reels/DeIbcTnzJNb/","user":"its_x_yeseo","date":"2026-10-05","likes":900,"comments":201,"engagement":1101,"views":22859,"type":"실측 (play_count)"},{"keyword":"올영추천템","id":"DeEfvFuTtC5","url":"https://www.instagram.com/reels/DeEfvFuTtC5/","user":"eee_ex0","date":"2026-10-04","likes":875,"comments":55,"engagement":930,"views":20901,"type":"실측 (play_count)"}]}]};
+// 렌더 코드가 참조하는 전역 별칭 (기존 변수명 불일치 보정)
+if (typeof globalThis.DAISO_DATA === 'undefined') globalThis.DAISO_DATA = daisoData;
+if (typeof globalThis.OLIVEYOUNG_DATA === 'undefined') globalThis.OLIVEYOUNG_DATA = oliveyoungData;
+
+// OLIVEYOUNG_DATA_END
+
+// =========================================================
+
+const palette = ['#38bdf8', '#a78bfa', '#f472b6', '#fb923c', '#34d399', '#facc15', '#f87171', '#22d3ee', '#c084fc', '#fbbf24'];
+const oliveyoungPalette = ['#10b981', '#34d399', '#6ee7b7', '#a7f3d0', '#22d3ee', '#38bdf8', '#60a5fa', '#a78bfa', '#f472b6', '#fbbf24'];
+
+function fmt(n) {
+  if (!n && n !== 0) return '-';
+  if (n >= 10000) return (n / 10000).toFixed(1) + '만';
+  if (n >= 1000) return n.toLocaleString();
+  return String(n);
+}
+function fmtX(n) {
+  if (!n && n !== 0) return '-';
+  if (n >= 100) return Math.round(n) + '배';
+  return n.toFixed(1) + '배';
+}
+function daysSince(dateStr, refDate) {
+  return Math.round((new Date(refDate) - new Date(dateStr)) / (1000*60*60*24));
+}
+
+function kwSearchUrl(kw) {
+  return 'https://www.instagram.com/explore/search/keyword/?q=' + encodeURIComponent(kw);
+}
+
+function renderKeywordCards(d, prefix, isOliveyoung) {
+  const cardClass = isOliveyoung ? 'keyword-card oliveyoung' : 'keyword-card';
+  document.getElementById(prefix + '-keywordsGrid').innerHTML = d.keywords.map(k => `
+    <a class="${cardClass}" href="${kwSearchUrl(k.keyword)}" target="_blank" title="Instagram에서 '${k.keyword}' 검색">
+      <div class="rank-badge">#${k.rank}</div>
+      <div class="kw-title">${k.keyword}</div>
+      <div class="kw-reel-count">${k.reelCount > 0 ? k.reelCount + '개 릴스 수집' : '수집 대기 중'}</div>
+      <div class="kw-main-stat">
+        <div class="label">총 조회수 (추정) / 인게이지먼트 (실측)</div>
+        <div class="value">${k.totalViews > 0 ? fmt(k.totalViews) : '-'}<span style="color:#34d399;font-size:0.7em;font-weight:normal;"> · ${k.totalEngagement != null && k.totalEngagement > 0 ? fmt(k.totalEngagement) : '-'}</span></div>
+        <div class="kw-top-user">${k.topReels[0] ? 'Top <strong>@' + k.topReels[0].user + '</strong>' : '<span style="color:#64748b;">첫 실행 대기</span>'}</div>
+      </div>
+      <div class="kw-cta">Instagram 검색 ↗</div>
+    </a>
+  `).join('');
+}
+
+function renderKeywordBar(d, canvasId, paletteColors) {
+  const hasData = d.keywords.some(k => k.totalViews > 0);
+  if (!hasData) {
+    const ctx = document.getElementById(canvasId);
+    const parent = ctx.parentElement;
+    parent.innerHTML = '<div class="empty-state"><div class="icon">📊</div><div class="title">아직 수집된 데이터가 없습니다</div><div class="sub">첫 스케줄 실행 후 차트가 표시됩니다</div></div>';
+    return;
+  }
+  new Chart(document.getElementById(canvasId), {
+    type: 'bar',
+    data: {
+      labels: d.keywords.map(k => k.keyword.length > 14 ? k.keyword.slice(0,14)+'…' : k.keyword),
+      datasets: [{
+        label: '총 조회수',
+        data: d.keywords.map(k => k.totalViews),
+        backgroundColor: paletteColors.map(c => c + 'CC'),
+        borderColor: paletteColors, borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { color: '#94a3b8', callback: v => fmt(v) }, grid: { color: '#334155' } },
+        y: { ticks: { color: '#cbd5e1', font: { size: 11 } }, grid: { display: false } }
+      }
+    }
+  });
+}
+
+function aggregateCreators(d) {
+  const map = {};
+  d.keywords.forEach(k => k.topReels.forEach(r => {
+    if (!map[r.user]) {
+      map[r.user] = {
+        user: r.user, reels: [], keywords: new Set(),
+        totalViews: 0, totalLikes: 0
+      };
+    }
+    const m = map[r.user];
+    m.reels.push({...r, keyword: k.keyword});
+    m.keywords.add(k.keyword);
+    m.totalViews += r.views || 0;
+    m.totalLikes += r.likes || 0;
+  }));
+  return Object.values(map).map(m => ({
+    ...m,
+    keywordList: Array.from(m.keywords),
+    keywordCount: m.keywords.size,
+    avgViews: m.totalViews / m.reels.length,
+    viralMultiplier: m.totalLikes > 0 ? m.totalViews / m.totalLikes : 0,
+    mostRecentDays: Math.min(...m.reels.map(r => daysSince(r.date, d.lastUpdated))),
+    mostRecentReel: m.reels.reduce((a,b) => daysSince(a.date, d.lastUpdated) < daysSince(b.date, d.lastUpdated) ? a : b)
+  }));
+}
+
+function renderTopInfluencers(d, containerId) {
+  const creators = aggregateCreators(d);
+  if (creators.length === 0) {
+    document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="icon">💎</div><div class="title">영향력 랭킹 준비 중</div><div class="sub">첫 데이터 수집 후 표시됩니다</div></div>';
+    return;
+  }
+  const sorted = creators.sort((a,b) => {
+    const scoreA = a.totalViews * (1 + a.keywordCount * 0.2);
+    const scoreB = b.totalViews * (1 + b.keywordCount * 0.2);
+    return scoreB - scoreA;
+  }).slice(0, 10);
+
+  document.getElementById(containerId).innerHTML = `
+    <table>
+      <thead><tr>
+        <th>#</th><th>크리에이터</th><th class="num">총 조회</th>
+        <th class="num">릴스</th><th class="num">키워드</th><th>카테고리</th>
+      </tr></thead>
+      <tbody>
+        ${sorted.map((c,i) => `
+          <tr>
+            <td><strong>${i+1}</strong></td>
+            <td><a href="https://www.instagram.com/${c.user}/" target="_blank">@${c.user}</a>
+              ${c.keywordCount >= 2 ? '<span class="score-pill hot">다회출현</span>' : ''}
+            </td>
+            <td class="num">${fmt(c.totalViews)}</td>
+            <td class="num">${c.reels.length}</td>
+            <td class="num">${c.keywordCount}</td>
+            <td>${c.keywordList.slice(0,2).map(k => `<span class="tag-keyword">${k.length > 10 ? k.slice(0,10)+'…' : k}</span>`).join('')}${c.keywordList.length>2 ? `+${c.keywordList.length-2}` : ''}</td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+function renderRisingStars(d, containerId) {
+  const creators = aggregateCreators(d);
+  if (creators.length === 0) {
+    document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="icon">🚀</div><div class="title">떠오르는 인플루언서 준비 중</div><div class="sub">첫 데이터 수집 후 표시됩니다</div></div>';
+    return;
+  }
+  const candidates = creators.filter(c =>
+    c.mostRecentDays <= 60 && c.viralMultiplier >= 100 && c.totalViews >= 10000
+  );
+  const sorted = candidates.sort((a,b) => {
+    const scoreA = a.viralMultiplier * (1 / Math.max(a.mostRecentDays, 1));
+    const scoreB = b.viralMultiplier * (1 / Math.max(b.mostRecentDays, 1));
+    return scoreB - scoreA;
+  }).slice(0, 10);
+
+  if (sorted.length === 0) {
+    document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="icon">🚀</div><div class="title">조건 충족 인플루언서 없음</div><div class="sub">데이터가 더 누적되면 표시됩니다</div></div>';
+    return;
+  }
+
+  document.getElementById(containerId).innerHTML = `
+    <table>
+      <thead><tr>
+        <th>#</th><th>크리에이터</th>
+        <th class="num">최신</th><th class="num">조회수</th><th class="num">바이럴배수</th><th>태그</th>
+      </tr></thead>
+      <tbody>
+        ${sorted.map((c,i) => `
+          <tr>
+            <td><strong>${i+1}</strong></td>
+            <td><a href="https://www.instagram.com/${c.user}/" target="_blank">@${c.user}</a>
+              ${c.mostRecentDays <= 14 ? '<span class="score-pill new">NEW</span>' : ''}
+            </td>
+            <td class="num" style="color:#fbbf24;">${c.mostRecentDays}일전</td>
+            <td class="num">${fmt(c.totalViews)}</td>
+            <td class="num multiplier">${fmtX(c.viralMultiplier)}</td>
+            <td><span class="tag-keyword">${c.keywordList[0].length > 10 ? c.keywordList[0].slice(0,10)+'…' : c.keywordList[0]}</span></td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+function renderViralTable(d, containerId) {
+  const all = [];
+  d.keywords.forEach(k => k.topReels.forEach(r => all.push({...r, keyword: k.keyword})));
+  if (all.length === 0) {
+    document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="icon">🏆</div><div class="title">바이럴 랭킹 준비 중</div><div class="sub">첫 데이터 수집 후 표시됩니다</div></div>';
+    return;
+  }
+  all.sort((a,b) => b.views - a.views);
+  const top = all.slice(0, 10);
+  document.getElementById(containerId).innerHTML = `
+    <table>
+      <thead><tr>
+        <th>#</th><th>작성자</th><th>키워드</th><th>업로드</th>
+        <th class="num">좋아요</th><th class="num">댓글</th><th class="num">인게이지먼트</th><th class="num">조회수</th><th>구분</th><th>링크</th>
+      </tr></thead>
+      <tbody>
+        ${top.map((r,i) => `
+          <tr>
+            <td>${i+1}</td>
+            <td><a href="https://www.instagram.com/${r.user}/" target="_blank"><strong>@${r.user}</strong></a></td>
+            <td><a href="${kwSearchUrl(r.keyword)}" target="_blank" style="color:#94a3b8;">${r.keyword}</a></td>
+            <td>${r.date}</td>
+            <td class="num">${r.likes.toLocaleString ? r.likes.toLocaleString() : r.likes}</td>
+            <td class="num">${r.comments != null ? (r.comments.toLocaleString ? r.comments.toLocaleString() : r.comments) : "-"}</td>
+            <td class="num" style="color:#34d399;">${r.engagement != null ? r.engagement.toLocaleString() : "-"}</td>
+            <td class="num">${fmt(r.views)}</td>
+            <td><span class="badge ${r.type === '실측' ? 'actual' : 'est'}">${r.type}</span></td>
+            <td><a href="${r.url}" target="_blank">릴스 ↗</a></td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+function renderKeywordDetail(d, containerId) {
+  const hasAny = d.keywords.some(k => k.topReels.length > 0);
+  if (!hasAny) {
+    document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="icon">📋</div><div class="title">키워드별 상세 준비 중</div><div class="sub">첫 스케줄 실행 시 10개 키워드 각각 Top 5 릴스 정보가 표시됩니다</div></div>';
+    return;
+  }
+  document.getElementById(containerId).innerHTML = d.keywords.map(k => `
+    <div class="keyword-section">
+      <div class="kw-head">
+        <div>
+          <a class="kw-link" href="${kwSearchUrl(k.keyword)}" target="_blank">
+            #${k.rank} ${k.keyword} ↗
+          </a>
+          <span class="mini-chip">${k.reelCount}개 릴스</span>
+          <span class="mini-chip" style="color:#38bdf8;">총 ${fmt(k.totalViews)} 조회</span>
+        </div>
+      </div>
+      ${k.topReels.length > 0 ? `
+      <table style="font-size:12px;">
+        <thead><tr><th>Top</th><th>작성자</th><th>업로드</th><th class="num">좋아요</th><th class="num">댓글</th><th class="num">인게이지먼트</th><th class="num">조회수</th><th>구분</th></tr></thead>
+        <tbody>
+          ${k.topReels.map((r,i) => `
+            <tr>
+              <td>${i+1}</td>
+              <td><a href="${r.url}" target="_blank">@${r.user}</a></td>
+              <td>${r.date}</td>
+              <td class="num">${r.likes.toLocaleString ? r.likes.toLocaleString() : r.likes}</td>
+              <td class="num">${r.comments != null ? (r.comments.toLocaleString ? r.comments.toLocaleString() : r.comments) : "-"}</td>
+              <td class="num" style="color:#34d399;">${r.engagement != null ? r.engagement.toLocaleString() : "-"}</td>
+              <td class="num">${fmt(r.views)}</td>
+              <td><span class="badge ${r.type==='실측'?'actual':'est'}">${r.type}</span></td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+      ` : '<div style="color:#64748b;font-size:12px;padding:8px 0;">수집 대기 중</div>'}
+    </div>
+  `).join('');
+}
+
+function renderTab(data, prefix, isOliveyoung) {
+  const pal = isOliveyoung ? oliveyoungPalette : palette;
+  renderKeywordCards(data, prefix, isOliveyoung);
+  renderKeywordBar(data, prefix + '-keywordBar', pal);
+  renderTopInfluencers(data, prefix + '-topInfluencers');
+  renderRisingStars(data, prefix + '-risingStars');
+  renderViralTable(data, prefix + '-viralTable');
+  renderKeywordDetail(data, prefix + '-keywordDetail');
+}
+
+// 탭 전환
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    // 타임스탬프 전환 (YouTube 탭은 iframe 내부 타임스탬프를 사용하므로 스킵)
+    const tab = btn.dataset.tab;
+    if (tab === 'daiso' || tab === 'oliveyoung') {
+      const data = tab === 'daiso' ? DAISO_DATA : OLIVEYOUNG_DATA;
+      document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleString('ko-KR');
+    } else if (tab === 'youtube') {
+      document.getElementById('lastUpdated').textContent = 'YouTube 대시보드 (iframe)';
+    }
+  });
+});
+
+// 초기 렌더
+(() => {
+  document.getElementById('lastUpdated').textContent = new Date(DAISO_DATA.lastUpdated).toLocaleString('ko-KR');
+  renderTab(DAISO_DATA, 'daiso', false);
+  renderTab(OLIVEYOUNG_DATA, 'oliveyoung', true);
+})();
+</script>
+
+</body>
+</html>

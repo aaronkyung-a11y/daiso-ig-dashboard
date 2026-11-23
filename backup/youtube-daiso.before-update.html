@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>다이소 × YouTube 최신 영상 대시보드 (최근 90일)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    min-height: 100vh;
+    padding: 32px;
+  }
+  .container { max-width: 1400px; margin: 0 auto; }
+  header {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 16px; padding-bottom: 16px;
+  }
+  h1 { font-size: 26px; font-weight: 700; color: #f1f5f9; }
+  .subtitle { color: #94a3b8; font-size: 13px; margin-top: 4px; }
+  .timestamp { color: #64748b; font-size: 13px; font-family: 'SF Mono', monospace; }
+  .back-link {
+    display: inline-block; margin-bottom: 20px;
+    color: #38bdf8; text-decoration: none; font-size: 14px;
+  }
+  .back-link:hover { text-decoration: underline; }
+  .back-link::before { content: '← '; }
+
+  .filters {
+    display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap;
+  }
+  .filter-btn {
+    background: #1e293b; border: 1px solid #334155; border-radius: 8px;
+    color: #94a3b8; padding: 8px 16px; font-size: 13px; font-weight: 500;
+    cursor: pointer; font-family: inherit;
+    transition: all 0.15s;
+  }
+  .filter-btn:hover { color: #e2e8f0; border-color: #475569; }
+  .filter-btn.active {
+    background: #ef4444; color: #fff; border-color: #ef4444;
+  }
+  .sort-select {
+    background: #1e293b; border: 1px solid #334155; border-radius: 8px;
+    color: #e2e8f0; padding: 8px 16px; font-size: 13px;
+    font-family: inherit; outline: none; cursor: pointer;
+  }
+
+  .kpi-row {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+    margin-bottom: 28px;
+  }
+  .kpi {
+    background: #1e293b; border: 1px solid #334155; border-radius: 12px;
+    padding: 20px;
+  }
+  .kpi .label { color: #94a3b8; font-size: 12px; margin-bottom: 8px; }
+  .kpi .value { color: #f1f5f9; font-size: 26px; font-weight: 700; }
+  .kpi .sub { color: #64748b; font-size: 11px; margin-top: 4px; }
+
+  .video-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+  }
+  .video-card {
+    background: #1e293b; border: 1px solid #334155; border-radius: 12px;
+    overflow: hidden; transition: all 0.2s;
+    display: flex; flex-direction: column;
+  }
+  .video-card:hover {
+    border-color: #ef4444; transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(239, 68, 68, 0.1);
+  }
+  .thumbnail-wrap {
+    position: relative; aspect-ratio: 16/9; background: #0f172a;
+    overflow: hidden;
+  }
+  .thumbnail-wrap img {
+    width: 100%; height: 100%; object-fit: cover;
+  }
+  .rank-badge {
+    position: absolute; top: 10px; left: 10px;
+    background: rgba(0,0,0,0.75); color: #fff;
+    padding: 4px 10px; border-radius: 4px; font-weight: 700; font-size: 12px;
+  }
+  .type-badge {
+    position: absolute; top: 10px; right: 10px;
+    padding: 4px 10px; border-radius: 4px; font-weight: 600; font-size: 11px;
+  }
+  .type-badge.shorts { background: #ef4444; color: #fff; }
+  .type-badge.long { background: #3b82f6; color: #fff; }
+  .duration-badge {
+    position: absolute; bottom: 10px; right: 10px;
+    background: rgba(0,0,0,0.75); color: #fff;
+    padding: 2px 6px; border-radius: 3px; font-size: 11px; font-family: monospace;
+  }
+  .video-body { padding: 16px; flex: 1; display: flex; flex-direction: column; }
+  .video-title {
+    color: #f1f5f9; font-size: 14px; font-weight: 600; line-height: 1.4;
+    margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .channel-row {
+    display: flex; align-items: center; gap: 8px;
+    color: #94a3b8; font-size: 12px; margin-bottom: 12px;
+  }
+  .channel-kind {
+    background: #334155; color: #cbd5e1;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .channel-kind.influencer { background: #7c3aed; color: #fff; }
+  .channel-kind.official { background: #0891b2; color: #fff; }
+  .stats-row {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+    margin-bottom: 12px; padding-top: 12px; border-top: 1px solid #334155;
+  }
+  .stat { text-align: center; }
+  .stat .num { color: #f1f5f9; font-size: 14px; font-weight: 600; }
+  .stat .lbl { color: #64748b; font-size: 10px; margin-top: 2px; }
+  .meta-row {
+    display: flex; justify-content: space-between; align-items: center;
+    color: #64748b; font-size: 11px; margin-top: auto;
+  }
+  .meta-tag {
+    background: #1e3a8a; color: #93c5fd;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .meta-category {
+    background: #713f12; color: #fcd34d;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .card-link {
+    display: block; padding: 10px; background: #0f172a; color: #38bdf8;
+    text-align: center; font-size: 12px; text-decoration: none;
+    border-top: 1px solid #334155;
+  }
+  .card-link:hover { background: #1e293b; color: #7dd3fc; }
+
+  .empty-state {
+    text-align: center; padding: 40px; color: #64748b;
+  }
+
+  .footer {
+    margin-top: 48px; padding-top: 20px; border-top: 1px solid #334155;
+    color: #64748b; font-size: 12px; text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    body { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <a href="./index.html" class="back-link">뷰티 × Instagram 릴스 대시보드</a>
+
+  <header>
+    <div>
+      <h1>다이소 × YouTube 최신 영상 대시보드</h1>
+      <div class="subtitle">다이소 Top 10 브랜드/제품 관련 YouTube 영상 · 최근 90일 업로드 기준 · 검색어 기반 관련성 · Shorts + 일반 영상</div>
+    </div>
+    <div class="timestamp" id="ts">-</div>
+  </header>
+
+  <div class="kpi-row" id="kpi-row"></div>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">전체</button>
+    <button class="filter-btn" data-filter="Shorts">Shorts</button>
+    <button class="filter-btn" data-filter="일반">일반 영상</button>
+    <select class="sort-select" id="sort-select">
+      <option value="score">점수순</option>
+      <option value="views">조회수순</option>
+      <option value="likes">좋아요순</option>
+      <option value="date">최신순</option>
+    </select>
+  </div>
+
+  <div class="video-grid" id="video-grid"></div>
+
+  <div class="footer">
+    자동 업데이트: 평일 14:59 (daiso-beauty-instagram-weekly) · YouTube Top 10 전용 페이지
+  </div>
+
+</div>
+
+<script>
+// YT_DATA_BEGIN
+const YT_DATA = {
+  "lastUpdated": "2026-10-14T12:31",
+  "cutoff": 20260914,
+  "videos": [
+    {
+      "id": "1lsjZtzh4mo",
+      "title": "다이소 노화관리템, 아무거나 사면 진짜 후회해요 😅성형외과 의사가 추천하는 다이소 꿀템 best 4",
+      "channel": "리프TV",
+      "channel_url": "https://www.youtube.com/@Dr_KiyupKim_LIFF",
+      "url": "https://www.youtube.com/shorts/1lsjZtzh4mo",
+      "thumbnail": "https://i.ytimg.com/vi/1lsjZtzh4mo/hqdefault.jpg",
+      "duration": 59,
+      "lengthSeconds": 59,
+      "videoType": "Shorts",
+      "channelKind": "인플루언서",
+      "views": 1148056,
+      "likes": 18231,
+      "comments": 220,
+      "upload": "20261002",
+      "uploadDate": "2026-10-02",
+      "tag": "다이소 뷰티 일반",
+      "category": "리뷰",
+      "source_label": "다이소 뷰티 일반",
+      "score": 67,
+      "metric_type": "실측 (YouTube 공개 지표)",
+      "rank": 1
+    },
+    {
+      "id": "CPvCfPhT5d8",
+      "title": "병원 매출 깎아먹는 다이소 기적의 비밀템 4가지",
+      "channel": "장수노트",
+      "channel_url": "https://www.youtube.com/@Jangsu_Note",
+      "url": "https://www.youtube.com/shorts/CPvCfPhT5d8",
+      "thumbnail": "https://i.ytimg.com/vi/CPvCfPhT5d8/hqdefault.jpg",
+      "duration": 65,
+      "lengthSeconds": 65,
+      "videoType": "Shorts",
+      "channelKind": "인플루언서",
+      "views": 881399,
+      "likes": 12832,
+      "comments": 44,
+      "upload": "20260929",
+      "uploadDate": "2026-09-29",
+      "tag": "VT·후시덤 (설명란 제품 언급)",
+      "category": "리뷰",
+      "source_label": "VT·후시덤 (설명란 제품 언급)",
+      "score": 64,
+      "metric_type": "실측 (YouTube 공개 지표)",
+      "rank": 2
+    },
+    {
+      "id": "Da_E_QaF9t4",
+      "title": "성형외과 의사가 직접쓰는 다이소 화장품 추천템",
+      "channel": "핫한걸",
+      "channel_url": "https://www.youtube.com/@hathangirl",
+      "url": "https://www.youtube.com/shorts/Da_E_QaF9t4",
+      "thumbnail": "https://i.ytimg.com/vi/Da_E_QaF9t4/hqdefault.jpg",
+      "duration": 36,
+      "lengthSeconds": 36,
+      "videoType": "Shorts",
+      "channelKind": "인플루언서",
+      "views": 724893,
+      "likes": 7110,
+      "comments": 90,
+      "upload": "20260914",
+      "uploadDate": "2026-09-14",
+      "tag": "다이소 뷰티 일반",
+      "category": "리뷰",
+      "source_label": "다이소 뷰티 일반",
+      "score": 54,
+      "metric_type": "실측 (YouTube 공개 지표)",
+      "rank": 3
+    },
+    {
+      "id": "qcu3RSQWem0",
+      "title": "20만원 백화점 제품보다 핫한 다이소 화장품! '이거' 알려주니 환자가 안 오네요ㅠㅠㅣ다이소 가성비 기초제품 추천",
+      "channel": "박지윤의 피부 설명서",
+      "channel_url": "https://www.youtube.com/@박지윤의피부설명서",
+      "url": "https://www.youtube.com/watch?v=qcu3RSQWem0",
+      "thumbnail": "https://i.ytimg.com/vi/qcu3RSQWem0/hqdefault.jpg",
+      "duration": 805,
+      "lengthSeconds": 805,
+      "videoType": "일반",
+      "channelKind": "인플루언서",
+      "views": 711639,
+      "likes": 2827,
+      "comments": 58,
+      "upload": "20260923",
+      "uploadDate": "2026-09-23",
+      "tag": "다이소 뷰티 일반",
+      "category": "리뷰",
+      "source_label": "다이소 뷰티 일반",
+      "score": 47,
+      "metric_type": "실측 (YouTube 공개 지표)",
+      "rank": 4
+    },
+    {
+      "id": "qN7u41Wi1oU",
+      "title": "요즘 SNS에서 난리난 다이소 꿀조합 3가지?! 파우더 퍼프 브러쉬 추천템!! 2탄",
+      "channel": "루비룬RUBYRUNE",
+      "channel_url": "https://www.youtube.com/@Rubyminjikim",
+      "url": "https://www.youtube.com/shorts/qN7u41Wi1oU",
+      "thumbnail": "https://i.ytimg.com/vi/qN7u41Wi1oU/hqdefault.jpg",
+      "duration": 35,
+      "lengthSeconds": 35,
+      "videoType": "Shorts",
+      "channelKind": "인플루언서",
+      "views": 571732,
+      "likes": 9704,
+      "comments": 29,
+      "upload": "20260928",
+      "uploadDate": "2026-09-28",
+      "tag": "다이소 뷰티 일반",
+      "category": "인플루언서",
+      "source_label": "다이소 뷰티 일반",
+      "score": 64,
+      "metric_type": "실측 (YouTube 공개 지표)",
+      "rank": 5
+    },
+    {
+      "id": "7BtKEe6UMXM",
+      "title": "다이소에서 보이면 무조건 집으세요! 5,000원의 행복 화잘먹 스킨팩🔥#다이소템  #연예인추천템 #뷰티템 #화잘먹 #스킨팩 #최은경 #다이소핫템",
+      "channel": "여신템",
+      "channel_url": "https://www.youtube.com/@여신이어라",
+      "url": "https://www.youtube.com/shorts/7BtKEe6UMXM",
+      "thumbnail": "https://i.ytimg.com/vi/7BtKEe6UMXM/hqdefault.jpg",
+      "duration": 19,
+      "lengthSeconds": 19,
+      "videoType": "Shorts",
+      "channelKind": "인플루언서",
+      "views": 383364,
+      "likes": 1363,
+      "comments": 8,
+      "upload": "20261004",
+      "uploadDate": "2026-10-04",
+      "tag": "마미케어 바다포도 스킨팩 (제목 기준 추정)",
+      "category": "리뷰",
+      "source_label": "마미케어 바다포도 스킨팩 (제목 기준 추정)",
+      "score": 59,
+      "metric_type": "실측 (YouTube 공개 지표)",
+      "rank": 6
+    },
+    {
+      "id": "QzZdPOjAS9Q",
+      "title": "집에 다이소 매장 차린 여자의 2026 상반기 결산템.",
+      "channel": "뷰드름 유튜버 인씨",
+      "channel_url": "https://www.youtube.com/@beautyacne_inssi",
+      "url": "https://www.youtube.com/watch?v=QzZdPOjAS9Q",
+      "thumbnail": "https://i.ytimg.com/vi/QzZdPOjAS9Q/hqdefault.jpg",
+      "duration": 3998,
+      "lengthSeconds": 3998,
+      "videoType": "일반",
+      "channelKind": "인플루언서",
+      "views": 221144,
+      "likes": 2062,
+      "comments": 108,
+      "upload": "20260916",
+      "uploadDate": "2026-09-16",
+      "tag": "다이소 뷰티 일반",
+      "category": "하울",
+      "source_label": "다이소 뷰티 일반",
+      "score": 43,
+      "metric_type": "실측 (YouTube 공개 지표)",
+      "rank": 7
+    },
+    {
+      "id": "XcLz7Zx67Ic",
+      "title": "\"다이소의 실수😂..보이면 사야합니다!\" 백화점 화장품보다 좋은 피부 좋아지는 다이소 꿀템 5가지 공개!",
+      "channel": "김동주 피부교실",
+      "channel_url": "https://www.youtube.com/@김동주피부교실",
+      "url": "https://www.youtube.com/watch?v=XcLz7Zx67Ic",
+      "thumbnail": "https://i.ytimg.com/vi/XcLz7Zx67Ic/hqdefault.jpg",
+      "duration": 928,
+      "lengthSeconds": 928,
+      "videoType": "일반",
+      "channelKind": "인플루언서",
+      "views": 197055,
+      "likes": 1263,
+      "comments": 25,
+      "upload": "20261007",
+      "uploadDate": "2026-10-07",
+      "tag": "다이소 뷰티 일반",
+      "category": "리뷰",
+      "source_label": "다이소 뷰티 일반",
+      "score": 52,
+      "metric_type": "실측 (YouTube 공개 지표)",
+      "rank": 8
+    },
+    {
+      "id": "ckbpfWyT1x8",
+      "title": "와.. 또 일냈다.. 다이소 따끈 신상 품절템 3가지",
+      "channel": "은하루",
+      "channel_url": "https://www.youtube.com/@은하루",
+      "url": "https://www.youtube.com/shorts/ckbpfWyT1x8",
+      "thumbnail": "https://i.ytimg.com/vi/ckbpfWyT1x8/hqdefault.jpg",
+      "duration": 37,
+      "lengthSeconds": 37,
+      "videoType": "Shorts",
+      "channelKind": "인플루언서",
+      "views": 176246,
+      "likes": 1817,
+      "comments": 14,
+      "upload": "20260928",
+      "uploadDate": "2026-09-28",
+      "tag": "다이소 뷰티 일반",
+      "category": "언박싱",
+      "source_label": "다이소 뷰티 일반",
+      "score": 57,
+      "metric_type": "실측 (YouTube 공개 지표)",
+      "rank": 9
+    },
+    {
+      "id": "MxuSBsd4Juk",
+      "title": "다이소 '딱 이것만 사세요!' 올리브영 이겨버린 다이소 추천템 6가지",
+      "channel": "헤블 HEBLE",
+      "channel_url": "https://www.youtube.com/@HEBLE_HEHE",
+      "url": "https://www.youtube.com/watch?v=MxuSBsd4Juk",
+      "thumbnail": "https://i.ytimg.com/vi/MxuSBsd4Juk/hqdefault.jpg",
+      "duration": 524,
+      "lengthSeconds": 524,
+      "videoType": "일반",
+      "channelKind": "인플루언서",
+      "views": 106303,
+      "likes": 585,
+      "comments": 30,
+      "upload": "20260924",
+      "uploadDate": "2026-09-24",
+      "tag": "다이소 뷰티 일반",
+      "category": "리뷰",
+      "source_label": "다이소 뷰티 일반",
+      "score": 43,
+      "metric_type": "실측 (YouTube 공개 지표)",
+      "rank": 10
+    }
+  ]
+};
+// YT_DATA_END
+
+function fmt(n) {
+  if (!n && n !== 0) return '-';
+  if (n >= 10000) return (n / 10000).toFixed(1) + '만';
+  if (n >= 1000) return (n / 1000).toFixed(1) + '천';
+  return n.toString();
+}
+
+function fmtDuration(s) {
+  if (!s) return '-';
+  const m = Math.floor(s / 60);
+  const sec = s % 60;
+  return `${m}:${sec.toString().padStart(2, '0')}`;
+}
+
+let currentFilter = 'all';
+let currentSort = 'score';
+
+function render() {
+  const container = document.getElementById('video-grid');
+  container.innerHTML = '';
+
+  let vids = [...(YT_DATA.videos || [])];
+  if (currentFilter !== 'all') {
+    vids = vids.filter(v => v.videoType === currentFilter);
+  }
+
+  const sortKey = currentSort;
+  vids.sort((a, b) => {
+    if (sortKey === 'score') return (b.score || 0) - (a.score || 0);
+    if (sortKey === 'views') return (b.views || 0) - (a.views || 0);
+    if (sortKey === 'likes') return (b.likes || 0) - (a.likes || 0);
+    if (sortKey === 'date') return (b.uploadDate || '').localeCompare(a.uploadDate || '');
+    return 0;
+  });
+
+  if (!vids.length) {
+    container.innerHTML = '<div class="empty-state">해당 조건에 맞는 영상이 없습니다.</div>';
+    return;
+  }
+
+  vids.forEach((v, i) => {
+    const card = document.createElement('div');
+    card.className = 'video-card';
+    const typeClass = v.videoType === 'Shorts' ? 'shorts' : 'long';
+    const kindClass = v.channelKind === '인플루언서' ? 'influencer' :
+                       v.channelKind === '공식' ? 'official' : '';
+    card.innerHTML = `
+      <div class="thumbnail-wrap">
+        <img src="${v.thumbnail || ''}" alt="${v.title}" loading="lazy"
+             onerror="this.style.display='none'">
+        <span class="rank-badge">#${v.rank || i + 1}</span>
+        <span class="type-badge ${typeClass}">${v.videoType}</span>
+        <span class="duration-badge">${fmtDuration(v.lengthSeconds)}</span>
+      </div>
+      <div class="video-body">
+        <div class="video-title">${v.title}</div>
+        <div class="channel-row">
+          <span>${v.channel}</span>
+          <span class="channel-kind ${kindClass}">${v.channelKind || '기타'}</span>
+        </div>
+        <div class="stats-row">
+          <div class="stat"><div class="num">${fmt(v.views)}</div><div class="lbl">조회수</div></div>
+          <div class="stat"><div class="num">${fmt(v.likes)}</div><div class="lbl">좋아요</div></div>
+          <div class="stat"><div class="num">${v.score || '-'}</div><div class="lbl">점수</div></div>
+        </div>
+        <div class="meta-row">
+          <span class="meta-tag">${v.tag || ''}</span>
+          <span class="meta-category">${v.category || ''}</span>
+          <span>${v.uploadDate || ''}</span>
+        </div>
+      </div>
+      <a class="card-link" href="${v.url}" target="_blank" rel="noopener">YouTube에서 보기 →</a>
+    `;
+    container.appendChild(card);
+  });
+}
+
+function renderKPIs() {
+  const vids = YT_DATA.videos || [];
+  const total = vids.length;
+  const shorts = vids.filter(v => v.videoType === 'Shorts').length;
+  const totalViews = vids.reduce((s, v) => s + (v.views || 0), 0);
+  const totalLikes = vids.reduce((s, v) => s + (v.likes || 0), 0);
+  const kpi = document.getElementById('kpi-row');
+  kpi.innerHTML = `
+    <div class="kpi">
+      <div class="label">총 영상 수</div>
+      <div class="value">${total}</div>
+      <div class="sub">Top 10 collection</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Shorts / 일반</div>
+      <div class="value">${shorts} / ${total - shorts}</div>
+      <div class="sub">숏폼 비중 ${total ? Math.round(shorts * 100 / total) : 0}%</div>
+    </div>
+    <div class="kpi">
+      <div class="label">총 조회수</div>
+      <div class="value">${fmt(totalViews)}</div>
+      <div class="sub">누적</div>
+    </div>
+    <div class="kpi">
+      <div class="label">총 좋아요</div>
+      <div class="value">${fmt(totalLikes)}</div>
+      <div class="sub">누적</div>
+    </div>
+  `;
+}
+
+function bindControls() {
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      currentFilter = b.dataset.filter;
+      render();
+    });
+  });
+  document.getElementById('sort-select').addEventListener('change', (e) => {
+    currentSort = e.target.value;
+    render();
+  });
+}
+
+document.getElementById('ts').textContent =
+  'Last updated: ' + (YT_DATA.lastUpdated || new Date().toISOString());
+renderKPIs();
+render();
+bindControls();
+</script>
+
+</body>
+</html>
