@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>올리브영 × YouTube 최신 영상 대시보드 (최근 90일)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    min-height: 100vh;
+    padding: 32px;
+  }
+  .container { max-width: 1400px; margin: 0 auto; }
+  header {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 16px; padding-bottom: 16px;
+  }
+  h1 { font-size: 26px; font-weight: 700; color: #f1f5f9; }
+  .subtitle { color: #94a3b8; font-size: 13px; margin-top: 4px; }
+  .timestamp { color: #64748b; font-size: 13px; font-family: 'SF Mono', monospace; }
+  .back-link {
+    display: inline-block; margin-bottom: 20px;
+    color: #38bdf8; text-decoration: none; font-size: 14px;
+  }
+  .back-link:hover { text-decoration: underline; }
+  .back-link::before { content: '← '; }
+
+  .filters {
+    display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap;
+  }
+  .filter-btn {
+    background: #1e293b; border: 1px solid #334155; border-radius: 8px;
+    color: #94a3b8; padding: 8px 16px; font-size: 13px; font-weight: 500;
+    cursor: pointer; font-family: inherit;
+    transition: all 0.15s;
+  }
+  .filter-btn:hover { color: #e2e8f0; border-color: #475569; }
+  .filter-btn.active {
+    background: #ef4444; color: #fff; border-color: #ef4444;
+  }
+  .sort-select {
+    background: #1e293b; border: 1px solid #334155; border-radius: 8px;
+    color: #e2e8f0; padding: 8px 16px; font-size: 13px;
+    font-family: inherit; outline: none; cursor: pointer;
+  }
+
+  .kpi-row {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+    margin-bottom: 28px;
+  }
+  .kpi {
+    background: #1e293b; border: 1px solid #334155; border-radius: 12px;
+    padding: 20px;
+  }
+  .kpi .label { color: #94a3b8; font-size: 12px; margin-bottom: 8px; }
+  .kpi .value { color: #f1f5f9; font-size: 26px; font-weight: 700; }
+  .kpi .sub { color: #64748b; font-size: 11px; margin-top: 4px; }
+
+  .video-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+  }
+  .video-card {
+    background: #1e293b; border: 1px solid #334155; border-radius: 12px;
+    overflow: hidden; transition: all 0.2s;
+    display: flex; flex-direction: column;
+  }
+  .video-card:hover {
+    border-color: #ef4444; transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(239, 68, 68, 0.1);
+  }
+  .thumbnail-wrap {
+    position: relative; aspect-ratio: 16/9; background: #0f172a;
+    overflow: hidden;
+  }
+  .thumbnail-wrap img {
+    width: 100%; height: 100%; object-fit: cover;
+  }
+  .rank-badge {
+    position: absolute; top: 10px; left: 10px;
+    background: rgba(0,0,0,0.75); color: #fff;
+    padding: 4px 10px; border-radius: 4px; font-weight: 700; font-size: 12px;
+  }
+  .type-badge {
+    position: absolute; top: 10px; right: 10px;
+    padding: 4px 10px; border-radius: 4px; font-weight: 600; font-size: 11px;
+  }
+  .type-badge.shorts { background: #ef4444; color: #fff; }
+  .type-badge.long { background: #3b82f6; color: #fff; }
+  .duration-badge {
+    position: absolute; bottom: 10px; right: 10px;
+    background: rgba(0,0,0,0.75); color: #fff;
+    padding: 2px 6px; border-radius: 3px; font-size: 11px; font-family: monospace;
+  }
+  .video-body { padding: 16px; flex: 1; display: flex; flex-direction: column; }
+  .video-title {
+    color: #f1f5f9; font-size: 14px; font-weight: 600; line-height: 1.4;
+    margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .channel-row {
+    display: flex; align-items: center; gap: 8px;
+    color: #94a3b8; font-size: 12px; margin-bottom: 12px;
+  }
+  .channel-kind {
+    background: #334155; color: #cbd5e1;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .channel-kind.influencer { background: #7c3aed; color: #fff; }
+  .channel-kind.official { background: #0891b2; color: #fff; }
+  .stats-row {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+    margin-bottom: 12px; padding-top: 12px; border-top: 1px solid #334155;
+  }
+  .stat { text-align: center; }
+  .stat .num { color: #f1f5f9; font-size: 14px; font-weight: 600; }
+  .stat .lbl { color: #64748b; font-size: 10px; margin-top: 2px; }
+  .meta-row {
+    display: flex; justify-content: space-between; align-items: center;
+    color: #64748b; font-size: 11px; margin-top: auto;
+  }
+  .meta-tag {
+    background: #1e3a8a; color: #93c5fd;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .meta-category {
+    background: #713f12; color: #fcd34d;
+    padding: 2px 8px; border-radius: 10px; font-size: 10px;
+  }
+  .card-link {
+    display: block; padding: 10px; background: #0f172a; color: #38bdf8;
+    text-align: center; font-size: 12px; text-decoration: none;
+    border-top: 1px solid #334155;
+  }
+  .card-link:hover { background: #1e293b; color: #7dd3fc; }
+
+  .empty-state {
+    text-align: center; padding: 40px; color: #64748b;
+  }
+
+  .footer {
+    margin-top: 48px; padding-top: 20px; border-top: 1px solid #334155;
+    color: #64748b; font-size: 12px; text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    body { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <a href="./index.html" class="back-link">뷰티 × Instagram 릴스 대시보드</a>
+
+  <header>
+    <div>
+      <h1>올리브영 × YouTube 최신 영상 대시보드</h1>
+      <div class="subtitle">올리브영 Top 10 브랜드/제품 관련 YouTube 영상 · 최근 90일 업로드 기준 · 검색어 기반 관련성 · Shorts + 일반 영상</div>
+    </div>
+    <div class="timestamp" id="ts">-</div>
+  </header>
+
+  <div class="kpi-row" id="kpi-row"></div>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">전체</button>
+    <button class="filter-btn" data-filter="Shorts">Shorts</button>
+    <button class="filter-btn" data-filter="일반">일반 영상</button>
+    <select class="sort-select" id="sort-select">
+      <option value="score">점수순</option>
+      <option value="views">조회수순</option>
+      <option value="likes">좋아요순</option>
+      <option value="date">최신순</option>
+    </select>
+  </div>
+
+  <div class="video-grid" id="video-grid"></div>
+
+  <div class="footer">
+    자동 업데이트: 평일 14:59 (olivyoung-beauty-instagram-weekly) · YouTube Top 10 전용 페이지
+  </div>
+
+</div>
+
+<script>
+// YT_DATA_BEGIN
+const YT_DATA = {"lastUpdated":"2026-10-08T16:30","collectedDate":"2026-10-08","source":"YouTube 검색 (올리브영 Top10 브랜드/제품 키워드 19종 · 조회수순+관련도순)","metricsNote":"조회수는 실측값. 좋아요는 YouTube 표시 반올림값(만/천). 댓글수는 수집 불가(미표시).","videos":[{"id":"FhJlWQzIa1s","rank":1,"title":"찰떡 립 찾는 법 #올리브영 #립스틱 #메이크업 #shorts","channel":"로라 Lola","channel_url":null,"channelKind":"인플루언서","videoType":"Shorts","lengthSeconds":9,"views":16878786,"likes":280000,"comments":null,"score":1688,"uploadDate":"2024-05-10","tag":"올리브영 (립/메이크업)","category":"인플루언서","thumbnail":"https://i.ytimg.com/vi/FhJlWQzIa1s/hqdefault.jpg","url":"https://www.youtube.com/watch?v=FhJlWQzIa1s","metricsNote":"조회수=실측, 좋아요=YouTube 표시 반올림값, 댓글수=수집불가"},{"id":"mPyMDt172GI","rank":2,"title":"이게 말이 되나 싶은 수상한 치약","channel":"지식줄고양","channel_url":null,"channelKind":"인플루언서","videoType":"Shorts","lengthSeconds":32,"views":7177562,"likes":56000,"comments":null,"score":718,"uploadDate":"2025-08-08","tag":"유시몰 (Top7)","category":"리뷰","thumbnail":"https://i.ytimg.com/vi/mPyMDt172GI/hqdefault.jpg","url":"https://www.youtube.com/watch?v=mPyMDt172GI","metricsNote":"조회수=실측, 좋아요=YouTube 표시 반올림값, 댓글수=수집불가"},{"id":"zY-L6x60ee4","rank":3,"title":"💖500만뷰💖집에서 트리트먼트로 물미역 만들기 #헤어관리 #트리트먼트 #미용꿀팁","channel":"살림한켠","channel_url":null,"channelKind":"인플루언서","videoType":"Shorts","lengthSeconds":21,"views":6969747,"likes":52000,"comments":null,"score":697,"uploadDate":"2025-07-19","tag":"어노브 (Top3)","category":"리뷰","thumbnail":"https://i.ytimg.com/vi/zY-L6x60ee4/hqdefault.jpg","url":"https://www.youtube.com/watch?v=zY-L6x60ee4","metricsNote":"조회수=실측, 좋아요=YouTube 표시 반올림값, 댓글수=수집불가"},{"id":"gh-ImwjF1_c","rank":4,"title":"꾸덕한 크림 바르기 너무 부담스럽다면 이렇게 해보세요‼️","channel":"몌 myerry","channel_url":null,"channelKind":"인플루언서","videoType":"Shorts","lengthSeconds":20,"views":6842493,"likes":47000,"comments":null,"score":684,"uploadDate":"2023-03-11","tag":"라로슈포제 (Top6/Top8)","category":"리뷰","thumbnail":"https://i.ytimg.com/vi/gh-ImwjF1_c/hqdefault.jpg","url":"https://www.youtube.com/watch?v=gh-ImwjF1_c","metricsNote":"조회수=실측, 좋아요=YouTube 표시 반올림값, 댓글수=수집불가"},{"id":"rsq9vhOCWeM","rank":5,"title":"📌 다이소 vs 올리브영 전성분 분석 (저장 필수)","channel":"리틀약사 Shorts","channel_url":null,"channelKind":"인플루언서","videoType":"Shorts","lengthSeconds":53,"views":4337780,"likes":73000,"comments":null,"score":434,"uploadDate":"2026-06-02","tag":"메디힐 (Top1)","category":"리뷰","thumbnail":"https://i.ytimg.com/vi/rsq9vhOCWeM/hqdefault.jpg","url":"https://www.youtube.com/watch?v=rsq9vhOCWeM","metricsNote":"조회수=실측, 좋아요=YouTube 표시 반올림값, 댓글수=수집불가"},{"id":"zQ-O4R3Wmq8","rank":6,"title":"\"10배 저렴한데, 효과는 더 좋습니다!\" 피부과 의사가 매일 쓰고 효과 본 재구매템","channel":"박경열의 피부상담소","channel_url":null,"channelKind":"인플루언서","videoType":"일반","lengthSeconds":1035,"views":3473023,"likes":38000,"comments":null,"score":347,"uploadDate":"2026-04-10","tag":"라로슈포제 (Top6/Top8)","category":"리뷰","thumbnail":"https://i.ytimg.com/vi/zQ-O4R3Wmq8/hqdefault.jpg","url":"https://www.youtube.com/watch?v=zQ-O4R3Wmq8","metricsNote":"조회수=실측, 좋아요=YouTube 표시 반올림값, 댓글수=수집불가"},{"id":"UV0qEvHIr4g","rank":7,"title":"올영 80만원깡💚2편도 있어요..🥺","channel":"코덕요정🧚‍♀️","channel_url":null,"channelKind":"인플루언서","videoType":"Shorts","lengthSeconds":60,"views":1540443,"likes":33000,"comments":null,"score":154,"uploadDate":"2025-03-02","tag":"올리브영 하울","category":"하울","thumbnail":"https://i.ytimg.com/vi/UV0qEvHIr4g/hqdefault.jpg","url":"https://www.youtube.com/watch?v=UV0qEvHIr4g","metricsNote":"조회수=실측, 좋아요=YouTube 표시 반올림값, 댓글수=수집불가"},{"id":"LFGd4S3KdmI","rank":8,"title":"오돌토돌 피부 요철 없애는 방법✨ #좁쌀여드름 #피부관리 #뷰티꿀팁","channel":"겸다미","channel_url":null,"channelKind":"인플루언서","videoType":"일반","lengthSeconds":85,"views":1538964,"likes":44000,"comments":null,"score":154,"uploadDate":"2025-08-14","tag":"아누아 (Top2/Top9)","category":"리뷰","thumbnail":"https://i.ytimg.com/vi/LFGd4S3KdmI/hqdefault.jpg","url":"https://www.youtube.com/watch?v=LFGd4S3KdmI","metricsNote":"조회수=실측, 좋아요=YouTube 표시 반올림값, 댓글수=수집불가"},{"id":"Y5KG7Ld7tbE","rank":9,"title":"피부관리에 미쳐있는 찐친들의 꿀템깡 2탄","channel":"아가리어터","channel_url":null,"channelKind":"인플루언서","videoType":"일반","lengthSeconds":1113,"views":960602,"likes":16000,"comments":null,"score":96,"uploadDate":"2025-03-23","tag":"올리브영 꿀템 언박싱","category":"언박싱","thumbnail":"https://i.ytimg.com/vi/Y5KG7Ld7tbE/hqdefault.jpg","url":"https://www.youtube.com/watch?v=Y5KG7Ld7tbE","metricsNote":"조회수=실측, 좋아요=YouTube 표시 반올림값, 댓글수=수집불가"},{"id":"IIv19M9DZBQ","rank":10,"title":"❨광고❌❩ 🫒이제 올영세일 시작인데, 장바구니 최종 점검하시죠🛍️","channel":"지냐 Jinyaa","channel_url":null,"channelKind":"인플루언서","videoType":"일반","lengthSeconds":1952,"views":544684,"likes":5900,"comments":null,"score":54,"uploadDate":"2026-08-29","tag":"올영세일","category":"하울","thumbnail":"https://i.ytimg.com/vi/IIv19M9DZBQ/hqdefault.jpg","url":"https://www.youtube.com/watch?v=IIv19M9DZBQ","metricsNote":"조회수=실측, 좋아요=YouTube 표시 반올림값, 댓글수=수집불가"}]};
+// YT_DATA_END
+
+function fmt(n) {
+  if (!n && n !== 0) return '-';
+  if (n >= 10000) return (n / 10000).toFixed(1) + '만';
+  if (n >= 1000) return (n / 1000).toFixed(1) + '천';
+  return n.toString();
+}
+
+function fmtDuration(s) {
+  if (!s) return '-';
+  const m = Math.floor(s / 60);
+  const sec = s % 60;
+  return `${m}:${sec.toString().padStart(2, '0')}`;
+}
+
+let currentFilter = 'all';
+let currentSort = 'score';
+
+function render() {
+  const container = document.getElementById('video-grid');
+  container.innerHTML = '';
+
+  let vids = [...(YT_DATA.videos || [])];
+  if (currentFilter !== 'all') {
+    vids = vids.filter(v => v.videoType === currentFilter);
+  }
+
+  const sortKey = currentSort;
+  vids.sort((a, b) => {
+    if (sortKey === 'score') return (b.score || 0) - (a.score || 0);
+    if (sortKey === 'views') return (b.views || 0) - (a.views || 0);
+    if (sortKey === 'likes') return (b.likes || 0) - (a.likes || 0);
+    if (sortKey === 'date') return (b.uploadDate || '').localeCompare(a.uploadDate || '');
+    return 0;
+  });
+
+  if (!vids.length) {
+    container.innerHTML = '<div class="empty-state">해당 조건에 맞는 영상이 없습니다.</div>';
+    return;
+  }
+
+  vids.forEach((v, i) => {
+    const card = document.createElement('div');
+    card.className = 'video-card';
+    const typeClass = v.videoType === 'Shorts' ? 'shorts' : 'long';
+    const kindClass = v.channelKind === '인플루언서' ? 'influencer' :
+                       v.channelKind === '공식' ? 'official' : '';
+    card.innerHTML = `
+      <div class="thumbnail-wrap">
+        <img src="${v.thumbnail || ''}" alt="${v.title}" loading="lazy"
+             onerror="this.style.display='none'">
+        <span class="rank-badge">#${v.rank || i + 1}</span>
+        <span class="type-badge ${typeClass}">${v.videoType}</span>
+        <span class="duration-badge">${fmtDuration(v.lengthSeconds)}</span>
+      </div>
+      <div class="video-body">
+        <div class="video-title">${v.title}</div>
+        <div class="channel-row">
+          <span>${v.channel}</span>
+          <span class="channel-kind ${kindClass}">${v.channelKind || '기타'}</span>
+        </div>
+        <div class="stats-row">
+          <div class="stat"><div class="num">${fmt(v.views)}</div><div class="lbl">조회수</div></div>
+          <div class="stat"><div class="num">${fmt(v.likes)}</div><div class="lbl">좋아요</div></div>
+          <div class="stat"><div class="num">${v.score || '-'}</div><div class="lbl">점수</div></div>
+        </div>
+        <div class="meta-row">
+          <span class="meta-tag">${v.tag || ''}</span>
+          <span class="meta-category">${v.category || ''}</span>
+          <span>${v.uploadDate || ''}</span>
+        </div>
+      </div>
+      <a class="card-link" href="${v.url}" target="_blank" rel="noopener">YouTube에서 보기 →</a>
+    `;
+    container.appendChild(card);
+  });
+}
+
+function renderKPIs() {
+  const vids = YT_DATA.videos || [];
+  const total = vids.length;
+  const shorts = vids.filter(v => v.videoType === 'Shorts').length;
+  const totalViews = vids.reduce((s, v) => s + (v.views || 0), 0);
+  const totalLikes = vids.reduce((s, v) => s + (v.likes || 0), 0);
+  const kpi = document.getElementById('kpi-row');
+  kpi.innerHTML = `
+    <div class="kpi">
+      <div class="label">총 영상 수</div>
+      <div class="value">${total}</div>
+      <div class="sub">Top 10 collection</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Shorts / 일반</div>
+      <div class="value">${shorts} / ${total - shorts}</div>
+      <div class="sub">숏폼 비중 ${total ? Math.round(shorts * 100 / total) : 0}%</div>
+    </div>
+    <div class="kpi">
+      <div class="label">총 조회수</div>
+      <div class="value">${fmt(totalViews)}</div>
+      <div class="sub">누적</div>
+    </div>
+    <div class="kpi">
+      <div class="label">총 좋아요</div>
+      <div class="value">${fmt(totalLikes)}</div>
+      <div class="sub">누적</div>
+    </div>
+  `;
+}
+
+function bindControls() {
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      currentFilter = b.dataset.filter;
+      render();
+    });
+  });
+  document.getElementById('sort-select').addEventListener('change', (e) => {
+    currentSort = e.target.value;
+    render();
+  });
+}
+
+document.getElementById('ts').textContent =
+  'Last updated: ' + (YT_DATA.lastUpdated || new Date().toISOString());
+renderKPIs();
+render();
+bindControls();
+</script>
+
+</body>
+</html>
